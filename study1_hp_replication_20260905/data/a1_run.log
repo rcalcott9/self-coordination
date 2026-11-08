@@ -1,0 +1,33 @@
+=== STAGE A1 SCREEN (drop-only) ===
+focal    : GPT-5.5 (gpt-5.5)
+stimuli  : 120    depth: 16
+prompt   : sha8=3003ae1b  (canonical 3003ae1b)
+EXP dir  : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905
+trials   : 1920
+
+  100/1920 trials
+  200/1920 trials
+  300/1920 trials
+  400/1920 trials
+  500/1920 trials
+  600/1920 trials
+  700/1920 trials
+  800/1920 trials
+  900/1920 trials
+  1000/1920 trials
+  1100/1920 trials
+  1200/1920 trials
+  1300/1920 trials
+  1400/1920 trials
+  1500/1920 trials
+  1600/1920 trials
+  1700/1920 trials
+  1800/1920 trials
+  1900/1920 trials
+
+=== stage A/A1 done: 1920 trials in 887s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageA_A1_20260905_190907.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageA_A1_20260905_190907.jsonl

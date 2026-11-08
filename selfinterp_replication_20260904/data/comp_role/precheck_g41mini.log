@@ -1,0 +1,35 @@
+model=g41mini ft=gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1
+items=60  calls=1680
+[pre] deployments: 0
+  deployed precheck-41mini sku=DeveloperTier rpm=250.0
+  400/1680
+  800/1680
+  1200/1680
+  1600/1680
+  provenance OK: gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1
+[delete] precheck-41mini HTTP 202
+[cleanup] deployments remaining: 0 (verified)
+  lifetime 0.19h  hosting $0.00
+
+====================================================================
+PRE-CHECK  g41mini   items usable=60  unusable replies=0
+====================================================================
+  overall flip rate (COMP differs from PLAIN modal) = 0.0778
+  baseline: PLAIN draws differing from own modal    = 0.0833
+  excess over baseline                              = -0.0056
+
+  by worker-predictability tertile (cuts 1.00, 1.00):
+    low     n= 60  pred=0.931  flip=0.0778  baseline=0.0833  excess=-0.0056
+/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/selfinterp_replication_20260904/code/comp_precheck.py:255: RuntimeWarning: Mean of empty slice.
+  print(f"    {lab:7s} n={int(m.sum()):3d}  pred={pr[m].mean():.3f}  "
+/opt/anaconda3/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/selfinterp_replication_20260904/code/comp_precheck.py:256: RuntimeWarning: Mean of empty slice.
+  f"flip={fl[m].mean():.4f}  baseline={bf[m].mean():.4f}  "
+/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/selfinterp_replication_20260904/code/comp_precheck.py:257: RuntimeWarning: Mean of empty slice.
+  f"excess={fl[m].mean()-bf[m].mean():+.4f}")
+    medium  n=  0  pred=nan  flip=nan  baseline=nan  excess=+nan
+    high    n=  0  pred=nan  flip=nan  baseline=nan  excess=+nan
+
+  reading: flip ~ baseline  => the checkpoint IGNORES the instruction
+           flip rising with predictability => it uses self-policy inference

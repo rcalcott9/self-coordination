@@ -1,0 +1,8 @@
+{
+ "rows": 1056,
+ "transport_ok": 1056,
+ "parse_ok": 1056,
+ "checkpoint_mismatches": 0,
+ "dupe_job_keys": 0,
+ "position_balance_violations": []
+}

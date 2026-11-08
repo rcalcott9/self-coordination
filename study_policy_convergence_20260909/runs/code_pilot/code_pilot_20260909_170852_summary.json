@@ -1,0 +1,14 @@
+{
+  "ok": 5183,
+  "parse_fail": 1,
+  "transport_fail": 0,
+  "mismatch": 0,
+  "cost": 18.960300000000064,
+  "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/runs/code_pilot/code_pilot_20260909_170852.csv",
+  "stamp": "20260909_170852",
+  "prompt_hash": "0339bee6",
+  "battery_hash": "5c77c85e",
+  "coding_hash": "c755c83f",
+  "n_jobs": 5184,
+  "seconds": 1097.6204090118408
+}

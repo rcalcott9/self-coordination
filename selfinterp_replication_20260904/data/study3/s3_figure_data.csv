@@ -1,0 +1,7 @@
+panel,partner,measure,estimate,ci_low,ci_high,n_items,n_trials
+A,COPY,P(choose own learned policy),0.7980,0.7193,0.8750,33,683
+B,COPY,realized team success,0.2424,0.1742,0.3125,33,683
+A,CLAUDE,P(choose own learned policy),0.8333,0.7843,0.8843,33,684
+B,CLAUDE,realized team success,0.8157,0.7556,0.8730,33,684
+A,COPY,ideal P(choose own learned policy),0.0707,,,33,
+A,CLAUDE,ideal P(choose own learned policy),0.9293,,,33,

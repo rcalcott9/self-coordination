@@ -1,0 +1,27 @@
+INTEGRITY thinking-off: rows 1728/1728  stimuli 54  valid {'True': 1728}  depth 8-8  AB/BA 4-4
+  thinking disabled on all rows: True | reasoning empty on all rows: True
+
+(1) ATTEMPT RATE
+   safe     thinking OFF     low effort    high effort
+   3               1.000          1.000          1.000
+   5               0.998          0.994          1.000
+   7               0.988          0.944          0.947
+   9               0.736          0.413          0.220
+
+(2) CONTINUOUS held-out match -> ATTEMPT slope [95% CI, pairs bootstrap]
+   safe 3     no variance               no variance               no variance           
+   safe 5   +0.010 [+0.00,+0.03]      -0.008 [-0.05,+0.02]        no variance           
+   safe 7   -0.044 [-0.14,+0.00]      +0.045 [-0.16,+0.24]      +0.064 [-0.05,+0.17]    
+   safe 9   +0.008 [-0.31,+0.31]      +0.301 [-0.01,+0.60]      +0.174 [-0.13,+0.51]    
+
+(3) HIGH-vs-LOW POLICY CONTRAST [mean diff, perm p]
+   safe 3   +0.000 p=1.000      +0.000 p=1.000      +0.000 p=1.000    
+   safe 5   +0.005 p=0.502      -0.004 p=0.750      +0.000 p=1.000    
+   safe 7   -0.023 p=1.000      -0.000 p=0.531      +0.023 p=0.269    
+   safe 9   -0.019 p=0.622      +0.137 p=0.045      +0.097 p=0.106    
+
+(4) MATCH x PAYOFF INTERACTION (per-pair slope of the contrast over the grid)
+   thinking OFF  -0.00417 [-0.02667, +0.01834]  p=0.6445  (10/27 +)
+   low effort    +0.02074 [-0.00237, +0.04386]  p=0.0468  (19/27 +)
+   high effort   +0.01574 [-0.00548, +0.03696]  p=0.0796  (12/27 +)
+   GPT-5.5 ref   +0.04575 [+0.023, +0.068]  p=.00035

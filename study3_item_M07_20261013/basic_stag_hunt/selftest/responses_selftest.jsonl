@@ -1,0 +1,22 @@
+{"call_id": "gpt-5.5|action|0", "model": "gpt-5.5", "kind": "action", "order": "bin-fixed|json-b64|xml-hex|form-z85|KEEP", "response": "{\"action\": \"json-b64\"}"}
+{"call_id": "gpt-5.5|action|1", "model": "gpt-5.5", "kind": "action", "order": "bin-fixed|KEEP|xml-hex|form-z85|json-b64", "response": "{\"action\": \"json-b64\"}"}
+{"call_id": "gpt-5.5|action|2", "model": "gpt-5.5", "kind": "action", "order": "bin-fixed|KEEP|form-z85|xml-hex|json-b64", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "gpt-5.5|action|3", "model": "gpt-5.5", "kind": "action", "order": "form-z85|json-b64|xml-hex|bin-fixed|KEEP", "response": "{\"action\": \"xml-hex\"}"}
+{"call_id": "gpt-5.5|action|4", "model": "gpt-5.5", "kind": "action", "order": "KEEP|json-b64|bin-fixed|form-z85|xml-hex", "response": "{\"action\": \"json-b64\"}"}
+{"call_id": "gpt-5.5|action|5", "model": "gpt-5.5", "kind": "action", "order": "KEEP|json-b64|form-z85|bin-fixed|xml-hex", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "gpt-5.5|action|6", "model": "gpt-5.5", "kind": "action", "order": "json-b64|bin-fixed|KEEP|xml-hex|form-z85", "response": "I would pick json"}
+{"call_id": "gpt-5.5|action|7", "model": "gpt-5.5", "kind": "action", "order": "form-z85|json-b64|bin-fixed|xml-hex|KEEP", "response": "```\n{\"action\": \"JSON-B64\"}\n```"}
+{"call_id": "gpt-5.5|prediction|0", "model": "gpt-5.5", "kind": "prediction", "order": "KEEP|form-z85|json-b64|xml-hex|bin-fixed", "response": "KEEP: 40%\nform-z85: 30%\njson-b64: 10%\nxml-hex: 10%\nbin-fixed: 10%"}
+{"call_id": "gpt-5.5|prediction|1", "model": "gpt-5.5", "kind": "prediction", "order": "bin-fixed|json-b64|form-z85|xml-hex|KEEP", "response": "bin-fixed: 40%\njson-b64: 30%\nform-z85: 10%\nxml-hex: 10%\nKEEP: 10%"}
+{"call_id": "gpt-5.5|prediction|2", "model": "gpt-5.5", "kind": "prediction", "order": "json-b64|bin-fixed|xml-hex|form-z85|KEEP", "response": "json-b64: 40%\nbin-fixed: 30%\nxml-hex: 10%\nform-z85: 10%\nKEEP: 10%"}
+{"call_id": "claude-opus-5|action|0", "model": "claude-opus-5", "kind": "action", "order": "bin-fixed|KEEP|xml-hex|form-z85|json-b64", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|1", "model": "claude-opus-5", "kind": "action", "order": "json-b64|bin-fixed|form-z85|KEEP|xml-hex", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|2", "model": "claude-opus-5", "kind": "action", "order": "KEEP|form-z85|xml-hex|bin-fixed|json-b64", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|3", "model": "claude-opus-5", "kind": "action", "order": "bin-fixed|form-z85|xml-hex|KEEP|json-b64", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|4", "model": "claude-opus-5", "kind": "action", "order": "KEEP|form-z85|bin-fixed|json-b64|xml-hex", "response": "{\"action\": \"form-z85\"}"}
+{"call_id": "claude-opus-5|action|5", "model": "claude-opus-5", "kind": "action", "order": "json-b64|bin-fixed|KEEP|form-z85|xml-hex", "response": "{\"action\": \"form-z85\"}"}
+{"call_id": "claude-opus-5|action|6", "model": "claude-opus-5", "kind": "action", "order": "xml-hex|KEEP|json-b64|bin-fixed|form-z85", "response": "{\"action\": \"bin-fixed\"}"}
+{"call_id": "claude-opus-5|action|7", "model": "claude-opus-5", "kind": "action", "order": "bin-fixed|form-z85|KEEP|json-b64|xml-hex", "response": "```\n{\"action\": \"KEEP\"}\n```"}
+{"call_id": "claude-opus-5|prediction|0", "model": "claude-opus-5", "kind": "prediction", "order": "json-b64|bin-fixed|KEEP|form-z85|xml-hex", "response": "json-b64: 40%\nbin-fixed: 30%\nKEEP: 10%\nform-z85: 10%\nxml-hex: 10%"}
+{"call_id": "claude-opus-5|prediction|1", "model": "claude-opus-5", "kind": "prediction", "order": "form-z85|xml-hex|KEEP|bin-fixed|json-b64", "response": "form-z85: 40%\nxml-hex: 30%\nKEEP: 10%\nbin-fixed: 10%\njson-b64: 10%"}
+{"call_id": "claude-opus-5|prediction|2", "model": "claude-opus-5", "kind": "prediction", "order": "xml-hex|KEEP|form-z85|bin-fixed|json-b64", "response": "xml-hex: 40%\nKEEP: 30%\nform-z85: 10%\nbin-fixed: 10%\njson-b64: 10%"}

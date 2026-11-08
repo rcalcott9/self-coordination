@@ -1,0 +1,7 @@
+# Retrospective sha256 — recorded 2026-10-08T02:09:05Z, AFTER data collection. Not a pre-registration.
+33dc0aeb556b804f81c6d193ea3673a8881b76aacc17c0d70e9458966f835854  /Users/calypsocalcott/Downloads/Study1_frontier_min_collection_plan.md
+710c261930ae07ba11dc57796b856d06058e15c4c37d23fe5385f49212358149  ../../code/analyze.py
+31745a414bc56bcef35f268d4ac5c7b90c75fc3c4ab71684a66eb3f6b7094b2c  ../../code/divergence.py
+69eb019ac9c3910078685333ba32a806e0e6498610694345c1d7a0a0ba9ec8c0  ../../code/anchor_check.py
+78a8ea72b09be2995d191b56dd51134934fc3e2dfa0f145551307b065f46be8f  ../out/results.json
+6b9152a602c9ef5a97c1a51f29da717d817ddbd162c653716da06798ceee8ea5  ../out/item_table.csv

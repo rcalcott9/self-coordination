@@ -1,0 +1,55 @@
+
+=== STAGE B / auditor ===
+  Claude Opus 4.5 predicts GPT-5.5 self-self
+  GPT-5.5 predicts Claude Opus 4.5 self-self
+  prompt sha8 (focal=gpt)   : 4df579ca
+  prompt sha8 (focal=claude): 58ccb4ae
+  stimuli: 30   trials: 900
+
+  100/900 trials
+  200/900 trials
+  300/900 trials
+  400/900 trials
+  500/900 trials
+  600/900 trials
+  700/900 trials
+  800/900 trials
+  900/900 trials
+
+=== stage B/auditor done: 900 trials in 553s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45_expanded/data/stageB_auditor_20260814_235029.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45_expanded/data/stageB_auditor_20260814_235029.jsonl
+
+=== STAGE B / salience ===
+  both models rate generic salience (no focal model named)
+  prompt sha8: bef7b3ec
+  stimuli: 30   trials: 1800
+
+  100/1800 trials
+  200/1800 trials
+  300/1800 trials
+  400/1800 trials
+  500/1800 trials
+  600/1800 trials
+  700/1800 trials
+  800/1800 trials
+  900/1800 trials
+  1000/1800 trials
+  1100/1800 trials
+  1200/1800 trials
+  1300/1800 trials
+  1400/1800 trials
+  1500/1800 trials
+  1600/1800 trials
+  1700/1800 trials
+  1800/1800 trials
+
+=== stage B/salience done: 1800 trials in 3855s ===
+unparseable first responses (retried): 867
+trials lost (retry also failed)      : 867
+API errors                           : 1734
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45_expanded/data/stageB_salience_20260814_235943.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45_expanded/data/stageB_salience_20260814_235943.jsonl

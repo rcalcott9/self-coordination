@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+.venv/
+venv/
+.env
+*.key
+.wrangler/
+.Rhistory
+# Large files kept local only (>50 MB)
+/policy_specific_self_coordination_20260812_1401/bayesian_pair_model/ppc_b2.npy
+/policy_specific_self_coordination_20260812_1401/bayesian_policy_self_knowledge/ppc_m3.npy
+/selfinterp_replication_20260904/reference_plunkett

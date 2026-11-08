@@ -1,0 +1,64 @@
+{
+ "spent_preflight_pilot": 2.8285,
+ "projected_main": 134.73,
+ "projected_total": 137.56,
+ "cap": 150.0,
+ "by_block": {
+  "A": 22.3,
+  "B": 92.23,
+  "C": 20.19
+ },
+ "by_cell": {
+  "AUDITOR|claude": {
+   "n": 328,
+   "mean_cost": 0.0133,
+   "usd": 4.37
+  },
+  "AUDITOR|gpt": {
+   "n": 328,
+   "mean_cost": 0.0525,
+   "usd": 17.21
+  },
+  "PLAYPASS|claude": {
+   "n": 492,
+   "mean_cost": 0.0114,
+   "usd": 5.63
+  },
+  "PLAYPASS|gpt": {
+   "n": 492,
+   "mean_cost": 0.0224,
+   "usd": 11.02
+  },
+  "PRED|claude": {
+   "n": 320,
+   "mean_cost": 0.0148,
+   "usd": 4.73
+  },
+  "PRED|gpt": {
+   "n": 320,
+   "mean_cost": 0.0586,
+   "usd": 18.75
+  },
+  "REF|claude": {
+   "n": 2640,
+   "mean_cost": 0.008,
+   "usd": 21.04
+  },
+  "REF|gpt": {
+   "n": 2640,
+   "mean_cost": 0.014,
+   "usd": 37.04
+  },
+  "SELFPRED|claude": {
+   "n": 328,
+   "mean_cost": 0.0102,
+   "usd": 3.35
+  },
+  "SELFPRED|gpt": {
+   "n": 328,
+   "mean_cost": 0.0353,
+   "usd": 11.59
+  }
+ },
+ "basis": "pilot mean pessimistic cost ($5/M in, $30/M out both providers) per (task, answerer); pilot arrays are easy (F01, F02) so harder arrays may cost more"
+}

@@ -1,0 +1,4 @@
+jobs 2592 · final 8 · pending now 2584 · prior Study 3 $4.75248 · this run so far $0.0810 · cap $30.0
+{"ts": "2026-10-16T04:00:18+00:00", "records": 2551, "by_status": {"ok": 2551, "invalid_response": 0, "refusal": 0, "api_failure": 0}, "run_spent": 24.60216, "cumulative": 29.35463, "refusals": 0, "stop_reason": "budget rule: next reservation could exceed the cumulative cap"}
+jobs 2592 · final 2551 · pending now 41 · prior Study 3 $4.75248 · this run so far $24.6022 · cap $30.0
+{"ts": "2026-10-16T04:03:39+00:00", "records": 2592, "by_status": {"ok": 2592, "invalid_response": 0, "refusal": 0, "api_failure": 0}, "run_spent": 25.0149, "cumulative": 29.76738, "refusals": 0, "stop_reason": null}

@@ -1,0 +1,31 @@
+=== STAGE C - self-play betting / opt-out ===
+models     : GPT-5.5 (gpt-5.5), Claude Opus 4.8 (claude-opus-4-8)
+  Claude Opus 4.8  14 stimuli: b_spiral_cw, b_tee_ell, c_contr_subtle, proto, s_contrast, x10_cen_b, x1_sym_hi, x2_lg_ct, x5_cs_b, x5_cs_sub, x6_oi_a, x6_oi_b, x8_contr_a, x9_dir_b
+safe payoffs: [3, 5, 7, 9]   (EV-neutral p = S/10)
+prompt sha8 : S3=5a9b96d3, S5=0b7fee99, S7=3a4d54dd, S9=9d5a63ec
+seed        : 20260815   AB/BA exactly 15/15 per cell
+cells       : 56   trials: 1680
+
+  100/1680 trials
+  200/1680 trials
+  300/1680 trials
+  400/1680 trials
+  500/1680 trials
+  600/1680 trials
+  700/1680 trials
+  800/1680 trials
+  900/1680 trials
+  1000/1680 trials
+  1100/1680 trials
+  1200/1680 trials
+  1300/1680 trials
+  1400/1680 trials
+  1500/1680 trials
+  1600/1680 trials
+
+=== stage C done: 1680 trials in 818s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus48_expanded/data/stageC_20260816_105453.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus48_expanded/data/stageC_20260816_105453.jsonl

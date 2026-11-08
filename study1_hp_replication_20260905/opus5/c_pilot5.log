@@ -1,0 +1,46 @@
+=== STAGE C v3 - ATTEMPT vs SAFE ===
+focal      : Claude Opus 5 (claude-opus-5)
+pairs      : 27 (frozen, sha256 486454fee0f1b383...)
+stimuli    : 54   payoff grid: [7.5, 8, 8.5, 9, 9.5]   n/cell: 12
+prompt sha8: S7.5=3b02fe7b, S8=c949b6e7, S8.5=0b335eec, S9=9d5a63ec, S9.5=4babff7c
+trials     : 3240
+
+  100/3240 trials
+  200/3240 trials
+  300/3240 trials
+  400/3240 trials
+  500/3240 trials
+  600/3240 trials
+  700/3240 trials
+  800/3240 trials
+  900/3240 trials
+  1000/3240 trials
+  1100/3240 trials
+  1200/3240 trials
+  1300/3240 trials
+  1400/3240 trials
+  1500/3240 trials
+  1600/3240 trials
+  1700/3240 trials
+  1800/3240 trials
+  1900/3240 trials
+  2000/3240 trials
+  2100/3240 trials
+  2200/3240 trials
+  2300/3240 trials
+  2400/3240 trials
+  2500/3240 trials
+  2600/3240 trials
+  2700/3240 trials
+  2800/3240 trials
+  2900/3240 trials
+  3000/3240 trials
+  3100/3240 trials
+  3200/3240 trials
+
+=== stage C done: 3240 trials in 721s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageC_20260910_175252.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageC_20260910_175252.jsonl

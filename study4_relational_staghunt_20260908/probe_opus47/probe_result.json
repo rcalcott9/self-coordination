@@ -1,0 +1,20 @@
+{
+ "requested_checkpoint": "claude-opus-4-7",
+ "array": "m4_contour_v4",
+ "perm": 0,
+ "prompt_sha8": "d40ea45d",
+ "ts_utc": "2026-09-09T03:26:54.940791+00:00",
+ "ok": true,
+ "returned_checkpoint": "claude-opus-4-7",
+ "raw_response": "The clean complete circle is the most iconic, symmetric Schelling point.\n\nCHOICE: 4",
+ "stop_reason": "end_turn",
+ "usage": {
+  "input_tokens": 794,
+  "output_tokens": 37
+ },
+ "secs": 1.77,
+ "parsed_position": 4,
+ "parse_ok": true,
+ "parsed_canonical_item": 3,
+ "alias_resolved_cleanly": true
+}

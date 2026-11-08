@@ -1,0 +1,118 @@
+[hash] frozen train/val artifacts verified
+[upload] train=file-ec0ad25735314ecd8c1146c94dd3a372 val=file-b9fab8ee4dac43788d1f8e3fba991dc8
+[submit] ftjob-c531948cc65b41ef80c9e2c753f18555 status=pending
+  15:17:46 pending
+  15:18:46 pending
+  15:19:46 pending
+  15:20:47 pending
+  15:21:48 pending
+  15:22:48 pending
+  15:23:49 pending
+  15:24:50 running
+  15:26:00 running
+  15:27:04 running
+  15:28:04 running
+  15:29:05 running
+  15:30:05 running
+  15:31:07 running
+  15:32:09 running
+  15:33:10 running
+  poll error: APIConnectionError
+  15:35:13 running
+  15:36:13 running
+  15:37:14 running
+  15:38:16 running
+  15:39:17 running
+  15:40:17 running
+  15:41:18 running
+  15:42:18 running
+  15:43:18 running
+  15:44:19 running
+  15:45:19 running
+  15:46:20 running
+  15:47:20 running
+  15:48:21 running
+  15:49:21 running
+  15:50:22 running
+  15:51:22 running
+  15:52:22 running
+  15:53:23 running
+  15:54:23 running
+  15:55:24 running
+  15:56:24 running
+  15:57:24 running
+  poll error: APIConnectionError
+  15:59:26 running
+  16:00:27 running
+  16:01:27 running
+  16:02:27 running
+  16:03:28 running
+  poll error: APIConnectionError
+  poll error: APIConnectionError
+  poll error: APIConnectionError
+  16:07:33 running
+  16:08:34 running
+  16:09:34 running
+  16:10:35 running
+  16:11:35 running
+  poll error: APIConnectionError
+  16:13:37 running
+  16:14:37 running
+  16:15:38 running
+  16:16:39 running
+  16:17:39 running
+  poll error: APIConnectionError
+  poll error: APIConnectionError
+  16:20:43 running
+  16:21:44 running
+  16:22:44 running
+  16:23:45 running
+  16:24:45 running
+  16:25:45 running
+  16:26:46 running
+  16:27:46 running
+  16:28:46 running
+  16:29:47 running
+  16:30:47 running
+  16:31:47 running
+  16:32:48 running
+  16:33:48 running
+  16:34:49 running
+  16:35:49 running
+  16:36:50 running
+  16:37:50 running
+  16:38:51 running
+  16:39:52 running
+  16:40:52 running
+  16:41:52 running
+  16:42:53 running
+  16:43:54 running
+  16:44:54 running
+  16:45:54 running
+  16:46:55 running
+  16:47:55 running
+  16:48:55 running
+  16:49:56 running
+  16:50:57 running
+  poll error: APIConnectionError
+  poll error: APIConnectionError
+  poll error: APIConnectionError
+  poll error: APIConnectionError
+  poll error: APIConnectionError
+  16:57:06 succeeded
+
+{
+  "job_id": "ftjob-c531948cc65b41ef80c9e2c753f18555",
+  "job_created_utc": "2026-09-04T19:16:45.809856+00:00",
+  "train_file": "file-ec0ad25735314ecd8c1146c94dd3a372",
+  "val_file": "file-b9fab8ee4dac43788d1f8e3fba991dc8",
+  "base_model": "gpt-4.1-mini-2025-04-14",
+  "job_status": "succeeded",
+  "job_finished_utc": "2026-09-04T20:57:06.746562+00:00",
+  "fine_tuned_model": "gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1",
+  "resolved_epochs": 3,
+  "resolved_batch_size": 10,
+  "resolved_lr_multiplier": 2.0,
+  "trained_tokens": 3014928,
+  "cost_training_usd": 15.0746
+}

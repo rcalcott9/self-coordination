@@ -1,0 +1,309 @@
+{
+ "arrays": [
+  {
+   "array_id": "m1_nesting_v2",
+   "item_type": "asymmetric",
+   "mechanism": "nesting",
+   "green_object": "n2_lw3_geom_r92",
+   "green_index": 0,
+   "claude_modal": "n3_lw12_even_r92",
+   "gpt_modal": "n3_lw12_even_r92",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m1_nesting_v4",
+   "item_type": "control",
+   "mechanism": "nesting",
+   "green_object": "n4_lw3_even_r92",
+   "green_index": 0,
+   "claude_modal": "n4_lw8_geom_r92",
+   "gpt_modal": "n4_lw8_geom_r92",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m2_texture_v0",
+   "item_type": "control",
+   "mechanism": "noise_texture",
+   "green_object": "n60_r55_random",
+   "green_index": 0,
+   "claude_modal": "n150_r36_lattice",
+   "gpt_modal": "n150_r36_lattice",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m2_texture_v1",
+   "item_type": "control",
+   "mechanism": "noise_texture",
+   "green_object": "n40_r70_random",
+   "green_index": 2,
+   "claude_modal": "n110_r42_lattice",
+   "gpt_modal": "n110_r42_lattice",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m2_texture_v2",
+   "item_type": "asymmetric",
+   "mechanism": "noise_texture",
+   "green_object": "n200_r30_random",
+   "green_index": 2,
+   "claude_modal": "n90_r46_lattice",
+   "gpt_modal": "n90_r46_lattice",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m3_mirror_v0",
+   "item_type": "asymmetric",
+   "mechanism": "mirror",
+   "green_object": "twinFalse",
+   "green_index": 3,
+   "claude_modal": "sym1",
+   "gpt_modal": "sym2",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m3_mirror_v2",
+   "item_type": "asymmetric",
+   "mechanism": "mirror",
+   "green_object": "twinFalse",
+   "green_index": 0,
+   "claude_modal": "sym3",
+   "gpt_modal": "sym3",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m3_mirror_v3",
+   "item_type": "control",
+   "mechanism": "mirror",
+   "green_object": "sym1",
+   "green_index": 0,
+   "claude_modal": "sym6",
+   "gpt_modal": "sym6",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m3_mirror_v4",
+   "item_type": "asymmetric",
+   "mechanism": "mirror",
+   "green_object": "twinTrue",
+   "green_index": 0,
+   "claude_modal": "sym1",
+   "gpt_modal": "sym1",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m3_mirror_v6",
+   "item_type": "control",
+   "mechanism": "mirror",
+   "green_object": "sym2",
+   "green_index": 3,
+   "claude_modal": "twinTrue",
+   "gpt_modal": "twinTrue",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m4_contour_v0",
+   "item_type": "control",
+   "mechanism": "line_contour",
+   "green_object": "segments2_lw7",
+   "green_index": 0,
+   "claude_modal": "closed1_lw7",
+   "gpt_modal": "closed1_lw7",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m4_contour_v4",
+   "item_type": "asymmetric",
+   "mechanism": "line_contour",
+   "green_object": "continuous1_lw9",
+   "green_index": 1,
+   "claude_modal": "crossing2_lw7",
+   "gpt_modal": "closed1_lw6",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m5_numerosity_v2",
+   "item_type": "asymmetric",
+   "mechanism": "numerosity",
+   "green_object": "n10_block",
+   "green_index": 3,
+   "claude_modal": "n7_row",
+   "gpt_modal": "n4_ring",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m5_numerosity_v4",
+   "item_type": "asymmetric",
+   "mechanism": "numerosity",
+   "green_object": "n3_block",
+   "green_index": 3,
+   "claude_modal": "n9_ring",
+   "gpt_modal": "n9_ring",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "array_id": "m5_numerosity_v6",
+   "item_type": "control",
+   "mechanism": "numerosity",
+   "green_object": "n5_row",
+   "green_index": 1,
+   "claude_modal": "n9_block",
+   "gpt_modal": "n9_block",
+   "green_px_min": 8688,
+   "green_px_max": 8704,
+   "perms_distinct": 24,
+   "position_balance_ok": true,
+   "identical_to_battery5_without_green": true,
+   "green_positions_covered": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ ],
+ "green_hex": "#0E9F4F",
+ "green_lw": 6.0,
+ "stimuli_sha256": "b1409ec4f65baafb77293d9d73c656e0b0660765070de80b055d677126ffeb4a",
+ "n_arrays": 15,
+ "n_images": 360
+}

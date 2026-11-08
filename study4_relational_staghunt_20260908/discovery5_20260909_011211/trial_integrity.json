@@ -1,0 +1,19 @@
+{
+ "rows": 2016,
+ "transport_ok": 2016,
+ "parse_ok": 2016,
+ "bad_model": [],
+ "dupes": [],
+ "missing": [],
+ "shards": [
+  "stageA_discovery5_s0of4.csv",
+  "stageA_discovery5_s1of4.csv",
+  "stageA_discovery5_s2of4.csv",
+  "stageA_discovery5_s3of4.csv"
+ ],
+ "n_arrays": 42,
+ "expected_rows": 2016,
+ "prompt_sha8": [
+  "d40ea45d"
+ ]
+}

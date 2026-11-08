@@ -1,0 +1,14 @@
+{
+ "projected_full": 9.75235316899396,
+ "spent_pilot": 2.65839,
+ "projected_total": 12.41074316899396,
+ "worst_case": 15.51342896124245,
+ "cap": 50.0,
+ "items": [
+  "x_acronym_case",
+  "x_enum_value",
+  "x_listkey",
+  "x_money",
+  "x_test_naming"
+ ]
+}

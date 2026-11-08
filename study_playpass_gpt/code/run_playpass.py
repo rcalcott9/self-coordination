@@ -1,0 +1,131 @@
+"""GPT PLAY/PASS policy-stability study. Matched to the Qwen study (STUDY1_PLAYPASS_RESULT.md).
+
+Items frozen in data/frozen_items.json from INDEPENDENTLY measured gpt-5.5 copy agreement
+(n=48/array, VIS-FRAME-41). Never selected on PLAY/PASS behaviour.
+Prompt: Qwen's PLAY/PASS wording with its symmetric 10-point scoring, arity changed to four
+options and the stimulus shown as the real image. The model is never told agreement, arm
+label, difficulty, or which option to pick.
+"""
+import argparse, base64, csv, datetime, hashlib, json, os, random, sys, threading, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+HERE=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); TREE=os.path.dirname(HERE)
+sys.path.insert(0, os.path.join(TREE,"study_policy_convergence_20260909","runners"))
+import pc_common as P                                                   # noqa: E402
+STIM=os.path.join(TREE,"study2_4opt_20260830","stimuli")
+MODEL="gpt-5.5"
+PARTNER={
+ "copy":      ("another independent instance of the same model as you, with the same training. That "
+               "instance sees the EXACT SAME stimulus and options below, presented the same way."),
+ "different": ("an AI model that was trained using a different training dataset and a different "
+               "training algorithm from yours. That model sees the EXACT SAME stimulus and options "
+               "below, presented the same way."),
+}
+NOUN={"copy":"instance","different":"model"}   # referent must track the partner clause
+def build_prompt(partner):
+    return (
+ "[PLAY OR PASS] You are about to face a one-shot coordination game with ONE other player: "
+ + PARTNER[partner] + " You would "
+ "each independently pick one of the four options, and you would want to pick the same one.\n\n"
+ "Before seeing whether you coordinate, you must judge your own position:\n"
+ "- PLAY means: my own way of choosing among these options gives me a reliable basis for "
+ "matching the other " + NOUN[partner] + ".\n"
+ "- PASS means: it does not.\n\n"
+ "You earn 10 points for a correct judgement either way: 10 if you PLAY and your way of "
+ "choosing really is reliable here, and 10 if you PASS and it really is not. An incorrect "
+ "judgement earns 0. There is no advantage to PLAY over PASS.\n\n"
+ "Give one short sentence of reasoning, then output exactly one line:\n"
+ "DECISION: <PLAY or PASS>")
+import re
+assert hashlib.sha256(build_prompt("copy").encode()).hexdigest()[:8]=="cbc2592c", \
+    "COPY prompt drifted from the frozen wording"
+DEC=re.compile(r"DECISION:\s*\[?\s*(PLAY|PASS)\b", re.I)
+FIELDS=["run_id","stage","array","arm","agreement","family","rep","perm_id","decision",
+        "parse_ok","transport_ok","in_tokens","out_tokens","cost_usd","prompt_sha8",
+        "frozen_sha8","model_returned","secs","ts_utc","error","raw","effort","partner"]
+
+def main():
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--stage",choices=["pilot","full"],required=True)
+    ap.add_argument("--reps",type=int,default=0); ap.add_argument("--items",type=int,default=0)
+    ap.add_argument("--cap",type=float,required=True); ap.add_argument("--workers",type=int,default=12)
+    ap.add_argument("--dry",action="store_true")
+    ap.add_argument("--effort",choices=["minimal","low","medium","high"],default="low")
+    ap.add_argument("--partner",choices=["copy","different"],default="copy")
+    a=ap.parse_args()
+    # in-process override only; pc_common.py on disk is untouched, so other studies keep low.
+    P.GPT_REASONING={"effort":a.effort,"summary":"auto"}
+    EFFORT=P.GPT_REASONING["effort"]          # single source of truth: log what is SENT
+    assert EFFORT==a.effort
+    PROMPT=build_prompt(a.partner)
+    fz=json.load(open(os.path.join(HERE,"data","frozen_items.json")))
+    fzh=hashlib.sha256(open(os.path.join(HERE,"data","frozen_items.json"),"rb").read()).hexdigest()
+    n_items = a.items or (5 if a.stage=="pilot" else 15)
+    reps    = a.reps  or (6 if a.stage=="pilot" else 20)
+    HIGH,LOW = fz["HIGH"][:n_items], fz["LOW"][:n_items]
+    assert not {x["array"] for x in HIGH} & {x["array"] for x in LOW}
+    psha=hashlib.sha256(PROMPT.encode()).hexdigest()[:8]
+    # leakage guard: no agreement score, arm label, difficulty hint, or numeric probability.
+    # "0." as a substring was wrong - it matches the legitimate payoff phrase "earns 0."
+    lp = PROMPT.replace("reliable", "").replace("reliably", "")
+    for bad in ("agreement", "reliab", "HIGH", "LOW", "stable", "unstable", "difficult",
+                "predictab", "copy-copy", "threshold"):
+        assert bad not in lp, bad
+    assert not re.search(r"\d\.\d", PROMPT), "numeric probability in prompt"
+    rng=random.Random(20260912)
+    jobs=[]
+    for arm,items in (("HIGH",HIGH),("LOW",LOW)):
+        for it in items:
+            perms=list(range(P.N_PERMS)); rng.shuffle(perms)          # fresh perms, balanced
+            for k in range(reps):
+                jobs.append(dict(array=it["array"],arm=arm,agreement=it["agreement"],
+                                 family=it["family"],rep=k,perm_id=perms[k%P.N_PERMS]))
+    rng.shuffle(jobs)
+    RATE={"minimal":0.008,"low":0.01141,"medium":0.022,"high":0.04853}  # low, high = measured
+    est=len(jobs)*RATE[a.effort]
+    print(f"=== GPT PLAY/PASS ({a.stage}) ===")
+    print(f"model {MODEL} effort {EFFORT} | partner {a.partner} | items {n_items}+{n_items} | reps {reps} | "
+          f"decisions {len(jobs)}")
+    print(f"prompt sha8 {psha} | frozen items sha8 {fzh[:8]} | HIGH mean {fz['HIGH_mean']} "
+          f"LOW mean {fz['LOW_mean']}")
+    print(f"projected ${est:.2f} (cap ${a.cap:.2f})")
+    if est>a.cap: sys.exit(f"ABORT: estimate ${est:.2f} over cap")
+    if a.dry:
+        print("\n---- rendered prompt (image attached separately) ----\n"+PROMPT)
+        print(f"\n---- example job: {jobs[0]} ----\n[dry] no calls made"); return
+    cl=P.make_clients(); budget=P.Budget(a.cap); lock=threading.Lock()
+    stamp=datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d_%H%M%S")
+    out=os.path.join(HERE,"data",f"playpass_{a.stage}_{a.partner}_{a.effort}_{stamp}.csv")
+    fh=open(out,"w",newline=""); w=csv.DictWriter(fh,fieldnames=FIELDS); w.writeheader()
+    tally={"ok":0,"parse_fail":0,"tx_fail":0,"cost":0.0,"PLAY":0}
+    def one(j):
+        if not budget.ok(): return None
+        img=base64.b64encode(open(os.path.join(STIM,j["array"],f"perm{j['perm_id']:02d}.png"),"rb").read()).decode()
+        t0=time.time(); res,err=P.call_with_backoff(P.ask_gpt,cl["gpt"],MODEL,PROMPT,image_b64=img)
+        row=dict.fromkeys(FIELDS,""); row.update(j,run_id=f"PP-{a.stage.upper()}-{stamp}",stage=a.stage,
+            prompt_sha8=psha,frozen_sha8=fzh[:8],secs=f"{time.time()-t0:.2f}",
+            ts_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+        if res is None: row.update(transport_ok=0,parse_ok=0,error=err); return row
+        m=DEC.findall(res["text"]); dec=m[-1].upper() if m else ""
+        c=P.cost(res["in_tok"],res["out_tok"]); budget.add(c)
+        row.update(transport_ok=1,parse_ok=int(bool(dec)),decision=dec,in_tokens=res["in_tok"],
+                   out_tokens=res["out_tok"],cost_usd=f"{c:.6f}",
+                   model_returned=res["returned"],raw=res["text"][:2000],effort=EFFORT,partner=a.partner)
+        return row
+    with ThreadPoolExecutor(max_workers=a.workers) as ex:
+        futs=[ex.submit(one,j) for j in jobs]
+        for i,f in enumerate(as_completed(futs),1):
+            row=f.result()
+            if not row: continue
+            with lock:
+                w.writerow(row); fh.flush()
+                if not row["transport_ok"]: tally["tx_fail"]+=1
+                else:
+                    tally["cost"]+=float(row["cost_usd"])
+                    tally["ok" if row["parse_ok"] else "parse_fail"]+=1
+                    tally["PLAY"]+= row["decision"]=="PLAY"
+                if i%100==0 or i==len(futs):
+                    print(f"  {i}/{len(futs)} ok={tally['ok']} parse_fail={tally['parse_fail']} "
+                          f"tx_fail={tally['tx_fail']} P(PLAY)={tally['PLAY']/max(tally['ok'],1):.3f} "
+                          f"${tally['cost']:.2f}",flush=True)
+    fh.close(); print(f"\n[done] {out}\n  {tally}")
+if __name__=="__main__": main()

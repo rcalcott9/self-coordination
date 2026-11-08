@@ -1,0 +1,109 @@
+{
+ "_note": "Code-arm pilot (12 items x 9 checkpoints x n=48), adapter view of runs/code_pilot/. chosen_item = canonical_index (k=4), matching the visual arm's estimator exactly.",
+ "domain": "code",
+ "k_options": 4,
+ "battery_manifest": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/manifest_code.csv",
+ "stimuli_root": "",
+ "expect_prompt_sha8": "0339bee6",
+ "models": [
+  {
+   "model_id": "claude-opus-4-5-20251101",
+   "family": "claude",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_claude-opus-4-5-20251101.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "claude-opus-4-5-20251101",
+   "vintage_date": "2025-11",
+   "stratum": "C-OFF"
+  },
+  {
+   "model_id": "claude-opus-4-6",
+   "family": "claude",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_claude-opus-4-6.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "claude-opus-4-6",
+   "vintage_date": "2026-02",
+   "stratum": "C-OFF"
+  },
+  {
+   "model_id": "claude-opus-4-7",
+   "family": "claude",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_claude-opus-4-7.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "claude-opus-4-7",
+   "vintage_date": "2026-04",
+   "stratum": "C-OFF"
+  },
+  {
+   "model_id": "claude-opus-4-8",
+   "family": "claude",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_claude-opus-4-8.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "claude-opus-4-8",
+   "vintage_date": "2026-05",
+   "stratum": "C-OFF"
+  },
+  {
+   "model_id": "claude-opus-5",
+   "family": "claude",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_claude-opus-5.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "claude-opus-5",
+   "vintage_date": "2026-07",
+   "stratum": "C-OFF"
+  },
+  {
+   "model_id": "gpt-4-turbo-2024-04-09",
+   "family": "gpt",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_gpt-4-turbo-2024-04-09.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "gpt-4-turbo-2024-04-09",
+   "vintage_date": "2024-04",
+   "stratum": "G-SAMPLE"
+  },
+  {
+   "model_id": "gpt-4.1-2025-04-14",
+   "family": "gpt",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_gpt-4.1-2025-04-14.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "gpt-4.1-2025-04-14",
+   "vintage_date": "2025-04",
+   "stratum": "G-SAMPLE"
+  },
+  {
+   "model_id": "gpt-5-2025-08-07",
+   "family": "gpt",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_gpt-5-2025-08-07.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "gpt-5-2025-08-07",
+   "vintage_date": "2025-08",
+   "stratum": "G-REASON"
+  },
+  {
+   "model_id": "gpt-5.5-2026-04-23",
+   "family": "gpt",
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/analysis_input/code_gpt-5.5-2026-04-23.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "gpt-5.5-2026-04-23",
+   "vintage_date": "2026-04",
+   "stratum": "G-REASON"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+  "gate": "Gate 2A -- zero-shot self-report (no introspection training)",
+  "verdict": "NOT ESTIMABLE on the fine-tuned model; control is valid and clean",
+  "headline": "The Gate 1 fine-tune lost the ability to emit the self-report format. It answers the DECISION task when asked to introspect.",
+  "fine_tuned": {
+    "model": "gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1",
+    "deployment_sku": "DeveloperTier",
+    "provenance_verified": true,
+    "replies": 1000,
+    "strict_parse_ok": 0,
+    "strict_parse_rate": 0.0,
+    "contexts_with_any_usable_report": 0,
+    "bare_choice_letter_replies": 747,
+    "replies_containing_json_brace": 235,
+    "lenient_rescued": 2,
+    "r_report_vs_learned_behavioural": "NOT ESTIMABLE (0 usable reports)",
+    "r_report_vs_true": "NOT ESTIMABLE (0 usable reports)"
+  },
+  "base_control": {
+    "model": "gpt-4.1-mini-2025-04-14",
+    "deployment_sku": "GlobalStandard (control only)",
+    "provenance_verified": true,
+    "replies": 1000,
+    "strict_parse_ok": 956,
+    "strict_parse_rate": 0.956,
+    "contexts_with_any_usable_report": 99,
+    "failure_mode": "unknown_key -- model substitutes an invented attribute name (the same category Plunkett drops)",
+    "r_report_vs_true": {
+      "r": 0.04307767912263813,
+      "ci95": [
+        -0.037721565417725346,
+        0.1279631727456751
+      ],
+      "n_contexts": 99,
+      "within_context_mean": 0.033277324432917074,
+      "within_context_negative": 45,
+      "standardised_slope": 0.04307767912263811
+    },
+    "r_report_vs_ft_learned": {
+      "r": 0.09076663834367324,
+      "ci95": [
+        0.002525879752182579,
+        0.18644924468087595
+      ],
+      "n_contexts": 99,
+      "within_context_mean": 0.0913725570958608,
+      "within_context_negative": 39,
+      "standardised_slope": 0.09076663834367313
+    }
+  },
+  "truncation_ruled_out": {
+    "probe_calls": 60,
+    "max_tokens": 800,
+    "finish_reason": {
+      "stop": 60
+    },
+    "completion_tokens": {
+      "min": 2,
+      "max": 49,
+      "mean": 9.7
+    },
+    "conclusion": "All 60 stopped voluntarily far below the cap, so the elicitation max_tokens=300 truncated nothing. The collapse is the model's own."
+  },
+  "interpretation": {
+    "licensed": "The fine-tuned model cannot produce a self-report in Plunkett's format. The prompt, harness, parser and deployment are all sound -- the base model scores 95.6% on the identical pipeline.",
+    "NOT_licensed": "That the model lacks introspective access to its learned policy. Quantity A is unmeasured, not measured-and-null. 'Cannot report' must not be read as 'has nothing to report'.",
+    "base_control_behaves": "Base reports do NOT recover the arbitrary policy (r=+0.043 vs true, CI includes zero), as required."
+  },
+  "relation_to_plunkett": {
+    "their_zero_shot": {
+      "gpt-4o": 0.543,
+      "gpt-4o-mini": 0.506
+    },
+    "their_base_control": {
+      "gpt-4o": 0.102,
+      "gpt-4o-mini": -0.008
+    },
+    "their_parse_attrition": {
+      "gpt-4o_instilled": "1000/1000 rows, 100/100 contexts",
+      "gpt-4o-mini_instilled": "574/1000 rows, 79/100 contexts"
+    },
+    "note": "The same failure mode exists in their data and worsens with the smaller model. Ours is the extreme end of that gradient, not a new phenomenon."
+  },
+  "candidate_causes_untested": [
+    "Azure auto-resolved lr_multiplier=2.0 with 3 epochs; OpenAI's auto operates on a different scale. Aggressive LR is a plausible contributor to format collapse.",
+    "gpt-4.1-mini may be less robust to single-token-completion SFT than gpt-4o.",
+    "5,000 examples whose every completion is one token collapses the output-length distribution (probe mean 9.7 completion tokens)."
+  ],
+  "cost_usd": {
+    "ft_arm": 0.37,
+    "base_arm": 0.18,
+    "probe": 0.01,
+    "hosting": 0.0,
+    "total": 0.56
+  },
+  "deployments_remaining": 0,
+  "sealed": "Gate 3 relational / self-prediction data untouched. Gate 2B NOT run."
+}

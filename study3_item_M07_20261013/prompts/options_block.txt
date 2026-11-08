@@ -1,0 +1,4 @@
+- json-b64: each request is a JSON object; binary payload as base64.
+- xml-hex: each request is an XML element; binary payload as hex.
+- bin-fixed: fixed binary header (id, account, amount, length) followed by the raw payload bytes.
+- form-z85: URL-encoded form, payload as base85, the whole message zlib-compressed.

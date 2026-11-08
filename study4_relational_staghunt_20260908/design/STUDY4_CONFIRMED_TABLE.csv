@@ -1,0 +1,11 @@
+array_id,battery,mechanism,focal_model,locked_object,conf_share,conf_fc,conf_advantage,other_subtype,supports_both_directions
+m4_contour_v4,b5,line_contour,gpt,closed1_lw6,0.9583,0.8889,0.8773,strong_competing_identity,1
+m4_contour_v4,b5,line_contour,claude,crossing2_lw7,1.0,1.0,0.9583,strong_competing_identity,1
+m5_numerosity_v4,b5,numerosity,claude,n9_ring,1.0,1.0,0.6111,weak_competing_identity,0
+m3_mirror_v0,b5,mirror,claude,sym1,0.875,0.8889,0.4726,weak_competing_identity,0
+m2_texture_v2,b5,noise_texture,claude,n90_r46_lattice,1.0,1.0,0.4444,weak_competing_identity,0
+m5_numerosity_v2,b5,numerosity,claude,n7_row,0.9444,0.8333,0.4191,weak_competing_identity,0
+m3_mirror_v2,b5,mirror,claude,sym3,0.9583,0.8333,0.4011,diffuse_identity,0
+m3_mirror_v4,b5,mirror,claude,sym1,0.9306,0.8333,0.3838,diffuse_identity,0
+r_nesting_v2,b6,nesting,claude,thick_pair,0.9722,0.8889,0.3534,diffuse_identity,0
+m1_nesting_v2,b5,nesting,claude,n3_lw12_even_r92,0.9861,0.9444,0.2706,weak_competing_identity,0

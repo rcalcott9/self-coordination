@@ -1,0 +1,2249 @@
+{
+  "battery_id": "code_conv_candidate_v0.1",
+  "battery_version": "0.1.0-candidate",
+  "status": "CANDIDATE — not frozen; awaiting T3 red-team audit and lead Gate-1 synthesis",
+  "author": "T2 code-designer",
+  "date": "2026-09-09",
+  "domain": "code",
+  "n_items": 36,
+  "n_options_per_item": 4,
+  "schema_version": "1.0",
+  "schema_doc": "SCHEMA.md",
+  "notes_doc": "design_notes.md",
+  "api_calls_made": 0,
+  "presentation": {
+    "scheme": "full_24_permutation_cycle",
+    "presentation_id_range": [
+      0,
+      23
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "permutation_table_semantics": "permutation_table[presentation_id][display_position] = canonical_index shown at that display position. display_position 0 -> label A, 1 -> B, 2 -> C, 3 -> D.",
+    "permutation_table": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        0,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        0,
+        3
+      ],
+      [
+        2,
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        1,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        0,
+        1
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "decode_rule": "canonical_index = permutation_table[presentation_id][label_index]; canonical_id = items[item].options[canonical_index].canonical_id",
+    "sampling_note": "n=48 per model x item cell = two complete cycles of all 24 permutations, so every canonical option occupies every display position exactly 12 times (MASTER_DESIGN S5)."
+  },
+  "mechanism_counts": {
+    "function_naming": 3,
+    "variable_naming": 3,
+    "json_field_naming": 3,
+    "argument_ordering": 3,
+    "return_representation": 3,
+    "error_representation": 3,
+    "sentinel_values": 3,
+    "serialization": 3,
+    "output_ordering": 3,
+    "file_organization": 3,
+    "tie_breaking": 3,
+    "interface_layout": 3
+  },
+  "family_counts": {
+    "identifier_lexeme": 5,
+    "predicate_prefix": 1,
+    "conversion_verb": 1,
+    "constant_naming": 1,
+    "identifier_case": 1,
+    "param_order": 2,
+    "parameterization": 1,
+    "container_shape": 2,
+    "mutation_policy": 1,
+    "failure_shape": 1,
+    "wire_error_shape": 1,
+    "absence_handling": 1,
+    "absence_marker": 2,
+    "unbounded_marker": 1,
+    "wire_encoding": 3,
+    "sort_policy": 3,
+    "layout_tree": 1,
+    "helper_placement": 1,
+    "test_placement": 1,
+    "rounding_rule": 1,
+    "sort_tiebreak": 1,
+    "collation": 1,
+    "cli_surface": 2,
+    "config_surface": 1
+  },
+  "items": [
+    {
+      "item_id": "code_fnname_001",
+      "mechanism": "function_naming",
+      "family": "identifier_lexeme",
+      "language": "python",
+      "display_kind": "identifier",
+      "spec": "You are writing a small Python utility module. One function takes a list and returns a new list containing each element once, in the order of first appearance. Which name do you give that function?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_fnname_001::o1",
+          "canonical_index": 0,
+          "option_key": "dedupe",
+          "display": "dedupe",
+          "gloss": "verb, informal shortening"
+        },
+        {
+          "canonical_id": "code_fnname_001::o2",
+          "canonical_index": 1,
+          "option_key": "unique",
+          "display": "unique",
+          "gloss": "adjective-as-noun, numpy/R lineage"
+        },
+        {
+          "canonical_id": "code_fnname_001::o3",
+          "canonical_index": 2,
+          "option_key": "distinct",
+          "display": "distinct",
+          "gloss": "SQL lineage"
+        },
+        {
+          "canonical_id": "code_fnname_001::o4",
+          "canonical_index": 3,
+          "option_key": "remove_duplicates",
+          "display": "remove_duplicates",
+          "gloss": "fully spelled verb phrase"
+        }
+      ],
+      "distinguishing_dimension": "lexeme choice for a set-uniqueness operation",
+      "co_validity_rationale": "All four are ordinary, idiomatic Python function names for exactly this operation and appear in widely used real code. PEP 8 constrains the case (snake_case) but says nothing about the lexeme, and no style guide, linter, or type checker prefers one over the others.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "naming",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_fnname_002",
+      "mechanism": "function_naming",
+      "family": "predicate_prefix",
+      "language": "python",
+      "display_kind": "identifier",
+      "spec": "A Python class `Token` needs a method that returns True when the token's expiry time is in the past and False otherwise. Which name do you give that method?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_fnname_002::o1",
+          "canonical_index": 0,
+          "option_key": "is_expired",
+          "display": "is_expired",
+          "gloss": "is- prefix"
+        },
+        {
+          "canonical_id": "code_fnname_002::o2",
+          "canonical_index": 1,
+          "option_key": "has_expired",
+          "display": "has_expired",
+          "gloss": "has- prefix (perfect aspect)"
+        },
+        {
+          "canonical_id": "code_fnname_002::o3",
+          "canonical_index": 2,
+          "option_key": "expired",
+          "display": "expired",
+          "gloss": "bare adjective, property-style"
+        },
+        {
+          "canonical_id": "code_fnname_002::o4",
+          "canonical_index": 3,
+          "option_key": "check_expired",
+          "display": "check_expired",
+          "gloss": "check- prefix"
+        }
+      ],
+      "distinguishing_dimension": "predicate prefix convention",
+      "co_validity_rationale": "All four boolean-accessor naming conventions are in wide production use and are equally readable at the call site (`if token.is_expired()` / `if token.expired()`). PEP 8 gives no rule for boolean predicates; the choice is pure house style.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "naming"
+      ]
+    },
+    {
+      "item_id": "code_fnname_003",
+      "mechanism": "function_naming",
+      "family": "conversion_verb",
+      "language": "python",
+      "display_kind": "identifier",
+      "spec": "A Python class `Config` needs a method that returns a plain `dict` holding the same field names and values as the object. Which name do you give that method?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_fnname_003::o1",
+          "canonical_index": 0,
+          "option_key": "to_dict",
+          "display": "to_dict",
+          "gloss": "to_ prefix (pandas lineage)"
+        },
+        {
+          "canonical_id": "code_fnname_003::o2",
+          "canonical_index": 1,
+          "option_key": "as_dict",
+          "display": "as_dict",
+          "gloss": "as_ prefix"
+        },
+        {
+          "canonical_id": "code_fnname_003::o3",
+          "canonical_index": 2,
+          "option_key": "asdict",
+          "display": "asdict",
+          "gloss": "no separator (dataclasses/attrs lineage)"
+        },
+        {
+          "canonical_id": "code_fnname_003::o4",
+          "canonical_index": 3,
+          "option_key": "serialize",
+          "display": "serialize",
+          "gloss": "operation-level verb"
+        }
+      ],
+      "distinguishing_dimension": "conversion-verb convention",
+      "co_validity_rationale": "The specification fixes the return type (a plain dict), so all four names denote the same operation. Each appears in a major library: `to_dict` (pandas), `as_dict` (configobj, several ORMs), `asdict` (dataclasses, attrs), `serialize` (marshmallow-style APIs).",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "naming"
+      ]
+    },
+    {
+      "item_id": "code_varname_001",
+      "mechanism": "variable_naming",
+      "family": "identifier_lexeme",
+      "language": "python",
+      "display_kind": "identifier",
+      "spec": "You are writing a Python loop that walks a list of line items and adds up their prices. Which name do you give the local variable that holds the sum so far?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_varname_001::o1",
+          "canonical_index": 0,
+          "option_key": "total",
+          "display": "total",
+          "gloss": "domain word, unabbreviated"
+        },
+        {
+          "canonical_id": "code_varname_001::o2",
+          "canonical_index": 1,
+          "option_key": "running_total",
+          "display": "running_total",
+          "gloss": "domain word plus temporal qualifier"
+        },
+        {
+          "canonical_id": "code_varname_001::o3",
+          "canonical_index": 2,
+          "option_key": "acc",
+          "display": "acc",
+          "gloss": "abbreviated role word"
+        },
+        {
+          "canonical_id": "code_varname_001::o4",
+          "canonical_index": 3,
+          "option_key": "accumulator",
+          "display": "accumulator",
+          "gloss": "role word, unabbreviated"
+        }
+      ],
+      "distinguishing_dimension": "accumulator naming: domain word vs role word, abbreviated vs spelled out",
+      "co_validity_rationale": "All four are conventional names for a loop accumulator, are unambiguous in a short loop body, and satisfy PEP 8. The choice trades domain vocabulary against role vocabulary and abbreviation against full spelling, and no rule adjudicates either axis.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "`acc` and `accumulator` differ only in abbreviation; a reader could call them near-synonyms. Scoring is still unambiguous (distinct exact strings), but this is the closest item in the battery to a synonym pair.",
+      "tags": [
+        "naming"
+      ]
+    },
+    {
+      "item_id": "code_varname_002",
+      "mechanism": "variable_naming",
+      "family": "identifier_lexeme",
+      "language": "python",
+      "display_kind": "identifier",
+      "spec": "In a Python HTTP client function you call `json.loads(response.text)` and hold the result in a local variable before reading fields out of it. Which name do you give that variable?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_varname_002::o1",
+          "canonical_index": 0,
+          "option_key": "data",
+          "display": "data",
+          "gloss": "generic content word"
+        },
+        {
+          "canonical_id": "code_varname_002::o2",
+          "canonical_index": 1,
+          "option_key": "payload",
+          "display": "payload",
+          "gloss": "transport word"
+        },
+        {
+          "canonical_id": "code_varname_002::o3",
+          "canonical_index": 2,
+          "option_key": "body",
+          "display": "body",
+          "gloss": "HTTP-message word"
+        },
+        {
+          "canonical_id": "code_varname_002::o4",
+          "canonical_index": 3,
+          "option_key": "parsed",
+          "display": "parsed",
+          "gloss": "provenance/state word"
+        }
+      ],
+      "distinguishing_dimension": "lexeme choice for a decoded response object",
+      "co_validity_rationale": "Each of the four is a standard name for a decoded HTTP response object and all four appear in mainstream client code. None is more precise than the others at this scope, and none is shadowed by a builtin or by a common import in this context.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "naming",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_varname_003",
+      "mechanism": "variable_naming",
+      "family": "constant_naming",
+      "language": "python",
+      "display_kind": "identifier",
+      "spec": "A Python module defines a module-level constant holding the number of seconds to wait before a network request is abandoned. Its value is used when the caller does not supply one. Which name do you give the constant?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_varname_003::o1",
+          "canonical_index": 0,
+          "option_key": "TIMEOUT",
+          "display": "TIMEOUT",
+          "gloss": "bare"
+        },
+        {
+          "canonical_id": "code_varname_003::o2",
+          "canonical_index": 1,
+          "option_key": "DEFAULT_TIMEOUT",
+          "display": "DEFAULT_TIMEOUT",
+          "gloss": "role prefix"
+        },
+        {
+          "canonical_id": "code_varname_003::o3",
+          "canonical_index": 2,
+          "option_key": "TIMEOUT_SECONDS",
+          "display": "TIMEOUT_SECONDS",
+          "gloss": "unit suffix"
+        },
+        {
+          "canonical_id": "code_varname_003::o4",
+          "canonical_index": 3,
+          "option_key": "DEFAULT_TIMEOUT_SECONDS",
+          "display": "DEFAULT_TIMEOUT_SECONDS",
+          "gloss": "both"
+        }
+      ],
+      "distinguishing_dimension": "presence of role prefix and unit suffix on a constant name",
+      "co_validity_rationale": "A clean 2x2 over two independent, purely optional annotations: whether to mark the constant as the fallback value and whether to carry the unit in the name. All four appear in production code; PEP 8 fixes only the upper-case style, which all four share.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "naming"
+      ]
+    },
+    {
+      "item_id": "code_jsonname_001",
+      "mechanism": "json_field_naming",
+      "family": "identifier_case",
+      "language": "json",
+      "display_kind": "json",
+      "spec": "You are defining the JSON body a REST service returns for a single record. The record has a field carrying the moment the record was created. Which spelling do you use for that key?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_jsonname_001::o1",
+          "canonical_index": 0,
+          "option_key": "created_at_snake",
+          "display": "\"created_at\"",
+          "gloss": "snake_case, at-preposition"
+        },
+        {
+          "canonical_id": "code_jsonname_001::o2",
+          "canonical_index": 1,
+          "option_key": "createdAt_camel",
+          "display": "\"createdAt\"",
+          "gloss": "camelCase, at-preposition"
+        },
+        {
+          "canonical_id": "code_jsonname_001::o3",
+          "canonical_index": 2,
+          "option_key": "created_time_snake",
+          "display": "\"created_time\"",
+          "gloss": "snake_case, time-noun"
+        },
+        {
+          "canonical_id": "code_jsonname_001::o4",
+          "canonical_index": 3,
+          "option_key": "createdTime_camel",
+          "display": "\"createdTime\"",
+          "gloss": "camelCase, time-noun"
+        }
+      ],
+      "distinguishing_dimension": "JSON key case convention crossed with lexeme",
+      "co_validity_rationale": "A 2x2 over case convention (snake vs camel, both ubiquitous in public JSON APIs) and lexeme (`..._at` vs `..._time`, both ubiquitous). The item text names no host language and no sibling fields, so nothing in the specification favours one cell.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "In real work the surrounding API's existing keys settle the case convention. The spec deliberately supplies no siblings; if models nonetheless assume a Python or JS host they may collapse onto snake or camel respectively. That collapse is itself an informative result, but this item is more context-sensitive than most.",
+      "tags": [
+        "wire-format"
+      ]
+    },
+    {
+      "item_id": "code_jsonname_002",
+      "mechanism": "json_field_naming",
+      "family": "identifier_lexeme",
+      "language": "json",
+      "display_kind": "json",
+      "spec": "You are defining the JSON body a REST list endpoint returns. The body is an object with a key whose value is the array of returned records. Which name do you give that key?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_jsonname_002::o1",
+          "canonical_index": 0,
+          "option_key": "items",
+          "display": "\"items\"",
+          "gloss": "generic container word"
+        },
+        {
+          "canonical_id": "code_jsonname_002::o2",
+          "canonical_index": 1,
+          "option_key": "results",
+          "display": "\"results\"",
+          "gloss": "query word (DRF lineage)"
+        },
+        {
+          "canonical_id": "code_jsonname_002::o3",
+          "canonical_index": 2,
+          "option_key": "data",
+          "display": "\"data\"",
+          "gloss": "envelope word (JSON:API lineage)"
+        },
+        {
+          "canonical_id": "code_jsonname_002::o4",
+          "canonical_index": 3,
+          "option_key": "records",
+          "display": "\"records\"",
+          "gloss": "domain word"
+        }
+      ],
+      "distinguishing_dimension": "lexeme choice for a list-envelope array key",
+      "co_validity_rationale": "All four are standard names for the array in a paginated list envelope and each is the house choice of at least one widely used framework or public API. The item fixes the shape (an object with an array under one key) so the four differ only in lexeme.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "wire-format",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_jsonname_003",
+      "mechanism": "json_field_naming",
+      "family": "identifier_lexeme",
+      "language": "json",
+      "display_kind": "json",
+      "spec": "The same list endpoint's JSON body carries one more key: an integer giving how many records match the query in total, across all pages. Which name do you give that key?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_jsonname_003::o1",
+          "canonical_index": 0,
+          "option_key": "total",
+          "display": "\"total\"",
+          "gloss": "bare"
+        },
+        {
+          "canonical_id": "code_jsonname_003::o2",
+          "canonical_index": 1,
+          "option_key": "count",
+          "display": "\"count\"",
+          "gloss": "bare, cardinality word"
+        },
+        {
+          "canonical_id": "code_jsonname_003::o3",
+          "canonical_index": 2,
+          "option_key": "total_count",
+          "display": "\"total_count\"",
+          "gloss": "compound"
+        },
+        {
+          "canonical_id": "code_jsonname_003::o4",
+          "canonical_index": 3,
+          "option_key": "num_results",
+          "display": "\"num_results\"",
+          "gloss": "num_ prefix"
+        }
+      ],
+      "distinguishing_dimension": "lexeme choice for a pagination total key",
+      "co_validity_rationale": "All four snake_case names unambiguously denote the across-page match count in a pagination envelope, and each is used by a well-known API. Case is held constant so only the lexeme varies.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "wire-format"
+      ]
+    },
+    {
+      "item_id": "code_argorder_001",
+      "mechanism": "argument_ordering",
+      "family": "param_order",
+      "language": "python",
+      "display_kind": "signature",
+      "spec": "A Python ledger module needs a function that moves a quantity of money from one account to another. It takes exactly three parameters: the source account, the destination account, and the amount. Which signature do you write?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_argorder_001::o1",
+          "canonical_index": 0,
+          "option_key": "src_dst_amt",
+          "display": "def transfer(source, destination, amount):",
+          "gloss": "source-first"
+        },
+        {
+          "canonical_id": "code_argorder_001::o2",
+          "canonical_index": 1,
+          "option_key": "amt_src_dst",
+          "display": "def transfer(amount, source, destination):",
+          "gloss": "amount-first"
+        },
+        {
+          "canonical_id": "code_argorder_001::o3",
+          "canonical_index": 2,
+          "option_key": "dst_src_amt",
+          "display": "def transfer(destination, source, amount):",
+          "gloss": "destination-first (memcpy order)"
+        },
+        {
+          "canonical_id": "code_argorder_001::o4",
+          "canonical_index": 3,
+          "option_key": "src_amt_dst",
+          "display": "def transfer(source, amount, destination):",
+          "gloss": "reads as a sentence"
+        }
+      ],
+      "distinguishing_dimension": "positional order of three named parameters",
+      "co_validity_rationale": "The parameters are named, so every ordering is functionally identical and equally safe under keyword calls. Each ordering follows a live convention: subject-first (source, destination), operand-first (amount leads, as in `add(x, ...)`), destination-first (memcpy, strcpy, assignment order), and sentence order (`transfer 50 from A to B` read left to right).",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "signature",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_argorder_002",
+      "mechanism": "argument_ordering",
+      "family": "param_order",
+      "language": "python",
+      "display_kind": "signature",
+      "spec": "A Python numeric helper constrains a value to lie within an inclusive interval. It takes exactly three parameters: the value, the lower bound, and the upper bound. Which signature do you write?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_argorder_002::o1",
+          "canonical_index": 0,
+          "option_key": "v_lo_hi",
+          "display": "def clamp(value, low, high):",
+          "gloss": "subject-first (numpy.clip order)"
+        },
+        {
+          "canonical_id": "code_argorder_002::o2",
+          "canonical_index": 1,
+          "option_key": "lo_v_hi",
+          "display": "def clamp(low, value, high):",
+          "gloss": "mirrors low <= value <= high"
+        },
+        {
+          "canonical_id": "code_argorder_002::o3",
+          "canonical_index": 2,
+          "option_key": "lo_hi_v",
+          "display": "def clamp(low, high, value):",
+          "gloss": "interval-first"
+        },
+        {
+          "canonical_id": "code_argorder_002::o4",
+          "canonical_index": 3,
+          "option_key": "v_hi_lo",
+          "display": "def clamp(value, high, low):",
+          "gloss": "subject-first, ceiling before floor"
+        }
+      ],
+      "distinguishing_dimension": "positional order of value and interval bounds",
+      "co_validity_rationale": "Parameters are named, so all four orderings are functionally identical. Subject-first matches `numpy.clip`; low-value-high mirrors the mathematical notation and is used in several graphics libraries; interval-first matches curried/partial-application styles where the interval is fixed once.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "Option `v_hi_lo` (high before low) is the weakest of the four; it is defensible under a ceiling-then-floor reading but is rarer than the other three. If T3 judges it implausible, the repair is to swap it for a two-argument interval grouping, which changes the item's family.",
+      "tags": [
+        "signature"
+      ]
+    },
+    {
+      "item_id": "code_argorder_003",
+      "mechanism": "argument_ordering",
+      "family": "parameterization",
+      "language": "python",
+      "display_kind": "signature",
+      "spec": "A Python 2-D graphics module needs a constructor for an axis-aligned rectangle. Every rectangle the program handles can be described by any of the parameterizations below. Which constructor signature do you write?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_argorder_003::o1",
+          "canonical_index": 0,
+          "option_key": "xywh",
+          "display": "def rect(x, y, width, height):",
+          "gloss": "origin plus extent (CSS/SDL)"
+        },
+        {
+          "canonical_id": "code_argorder_003::o2",
+          "canonical_index": 1,
+          "option_key": "ltrb",
+          "display": "def rect(left, top, right, bottom):",
+          "gloss": "two corners (Win32/PIL bbox)"
+        },
+        {
+          "canonical_id": "code_argorder_003::o3",
+          "canonical_index": 2,
+          "option_key": "cxcywh",
+          "display": "def rect(center_x, center_y, width, height):",
+          "gloss": "center plus extent (object detection)"
+        },
+        {
+          "canonical_id": "code_argorder_003::o4",
+          "canonical_index": 3,
+          "option_key": "pt_size",
+          "display": "def rect(origin, size):",
+          "gloss": "two 2-tuples (Cocoa CGRect)"
+        }
+      ],
+      "distinguishing_dimension": "choice of rectangle parameterization",
+      "co_validity_rationale": "All four parameterizations describe exactly the same set of axis-aligned rectangles with no loss and convert to one another in closed form, and each is the primary rectangle interface of at least one major toolkit. The spec states that any of them suffices, so nothing in it selects one.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "This is a parameterization choice rather than a permutation of one fixed parameter set, so it sits at the boundary between argument ordering and interface layout. Family is tagged `parameterization` so the lead can move it.",
+      "tags": [
+        "signature"
+      ]
+    },
+    {
+      "item_id": "code_return_001",
+      "mechanism": "return_representation",
+      "family": "container_shape",
+      "language": "python",
+      "display_kind": "code",
+      "spec": "A Python function takes a non-empty list of numbers and gives back both the smallest and the largest value in it. The caller reads both. Which return shape do you use?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_return_001::o1",
+          "canonical_index": 0,
+          "option_key": "tuple",
+          "display": "return (lowest, highest)",
+          "gloss": "positional tuple"
+        },
+        {
+          "canonical_id": "code_return_001::o2",
+          "canonical_index": 1,
+          "option_key": "dict",
+          "display": "return {\"min\": lowest, \"max\": highest}",
+          "gloss": "string-keyed dict"
+        },
+        {
+          "canonical_id": "code_return_001::o3",
+          "canonical_index": 2,
+          "option_key": "namedtuple",
+          "display": "MinMax = namedtuple(\"MinMax\", \"min max\")\nreturn MinMax(lowest, highest)",
+          "gloss": "named tuple"
+        },
+        {
+          "canonical_id": "code_return_001::o4",
+          "canonical_index": 3,
+          "option_key": "dataclass",
+          "display": "@dataclass\nclass MinMax:\n    min: float\n    max: float\n\nreturn MinMax(lowest, highest)",
+          "gloss": "dataclass instance"
+        }
+      ],
+      "distinguishing_dimension": "container shape for a two-value result",
+      "co_validity_rationale": "All four carry exactly the same two values, are ordinary Python, and cost the caller one line to unpack. The spec says only that the caller reads both values; it does not require iteration, attribute access, JSON-serializability, or immutability, each of which would otherwise select one shape.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "api-shape",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_return_002",
+      "mechanism": "return_representation",
+      "family": "container_shape",
+      "language": "python",
+      "display_kind": "code",
+      "spec": "A Python function takes a block of text and gives back how many times each distinct word occurs in it. Which return shape do you use?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_return_002::o1",
+          "canonical_index": 0,
+          "option_key": "dict",
+          "display": "return {word: n, ...}   # plain dict",
+          "gloss": "plain dict"
+        },
+        {
+          "canonical_id": "code_return_002::o2",
+          "canonical_index": 1,
+          "option_key": "counter",
+          "display": "return Counter(words)   # collections.Counter",
+          "gloss": "Counter"
+        },
+        {
+          "canonical_id": "code_return_002::o3",
+          "canonical_index": 2,
+          "option_key": "pairs",
+          "display": "return [(word, n), ...]   # list of 2-tuples",
+          "gloss": "list of pairs"
+        },
+        {
+          "canonical_id": "code_return_002::o4",
+          "canonical_index": 3,
+          "option_key": "dicts",
+          "display": "return [{\"word\": word, \"count\": n}, ...]",
+          "gloss": "list of records"
+        }
+      ],
+      "distinguishing_dimension": "container shape for a frequency mapping",
+      "co_validity_rationale": "All four represent the same mapping and are routine return types for a frequency routine. The spec does not say the result must be ordered, mutable, JSON-serializable, or support `most_common`, so nothing in it distinguishes them.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "api-shape"
+      ]
+    },
+    {
+      "item_id": "code_return_003",
+      "mechanism": "return_representation",
+      "family": "mutation_policy",
+      "language": "python",
+      "display_kind": "code",
+      "spec": "A Python routine is given a list of record objects and arranges them by score, highest first. Callers use the arranged records immediately afterwards. Which do you write?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_return_003::o1",
+          "canonical_index": 0,
+          "option_key": "inplace_none",
+          "display": "def arrange(records):\n    records.sort(key=score, reverse=True)\n    # returns None",
+          "gloss": "mutate in place, return None (list.sort)"
+        },
+        {
+          "canonical_id": "code_return_003::o2",
+          "canonical_index": 1,
+          "option_key": "pure_new",
+          "display": "def arrange(records):\n    return sorted(records, key=score, reverse=True)",
+          "gloss": "return a new list, leave input untouched (sorted)"
+        },
+        {
+          "canonical_id": "code_return_003::o3",
+          "canonical_index": 2,
+          "option_key": "inplace_self",
+          "display": "def arrange(records):\n    records.sort(key=score, reverse=True)\n    return records",
+          "gloss": "mutate in place and return it (fluent)"
+        },
+        {
+          "canonical_id": "code_return_003::o4",
+          "canonical_index": 3,
+          "option_key": "iterator",
+          "display": "def arrange(records):\n    yield from sorted(records, key=score, reverse=True)",
+          "gloss": "return an iterator over the arranged records"
+        }
+      ],
+      "distinguishing_dimension": "mutation and return policy for an ordering routine",
+      "co_validity_rationale": "The spec fixes the ordering and says only that callers use the arranged records afterwards; it does not say whether the input may be modified, whether a value must come back, or whether the result must be re-iterable. Python's own standard library ships both the in-place convention (`list.sort`) and the pure convention (`sorted`), and generator-returning helpers are routine.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "Spec neutrality is delicate here: 'arranges them' can be read as licensing mutation. If T3 finds the wording tilts toward in-place, the repair is to replace the verb with 'produces the records in score order, highest first'.",
+      "tags": [
+        "api-shape"
+      ]
+    },
+    {
+      "item_id": "code_error_001",
+      "mechanism": "error_representation",
+      "family": "failure_shape",
+      "language": "python",
+      "display_kind": "code",
+      "spec": "A Python batch job reads a large file of user-entered strings and converts each to an integer. Some rows are not numeric. The routine that converts one row is written so the caller decides what happens to bad rows. How does that routine report a row it could not convert?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_error_001::o1",
+          "canonical_index": 0,
+          "option_key": "raise",
+          "display": "raise ValueError(f\"not an integer: {row!r}\")",
+          "gloss": "exception"
+        },
+        {
+          "canonical_id": "code_error_001::o2",
+          "canonical_index": 1,
+          "option_key": "none",
+          "display": "return None",
+          "gloss": "None as the failure value"
+        },
+        {
+          "canonical_id": "code_error_001::o3",
+          "canonical_index": 2,
+          "option_key": "pair",
+          "display": "return (None, f\"not an integer: {row!r}\")   # (value, error)",
+          "gloss": "value/error pair (Go style)"
+        },
+        {
+          "canonical_id": "code_error_001::o4",
+          "canonical_index": 3,
+          "option_key": "result",
+          "display": "return Result(ok=False, value=None, error=\"not an integer\")",
+          "gloss": "Result object (Rust style)"
+        }
+      ],
+      "distinguishing_dimension": "failure-reporting shape",
+      "co_validity_rationale": "The spec puts the decision in the caller's hands and says nothing about control flow, so all four reporting shapes let the caller skip, collect, or abort. Each is a mainstream convention, and per-row exceptions in a hot batch loop are a real reason teams pick a non-exception shape.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "high",
+      "risk_notes": "Highest collapse risk in the battery. Raising is strongly dominant in Python specifically, and models may treat it as the correct answer rather than a convention. Kept because failure shape is one of the most consequential real conventions; if the pilot shows a hard collapse here, that is a reportable result. A repair, if wanted, is to restate the spec in language-neutral pseudocode.",
+      "tags": [
+        "failure",
+        "collapse-risk"
+      ]
+    },
+    {
+      "item_id": "code_error_002",
+      "mechanism": "error_representation",
+      "family": "wire_error_shape",
+      "language": "json",
+      "display_kind": "json",
+      "spec": "An HTTP JSON service rejects a malformed request with status 400. The response body carries a machine-readable reason and a human-readable sentence. Which body shape do you use?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_error_002::o1",
+          "canonical_index": 0,
+          "option_key": "flat_error",
+          "display": "{\"error\": \"email is not a valid address\"}",
+          "gloss": "flat string under error"
+        },
+        {
+          "canonical_id": "code_error_002::o2",
+          "canonical_index": 1,
+          "option_key": "nested_error",
+          "display": "{\"error\": {\"code\": \"invalid_email\",\n           \"message\": \"email is not a valid address\"}}",
+          "gloss": "nested code/message object"
+        },
+        {
+          "canonical_id": "code_error_002::o3",
+          "canonical_index": 2,
+          "option_key": "message_only",
+          "display": "{\"message\": \"email is not a valid address\",\n \"code\": \"invalid_email\"}",
+          "gloss": "flat sibling keys"
+        },
+        {
+          "canonical_id": "code_error_002::o4",
+          "canonical_index": 3,
+          "option_key": "errors_array",
+          "display": "{\"errors\": [{\"code\": \"invalid_email\",\n             \"detail\": \"email is not a valid address\"}]}",
+          "gloss": "array of error objects (JSON:API)"
+        }
+      ],
+      "distinguishing_dimension": "error-body envelope shape",
+      "co_validity_rationale": "All four carry a code and a sentence (or, for the flat form, the sentence the spec asks for) and all four are the documented error envelope of a major public API or standard. The spec fixes the status code and the information content but not the shape.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "failure",
+        "wire-format",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_error_003",
+      "mechanism": "error_representation",
+      "family": "absence_handling",
+      "language": "python",
+      "display_kind": "code",
+      "spec": "A Python program reads settings from a dict parsed out of a config file. One setting is optional; when the user has not set it the program uses the module constant `DEFAULT_RETRIES`. Which do you write?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_error_003::o1",
+          "canonical_index": 0,
+          "option_key": "get_default",
+          "display": "retries = config.get(\"retries\", DEFAULT_RETRIES)",
+          "gloss": "dict.get with default"
+        },
+        {
+          "canonical_id": "code_error_003::o2",
+          "canonical_index": 1,
+          "option_key": "try_except",
+          "display": "try:\n    retries = config[\"retries\"]\nexcept KeyError:\n    retries = DEFAULT_RETRIES",
+          "gloss": "EAFP try/except"
+        },
+        {
+          "canonical_id": "code_error_003::o3",
+          "canonical_index": 2,
+          "option_key": "membership",
+          "display": "if \"retries\" in config:\n    retries = config[\"retries\"]\nelse:\n    retries = DEFAULT_RETRIES",
+          "gloss": "LBYL membership test"
+        },
+        {
+          "canonical_id": "code_error_003::o4",
+          "canonical_index": 3,
+          "option_key": "merge",
+          "display": "settings = {\"retries\": DEFAULT_RETRIES} | config\nretries = settings[\"retries\"]",
+          "gloss": "defaults merged under the config"
+        }
+      ],
+      "distinguishing_dimension": "idiom for supplying a default when a key is absent",
+      "co_validity_rationale": "The four are behaviourally identical for every input allowed by the spec, including an explicit null the user wrote, since none of them treats a present falsy value as absent. EAFP and LBYL are both endorsed Python styles and defaults-merging is the standard shape once several settings are involved.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "Classified under error_representation as absence handling; it is arguably a control-flow-style mechanism of its own. Also the shortest option (`dict.get`) may attract choices for terseness rather than convention.",
+      "tags": [
+        "failure"
+      ]
+    },
+    {
+      "item_id": "code_sentinel_001",
+      "mechanism": "sentinel_values",
+      "family": "absence_marker",
+      "language": "python",
+      "display_kind": "code",
+      "spec": "A Python function has an optional parameter. `None` is a meaningful value a caller may pass deliberately, so it cannot double as 'the caller did not supply this'. You need a distinct marker for the not-supplied case. Which do you define and use as the default?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_sentinel_001::o1",
+          "canonical_index": 0,
+          "option_key": "object",
+          "display": "_MISSING = object()\n\ndef f(x=_MISSING): ...",
+          "gloss": "bare object() sentinel"
+        },
+        {
+          "canonical_id": "code_sentinel_001::o2",
+          "canonical_index": 1,
+          "option_key": "class_singleton",
+          "display": "class _Missing:\n    pass\n\n_MISSING = _Missing()\n\ndef f(x=_MISSING): ...",
+          "gloss": "singleton of a private class"
+        },
+        {
+          "canonical_id": "code_sentinel_001::o3",
+          "canonical_index": 2,
+          "option_key": "ellipsis",
+          "display": "def f(x=...): ...",
+          "gloss": "Ellipsis as the sentinel"
+        },
+        {
+          "canonical_id": "code_sentinel_001::o4",
+          "canonical_index": 3,
+          "option_key": "enum",
+          "display": "class _Sentinel(Enum):\n    MISSING = auto()\n\ndef f(x=_Sentinel.MISSING): ...",
+          "gloss": "enum member sentinel"
+        }
+      ],
+      "distinguishing_dimension": "sentinel construction for 'argument not supplied'",
+      "co_validity_rationale": "All four produce a unique, identity-comparable, non-None default and are used in real libraries: bare `object()` is the classic recipe, a private singleton class is what `dataclasses.MISSING` and attrs' `NOTHING` do, `...` is used by several typed APIs, and the enum form is the pattern PEP 661's discussion recommends for a good repr and pickling. The spec asks for none of repr quality, pickling, or typing support.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "sentinel",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_sentinel_002",
+      "mechanism": "sentinel_values",
+      "family": "absence_marker",
+      "language": "csv",
+      "display_kind": "phrase",
+      "spec": "A Python script writes a CSV export. One numeric column is genuinely empty for some rows: no measurement was taken. The file is consumed by other teams' tools. How do you write that cell?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_sentinel_002::o1",
+          "canonical_index": 0,
+          "option_key": "empty",
+          "display": "leave the field empty:  12.4,,15.1",
+          "gloss": "empty field"
+        },
+        {
+          "canonical_id": "code_sentinel_002::o2",
+          "canonical_index": 1,
+          "option_key": "na",
+          "display": "write NA:  12.4,NA,15.1",
+          "gloss": "NA (R convention)"
+        },
+        {
+          "canonical_id": "code_sentinel_002::o3",
+          "canonical_index": 2,
+          "option_key": "null",
+          "display": "write NULL:  12.4,NULL,15.1",
+          "gloss": "NULL (SQL convention)"
+        },
+        {
+          "canonical_id": "code_sentinel_002::o4",
+          "canonical_index": 3,
+          "option_key": "nan",
+          "display": "write NaN:  12.4,NaN,15.1",
+          "gloss": "NaN (float/pandas convention)"
+        }
+      ],
+      "distinguishing_dimension": "missing-value token in a delimited file",
+      "co_validity_rationale": "All four are recognised missing-value tokens in the CSV ecosystem and all four round-trip through the default readers of at least one major tool (pandas reads all four as missing by default; R writes NA; SQL bulk loaders expect NULL). The spec names no consuming tool, so nothing in it selects one.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "sentinel",
+        "wire-format"
+      ]
+    },
+    {
+      "item_id": "code_sentinel_003",
+      "mechanism": "sentinel_values",
+      "family": "unbounded_marker",
+      "language": "python",
+      "display_kind": "phrase",
+      "spec": "A Python query helper takes a `limit` parameter capping how many rows come back. Callers must also be able to ask for every matching row. Which value do you give `limit` to mean 'no cap'?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_sentinel_003::o1",
+          "canonical_index": 0,
+          "option_key": "none",
+          "display": "limit=None",
+          "gloss": "None means unbounded"
+        },
+        {
+          "canonical_id": "code_sentinel_003::o2",
+          "canonical_index": 1,
+          "option_key": "neg_one",
+          "display": "limit=-1",
+          "gloss": "-1 means unbounded (SQLite LIMIT -1)"
+        },
+        {
+          "canonical_id": "code_sentinel_003::o3",
+          "canonical_index": 2,
+          "option_key": "zero",
+          "display": "limit=0",
+          "gloss": "0 means unbounded (many pagination APIs)"
+        },
+        {
+          "canonical_id": "code_sentinel_003::o4",
+          "canonical_index": 3,
+          "option_key": "inf",
+          "display": "limit=math.inf",
+          "gloss": "positive infinity means unbounded"
+        }
+      ],
+      "distinguishing_dimension": "encoding of 'no limit'",
+      "co_validity_rationale": "Each is an established encoding of 'unbounded' in a real query interface, each is distinguishable from every legitimate finite cap, and each is checkable in one line. The spec does not say the parameter must be an int, must be JSON-serializable, or must have a meaningful zero, any of which would rule some out.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "sentinel"
+      ]
+    },
+    {
+      "item_id": "code_serial_001",
+      "mechanism": "serialization",
+      "family": "wire_encoding",
+      "language": "json",
+      "display_kind": "json",
+      "spec": "A service emits JSON events. Each event records the instant it happened, in UTC, to the second. How do you encode that instant in the JSON?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_serial_001::o1",
+          "canonical_index": 0,
+          "option_key": "iso_z",
+          "display": "\"ts\": \"2026-09-09T14:03:27Z\"",
+          "gloss": "ISO 8601 with Z"
+        },
+        {
+          "canonical_id": "code_serial_001::o2",
+          "canonical_index": 1,
+          "option_key": "iso_offset",
+          "display": "\"ts\": \"2026-09-09T14:03:27+00:00\"",
+          "gloss": "ISO 8601 with numeric offset"
+        },
+        {
+          "canonical_id": "code_serial_001::o3",
+          "canonical_index": 2,
+          "option_key": "epoch_s",
+          "display": "\"ts\": 1788019407",
+          "gloss": "Unix seconds"
+        },
+        {
+          "canonical_id": "code_serial_001::o4",
+          "canonical_index": 3,
+          "option_key": "epoch_ms",
+          "display": "\"ts\": 1788019407000",
+          "gloss": "Unix milliseconds"
+        }
+      ],
+      "distinguishing_dimension": "timestamp encoding on the wire",
+      "co_validity_rationale": "All four represent the same instant at the required resolution, are unambiguous about the zone, and are trivially parsed by every mainstream language. `Z` and `+00:00` are both conformant ISO 8601/RFC 3339 spellings of UTC; seconds and milliseconds epochs are both standard on the wire. The spec fixes the zone and the resolution but not the encoding.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "wire-format",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_serial_002",
+      "mechanism": "serialization",
+      "family": "wire_encoding",
+      "language": "json",
+      "display_kind": "json",
+      "spec": "The same service must put a short binary blob (a 32-byte digest) into a JSON field. How do you encode it?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_serial_002::o1",
+          "canonical_index": 0,
+          "option_key": "base64",
+          "display": "\"digest\": \"3q2+7wAAAAA...\"          # standard base64",
+          "gloss": "standard base64"
+        },
+        {
+          "canonical_id": "code_serial_002::o2",
+          "canonical_index": 1,
+          "option_key": "base64url",
+          "display": "\"digest\": \"3q2-7wAAAAA...\"          # base64url, unpadded",
+          "gloss": "base64url"
+        },
+        {
+          "canonical_id": "code_serial_002::o3",
+          "canonical_index": 2,
+          "option_key": "hex",
+          "display": "\"digest\": \"deadbeef00000000...\"     # lowercase hex",
+          "gloss": "hex"
+        },
+        {
+          "canonical_id": "code_serial_002::o4",
+          "canonical_index": 3,
+          "option_key": "bytes_array",
+          "display": "\"digest\": [222, 173, 190, 239, 0, 0, 0, 0, ...]",
+          "gloss": "array of byte values"
+        }
+      ],
+      "distinguishing_dimension": "binary encoding inside JSON",
+      "co_validity_rationale": "All four are lossless, JSON-legal encodings of the same 32 bytes, and each is the house encoding of a widely used format: base64 (JWS payloads, protobuf JSON), base64url (JWT, URL-safe tokens), hex (git, checksum files), byte arrays (several RPC JSON mappings). The spec sets no size budget and names no consumer.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "wire-format"
+      ]
+    },
+    {
+      "item_id": "code_serial_003",
+      "mechanism": "serialization",
+      "family": "wire_encoding",
+      "language": "json",
+      "display_kind": "json",
+      "spec": "A payments service emits JSON containing a monetary amount of twelve dollars and thirty-four cents. The currency is carried in a separate field. How do you encode the amount?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_serial_003::o1",
+          "canonical_index": 0,
+          "option_key": "string",
+          "display": "\"amount\": \"12.34\"",
+          "gloss": "decimal string"
+        },
+        {
+          "canonical_id": "code_serial_003::o2",
+          "canonical_index": 1,
+          "option_key": "number",
+          "display": "\"amount\": 12.34",
+          "gloss": "JSON number"
+        },
+        {
+          "canonical_id": "code_serial_003::o3",
+          "canonical_index": 2,
+          "option_key": "minor_units",
+          "display": "\"amount\": 1234        # minor units",
+          "gloss": "integer minor units (Stripe)"
+        },
+        {
+          "canonical_id": "code_serial_003::o4",
+          "canonical_index": 3,
+          "option_key": "units_nanos",
+          "display": "\"amount\": {\"units\": 12, \"nanos\": 340000000}",
+          "gloss": "units/nanos object (Google)"
+        }
+      ],
+      "distinguishing_dimension": "monetary amount encoding",
+      "co_validity_rationale": "All four encode exactly $12.34 without loss at this magnitude and each is the documented money encoding of a large production API. The spec places currency elsewhere and states no requirement about precision, exotic exponents, or consumer language, which is what would otherwise force the string or minor-units form.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "The units/nanos form is real (Google Cloud Billing, gRPC `google.type.Money`) but much rarer than the other three; a competent engineer outside that ecosystem may read it as over-engineered. Also `number` invites a float-precision objection, which is a correctness argument at other magnitudes even though not at this one.",
+      "tags": [
+        "wire-format"
+      ]
+    },
+    {
+      "item_id": "code_outorder_001",
+      "mechanism": "output_ordering",
+      "family": "sort_policy",
+      "language": "python",
+      "display_kind": "phrase",
+      "spec": "A Python script reads a text file and writes one line per distinct word, giving the word and how many times it occurred. Every distinct word is written. In what order do you write the lines?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_outorder_001::o1",
+          "canonical_index": 0,
+          "option_key": "count_alpha",
+          "display": "by count, largest first; words with equal counts alphabetically",
+          "gloss": "count desc, alpha tiebreak"
+        },
+        {
+          "canonical_id": "code_outorder_001::o2",
+          "canonical_index": 1,
+          "option_key": "count_firstseen",
+          "display": "by count, largest first; words with equal counts in the order they first appeared in the file",
+          "gloss": "count desc, first-seen tiebreak"
+        },
+        {
+          "canonical_id": "code_outorder_001::o3",
+          "canonical_index": 2,
+          "option_key": "alpha",
+          "display": "alphabetically",
+          "gloss": "alphabetical"
+        },
+        {
+          "canonical_id": "code_outorder_001::o4",
+          "canonical_index": 3,
+          "option_key": "firstseen",
+          "display": "in the order the words first appeared in the file",
+          "gloss": "first-appearance"
+        }
+      ],
+      "distinguishing_dimension": "ordering policy for a full frequency listing",
+      "co_validity_rationale": "The spec fixes the content of every line and requires all distinct words, so all four orderings are complete and correct exports of the same data. It does not call the output a ranking, a report of the commonest words, or an index, each of which would select one order.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "'how many times it occurred' may prime a frequency-ranked reading, pulling models toward the two count-first options. If T3 agrees, the repair is to describe the output as a word list with an occurrence column.",
+      "tags": [
+        "ordering"
+      ]
+    },
+    {
+      "item_id": "code_outorder_002",
+      "mechanism": "output_ordering",
+      "family": "sort_policy",
+      "language": "csv",
+      "display_kind": "phrase",
+      "spec": "A Python job exports user records to CSV. Each record has exactly the fields `email`, `id`, `created_at`, and `name`, listed here alphabetically; the source objects carry no intrinsic field order. In what column order do you write the header and rows?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_outorder_002::o1",
+          "canonical_index": 0,
+          "option_key": "id_first_alpha",
+          "display": "id, created_at, email, name",
+          "gloss": "identifier first, then alphabetical"
+        },
+        {
+          "canonical_id": "code_outorder_002::o2",
+          "canonical_index": 1,
+          "option_key": "alpha",
+          "display": "created_at, email, id, name",
+          "gloss": "strictly alphabetical"
+        },
+        {
+          "canonical_id": "code_outorder_002::o3",
+          "canonical_index": 2,
+          "option_key": "id_name_rest",
+          "display": "id, name, email, created_at",
+          "gloss": "identity fields first, metadata last"
+        },
+        {
+          "canonical_id": "code_outorder_002::o4",
+          "canonical_index": 3,
+          "option_key": "created_first",
+          "display": "created_at, id, name, email",
+          "gloss": "timestamp first, then identity, then rest"
+        }
+      ],
+      "distinguishing_dimension": "column order in a flat export",
+      "co_validity_rationale": "The spec states the source has no intrinsic field order and imposes no downstream contract, so any total order over the four columns is a complete, correct export. Each of the four listed orders follows a common export habit: key-first, mechanically alphabetical, human-reading order, and log/time-series order.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "ordering",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_outorder_003",
+      "mechanism": "output_ordering",
+      "family": "sort_policy",
+      "language": "python",
+      "display_kind": "phrase",
+      "spec": "A Python command-line tool prints the contents of a directory, one entry per line. The directory holds both files and subdirectories. In what order do you print the entries?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_outorder_003::o1",
+          "canonical_index": 0,
+          "option_key": "lex",
+          "display": "lexicographically by name",
+          "gloss": "plain lexicographic (ls)"
+        },
+        {
+          "canonical_id": "code_outorder_003::o2",
+          "canonical_index": 1,
+          "option_key": "dirs_first",
+          "display": "subdirectories first, then files, each group lexicographically by name",
+          "gloss": "directories grouped first (many file managers)"
+        },
+        {
+          "canonical_id": "code_outorder_003::o3",
+          "canonical_index": 2,
+          "option_key": "mtime",
+          "display": "most recently modified first",
+          "gloss": "by modification time"
+        },
+        {
+          "canonical_id": "code_outorder_003::o4",
+          "canonical_index": 3,
+          "option_key": "os_order",
+          "display": "in the order the filesystem returns them (os.scandir order)",
+          "gloss": "unsorted filesystem order"
+        }
+      ],
+      "distinguishing_dimension": "listing order for directory entries",
+      "co_validity_rationale": "The spec asks only that every entry be printed once. All four orders are deterministic for a given directory state, and each is the default of a widely used tool: `ls`, GUI file managers, `ls -t`, and raw `os.scandir`/`readdir` respectively.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "`os_order` is defensible (it is what `os.listdir` gives and what many scripts print) but a reviewer may call it non-deterministic across machines and so not co-valid with the others. Flagged for T3.",
+      "tags": [
+        "ordering"
+      ]
+    },
+    {
+      "item_id": "code_fileorg_001",
+      "mechanism": "file_organization",
+      "family": "layout_tree",
+      "language": "python",
+      "display_kind": "tree",
+      "spec": "You are starting a small Python command-line tool. It will be one module of code plus its tests, installed with pip from this repository. Which repository layout do you create?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_fileorg_001::o1",
+          "canonical_index": 0,
+          "option_key": "flat_root",
+          "display": "pyproject.toml\ntool.py\ntest_tool.py",
+          "gloss": "flat, module and test at the root"
+        },
+        {
+          "canonical_id": "code_fileorg_001::o2",
+          "canonical_index": 1,
+          "option_key": "src_layout",
+          "display": "pyproject.toml\nsrc/tool/__init__.py\ntests/test_tool.py",
+          "gloss": "src layout"
+        },
+        {
+          "canonical_id": "code_fileorg_001::o3",
+          "canonical_index": 2,
+          "option_key": "pkg_root",
+          "display": "pyproject.toml\ntool/__init__.py\ntests/test_tool.py",
+          "gloss": "package at the repository root"
+        },
+        {
+          "canonical_id": "code_fileorg_001::o4",
+          "canonical_index": 3,
+          "option_key": "tests_inside",
+          "display": "pyproject.toml\ntool/__init__.py\ntool/tests/test_tool.py",
+          "gloss": "tests inside the package"
+        }
+      ],
+      "distinguishing_dimension": "repository layout for a single-module tool",
+      "co_validity_rationale": "All four are installable, testable layouts that packaging tools and pytest handle without special configuration, and all four appear in widely used projects. The spec sets no constraint about import shadowing, shipping tests in the wheel, or multi-package growth, which is what would otherwise separate them.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "layout",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_fileorg_002",
+      "mechanism": "file_organization",
+      "family": "helper_placement",
+      "language": "python",
+      "display_kind": "tree",
+      "spec": "A Python package `report/` has three modules that each need the same short date-formatting helper. Where do you put the helper?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_fileorg_002::o1",
+          "canonical_index": 0,
+          "option_key": "utils",
+          "display": "report/utils.py",
+          "gloss": "utils module"
+        },
+        {
+          "canonical_id": "code_fileorg_002::o2",
+          "canonical_index": 1,
+          "option_key": "helpers",
+          "display": "report/helpers.py",
+          "gloss": "helpers module"
+        },
+        {
+          "canonical_id": "code_fileorg_002::o3",
+          "canonical_index": 2,
+          "option_key": "common_pkg",
+          "display": "report/common/dates.py",
+          "gloss": "common subpackage, named by topic"
+        },
+        {
+          "canonical_id": "code_fileorg_002::o4",
+          "canonical_index": 3,
+          "option_key": "dates_mod",
+          "display": "report/dates.py",
+          "gloss": "topic module at package root"
+        }
+      ],
+      "distinguishing_dimension": "placement of a shared helper",
+      "co_validity_rationale": "All three call sites import the helper the same way in every layout, and each layout is common in production packages. The spec gives no growth expectation, no import-cycle constraint, and no count of future helpers, which is what would otherwise favour a topic module or a subpackage.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "`utils.py` and `helpers.py` are close to synonyms in intent; they differ only in the chosen lexeme, so this item partly duplicates the function-naming mechanism. Scoring is unambiguous, but T3 may reasonably call it a weak file-organization item.",
+      "tags": [
+        "layout"
+      ]
+    },
+    {
+      "item_id": "code_fileorg_003",
+      "mechanism": "file_organization",
+      "family": "test_placement",
+      "language": "python",
+      "display_kind": "tree",
+      "spec": "A Python package `pkg/` contains `parser.py`. You are adding that module's unit tests. Where do you put the test file, and what do you call it?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_fileorg_003::o1",
+          "canonical_index": 0,
+          "option_key": "tests_test_prefix",
+          "display": "tests/test_parser.py",
+          "gloss": "top-level tests dir, test_ prefix"
+        },
+        {
+          "canonical_id": "code_fileorg_003::o2",
+          "canonical_index": 1,
+          "option_key": "tests_test_suffix",
+          "display": "tests/parser_test.py",
+          "gloss": "top-level tests dir, _test suffix"
+        },
+        {
+          "canonical_id": "code_fileorg_003::o3",
+          "canonical_index": 2,
+          "option_key": "adjacent",
+          "display": "pkg/parser_test.py",
+          "gloss": "adjacent to the module under test"
+        },
+        {
+          "canonical_id": "code_fileorg_003::o4",
+          "canonical_index": 3,
+          "option_key": "tests_unit",
+          "display": "tests/unit/test_parser.py",
+          "gloss": "tests dir with a unit/ tier"
+        }
+      ],
+      "distinguishing_dimension": "test file placement and naming",
+      "co_validity_rationale": "pytest collects all four by default configuration (`test_*.py` and `*_test.py` are both in the default `python_files` patterns, and it recurses). Each is the standing convention of a large ecosystem: pytest's own docs, the Go-style suffix used by many Python teams, colocation, and tiered test trees. The spec names no test runner configuration.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "layout"
+      ]
+    },
+    {
+      "item_id": "code_tie_001",
+      "mechanism": "tie_breaking",
+      "family": "rounding_rule",
+      "language": "python",
+      "display_kind": "phrase",
+      "spec": "A Python report rounds monetary averages to whole cents. Some values land exactly halfway between two cents. Which rounding rule do you implement?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_tie_001::o1",
+          "canonical_index": 0,
+          "option_key": "half_even",
+          "display": "round halves to the nearest even cent (2.5 -> 2, 3.5 -> 4)",
+          "gloss": "banker's rounding, IEEE 754 default"
+        },
+        {
+          "canonical_id": "code_tie_001::o2",
+          "canonical_index": 1,
+          "option_key": "half_up",
+          "display": "round halves upward, toward positive infinity (2.5 -> 3, -2.5 -> -2)",
+          "gloss": "half up"
+        },
+        {
+          "canonical_id": "code_tie_001::o3",
+          "canonical_index": 2,
+          "option_key": "half_away",
+          "display": "round halves away from zero (2.5 -> 3, -2.5 -> -3)",
+          "gloss": "half away from zero, schoolbook"
+        },
+        {
+          "canonical_id": "code_tie_001::o4",
+          "canonical_index": 3,
+          "option_key": "half_toward_zero",
+          "display": "round halves toward zero (2.5 -> 2, -2.5 -> -2)",
+          "gloss": "half toward zero"
+        }
+      ],
+      "distinguishing_dimension": "halfway rounding rule",
+      "co_validity_rationale": "All four are named, standardised halfway rules (IEEE 754 and the `decimal` module ship all four as ROUND_HALF_EVEN, ROUND_HALF_UP as defined there, ROUND_HALF_DOWN, and the away-from-zero variant), all four are deterministic, and all four are legal for ordinary reporting. The spec names no accounting standard or jurisdiction, which is the only thing that would fix the rule.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "tiebreak",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_tie_002",
+      "mechanism": "tie_breaking",
+      "family": "sort_tiebreak",
+      "language": "python",
+      "display_kind": "phrase",
+      "spec": "A leaderboard sorts players by score, highest first. Several players share a score. Each player record has a name, a numeric id, and the time their score was submitted, and they arrive in an input list. How do you order players who are tied?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_tie_002::o1",
+          "canonical_index": 0,
+          "option_key": "name",
+          "display": "alphabetically by name",
+          "gloss": "name ascending"
+        },
+        {
+          "canonical_id": "code_tie_002::o2",
+          "canonical_index": 1,
+          "option_key": "earliest",
+          "display": "earliest submission time first",
+          "gloss": "earliest first"
+        },
+        {
+          "canonical_id": "code_tie_002::o3",
+          "canonical_index": 2,
+          "option_key": "id",
+          "display": "by ascending numeric id",
+          "gloss": "id ascending"
+        },
+        {
+          "canonical_id": "code_tie_002::o4",
+          "canonical_index": 3,
+          "option_key": "stable",
+          "display": "leave them in their input order (stable sort)",
+          "gloss": "input order preserved"
+        }
+      ],
+      "distinguishing_dimension": "tiebreak key for an equal-score ranking",
+      "co_validity_rationale": "Every record carries all three tiebreak keys, so all four policies are implementable and all four are deterministic for a given input. Each is a live convention: alphabetical for human readability, earliest-first as a fairness rule, id order as an arbitrary but stable total order, and stability as the default of Python's sort. The spec does not say the ranking must be reproducible across differently ordered inputs, which is what would rule out stability.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "tiebreak"
+      ]
+    },
+    {
+      "item_id": "code_tie_003",
+      "mechanism": "tie_breaking",
+      "family": "collation",
+      "language": "python",
+      "display_kind": "phrase",
+      "spec": "A Python tool prints a sorted list of tag names. The tags mix upper- and lower-case initial letters, for example `apple`, `Banana`, `apricot`, `Apple`. Which ordering rule do you use?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_tie_003::o1",
+          "canonical_index": 0,
+          "option_key": "codepoint",
+          "display": "sort by code point, so all names beginning with a capital come first (Apple, Banana, apple, apricot)",
+          "gloss": "ASCII/code-point order"
+        },
+        {
+          "canonical_id": "code_tie_003::o2",
+          "canonical_index": 1,
+          "option_key": "casefold",
+          "display": "sort case-insensitively, leaving names that differ only in case in their input order (Apple, apple, apricot, Banana)",
+          "gloss": "case-insensitive, stable"
+        },
+        {
+          "canonical_id": "code_tie_003::o3",
+          "canonical_index": 2,
+          "option_key": "casefold_upper",
+          "display": "sort case-insensitively, and among names differing only in case put the capitalised one first (Apple, apple, apricot, Banana)",
+          "gloss": "case-insensitive, upper first on exact tie"
+        },
+        {
+          "canonical_id": "code_tie_003::o4",
+          "canonical_index": 3,
+          "option_key": "locale",
+          "display": "sort with the platform's locale collation (locale.strxfrm)",
+          "gloss": "locale collation"
+        }
+      ],
+      "distinguishing_dimension": "case handling in an alphabetical ordering",
+      "co_validity_rationale": "All four are deterministic given the input and the declared locale, all four are one line in Python (`sorted`, `key=str.lower`, `key=lambda s: (s.lower(), s)`, `key=locale.strxfrm`), and each is the default of a widely used tool: Python's own `sorted`, most CLI tools' `--ignore-case`, dictionary/index convention, and `sort` under a non-C locale.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "Options `casefold` and `casefold_upper` differ only in what happens to names that differ solely in case; a reviewer may find the pair too fine-grained, and the locale option may read as over-engineering for a tag list. Scoring is unambiguous because the model picks a label, not a phrase.",
+      "tags": [
+        "tiebreak"
+      ]
+    },
+    {
+      "item_id": "code_iface_001",
+      "mechanism": "interface_layout",
+      "family": "cli_surface",
+      "language": "cli",
+      "display_kind": "cli",
+      "spec": "You are designing the command line of a tool that reads one input file, converts it, and produces one output. It is run interactively and from shell scripts. Which invocation surface do you implement?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_iface_001::o1",
+          "canonical_index": 0,
+          "option_key": "two_positional",
+          "display": "conv INPUT OUTPUT",
+          "gloss": "two positionals"
+        },
+        {
+          "canonical_id": "code_iface_001::o2",
+          "canonical_index": 1,
+          "option_key": "pos_plus_o",
+          "display": "conv INPUT -o OUTPUT",
+          "gloss": "positional input, -o for output"
+        },
+        {
+          "canonical_id": "code_iface_001::o3",
+          "canonical_index": 2,
+          "option_key": "both_flags",
+          "display": "conv -i INPUT -o OUTPUT",
+          "gloss": "flags for both"
+        },
+        {
+          "canonical_id": "code_iface_001::o4",
+          "canonical_index": 3,
+          "option_key": "filter",
+          "display": "conv INPUT        # result goes to stdout",
+          "gloss": "Unix filter, redirect to a file"
+        }
+      ],
+      "distinguishing_dimension": "command-line invocation surface",
+      "co_validity_rationale": "All four let a user convert a file to a file from an interactive shell and from a script, and each is the surface of a well-known tool: `cp`-style positionals, `gcc`/`ffmpeg`-style `-o`, `tar`/`openssl`-style paired flags, and `sort`/`jq`-style filters. The spec says the tool produces one output; it does not say the tool must itself open the destination, which is the only requirement that would exclude the filter form.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "The filter option is arguably distinguished by the spec's 'produces one output' if that is read as 'writes an output file'. Wording was chosen to avoid this; T3 should check whether it succeeds.",
+      "tags": [
+        "interface",
+        "core"
+      ]
+    },
+    {
+      "item_id": "code_iface_002",
+      "mechanism": "interface_layout",
+      "family": "config_surface",
+      "language": "cli",
+      "display_kind": "phrase",
+      "spec": "A Python tool ships both as a library and as a command-line program. Operators need to set how many times a failed network call is retried, and they set it once per deployment. Where do you put that knob?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_iface_002::o1",
+          "canonical_index": 0,
+          "option_key": "flag",
+          "display": "a command-line flag: --retries N",
+          "gloss": "CLI flag"
+        },
+        {
+          "canonical_id": "code_iface_002::o2",
+          "canonical_index": 1,
+          "option_key": "env",
+          "display": "an environment variable: TOOL_RETRIES=N",
+          "gloss": "environment variable"
+        },
+        {
+          "canonical_id": "code_iface_002::o3",
+          "canonical_index": 2,
+          "option_key": "file",
+          "display": "a key in the tool's config file: retries = N",
+          "gloss": "config file key"
+        },
+        {
+          "canonical_id": "code_iface_002::o4",
+          "canonical_index": 3,
+          "option_key": "ctor",
+          "display": "a keyword argument on the library's client constructor: Client(retries=N)",
+          "gloss": "library constructor argument"
+        }
+      ],
+      "distinguishing_dimension": "where a deployment-level setting is configured",
+      "co_validity_rationale": "The tool already has all four surfaces (it is a library with a CLI, and the spec's operators deploy it), the setting is a plain integer that each surface carries, and each of the four is the primary knob location of a widely used tool. The spec says the value is set once per deployment, which no single surface owns; twelve-factor argues for env, packaging convention argues for the config file, and library-first design argues for the constructor.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "medium",
+      "risk_notes": "'once per deployment' was chosen to keep all four live, but it leans slightly toward env/config over a per-invocation flag. If T3 finds the lean too strong, cut the clause.",
+      "tags": [
+        "interface"
+      ]
+    },
+    {
+      "item_id": "code_iface_003",
+      "mechanism": "interface_layout",
+      "family": "cli_surface",
+      "language": "cli",
+      "display_kind": "cli",
+      "spec": "The same tool should let a user ask for more diagnostic output on the terminal. Which interface do you give that?",
+      "n_options": 4,
+      "options": [
+        {
+          "canonical_id": "code_iface_003::o1",
+          "canonical_index": 0,
+          "option_key": "store_true",
+          "display": "--verbose",
+          "gloss": "a single boolean flag"
+        },
+        {
+          "canonical_id": "code_iface_003::o2",
+          "canonical_index": 1,
+          "option_key": "negatable",
+          "display": "--verbose / --no-verbose",
+          "gloss": "a negatable flag pair"
+        },
+        {
+          "canonical_id": "code_iface_003::o3",
+          "canonical_index": 2,
+          "option_key": "counting",
+          "display": "-v, -vv, -vvv",
+          "gloss": "a repeatable counting flag"
+        },
+        {
+          "canonical_id": "code_iface_003::o4",
+          "canonical_index": 3,
+          "option_key": "level",
+          "display": "--log-level {error,warning,info,debug}",
+          "gloss": "an explicit level option"
+        }
+      ],
+      "distinguishing_dimension": "verbosity interface",
+      "co_validity_rationale": "All four give the user more diagnostic output on demand and are directly supported by argparse and by click. The spec asks only for 'more output on request'; it does not ask for several graduated levels, for the ability to switch verbosity back off after a config file set it, or for a machine-readable setting, each of which would select one form.",
+      "scoring": {
+        "method": "label_to_canonical_via_presentation_id",
+        "response_format": "single_label",
+        "valid_labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "self_rated_collapse_risk": "low",
+      "risk_notes": "",
+      "tags": [
+        "interface"
+      ]
+    }
+  ]
+}

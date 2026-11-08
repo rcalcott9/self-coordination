@@ -1,0 +1,22 @@
+{
+  "status": 400,
+  "request": {
+    "sku": {
+      "name": "DeveloperTier",
+      "capacity": 1
+    },
+    "properties": {
+      "model": {
+        "format": "OpenAI",
+        "name": "gpt-4o-mini-2024-07-18.ft-35363354629d42deba24ec94292431da-gate0",
+        "version": "1"
+      }
+    }
+  },
+  "response": {
+    "error": {
+      "code": "InvalidResourceProperties",
+      "message": "The specified SKU 'DeveloperTier' of account deployment is not supported by the model 'gpt-4o-mini' version: '2024-07-18'."
+    }
+  }
+}

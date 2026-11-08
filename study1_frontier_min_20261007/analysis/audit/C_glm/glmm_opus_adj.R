@@ -1,0 +1,20 @@
+suppressMessages(library(lme4))
+d <- subset(read.csv("trials.csv"), model=="claude")
+sy <- sd(d$y); sA <- sd(d$A)
+d$yz <- (d$y-mean(d$y))/sy; d$Az <- (d$A-mean(d$A))/sA
+set.seed(20261009)
+w <- character(0)
+fit <- withCallingHandlers(glmer(play ~ yz + Az + (1|array), data=d, family=binomial, control=glmerControl(optimizer="bobyqa", optCtrl=list(maxfun=1e5))),
+  warning=function(x){w <<- c(w, conditionMessage(x)); invokeRestart("muffleWarning")})
+b <- fixef(fit); se <- sqrt(diag(vcov(fit)))
+af <- allFit(fit, verbose=FALSE)
+ss <- summary(af)
+cat("warnings:", if (length(w)) paste(unique(w), collapse="; ") else "none", "\n")
+cat(sprintf("slope_y (orig units) %.3f Wald [%.3f, %.3f] | slope_A %.3f | RE_sd %.3f | singular %s\n",
+    b["yz"]/sy, (b["yz"]-1.96*se["yz"])/sy, (b["yz"]+1.96*se["yz"])/sy, b["Az"]/sA, as.data.frame(VarCorr(fit))$sdcor[1], isSingular(fit)))
+cat("allFit slope_y across optimizers (orig units):\n"); print(round(ss$fixef[,"yz"]/sy, 3))
+cat("allFit loglik:\n"); print(round(ss$llik, 4))
+pr <- tryCatch(confint(fit, parm="yz", method="profile", quiet=TRUE)/sy, error=function(e) c(NA,NA))
+cat("profile:", round(pr,3), "\n")
+bb <- bootMer(fit, function(x) fixef(x)["yz"]/sy, nsim=500, type="parametric")
+cat("parboot:", round(quantile(bb$t[,1], c(.025,.975), na.rm=TRUE),3), " n_ok", sum(!is.na(bb$t[,1])), "\n")

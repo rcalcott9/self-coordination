@@ -1,0 +1,41 @@
+{
+  "ok": 816,
+  "parse_fail": 0,
+  "transport_fail": 0,
+  "mismatch": 0,
+  "retries": 0,
+  "cost": 2.658389999999998,
+  "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/runs/e18_pilot/e18_pilot_20260910_013436.csv",
+  "stamp": "20260910_013436",
+  "stage": "pilot",
+  "n": 12,
+  "items": [
+    "x_argorder_replace",
+    "x_acronym_case",
+    "x_listkey",
+    "x_predicate",
+    "x_span",
+    "x_money",
+    "x_test_naming",
+    "x_logger_var",
+    "x_enum_value",
+    "x_dict_order",
+    "x_docstring",
+    "x_optional_type",
+    "x_init_export",
+    "x_migration_name",
+    "x_bool_env",
+    "x_id_field",
+    "x_constants_home"
+  ],
+  "endpoints": [
+    "gpt-4-turbo-2024-04-09",
+    "gpt-5.5-2026-04-23",
+    "claude-opus-4-5-20251101",
+    "claude-opus-5"
+  ],
+  "cap_per_endpoint": 4,
+  "seconds": 181.96238493919373,
+  "prompt_hash": "0339bee6",
+  "battery_hash": "8a7b8d16"
+}

@@ -1,0 +1,9 @@
+{
+  "generation": "GPT-5.5 / Claude Opus 5",
+  "delta": 1.7825797011126072,
+  "ci_lo": 0.0,
+  "ci_hi": 5.451894865249548,
+  "ci_excludes_zero": false,
+  "n_trials": 1200,
+  "n_stimuli": 7
+}

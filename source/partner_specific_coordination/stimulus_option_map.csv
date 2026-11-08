@@ -1,0 +1,7 @@
+stimulus,type,canonical_option_A,canonical_option_B,raw_position_labels,recoding_rule,note
+proto,focal,circle,square,"raw_choice in {LEFT, RIGHT}","AB: LEFT=A, RIGHT=B ; BA: LEFT=B, RIGHT=A  (column chosen_shape holds the semantic option)",
+nd2,focal,p2a,p2b,"raw_choice in {LEFT, RIGHT}","AB: LEFT=A, RIGHT=B ; BA: LEFT=B, RIGHT=A  (column chosen_shape holds the semantic option)",
+inkblot,matched,ib-A,ib-B,"raw_choice in {LEFT, RIGHT}","AB: LEFT=A, RIGHT=B ; BA: LEFT=B, RIGHT=A  (column chosen_shape holds the semantic option)",
+rot,matched,blob,blob-rot90,"raw_choice in {LEFT, RIGHT}","AB: LEFT=A, RIGHT=B ; BA: LEFT=B, RIGHT=A  (column chosen_shape holds the semantic option)",option A 'blob' is the SAME base blob image in rot & mirror; distinct choice context per stimulus
+noise,matched,noise-A,noise-B,"raw_choice in {LEFT, RIGHT}","AB: LEFT=A, RIGHT=B ; BA: LEFT=B, RIGHT=A  (column chosen_shape holds the semantic option)",
+mirror,matched,blob,blob-mirror,"raw_choice in {LEFT, RIGHT}","AB: LEFT=A, RIGHT=B ; BA: LEFT=B, RIGHT=A  (column chosen_shape holds the semantic option)",option A 'blob' is the SAME base blob image in rot & mirror; distinct choice context per stimulus

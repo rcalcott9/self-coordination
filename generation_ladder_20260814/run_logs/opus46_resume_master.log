@@ -1,0 +1,29 @@
+=== Opus 4.6 resume: Stage B, both arms, 45 stimuli ===
+    superseding auditor  : stageB_auditor_20260816_224444.csv
+    superseding salience : stageB_salience_20260817_022446.csv
+    Stage B both arms (n=30, 45 stimuli)   rc=0   70148s
+    stageB_auditor          1350 rows  valid 1.000  ok   stageB_auditor_20260817_153323.csv
+    stageB_salience         2700 rows  valid 1.000  ok   stageB_salience_20260817_155044.csv
+
+=== handing off to opus46_full ===
+=== Opus 4.6 robustness: select NEW pairs from the 45-stimulus universe ===
+    merged stageA           0+1 files ->  2700 rows, 45 stimuli
+    analyze A+B                          rc=0       6s
+    frozen selector (0 used stimuli excluded) rc=0       0s
+
+  8 NEW pairs selected
+     x8_contr_a       > x8_contr_b        holdout +0.517  sal +0.029  aud +0.016
+     x9_dir_c         > s_contrast        holdout +0.517  sal -0.064  aud +0.009
+     x3_tex_sd        > x2_lg_sq          holdout +0.331  sal +0.040  aud -0.006
+     x3_tex_sp        > d_dens_extreme    holdout +0.517  sal -0.058  aud +0.033
+     x3_tex_dp        > s_density         holdout +0.517  sal +0.070  aud +0.048
+     x6_oi_b          > x2_lg_ct          holdout +0.517  sal +0.029  aud -0.011
+     rot              > x1_sym_mid        holdout +0.480  sal -0.054  aud +0.021
+     x9_dir_b         > d_texture         holdout +0.517  sal -0.046  aud +0.044
+  no prior Stage C for this model - full 45-stimulus pool used
+    payoff screen (n=10, safe [3, 9])  rc=0     140s
+
+  payoff screen: ATTEMPT at SAFE=9 = 0.9625  (limit 0.95)
+  STOP: robustness sample Stage-C-uninformative (payoff saturation).
+
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/analysis/opus46_robustness.json

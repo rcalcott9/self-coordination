@@ -1,0 +1,14 @@
+=== analysis inputs ===
+  Stage A   stageA_MERGED_20260815_010432.csv
+  auditor   stageB_auditor_MERGED_20260815_010432.csv
+  salience  stageB_salience_MERGED_20260815_010432.csv
+Traceback (most recent call last):
+  File "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/policy_specific_self_coordination_20260812_1401/code/analyze_stage_ab.py", line 744, in <module>
+    main()
+  File "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/policy_specific_self_coordination_20260812_1401/code/analyze_stage_ab.py", line 560, in main
+    fresh = analyze_stage_a(a, man)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/policy_specific_self_coordination_20260812_1401/code/analyze_stage_ab.py", line 175, in analyze_stage_a
+    delta_vs_old=round(met["match_unbiased"] - float(m[prior_key]), 4),
+                                               ^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''

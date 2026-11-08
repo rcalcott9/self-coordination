@@ -1,0 +1,311 @@
+{
+ "stimulus": "rot",
+ "profile": [
+  {
+   "provider": "OpenAI",
+   "model": "GPT-4o",
+   "generation_order": 1,
+   "n_stimuli_battery": 15,
+   "n_valid": 60,
+   "self_match": 0.4938,
+   "ci_lo": 0.4915,
+   "ci_hi": 0.548,
+   "holdout": 0.4851,
+   "form_consistency": 0.4,
+   "p_left": 0.8,
+   "fallback": "True",
+   "rank_in_battery": 13,
+   "generic_salience": 0.092,
+   "auditor_prediction": 0.61,
+   "hedge_rate_stage_a": 0.15,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "OpenAI",
+   "model": "GPT-5",
+   "generation_order": 2,
+   "n_stimuli_battery": 45,
+   "n_valid": 60,
+   "self_match": 0.6023,
+   "ci_lo": 0.5192,
+   "ci_hi": 0.7407,
+   "holdout": 0.6299,
+   "form_consistency": 0.5333,
+   "p_left": 0.2667,
+   "fallback": "True",
+   "rank_in_battery": 32,
+   "generic_salience": 0.2103,
+   "auditor_prediction": 0.6223,
+   "hedge_rate_stage_a": 0.0,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "OpenAI",
+   "model": "GPT-5.4",
+   "generation_order": 3,
+   "n_stimuli_battery": 15,
+   "n_valid": 60,
+   "self_match": 0.587,
+   "ci_lo": 0.5119,
+   "ci_hi": 0.7175,
+   "holdout": 0.669,
+   "form_consistency": 0.9667,
+   "p_left": 0.5167,
+   "fallback": "False",
+   "rank_in_battery": 11,
+   "generic_salience": 0.3648,
+   "auditor_prediction": 0.6107,
+   "hedge_rate_stage_a": 0.0,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "OpenAI",
+   "model": "GPT-5.5",
+   "generation_order": 4,
+   "n_stimuli_battery": 15,
+   "n_valid": 60,
+   "self_match": 0.5729,
+   "ci_lo": 0.5056,
+   "ci_hi": 0.6955,
+   "holdout": 0.5034,
+   "form_consistency": 0.6667,
+   "p_left": 0.3333,
+   "fallback": "True",
+   "rank_in_battery": 11,
+   "generic_salience": 0.1738,
+   "auditor_prediction": 0.6233,
+   "hedge_rate_stage_a": 0.0,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "Anthropic",
+   "model": "Opus 4.5",
+   "generation_order": 1,
+   "n_stimuli_battery": 45,
+   "n_valid": 60,
+   "self_match": 0.6746,
+   "ci_lo": 0.5729,
+   "ci_hi": 0.8169,
+   "holdout": 0.6299,
+   "form_consistency": 0.6667,
+   "p_left": 0.3333,
+   "fallback": "True",
+   "rank_in_battery": 27,
+   "generic_salience": 0.1775,
+   "auditor_prediction": 0.6603,
+   "hedge_rate_stage_a": 0.4,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "Anthropic",
+   "model": "Opus 4.6",
+   "generation_order": 2,
+   "n_stimuli_battery": 45,
+   "n_valid": 60,
+   "self_match": 1.0,
+   "ci_lo": 1.0,
+   "ci_hi": 1.0,
+   "holdout": 1.0,
+   "form_consistency": 1.0,
+   "p_left": 0.5,
+   "fallback": "False",
+   "rank_in_battery": 1,
+   "generic_salience": 0.176,
+   "auditor_prediction": 0.6787,
+   "hedge_rate_stage_a": 0.0,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "Anthropic",
+   "model": "Opus 4.7",
+   "generation_order": 3,
+   "n_stimuli_battery": 45,
+   "n_valid": 60,
+   "self_match": 1.0,
+   "ci_lo": 1.0,
+   "ci_hi": 1.0,
+   "holdout": 1.0,
+   "form_consistency": 1.0,
+   "p_left": 0.5,
+   "fallback": "False",
+   "rank_in_battery": 1,
+   "generic_salience": 0.1953,
+   "auditor_prediction": 0.6677,
+   "hedge_rate_stage_a": 0.0,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "Anthropic",
+   "model": "Opus 4.8",
+   "generation_order": 4,
+   "n_stimuli_battery": 45,
+   "n_valid": 60,
+   "self_match": 0.8734,
+   "ci_lo": 0.765,
+   "ci_hi": 0.9667,
+   "holdout": 0.9333,
+   "form_consistency": 0.8667,
+   "p_left": 0.5667,
+   "fallback": "False",
+   "rank_in_battery": 30,
+   "generic_salience": 0.23,
+   "auditor_prediction": 0.686,
+   "hedge_rate_stage_a": 0.0,
+   "n_stage_a_rationales": 60
+  },
+  {
+   "provider": "Anthropic",
+   "model": "Opus 5",
+   "generation_order": 5,
+   "n_stimuli_battery": 15,
+   "n_valid": 60,
+   "self_match": 0.4915,
+   "ci_lo": 0.4915,
+   "ci_hi": 0.5373,
+   "holdout": 0.4828,
+   "form_consistency": 0.2,
+   "p_left": 0.9,
+   "fallback": "True",
+   "rank_in_battery": 14,
+   "generic_salience": 0.1738,
+   "auditor_prediction": 0.6803,
+   "hedge_rate_stage_a": 0.016666666666666666,
+   "n_stage_a_rationales": 60
+  }
+ ],
+ "betting": [
+  {
+   "provider": "Anthropic",
+   "model": "Opus 4.6",
+   "generation_order": 2,
+   "sources": [
+    "payoffscreen_20260818_110236.csv"
+   ],
+   "hedge_rate_stage_c_rot": 0.4,
+   "n_rot_rationales": 20,
+   "hedge_rate_stage_c_other": 0.0,
+   "n_other_rationales": 300,
+   "by_payoff": [
+    {
+     "safe_payoff": 3.0,
+     "rot_attempt": 0.5,
+     "rot_ci_lo": 0.2,
+     "rot_ci_hi": 0.8,
+     "n_rot": 10,
+     "battery_attempt": 1.0,
+     "n_other": 150
+    },
+    {
+     "safe_payoff": 9.0,
+     "rot_attempt": 0.4,
+     "rot_ci_lo": 0.1,
+     "rot_ci_hi": 0.7,
+     "n_rot": 10,
+     "battery_attempt": 1.0,
+     "n_other": 150
+    }
+   ]
+  },
+  {
+   "provider": "Anthropic",
+   "model": "Opus 4.7",
+   "generation_order": 3,
+   "sources": [
+    "payoffscreen_20260815_132427.csv",
+    "stageC_20260815_132504.csv"
+   ],
+   "hedge_rate_stage_c_rot": 0.39285714285714285,
+   "n_rot_rationales": 140,
+   "hedge_rate_stage_c_other": 0.04857142857142857,
+   "n_other_rationales": 700,
+   "by_payoff": [
+    {
+     "safe_payoff": 3.0,
+     "rot_attempt": 0.95,
+     "rot_ci_lo": 0.875,
+     "rot_ci_hi": 1.0,
+     "n_rot": 40,
+     "battery_attempt": 1.0,
+     "n_other": 200
+    },
+    {
+     "safe_payoff": 5.0,
+     "rot_attempt": 0.5,
+     "rot_ci_lo": 0.3333333333333333,
+     "rot_ci_hi": 0.6666666666666666,
+     "n_rot": 30,
+     "battery_attempt": 1.0,
+     "n_other": 150
+    },
+    {
+     "safe_payoff": 7.0,
+     "rot_attempt": 0.2,
+     "rot_ci_lo": 0.06666666666666667,
+     "rot_ci_hi": 0.36666666666666664,
+     "n_rot": 30,
+     "battery_attempt": 0.8933333333333333,
+     "n_other": 150
+    },
+    {
+     "safe_payoff": 9.0,
+     "rot_attempt": 0.0,
+     "rot_ci_lo": 0.0,
+     "rot_ci_hi": 0.0,
+     "n_rot": 40,
+     "battery_attempt": 0.765,
+     "n_other": 200
+    }
+   ]
+  },
+  {
+   "provider": "Anthropic",
+   "model": "Opus 5",
+   "generation_order": 5,
+   "sources": [
+    "stageC_20260812_161428.csv"
+   ],
+   "hedge_rate_stage_c_rot": 0.3333333333333333,
+   "n_rot_rationales": 120,
+   "hedge_rate_stage_c_other": 0.08055555555555556,
+   "n_other_rationales": 360,
+   "by_payoff": [
+    {
+     "safe_payoff": 3.0,
+     "rot_attempt": 1.0,
+     "rot_ci_lo": 1.0,
+     "rot_ci_hi": 1.0,
+     "n_rot": 30,
+     "battery_attempt": 1.0,
+     "n_other": 90
+    },
+    {
+     "safe_payoff": 5.0,
+     "rot_attempt": 1.0,
+     "rot_ci_lo": 1.0,
+     "rot_ci_hi": 1.0,
+     "n_rot": 30,
+     "battery_attempt": 1.0,
+     "n_other": 90
+    },
+    {
+     "safe_payoff": 7.0,
+     "rot_attempt": 0.5666666666666667,
+     "rot_ci_lo": 0.4,
+     "rot_ci_hi": 0.7333333333333333,
+     "n_rot": 30,
+     "battery_attempt": 0.9777777777777777,
+     "n_other": 90
+    },
+    {
+     "safe_payoff": 9.0,
+     "rot_attempt": 0.0,
+     "rot_ci_lo": 0.0,
+     "rot_ci_hi": 0.0,
+     "n_rot": 30,
+     "battery_attempt": 0.5666666666666667,
+     "n_other": 90
+    }
+   ]
+  }
+ ]
+}

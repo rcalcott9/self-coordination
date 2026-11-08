@@ -1,0 +1,163 @@
+{
+  "primary": {
+    "label": "ALL 5 pairs (PRIMARY)",
+    "delta": 0.22888713229757784,
+    "or_": 1.2572001337111505,
+    "ci_lo": -10.301354515713612,
+    "ci_hi": 12.951700446307603,
+    "n_trials": 1200,
+    "n_stimuli": 10,
+    "n_pairs": 5,
+    "ci_excludes_zero": false
+  },
+  "permutation": {
+    "observed": 0.008333333333333349,
+    "p_one_sided": 0.2574371281435928,
+    "n_perm": 20000,
+    "at_floor": false
+  },
+  "per_pair": [
+    {
+      "pair": 1,
+      "pair_id": "gpt__x2_lg_sq__vs__x10_cen_b",
+      "model": "GPT-5",
+      "high": "x2_lg_sq",
+      "low": "x10_cen_b",
+      "p_high": 0.9666666666666667,
+      "p_low": 0.9166666666666666,
+      "gap": 0.050000000000000044,
+      "n": 240
+    },
+    {
+      "pair": 2,
+      "pair_id": "gpt__s_convexity__vs__x5_cs_sub",
+      "model": "GPT-5",
+      "high": "s_convexity",
+      "low": "x5_cs_sub",
+      "p_high": 1.0,
+      "p_low": 1.0,
+      "gap": 0.0,
+      "n": 240
+    },
+    {
+      "pair": 3,
+      "pair_id": "gpt__x8_contr_b__vs__a_chev_ud",
+      "model": "GPT-5",
+      "high": "x8_contr_b",
+      "low": "a_chev_ud",
+      "p_high": 0.8666666666666667,
+      "p_low": 0.8833333333333333,
+      "gap": -0.016666666666666607,
+      "n": 240
+    },
+    {
+      "pair": 4,
+      "pair_id": "gpt__x3_tex_sd__vs__x10_cen_a",
+      "model": "GPT-5",
+      "high": "x3_tex_sd",
+      "low": "x10_cen_a",
+      "p_high": 0.9833333333333333,
+      "p_low": 0.975,
+      "gap": 0.008333333333333304,
+      "n": 240
+    },
+    {
+      "pair": 5,
+      "pair_id": "gpt__x6_oi_c__vs__x3_tex_dp",
+      "model": "GPT-5",
+      "high": "x6_oi_c",
+      "low": "x3_tex_dp",
+      "p_high": 1.0,
+      "p_low": 1.0,
+      "gap": 0.0,
+      "n": 240
+    }
+  ],
+  "n_positive": 2,
+  "monotonicity": [
+    {
+      "safe": 3.0,
+      "p_high": 1.0,
+      "p_low": 1.0,
+      "gap": 0.0
+    },
+    {
+      "safe": 5.0,
+      "p_high": 0.98,
+      "p_low": 1.0,
+      "gap": -0.020000000000000018
+    },
+    {
+      "safe": 7.0,
+      "p_high": 0.9733333333333334,
+      "p_low": 0.98,
+      "gap": -0.006666666666666599
+    },
+    {
+      "safe": 9.0,
+      "p_high": 0.9,
+      "p_low": 0.84,
+      "gap": 0.06000000000000005
+    }
+  ],
+  "leave_one_out": [
+    {
+      "label": "omit pair 1 (x2_lg_sq>x10_cen_b)",
+      "delta": -0.062260652006844955,
+      "or_": 0.9396379363552457,
+      "ci_lo": -13.325362688331087,
+      "ci_hi": 14.151802490205682,
+      "n_trials": 960,
+      "n_stimuli": 8,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 2 (s_convexity>x5_cs_sub)",
+      "delta": 0.23579103476725097,
+      "or_": 1.2659097514002098,
+      "ci_lo": -2.1865043779902034,
+      "ci_hi": 3.3074711785811566,
+      "n_trials": 960,
+      "n_stimuli": 8,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 3 (x8_contr_b>a_chev_ud)",
+      "delta": 0.8365621395964185,
+      "or_": 2.3084173032350925,
+      "ci_lo": -11.387071453100301,
+      "ci_hi": 13.86570491238162,
+      "n_trials": 960,
+      "n_stimuli": 8,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 4 (x3_tex_sd>x10_cen_a)",
+      "delta": 0.20564082244195103,
+      "or_": 1.2283119426703826,
+      "ci_lo": -13.37996081511426,
+      "ci_hi": 14.489291716057787,
+      "n_trials": 960,
+      "n_stimuli": 8,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 5 (x6_oi_c>x3_tex_dp)",
+      "delta": 0.23579103476725485,
+      "or_": 1.2659097514002147,
+      "ci_lo": -2.147279130221039,
+      "ci_hi": 3.452722740331475,
+      "n_trials": 960,
+      "n_stimuli": 8,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    }
+  ],
+  "proto_excluded": null,
+  "replication_declared": false,
+  "source": "stageC_20260815_102354.csv"
+}

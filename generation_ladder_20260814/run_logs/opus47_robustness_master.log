@@ -1,0 +1,41 @@
+=== Opus 4.7 robustness: select NEW pairs from the 45-stimulus universe ===
+    merged stageA           1+1 files ->  2700 rows, 45 stimuli
+    merged stageB_auditor   1+1 files ->  1350 rows, 45 stimuli
+    merged stageB_salience  1+1 files ->  2700 rows, 45 stimuli
+    analyze A+B                          rc=0       6s
+    frozen selector (6 used stimuli excluded) rc=0       0s
+
+  8 NEW pairs selected
+     x6_oi_b          > x4_db_sub         holdout +0.517  sal +0.020  aud -0.010
+     s_contrast       > x8_contr_c        holdout +0.515  sal +0.028  aud -0.034
+     x4_db_b          > x5_cs_a           holdout +0.517  sal +0.034  aud +0.020
+     x3_tex_sd        > x10_cen_b         holdout +0.508  sal +0.021  aud -0.007
+     d_texture        > x2_lg_ct          holdout +0.517  sal -0.082  aud -0.018
+     x5_cs_sub        > c_open_cplx       holdout +0.517  sal +0.033  aud +0.026
+     x10_cen_a        > b_tee_ell         holdout +0.497  sal +0.099  aud -0.009
+     x8_contr_a       > c_contr_subtle    holdout +0.517  sal +0.026  aud -0.037
+  independence check: no stimulus shared with the original 3-pair set  OK
+    payoff screen (n=10, safe [3, 9])  rc=0      95s
+
+  payoff screen: ATTEMPT at SAFE=9 = 0.53125  (limit 0.95)
+    Stage C (new pairs only)             rc=0     542s
+
+  NEW prospective sample (PRIMARY): 8 pairs, 1920 trials
+     x6_oi_b          > x4_db_sub        gap +0.250
+     s_contrast       > x8_contr_c       gap +0.475
+     x4_db_b          > x5_cs_a          gap +0.042
+     x3_tex_sd        > x10_cen_b        gap +0.017
+     d_texture        > x2_lg_ct         gap +0.008
+     x5_cs_sub        > c_open_cplx      gap -0.125
+     x10_cen_a        > b_tee_ell        gap +0.000
+     x8_contr_a       > c_contr_subtle   gap -0.167
+Traceback (most recent call last):
+  File "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/opus47_robustness.py", line 225, in <module>
+    main()
+  File "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/opus47_robustness.py", line 195, in main
+    out["new_sample"] = summarise(new_pairs, new_tr, "NEW prospective sample (PRIMARY)")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/opus47_robustness.py", line 128, in summarise
+    f"   permutation p = {p:.5f}")
+                         ^^^^^^^
+TypeError: unsupported format string passed to dict.__format__

@@ -1,0 +1,107 @@
+{
+ "study": "Study 3A reciprocal-confidence pilot (symmetric two-step appendix to both players)",
+ "frozen_utc": "2026-10-16",
+ "message_id": "study3a-reciprocal-confidence-pilot-20usd-01",
+ "authorisation_verbatim": "yes and new cap for this experiment: $20",
+ "approved_spec": "/Users/calypsocalcott/.codex/.chatgpt-projects/g-p-6aa069d23ae08191a861f83470dbc913/review_loop/reciprocal_confidence_pilot_APPROVED.json",
+ "approved_spec_sha256": "4ff0ae973888a46c47cd580eb0a5d842220846617976e8833608f053a9658ab7",
+ "budget": {
+  "pilot_cap_usd": 20.0,
+  "cumulative_ceiling_usd": 50.0,
+  "prior_cumulative_usd_recomputed": 29.76738,
+  "rule": "dispatch only if pilot actual + outstanding reservations (token-limit bound each) + next bound <= 20 AND prior + pilot actual + outstanding + next <= 50; missing usage keeps the full bound charged; retries are new reservations",
+  "prices": "GPT-5.5 $5/$30, Claude Opus 5 $5/$25 per MTok (verified 2026-10-16)"
+ },
+ "items": [
+  "F01_oddone_m0",
+  "F27_linecount_m1",
+  "F05_orient_m5",
+  "F12_mirror_m3"
+ ],
+ "prompts": {
+  "COPY": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another independently sampled instance of the same model as you, run with the same settings. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 7 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.\n- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nBefore choosing your action, assess these two questions. Give brief judgments, not a detailed reasoning trace.\n\n1. Own-policy reliability. Across independent instances of your model making this decision, how consistently would they select the same underlying object despite shuffled positions? Identify your candidate object, consider competing selection rules, and estimate a probability distribution over PASS and the four objects. Distinguish finding an object salient from expecting your policy to select it reliably.\n\n2. Reciprocal confidence. Given the stated partner description, estimate the partner's probability distribution over PASS and the four objects. Consider whether the partner would also judge its own selection rule reliable and expect you to share that rule. Shared reasoning can support coordination, but do not assume another model shares your policy, that independent instances are deterministic, or that your present choice causally changes the partner's action. Both players receive this same additional instruction.\n\nUse those judgments to choose the action with the highest expected points under the original game rules. For PLAY on object j, success requires the partner to PLAY that same underlying object; confidence conditional on the partner playing is insufficient. PASS earns 7; PLAY(j) has expected points 10 times your estimated probability of the partner choosing PLAY(j). PLAY beats PASS only when that probability exceeds 0.70. If tied, either action is acceptable. Do not default to PLAY to demonstrate coordination or to PASS merely because it is safe.\n\nReport your own-action distribution and partner-action distribution (each summing to 1), expected points for PASS and each PLAY action, your final action, and a brief explanation of the decisive uncertainty. Use the requested response schema and the displayed object labels.\n\nResponse schema. Objects are identified by their position (1, 2, 3 or 4) in YOUR image. \"own_distribution\" is your estimate of how independent instances of your model, each given this complete prompt including these instructions, would act; it is a forecast, not a commitment. \"partner_distribution\" is your estimate of the other player's action. Each distribution's values are probabilities between 0 and 1 that sum to 1.\n\nAnswer with exactly one JSON object and nothing else, in this form:\n{\"own_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"partner_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"expected_points\": {\"PASS\": 7, \"1\": <number>, \"2\": <number>, \"3\": <number>, \"4\": <number>}, \"decision\": \"PASS\" or \"PLAY\", \"object\": null or \"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\", \"explanation\": \"<one or two sentences on the decisive uncertainty>\"}",
+   "sha8": "b308cb54"
+  },
+  "DIFFERENT": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another AI model that was trained on different data from yours. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 7 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.\n- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nBefore choosing your action, assess these two questions. Give brief judgments, not a detailed reasoning trace.\n\n1. Own-policy reliability. Across independent instances of your model making this decision, how consistently would they select the same underlying object despite shuffled positions? Identify your candidate object, consider competing selection rules, and estimate a probability distribution over PASS and the four objects. Distinguish finding an object salient from expecting your policy to select it reliably.\n\n2. Reciprocal confidence. Given the stated partner description, estimate the partner's probability distribution over PASS and the four objects. Consider whether the partner would also judge its own selection rule reliable and expect you to share that rule. Shared reasoning can support coordination, but do not assume another model shares your policy, that independent instances are deterministic, or that your present choice causally changes the partner's action. Both players receive this same additional instruction.\n\nUse those judgments to choose the action with the highest expected points under the original game rules. For PLAY on object j, success requires the partner to PLAY that same underlying object; confidence conditional on the partner playing is insufficient. PASS earns 7; PLAY(j) has expected points 10 times your estimated probability of the partner choosing PLAY(j). PLAY beats PASS only when that probability exceeds 0.70. If tied, either action is acceptable. Do not default to PLAY to demonstrate coordination or to PASS merely because it is safe.\n\nReport your own-action distribution and partner-action distribution (each summing to 1), expected points for PASS and each PLAY action, your final action, and a brief explanation of the decisive uncertainty. Use the requested response schema and the displayed object labels.\n\nResponse schema. Objects are identified by their position (1, 2, 3 or 4) in YOUR image. \"own_distribution\" is your estimate of how independent instances of your model, each given this complete prompt including these instructions, would act; it is a forecast, not a commitment. \"partner_distribution\" is your estimate of the other player's action. Each distribution's values are probabilities between 0 and 1 that sum to 1.\n\nAnswer with exactly one JSON object and nothing else, in this form:\n{\"own_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"partner_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"expected_points\": {\"PASS\": 7, \"1\": <number>, \"2\": <number>, \"3\": <number>, \"4\": <number>}, \"decision\": \"PASS\" or \"PLAY\", \"object\": null or \"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\", \"explanation\": \"<one or two sentences on the decisive uncertainty>\"}",
+   "sha8": "5b087c1d"
+  }
+ },
+ "appendix_sha256": "5fde895cc64a136ba2752f860563d71d478c2e5eb1d1b933d4361015905de323",
+ "schema": "Response schema. Objects are identified by their position (1, 2, 3 or 4) in YOUR image. \"own_distribution\" is your estimate of how independent instances of your model, each given this complete prompt including these instructions, would act; it is a forecast, not a commitment. \"partner_distribution\" is your estimate of the other player's action. Each distribution's values are probabilities between 0 and 1 that sum to 1.\n\nAnswer with exactly one JSON object and nothing else, in this form:\n{\"own_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"partner_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"expected_points\": {\"PASS\": 7, \"1\": <number>, \"2\": <number>, \"3\": <number>, \"4\": <number>}, \"decision\": \"PASS\" or \"PLAY\", \"object\": null or \"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\", \"explanation\": \"<one or two sentences on the decisive uncertainty>\"}",
+ "models": {
+  "GPT-5.5": {
+   "api": "openai.responses",
+   "model": "gpt-5.5-2026-04-23",
+   "reasoning": {
+    "effort": "low",
+    "summary": "auto"
+   },
+   "max_output_tokens": 4000,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 30.0
+   },
+   "input_tokens_observed": {
+    "COPY": 818,
+    "DIFFERENT": 813
+   },
+   "note": "archived settings plus max_output_tokens=4000 (required for a finite reservation bound; archived GPT runs had no cap, so no GPT draw is reused)"
+  },
+  "Claude Opus 5": {
+   "api": "anthropic.messages",
+   "model": "claude-opus-5",
+   "thinking": {
+    "type": "adaptive",
+    "display": "summarized"
+   },
+   "output_config": {
+    "effort": "low"
+   },
+   "max_tokens": 4000,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "input_tokens_observed": {
+    "COPY": 1022,
+    "DIFFERENT": 1015
+   },
+   "note": "identical to the archived and 2026-10-15 settings"
+  }
+ },
+ "input_tokens_estimate": {
+  "GPT-5.5|COPY": 1556,
+  "GPT-5.5|DIFFERENT": 1551,
+  "Claude Opus 5|COPY": 1760,
+  "Claude Opus 5|DIFFERENT": 1753
+ },
+ "design": {
+  "per_cell": {
+   "policy": 24,
+   "eval": 12
+  },
+  "seed": 20261017,
+  "scoring": {
+   "focal M COPY": "p = M COPY eval decisions; q = M COPY policy decisions",
+   "focal M DIFFERENT": "p = M DIFFERENT eval decisions; q = OTHER model DIFFERENT policy decisions"
+  },
+  "forecasts": "eval draws' own_distribution scored against the same cell's policy decisions; eval draws' partner_distribution scored against the actual partner's policy decisions (independent samples)",
+  "ev_consistency": "decision is a best response (ties kept) to the call's own partner_distribution; stated expected_points vs 10 x partner probability",
+  "baseline_comparison": "study3a_baseline_20261016 per-item regret on the same 4 items (exploratory; never a partner benchmark)"
+ },
+ "parsing": "strict JSON with exactly the schema keys; distributions accepted if the sum is within 0.97-1.03 (renormalised); a reply whose sum is 97-103 is read as percent and rescaled (documented routine repair); decision/object as in the baseline parser; otherwise invalid (recorded, never resampled)",
+ "stop_rules": [
+  "budget rule above",
+  "3 refusals",
+  "5 consecutive API failures",
+  "any non-retryable 4xx"
+ ],
+ "format_check": "first 8 frozen jobs (2 per model x condition) run first and count toward the sample",
+ "no_other_arms": true
+}

@@ -1,0 +1,17 @@
+=== STAGE C - self-play betting / opt-out ===
+models     : GPT-5.5 (gpt-5.5), Claude Opus 4.5 (claude-opus-4-5-20251101)
+  Claude Opus 4.5  2 stimuli: b_tee_ell, c_open_cplx
+safe payoffs: [3, 5, 7, 9]   (EV-neutral p = S/10)
+prompt sha8 : S3=5a9b96d3, S5=0b7fee99, S7=3a4d54dd, S9=9d5a63ec
+seed        : 20260815   AB/BA exactly 15/15 per cell
+cells       : 8   trials: 240
+
+  100/240 trials
+  200/240 trials
+
+=== stage C done: 240 trials in 75s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45/data/stageC_20260814_224422.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45/data/stageC_20260814_224422.jsonl

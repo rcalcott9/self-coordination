@@ -1,0 +1,181 @@
+{
+ "study": "Study 3A BASELINE (no intervention): normalized full-action best-response regret, focal GPT-5.5 and Claude Opus 5, COPY vs DIFFERENT",
+ "frozen_utc": "2026-10-16",
+ "message_id": "study3a-baseline-execution-30usd-01",
+ "authorisation_verbatim": [
+  "no we first want to test baseline performance on the stag hunt with the relevant stimuli (test in stag hunt to avoid the thing we found previously that weak policies in study 1 are strong here)",
+  "yes. this is good. run exactly this experiment. i want a resulting plot that shows regret for each model, relative to an optimal (low regret) benchmark",
+  "your budget is $30"
+ ],
+ "budget": {
+  "cumulative_cap_usd": 30.0,
+  "prior_cumulative_usd_recomputed": 4.75248,
+  "remaining_usd": 25.24752,
+  "rule": "dispatch only if prior + run actual + outstanding reservations (each at its token-limit bound) + next bound <= 30; a call with missing usage keeps its full bound charged; each retry is a new reservation",
+  "expected_new_usd_at_pilot_means": 22.17,
+  "hard_bound_all_new_usd": 299.55,
+  "prices_verified": "2026-10-16: GPT-5.5 $5/$30, Claude Opus 5 $5/$25 per MTok (developers.openai.com model page; platform.claude.com pricing)"
+ },
+ "items": [
+  {
+   "array": "F01_oddone_m0",
+   "historical_label_provenance": "HIGH (two_model Stage A)"
+  },
+  {
+   "array": "F02_size_m2",
+   "historical_label_provenance": "HIGH (two_model Stage A)"
+  },
+  {
+   "array": "F03_symmetry_m1",
+   "historical_label_provenance": "HIGH (two_model Stage A)"
+  },
+  {
+   "array": "F05_orient_m1",
+   "historical_label_provenance": "WEAK (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F05_orient_m5",
+   "historical_label_provenance": "WEAK (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F07_contrast_m7",
+   "historical_label_provenance": "CLEAR (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F09_convexity_m5",
+   "historical_label_provenance": "CLEAR (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F10_curvature_m5",
+   "historical_label_provenance": "CLEAR (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F11_noise_m0",
+   "historical_label_provenance": "LOW (two_model Stage A)"
+  },
+  {
+   "array": "F11_noise_m3",
+   "historical_label_provenance": "WEAK (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F12_mirror_m3",
+   "historical_label_provenance": "WEAK (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F12_mirror_m4",
+   "historical_label_provenance": "WEAK (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F14_bars_m1",
+   "historical_label_provenance": "NEAR_ABOVE (two_model Stage A)"
+  },
+  {
+   "array": "F15_ring_m0",
+   "historical_label_provenance": "NEAR_ABOVE (two_model Stage A)"
+  },
+  {
+   "array": "F18_stroke_m1",
+   "historical_label_provenance": "NEAR_BELOW (two_model Stage A)"
+  },
+  {
+   "array": "F27_linecount_m1",
+   "historical_label_provenance": "LOW (two_model Stage A)"
+  },
+  {
+   "array": "F36_split_m0",
+   "historical_label_provenance": "NEAR_BELOW (two_model Stage A)"
+  },
+  {
+   "array": "F41_contain_m1",
+   "historical_label_provenance": "CLEAR (gpt_staghunt_pilot Stage A)"
+  },
+  {
+   "array": "F41_contain_m2",
+   "historical_label_provenance": "LOW (two_model Stage A)"
+  }
+ ],
+ "prompts": {
+  "COPY": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another independently sampled instance of the same model as you, run with the same settings. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 7 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.\n- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nAnswer with exactly one JSON object and nothing else, in one of these two forms:\n{\"decision\":\"PASS\",\"object\":null}\n{\"decision\":\"PLAY\",\"object\":\"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\"}",
+   "sha8": "49e35910"
+  },
+  "DIFFERENT": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another AI model that was trained on different data from yours. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 7 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.\n- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nAnswer with exactly one JSON object and nothing else, in one of these two forms:\n{\"decision\":\"PASS\",\"object\":null}\n{\"decision\":\"PLAY\",\"object\":\"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\"}",
+   "sha8": "8222a371"
+  }
+ },
+ "models": {
+  "GPT-5.5": {
+   "api": "openai.responses",
+   "model": "gpt-5.5-2026-04-23",
+   "reasoning": {
+    "effort": "low",
+    "summary": "auto"
+   },
+   "max_output_tokens": 4000,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 30.0
+   },
+   "input_tokens_observed": {
+    "COPY": 818,
+    "DIFFERENT": 813
+   },
+   "note": "archived settings plus max_output_tokens=4000 (required for a finite reservation bound; archived GPT runs had no cap, so no GPT draw is reused)"
+  },
+  "Claude Opus 5": {
+   "api": "anthropic.messages",
+   "model": "claude-opus-5",
+   "thinking": {
+    "type": "adaptive",
+    "display": "summarized"
+   },
+   "output_config": {
+    "effort": "low"
+   },
+   "max_tokens": 4000,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "input_tokens_observed": {
+    "COPY": 1022,
+    "DIFFERENT": 1015
+   },
+   "note": "identical to the archived and 2026-10-15 settings"
+  }
+ },
+ "design": {
+  "cell": "(item, model, prompt)",
+  "per_cell": {
+   "policy": 24,
+   "eval": 12
+  },
+  "seed": 20261016,
+  "scoring": {
+   "focal M, COPY": "p = M COPY eval; q = M COPY policy",
+   "focal M, DIFFERENT": "p = M DIFFERENT eval; q = OTHER model DIFFERENT policy"
+  },
+  "realized": {
+   "COPY": "all distinct ordered pairs within M's COPY eval draws (never self-paired)",
+   "DIFFERENT": "all GPT x Opus DIFFERENT eval cross pairs, each model scored with its own payoff"
+  },
+  "regret": "[max(7, 10*max_j q(PLAY j)) - (7 p(PASS) + 10 sum_j p(PLAY j) q(PLAY j))]/10 (same-q plug-in; >= 0)",
+  "reuse": "144 historical Opus DIFFERENT draws on 4 items (exact match); no GPT or September Opus reuse"
+ },
+ "stop_rules": [
+  "budget rule above",
+  "3 refusals in total",
+  "5 consecutive API failures",
+  "any non-retryable 4xx"
+ ],
+ "retries": "API exceptions only (429/5xx/timeout/connection), up to 3 attempts per job, each a new reservation; invalid replies are recorded, never resampled",
+ "parsing": "historical parse_game (two_model_staghunt_20260916/src/analyze.py), unchanged",
+ "format_check": "the first 8 frozen jobs (2 per model x prompt) run first, are inspected, and count toward the sample",
+ "n_new_jobs": 2592,
+ "n_reused": 144
+}

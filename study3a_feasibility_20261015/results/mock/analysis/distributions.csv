@@ -1,0 +1,25 @@
+array,label,condition,role,model,n,PASS,PLAY_obj0,PLAY_obj1,PLAY_obj2,PLAY_obj3
+F01_oddone_m0,strong,COPY,policy,GPT-5.5,24,8,3,3,2,8
+F01_oddone_m0,strong,COPY,focal,GPT-5.5,12,3,4,3,0,2
+F01_oddone_m0,strong,COPY,fresh,GPT-5.5,12,5,1,3,0,3
+F01_oddone_m0,strong,DIFFERENT,policy,Claude Opus 5,24,8,5,5,4,2
+F01_oddone_m0,strong,DIFFERENT,focal,GPT-5.5,12,3,4,1,2,2
+F01_oddone_m0,strong,DIFFERENT,fresh,Claude Opus 5,12,2,2,3,1,4
+F02_size_m2,strong,COPY,policy,GPT-5.5,24,9,3,8,2,2
+F02_size_m2,strong,COPY,focal,GPT-5.5,12,9,0,1,0,2
+F02_size_m2,strong,COPY,fresh,GPT-5.5,12,5,1,1,3,2
+F02_size_m2,strong,DIFFERENT,policy,Claude Opus 5,24,12,3,3,2,4
+F02_size_m2,strong,DIFFERENT,focal,GPT-5.5,12,6,1,3,1,1
+F02_size_m2,strong,DIFFERENT,fresh,Claude Opus 5,12,4,3,1,2,2
+F27_linecount_m1,weak,COPY,policy,GPT-5.5,24,12,0,6,2,4
+F27_linecount_m1,weak,COPY,focal,GPT-5.5,12,4,2,3,1,2
+F27_linecount_m1,weak,COPY,fresh,GPT-5.5,12,4,1,3,2,2
+F27_linecount_m1,weak,DIFFERENT,policy,Claude Opus 5,24,14,1,2,4,3
+F27_linecount_m1,weak,DIFFERENT,focal,GPT-5.5,12,7,1,2,1,1
+F27_linecount_m1,weak,DIFFERENT,fresh,Claude Opus 5,12,6,1,1,2,2
+F41_contain_m2,weak,COPY,policy,GPT-5.5,24,7,7,4,4,2
+F41_contain_m2,weak,COPY,focal,GPT-5.5,12,4,2,3,1,2
+F41_contain_m2,weak,COPY,fresh,GPT-5.5,12,5,1,0,2,4
+F41_contain_m2,weak,DIFFERENT,policy,Claude Opus 5,24,9,4,3,4,4
+F41_contain_m2,weak,DIFFERENT,focal,GPT-5.5,12,5,1,3,1,2
+F41_contain_m2,weak,DIFFERENT,fresh,Claude Opus 5,12,2,3,2,3,2

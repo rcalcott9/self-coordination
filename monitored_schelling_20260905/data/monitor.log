@@ -1,0 +1,11 @@
+  monitor 250/2000
+  monitor 500/2000
+  monitor 750/2000
+  monitor 1000/2000
+  monitor 1250/2000
+  monitor 1500/2000
+  monitor 1750/2000
+  monitor 2000/2000
+  monitor: 2000 rows, unusable=16 {'no_reply': 16}
+  monitor: P(displayed position 1) = 0.102  (uniform 0.083)
+  monitor: tokens in=797,450 out=614,410  actual cost $19.35

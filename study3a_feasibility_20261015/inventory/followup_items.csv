@@ -1,0 +1,20 @@
+array,historical_label,gpt_copy_ingame_n,gpt_diff_ingame_n,opus_diff_ingame_n,new_opus_policy,new_opus_fresh,new_gpt_copy_policy_opt_ii,status
+F01_oddone_m0,"HIGH (two_model selection, Stage A c_hat 1.000)",78,32,56,0,0,0,complete (10-15 pilot split; archived draws extra)
+F02_size_m2,"HIGH (two_model selection, Stage A c_hat 1.000)",78,32,36,0,0,0,complete (10-15 pilot split; archived draws extra)
+F03_symmetry_m1,"HIGH (two_model selection, Stage A c_hat 1.000)",30,20,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F05_orient_m1,"WEAK (gpt_staghunt_pilot, Stage A)",19,19,20,0,12,24,Opus DIFFERENT policy exists (archived); needs fresh
+F05_orient_m5,"WEAK (gpt_staghunt_pilot, Stage A)",19,19,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F07_contrast_m7,"CLEAR (gpt_staghunt_pilot, Stage A)",19,19,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F09_convexity_m5,"CLEAR (gpt_staghunt_pilot, Stage A)",20,20,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F10_curvature_m5,"CLEAR (gpt_staghunt_pilot, Stage A)",20,20,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F11_noise_m0,"LOW (two_model selection, Stage A c_hat 0.297)",49,39,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F11_noise_m3,"WEAK (gpt_staghunt_pilot, Stage A)",19,19,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F12_mirror_m3,"WEAK (gpt_staghunt_pilot, Stage A)",19,19,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F12_mirror_m4,"WEAK (gpt_staghunt_pilot, Stage A)",19,19,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F14_bars_m1,"NEAR_ABOVE (two_model selection, Stage A c_hat 0.764)",30,20,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F15_ring_m0,"NEAR_ABOVE (two_model selection, Stage A c_hat 0.764)",30,20,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F18_stroke_m1,"NEAR_BELOW (two_model selection, Stage A c_hat 0.641)",30,20,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F27_linecount_m1,"LOW (two_model selection, Stage A c_hat 0.293)",78,32,36,0,0,0,complete (10-15 pilot split; archived draws extra)
+F36_split_m0,"NEAR_BELOW (two_model selection, Stage A c_hat 0.641)",30,20,20,0,12,24,Opus DIFFERENT policy exists (archived); needs fresh
+F41_contain_m1,"CLEAR (gpt_staghunt_pilot, Stage A)",20,19,0,24,12,24,needs Opus DIFFERENT policy + fresh
+F41_contain_m2,"LOW (two_model selection, Stage A c_hat 0.293)",78,32,36,0,0,0,complete (10-15 pilot split; archived draws extra)

@@ -1,0 +1,260 @@
+{
+ "tau": 0.0903,
+ "n_sim": 800,
+ "baseline_low": {
+  "3": 1.0,
+  "5": 0.973,
+  "7": 0.74,
+  "9": 0.207
+ },
+ "grids": {
+  "frozen {3,5,7,9}": {
+   "observed Study 1|5": {
+    "power": 0.355,
+    "mean_delta": 0.04942708333333333,
+    "mean_frac_positive": 0.8155
+   },
+   "observed Study 1|10": {
+    "power": 0.8675,
+    "mean_delta": 0.048584375,
+    "mean_frac_positive": 0.810875
+   },
+   "observed Study 1|20": {
+    "power": 0.98875,
+    "mean_delta": 0.04866354166666667,
+    "mean_frac_positive": 0.809125
+   },
+   "observed Study 1|30": {
+    "power": 0.99875,
+    "mean_delta": 0.049202777777777776,
+    "mean_frac_positive": 0.8157083333333334
+   },
+   "moderate|5": {
+    "power": 0.2,
+    "mean_delta": 0.03320625,
+    "mean_frac_positive": 0.7165
+   },
+   "moderate|10": {
+    "power": 0.63,
+    "mean_delta": 0.03449375,
+    "mean_frac_positive": 0.718125
+   },
+   "moderate|20": {
+    "power": 0.87,
+    "mean_delta": 0.032834375,
+    "mean_frac_positive": 0.7092499999999999
+   },
+   "moderate|30": {
+    "power": 0.97375,
+    "mean_delta": 0.03345868055555556,
+    "mean_frac_positive": 0.7185833333333334
+   },
+   "small|5": {
+    "power": 0.10875,
+    "mean_delta": 0.02260625,
+    "mean_frac_positive": 0.6405000000000001
+   },
+   "small|10": {
+    "power": 0.36,
+    "mean_delta": 0.02274375,
+    "mean_frac_positive": 0.638375
+   },
+   "small|20": {
+    "power": 0.61125,
+    "mean_delta": 0.023472395833333333,
+    "mean_frac_positive": 0.644375
+   },
+   "small|30": {
+    "power": 0.80125,
+    "mean_delta": 0.024204166666666665,
+    "mean_frac_positive": 0.6509583333333333
+   },
+   "very small|5": {
+    "power": 0.08125,
+    "mean_delta": 0.014637500000000001,
+    "mean_frac_positive": 0.57625
+   },
+   "very small|10": {
+    "power": 0.2125,
+    "mean_delta": 0.016472916666666667,
+    "mean_frac_positive": 0.5870000000000001
+   },
+   "very small|20": {
+    "power": 0.36,
+    "mean_delta": 0.015964583333333334,
+    "mean_frac_positive": 0.5863125
+   },
+   "very small|30": {
+    "power": 0.5725,
+    "mean_delta": 0.017350347222222222,
+    "mean_frac_positive": 0.5976250000000001
+   },
+   "null|5": {
+    "power": 0.015,
+    "mean_delta": -7.291666666666662e-05,
+    "mean_frac_positive": 0.45725
+   },
+   "null|10": {
+    "power": 0.04,
+    "mean_delta": -0.0005291666666666668,
+    "mean_frac_positive": 0.4553749999999999
+   },
+   "null|20": {
+    "power": 0.0475,
+    "mean_delta": -0.00017239583333333343,
+    "mean_frac_positive": 0.462
+   },
+   "null|30": {
+    "power": 0.03875,
+    "mean_delta": -0.0007381944444444445,
+    "mean_frac_positive": 0.45966666666666667
+   }
+  },
+  "informative {7,9}": {
+   "observed Study 1|5": {
+    "power": 0.36625,
+    "mean_delta": 0.09596666666666667,
+    "mean_frac_positive": 0.8155000000000001
+   },
+   "observed Study 1|10": {
+    "power": 0.8875,
+    "mean_delta": 0.09614166666666665,
+    "mean_frac_positive": 0.816875
+   },
+   "observed Study 1|20": {
+    "power": 0.99375,
+    "mean_delta": 0.09576041666666667,
+    "mean_frac_positive": 0.8123124999999999
+   },
+   "observed Study 1|30": {
+    "power": 1.0,
+    "mean_delta": 0.09563263888888889,
+    "mean_frac_positive": 0.8094583333333333
+   },
+   "moderate|5": {
+    "power": 0.18125,
+    "mean_delta": 0.06672499999999999,
+    "mean_frac_positive": 0.7229999999999999
+   },
+   "moderate|10": {
+    "power": 0.61125,
+    "mean_delta": 0.06666458333333333,
+    "mean_frac_positive": 0.724375
+   },
+   "moderate|20": {
+    "power": 0.88625,
+    "mean_delta": 0.06598124999999999,
+    "mean_frac_positive": 0.7177500000000001
+   },
+   "moderate|30": {
+    "power": 0.965,
+    "mean_delta": 0.06610902777777777,
+    "mean_frac_positive": 0.7199583333333334
+   },
+   "small|5": {
+    "power": 0.11125,
+    "mean_delta": 0.047445833333333326,
+    "mean_frac_positive": 0.6555
+   },
+   "small|10": {
+    "power": 0.34875,
+    "mean_delta": 0.046456250000000004,
+    "mean_frac_positive": 0.6463749999999999
+   },
+   "small|20": {
+    "power": 0.64375,
+    "mean_delta": 0.04608333333333334,
+    "mean_frac_positive": 0.6467499999999999
+   },
+   "small|30": {
+    "power": 0.80875,
+    "mean_delta": 0.04656041666666666,
+    "mean_frac_positive": 0.6467083333333332
+   },
+   "very small|5": {
+    "power": 0.0725,
+    "mean_delta": 0.034425,
+    "mean_frac_positive": 0.6
+   },
+   "very small|10": {
+    "power": 0.2425,
+    "mean_delta": 0.03215208333333333,
+    "mean_frac_positive": 0.601875
+   },
+   "very small|20": {
+    "power": 0.44125,
+    "mean_delta": 0.03402708333333333,
+    "mean_frac_positive": 0.6005624999999999
+   },
+   "very small|30": {
+    "power": 0.55,
+    "mean_delta": 0.03282430555555556,
+    "mean_frac_positive": 0.5943749999999999
+   },
+   "null|5": {
+    "power": 0.015,
+    "mean_delta": -0.0016124999999999996,
+    "mean_frac_positive": 0.45025000000000004
+   },
+   "null|10": {
+    "power": 0.035,
+    "mean_delta": 0.0002124999999999999,
+    "mean_frac_positive": 0.4553749999999999
+   },
+   "null|20": {
+    "power": 0.05,
+    "mean_delta": -0.0007572916666666665,
+    "mean_frac_positive": 0.459125
+   },
+   "null|30": {
+    "power": 0.045,
+    "mean_delta": -9.861111111111102e-05,
+    "mean_frac_positive": 0.46141666666666664
+   }
+  }
+ },
+ "pairs_vs_calls": {
+  "5x30": {
+   "power": 0.2,
+   "mean_delta": 0.03320625,
+   "mean_frac_positive": 0.7165,
+   "calls": 1200
+  },
+  "5x60": {
+   "power": 0.3025,
+   "mean_delta": 0.034978125,
+   "mean_frac_positive": 0.7857500000000001,
+   "calls": 2400
+  },
+  "5x120": {
+   "power": 0.34,
+   "mean_delta": 0.03362083333333333,
+   "mean_frac_positive": 0.8022499999999999,
+   "calls": 4800
+  },
+  "5x240": {
+   "power": 0.405,
+   "mean_delta": 0.03421510416666667,
+   "mean_frac_positive": 0.8369999999999999,
+   "calls": 9600
+  },
+  "10x30": {
+   "power": 0.63,
+   "mean_delta": 0.03449375,
+   "mean_frac_positive": 0.718125,
+   "calls": 2400
+  },
+  "20x30": {
+   "power": 0.87,
+   "mean_delta": 0.032834375,
+   "mean_frac_positive": 0.7092499999999999,
+   "calls": 4800
+  },
+  "30x30": {
+   "power": 0.97375,
+   "mean_delta": 0.03345868055555556,
+   "mean_frac_positive": 0.7185833333333334,
+   "calls": 7200
+  }
+ }
+}

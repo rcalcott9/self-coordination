@@ -1,0 +1,15 @@
+[pre] deployments: 0
+total calls: 3200
+  deployed sku=GlobalStandard rpm=48.0 at 2026-09-05T14:42:25.087987+00:00
+  400/3200 lifetime=11m
+  800/3200 lifetime=22m
+  1200/3200 lifetime=33m
+  1600/3200 lifetime=45m
+  2000/3200 lifetime=55m
+  2400/3200 lifetime=64m
+  2800/3200 lifetime=74m
+  3200/3200 lifetime=84m
+  provenance OK: gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini
+[delete] HTTP 202 at 2026-09-05T16:06:33.925920+00:00
+[cleanup] deployments remaining: 0 (verified)
+lifetime 1.41h hosting $2.40

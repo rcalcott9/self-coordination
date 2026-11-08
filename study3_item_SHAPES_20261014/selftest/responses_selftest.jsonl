@@ -1,0 +1,22 @@
+{"call_id": "gpt-5.5|action|0", "model": "gpt-5.5", "kind": "action", "order": "TRIANGLE|STAR|CIRCLE|SQUARE|KEEP", "response": "{\"action\": \"CIRCLE\"}"}
+{"call_id": "gpt-5.5|action|1", "model": "gpt-5.5", "kind": "action", "order": "KEEP|CIRCLE|TRIANGLE|STAR|SQUARE", "response": "{\"action\": \"CIRCLE\"}"}
+{"call_id": "gpt-5.5|action|2", "model": "gpt-5.5", "kind": "action", "order": "TRIANGLE|CIRCLE|SQUARE|STAR|KEEP", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "gpt-5.5|action|3", "model": "gpt-5.5", "kind": "action", "order": "SQUARE|TRIANGLE|KEEP|CIRCLE|STAR", "response": "{\"action\": \"SQUARE\"}"}
+{"call_id": "gpt-5.5|action|4", "model": "gpt-5.5", "kind": "action", "order": "SQUARE|STAR|CIRCLE|KEEP|TRIANGLE", "response": "{\"action\": \"CIRCLE\"}"}
+{"call_id": "gpt-5.5|action|5", "model": "gpt-5.5", "kind": "action", "order": "STAR|SQUARE|CIRCLE|TRIANGLE|KEEP", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "gpt-5.5|action|6", "model": "gpt-5.5", "kind": "action", "order": "CIRCLE|SQUARE|STAR|KEEP|TRIANGLE", "response": "I would pick circle"}
+{"call_id": "gpt-5.5|action|7", "model": "gpt-5.5", "kind": "action", "order": "CIRCLE|KEEP|SQUARE|TRIANGLE|STAR", "response": "```\n{\"action\": \"circle\"}\n```"}
+{"call_id": "gpt-5.5|prediction|0", "model": "gpt-5.5", "kind": "prediction", "order": "KEEP|STAR|TRIANGLE|CIRCLE|SQUARE", "response": "KEEP: 40%\nSTAR: 30%\nTRIANGLE: 10%\nCIRCLE: 10%\nSQUARE: 10%"}
+{"call_id": "gpt-5.5|prediction|1", "model": "gpt-5.5", "kind": "prediction", "order": "CIRCLE|SQUARE|KEEP|TRIANGLE|STAR", "response": "CIRCLE: 40%\nSQUARE: 30%\nKEEP: 10%\nTRIANGLE: 10%\nSTAR: 10%"}
+{"call_id": "gpt-5.5|prediction|2", "model": "gpt-5.5", "kind": "prediction", "order": "STAR|CIRCLE|KEEP|SQUARE|TRIANGLE", "response": "STAR: 40%\nCIRCLE: 30%\nKEEP: 10%\nSQUARE: 10%\nTRIANGLE: 10%"}
+{"call_id": "claude-opus-5|action|0", "model": "claude-opus-5", "kind": "action", "order": "TRIANGLE|KEEP|SQUARE|CIRCLE|STAR", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|1", "model": "claude-opus-5", "kind": "action", "order": "KEEP|CIRCLE|STAR|SQUARE|TRIANGLE", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|2", "model": "claude-opus-5", "kind": "action", "order": "TRIANGLE|STAR|CIRCLE|SQUARE|KEEP", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|3", "model": "claude-opus-5", "kind": "action", "order": "STAR|CIRCLE|TRIANGLE|SQUARE|KEEP", "response": "{\"action\": \"KEEP\"}"}
+{"call_id": "claude-opus-5|action|4", "model": "claude-opus-5", "kind": "action", "order": "STAR|TRIANGLE|CIRCLE|KEEP|SQUARE", "response": "{\"action\": \"STAR\"}"}
+{"call_id": "claude-opus-5|action|5", "model": "claude-opus-5", "kind": "action", "order": "STAR|CIRCLE|KEEP|TRIANGLE|SQUARE", "response": "{\"action\": \"STAR\"}"}
+{"call_id": "claude-opus-5|action|6", "model": "claude-opus-5", "kind": "action", "order": "CIRCLE|KEEP|TRIANGLE|STAR|SQUARE", "response": "{\"action\": \"TRIANGLE\"}"}
+{"call_id": "claude-opus-5|action|7", "model": "claude-opus-5", "kind": "action", "order": "CIRCLE|STAR|TRIANGLE|KEEP|SQUARE", "response": "```\n{\"action\": \"KEEP\"}\n```"}
+{"call_id": "claude-opus-5|prediction|0", "model": "claude-opus-5", "kind": "prediction", "order": "CIRCLE|STAR|SQUARE|KEEP|TRIANGLE", "response": "CIRCLE: 40%\nSTAR: 30%\nSQUARE: 10%\nKEEP: 10%\nTRIANGLE: 10%"}
+{"call_id": "claude-opus-5|prediction|1", "model": "claude-opus-5", "kind": "prediction", "order": "KEEP|STAR|SQUARE|TRIANGLE|CIRCLE", "response": "KEEP: 40%\nSTAR: 30%\nSQUARE: 10%\nTRIANGLE: 10%\nCIRCLE: 10%"}
+{"call_id": "claude-opus-5|prediction|2", "model": "claude-opus-5", "kind": "prediction", "order": "TRIANGLE|SQUARE|CIRCLE|KEEP|STAR", "response": "TRIANGLE: 40%\nSQUARE: 30%\nCIRCLE: 10%\nKEEP: 10%\nSTAR: 10%"}

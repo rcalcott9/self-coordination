@@ -1,0 +1,40 @@
+[
+  {
+    "model": "gpt4o",
+    "stopped_at": "pair_selection",
+    "rc": {
+      "A": 0,
+      "B": 0,
+      "AB": 0,
+      "SEL": 2
+    }
+  },
+  {
+    "model": "gpt5",
+    "display": "GPT-5",
+    "model_id": "gpt-5-2025-08-07",
+    "n_pairs": 2,
+    "rc": {
+      "A": 0,
+      "B": 0,
+      "AB": 0,
+      "SEL": 0,
+      "C": 0,
+      "PRIM": 0
+    }
+  },
+  {
+    "model": "opus45",
+    "display": "Claude Opus 4.5",
+    "model_id": "claude-opus-4-5-20251101",
+    "n_pairs": 1,
+    "rc": {
+      "A": 0,
+      "B": 0,
+      "AB": 0,
+      "SEL": 0,
+      "C": 0,
+      "PRIM": 1
+    }
+  }
+]

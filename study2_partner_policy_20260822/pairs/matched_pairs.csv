@@ -1,0 +1,6 @@
+pair_id,focal_model,stimulus_high,stimulus_low,approved
+gpt__c_open_cplx__vs__s_density,gpt,c_open_cplx,s_density,True
+gpt__s_convexity__vs__d_dens_extreme,gpt,s_convexity,d_dens_extreme,True
+gpt__c_contr_subtle__vs__b_spiral_cw,gpt,c_contr_subtle,b_spiral_cw,True
+claude__b_spiral_cw__vs__rot,claude,b_spiral_cw,rot,True
+claude__s_convexity__vs__d_dens_extreme,claude,s_convexity,d_dens_extreme,True

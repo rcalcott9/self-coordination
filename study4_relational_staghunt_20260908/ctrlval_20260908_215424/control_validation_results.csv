@@ -1,0 +1,8 @@
+array_id,mechanism,role,predicted,claude_locked_share,claude_form_consistency,claude_pos_modal_share,claude_unconstrained_modal,gpt_locked_share,gpt_form_consistency,gpt_pos_modal_share,gpt_unconstrained_modal,same_modal_both_models,PASS,fails
+m1_nesting_v4,nesting,locked,n4_lw8_geom_r92,1.0,1.0,0.25,2,1.0,1.0,0.25,2,True,1,
+m2_texture_v0,noise_texture,locked,n150_r36_lattice,1.0,1.0,0.25,2,1.0,1.0,0.25,2,True,1,
+m2_texture_v1,noise_texture,spare,n110_r42_lattice,1.0,1.0,0.25,0,1.0,1.0,0.25,0,True,1,
+m3_mirror_v3,mirror,locked,sym6,1.0,1.0,0.25,1,0.9583333333333334,0.8333333333333334,0.2916666666666667,1,True,1,
+m3_mirror_v6,mirror,locked,twinTrue,1.0,1.0,0.25,1,1.0,1.0,0.25,1,True,1,
+m4_contour_v0,line_contour,locked,closed1_lw7,1.0,1.0,0.25,2,1.0,1.0,0.25,2,True,1,
+m5_numerosity_v6,numerosity,locked,n9_block,0.9166666666666666,0.6666666666666666,0.3333333333333333,3,0.7916666666666666,0.5,0.4166666666666667,3,True,0,claude:fc_0.667<0.8; gpt:fc_0.500<0.8

@@ -1,0 +1,191 @@
+{
+ "frozen_utc": "2026-09-12",
+ "model": "claude-opus-5",
+ "source": "study2_4opt_20260830 durability_inventory_4opt.csv (stageA n=24, claude)",
+ "selection_rule": "15 lowest by measured agreement; 15 from the 1.000 tie, max 2/family, seed 20260912",
+ "validation": "stageA(n=24) vs held-out stageC on 13 items: Pearson r=+0.992, mean|A-C|=0.029",
+ "HIGH": [
+  {
+   "id": "F01_oddone_m1",
+   "family": "F01_oddone",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F01_oddone_m4",
+   "family": "F01_oddone",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F02_size_m3",
+   "family": "F02_size",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F02_size_m7",
+   "family": "F02_size",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F03_symmetry_m5",
+   "family": "F03_symmetry",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F03_symmetry_m7",
+   "family": "F03_symmetry",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F04_complexity_m1",
+   "family": "F04_complexity",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F04_complexity_m2",
+   "family": "F04_complexity",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F06_density_m7",
+   "family": "F06_density",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F07_contrast_m2",
+   "family": "F07_contrast",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F07_contrast_m3",
+   "family": "F07_contrast",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F08_closure_m2",
+   "family": "F08_closure",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F08_closure_m3",
+   "family": "F08_closure",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F10_curvature_m0",
+   "family": "F10_curvature",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  },
+  {
+   "id": "F10_curvature_m2",
+   "family": "F10_curvature",
+   "agreement": 1.0,
+   "position_bias": 0.0
+  }
+ ],
+ "LOW": [
+  {
+   "id": "F11_noise_m1",
+   "family": "F11_noise",
+   "agreement": 0.2319,
+   "position_bias": 0.125
+  },
+  {
+   "id": "F05_orient_m5",
+   "family": "F05_orient",
+   "agreement": 0.2428,
+   "position_bias": 0.3333
+  },
+  {
+   "id": "F12_mirror_m4",
+   "family": "F12_mirror",
+   "agreement": 0.2428,
+   "position_bias": 0.2083
+  },
+  {
+   "id": "F35_gradang_m0",
+   "family": "F35_gradang",
+   "agreement": 0.2464,
+   "position_bias": 0.3333
+  },
+  {
+   "id": "F11_noise_m4",
+   "family": "F11_noise",
+   "agreement": 0.25,
+   "position_bias": 0.4167
+  },
+  {
+   "id": "F12_mirror_m0",
+   "family": "F12_mirror",
+   "agreement": 0.2572,
+   "position_bias": 0.2083
+  },
+  {
+   "id": "F01_oddone_m7",
+   "family": "F01_oddone",
+   "agreement": 0.2609,
+   "position_bias": 0.4583
+  },
+  {
+   "id": "F35_gradang_m2",
+   "family": "F35_gradang",
+   "agreement": 0.2645,
+   "position_bias": 0.2083
+  },
+  {
+   "id": "F05_orient_m1",
+   "family": "F05_orient",
+   "agreement": 0.2826,
+   "position_bias": 0.2917
+  },
+  {
+   "id": "F11_noise_m6",
+   "family": "F11_noise",
+   "agreement": 0.308,
+   "position_bias": 0.25
+  },
+  {
+   "id": "F12_mirror_m2",
+   "family": "F12_mirror",
+   "agreement": 0.3152,
+   "position_bias": 0.2917
+  },
+  {
+   "id": "F12_mirror_m6",
+   "family": "F12_mirror",
+   "agreement": 0.3225,
+   "position_bias": 0.25
+  },
+  {
+   "id": "F05_orient_m0",
+   "family": "F05_orient",
+   "agreement": 0.3297,
+   "position_bias": 0.375
+  },
+  {
+   "id": "F05_orient_m3",
+   "family": "F05_orient",
+   "agreement": 0.3297,
+   "position_bias": 0.25
+  },
+  {
+   "id": "F12_mirror_m7",
+   "family": "F12_mirror",
+   "agreement": 0.3297,
+   "position_bias": 0.25
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "exact_signflip_p": {
+  "D_pooled": 0.00390625,
+  "D_gpt": 0.005859375,
+  "D_opus": 0.01171875
+ },
+ "gpt": {
+  "mean_TVD_between_its_two_target_predictions": 0.067,
+  "arrays_with_TVD_gt_0p1": 3,
+  "cross_pred_closer_to_own_policy_mean_brier_gap": 0.275,
+  "n_arrays_cross_closer_to_own": 10,
+  "cosine_pred_vs_measured_target_difference_mean": -0.257,
+  "n": 10
+ },
+ "claude": {
+  "mean_TVD_between_its_two_target_predictions": 0.048,
+  "arrays_with_TVD_gt_0p1": 0,
+  "cross_pred_closer_to_own_policy_mean_brier_gap": 0.264,
+  "n_arrays_cross_closer_to_own": 6,
+  "cosine_pred_vs_measured_target_difference_mean": 0.119,
+  "n": 10
+ }
+}

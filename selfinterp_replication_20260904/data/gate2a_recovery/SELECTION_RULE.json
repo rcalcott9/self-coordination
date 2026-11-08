@@ -1,0 +1,13 @@
+{
+  "primary": "highest strict parse rate",
+  "viability_floor": {
+    "strict_parse_rate": 0.6,
+    "contexts_with_usable_report": 15
+  },
+  "tie_break_order": [
+    "more contexts with >=1 usable report",
+    "lower bare-A/B fallback rate",
+    "alphabetical variant id (arbitrary, for determinism)"
+  ],
+  "explicitly_forbidden": "Variant selection must NOT consider r(report, learned) or r(report, true), or any other outcome quantity."
+}

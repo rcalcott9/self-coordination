@@ -1,0 +1,55 @@
+quantity,value
+gpt.obs_loglik,-78.96
+gpt.null_pp_median,-94.23
+gpt.null_pp_1pct,-120.49
+gpt.p_posterior_predictive,0.9601
+gpt.p_plugin,0.9601
+gpt.null_plugin_median,-94.04
+gpt.unseen_option_hits_obs,0
+gpt.unseen_option_hits_expected_under_smoothed_model,2.88
+gpt.share_null_plugin_reps_with_any_unseen_hit,
+gpt.modal_hit,0.793
+gpt.modal_hit_ci,"[0.713, 0.866]"
+gpt.modal_hit_expected,0.764
+gpt.anchor_frame_crossmatch,0.718
+gpt.frame_within_match,0.712
+gpt.cross_minus_within_ci,"[-0.015, 0.025]"
+gpt.arrays_with_unseen_options,34
+gpt.power_at_p01.none (size check),0.0
+gpt.power_at_p01.mixture uniform eps=0.1,0.338
+gpt.power_at_p01.mixture uniform eps=0.2,0.986
+gpt.power_at_p01.mixture uniform eps=0.3,1.0
+gpt.power_at_p01.mixture uniform eps=0.5,1.0
+gpt.power_at_p01.favourite swap f=0.1,0.632
+gpt.power_at_p01.favourite swap f=0.25,0.996
+gpt.power_at_p01.favourite swap f=0.5,1.0
+gpt.power_at_p01.temper tau=0.5,0.09
+gpt.power_at_p01.temper tau=2,0.0
+gpt.crit_loglik_1pct,-120.49
+claude.obs_loglik,-57.3
+claude.null_pp_median,-71.9
+claude.null_pp_1pct,-98.77
+claude.p_posterior_predictive,0.9455
+claude.p_plugin,0.9474
+claude.null_plugin_median,-71.89
+claude.unseen_option_hits_obs,1
+claude.unseen_option_hits_expected_under_smoothed_model,3.6
+claude.share_null_plugin_reps_with_any_unseen_hit,
+claude.modal_hit,0.872
+claude.modal_hit_ci,"[0.811, 0.927]"
+claude.modal_hit_expected,0.836
+claude.anchor_frame_crossmatch,0.81
+claude.frame_within_match,0.809
+claude.cross_minus_within_ci,"[-0.023, 0.024]"
+claude.arrays_with_unseen_options,38
+claude.power_at_p01.none (size check),0.0
+claude.power_at_p01.mixture uniform eps=0.1,0.478
+claude.power_at_p01.mixture uniform eps=0.2,0.994
+claude.power_at_p01.mixture uniform eps=0.3,1.0
+claude.power_at_p01.mixture uniform eps=0.5,1.0
+claude.power_at_p01.favourite swap f=0.1,0.796
+claude.power_at_p01.favourite swap f=0.25,1.0
+claude.power_at_p01.favourite swap f=0.5,1.0
+claude.power_at_p01.temper tau=0.5,0.002
+claude.power_at_p01.temper tau=2,0.0
+claude.crit_loglik_1pct,-98.77

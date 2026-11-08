@@ -1,0 +1,13 @@
+Inserted at {DISCLOSURE}. Identical in the migration and abstract versions ("its protocol" / "its label").
+
+WITHHELD
+You are not told how its protocol was chosen.
+
+DISCLOSED (source = GPT-5.5 or Claude Opus 5; the same text for every focal model)
+Its protocol was chosen by drawing one answer at random from recorded answers that {SOURCE} gave to a separate question. That question asked, with no partner and no game, which protocol {SOURCE} would choose for this direct interface; {SOURCE} answered it independently many times. {SOURCE} was not making the decision you are making and does not know about you.
+
+SUPPLIED (control: distribution given, source withheld)
+Its protocol was chosen by drawing one answer at random from this set of recorded answers: {COUNTS} (n = {N}). You are not told who gave them.
+
+{SOURCE}: "GPT-5.5 (an OpenAI model)" or "Claude Opus 5 (an Anthropic model)".
+{COUNTS}: protocol counts from the frozen pool, listed in the same order as the options.

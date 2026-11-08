@@ -1,0 +1,8 @@
+=== STAGE C v3 - ATTEMPT vs SAFE ===
+focal      : Claude Opus 5 (claude-opus-5)
+pairs      : 27 (frozen, sha256 486454fee0f1b383...)
+stimuli    : 54   payoff grid: [7.5, 8, 8.5, 9]   n/cell: 12
+prompt sha8: S7.5=3b02fe7b, S8=c949b6e7, S8.5=0b335eec, S9=9d5a63ec
+trials     : 2592
+
+  100/2592 trials

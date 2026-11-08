@@ -1,0 +1,85 @@
+sample,primary_sample,actor,actor_name,scope,stimulus_level,partner,n_attempt,n,attempt_rate,ci_lo,ci_hi
+holdout,True,claude,Claude Opus 5,pooled,high,same,81,127,0.637795,0.559055,0.724409
+holdout,True,claude,Claude Opus 5,pooled,high,different,66,128,0.515625,0.429688,0.601562
+holdout,True,claude,Claude Opus 5,pooled,low,same,51,126,0.404762,0.31746,0.492063
+holdout,True,claude,Claude Opus 5,pooled,low,different,31,126,0.246032,0.174603,0.325397
+holdout,True,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,high,same,40,64,0.625,0.5,0.75
+holdout,True,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,high,different,27,64,0.421875,0.296875,0.546875
+holdout,True,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,low,same,27,63,0.428571,0.301587,0.555556
+holdout,True,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,low,different,14,63,0.222222,0.126984,0.333333
+holdout,True,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,high,same,41,63,0.650794,0.52381,0.761905
+holdout,True,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,high,different,39,64,0.609375,0.484375,0.734375
+holdout,True,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,low,same,24,63,0.380952,0.269841,0.507937
+holdout,True,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,low,different,17,63,0.269841,0.15873,0.380952
+holdout,True,gpt,GPT-5.5,pooled,high,same,109,192,0.567708,0.494792,0.635417
+holdout,True,gpt,GPT-5.5,pooled,high,different,90,189,0.47619,0.407407,0.544974
+holdout,True,gpt,GPT-5.5,pooled,low,same,68,189,0.359788,0.291005,0.428571
+holdout,True,gpt,GPT-5.5,pooled,low,different,31,189,0.164021,0.116402,0.216931
+holdout,True,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,high,same,39,64,0.609375,0.484375,0.71875
+holdout,True,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,high,different,30,63,0.47619,0.349206,0.603175
+holdout,True,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,low,same,23,64,0.359375,0.234375,0.484375
+holdout,True,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,low,different,11,64,0.171875,0.09375,0.265625
+holdout,True,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,high,same,40,64,0.625,0.5,0.734375
+holdout,True,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,high,different,33,63,0.52381,0.396825,0.650794
+holdout,True,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,low,same,21,64,0.328125,0.21875,0.4375
+holdout,True,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,low,different,11,63,0.174603,0.095238,0.269841
+holdout,True,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,high,same,30,64,0.46875,0.34375,0.59375
+holdout,True,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,high,different,27,63,0.428571,0.301587,0.555556
+holdout,True,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,low,same,24,61,0.393443,0.278689,0.52459
+holdout,True,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,low,different,9,62,0.145161,0.064516,0.241935
+select,False,claude,Claude Opus 5,pooled,high,same,75,112,0.669643,0.580357,0.758929
+select,False,claude,Claude Opus 5,pooled,high,different,51,112,0.455357,0.366071,0.553571
+select,False,claude,Claude Opus 5,pooled,low,same,44,112,0.392857,0.303571,0.482143
+select,False,claude,Claude Opus 5,pooled,low,different,28,112,0.25,0.169643,0.330357
+select,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,high,same,38,56,0.678571,0.553571,0.803571
+select,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,high,different,22,56,0.392857,0.267857,0.517857
+select,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,low,same,23,56,0.410714,0.285714,0.535714
+select,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,low,different,11,56,0.196429,0.107143,0.303571
+select,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,high,same,37,56,0.660714,0.535714,0.785714
+select,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,high,different,29,56,0.517857,0.392411,0.642857
+select,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,low,same,21,56,0.375,0.25,0.5
+select,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,low,different,17,56,0.303571,0.178571,0.428571
+select,False,gpt,GPT-5.5,pooled,high,same,98,168,0.583333,0.505952,0.654762
+select,False,gpt,GPT-5.5,pooled,high,different,82,168,0.488095,0.410714,0.565476
+select,False,gpt,GPT-5.5,pooled,low,same,53,167,0.317365,0.245509,0.389222
+select,False,gpt,GPT-5.5,pooled,low,different,49,168,0.291667,0.22619,0.363095
+select,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,high,same,31,56,0.553571,0.428571,0.678571
+select,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,high,different,27,56,0.482143,0.357143,0.607143
+select,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,low,same,21,56,0.375,0.25,0.5
+select,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,low,different,12,56,0.214286,0.107143,0.321429
+select,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,high,same,33,56,0.589286,0.464286,0.714286
+select,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,high,different,30,56,0.535714,0.410714,0.660714
+select,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,low,same,19,56,0.339286,0.214286,0.464286
+select,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,low,different,20,56,0.357143,0.232143,0.482143
+select,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,high,same,34,56,0.607143,0.482143,0.732143
+select,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,high,different,25,56,0.446429,0.321429,0.571429
+select,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,low,same,13,55,0.236364,0.127273,0.345455
+select,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,low,different,17,56,0.303571,0.196429,0.428571
+full,False,claude,Claude Opus 5,pooled,high,same,156,239,0.65272,0.594142,0.711297
+full,False,claude,Claude Opus 5,pooled,high,different,117,240,0.4875,0.425,0.55
+full,False,claude,Claude Opus 5,pooled,low,same,95,238,0.39916,0.336134,0.462185
+full,False,claude,Claude Opus 5,pooled,low,different,59,238,0.247899,0.193277,0.302521
+full,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,high,same,78,120,0.65,0.558333,0.733333
+full,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,high,different,49,120,0.408333,0.316667,0.491667
+full,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,low,same,50,119,0.420168,0.336134,0.512605
+full,False,claude,Claude Opus 5,claude__b_spiral_cw__vs__rot,low,different,25,119,0.210084,0.134454,0.285714
+full,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,high,same,78,119,0.655462,0.571429,0.739496
+full,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,high,different,68,120,0.566667,0.475,0.65
+full,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,low,same,45,119,0.378151,0.294118,0.462185
+full,False,claude,Claude Opus 5,claude__s_convexity__vs__d_dens_extreme,low,different,34,119,0.285714,0.210084,0.369748
+full,False,gpt,GPT-5.5,pooled,high,same,207,360,0.575,0.525,0.627778
+full,False,gpt,GPT-5.5,pooled,high,different,172,357,0.481793,0.428571,0.535014
+full,False,gpt,GPT-5.5,pooled,low,same,121,356,0.339888,0.292135,0.38764
+full,False,gpt,GPT-5.5,pooled,low,different,80,357,0.22409,0.182073,0.268908
+full,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,high,same,70,120,0.583333,0.491667,0.675
+full,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,high,different,57,119,0.478992,0.386555,0.563025
+full,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,low,same,44,120,0.366667,0.283333,0.45
+full,False,gpt,GPT-5.5,gpt__c_contr_subtle__vs__b_spiral_cw,low,different,23,120,0.191667,0.125,0.266667
+full,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,high,same,73,120,0.608333,0.525,0.691667
+full,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,high,different,63,119,0.529412,0.436975,0.621849
+full,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,low,same,40,120,0.333333,0.25,0.416667
+full,False,gpt,GPT-5.5,gpt__c_open_cplx__vs__s_density,low,different,31,119,0.260504,0.184874,0.344538
+full,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,high,same,64,120,0.533333,0.441667,0.625
+full,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,high,different,52,119,0.436975,0.344538,0.521008
+full,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,low,same,37,116,0.318966,0.232759,0.405172
+full,False,gpt,GPT-5.5,gpt__s_convexity__vs__d_dens_extreme,low,different,26,118,0.220339,0.152542,0.29661

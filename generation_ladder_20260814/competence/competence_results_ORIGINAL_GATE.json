@@ -1,0 +1,150 @@
+[
+  {
+    "model": "gpt4o",
+    "display": "GPT-4o",
+    "model_id": "gpt-4o-2024-05-13",
+    "provider": "openai",
+    "released": "2024-05",
+    "stage_a_rc": 0,
+    "stage_c_rc": 0,
+    "valid_rate": 1.0,
+    "controls": {
+      "proto": {
+        "n": 24,
+        "self_match": 0.7101,
+        "p_left": 0.667,
+        "modal": "circle",
+        "form_consistency": 0.8333
+      },
+      "s_contrast": {
+        "n": 24,
+        "self_match": 0.4928,
+        "p_left": 0.917,
+        "modal": "dark",
+        "form_consistency": 0.5833
+      }
+    },
+    "attempt_by_safe": {
+      "3": 0.875,
+      "9": 0.25
+    },
+    "payoff_drop": 0.625,
+    "failures": [
+      "C: s_contrast self-match 0.49 < 0.7",
+      "A: s_contrast form consistency 0.58 < 0.7",
+      "A: s_contrast P(LEFT)=0.92 - position-locked"
+    ],
+    "passes_all": false
+  },
+  {
+    "model": "gpt5",
+    "display": "GPT-5",
+    "model_id": "gpt-5-2025-08-07",
+    "provider": "openai",
+    "released": "2025-08",
+    "stage_a_rc": 0,
+    "stage_c_rc": 0,
+    "valid_rate": 1.0,
+    "controls": {
+      "proto": {
+        "n": 24,
+        "self_match": 1.0,
+        "p_left": 0.5,
+        "modal": "circle",
+        "form_consistency": 1.0
+      },
+      "s_contrast": {
+        "n": 24,
+        "self_match": 1.0,
+        "p_left": 0.5,
+        "modal": "dark",
+        "form_consistency": 1.0
+      }
+    },
+    "attempt_by_safe": {
+      "3": 1.0,
+      "9": 0.833
+    },
+    "payoff_drop": 0.167,
+    "failures": [],
+    "passes_all": true
+  },
+  {
+    "model": "opus45",
+    "display": "Claude Opus 4.5",
+    "model_id": "claude-opus-4-5-20251101",
+    "provider": "anthropic",
+    "released": "2025-11",
+    "stage_a_rc": 0,
+    "stage_c_rc": 0,
+    "valid_rate": 1.0,
+    "controls": {
+      "proto": {
+        "n": 24,
+        "self_match": 0.4783,
+        "p_left": 1.0,
+        "modal": "circle",
+        "form_consistency": 0.5
+      },
+      "s_contrast": {
+        "n": 24,
+        "self_match": 0.8406,
+        "p_left": 0.583,
+        "modal": "light",
+        "form_consistency": 0.9167
+      }
+    },
+    "attempt_by_safe": {
+      "3": 1.0,
+      "9": 0.875
+    },
+    "payoff_drop": 0.125,
+    "failures": [
+      "C: proto self-match 0.48 < 0.7",
+      "A: proto form consistency 0.50 < 0.7",
+      "A: proto P(LEFT)=1.00 - position-locked"
+    ],
+    "passes_all": false
+  },
+  {
+    "model": "opus46",
+    "display": "Claude Opus 4.6",
+    "model_id": "claude-opus-4-6",
+    "provider": "anthropic",
+    "released": "2026-02",
+    "stage_a_rc": 0,
+    "stage_c_rc": 0,
+    "valid_rate": 1.0,
+    "controls": {
+      "proto": {
+        "n": 24,
+        "self_match": 0.4783,
+        "p_left": 1.0,
+        "modal": "square",
+        "form_consistency": 0.5
+      },
+      "s_contrast": {
+        "n": 24,
+        "self_match": 0.4783,
+        "p_left": 0.0,
+        "modal": "dark",
+        "form_consistency": 0.5
+      }
+    },
+    "attempt_by_safe": {
+      "3": 1.0,
+      "9": 1.0
+    },
+    "payoff_drop": 0.0,
+    "failures": [
+      "C: proto self-match 0.48 < 0.7",
+      "A: proto form consistency 0.50 < 0.7",
+      "A: proto P(LEFT)=1.00 - position-locked",
+      "C: s_contrast self-match 0.48 < 0.7",
+      "A: s_contrast form consistency 0.50 < 0.7",
+      "A: s_contrast P(LEFT)=0.00 - position-locked",
+      "D: attempt drop +0.00 < 0.1 (p3=1.00, p9=1.00)"
+    ],
+    "passes_all": false
+  }
+]

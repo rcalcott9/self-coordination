@@ -1,0 +1,22 @@
+=== OPUS 4.7 DISCOVERY on the frozen 22 ===
+checkpoint : claude-opus-4-7
+arrays     : 22   n/array: 48   cycles: 2
+prompt     : sha8=d40ea45d
+planned    : 1056   to run now: 1044
+run dir    : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/opus47_discovery_20260909_032813
+
+    100/1044
+    200/1044
+    300/1044
+    400/1044
+    500/1044
+    600/1044
+    700/1044
+    800/1044
+    900/1044
+    1000/1044
+
+calls 1044   in_tok 828936   out_tok 44067
+cost so far $5.246   per call $0.00503
+PROJECTED full 1056 calls: $5.31
+transport ok 1044/1044   parsed 1044/1044   checkpoint mismatches 0

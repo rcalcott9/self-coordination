@@ -1,0 +1,12 @@
+sample,pair_id,focal_model,stimulus_high,stimulus_low,true_self_match_high,true_self_match_low,delta_true_holdout,delta_salience_holdout,delta_auditor_holdout,holdout_sign_agrees,holdout_retained_frac,form_consistency_high,form_consistency_low,pair_diagnostic,stage_c_gap
+new_prospective,claude__x6_oi_b__vs__x4_db_sub,claude,x6_oi_b,x4_db_sub,1.0,0.4915,0.5172,0.0203,-0.01,True,1.0,1.0,0.0,ideal,0.25
+new_prospective,claude__s_contrast__vs__x8_contr_c,claude,s_contrast,x8_contr_c,1.0,0.4921,0.5149,0.0281,-0.0344,True,0.9956,1.0,0.0333,ideal,0.475
+new_prospective,claude__x4_db_b__vs__x5_cs_a,claude,x4_db_b,x5_cs_a,1.0,0.4915,0.5172,0.0341,0.0201,True,1.0,1.0,0.0,ideal,0.0417
+new_prospective,claude__x3_tex_sd__vs__x10_cen_b,claude,x3_tex_sd,x10_cen_b,1.0,0.5192,0.508,0.0213,-0.0069,True,1.1048,1.0,0.2333,ideal,0.0167
+new_prospective,claude__d_texture__vs__x2_lg_ct,claude,d_texture,x2_lg_ct,1.0,0.4921,0.5172,-0.0819,-0.0175,True,1.0045,1.0,0.5667,ideal,0.0083
+new_prospective,claude__x5_cs_sub__vs__c_open_cplx,claude,x5_cs_sub,c_open_cplx,1.0,0.4915,0.5172,0.0334,0.0256,True,1.0,1.0,0.0,ideal,-0.125
+new_prospective,claude__x10_cen_a__vs__b_tee_ell,claude,x10_cen_a,b_tee_ell,1.0,0.5056,0.4966,0.0991,-0.0094,True,0.9776,1.0,0.2333,salience_mismatch,0.0
+new_prospective,claude__x8_contr_a__vs__c_contr_subtle,claude,x8_contr_a,c_contr_subtle,1.0,0.4915,0.5172,0.0259,-0.0368,True,1.0,1.0,0.0,auditor_informed,-0.1667
+original,claude__proto__vs__a_chev_ud,claude,proto,a_chev_ud,1.0,0.4915,0.5172,-0.0656,0.0206,True,1.0,1.0,0.0,salience_mismatch,-0.0417
+original,claude__rot__vs__b_spiral_cw,claude,rot,b_spiral_cw,1.0,0.4938,0.5149,-0.0591,0.0138,True,1.0,1.0,0.0667,auditor_informed,-0.275
+original,claude__d_dens_extreme__vs__s_density,claude,d_dens_extreme,s_density,0.9667,0.4915,0.5172,0.0741,0.0125,True,1.1481,0.9667,0.0,ideal,0.0083

@@ -1,0 +1,202 @@
+{
+ "study": "GPT PLAY/PASS policy-stability",
+ "model": "gpt-5.5",
+ "api_settings": {
+  "reasoning": {
+   "effort": "low",
+   "summary": "auto"
+  },
+  "temperature": null
+ },
+ "pool": "VIS-FRAME-41 four-option arrays",
+ "agreement_source": "study_policy_convergence_20260909/analysis/out/stage1_frame/cell_metrics.csv",
+ "agreement_measure": "within_model_match (unbiased dyadic self-match), gpt-5.5-2026-04-23, n=48 draws/array",
+ "selection_rule": "rank all 41 arrays by measured self-match; HIGH=top15, LOW=bottom15; frozen before any PLAY/PASS call; no pilot-based selection",
+ "HIGH": [
+  {
+   "array": "F41_contain_m1",
+   "agreement": 1.0,
+   "family": "F41_contain",
+   "n": 48
+  },
+  {
+   "array": "F38_endcap_m1",
+   "agreement": 1.0,
+   "family": "F38_endcap",
+   "n": 48
+  },
+  {
+   "array": "F32_tilt_m1",
+   "agreement": 1.0,
+   "family": "F32_tilt",
+   "n": 48
+  },
+  {
+   "array": "F29_arcdir_m1",
+   "agreement": 1.0,
+   "family": "F29_arcdir",
+   "n": 48
+  },
+  {
+   "array": "F24_subdiv_m1",
+   "agreement": 1.0,
+   "family": "F24_subdiv",
+   "n": 48
+  },
+  {
+   "array": "F19_fill_m1",
+   "agreement": 1.0,
+   "family": "F19_fill",
+   "n": 48
+  },
+  {
+   "array": "F17_gapclock_m1",
+   "agreement": 1.0,
+   "family": "F17_gapclock",
+   "n": 48
+  },
+  {
+   "array": "F14_bars_m3",
+   "agreement": 1.0,
+   "family": "F14_bars",
+   "n": 48
+  },
+  {
+   "array": "F07_contrast_m3",
+   "agreement": 1.0,
+   "family": "F07_contrast",
+   "n": 48
+  },
+  {
+   "array": "F04_complexity_m3",
+   "agreement": 1.0,
+   "family": "F04_complexity",
+   "n": 48
+  },
+  {
+   "array": "F03_symmetry_m3",
+   "agreement": 1.0,
+   "family": "F03_symmetry",
+   "n": 48
+  },
+  {
+   "array": "F22_star_m1",
+   "agreement": 0.9583,
+   "family": "F22_star",
+   "n": 48
+  },
+  {
+   "array": "F10_curvature_m3",
+   "agreement": 0.9583,
+   "family": "F10_curvature",
+   "n": 48
+  },
+  {
+   "array": "F09_convexity_m3",
+   "agreement": 0.9583,
+   "family": "F09_convexity",
+   "n": 48
+  },
+  {
+   "array": "F02_size_m3",
+   "agreement": 0.9583,
+   "family": "F02_size",
+   "n": 48
+  }
+ ],
+ "LOW": [
+  {
+   "array": "F23_ellipseang_m1",
+   "agreement": 0.5461,
+   "family": "F23_ellipseang",
+   "n": 48
+  },
+  {
+   "array": "F06_density_m3",
+   "agreement": 0.5115,
+   "family": "F06_density",
+   "n": 48
+  },
+  {
+   "array": "F37_mirroraxis_m1",
+   "agreement": 0.5035,
+   "family": "F37_mirroraxis",
+   "n": 48
+  },
+  {
+   "array": "F33_hole_m1",
+   "agreement": 0.5035,
+   "family": "F33_hole",
+   "n": 48
+  },
+  {
+   "array": "F25_nested_m1",
+   "agreement": 0.5035,
+   "family": "F25_nested",
+   "n": 48
+  },
+  {
+   "array": "F26_bumploc_m1",
+   "agreement": 0.4973,
+   "family": "F26_bumploc",
+   "n": 48
+  },
+  {
+   "array": "F30_pairratio_m1",
+   "agreement": 0.4956,
+   "family": "F30_pairratio",
+   "n": 48
+  },
+  {
+   "array": "F28_dotarrange_m1",
+   "agreement": 0.4894,
+   "family": "F28_dotarrange",
+   "n": 48
+  },
+  {
+   "array": "F11_noise_m3",
+   "agreement": 0.4105,
+   "family": "F11_noise",
+   "n": 48
+  },
+  {
+   "array": "F34_jitter_m1",
+   "agreement": 0.3644,
+   "family": "F34_jitter",
+   "n": 48
+  },
+  {
+   "array": "F27_linecount_m1",
+   "agreement": 0.3564,
+   "family": "F27_linecount",
+   "n": 48
+  },
+  {
+   "array": "F36_split_m1",
+   "agreement": 0.3466,
+   "family": "F36_split",
+   "n": 48
+  },
+  {
+   "array": "F05_orient_m3",
+   "agreement": 0.3431,
+   "family": "F05_orient",
+   "n": 48
+  },
+  {
+   "array": "F35_gradang_m1",
+   "agreement": 0.3076,
+   "family": "F35_gradang",
+   "n": 48
+  },
+  {
+   "array": "F12_mirror_m3",
+   "agreement": 0.2988,
+   "family": "F12_mirror",
+   "n": 48
+  }
+ ],
+ "HIGH_mean": 0.9889,
+ "LOW_mean": 0.4319,
+ "separation": 0.557
+}

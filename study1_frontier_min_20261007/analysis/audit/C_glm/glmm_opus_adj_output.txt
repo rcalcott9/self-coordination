@@ -1,0 +1,29 @@
+Warning messages:
+1: In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+  Model failed to converge with max|grad| = 0.0536311 (tol = 0.002, component 1)
+2: In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+  Model is nearly unidentifiable: very large eigenvalue
+ - Rescale variables?
+3: In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+  Model failed to converge with max|grad| = 0.0536172 (tol = 0.002, component 1)
+4: In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+  Model is nearly unidentifiable: very large eigenvalue
+ - Rescale variables?
+warnings: none 
+slope_y (orig units) 3.807 Wald [-1.538, 9.152] | slope_A 20.090 | RE_sd 2.623 | singular FALSE
+allFit slope_y across optimizers (orig units):
+                       bobyqa                   Nelder_Mead 
+                        3.807                         3.869 
+                   nlminbwrap               optimx.L-BFGS-B 
+                        3.807                         3.807 
+nloptwrap.NLOPT_LN_NELDERMEAD     nloptwrap.NLOPT_LN_BOBYQA 
+                        3.870                         3.807 
+allFit loglik:
+                       bobyqa                   Nelder_Mead 
+                    -102.7955                     -102.7913 
+                   nlminbwrap               optimx.L-BFGS-B 
+                    -102.7955                     -102.7955 
+nloptwrap.NLOPT_LN_NELDERMEAD     nloptwrap.NLOPT_LN_BOBYQA 
+                    -102.7913                     -102.7955 
+profile: NA NA 
+parboot: -2.3 9.431  n_ok 500 

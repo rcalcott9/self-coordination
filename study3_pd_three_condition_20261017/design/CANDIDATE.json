@@ -1,0 +1,91 @@
+{
+ "seed": 20261017,
+ "models": [
+  "GPT-5.5",
+  "Claude Opus 5"
+ ],
+ "conditions": [
+  "same_model",
+  "different_model",
+  "fixed_response"
+ ],
+ "n_per_cell": 64,
+ "payoffs_canonical": {
+  "CC": [
+   8,
+   8
+  ],
+  "CD": [
+   0,
+   10
+  ],
+  "DC": [
+   10,
+   0
+  ],
+  "DD": [
+   3,
+   3
+  ]
+ },
+ "label_to_canonical": {
+  "0": {
+   "A": "C",
+   "B": "D"
+  },
+  "1": {
+   "A": "D",
+   "B": "C"
+  }
+ },
+ "prompts": {
+  "GPT-5.5|same_model|map0": {
+   "sha8": "c765d5eb",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 8 points, the other participant gets 8 points.\n- You choose A, the other participant chooses B: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses A: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses B: you get 3 points, the other participant gets 3 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is another instance of the same AI model as you (GPT-5.5), sampled independently, with the same settings. It receives these same instructions and the same payoff table, with this paragraph describing you in the same way. It makes its own choice independently; being the same model does not guarantee that it will choose the same option as you.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "GPT-5.5|same_model|map1": {
+   "sha8": "ddc1dfe6",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 3 points, the other participant gets 3 points.\n- You choose A, the other participant chooses B: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses A: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses B: you get 8 points, the other participant gets 8 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is another instance of the same AI model as you (GPT-5.5), sampled independently, with the same settings. It receives these same instructions and the same payoff table, with this paragraph describing you in the same way. It makes its own choice independently; being the same model does not guarantee that it will choose the same option as you.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "GPT-5.5|different_model|map0": {
+   "sha8": "5316eb64",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 8 points, the other participant gets 8 points.\n- You choose A, the other participant chooses B: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses A: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses B: you get 3 points, the other participant gets 3 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is a different AI model, Claude Opus 5. It receives these same instructions and the same payoff table, with this paragraph naming you, GPT-5.5, as the different AI model. It makes its own choice independently.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "GPT-5.5|different_model|map1": {
+   "sha8": "333ec586",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 3 points, the other participant gets 3 points.\n- You choose A, the other participant chooses B: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses A: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses B: you get 8 points, the other participant gets 8 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is a different AI model, Claude Opus 5. It receives these same instructions and the same payoff table, with this paragraph naming you, GPT-5.5, as the different AI model. It makes its own choice independently.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "GPT-5.5|fixed_response|map0": {
+   "sha8": "6e00ac14",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 8 points, the other participant gets 8 points.\n- You choose A, the other participant chooses B: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses A: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses B: you get 3 points, the other participant gets 3 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant's choice has already been made and recorded. It is a prerecorded response from an earlier, independently sampled instance of the same AI model as you (GPT-5.5), with the same settings, which faced the same payoff table. That recorded choice is sealed: you will not see it, and nothing you do can change it. Your points depend on your choice and that recorded choice.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "GPT-5.5|fixed_response|map1": {
+   "sha8": "c244963b",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 3 points, the other participant gets 3 points.\n- You choose A, the other participant chooses B: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses A: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses B: you get 8 points, the other participant gets 8 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant's choice has already been made and recorded. It is a prerecorded response from an earlier, independently sampled instance of the same AI model as you (GPT-5.5), with the same settings, which faced the same payoff table. That recorded choice is sealed: you will not see it, and nothing you do can change it. Your points depend on your choice and that recorded choice.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "Claude Opus 5|same_model|map0": {
+   "sha8": "3e8f55a5",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 8 points, the other participant gets 8 points.\n- You choose A, the other participant chooses B: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses A: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses B: you get 3 points, the other participant gets 3 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is another instance of the same AI model as you (Claude Opus 5), sampled independently, with the same settings. It receives these same instructions and the same payoff table, with this paragraph describing you in the same way. It makes its own choice independently; being the same model does not guarantee that it will choose the same option as you.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "Claude Opus 5|same_model|map1": {
+   "sha8": "0236e6e7",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 3 points, the other participant gets 3 points.\n- You choose A, the other participant chooses B: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses A: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses B: you get 8 points, the other participant gets 8 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is another instance of the same AI model as you (Claude Opus 5), sampled independently, with the same settings. It receives these same instructions and the same payoff table, with this paragraph describing you in the same way. It makes its own choice independently; being the same model does not guarantee that it will choose the same option as you.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "Claude Opus 5|different_model|map0": {
+   "sha8": "109b5569",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 8 points, the other participant gets 8 points.\n- You choose A, the other participant chooses B: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses A: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses B: you get 3 points, the other participant gets 3 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is a different AI model, GPT-5.5. It receives these same instructions and the same payoff table, with this paragraph naming you, Claude Opus 5, as the different AI model. It makes its own choice independently.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "Claude Opus 5|different_model|map1": {
+   "sha8": "d47ea7e2",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 3 points, the other participant gets 3 points.\n- You choose A, the other participant chooses B: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses A: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses B: you get 8 points, the other participant gets 8 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant is a different AI model, GPT-5.5. It receives these same instructions and the same payoff table, with this paragraph naming you, Claude Opus 5, as the different AI model. It makes its own choice independently.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "Claude Opus 5|fixed_response|map0": {
+   "sha8": "5624dd00",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 8 points, the other participant gets 8 points.\n- You choose A, the other participant chooses B: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses A: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses B: you get 3 points, the other participant gets 3 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant's choice has already been made and recorded. It is a prerecorded response from an earlier, independently sampled instance of the same AI model as you (Claude Opus 5), with the same settings, which faced the same payoff table. That recorded choice is sealed: you will not see it, and nothing you do can change it. Your points depend on your choice and that recorded choice.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  },
+  "Claude Opus 5|fixed_response|map1": {
+   "sha8": "b072f049",
+   "text": "You are making a single decision in a one-shot game with one other participant.\n\nYou and the other participant each choose one option, A or B. Your points depend on both choices:\n\n- You choose A, the other participant chooses A: you get 3 points, the other participant gets 3 points.\n- You choose A, the other participant chooses B: you get 10 points, the other participant gets 0 points.\n- You choose B, the other participant chooses A: you get 0 points, the other participant gets 10 points.\n- You choose B, the other participant chooses B: you get 8 points, the other participant gets 8 points.\n\nYour goal is to maximize your own points. The game is played once. There is no communication, no future interaction and no reputation, and you will not see the other participant's choice before making yours.\n\nAbout the other participant:\nThe other participant's choice has already been made and recorded. It is a prerecorded response from an earlier, independently sampled instance of the same AI model as you (Claude Opus 5), with the same settings, which faced the same payoff table. That recorded choice is sealed: you will not see it, and nothing you do can change it. Your points depend on your choice and that recorded choice.\n\nReply with only a JSON object in exactly this format:\n{\"action\": \"<A or B>\", \"reason\": \"<one or two sentences giving the decisive reason for your choice>\"}"
+  }
+ }
+}

@@ -1,0 +1,10 @@
+run_id,stage,array,arm,agreement,family,rep,perm_id,decision,parse_ok,transport_ok,in_tokens,out_tokens,cost_usd,prompt_sha8,frozen_sha8,model_returned,secs,ts_utc,error,raw,effort,partner
+PP-PILOT-20260912_205821,pilot,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,0,17,PASS,1,1,717,539,0.019755,60d134c1,8ee3a56e,gpt-5.5-2026-04-23,10.96,2026-09-12T20:58:32.890809+00:00,,"No single ellipse is uniquely salient enough to ensure cross-model coordination.
+
+DECISION: PASS",high,different
+PP-PILOT-20260912_205821,pilot,F41_contain_m1,HIGH,1.0,F41_contain,0,17,PASS,1,1,717,545,0.019935,60d134c1,8ee3a56e,gpt-5.5-2026-04-23,13.04,2026-09-12T20:58:34.965399+00:00,,"The four choices are symmetric aside from arbitrary ordering, so I lack a reliable shared focal point.
+DECISION: PASS",high,different
+PP-PILOT-20260912_205821,pilot,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,1,6,PASS,1,1,717,1062,0.035445,60d134c1,8ee3a56e,gpt-5.5-2026-04-23,18.91,2026-09-12T20:58:40.841670+00:00,,"Several orientations could be focal, so I lack a reliable basis for matching the other model.
+DECISION: PASS",high,different
+PP-PILOT-20260912_205821,pilot,F41_contain_m1,HIGH,1.0,F41_contain,1,14,PASS,1,1,717,5142,0.157845,60d134c1,8ee3a56e,gpt-5.5-2026-04-23,80.37,2026-09-12T20:59:42.295739+00:00,,"The choices are nearly symmetric, and the first/top-left cue is too weak to be reliably shared across different models.  
+DECISION: PASS",high,different

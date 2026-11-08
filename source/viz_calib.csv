@@ -1,0 +1,13 @@
+model,pair,type,trueP,statedP,impliedP
+gpt-5.4,proto,focal,1.0,0.659,0.95
+gpt-5.4,nd2,focal,0.967,0.698,0.95
+gpt-5.4,inkblot,matched,0.967,0.694,0.95
+gpt-5.4,rot,matched,0.58,0.67,0.95
+gpt-5.4,noise,matched,0.501,0.589,0.662
+gpt-5.4,mirror,matched,0.505,0.611,0.95
+claude-opus-4-8,proto,focal,1.0,0.75,0.95
+claude-opus-4-8,nd2,focal,1.0,0.723,0.95
+claude-opus-4-8,inkblot,matched,0.5,0.61,0.95
+claude-opus-4-8,rot,matched,0.769,0.553,0.95
+claude-opus-4-8,noise,matched,0.5,0.5,0.25
+claude-opus-4-8,mirror,matched,0.5,0.507,0.373

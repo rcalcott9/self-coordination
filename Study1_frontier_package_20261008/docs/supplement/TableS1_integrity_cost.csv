@@ -1,0 +1,9 @@
+study,stage,calls,transport_ok,parsed,model_mismatch,cost_usd
+Study 1,preflight,8,8,8,0,0.0617
+Study 1,pilot,48,48,48,0,0.3997
+Study 1,anchor,328,328,328,0,2.3004
+Study 1,main,2296,2296,2296,0,20.8445
+Study 1b,screen,2736,2736,2736,0,19.4506
+Study 1b,preflight,6,6,6,0,0.062
+Study 1b,pilot,32,32,32,0,0.3333
+Study 1b,main,2560,2560,2560,0,19.4988

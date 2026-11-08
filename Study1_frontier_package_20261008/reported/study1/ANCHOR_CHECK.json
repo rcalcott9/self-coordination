@@ -1,0 +1,192 @@
+{
+ "rule": "Calibration drift gate (FROZEN gates.anchor). No API calls.\n\nStatistic: total log-likelihood of the anchor choices (41 arrays x 4, canonical shape) under\nthe frame distribution, smoothed with pseudo-count 0.5. Null: 10,000 posterior-predictive\nreplicates. Each replicate draws a \"true\" distribution per array from Dirichlet(frame counts + 0.5),\nsamples anchor-sized choices from it, and scores them under the same smoothed frame estimate.\nThis carries the frame's own sampling noise. The drift p is the share of replicates with\nlog-lik <= observed (one-sided: drift lowers fit). p < .01 => do NOT reuse frame calibration\nfor that model; recollect 48/array first.",
+ "alpha": 0.5,
+ "B": 10000,
+ "seed": 20261008,
+ "results": {
+  "gpt": {
+   "n_anchor": 164,
+   "loglik_obs": -78.96,
+   "loglik_null_median": -94.15,
+   "loglik_null_1pct": -119.25,
+   "p_drift": 0.9541,
+   "modal_hit_rate": 0.793,
+   "expected_modal_hit": 0.764,
+   "reuse_frame_calibration": true,
+   "least_typical_arrays": [
+    {
+     "array": "F01_oddone_m3",
+     "anchor": [
+      3,
+      3,
+      3,
+      1
+     ],
+     "frame_counts": [
+      0,
+      2,
+      0,
+      46
+     ],
+     "excess_loglik": -1.98
+    },
+    {
+     "array": "F12_mirror_m3",
+     "anchor": [
+      1,
+      1,
+      3,
+      3
+     ],
+     "frame_counts": [
+      22,
+      6,
+      9,
+      11
+     ],
+     "excess_loglik": -1.91
+    },
+    {
+     "array": "F16_aspect_m3",
+     "anchor": [
+      0,
+      3,
+      0,
+      1
+     ],
+     "frame_counts": [
+      36,
+      6,
+      0,
+      6
+     ],
+     "excess_loglik": -1.48
+    },
+    {
+     "array": "F21_notch_m1",
+     "anchor": [
+      3,
+      3,
+      0,
+      0
+     ],
+     "frame_counts": [
+      10,
+      0,
+      1,
+      37
+     ],
+     "excess_loglik": -0.92
+    },
+    {
+     "array": "F06_density_m3",
+     "anchor": [
+      0,
+      0,
+      0,
+      3
+     ],
+     "frame_counts": [
+      19,
+      0,
+      0,
+      29
+     ],
+     "excess_loglik": -0.27
+    }
+   ]
+  },
+  "claude": {
+   "n_anchor": 164,
+   "loglik_obs": -57.3,
+   "loglik_null_median": -71.59,
+   "loglik_null_1pct": -98.85,
+   "p_drift": 0.9406,
+   "modal_hit_rate": 0.872,
+   "expected_modal_hit": 0.836,
+   "reuse_frame_calibration": true,
+   "least_typical_arrays": [
+    {
+     "array": "F20_corner_m1",
+     "anchor": [
+      3,
+      3,
+      3,
+      0
+     ],
+     "frame_counts": [
+      0,
+      0,
+      0,
+      48
+     ],
+     "excess_loglik": -4.03
+    },
+    {
+     "array": "F25_nested_m1",
+     "anchor": [
+      3,
+      0,
+      3,
+      0
+     ],
+     "frame_counts": [
+      43,
+      0,
+      0,
+      5
+     ],
+     "excess_loglik": -2.87
+    },
+    {
+     "array": "F23_ellipseang_m1",
+     "anchor": [
+      2,
+      2,
+      2,
+      0
+     ],
+     "frame_counts": [
+      4,
+      0,
+      44,
+      0
+     ],
+     "excess_loglik": -1.11
+    },
+    {
+     "array": "F05_orient_m3",
+     "anchor": [
+      0,
+      0,
+      2,
+      1
+     ],
+     "frame_counts": [
+      29,
+      5,
+      14,
+      0
+     ],
+     "excess_loglik": -0.66
+    },
+    {
+     "array": "F37_mirroraxis_m1",
+     "anchor": [
+      0,
+      0,
+      2,
+      1
+     ],
+     "frame_counts": [
+      26,
+      5,
+      17,
+      0
+     ],
+     "excess_loglik": -0.56
+    }
+   ]
+  }
+ }
+}

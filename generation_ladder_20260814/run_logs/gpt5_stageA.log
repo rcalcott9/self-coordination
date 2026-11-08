@@ -1,0 +1,23 @@
+=== STAGE A - fresh self-play ground truth ===
+models   : GPT-5 (gpt-5-2025-08-07), Claude Opus 5 (claude-opus-5)
+stimuli  : 15  (proto, rot, mirror, noise, d_dens_extreme, s_density, s_contrast, b_spiral_cw, a_chev_ud, s_arrow, s_convexity, c_open_cplx, b_tee_ell, c_contr_subtle, d_texture)
+prompt   : sha8=3003ae1b  (step1 canonical = 3003ae1b)
+seed     : 20260812   AB/BA exactly 30/30 per cell
+trials   : 900
+
+  100/900 trials
+  200/900 trials
+  300/900 trials
+  400/900 trials
+  500/900 trials
+  600/900 trials
+  700/900 trials
+  800/900 trials
+  900/900 trials
+
+=== stage A done: 900 trials in 610s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/data/stageA_20260814_215755.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/data/stageA_20260814_215755.jsonl

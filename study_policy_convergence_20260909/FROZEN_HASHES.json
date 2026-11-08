@@ -1,0 +1,10 @@
+{
+ "note": "Populated at freeze time only. Empty until Gate 1 approval and code-pilot pass.",
+ "stage1_frozen": false,
+ "visual_manifest": null,
+ "code_manifest": null,
+ "prompts": {},
+ "response_schemas": {},
+ "checkpoint_panel": null,
+ "merged_dataset": null
+}

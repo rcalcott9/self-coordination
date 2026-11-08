@@ -1,0 +1,129 @@
+{
+  "primary": {
+    "label": "ALL 3 pairs (PRIMARY)",
+    "delta": -0.8735124572180859,
+    "or_": 0.41748258120841686,
+    "ci_lo": -4.525329969118087,
+    "ci_hi": 14.876447318543358,
+    "n_trials": 720,
+    "n_stimuli": 6,
+    "n_pairs": 3,
+    "ci_excludes_zero": false
+  },
+  "permutation": {
+    "observed": -0.10277777777777779,
+    "p_one_sided": 1.0,
+    "n_perm": 20000,
+    "at_floor": false
+  },
+  "per_pair": [
+    {
+      "pair": 1,
+      "pair_id": "claude__proto__vs__a_chev_ud",
+      "model": "Claude Opus 4.7",
+      "high": "proto",
+      "low": "a_chev_ud",
+      "p_high": 0.9333333333333333,
+      "p_low": 0.975,
+      "gap": -0.04166666666666663,
+      "n": 240
+    },
+    {
+      "pair": 2,
+      "pair_id": "claude__rot__vs__b_spiral_cw",
+      "model": "Claude Opus 4.7",
+      "high": "rot",
+      "low": "b_spiral_cw",
+      "p_high": 0.4083333333333333,
+      "p_low": 0.6833333333333333,
+      "gap": -0.275,
+      "n": 240
+    },
+    {
+      "pair": 3,
+      "pair_id": "claude__d_dens_extreme__vs__s_density",
+      "model": "Claude Opus 4.7",
+      "high": "d_dens_extreme",
+      "low": "s_density",
+      "p_high": 1.0,
+      "p_low": 0.9916666666666667,
+      "gap": 0.008333333333333304,
+      "n": 240
+    }
+  ],
+  "n_positive": 1,
+  "monotonicity": [
+    {
+      "safe": 3.0,
+      "p_high": 0.9777777777777777,
+      "p_low": 1.0,
+      "gap": -0.022222222222222254
+    },
+    {
+      "safe": 5.0,
+      "p_high": 0.8333333333333334,
+      "p_low": 1.0,
+      "gap": -0.16666666666666663
+    },
+    {
+      "safe": 7.0,
+      "p_high": 0.7333333333333333,
+      "p_low": 0.8222222222222222,
+      "gap": -0.0888888888888889
+    },
+    {
+      "safe": 9.0,
+      "p_high": 0.5777777777777777,
+      "p_low": 0.7111111111111111,
+      "gap": -0.13333333333333341
+    }
+  ],
+  "leave_one_out": [
+    {
+      "label": "omit pair 1 (proto>a_chev_ud)",
+      "delta": -0.9354550106345209,
+      "or_": 0.3924072754210199,
+      "ci_lo": -7.44361393926847,
+      "ci_hi": 16.850122621659462,
+      "n_trials": 480,
+      "n_stimuli": 4,
+      "n_pairs": 2,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 2 (rot>b_spiral_cw)",
+      "delta": -0.7556904651684657,
+      "or_": 0.46968620078341117,
+      "ci_lo": -2.3556568003383287,
+      "ci_hi": 27.672878728828966,
+      "n_trials": 480,
+      "n_stimuli": 4,
+      "n_pairs": 2,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 3 (d_dens_extreme>s_density)",
+      "delta": -1.1181952440872427,
+      "or_": 0.3268691817015295,
+      "ci_lo": -6.156860075210088,
+      "ci_hi": 2.9697483692948783,
+      "n_trials": 480,
+      "n_stimuli": 4,
+      "n_pairs": 2,
+      "ci_excludes_zero": false
+    }
+  ],
+  "proto_excluded": {
+    "label": "excluding proto pair",
+    "delta": -0.9354550106345209,
+    "or_": 0.3924072754210199,
+    "ci_lo": -7.44361393926847,
+    "ci_hi": 16.850122621659462,
+    "n_trials": 480,
+    "n_stimuli": 4,
+    "n_pairs": 2,
+    "ci_excludes_zero": false
+  },
+  "replication_declared": false,
+  "source": "stageC_20260815_132504.csv"
+}

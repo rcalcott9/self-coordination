@@ -1,0 +1,114 @@
+{
+  "diagnostic": "Gate 2A format-recovery (no weight change, no introspection training)",
+  "outcome": "OUTCOME 3 -- no prompt variant restores valid reports",
+  "model": "gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1",
+  "deployment_sku": "DeveloperTier",
+  "provenance_verified": true,
+  "deployments_remaining": 0,
+  "design": {
+    "contexts": 20,
+    "reports_per_context": 4,
+    "variants": 5,
+    "calls": 400,
+    "sample_seed": 20260905,
+    "selection_rule_frozen_before_any_correlation": true,
+    "selection_rule_file": "SELECTION_RULE.json"
+  },
+  "results_by_variant": {
+    "A_plunkett_original": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 0.55,
+      "mean_completion_tokens": 18.15,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 80
+      }
+    },
+    "B_strong_instruction": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 0.425,
+      "mean_completion_tokens": 23.4125,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 80
+      }
+    },
+    "C_plaintext_csv": {
+      "n": 80,
+      "strict_ok": 1,
+      "strict_rate": 0.0125,
+      "contexts_usable": 1,
+      "bare_AB_rate": 0.3375,
+      "mean_completion_tokens": 7.3375,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "not_five_numbers": 79
+      }
+    },
+    "D_mode_separation": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 1.0,
+      "mean_completion_tokens": 2.0,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 80
+      }
+    },
+    "E_fewshot_format_only": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 0.35,
+      "mean_completion_tokens": 26.675,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 79,
+        "wrong_key_count:2": 1
+      }
+    }
+  },
+  "eligible_under_frozen_floor": [],
+  "winner": null,
+  "full_scoring_licensed": false,
+  "correlations_computed": "NONE -- the frozen rule licenses no variant, so no introspection correlation was inspected. Reporting one now would be selection on an outcome the rule forbids.",
+  "json_attempts": {
+    "replies_containing_brace": 132,
+    "of_those_properly_closed": 1,
+    "note": "the model opens a JSON object and stops before closing it"
+  },
+  "notable": {
+    "D_mode_separation_worst": "100% bare A/B, mean 2.0 completion tokens. Naming DECISION MODE ('reply with exactly A or B') in the system prompt appears to have PRIMED the collapsed behaviour rather than suppressed it.",
+    "E_fewshot_longest": "mean 26.7 completion tokens -- the format demonstration did lengthen output and produced the most JSON-shaped attempts, but still 0% strict.",
+    "C_csv_degenerate": "replies like 'A, 0, 0' -- the choice letter leaks into the comma-separated format itself.",
+    "finish_reason": "'stop' on 400/400 across every variant; nothing was truncated by max_tokens=800."
+  },
+  "interpretation": {
+    "licensed": "The A/B-only fine-tune caused a response-mode collapse that no minimal prompt modification reverses. This self-report instrument cannot measure introspection on this model. Gate 2A remains NOT ESTIMABLE.",
+    "NOT_licensed": "That the model lacks self-knowledge of its learned policy. Per the pre-agreed rule, Outcome 3 is a measurement failure, not a negative result about introspective access."
+  },
+  "cost_usd": {
+    "screening": 0.16,
+    "hosting": 0.0
+  },
+  "sealed": "Gate 3 relational data untouched. Gate 2B NOT run."
+}

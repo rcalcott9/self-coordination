@@ -1,0 +1,170 @@
+{
+ "n_arrays": 10,
+ "n_families": 7,
+ "families": {
+  "F05_orient": {
+   "arrays": [
+    "F05_orient_m7"
+   ],
+   "strata": [
+    "S1"
+   ]
+  },
+  "F10_curvature": {
+   "arrays": [
+    "F10_curvature_m2",
+    "F10_curvature_m3"
+   ],
+   "strata": [
+    "S1",
+    "S1"
+   ]
+  },
+  "F12_mirror": {
+   "arrays": [
+    "F12_mirror_m0",
+    "F12_mirror_m3",
+    "F12_mirror_m6"
+   ],
+   "strata": [
+    "S2_G",
+    "S2_O",
+    "S2_G"
+   ]
+  },
+  "F20_corner": {
+   "arrays": [
+    "F20_corner_m0"
+   ],
+   "strata": [
+    "S1"
+   ]
+  },
+  "F27_linecount": {
+   "arrays": [
+    "F27_linecount_m1"
+   ],
+   "strata": [
+    "S2_O"
+   ]
+  },
+  "F30_pairratio": {
+   "arrays": [
+    "F30_pairratio_m2"
+   ],
+   "strata": [
+    "S1"
+   ]
+  },
+  "F31_overlap": {
+   "arrays": [
+    "F31_overlap_m1"
+   ],
+   "strata": [
+    "S2_G"
+   ]
+  }
+ },
+ "D_pooled": {
+  "family_means": {
+   "F05_orient": 0.0931,
+   "F10_curvature": 0.5808,
+   "F12_mirror": 0.1355,
+   "F20_corner": 0.5417,
+   "F27_linecount": 0.2328,
+   "F30_pairratio": 0.1607,
+   "F31_overlap": -0.0192
+  },
+  "equal_weight_family_mean": 0.24648571428571425,
+  "exact_signflip_p": 0.03125,
+  "n_sign_patterns": 128,
+  "min_attainable_p": 0.015625,
+  "n_families_pos": 6,
+  "n_families_neg": 1,
+  "lofo_family_mean": {
+   "F05_orient": 0.27205,
+   "F10_curvature": 0.19076666666666664,
+   "F12_mirror": 0.2649833333333333,
+   "F20_corner": 0.19728333333333328,
+   "F27_linecount": 0.2487666666666666,
+   "F30_pairratio": 0.2607833333333333,
+   "F31_overlap": 0.2907666666666667
+  },
+  "lofo_range": [
+   0.19076666666666664,
+   0.2907666666666667
+  ],
+  "lofo_array_mean_range": [
+   0.17695,
+   0.3101
+  ]
+ },
+ "D_gpt": {
+  "family_means": {
+   "F05_orient": 0.0494,
+   "F10_curvature": 0.5815,
+   "F12_mirror": 0.1472,
+   "F20_corner": 0.3549,
+   "F27_linecount": -0.0243,
+   "F30_pairratio": 0.1791,
+   "F31_overlap": 0.0007
+  },
+  "equal_weight_family_mean": 0.1840690476190476,
+  "exact_signflip_p": 0.046875,
+  "n_sign_patterns": 128,
+  "min_attainable_p": 0.015625,
+  "n_families_pos": 6,
+  "n_families_neg": 1,
+  "lofo_family_mean": {
+   "F05_orient": 0.20651388888888889,
+   "F10_curvature": 0.1178388888888889,
+   "F12_mirror": 0.1902083333333333,
+   "F20_corner": 0.15559722222222225,
+   "F27_linecount": 0.2187972222222222,
+   "F30_pairratio": 0.18489722222222219,
+   "F31_overlap": 0.21463055555555555
+  },
+  "lofo_range": [
+   0.1178388888888889,
+   0.2187972222222222
+  ],
+  "lofo_array_mean_range": [
+   0.1251875,
+   0.24609999999999999
+  ]
+ },
+ "D_opus": {
+  "family_means": {
+   "F05_orient": 0.1367,
+   "F10_curvature": 0.5801,
+   "F12_mirror": 0.1238,
+   "F20_corner": 0.7285,
+   "F27_linecount": 0.4898,
+   "F30_pairratio": 0.1423,
+   "F31_overlap": -0.0391
+  },
+  "equal_weight_family_mean": 0.30887380952380955,
+  "exact_signflip_p": 0.03125,
+  "n_sign_patterns": 128,
+  "min_attainable_p": 0.015625,
+  "n_families_pos": 6,
+  "n_families_neg": 1,
+  "lofo_family_mean": {
+   "F05_orient": 0.3375694444444444,
+   "F10_curvature": 0.2636611111111111,
+   "F12_mirror": 0.339725,
+   "F20_corner": 0.23893611111111115,
+   "F27_linecount": 0.27871944444444446,
+   "F30_pairratio": 0.33663611111111114,
+   "F31_overlap": 0.36686944444444447
+  },
+  "lofo_range": [
+   0.23893611111111115,
+   0.36686944444444447
+  ],
+  "lofo_array_mean_range": [
+   0.22868750000000002,
+   0.37407142857142855
+  ]
+ }
+}

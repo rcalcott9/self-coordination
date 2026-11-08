@@ -1,0 +1,215 @@
+==============================================================================
+BAYESIAN DECISION MODEL - Stage C
+==============================================================================
+  trials=1200  cells=10  pairs=5  models=['gpt', 'claude']
+  salience standardised: z = (sal - 0.4960) / 0.2522
+  logit clamp EPS = 0.001
+
+PREDICTOR CORRELATIONS (cell level, held-out)
+  GPT-5.5        n_stim=6  r(aud,sal)=+0.945  r(aud,polspec)=-0.008  r(sal,polspec)=-0.217
+                 M3 uses 4 params for 6 stimuli -> 2 residual df
+  Claude Opus 5  n_stim=4  r(aud,sal)=+0.963  r(aud,polspec)=+0.023  r(sal,polspec)=-0.029
+                 M3 uses 4 params for 4 stimuli -> SATURATED, lambda NOT identified
+
+PRIOR PREDICTIVE CHECK (M3)
+Sampling: [alpha, beta, g0, g_aud, g_sal, lambda, y]
+  prior attempt rate: median 0.42, 90% interval [0.16, 0.70]
+  observed attempt rate: 0.802  -> OUTSIDE the prior 90% interval (priors are weakly informative, not tight)
+
+FITTING
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, bS]
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 11 seconds.
+  [M0 payoff-only] divergences=0  max R-hat=1.0022  min ESS_bulk=3365  max treedepth=7  min E-BFMI=nan
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal]
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 40 seconds.
+  [M1 public-only] divergences=0  max R-hat=1.0013  min ESS_bulk=2555  max treedepth=8  min E-BFMI=nan
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_true]
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 8 seconds.
+  [M2 true-self-reliability] divergences=3  max R-hat=1.0014  min ESS_bulk=4663  max treedepth=6  min E-BFMI=nan
+      !! diagnostics NOT clean for M2 true-self-reliability
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 47 seconds.
+  [M3 public+policy-specific] divergences=0  max R-hat=1.0017  min ESS_bulk=3762  max treedepth=8  min E-BFMI=nan
+
+TRIAL-LEVEL PSIS-LOO  (overstates evidence here - see grouped CV below)
+                           rank  elpd_diff   dse  p_worse diag_diff diag_elpd    p   elpd    se  weight
+M3 public+policy-specific     0        0.0   0.0      NaN                      8.7 -220.0  15.0    0.92
+M1 public-only                1      -30.0   7.7      1.0                      7.0 -250.0  16.0    0.08
+M2 true-self-reliability      2      -90.0  11.0      1.0                      5.9 -310.0  17.0    0.00
+M0 payoff-only                3     -130.0  12.0      1.0                      2.6 -350.0  15.0    0.00
+
+LEAVE-ONE-PAIR-OUT PREDICTIVE COMPARISON  (the interpretive one)
+  each fold refits without one approved pair's 240 trials and scores them
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, bS]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 7 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, bS]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 7 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, bS]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 7 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, bS]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 8 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, bS]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 8 seconds.
+  M0 payoff-only               sum ELPD =   -525.59   per-pair:  -166.2  -116.5   -61.2   -76.0  -105.6
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 26 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 28 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 21 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 22 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 23 seconds.
+  M1 public-only               sum ELPD =  -1515.60   per-pair:  -140.5  -575.7   -66.9   -62.0  -670.4
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_true]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 9 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_true]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 10 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_true]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 4 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_true]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 11 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_true]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 3 seconds.
+  M2 true-self-reliability     sum ELPD =   -620.31   per-pair:  -165.0  -161.7   -64.0   -93.3  -136.3
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 15 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 27 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 25 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 21 seconds.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 1_500 tune and 1_000 draw iterations (6_000 + 4_000 draws total) took 25 seconds.
+  M3 public+policy-specific    sum ELPD =  -1156.86   per-pair:   -98.5  -202.8   -77.5   -51.9  -726.2
+
+  pairwise differences vs M1 public-only (positive favours the other model):
+    M0 payoff-only               dELPD =  +990.02  SE(pair-level) = 646.81
+    M2 true-self-reliability     dELPD =  +895.29  SE(pair-level) = 610.26
+    M3 public+policy-specific    dELPD =  +358.74  SE(pair-level) = 384.81
+
+KEY POSTERIORS - M3
+  GPT-5.5        lambda median +0.994  90% [+0.296, +1.766]  95% [+0.228, +1.931]  P(lambda>0) = 1.000
+                 beta   median +1.795  90% [+1.523, +2.100]
+  Claude Opus 5  lambda median +0.095  90% [+0.060, +0.136]  95% [+0.054, +0.144]  P(lambda>0) = 1.000
+                 beta   median +2.583  90% [+1.994, +3.357]
+
+  P(q_high > q_low | data), M3:
+    Pair 1  claude b_spiral_cw    vs rot              P = 1.000   q_hi=0.771 q_lo=0.666
+    Pair 2  claude s_convexity    vs d_dens_extreme   P = 1.000   q_hi=0.956 q_lo=0.885
+    Pair 3  gpt    c_open_cplx    vs s_density        P = 1.000   q_hi=1.000 q_lo=0.911
+    Pair 4  gpt    s_convexity    vs d_dens_extreme   P = 1.000   q_hi=0.996 q_lo=0.928
+    Pair 5  gpt    c_contr_subtle vs b_spiral_cw      P = 1.000   q_hi=1.000 q_lo=0.725
+  (idata not saved for M3 public+policy-specific: ImportError)
+  (idata not saved for M1 public-only: ImportError)
+
+POSTERIOR PREDICTIVE CHECK (M3)
+Sampling: [y]
+  observed cell attempt rate inside 95% posterior predictive: 8/10 cells
+
+SENSITIVITY (lambda median [90% CI], P>0)
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 35 seconds.
+  primary: logit polspec, aud+sal    | GPT-5.5 +0.99 [+0.29,+1.75] P=1.00 | Claude +0.09 [+0.06,+0.14] P=1.00  div=0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 39 seconds.
+  raw-probability polspec            | GPT-5.5 +1.98 [+1.26,+2.90] P=1.00 | Claude +1.17 [+0.72,+1.67] P=1.00  div=0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, lambda]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 27 seconds.
+  auditor only (no salience)         | GPT-5.5 +0.48 [+0.09,+1.00] P=1.00 | Claude +0.11 [+0.08,+0.15] P=1.00  div=0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda, sigma_stim, u_stim]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 68 seconds.
+  + stimulus random intercept        | GPT-5.5 +0.09 [-0.05,+0.26] P=0.86 | Claude +0.15 [-0.01,+0.36] P=0.94  div=0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda_mu, lambda_sd, lambda_z]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 94 seconds.
+  pooled lambda (partial pooling)    | GPT-5.5 +0.69 [+0.17,+1.57] P=1.00 | Claude +0.10 [+0.06,+0.14] P=1.00  div=8
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, p_choice, aud_lat, sal_lat, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 75 seconds.
+  measurement-error version          | GPT-5.5 +0.36 [+0.20,+0.67] P=1.00 | Claude +0.25 [+0.12,+0.52] P=1.00  div=0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 47 seconds.
+  excluding the both-form-based pair | GPT-5.5 +0.98 [+0.28,+1.79] P=1.00 | Claude +0.52 [+0.08,+1.46] P=0.99
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, g_aud, g_sal, lambda]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 74 seconds.
+  excluding the Stage C null pair (GPT c_open_cplx/s_density) | GPT-5.5 +0.18 [+0.14,+0.24] P=1.00 | Claude +0.10 [+0.06,+0.14] P=1.00
+
+CONSTRAINED INTERPOLATION MODEL (lambda in [0,1]) - secondary
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [alpha, beta, g0, lambda_interp, delta]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 73 seconds.
+  [interp] divergences=0  max R-hat=1.0026  min ESS_bulk=3130  max treedepth=7  min E-BFMI=nan
+  GPT-5.5        lambda_interp median 0.065 90% [0.041, 0.098]  (0 = follows auditor, 1 = follows true self-match)
+  Claude Opus 5  lambda_interp median 0.052 90% [0.032, 0.074]  (0 = follows auditor, 1 = follows true self-match)
+
+OUTPUTS
+  -> bayes_model_summary.csv
+  -> bayes_pair_posteriors.csv
+  -> bayes_model_comparison.csv
+  -> bayes_diagnostics.txt

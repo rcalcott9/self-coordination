@@ -1,0 +1,3 @@
+sample,scope,param,scale,median,q05,q95,q025,q975,p_gt0,width_ratio_prior_to_post,prior_dominated
+full,"POOLED (shared g1, actor-specific everything else)",g1,logit,-0.263574820604159,-2.396939072372481,1.7702640726522996,-2.789857542624738,2.164620509152761,0.4216666666666667,0.6334,False
+full,"POOLED (shared g1, actor-specific everything else)",g1_risk_difference,rd,-0.012439279224705264,,,-0.15088678877745576,0.12414429597756525,0.4266666666666667,,

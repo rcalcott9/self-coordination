@@ -1,0 +1,95 @@
+{
+  "n_new_pairs": 7,
+  "screen_attempt_at_safe9": 0.4643,
+  "note": "Stage C re-run 2026-08-16 after an Anthropic usage limit invalidated the 2026-08-15 attempt (538/1680 valid). Discarded file kept under discarded/.",
+  "new_sample": {
+    "label": "NEW prospective sample (PRIMARY)",
+    "n_pairs": 7,
+    "n_trials": 1680,
+    "mean_gap": 0.0262,
+    "n_positive": 4,
+    "perm_p": 0.0281,
+    "payoff_gaps": {
+      "3": 0.0,
+      "5": 0.0,
+      "7": 0.0762,
+      "9": 0.0286
+    },
+    "gaps": [
+      -0.0417,
+      -0.075,
+      0.0833,
+      0.1833,
+      0.1167,
+      -0.15,
+      0.0667
+    ],
+    "pairs": [
+      "x6_oi_a > x2_lg_ct",
+      "x6_oi_b > x10_cen_b",
+      "x5_cs_sub > x5_cs_b",
+      "proto > x8_contr_a",
+      "b_spiral_cw > x1_sym_hi",
+      "s_contrast > c_contr_subtle",
+      "x9_dir_b > b_tee_ell"
+    ]
+  },
+  "original_sample": {
+    "label": "ORIGINAL 2-pair sample",
+    "n_pairs": 2,
+    "n_trials": 480,
+    "mean_gap": 0.0333,
+    "n_positive": 1,
+    "perm_p": 0.10519,
+    "payoff_gaps": {
+      "3": 0.0,
+      "5": 0.0,
+      "7": 0.15,
+      "9": -0.0167
+    },
+    "gaps": [
+      -0.0167,
+      0.0833
+    ],
+    "pairs": [
+      "s_density > d_dens_extreme",
+      "c_open_cplx > d_texture"
+    ]
+  },
+  "combined": {
+    "label": "COMBINED (descriptive)",
+    "n_pairs": 9,
+    "n_trials": 2160,
+    "mean_gap": 0.0278,
+    "n_positive": 5,
+    "perm_p": 0.01055,
+    "payoff_gaps": {
+      "3": 0.0,
+      "5": 0.0,
+      "7": 0.0926,
+      "9": 0.0185
+    },
+    "gaps": [
+      -0.0167,
+      0.0833,
+      -0.0417,
+      -0.075,
+      0.0833,
+      0.1833,
+      0.1167,
+      -0.15,
+      0.0667
+    ],
+    "pairs": [
+      "s_density > d_dens_extreme",
+      "c_open_cplx > d_texture",
+      "x6_oi_a > x2_lg_ct",
+      "x6_oi_b > x10_cen_b",
+      "x5_cs_sub > x5_cs_b",
+      "proto > x8_contr_a",
+      "b_spiral_cw > x1_sym_hi",
+      "s_contrast > c_contr_subtle",
+      "x9_dir_b > b_tee_ell"
+    ]
+  }
+}

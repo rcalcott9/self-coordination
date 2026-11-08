@@ -1,0 +1,5 @@
+gpt | play ~ y + (1|array) | slope_y 6.093 | Wald [4.170, 8.017] | profile [4.279, 8.240] | parboot [4.366, 8.246] | slope_A NA | RE_sd 1.105 | singular FALSE | warnings: none
+gpt | play ~ y + A + (1|array) | slope_y 3.726 | Wald [2.124, 5.327] | profile [2.170, 5.476] | parboot [2.258, 5.431] | slope_A 8.752 | RE_sd 0.680 | singular FALSE | warnings: none
+claude | play ~ y + (1|array) | slope_y 10.195 | Wald [4.274, 16.115] | profile [4.949, 17.612] | parboot [4.411, 18.042] | slope_A NA | RE_sd 3.508 | singular FALSE | warnings: none
+claude | play ~ y + A + (1|array) | slope_y 4.257 | Wald [4.254, 4.260] | profile [NA, NA] | parboot [-0.994, 10.582] | slope_A 18.896 | RE_sd 2.642 | singular FALSE | warnings: Model failed to converge with max|grad| = 0.0538885 (tol = 0.002, component 1); Model is nearly unidentifiable: very large eigenvalue
+ - Rescale variables?

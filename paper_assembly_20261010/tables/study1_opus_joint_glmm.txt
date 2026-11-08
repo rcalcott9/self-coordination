@@ -1,0 +1,31 @@
+n = 984 judgements, 41 arrays x 2 settings; P(PLAY) low 0.827 high 0.833; sd(y) 0.222 sd(A) 0.111
+array-level r(y, A): low 0.59, high 0.55; r(y_low, y_high) 0.62
+reproduce low: slope_y 3.807 (warnings: none)
+reproduce high: slope_y 3.291 (warnings: none)
+  profile CI unavailable: profiling detected new, lower deviance (deviance diff = 0.00038, tolerance = 1e-09) 
+
+[primary] logLik -216.365 | singular FALSE | warnings: none
+  RE sd: cell 1.228, array 1.844
+  yz           3.466  Wald [0.279, 6.653]  profile [NA, NA]  parboot [0.183, 6.928] (n_ok 1000)  p_Wald 0.033
+  Az          21.753  Wald [11.990, 31.517]  profile [NA, NA]  parboot [12.656, 34.538] (n_ok 1000)  p_Wald 0.000
+  effort      -2.439  Wald [-3.792, -1.086]  profile [NA, NA]  parboot [-4.119, -1.181] (n_ok 1000)  p_Wald 0.000
+  allFit unavailable: error in evaluating the argument 'object' in selecting a method for function 'summary': object of type 'symbol' is not subsettable 
+  profile CI unavailable: profiling detected new, lower deviance (deviance diff = 0.00026, tolerance = 1e-09) 
+
+[effort_interaction] logLik -215.762 | singular FALSE | warnings: none
+  RE sd: cell 1.204, array 1.881
+  yz           3.826  Wald [0.537, 7.114]  profile [NA, NA]  parboot [0.502, 7.508] (n_ok 1000)  p_Wald 0.023
+  Az          22.056  Wald [12.114, 31.998]  profile [NA, NA]  parboot [13.093, 36.304] (n_ok 1000)  p_Wald 0.000
+  effort      -2.307  Wald [-3.671, -0.943]  profile [NA, NA]  parboot [-4.107, -0.980] (n_ok 1000)  p_Wald 0.001
+  yz:effort    0.770  Wald [-4.365, 5.906]  profile [NA, NA]  parboot [-4.868, 6.208] (n_ok 1000)  p_Wald 0.769
+  Az:effort    5.144  Wald [-7.996, 18.283]  profile [NA, NA]  parboot [-7.748, 20.725] (n_ok 1000)  p_Wald 0.443
+  implied slope_y: low 3.44  high 4.211 
+  LRT for y:effort (A:effort retained): chisq 0.086, df 1, p 0.769
+
+[sens_array_only_RE] logLik -222.409 | singular FALSE | warnings: none
+  RE sd: array 1.903
+  yz           3.581  Wald [1.397, 5.766]  profile [1.467, 5.881]  parboot [NA, NA] (n_ok -)  p_Wald 0.001
+  Az          19.240  Wald [11.161, 27.318]  profile [11.504, 28.214]  parboot [NA, NA] (n_ok -)  p_Wald 0.000
+  effort      -2.198  Wald [-3.200, -1.196]  profile [-3.292, -1.241]  parboot [NA, NA] (n_ok -)  p_Wald 0.000
+
+[primary] array-cluster bootstrap slope_y: [0.097, 7.821], n_ok 1000/1000, P(slope<=0) 0.020

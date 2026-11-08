@@ -1,0 +1,10 @@
+provider,model,generation_order,coordination_sensitivity,status,note
+OpenAI,GPT-4o,1,,not_identifiable,
+OpenAI,GPT-5,2,0.008,observed,
+OpenAI,GPT-5.4,3,0.081,observed,
+OpenAI,GPT-5.5,4,0.175,observed,
+Anthropic,Opus 4.5,1,,payoff_saturated,
+Anthropic,Opus 4.6,2,,payoff_saturated,"reclassified 2026-08-18: the Aug-14 competence-gate failure was a stimulus artifact (25/45 clean form rules, A_sd 0.232, highest of any rung). 8 ideal pairs selected; excluded on payoff saturation, ATTEMPT at SAFE=9 = 0.963, drop 0.006"
+Anthropic,Opus 4.7,3,0.063,observed,prospective 8-pair sample; initial 3-pair sample was -0.103
+Anthropic,Opus 4.8,4,0.026,observed,prospective 7-pair sample; initial 2-pair sample was +0.033
+Anthropic,Opus 5,5,0.100,observed,

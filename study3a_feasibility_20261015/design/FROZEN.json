@@ -1,0 +1,226 @@
+{
+ "study": "Study 3A feasibility pilot (pipeline and measurement pilot, not a hypothesis test)",
+ "frozen_utc": "2026-10-15",
+ "authorization": [
+  "This prompt authorizes at most $3 of new spend, including retries, and never overrides the recorded $20 cumulative cap. (user, 2026-10-15)",
+  "we can go up to $50 if needed (user, 2026-10-15, mid-run)"
+ ],
+ "caps": {
+  "run_hard_cap_usd": 10.0,
+  "cumulative_cap_usd": 20.0,
+  "cumulative_prior_usd": 1.32999,
+  "note": "scope unchanged (<= 384 calls); $10 run cap covers the max-cost estimate $7.17 plus retries"
+ },
+ "focal_model": "GPT-5.5",
+ "partner_models": {
+  "COPY": "GPT-5.5",
+  "DIFFERENT": "Claude Opus 5"
+ },
+ "item_rule": "strong = recorded bin HIGH, highest c_hat_hist then array id, first 2; weak = recorded bin LOW, lowest c_hat_hist then array id, first 2. Labels from historical Stage A (prompt d40ea45d, 24 draws) via selection_proposal.csv sha256 bdee575f. Items are never replaced or relabelled.",
+ "items": [
+  {
+   "array": "F01_oddone_m0",
+   "historical_label": "strong",
+   "historical_bin": "HIGH",
+   "c_hat_hist": 1.0,
+   "counts_hist": "0/0/0/24",
+   "images_sha256": {
+    "0": "18367200c1747cdb9dc0b24bc1f26179a9a3153ae21d887a3d5903ed1360f204",
+    "1": "bedc1167218aa00e70b47280093666c84cf128556261c26ddf0e1507821ba787",
+    "2": "18367200c1747cdb9dc0b24bc1f26179a9a3153ae21d887a3d5903ed1360f204",
+    "3": "bedc1167218aa00e70b47280093666c84cf128556261c26ddf0e1507821ba787",
+    "4": "7c7ac722337a12a5346b9632deb18b39e66dd76fce30be845bbe11f0fd4b54db",
+    "5": "7c7ac722337a12a5346b9632deb18b39e66dd76fce30be845bbe11f0fd4b54db",
+    "6": "18367200c1747cdb9dc0b24bc1f26179a9a3153ae21d887a3d5903ed1360f204",
+    "7": "bedc1167218aa00e70b47280093666c84cf128556261c26ddf0e1507821ba787",
+    "8": "18367200c1747cdb9dc0b24bc1f26179a9a3153ae21d887a3d5903ed1360f204",
+    "9": "bedc1167218aa00e70b47280093666c84cf128556261c26ddf0e1507821ba787",
+    "10": "7c7ac722337a12a5346b9632deb18b39e66dd76fce30be845bbe11f0fd4b54db",
+    "11": "7c7ac722337a12a5346b9632deb18b39e66dd76fce30be845bbe11f0fd4b54db",
+    "12": "18367200c1747cdb9dc0b24bc1f26179a9a3153ae21d887a3d5903ed1360f204",
+    "13": "bedc1167218aa00e70b47280093666c84cf128556261c26ddf0e1507821ba787",
+    "14": "18367200c1747cdb9dc0b24bc1f26179a9a3153ae21d887a3d5903ed1360f204",
+    "15": "bedc1167218aa00e70b47280093666c84cf128556261c26ddf0e1507821ba787",
+    "16": "7c7ac722337a12a5346b9632deb18b39e66dd76fce30be845bbe11f0fd4b54db",
+    "17": "7c7ac722337a12a5346b9632deb18b39e66dd76fce30be845bbe11f0fd4b54db",
+    "18": "6eaaec617f74e8e801a158a9a507f7619afbdb0914695f33d604a1e4a703dc81",
+    "19": "6eaaec617f74e8e801a158a9a507f7619afbdb0914695f33d604a1e4a703dc81",
+    "20": "6eaaec617f74e8e801a158a9a507f7619afbdb0914695f33d604a1e4a703dc81",
+    "21": "6eaaec617f74e8e801a158a9a507f7619afbdb0914695f33d604a1e4a703dc81",
+    "22": "6eaaec617f74e8e801a158a9a507f7619afbdb0914695f33d604a1e4a703dc81",
+    "23": "6eaaec617f74e8e801a158a9a507f7619afbdb0914695f33d604a1e4a703dc81"
+   }
+  },
+  {
+   "array": "F02_size_m2",
+   "historical_label": "strong",
+   "historical_bin": "HIGH",
+   "c_hat_hist": 1.0,
+   "counts_hist": "0/0/0/24",
+   "images_sha256": {
+    "0": "3ae8e41d7132f67c18c5929af5e2d3238553a6ea9147a4590e4bcf753d077a46",
+    "1": "9c788f810546a2e829a560bccdd891863446396232ea4541d0ac6684d13a318b",
+    "2": "52dfdc3229fecfe712af47999e34640a99e239725763fbce8f9b5ea31d9f0b82",
+    "3": "d4efa785af3021105cdce40fb185e3125864bf033805d2b3e25025b8f78668f2",
+    "4": "145512881d465836f25f814ced9d5503bb0585fc026450301f24dac435e54d0c",
+    "5": "e935a049443d9cfbefeba4e9f39cb99d1c5a5350a2bc2edc0d5336214547ef79",
+    "6": "a9783cb8950cf9fecfb3e7b2171acff9dc2b129037ced0e6adf748fd629b1886",
+    "7": "2b1f6feae171dd9b0075108f26d8b3a879af6e045e340e0c32b567b21eb8f7ca",
+    "8": "f0dff468508c59a8afd3fc7b5b0d331be95cb93f2e60508d71dbac0a95ce2746",
+    "9": "8319cb06c8eb755cc2c71074ece1739127762c82286c9f6b15ecd6cd8cfa323e",
+    "10": "d5a5da63e0d9764026496e362f7bbe101a2460494e71d47596e8d33d7d5a1d0c",
+    "11": "19935e23f2702ee2aa6f04fbaea327ee7d00ebafba640a2f6ad3d3245c81a873",
+    "12": "ded8b16e86a3a4fcf6a54a3faae37f848718262c3b051b69ae43065fb0983d60",
+    "13": "1177d48419171c255d45503284751b46d9e3d842f8ea621f44215f31ea5d3da9",
+    "14": "b485e2d7c5e0c7c06d272dcb8d820c9604b20454d00ac9afcecf7b11c69934e9",
+    "15": "2787efc7eddb1efe3731dfec2c35ad59b5125ee57ea986976400be4d1793877b",
+    "16": "5c12b3a506a6892103c030ff3deb0e594c3e41822a4831b786ffa24ef3efebf8",
+    "17": "24e1b3754bed8f7f6c086fad2160469137d4338f185c374c3875967d9df7f384",
+    "18": "6aa30c6f4f57860074155f3ab1e1989d2c0e01eb269302b2bb8d932b018e7aeb",
+    "19": "90d3784e68a27b8e5b6dd036a166ebc6e1fc0fdcec3575a4ad252bdb9121a714",
+    "20": "5b65282ae42c0b0cf48e9b755d34d319f338efc48f654bf9472c7c580d9b8276",
+    "21": "ce3eea04d9c557905ae890ab65ea758030670360300e28dd5c1bb5fde6837418",
+    "22": "cb90d3bb0b057b77aaf4f6e882070d743a435cea26ecdf18e484a9679ca2125c",
+    "23": "57dce626353c53e69678264d9b53f443b59ef7dc2cd4be225dc927ffcfd8ce03"
+   }
+  },
+  {
+   "array": "F27_linecount_m1",
+   "historical_label": "weak",
+   "historical_bin": "LOW",
+   "c_hat_hist": 0.2934782608695652,
+   "counts_hist": "7/10/1/6",
+   "images_sha256": {
+    "0": "418721cd4205e028ba2da3c2b3242475308eb2f811d57ce2c1c0461b8f9a893b",
+    "1": "46c53c2c275840c63b58c032a009d5e79c000a4b0a00939cdc9228d67bf790ba",
+    "2": "8989f0625223f343daa3bc96384d0875c9a9590930092e6c4a0793102c823009",
+    "3": "d8cc24f2907e8ac2c4af164893ddf6ccf5611f58c7950ca8b3bd4710221b7d06",
+    "4": "efe9bd9a28a0e3dc4d72afd2764baf8febc90b873ae776af9f0091ac48eb09a6",
+    "5": "74c698d97deb30a021e7693eb6a9803ef179b2cb7c847eb1467a94deeb1a38e1",
+    "6": "1eaa6fe9c4b64ff500b8373e26b05435981a780633634c03fdf649e1dcd4430b",
+    "7": "a2fb477d2bd5bccd6c9f9d4ad72c3ff6e7269fc82f3e9ddb96a74a2cd1a0c640",
+    "8": "cf966d24e4456e67122b9eb568c2b1e8f4874354cfaca83c4a57641380728d16",
+    "9": "c712533c96d19f0599c28459181eada80d02c7e62174712daa8c1c2f7784b661",
+    "10": "8d02ab9ac2e96ecf76e30565e0d99a825a5f8f46910501433a616aa791daa43f",
+    "11": "4b21766098e6770ceed4e989bf11f6c25cfa5897240f486dd71ed4476227a271",
+    "12": "286adc8334750044201a9e91bf84abe1ae94d538eb949a4c276eedc0b2d3aae6",
+    "13": "c5bfbe3c90c8c28ad28d1f99fe1ec8324130ff4579bd59542686f22b4d3f1d50",
+    "14": "ea449d3d94c65f15befff5389e856c47e8f24c2fc5fcf4fdbbf87136f0f11ff6",
+    "15": "a688a1cd77b81d7737ab07855ee1f845bd6e97be3bdd7b77db809d36ad3c6c90",
+    "16": "15df29fae0466e14d113ed9694cabddfbfa2f107ebffa63a25d4a0e13fcff850",
+    "17": "2baf30dcf3c320edaef949143a77b7a68a0522976143416cf4fe451b67681b1e",
+    "18": "26fee339cc5a55766791cb7b50f0bed9377d929debf0f5a55ee9f30b1cdd7d50",
+    "19": "1376648fb05d09584b2dc0d049370b720bd92da47a92db2c17aac7f6b47d7899",
+    "20": "d8292bb79e3a4f804f485663eaaced3fb7d9366a6af744939b622977e1d436b9",
+    "21": "8d36545bfe17c46f944f838cf8799c3f6288050e968d6120c0518f8041bb3895",
+    "22": "4399cd20a59c822bc39bb36dd80a25b81320612ab2477954b23b9209e0f4646e",
+    "23": "715997eec0ac1884bb555e468e625bc667a7f48d5bd165719729f7cf2b4a9909"
+   }
+  },
+  {
+   "array": "F41_contain_m2",
+   "historical_label": "weak",
+   "historical_bin": "LOW",
+   "c_hat_hist": 0.2934782608695652,
+   "counts_hist": "2/6/11/5",
+   "images_sha256": {
+    "0": "a352c5b5cab6780d8b0c5033ef3d6f345ae13cd7bb656f7c2355a8f1b502bb3b",
+    "1": "132ee1331fd418ab32997545e7e76c0119611d8f0c3233d5e78e986711780852",
+    "2": "3c3e006b439bc7fec3224c505a62d1770bb911e4f194ec7775c9a9509b077928",
+    "3": "51c3574968f61b243dec194d64fd050b832f0634c1d02a602d497471ecd33649",
+    "4": "201d0323c9d99e8e54e4a93cc7767ef9e054d9f34a3e1ebf17e60b5e33a773ee",
+    "5": "5dae362b88b2c2d4a64f7aa81e64b846d580fe79138fe798b022ef1734732ac4",
+    "6": "6a73ccad31312f305b994339186c7368359c1e4b41d96bb0b1e860c9abe3c9a1",
+    "7": "31c13cc224e72e6c86182eb8f7a251d892c30dafccf07e137cad7459bfc3f4ce",
+    "8": "d725642578f685b172b371d9b68db31ea34ce3f0a1c0c3a49514be16fd810a1d",
+    "9": "c95d58015767240a4d1a7217c7cb30b06792b29f2e14b6da386aadbdc095306c",
+    "10": "46232af70bbde292c3357700b68514b601bed7746f47d267366920d9bc254359",
+    "11": "dcf3a62d333e733a0cba3f7fc36967f5fa46267f015a05e3756f7bc34270e7dc",
+    "12": "ef4cf244eb5c51858af50a731b7b25ef40d1f271f4e9b7f4365e718c001f1c2a",
+    "13": "e75d16736203ed4954373874e95f658063a5a0ca0651b2e76fa799c2b687da5f",
+    "14": "d5bb13e05469cf6f6b9664e7213c7099f057b1f50f97d0a1132a51a0f1f77442",
+    "15": "e58d4999e638380ec6fa5ca4d5a88120bf39400a4076e0543db6c4870c47caca",
+    "16": "0d8192e9bf179e887d3fc70d05bda4d328f282d9586d6ecde405f210c5c853f9",
+    "17": "a380ae3ee86689c473cb911a2aa1f525c07a169980e84664fda40a3d9e6b6864",
+    "18": "d18ab444c2d8ffc660218ebfcd88e5bddfc4cb586c7ea60e7a6363b03875500d",
+    "19": "bba7e50bbbd3aeb669ed341cb693a09d03c28894ac42d98b5c1b447f6976da0c",
+    "20": "9b630dd37a5d9d3185b0a976f8185c1af50260ac363bae1ea7bab187b58f6a87",
+    "21": "ddd0173f5ef9823b9b1fc9a6c0ba1da895a18847b24e3ca5e309fc806529cf7c",
+    "22": "69bbdeb8ec8a8f26b75fddf9ad9e44f5c1a91d529e0aa6c8d73da5ceaf13fc5b",
+    "23": "9dfbe542b9777fb67877a7d71f86e745a99da9271547f4822273ff58c0c15874"
+   }
+  }
+ ],
+ "prompts": {
+  "COPY": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another independently sampled instance of the same model as you, run with the same settings. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 7 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.\n- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nAnswer with exactly one JSON object and nothing else, in one of these two forms:\n{\"decision\":\"PASS\",\"object\":null}\n{\"decision\":\"PLAY\",\"object\":\"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\"}",
+   "sha8": "49e35910",
+   "source": "/Users/calypsocalcott/Desktop/Superrationality/Stag/two_model_staghunt_20260916/data/jobs.jsonl (== design/prompt_game_COPY_49e35910.txt without trailing newline)"
+  },
+  "DIFFERENT": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another AI model that was trained on different data from yours. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 7 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.\n- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nAnswer with exactly one JSON object and nothing else, in one of these two forms:\n{\"decision\":\"PASS\",\"object\":null}\n{\"decision\":\"PLAY\",\"object\":\"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\"}",
+   "sha8": "8222a371",
+   "source": "/Users/calypsocalcott/Desktop/Superrationality/Stag/two_model_staghunt_20260916/data/jobs.jsonl (== design/prompt_game_DIFFERENT_8222a371.txt without trailing newline)"
+  }
+ },
+ "models": {
+  "GPT-5.5": {
+   "label": "GPT-5.5",
+   "api": "openai.responses",
+   "model": "gpt-5.5-2026-04-23",
+   "reasoning": {
+    "effort": "low",
+    "summary": "auto"
+   },
+   "max_output_tokens": null,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 30.0
+   },
+   "note": "recorded settings of two_model_staghunt_20260916 (requested alias gpt-5.5, returned gpt-5.5-2026-04-23); pinned to the returned snapshot"
+  },
+  "Claude Opus 5": {
+   "label": "Claude Opus 5",
+   "api": "anthropic.messages",
+   "model": "claude-opus-5",
+   "thinking": {
+    "type": "adaptive",
+    "display": "summarized"
+   },
+   "output_config": {
+    "effort": "low"
+   },
+   "max_tokens": 4000,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "note": "recorded settings of two_model_staghunt_20260916; claude-opus-5 has no dated id"
+  }
+ },
+ "design": {
+  "per_cell": {
+   "policy": 24,
+   "focal": 12,
+   "fresh": 12
+  },
+  "cells": "4 items x {COPY, DIFFERENT}",
+  "seed": 20261015,
+  "policy_perms": "each of 24 once",
+  "focal_fresh_perms": "12 distinct of 24, independent draws",
+  "no_prediction_calls": true
+ },
+ "parsing": "historical parse_game (two_model_staghunt_20260916/src/analyze.py), unchanged; invalid replies are recorded, never resampled",
+ "retries": "API exceptions only, up to 3 attempts per job (SDK auto-retry off); every attempt logged",
+ "stop_rules": [
+  "projected spend (spent + reserved) would exceed the run hard cap or cumulative cap",
+  "3 refusals in total",
+  "5 consecutive API failures",
+  "any non-retryable 4xx (model/settings unresolved)"
+ ],
+ "scoring": "code/scoring.py: BR from policy sample; regret from focal vs policy; realized payoff + match from focal x fresh pairs"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "model": "Opus 4.5",
+    "family": "Anthropic",
+    "order": 1,
+    "n_pairs": 5,
+    "status": "payoff-saturated; no Stage C",
+    "att9": 1.0
+  },
+  {
+    "model": "Opus 4.6",
+    "family": "Anthropic",
+    "order": 2,
+    "status": "competence-gate fail"
+  },
+  {
+    "model": "Opus 4.7",
+    "family": "Anthropic",
+    "order": 3,
+    "n_pairs": 3,
+    "mean_gap": -0.1028,
+    "n_pos": 1,
+    "perm_p": 1.0,
+    "att9": 0.644,
+    "gaps": [
+      -0.042,
+      -0.275,
+      0.008
+    ],
+    "status": "ok"
+  },
+  {
+    "model": "Opus 4.8",
+    "family": "Anthropic",
+    "order": 4,
+    "n_pairs": 2,
+    "mean_gap": 0.0333,
+    "n_pos": 1,
+    "perm_p": 0.10519,
+    "att9": 0.358,
+    "gaps": [
+      -0.017,
+      0.083
+    ],
+    "status": "ok"
+  },
+  {
+    "model": "Opus 5",
+    "family": "Anthropic",
+    "order": 5,
+    "n_pairs": 2,
+    "mean_gap": 0.1,
+    "n_pos": 2,
+    "perm_p": 5e-05,
+    "att9": 0.425,
+    "gaps": [
+      0.117,
+      0.083
+    ],
+    "status": "ok"
+  },
+  {
+    "model": "GPT-4o",
+    "family": "OpenAI",
+    "order": 1,
+    "n_pairs": 0,
+    "status": "design not identifiable (0 eligible pairs)"
+  },
+  {
+    "model": "GPT-5",
+    "family": "OpenAI",
+    "order": 2,
+    "n_pairs": 5,
+    "mean_gap": 0.0083,
+    "n_pos": 2,
+    "perm_p": 0.25744,
+    "att9": 0.87,
+    "gaps": [
+      0.05,
+      0.0,
+      -0.017,
+      0.008,
+      0.0
+    ],
+    "status": "ok"
+  },
+  {
+    "model": "GPT-5.4",
+    "family": "OpenAI",
+    "order": 3,
+    "n_pairs": 3,
+    "mean_gap": 0.0806,
+    "n_pos": 3,
+    "perm_p": 0.00025,
+    "att9": 0.494,
+    "gaps": [
+      0.067,
+      0.042,
+      0.133
+    ],
+    "status": "ok"
+  },
+  {
+    "model": "GPT-5.5",
+    "family": "OpenAI",
+    "order": 4,
+    "n_pairs": 3,
+    "mean_gap": 0.175,
+    "n_pos": 3,
+    "perm_p": 5e-05,
+    "att9": 0.322,
+    "gaps": [
+      0.042,
+      0.183,
+      0.3
+    ],
+    "status": "ok"
+  }
+]

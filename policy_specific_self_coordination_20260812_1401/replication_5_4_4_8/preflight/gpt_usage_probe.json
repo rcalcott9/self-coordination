@@ -1,0 +1,41 @@
+[
+  {
+    "probe": "A",
+    "input_tokens": 803,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 871
+  },
+  {
+    "probe": "B_aud",
+    "input_tokens": 865,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 966
+  },
+  {
+    "probe": "C",
+    "input_tokens": 933,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 1037
+  }
+]

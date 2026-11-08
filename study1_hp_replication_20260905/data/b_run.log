@@ -1,0 +1,64 @@
+
+=== STAGE B / auditor (v3, single focal) ===
+  focal=GPT-5.5   rater/auditor=Claude Opus 5
+  prompt sha8: 4df579ca
+  stimuli 96   trials 1920
+
+  100/1920 trials
+  200/1920 trials
+  300/1920 trials
+  400/1920 trials
+  500/1920 trials
+  600/1920 trials
+  700/1920 trials
+  800/1920 trials
+  900/1920 trials
+  1000/1920 trials
+  1100/1920 trials
+  1200/1920 trials
+  1300/1920 trials
+  1400/1920 trials
+  1500/1920 trials
+  1600/1920 trials
+  1700/1920 trials
+  1800/1920 trials
+  1900/1920 trials
+
+=== stage B/auditor done: 1920 trials in 692s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageB_auditor_20260905_194812.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageB_auditor_20260905_194812.jsonl
+
+=== STAGE B / salience (v3, single focal) ===
+  focal=GPT-5.5   rater/auditor=Claude Opus 5
+  prompt sha8: bef7b3ec
+  stimuli 96   trials 1920
+
+  100/1920 trials
+  200/1920 trials
+  300/1920 trials
+  400/1920 trials
+  500/1920 trials
+  600/1920 trials
+  700/1920 trials
+  800/1920 trials
+  900/1920 trials
+  1000/1920 trials
+  1100/1920 trials
+  1200/1920 trials
+  1300/1920 trials
+  1400/1920 trials
+  1500/1920 trials
+  1600/1920 trials
+  1700/1920 trials
+  1800/1920 trials
+  1900/1920 trials
+
+=== stage B/salience done: 1920 trials in 451s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageB_salience_20260905_195945.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageB_salience_20260905_195945.jsonl

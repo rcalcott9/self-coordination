@@ -1,0 +1,76 @@
+{
+ "gpt": {
+  "obs_loglik": -78.96,
+  "null_pp_median": -94.23,
+  "null_pp_1pct": -120.49,
+  "p_posterior_predictive": 0.9601,
+  "p_plugin": 0.9601,
+  "null_plugin_median": -94.04,
+  "unseen_option_hits_obs": 0,
+  "unseen_option_hits_expected_under_smoothed_model": 2.88,
+  "share_null_plugin_reps_with_any_unseen_hit": null,
+  "modal_hit": 0.793,
+  "modal_hit_ci": [
+   0.713,
+   0.866
+  ],
+  "modal_hit_expected": 0.764,
+  "anchor_frame_crossmatch": 0.718,
+  "frame_within_match": 0.712,
+  "cross_minus_within_ci": [
+   -0.015,
+   0.025
+  ],
+  "arrays_with_unseen_options": 34,
+  "power_at_p01": {
+   "none (size check)": 0.0,
+   "mixture uniform eps=0.1": 0.338,
+   "mixture uniform eps=0.2": 0.986,
+   "mixture uniform eps=0.3": 1.0,
+   "mixture uniform eps=0.5": 1.0,
+   "favourite swap f=0.1": 0.632,
+   "favourite swap f=0.25": 0.996,
+   "favourite swap f=0.5": 1.0,
+   "temper tau=0.5": 0.09,
+   "temper tau=2": 0.0
+  },
+  "crit_loglik_1pct": -120.49
+ },
+ "claude": {
+  "obs_loglik": -57.3,
+  "null_pp_median": -71.9,
+  "null_pp_1pct": -98.77,
+  "p_posterior_predictive": 0.9455,
+  "p_plugin": 0.9474,
+  "null_plugin_median": -71.89,
+  "unseen_option_hits_obs": 1,
+  "unseen_option_hits_expected_under_smoothed_model": 3.6,
+  "share_null_plugin_reps_with_any_unseen_hit": null,
+  "modal_hit": 0.872,
+  "modal_hit_ci": [
+   0.811,
+   0.927
+  ],
+  "modal_hit_expected": 0.836,
+  "anchor_frame_crossmatch": 0.81,
+  "frame_within_match": 0.809,
+  "cross_minus_within_ci": [
+   -0.023,
+   0.024
+  ],
+  "arrays_with_unseen_options": 38,
+  "power_at_p01": {
+   "none (size check)": 0.0,
+   "mixture uniform eps=0.1": 0.478,
+   "mixture uniform eps=0.2": 0.994,
+   "mixture uniform eps=0.3": 1.0,
+   "mixture uniform eps=0.5": 1.0,
+   "favourite swap f=0.1": 0.796,
+   "favourite swap f=0.25": 1.0,
+   "favourite swap f=0.5": 1.0,
+   "temper tau=0.5": 0.002,
+   "temper tau=2": 0.0
+  },
+  "crit_loglik_1pct": -98.77
+ }
+}

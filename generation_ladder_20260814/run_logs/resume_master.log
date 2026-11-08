@@ -1,0 +1,14 @@
+
+=== GPT-5 - Stage C on the expanded selection ===
+    5 approved pairs: ['x2_lg_sq>x10_cen_b', 's_convexity>x5_cs_sub', 'x8_contr_b>a_chev_ud', 'x3_tex_sd>x10_cen_a', 'x6_oi_c>x3_tex_dp']
+    Stage C (n=30, safe {3,5,7,9})       rc=1       0s
+    primary analysis                     rc=1       0s
+
+=== Claude Opus 4.5 - repair salience, then select ===
+    Stage B salience RETRY (30 new)      rc=0    1689s
+    merged stageA           1+1 files ->  2700 rows, 45 stimuli
+    merged stageB_auditor   1+1 files ->  1350 rows, 45 stimuli
+    merged stageB_salience  1+2 files ->  5367 rows, 45 stimuli
+    analyze A+B (45 stimuli)             rc=1       6s
+
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/analysis/expansion_final.json

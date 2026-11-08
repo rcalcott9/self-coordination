@@ -1,0 +1,3 @@
+{"ts": "2026-10-16T02:02:58.485331+00:00", "argv": ["run.py", "--dry-run"], "mode": "dry-run", "pending": 384, "spent_prior": 0.0, "frozen_sha256": "aa6f81a9c80338b78974236d811fe91313bf9301818da33d029aafc8c9b423b4"}
+{"ts": "2026-10-16T02:03:25.303777+00:00", "argv": ["run.py", "--approved"], "mode": "live", "pending": 384, "spent_prior": 0.0, "frozen_sha256": "aa6f81a9c80338b78974236d811fe91313bf9301818da33d029aafc8c9b423b4"}
+{"ts": "2026-10-16T02:09:58.369780+00:00", "records": 384, "by_status": {"ok": 384, "invalid_response": 0, "refusal": 0, "api_failure": 0}, "spent_run": 3.4225150000000006, "cumulative": 4.752505000000001, "refusals": 0, "stop_reason": null}

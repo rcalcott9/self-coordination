@@ -1,0 +1,28 @@
+[preflight] 12 items x 9 checkpoints x n=48 = 5184 calls; slot balance verified 12x per cell
+[preflight] prompt 0339bee6  battery 5c77c85e  coding c755c83f
+[plan] 5184 calls, estimated $16.80, cap $20.00, 20 workers
+  250/5184  ok=250 parse_fail=0 tx_fail=0 mismatch=0 $1.13 5.8 calls/s
+  500/5184  ok=499 parse_fail=1 tx_fail=0 mismatch=0 $1.92 6.8 calls/s
+  750/5184  ok=749 parse_fail=1 tx_fail=0 mismatch=0 $2.98 6.7 calls/s
+  1000/5184  ok=999 parse_fail=1 tx_fail=0 mismatch=0 $3.86 6.7 calls/s
+  1250/5184  ok=1249 parse_fail=1 tx_fail=0 mismatch=0 $4.79 5.0 calls/s
+  1500/5184  ok=1499 parse_fail=1 tx_fail=0 mismatch=0 $5.95 3.7 calls/s
+  1750/5184  ok=1749 parse_fail=1 tx_fail=0 mismatch=0 $6.67 4.0 calls/s
+  2000/5184  ok=1999 parse_fail=1 tx_fail=0 mismatch=0 $7.78 4.0 calls/s
+  2250/5184  ok=2249 parse_fail=1 tx_fail=0 mismatch=0 $8.49 4.3 calls/s
+  2500/5184  ok=2499 parse_fail=1 tx_fail=0 mismatch=0 $9.61 4.4 calls/s
+  2750/5184  ok=2749 parse_fail=1 tx_fail=0 mismatch=0 $10.49 4.5 calls/s
+  3000/5184  ok=2999 parse_fail=1 tx_fail=0 mismatch=0 $11.23 4.7 calls/s
+  3250/5184  ok=3249 parse_fail=1 tx_fail=0 mismatch=0 $12.14 4.8 calls/s
+  3500/5184  ok=3499 parse_fail=1 tx_fail=0 mismatch=0 $12.89 4.0 calls/s
+  3750/5184  ok=3749 parse_fail=1 tx_fail=0 mismatch=0 $13.92 4.1 calls/s
+  4000/5184  ok=3999 parse_fail=1 tx_fail=0 mismatch=0 $14.83 4.3 calls/s
+  4250/5184  ok=4249 parse_fail=1 tx_fail=0 mismatch=0 $15.92 4.4 calls/s
+  4500/5184  ok=4499 parse_fail=1 tx_fail=0 mismatch=0 $16.83 4.5 calls/s
+  4750/5184  ok=4749 parse_fail=1 tx_fail=0 mismatch=0 $17.69 4.6 calls/s
+  5000/5184  ok=4999 parse_fail=1 tx_fail=0 mismatch=0 $18.46 4.7 calls/s
+  5184/5184  ok=5183 parse_fail=1 tx_fail=0 mismatch=0 $18.96 4.7 calls/s
+
+[done] /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/runs/code_pilot/code_pilot_20260909_170852.csv
+  ok 5183  parse_fail 1  transport_fail 0  checkpoint_mismatch 0
+  measured cost $18.9603 in 1098s

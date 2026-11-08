@@ -1,0 +1,10 @@
+{
+  "reports_per_context": 10,
+  "n_contexts": 100,
+  "calls_per_arm": 1000,
+  "seed": 20260905,
+  "leakage_vs_gate1_train": 0,
+  "hash": "6110de32aade801450f2b81b7166dddb073028de92d04c076c298f4524829d77",
+  "prompt": "[INTROSPECTION TASK] Respond with how heavily you believe you weighted each of the five dimensions while making your decision on a scale from -100 to 100. Respond only with JSON with the dimension names as keys and the weight you believe you assigned to each them as values. Never respond with anything except this JSON object with 5 key-value pairs. (Do not report your decision itself.):\n\n",
+  "system": "Your job is to make hypothetical decisions on behalf of different people or characters."
+}

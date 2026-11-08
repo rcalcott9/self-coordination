@@ -1,0 +1,31 @@
+
+=== REPLICATION PRIMARY ANALYSIS ===
+  source stageC_20260814_221834.csv
+  480 trials, 2 approved pairs, 4 stimuli
+
+--- PRIMARY (spec §7): pooled delta on is_high ---
+    ALL 5 pairs (PRIMARY)              delta=-0.247  OR=0.78  95% CI [-1.059, +2.325]  includes 0
+
+    permutation (within pair x payoff, 20,000 draws, raw counts)
+      observed mean high-minus-low attempt gap = -0.0125
+      one-sided p = 0.78841
+
+    #  pair                                       p_hi   p_lo     gap  n
+     1 GPT-5 b_tee_ell > d_texture               0.983  0.942  +0.042  240
+     2 GPT-5 s_contrast > a_chev_ud              0.892  0.958  -0.067  240
+       1 of 2 pairs have a positive high-minus-low contrast
+
+    payoff monotonicity     safe    p_hi    p_lo     gap
+                               3   1.000   1.000  +0.000
+                               5   0.917   1.000  -0.083
+                               7   0.950   0.950  +0.000
+                               9   0.883   0.850  +0.033
+
+--- §12.A leave-one-pair-out (SENSITIVITY, not 5 tests) ---
+    omit pair 1 (b_tee_ell>d_texture)  delta=-1.059  OR=0.35  95% CI [-1.059, +1.816]  includes 0
+    omit pair 2 (s_contrast>a_chev_ud) delta=+1.409  OR=4.09  95% CI [+0.000, +25.000]  includes 0
+
+--- §12.B proto-excluded (PRE-SPECIFIED SENSITIVITY) ---
+
+  REPLICATION DECLARED: False   (delta>0 AND 95% CI excludes 0, spec §7)
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/analysis/primary/primary_results.json

@@ -1,0 +1,20 @@
+{
+ "action": {
+  "n_calls": 40,
+  "n_with_summary": 23,
+  "CS": 16,
+  "SAL": 19,
+  "ORD": 12,
+  "SAFE": 15,
+  "ALPHA": 8
+ },
+ "prediction": {
+  "n_calls": 20,
+  "n_with_summary": 13,
+  "CS": 3,
+  "SAL": 7,
+  "ORD": 10,
+  "SAFE": 8,
+  "ALPHA": 2
+ }
+}

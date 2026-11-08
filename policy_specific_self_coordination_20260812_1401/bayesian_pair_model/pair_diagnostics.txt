@@ -1,0 +1,78 @@
+==============================================================================
+PAIR-CONSTRAINED BAYESIAN ANALYSIS  (secondary)
+==============================================================================
+  Stage C trials 1200   approved pairs 5   cells 10
+  pairs per model: GPT 3, Claude 2
+  auditor standardised z=(x-0.7354)/0.0533;  salience z=(x-0.4960)/0.2522
+  corr(auditor, salience) across cells = +0.945  -> NOT separately interpretable
+
+PRIOR PREDICTIVE
+  B2 pair-constrained    prior attempt rate median 0.36  90% [0.03, 0.83]   observed 0.802
+  B1 payoff+is_high      prior attempt rate median 0.55  90% [0.01, 0.98]   observed 0.802
+
+FITTING
+  [B0 payoff-only            ] div=  0  max R-hat=1.0036  min ESS=  2004   OK
+  [B1 payoff+is_high         ] div=  0  max R-hat=1.0015  min ESS=  3156   OK
+  [B2 pair-constrained q     ] div=  0  max R-hat=1.0028  min ESS=  3664   OK
+  [B3 +auditor               ] div=  0  max R-hat=1.0022  min ESS=  3197   OK
+  [B3b +auditor+salience     ] div=  0  max R-hat=1.0013  min ESS=  4130   OK
+
+PRIMARY: B2 pair-constrained latent q
+  mu_delta (logit scale)  median +0.821  90% [+0.273, +1.396]  95% [+0.113, +1.535]   P(>0) = 0.9855
+  sigma_delta             median +0.633  90% [+0.299, +1.358]   (5 pairs - weakly identified)
+  prior-vs-posterior: prior mu_delta 90% [-1.72, +1.69] -> posterior 90% [+0.27, +1.40]   width ratio 0.33
+
+  per-pair posteriors (probability scale):
+    Pair 1  claude b_spiral_cw    vs rot              q_hi 0.759 [0.673,0.827]  q_lo 0.656 [0.573,0.718]  d_q +0.104  P(q_hi>q_lo)=1.000
+    Pair 2  claude s_convexity    vs d_dens_extreme   q_hi 0.953 [0.890,0.987]  q_lo 0.870 [0.790,0.933]  d_q +0.078  P(q_hi>q_lo)=0.999
+    Pair 3  gpt    c_open_cplx    vs s_density        q_hi 0.804 [0.714,0.875]  q_lo 0.759 [0.666,0.832]  d_q +0.045  P(q_hi>q_lo)=0.950
+    Pair 4  gpt    s_convexity    vs d_dens_extreme   q_hi 0.939 [0.860,0.983]  q_lo 0.787 [0.695,0.861]  d_q +0.147  P(q_hi>q_lo)=1.000
+    Pair 5  gpt    c_contr_subtle vs b_spiral_cw      q_hi 0.825 [0.732,0.894]  q_lo 0.585 [0.492,0.656]  d_q +0.239  P(q_hi>q_lo)=1.000
+
+SECONDARY: B1 direct effect of higher own-copy reliability
+  delta (log-odds)        median +1.520  90% [+1.206, +1.831]  95% [+1.148, +1.895]   P(>0) = 1.0000
+                          odds ratio median 4.57
+  prior-vs-posterior: prior 90% [-1.72, +1.69] -> posterior 90% [+1.21, +1.83]   width ratio 0.18
+
+ROBUSTNESS: does delta survive public controls?
+  B3 +auditor              delta median +1.584  90% [+1.244, +1.939]   P(>0) = 1.0000
+  B3b +auditor+salience    delta median +1.602  90% [+1.264, +1.968]   P(>0) = 1.0000
+  (auditor and salience are collinear at r=0.94; their individual coefficients are not interpreted)
+
+EXPLORATORY / DIAGNOSTIC (not confirmatory)
+  [B2 by-model mu_delta      ] div=  0  max R-hat=1.0007  min ESS=  3844   OK
+    mu_delta[GPT-5.5       ] median +0.852  90% [+0.064, +1.579]  P(>0)=0.960   (3 pairs - weakly identified)
+    mu_delta[Claude Opus 5 ] median +0.619  90% [-0.257, +1.489]  P(>0)=0.889   (2 pairs - weakly identified)
+  [B2 no-alpha (ridge check) ] div=  0  max R-hat=1.0014  min ESS=  2569   OK
+    alpha fixed at 0: mu_delta median +0.975  90% [+0.323, +1.616]  P(>0)=0.987
+      -> compare with the primary mu_delta above; a similar value confirms
+         the alpha/mu_mid ridge does not contaminate the pair contrast
+
+MODEL COMPARISON - trial-level PSIS-LOO
+                       rank  elpd_diff   dse  p_worse diag_diff diag_elpd     p   elpd    se  weight
+B2 pair-constrained q     0        0.0   0.0      NaN                      11.2 -210.0  15.0     1.0
+B3 +auditor               1      -30.0   7.0      1.0                       3.4 -240.0  12.0     0.0
+B1 payoff+is_high         2     -110.0  11.0      1.0                       3.3 -310.0  14.0     0.0
+B0 payoff-only            3     -140.0  13.0      1.0                       2.7 -350.0  15.0     0.0
+
+MODEL COMPARISON - leave-one-pair-out (5 folds; VERY low power)
+  B0 payoff-only           ELPD   -525.05   per-pair  -165.6  -116.6   -61.1   -76.0  -105.7
+  B1 payoff+is_high        ELPD   -515.47   per-pair  -174.0  -121.0   -63.6   -66.5   -90.3
+  B2 pair-constrained q    ELPD   -453.31   per-pair   -79.4  -139.4   -68.2   -85.1   -81.2
+  B3 +auditor              ELPD   -300.96   per-pair   -87.4   -37.8   -66.4   -43.6   -65.7
+
+  differences vs B0 payoff-only (positive favours the other model):
+    B1 payoff+is_high        dELPD    +9.58   SE   22.44   indistinguishable
+    B2 pair-constrained q    dELPD   +71.74   SE   97.75   indistinguishable
+    B3 +auditor              dELPD  +224.09   SE   78.71   separated
+  With 5 folds these SEs are large by construction; treat the ranking as
+  uninformative unless a difference clearly exceeds twice its SE.
+
+POSTERIOR PREDICTIVE (B2)
+  observed cell attempt rate inside 95% predictive: 10/10 cells
+
+OUTPUTS
+  -> pair_model_summary.csv
+  -> pair_posteriors.csv
+  -> pair_model_comparison.csv
+  -> pair_diagnostics.csv

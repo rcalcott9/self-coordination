@@ -1,0 +1,15 @@
+{
+  "job_id": "ftjob-15a187aab6c34ff5a0658452d951d297",
+  "job_created_utc": "2026-09-05T02:31:41.596240+00:00",
+  "base_model": "gpt-4o-mini-2024-07-18",
+  "train_file": "file-2b68985dc4344446b78bcef009df5ee4",
+  "val_file": "file-e3c57d5b98c147fab087acb7e5a8a84a",
+  "job_status": "succeeded",
+  "job_finished_utc": "2026-09-05T03:51:23.082992+00:00",
+  "fine_tuned_model": "gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini",
+  "resolved_epochs": 3,
+  "resolved_batch_size": 10,
+  "resolved_lr_multiplier": 1.0,
+  "trained_tokens": 3014928,
+  "cost_training_usd": 9.0448
+}

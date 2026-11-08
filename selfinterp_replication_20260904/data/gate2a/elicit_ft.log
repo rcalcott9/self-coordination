@@ -1,0 +1,12 @@
+report trials: 1000  contexts: 100
+  deployed gate2a-ft-dev: gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1 sku=DeveloperTier
+  200/1000
+  400/1000
+  600/1000
+  800/1000
+  1000/1000
+  served_model=gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1
+  provenance (must contain c531948cc65b41ef80c9e2c753f18555): True
+  transport failures: 0/1000
+[delete] gate2a-ft-dev: HTTP 202 at 2026-09-05T01:22:57.494409+00:00
+[cleanup] deployments remaining: 0

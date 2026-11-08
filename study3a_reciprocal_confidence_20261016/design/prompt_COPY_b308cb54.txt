@@ -1,0 +1,27 @@
+You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.
+
+The other player is another independently sampled instance of the same model as you, run with the same settings. Both of you receive the same game instructions, the same four objects, and the same description of the other player.
+
+Each of you independently chooses PASS or PLAY:
+- If you choose PASS, you receive 7 points, whatever the other player does.
+- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.
+- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.
+- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.
+- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.
+
+There is no communication, no shared randomness, and neither of you sees the other player's response before answering.
+
+Before choosing your action, assess these two questions. Give brief judgments, not a detailed reasoning trace.
+
+1. Own-policy reliability. Across independent instances of your model making this decision, how consistently would they select the same underlying object despite shuffled positions? Identify your candidate object, consider competing selection rules, and estimate a probability distribution over PASS and the four objects. Distinguish finding an object salient from expecting your policy to select it reliably.
+
+2. Reciprocal confidence. Given the stated partner description, estimate the partner's probability distribution over PASS and the four objects. Consider whether the partner would also judge its own selection rule reliable and expect you to share that rule. Shared reasoning can support coordination, but do not assume another model shares your policy, that independent instances are deterministic, or that your present choice causally changes the partner's action. Both players receive this same additional instruction.
+
+Use those judgments to choose the action with the highest expected points under the original game rules. For PLAY on object j, success requires the partner to PLAY that same underlying object; confidence conditional on the partner playing is insufficient. PASS earns 7; PLAY(j) has expected points 10 times your estimated probability of the partner choosing PLAY(j). PLAY beats PASS only when that probability exceeds 0.70. If tied, either action is acceptable. Do not default to PLAY to demonstrate coordination or to PASS merely because it is safe.
+
+Report your own-action distribution and partner-action distribution (each summing to 1), expected points for PASS and each PLAY action, your final action, and a brief explanation of the decisive uncertainty. Use the requested response schema and the displayed object labels.
+
+Response schema. Objects are identified by their position (1, 2, 3 or 4) in YOUR image. "own_distribution" is your estimate of how independent instances of your model, each given this complete prompt including these instructions, would act; it is a forecast, not a commitment. "partner_distribution" is your estimate of the other player's action. Each distribution's values are probabilities between 0 and 1 that sum to 1.
+
+Answer with exactly one JSON object and nothing else, in this form:
+{"own_distribution": {"PASS": <p>, "1": <p>, "2": <p>, "3": <p>, "4": <p>}, "partner_distribution": {"PASS": <p>, "1": <p>, "2": <p>, "3": <p>, "4": <p>}, "expected_points": {"PASS": 7, "1": <number>, "2": <number>, "3": <number>, "4": <number>}, "decision": "PASS" or "PLAY", "object": null or "<1, 2, 3 or 4 - the position in YOUR image of the object you choose>", "explanation": "<one or two sentences on the decisive uncertainty>"}

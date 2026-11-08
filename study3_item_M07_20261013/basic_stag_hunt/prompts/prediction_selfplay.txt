@@ -1,0 +1,12 @@
+You are {MODEL}.
+
+Two players are each given the game below. Each player is a separate, independent instance of {MODEL}, run with the same settings as you. Each sees the options in its own independently randomized order. They choose at the same time, neither sees the other's response, and there is no communication. You are not one of the players, and your answer does not affect their points.
+
+The text each player receives:
+<game>
+{ACTION_PROMPT}
+</game>
+
+Do not choose an option. Instead, give the probability that one of these players chooses each of the five options. The five probabilities must sum to 100. Each player sees its own random order, so give probabilities averaged over all possible orders, not conditional on the order shown above.
+Answer with exactly five lines, one per option:
+<option>: __%

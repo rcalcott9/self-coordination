@@ -1,0 +1,14 @@
+[gates] preflight 12 ok; pilot AUDITOR:claude->gpt 8/8, AUDITOR:gpt->claude 8/8, PLAYPASS:claude->claude 8/8, PLAYPASS:gpt->gpt 8/8, PRED:claude->claude 8/8, PRED:claude->gpt 8/8, PRED:gpt->claude 8/8, PRED:gpt->gpt 8/8, REF:claude->claude 8/8, REF:gpt->gpt 8/8, SELFPRED:claude->claude 8/8, SELFPRED:gpt->gpt 8/8
+[main] FROZEN 933aa87d | pending 8216 (done 108) | spent so far $2.83 of $150 | reserve-basis projection $474.30 | observed mean cost {'claude/X': 0.0117, 'gpt/REF': 0.0141, 'gpt/X': 0.0379, 'claude/REF': 0.0083, 'claude/PRED': 0.0153, 'gpt/PRED': 0.0561}
+{
+ "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_highreason_20261009/runs/main/main_20261009_165940.csv",
+ "n": 6879,
+ "transport_ok": 6879,
+ "parsed": 6879,
+ "mismatch": 0,
+ "cost_this_run": 146.3924,
+ "spent_total": 149.2209,
+ "budget_stopped": true,
+ "pending_left": 1337,
+ "frozen_sha8": "933aa87d"
+}

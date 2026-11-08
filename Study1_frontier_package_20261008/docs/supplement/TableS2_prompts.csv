@@ -1,0 +1,83 @@
+study,prompt_key,sha8,text
+Study 1,CALIB|any,d40ea45d,"You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four shapes shown; you want to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of you, so position CANNOT be used to coordinate - you must coordinate on a shape by its FORM. Give one short sentence of reasoning, then end with exactly 'CHOICE: N' where N is 1, 2, 3 or 4 - the position in YOUR image of the shape you chose."
+Study 1,PLAYPASS|gpt,3b5fe054,"You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four shapes shown; you want to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of you, so position CANNOT be used to coordinate - you must coordinate on a shape by its FORM.
+
+Before playing, you must judge your own position:
+- PLAY means: my own way of choosing among these shapes gives me a reliable basis for matching the other instance.
+- PASS means: it does not.
+
+You earn 10 points for a correct judgement either way: 10 if you PLAY and your way of choosing really is reliable here, and 10 if you PASS and it really is not. An incorrect judgement earns 0. There is no advantage to PLAY over PASS.
+
+Give one short sentence of reasoning, then end with exactly one line:
+DECISION: <PLAY or PASS>"
+Study 1,SELFPRED|gpt,433b4569,"You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four shapes shown; you want to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of you, so position CANNOT be used to coordinate - you must coordinate on a shape by its FORM.
+
+What probability, from 0 to 100, do you assign that you and the other instance pick the same underlying shape?
+
+Give one short sentence of reasoning, then end with exactly one line:
+MATCH_PROBABILITY: <an integer from 0 to 100>"
+Study 1,AUDITOR|gpt,0cabb45d,"Two independent instances of GPT-5.5 (the same AI model, with reasoning effort set to low) are playing a one-shot coordination game with each other. They will each independently pick one of the four shapes shown; they want to pick the SAME shape as each other. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of them, so position CANNOT be used to coordinate - they must coordinate on a shape by its FORM.
+
+What probability, from 0 to 100, do you assign that the two instances of GPT-5.5 pick the same underlying shape?
+
+Give one short sentence of reasoning, then end with exactly one line:
+MATCH_PROBABILITY: <an integer from 0 to 100>"
+Study 1,PLAYPASS|claude,3b5fe054,"You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four shapes shown; you want to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of you, so position CANNOT be used to coordinate - you must coordinate on a shape by its FORM.
+
+Before playing, you must judge your own position:
+- PLAY means: my own way of choosing among these shapes gives me a reliable basis for matching the other instance.
+- PASS means: it does not.
+
+You earn 10 points for a correct judgement either way: 10 if you PLAY and your way of choosing really is reliable here, and 10 if you PASS and it really is not. An incorrect judgement earns 0. There is no advantage to PLAY over PASS.
+
+Give one short sentence of reasoning, then end with exactly one line:
+DECISION: <PLAY or PASS>"
+Study 1,SELFPRED|claude,433b4569,"You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four shapes shown; you want to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of you, so position CANNOT be used to coordinate - you must coordinate on a shape by its FORM.
+
+What probability, from 0 to 100, do you assign that you and the other instance pick the same underlying shape?
+
+Give one short sentence of reasoning, then end with exactly one line:
+MATCH_PROBABILITY: <an integer from 0 to 100>"
+Study 1,AUDITOR|claude,4f632d25,"Two independent instances of Claude Opus 5 (the same AI model, with extended thinking turned off) are playing a one-shot coordination game with each other. They will each independently pick one of the four shapes shown; they want to pick the SAME shape as each other. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of them, so position CANNOT be used to coordinate - they must coordinate on a shape by its FORM.
+
+What probability, from 0 to 100, do you assign that the two instances of Claude Opus 5 pick the same underlying shape?
+
+Give one short sentence of reasoning, then end with exactly one line:
+MATCH_PROBABILITY: <an integer from 0 to 100>"
+Study 1b,REF,d40ea45d,"You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four shapes shown; you want to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of you, so position CANNOT be used to coordinate - you must coordinate on a shape by its FORM. Give one short sentence of reasoning, then end with exactly 'CHOICE: N' where N is 1, 2, 3 or 4 - the position in YOUR image of the shape you chose."
+Study 1b,PRED|p=gpt|t=gpt,fd7987e7,"An instance of GPT-5.5 (with reasoning effort set to low) is playing a one-shot coordination game with ONE other player - another instance of GPT-5.5. Each player independently picks one of the four shapes shown and wants to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each player, so position CANNOT be used to coordinate - each must choose a shape by its FORM. The instance therefore sees these same four shapes, possibly in a different left-to-right order from your image.
+
+What probability do you assign to that instance of GPT-5.5 choosing each shape? Label the shapes A, B, C, D by their left-to-right position in YOUR image; for each, give the probability that it chooses that underlying shape (wherever it appears in its own image). The four probabilities must sum to 100.
+
+Give one short sentence of reasoning, then end with exactly four lines:
+A: <integer from 0 to 100>
+B: <integer from 0 to 100>
+C: <integer from 0 to 100>
+D: <integer from 0 to 100>"
+Study 1b,PRED|p=gpt|t=claude,9abd5f2b,"An instance of Claude Opus 5 (with extended thinking turned off) is playing a one-shot coordination game with ONE other player - another instance of Claude Opus 5. Each player independently picks one of the four shapes shown and wants to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each player, so position CANNOT be used to coordinate - each must choose a shape by its FORM. The instance therefore sees these same four shapes, possibly in a different left-to-right order from your image.
+
+What probability do you assign to that instance of Claude Opus 5 choosing each shape? Label the shapes A, B, C, D by their left-to-right position in YOUR image; for each, give the probability that it chooses that underlying shape (wherever it appears in its own image). The four probabilities must sum to 100.
+
+Give one short sentence of reasoning, then end with exactly four lines:
+A: <integer from 0 to 100>
+B: <integer from 0 to 100>
+C: <integer from 0 to 100>
+D: <integer from 0 to 100>"
+Study 1b,PRED|p=claude|t=gpt,fd7987e7,"An instance of GPT-5.5 (with reasoning effort set to low) is playing a one-shot coordination game with ONE other player - another instance of GPT-5.5. Each player independently picks one of the four shapes shown and wants to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each player, so position CANNOT be used to coordinate - each must choose a shape by its FORM. The instance therefore sees these same four shapes, possibly in a different left-to-right order from your image.
+
+What probability do you assign to that instance of GPT-5.5 choosing each shape? Label the shapes A, B, C, D by their left-to-right position in YOUR image; for each, give the probability that it chooses that underlying shape (wherever it appears in its own image). The four probabilities must sum to 100.
+
+Give one short sentence of reasoning, then end with exactly four lines:
+A: <integer from 0 to 100>
+B: <integer from 0 to 100>
+C: <integer from 0 to 100>
+D: <integer from 0 to 100>"
+Study 1b,PRED|p=claude|t=claude,9abd5f2b,"An instance of Claude Opus 5 (with extended thinking turned off) is playing a one-shot coordination game with ONE other player - another instance of Claude Opus 5. Each player independently picks one of the four shapes shown and wants to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each player, so position CANNOT be used to coordinate - each must choose a shape by its FORM. The instance therefore sees these same four shapes, possibly in a different left-to-right order from your image.
+
+What probability do you assign to that instance of Claude Opus 5 choosing each shape? Label the shapes A, B, C, D by their left-to-right position in YOUR image; for each, give the probability that it chooses that underlying shape (wherever it appears in its own image). The four probabilities must sum to 100.
+
+Give one short sentence of reasoning, then end with exactly four lines:
+A: <integer from 0 to 100>
+B: <integer from 0 to 100>
+C: <integer from 0 to 100>
+D: <integer from 0 to 100>"

@@ -1,0 +1,10 @@
+{
+ "calls": 1296,
+ "transport_ok": 1296,
+ "parse_ok": 1296,
+ "claude_tokens": [
+  477576,
+  20520
+ ],
+ "measured_cost_usd": 2.901
+}

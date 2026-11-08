@@ -1,0 +1,153 @@
+array,model,effort,condition,prompt_sha8,run,subrun,role,model_returned,n_sent,n_ok,PASS,PLAY0,PLAY1,PLAY2,PLAY3,distinct_perms,images_match_canonical_stimuli
+F01_oddone_m0,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,0,0,0,0,20,20,True
+F01_oddone_m0,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,0,0,0,0,20,20,True
+F01_oddone_m0,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,10,10,0,0,0,0,10,10,True
+F01_oddone_m0,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,1,0,0,0,9,10,True
+F01_oddone_m0,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,0,0,0,0,20,20,True
+F01_oddone_m0,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,fresh,claude-opus-5,12,12,0,0,0,0,12,12,True
+F01_oddone_m0,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,policy,claude-opus-5,24,24,0,0,0,0,24,24,True
+F01_oddone_m0,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,0,0,0,0,20,20,True
+F01_oddone_m0,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,10,10,0,0,0,0,10,10,True
+F01_oddone_m0,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F01_oddone_m0,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,fresh,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F01_oddone_m0,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,policy,gpt-5.5-2026-04-23,24,24,0,0,0,0,24,24,True
+F01_oddone_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,0,0,0,0,10,10,True
+F01_oddone_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,0,0,0,20,20,True
+F01_oddone_m0,GPT-5.5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F01_oddone_m0,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,0,0,0,20,20,True
+F02_size_m1,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,8,0,0,0,12,20,True
+F02_size_m1,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,14,0,0,0,6,20,True
+F02_size_m1,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,10,10,2,0,0,0,8,10,True
+F02_size_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,1,0,0,0,9,10,True
+F02_size_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,2,0,0,0,18,20,True
+F02_size_m1,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,4,0,0,0,16,20,True
+F02_size_m2,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,fresh,claude-opus-5,12,12,1,0,0,0,11,12,True
+F02_size_m2,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,policy,claude-opus-5,24,24,3,0,0,0,21,24,True
+F02_size_m2,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,10,10,0,0,0,0,10,10,True
+F02_size_m2,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F02_size_m2,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,fresh,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F02_size_m2,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,policy,gpt-5.5-2026-04-23,24,24,0,0,0,0,24,24,True
+F02_size_m2,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,0,0,0,0,10,10,True
+F02_size_m2,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,0,0,0,20,20,True
+F02_size_m2,GPT-5.5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F02_size_m2,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,0,0,0,20,20,True
+F03_symmetry_m0,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F03_symmetry_m0,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F03_symmetry_m0,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,10,10,9,1,0,0,0,10,True
+F03_symmetry_m0,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,7,3,0,0,0,10,True
+F03_symmetry_m0,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,12,8,0,0,0,20,True
+F03_symmetry_m0,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,12,8,0,0,0,20,True
+F03_symmetry_m1,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,10,10,0,10,0,0,0,10,True
+F03_symmetry_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,0,10,0,0,0,10,True
+F03_symmetry_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,18,0,0,2,20,True
+F03_symmetry_m1,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,3,17,0,0,0,20,True
+F05_orient_m1,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F05_orient_m1,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F05_orient_m1,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,claude-opus-5,1,1,1,0,0,0,0,1,True
+F05_orient_m1,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,9,9,9,0,0,0,0,9,True
+F05_orient_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,10,0,0,0,0,10,True
+F05_orient_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F05_orient_m1,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F05_orient_m1,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,7,0,8,1,3,19,True
+F05_orient_m1,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,18,0,1,0,0,19,True
+F05_orient_m5,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,9,2,3,3,2,19,True
+F05_orient_m5,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,19,0,0,0,0,19,True
+F07_contrast_m7,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,0,15,0,0,4,19,True
+F07_contrast_m7,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,7,10,0,0,2,19,True
+F09_convexity_m5,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,20,20,0,0,20,0,0,20,True
+F09_convexity_m5,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,20,20,4,0,16,0,0,20,True
+F09_convexity_m6,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,15,0,5,0,0,20,True
+F09_convexity_m6,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,18,0,2,0,0,20,True
+F09_convexity_m6,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,10,10,9,0,1,0,0,10,True
+F09_convexity_m6,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,9,1,0,0,0,10,True
+F09_convexity_m6,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,18,0,2,0,0,20,True
+F09_convexity_m6,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,16,2,2,0,0,20,True
+F10_curvature_m5,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,20,20,0,1,0,0,19,20,True
+F10_curvature_m5,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,20,20,2,0,0,0,18,20,True
+F11_noise_m0,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,gpt-5.5-2026-04-23,1,1,1,0,0,0,0,1,True
+F11_noise_m0,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,9,9,9,0,0,0,0,9,True
+F11_noise_m0,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,11,1,7,0,0,19,True
+F11_noise_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,6,2,2,0,0,10,True
+F11_noise_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,14,3,2,1,0,20,True
+F11_noise_m0,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,19,0,0,0,0,19,True
+F11_noise_m0,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,20,0,0,0,0,20,True
+F11_noise_m3,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,8,4,0,7,0,19,True
+F11_noise_m3,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,19,0,0,0,0,19,True
+F11_noise_m6,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F11_noise_m6,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F11_noise_m6,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,claude-opus-5,1,1,1,0,0,0,0,1,True
+F11_noise_m6,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,9,9,9,0,0,0,0,9,True
+F11_noise_m6,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,10,0,0,0,0,10,True
+F11_noise_m6,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F11_noise_m6,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F12_mirror_m2,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F12_mirror_m2,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F12_mirror_m2,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,claude-opus-5,1,1,1,0,0,0,0,1,True
+F12_mirror_m2,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,9,9,9,0,0,0,0,9,True
+F12_mirror_m2,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,10,0,0,0,0,10,True
+F12_mirror_m2,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F12_mirror_m2,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F12_mirror_m3,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,9,5,1,1,3,19,True
+F12_mirror_m3,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,19,0,0,0,0,19,True
+F12_mirror_m4,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,8,2,7,0,2,19,True
+F12_mirror_m4,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,18,0,1,0,0,19,True
+F14_bars_m1,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,10,10,0,0,0,10,0,10,True
+F14_bars_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,1,0,0,9,0,10,True
+F14_bars_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,0,0,20,0,20,True
+F14_bars_m1,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,6,0,0,14,0,20,True
+F15_ring_m0,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,10,10,0,1,0,0,9,10,True
+F15_ring_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,0,4,0,0,6,10,True
+F15_ring_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,6,0,0,14,20,True
+F15_ring_m0,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,6,5,0,0,9,20,True
+F18_stroke_m1,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,gpt-5.5-2026-04-23,1,1,0,0,0,0,1,1,True
+F18_stroke_m1,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,9,9,0,3,0,0,6,9,True
+F18_stroke_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,0,3,0,1,6,10,True
+F18_stroke_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,5,0,0,15,20,True
+F18_stroke_m1,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,1,4,0,0,15,20,True
+F27_linecount_m1,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,fresh,claude-opus-5,12,12,8,1,0,0,3,12,True
+F27_linecount_m1,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,policy,claude-opus-5,24,24,18,2,0,0,4,24,True
+F27_linecount_m1,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,gpt-5.5-2026-04-23,1,1,0,1,0,0,0,1,True
+F27_linecount_m1,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,9,9,0,0,0,0,9,9,True
+F27_linecount_m1,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F27_linecount_m1,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,fresh,gpt-5.5-2026-04-23,12,12,0,0,0,0,12,12,True
+F27_linecount_m1,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,policy,gpt-5.5-2026-04-23,24,24,0,0,0,0,24,24,True
+F27_linecount_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,0,0,0,0,10,10,True
+F27_linecount_m1,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,0,0,0,20,20,True
+F27_linecount_m1,GPT-5.5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,1,0,1,0,10,12,True
+F27_linecount_m1,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,2,1,0,0,17,20,True
+F30_pairratio_m1,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,18,1,0,0,1,20,True
+F30_pairratio_m1,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,18,0,0,1,1,20,True
+F30_pairratio_m1,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,10,10,10,0,0,0,0,10,True
+F30_pairratio_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,2,0,0,0,8,10,True
+F30_pairratio_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,14,0,0,0,6,20,True
+F30_pairratio_m1,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,19,0,0,0,1,20,True
+F36_split_m0,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,12,0,0,0,8,20,True
+F36_split_m0,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,19,0,0,0,1,20,True
+F36_split_m0,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,10,10,9,0,0,0,1,10,True
+F36_split_m0,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,9,0,0,0,1,10,True
+F36_split_m0,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,18,0,0,0,2,20,True
+F36_split_m0,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,17,0,0,0,3,20,True
+F36_split_m0,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,10,10,0,0,0,0,10,10,True
+F36_split_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,0,0,0,0,10,10,True
+F36_split_m0,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,3,0,0,17,20,True
+F36_split_m0,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,4,0,0,0,16,20,True
+F37_mirroraxis_m1,Claude Fable 5.1,low,COPY,49e35910,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F37_mirroraxis_m1,Claude Fable 5.1,low,DIFFERENT,8222a371,fable_staghunt_20261008,main,game,claude-fable-5-1,20,20,20,0,0,0,0,20,True
+F37_mirroraxis_m1,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,claude-opus-5,1,1,1,0,0,0,0,1,True
+F37_mirroraxis_m1,Claude Opus 5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,claude-opus-5,9,9,9,0,0,0,0,9,True
+F37_mirroraxis_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,claude-opus-5,10,10,10,0,0,0,0,10,True
+F37_mirroraxis_m1,Claude Opus 5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F37_mirroraxis_m1,Claude Opus 5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,claude-opus-5,20,20,20,0,0,0,0,20,True
+F41_contain_m1,GPT-5.5,low,COPY,49e35910,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,20,20,0,0,0,20,0,20,True
+F41_contain_m1,GPT-5.5,low,DIFFERENT,8222a371,gpt_staghunt_pilot_20260916,pilot,game,gpt-5.5-2026-04-23,19,19,9,0,0,10,0,19,True
+F41_contain_m2,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,fresh,claude-opus-5,12,12,12,0,0,0,0,12,True
+F41_contain_m2,Claude Opus 5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,policy,claude-opus-5,24,24,24,0,0,0,0,24,True
+F41_contain_m2,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_calibration,game,gpt-5.5-2026-04-23,1,1,0,0,0,1,0,1,True
+F41_contain_m2,GPT-5.5,high,COPY,49e35910,two_model_staghunt_20260916,high_pilot,game,gpt-5.5-2026-04-23,9,9,0,0,0,9,0,9,True
+F41_contain_m2,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,0,0,1,9,2,12,True
+F41_contain_m2,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,fresh,gpt-5.5-2026-04-23,12,12,1,0,3,7,1,12,True
+F41_contain_m2,GPT-5.5,low,COPY,49e35910,study3a_feasibility_20261015,pilot,policy,gpt-5.5-2026-04-23,24,24,2,0,3,15,4,24,True
+F41_contain_m2,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,low_ext,game,gpt-5.5-2026-04-23,10,10,1,0,1,7,1,10,True
+F41_contain_m2,GPT-5.5,low,COPY,49e35910,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,0,2,1,16,1,20,True
+F41_contain_m2,GPT-5.5,low,DIFFERENT,8222a371,study3a_feasibility_20261015,pilot,focal,gpt-5.5-2026-04-23,12,12,5,0,3,4,0,12,True
+F41_contain_m2,GPT-5.5,low,DIFFERENT,8222a371,two_model_staghunt_20260916,main,game,gpt-5.5-2026-04-23,20,20,11,0,2,6,1,20,True

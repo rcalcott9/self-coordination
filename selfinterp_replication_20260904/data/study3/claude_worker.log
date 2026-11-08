@@ -1,0 +1,11 @@
+claude worker calls: 3256  model=claude-sonnet-5
+  400/3256
+  800/3256
+  1200/3256
+  1600/3256
+  2000/3256
+  2400/3256
+  2800/3256
+  3200/3256
+done. unusable=88/3256
+tokens in=1,056,497 out=12,149  est cost $3.35

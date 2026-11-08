@@ -1,0 +1,394 @@
+{
+ "gpt-5.5": {
+  "n_action_calls": 40,
+  "n_invalid": 0,
+  "unpaired": null,
+  "action_distribution": {
+   "KEEP": 0.15,
+   "CIRCLE": 0.325,
+   "SQUARE": 0.0,
+   "TRIANGLE": 0.0,
+   "STAR": 0.525
+  },
+  "chosen_position": {
+   "1": 11,
+   "2": 10,
+   "3": 11,
+   "4": 5,
+   "5": 3
+  },
+  "selection_rate_by_position": {
+   "KEEP": {
+    "1": {
+     "shown": 6,
+     "chosen": 2,
+     "rate": 0.3333333333333333
+    },
+    "2": {
+     "shown": 8,
+     "chosen": 1,
+     "rate": 0.125
+    },
+    "3": {
+     "shown": 4,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "4": {
+     "shown": 9,
+     "chosen": 1,
+     "rate": 0.1111111111111111
+    },
+    "5": {
+     "shown": 13,
+     "chosen": 2,
+     "rate": 0.15384615384615385
+    }
+   },
+   "CIRCLE": {
+    "1": {
+     "shown": 9,
+     "chosen": 4,
+     "rate": 0.4444444444444444
+    },
+    "2": {
+     "shown": 9,
+     "chosen": 4,
+     "rate": 0.4444444444444444
+    },
+    "3": {
+     "shown": 8,
+     "chosen": 4,
+     "rate": 0.5
+    },
+    "4": {
+     "shown": 7,
+     "chosen": 1,
+     "rate": 0.14285714285714285
+    },
+    "5": {
+     "shown": 7,
+     "chosen": 0,
+     "rate": 0.0
+    }
+   },
+   "SQUARE": {
+    "1": {
+     "shown": 13,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "2": {
+     "shown": 8,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "3": {
+     "shown": 10,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "4": {
+     "shown": 3,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "5": {
+     "shown": 6,
+     "chosen": 0,
+     "rate": 0.0
+    }
+   },
+   "TRIANGLE": {
+    "1": {
+     "shown": 7,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "2": {
+     "shown": 8,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "3": {
+     "shown": 7,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "4": {
+     "shown": 9,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "5": {
+     "shown": 9,
+     "chosen": 0,
+     "rate": 0.0
+    }
+   },
+   "STAR": {
+    "1": {
+     "shown": 5,
+     "chosen": 5,
+     "rate": 1.0
+    },
+    "2": {
+     "shown": 7,
+     "chosen": 5,
+     "rate": 0.7142857142857143
+    },
+    "3": {
+     "shown": 11,
+     "chosen": 7,
+     "rate": 0.6363636363636364
+    },
+    "4": {
+     "shown": 12,
+     "chosen": 3,
+     "rate": 0.25
+    },
+    "5": {
+     "shown": 5,
+     "chosen": 1,
+     "rate": 0.2
+    }
+   }
+  },
+  "primary_pairs": {
+   "n": 20,
+   "categories": {
+    "coordinated_label": 11,
+    "miscoordinated_labels": 4,
+    "mixed_keep_label": 4,
+    "both_keep": 1
+   },
+   "mean_points": 6.55
+  },
+  "allpairs": {
+   "category_shares": {
+    "coordinated_label": 0.36923076923076925,
+    "miscoordinated_labels": 0.35,
+    "mixed_keep_label": 0.26153846153846155,
+    "both_keep": 0.019230769230769232
+   },
+   "mean_points": 4.742307692307692,
+   "mean_points_ci95": [
+    4.476923076923077,
+    5.733974358974359
+   ]
+  },
+  "sensitivity_invalid_kept": {
+   "n": 20,
+   "mean_points": 6.55
+  },
+  "predictions": {
+   "n_calls": 20,
+   "n_invalid": 0,
+   "mean": {
+    "tvd": 0.655,
+    "brier": 1.2353519,
+    "logloss": 2.4040781575020667
+   },
+   "n_zero_on_observed": 0,
+   "implied_best": {
+    "KEEP": 20
+   }
+  }
+ },
+ "claude-opus-5": {
+  "n_action_calls": 40,
+  "n_invalid": 0,
+  "unpaired": null,
+  "action_distribution": {
+   "KEEP": 1.0,
+   "CIRCLE": 0.0,
+   "SQUARE": 0.0,
+   "TRIANGLE": 0.0,
+   "STAR": 0.0
+  },
+  "chosen_position": {
+   "1": 10,
+   "2": 7,
+   "3": 10,
+   "4": 6,
+   "5": 7
+  },
+  "selection_rate_by_position": {
+   "KEEP": {
+    "1": {
+     "shown": 10,
+     "chosen": 10,
+     "rate": 1.0
+    },
+    "2": {
+     "shown": 7,
+     "chosen": 7,
+     "rate": 1.0
+    },
+    "3": {
+     "shown": 10,
+     "chosen": 10,
+     "rate": 1.0
+    },
+    "4": {
+     "shown": 6,
+     "chosen": 6,
+     "rate": 1.0
+    },
+    "5": {
+     "shown": 7,
+     "chosen": 7,
+     "rate": 1.0
+    }
+   },
+   "CIRCLE": {
+    "1": {
+     "shown": 8,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "2": {
+     "shown": 6,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "3": {
+     "shown": 10,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "4": {
+     "shown": 10,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "5": {
+     "shown": 6,
+     "chosen": 0,
+     "rate": 0.0
+    }
+   },
+   "SQUARE": {
+    "1": {
+     "shown": 3,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "2": {
+     "shown": 8,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "3": {
+     "shown": 7,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "4": {
+     "shown": 12,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "5": {
+     "shown": 10,
+     "chosen": 0,
+     "rate": 0.0
+    }
+   },
+   "TRIANGLE": {
+    "1": {
+     "shown": 9,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "2": {
+     "shown": 10,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "3": {
+     "shown": 8,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "4": {
+     "shown": 4,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "5": {
+     "shown": 9,
+     "chosen": 0,
+     "rate": 0.0
+    }
+   },
+   "STAR": {
+    "1": {
+     "shown": 10,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "2": {
+     "shown": 9,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "3": {
+     "shown": 5,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "4": {
+     "shown": 8,
+     "chosen": 0,
+     "rate": 0.0
+    },
+    "5": {
+     "shown": 8,
+     "chosen": 0,
+     "rate": 0.0
+    }
+   }
+  },
+  "primary_pairs": {
+   "n": 20,
+   "categories": {
+    "coordinated_label": 0,
+    "miscoordinated_labels": 0,
+    "mixed_keep_label": 0,
+    "both_keep": 20
+   },
+   "mean_points": 7.0
+  },
+  "allpairs": {
+   "category_shares": {
+    "coordinated_label": 0.0,
+    "miscoordinated_labels": 0.0,
+    "mixed_keep_label": 0.0,
+    "both_keep": 1.0
+   },
+   "mean_points": 7.0,
+   "mean_points_ci95": [
+    7.0,
+    7.0
+   ]
+  },
+  "sensitivity_invalid_kept": {
+   "n": 20,
+   "mean_points": 7.0
+  },
+  "predictions": {
+   "n_calls": 20,
+   "n_invalid": 0,
+   "mean": {
+    "tvd": 0.3875,
+    "brier": 0.20764749999999998,
+    "logloss": 0.5027061088461565
+   },
+   "n_zero_on_observed": 0,
+   "implied_best": {
+    "KEEP": 20
+   }
+  }
+ }
+}

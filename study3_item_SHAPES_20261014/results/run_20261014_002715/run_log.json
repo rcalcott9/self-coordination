@@ -1,0 +1,13 @@
+{
+ "cap": 2.0,
+ "prior_spend": 0.04687,
+ "max_output_tokens": 4000,
+ "format_check": {
+  "stop": "format failure on gpt-5.5|fc_prediction|1: 'KEEP: 92%\\nCIRCLE (label): 4%\\nTRIANGLE (label): 1%\\nSTAR (label): 2%\\nSQUARE (label): 1%'",
+  "spent": 0.08126499999999999
+ },
+ "stop": "format failure on gpt-5.5|fc_prediction|1: 'KEEP: 92%\\nCIRCLE (label): 4%\\nTRIANGLE (label): 1%\\nSTAR (label): 2%\\nSQUARE (label): 1%'",
+ "run_spend": 0.08126499999999999,
+ "cumulative": 0.128135,
+ "n_calls": 7
+}

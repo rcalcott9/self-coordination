@@ -1,0 +1,13 @@
+array_id,family,mechanism
+code_argorder_003,parameterization,argument_ordering
+code_error_001,failure_shape,error_representation
+code_fileorg_001,layout_tree,file_organization
+code_fnname_001,identifier_lexeme,function_naming
+code_iface_003,cli_surface,interface_layout
+code_jsonname_001,identifier_case,json_field_naming
+code_outorder_003,sort_policy,output_ordering
+code_return_001,container_shape,return_representation
+code_sentinel_001,absence_marker,sentinel_values
+code_serial_001,wire_encoding,serialization
+code_tie_001,rounding_rule,tie_breaking
+code_varname_002,identifier_lexeme,variable_naming

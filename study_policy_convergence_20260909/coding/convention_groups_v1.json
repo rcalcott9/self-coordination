@@ -1,0 +1,603 @@
+{
+  "coding_id": "convention_groups_v1",
+  "owner": "lead",
+  "status": "PRE-REGISTERED. Frozen 2026-09-09, BEFORE any code-domain collection call.",
+  "applies_to": "code/design/code_items.json (T2), sha256 5c77c85e...fdfb380",
+  "purpose": "T3 established that several items split ONE convention across two near-synonymous options. Splitting lowers modal_share, raises effective_support and lowers cross_model_match - every one of them toward 'did not collapse', which is the more interesting result. This file fixes the grouping BEFORE data exists so the choice cannot be made after seeing it.",
+  "grouping_rule": "Two options share a convention_group if and only if an author who holds one would regard the other as the SAME rule differently rendered - an abbreviation, an alternative packing of the same information, or a designator variant. Options implementing genuinely different rules stay in separate groups even when they look similar. When in doubt the options are NOT grouped, because wrongly grouping distinct conventions creates the opposite bias to the one being corrected.",
+  "metric_preregistration": {
+    "primary": "All per-model x item and per-pair x item metrics in ANALYSIS_SPEC.md are computed on the COLLAPSED policy: counts summed within convention_group before any statistic is taken. K becomes the number of groups for that item, and every chance floor is recomputed as 1/K_group for that item - it is NOT .25 for a collapsed item.",
+    "secondary": "The identical metric set computed on the RAW four-option policy, K = 4, chance = .25.",
+    "reporting_rule": "BOTH codings are reported for every item and every headline number, side by side, regardless of which is the more interesting. No result may be presented under one coding alone.",
+    "disagreement_rule": "Where the two codings disagree in direction, the disagreement is itself the reported result and the item is named. It is not resolved in favour of either."
+  },
+  "secondary_axes_note": "Some items are crossed on two orthogonal conventions rather than split on one. For those, convention_group carries the designated PRIMARY axis and convention_group_alt carries the second. Both are pre-registered here; the alt axis is reported as a sensitivity, never substituted for the primary.",
+  "items": {
+    "code_argorder_003": {
+      "mechanism": "argument_ordering",
+      "n_groups": 3,
+      "groups": {
+        "origin_extent": [
+          "o1",
+          "o4"
+        ],
+        "two_corners": [
+          "o2"
+        ],
+        "center_extent": [
+          "o3"
+        ]
+      },
+      "rationale": "o4 rect(origin, size) IS origin-plus-extent, packed as two 2-tuples rather than four scalars. Same parameterization, different packing. o2 (two corners) and o3 (center plus extent) are different parameterizations and stay separate.",
+      "chance_floor_collapsed": 0.3333333333333333,
+      "groups_option_key": {
+        "origin_extent": [
+          "xywh",
+          "pt_size"
+        ],
+        "two_corners": [
+          "ltrb"
+        ],
+        "center_extent": [
+          "cxcywh"
+        ]
+      },
+      "groups_canonical_index": {
+        "origin_extent": [
+          0,
+          3
+        ],
+        "two_corners": [
+          1
+        ],
+        "center_extent": [
+          2
+        ]
+      }
+    },
+    "code_error_001": {
+      "mechanism": "error_representation",
+      "n_groups": 3,
+      "groups": {
+        "raise": [
+          "o1"
+        ],
+        "none_sentinel": [
+          "o2"
+        ],
+        "value_error_composite": [
+          "o3",
+          "o4"
+        ]
+      },
+      "rationale": "Go-style (value, error) and a Rust-style Result object are the same convention - return the failure alongside the value in one composite - in two packings. Raising and returning None are distinct rules.",
+      "chance_floor_collapsed": 0.3333333333333333,
+      "groups_option_key": {
+        "raise": [
+          "raise"
+        ],
+        "none_sentinel": [
+          "none"
+        ],
+        "value_error_composite": [
+          "pair",
+          "result"
+        ]
+      },
+      "groups_canonical_index": {
+        "raise": [
+          0
+        ],
+        "none_sentinel": [
+          1
+        ],
+        "value_error_composite": [
+          2,
+          3
+        ]
+      }
+    },
+    "code_fileorg_001": {
+      "mechanism": "file_organization",
+      "n_groups": 4,
+      "groups": {
+        "flat": [
+          "o1"
+        ],
+        "src_layout": [
+          "o2"
+        ],
+        "root_package": [
+          "o3"
+        ],
+        "tests_in_package": [
+          "o4"
+        ]
+      },
+      "rationale": "NOT GROUPED. src-layout versus root-package is a named and actively contested Python packaging convention, not a rendering difference, and test placement is a third distinct rule. Grouping here would erase the mechanism.",
+      "chance_floor_collapsed": 0.25,
+      "groups_option_key": {
+        "flat": [
+          "flat_root"
+        ],
+        "src_layout": [
+          "src_layout"
+        ],
+        "root_package": [
+          "pkg_root"
+        ],
+        "tests_in_package": [
+          "tests_inside"
+        ]
+      },
+      "groups_canonical_index": {
+        "flat": [
+          0
+        ],
+        "src_layout": [
+          1
+        ],
+        "root_package": [
+          2
+        ],
+        "tests_in_package": [
+          3
+        ]
+      }
+    },
+    "code_fnname_001": {
+      "mechanism": "function_naming",
+      "n_groups": 4,
+      "groups": {
+        "dedupe": [
+          "o1"
+        ],
+        "unique": [
+          "o2"
+        ],
+        "distinct": [
+          "o3"
+        ],
+        "remove_duplicates": [
+          "o4"
+        ]
+      },
+      "rationale": "NOT GROUPED. These are four different lexemes, and the item IS the choice of lexeme. `dedupe` is not an abbreviation of `remove_duplicates` the way `acc` is of `accumulator`. Grouping would make the item measure nothing.",
+      "chance_floor_collapsed": 0.25,
+      "convention_group_alt": {
+        "axis": "part_of_speech",
+        "groups": {
+          "verb_phrase": [
+            "o1",
+            "o4"
+          ],
+          "adjective_as_noun": [
+            "o2",
+            "o3"
+          ]
+        },
+        "groups_option_key": {
+          "verb_phrase": [
+            "dedupe",
+            "remove_duplicates"
+          ],
+          "adjective_as_noun": [
+            "unique",
+            "distinct"
+          ]
+        }
+      },
+      "groups_option_key": {
+        "dedupe": [
+          "dedupe"
+        ],
+        "unique": [
+          "unique"
+        ],
+        "distinct": [
+          "distinct"
+        ],
+        "remove_duplicates": [
+          "remove_duplicates"
+        ]
+      },
+      "groups_canonical_index": {
+        "dedupe": [
+          0
+        ],
+        "unique": [
+          1
+        ],
+        "distinct": [
+          2
+        ],
+        "remove_duplicates": [
+          3
+        ]
+      }
+    },
+    "code_iface_003": {
+      "mechanism": "interface_layout",
+      "n_groups": 3,
+      "groups": {
+        "boolean_verbose": [
+          "o1",
+          "o2"
+        ],
+        "repeatable_count": [
+          "o3"
+        ],
+        "explicit_level": [
+          "o4"
+        ]
+      },
+      "rationale": "--verbose and --verbose/--no-verbose are the same convention - a boolean verbosity flag - one of them additionally exposing the negative form. A counting flag and an explicit level option are different interfaces.",
+      "chance_floor_collapsed": 0.3333333333333333,
+      "groups_option_key": {
+        "boolean_verbose": [
+          "store_true",
+          "negatable"
+        ],
+        "repeatable_count": [
+          "counting"
+        ],
+        "explicit_level": [
+          "level"
+        ]
+      },
+      "groups_canonical_index": {
+        "boolean_verbose": [
+          0,
+          1
+        ],
+        "repeatable_count": [
+          2
+        ],
+        "explicit_level": [
+          3
+        ]
+      }
+    },
+    "code_jsonname_001": {
+      "mechanism": "json_field_naming",
+      "n_groups": 2,
+      "groups": {
+        "snake_case": [
+          "o1",
+          "o3"
+        ],
+        "camel_case": [
+          "o2",
+          "o4"
+        ]
+      },
+      "rationale": "A clean 2x2 of case x noun, not a split. Case is designated PRIMARY because it is the axis JSON style guides actually name and enforce project-wide; the noun choice is local to the field. Both axes are pre-registered.",
+      "chance_floor_collapsed": 0.5,
+      "convention_group_alt": {
+        "axis": "noun_choice",
+        "groups": {
+          "at_preposition": [
+            "o1",
+            "o2"
+          ],
+          "time_noun": [
+            "o3",
+            "o4"
+          ]
+        },
+        "groups_option_key": {
+          "at_preposition": [
+            "created_at_snake",
+            "createdAt_camel"
+          ],
+          "time_noun": [
+            "created_time_snake",
+            "createdTime_camel"
+          ]
+        }
+      },
+      "groups_option_key": {
+        "snake_case": [
+          "created_at_snake",
+          "created_time_snake"
+        ],
+        "camel_case": [
+          "createdAt_camel",
+          "createdTime_camel"
+        ]
+      },
+      "groups_canonical_index": {
+        "snake_case": [
+          0,
+          2
+        ],
+        "camel_case": [
+          1,
+          3
+        ]
+      }
+    },
+    "code_outorder_003": {
+      "mechanism": "output_ordering",
+      "n_groups": 4,
+      "groups": {
+        "lexicographic": [
+          "o1"
+        ],
+        "dirs_first": [
+          "o2"
+        ],
+        "mtime": [
+          "o3"
+        ],
+        "fs_order": [
+          "o4"
+        ]
+      },
+      "rationale": "NOT GROUPED. o1 and o2 both sort lexicographically but o2 partitions first; `ls` and a file manager genuinely disagree here and the disagreement is the convention under test.",
+      "chance_floor_collapsed": 0.25,
+      "groups_option_key": {
+        "lexicographic": [
+          "lex"
+        ],
+        "dirs_first": [
+          "dirs_first"
+        ],
+        "mtime": [
+          "mtime"
+        ],
+        "fs_order": [
+          "os_order"
+        ]
+      },
+      "groups_canonical_index": {
+        "lexicographic": [
+          0
+        ],
+        "dirs_first": [
+          1
+        ],
+        "mtime": [
+          2
+        ],
+        "fs_order": [
+          3
+        ]
+      }
+    },
+    "code_return_001": {
+      "mechanism": "return_representation",
+      "n_groups": 3,
+      "groups": {
+        "positional_tuple": [
+          "o1"
+        ],
+        "string_keyed_mapping": [
+          "o2"
+        ],
+        "named_record": [
+          "o3",
+          "o4"
+        ]
+      },
+      "rationale": "namedtuple and dataclass are the same convention - define a small named type and return an instance with .min/.max - in two implementations. A bare tuple and a dict are different rules. Note this grouping crosses T3's C4 adjudication and is reported as sensitive to it.",
+      "chance_floor_collapsed": 0.3333333333333333,
+      "groups_option_key": {
+        "positional_tuple": [
+          "tuple"
+        ],
+        "string_keyed_mapping": [
+          "dict"
+        ],
+        "named_record": [
+          "namedtuple",
+          "dataclass"
+        ]
+      },
+      "groups_canonical_index": {
+        "positional_tuple": [
+          0
+        ],
+        "string_keyed_mapping": [
+          1
+        ],
+        "named_record": [
+          2,
+          3
+        ]
+      }
+    },
+    "code_sentinel_001": {
+      "mechanism": "sentinel_values",
+      "n_groups": 2,
+      "groups": {
+        "own_sentinel": [
+          "o1",
+          "o2",
+          "o4"
+        ],
+        "reuse_builtin": [
+          "o3"
+        ]
+      },
+      "rationale": "The convention at stake is whether you DEFINE a private sentinel or REUSE a builtin. object(), a private-class singleton and an Enum member are three constructions of the same rule; Ellipsis is the other rule. This is the most aggressive grouping in the file and is flagged as such: it takes a 4-option item to 2 groups and the raw coding must be read beside it.",
+      "chance_floor_collapsed": 0.5,
+      "aggressive": true,
+      "groups_option_key": {
+        "own_sentinel": [
+          "object",
+          "class_singleton",
+          "enum"
+        ],
+        "reuse_builtin": [
+          "ellipsis"
+        ]
+      },
+      "groups_canonical_index": {
+        "own_sentinel": [
+          0,
+          1,
+          3
+        ],
+        "reuse_builtin": [
+          2
+        ]
+      }
+    },
+    "code_serial_001": {
+      "mechanism": "serialization",
+      "n_groups": 2,
+      "groups": {
+        "iso_8601": [
+          "o1",
+          "o2"
+        ],
+        "unix_epoch": [
+          "o3",
+          "o4"
+        ]
+      },
+      "rationale": "Z and +00:00 are the same ISO 8601 encoding with two UTC designators - named by T3 as a split. Seconds and milliseconds are the same epoch encoding at two units. The real convention is textual-vs-numeric.",
+      "chance_floor_collapsed": 0.5,
+      "convention_group_alt": {
+        "axis": "designator_or_unit",
+        "groups": {
+          "z_or_seconds": [
+            "o1",
+            "o3"
+          ],
+          "offset_or_millis": [
+            "o2",
+            "o4"
+          ]
+        },
+        "groups_option_key": {
+          "z_or_seconds": [
+            "iso_z",
+            "epoch_s"
+          ],
+          "offset_or_millis": [
+            "iso_offset",
+            "epoch_ms"
+          ]
+        }
+      },
+      "groups_option_key": {
+        "iso_8601": [
+          "iso_z",
+          "iso_offset"
+        ],
+        "unix_epoch": [
+          "epoch_s",
+          "epoch_ms"
+        ]
+      },
+      "groups_canonical_index": {
+        "iso_8601": [
+          0,
+          1
+        ],
+        "unix_epoch": [
+          2,
+          3
+        ]
+      }
+    },
+    "code_tie_001": {
+      "mechanism": "tie_breaking",
+      "n_groups": 3,
+      "groups": {
+        "half_even": [
+          "o1"
+        ],
+        "half_up_or_away": [
+          "o2",
+          "o3"
+        ],
+        "half_toward_zero": [
+          "o4"
+        ]
+      },
+      "rationale": "For the stated domain - monetary averages - half-up and half-away-from-zero are indistinguishable on positive values and differ only on negatives, which the spec does not raise. They are the same rule as the item presents it.",
+      "chance_floor_collapsed": 0.3333333333333333,
+      "groups_option_key": {
+        "half_even": [
+          "half_even"
+        ],
+        "half_up_or_away": [
+          "half_up",
+          "half_away"
+        ],
+        "half_toward_zero": [
+          "half_toward_zero"
+        ]
+      },
+      "groups_canonical_index": {
+        "half_even": [
+          0
+        ],
+        "half_up_or_away": [
+          1,
+          2
+        ],
+        "half_toward_zero": [
+          3
+        ]
+      }
+    },
+    "code_varname_002": {
+      "mechanism": "variable_naming",
+      "n_groups": 4,
+      "groups": {
+        "data": [
+          "o1"
+        ],
+        "payload": [
+          "o2"
+        ],
+        "body": [
+          "o3"
+        ],
+        "parsed": [
+          "o4"
+        ]
+      },
+      "rationale": "NOT GROUPED. Four distinct lexemes with different connotations, none an abbreviation or repacking of another.",
+      "chance_floor_collapsed": 0.25,
+      "groups_option_key": {
+        "data": [
+          "data"
+        ],
+        "payload": [
+          "payload"
+        ],
+        "body": [
+          "body"
+        ],
+        "parsed": [
+          "parsed"
+        ]
+      },
+      "groups_canonical_index": {
+        "data": [
+          0
+        ],
+        "payload": [
+          1
+        ],
+        "body": [
+          2
+        ],
+        "parsed": [
+          3
+        ]
+      }
+    }
+  },
+  "summary": {
+    "items_collapsed": 7,
+    "items_left_at_four": 5,
+    "note": "Five of twelve items are NOT collapsed. If the collapsed and raw codings agree on those five and diverge on the seven, the divergence is attributable to the grouping and is reported that way."
+  },
+  "key_semantics": "groups[] uses the canonical_id suffix oN (N = canonical_index+1). groups_option_key[] and groups_canonical_index[] carry the SAME partition addressed by code_items.json's option_key and canonical_index fields. Runners must use groups_canonical_index - it is the only addressing that cannot drift. All three are asserted to be the same partition at freeze time."
+}

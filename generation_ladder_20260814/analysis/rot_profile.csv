@@ -1,0 +1,10 @@
+provider,model,generation_order,n_stimuli_battery,n_valid,self_match,ci_lo,ci_hi,holdout,form_consistency,p_left,fallback,rank_in_battery,generic_salience,auditor_prediction,hedge_rate_stage_a,n_stage_a_rationales
+OpenAI,GPT-4o,1,15,60,0.4938,0.4915,0.548,0.4851,0.4,0.8,True,13,0.092,0.61,0.15,60
+OpenAI,GPT-5,2,45,60,0.6023,0.5192,0.7407,0.6299,0.5333,0.2667,True,32,0.2103,0.6223,0.0,60
+OpenAI,GPT-5.4,3,15,60,0.587,0.5119,0.7175,0.669,0.9667,0.5167,False,11,0.3648,0.6107,0.0,60
+OpenAI,GPT-5.5,4,15,60,0.5729,0.5056,0.6955,0.5034,0.6667,0.3333,True,11,0.1738,0.6233,0.0,60
+Anthropic,Opus 4.5,1,45,60,0.6746,0.5729,0.8169,0.6299,0.6667,0.3333,True,27,0.1775,0.6603,0.4,60
+Anthropic,Opus 4.6,2,45,60,1.0,1.0,1.0,1.0,1.0,0.5,False,1,0.176,0.6787,0.0,60
+Anthropic,Opus 4.7,3,45,60,1.0,1.0,1.0,1.0,1.0,0.5,False,1,0.1953,0.6677,0.0,60
+Anthropic,Opus 4.8,4,45,60,0.8734,0.765,0.9667,0.9333,0.8667,0.5667,False,30,0.23,0.686,0.0,60
+Anthropic,Opus 5,5,15,60,0.4915,0.4915,0.5373,0.4828,0.2,0.9,True,14,0.1738,0.6803,0.016666666666666666,60

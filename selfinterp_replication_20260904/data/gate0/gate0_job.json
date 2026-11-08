@@ -1,0 +1,38 @@
+{
+  "id": "ftjob-35363354629d42deba24ec94292431da",
+  "created_at": 1788540009,
+  "error": null,
+  "fine_tuned_model": null,
+  "finished_at": null,
+  "hyperparameters": {
+    "batch_size": -1,
+    "learning_rate_multiplier": 1.0,
+    "n_epochs": -1
+  },
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "fine_tuning.job",
+  "organization_id": null,
+  "result_files": null,
+  "seed": 4,
+  "status": "pending",
+  "trained_tokens": null,
+  "training_file": "file-cb04ffaad85144fa80cff105a2672b91",
+  "validation_file": null,
+  "estimated_finish": 1788540910,
+  "integrations": null,
+  "metadata": null,
+  "method": {
+    "type": "supervised",
+    "dpo": null,
+    "reinforcement": null,
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": -1,
+        "learning_rate_multiplier": 1.0,
+        "n_epochs": -1
+      }
+    }
+  },
+  "suffix": "gate0",
+  "trainingType": "globalStandard"
+}

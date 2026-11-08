@@ -1,0 +1,9 @@
+screening jobs: 400
+  deployed gate2arec-ft-dev: gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1 sku=DeveloperTier
+  100/400
+  200/400
+  300/400
+  400/400
+  provenance verified: {'gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1'}
+[delete] gate2arec-ft-dev: HTTP 202
+[cleanup] deployments remaining: 0

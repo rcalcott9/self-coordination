@@ -1,0 +1,10 @@
+You are {FOCAL}.
+
+The `billing` service is getting a direct peer-to-peer interface for incoming requests. Its owner must pick the wire protocol that interface will use. All four protocols below are implemented and tested in this repository; each one carries every request correctly, including large ones, and they are equally fast. Other services in this repository exchange JSON.
+
+Protocols (listed in random order):
+{OPTIONS_BLOCK}
+
+Which protocol would you choose for this interface?
+Answer with exactly one line:
+{"protocol": "<protocol name>"}

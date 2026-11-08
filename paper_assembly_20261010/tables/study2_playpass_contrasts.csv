@@ -1,0 +1,31 @@
+model,config,status,contrast,n_high,n_low,estimate,ci_lo,ci_hi,p,test
+GPT-5.5,effort low,frozen primary,"partner shift, all items",15,15,0.14000000000000007,0.09499999999999997,0.18666666666666665,9.999000099990002e-05,item sign-flip (COPY/DIFFERENT swapped within item)
+GPT-5.5,effort low,frozen primary,"partner shift, HIGH items",15,15,0.10333333333333328,0.040000000000000036,0.17000000000000004,0.011698830116988301,item sign-flip (COPY/DIFFERENT swapped within item)
+GPT-5.5,effort low,frozen primary,"partner shift, LOW items",15,15,0.17666666666666664,0.11000000000000001,0.24666666666666665,9.999000099990002e-05,item sign-flip (COPY/DIFFERENT swapped within item)
+GPT-5.5,effort low,frozen primary,"policy effect (HIGH-LOW), COPY",15,15,0.38,0.21666666666666667,0.5433333333333332,0.00039996000399960006,class-label permutation
+GPT-5.5,effort low,frozen primary,"policy effect (HIGH-LOW), DIFFERENT",15,15,0.45333333333333337,0.2866666666666667,0.6133333333333333,9.999000099990002e-05,class-label permutation
+GPT-5.5,effort low,frozen primary,interaction (LOW shift - HIGH shift),15,15,0.07333333333333336,-0.019999999999999962,0.1666666666666667,0.1690830916908309,class-label permutation
+GPT-5.5,effort high,exploratory,"partner shift, all items",15,15,0.08999999999999997,0.033333333333333326,0.15000000000000002,0.0103989601039896,item sign-flip (COPY/DIFFERENT swapped within item)
+GPT-5.5,effort high,exploratory,"partner shift, HIGH items",15,15,0.046666666666666745,-0.020000000000000018,0.12,0.3127687231276872,item sign-flip (COPY/DIFFERENT swapped within item)
+GPT-5.5,effort high,exploratory,"partner shift, LOW items",15,15,0.13333333333333336,0.046666666666666634,0.22666666666666668,0.023797620237976203,item sign-flip (COPY/DIFFERENT swapped within item)
+GPT-5.5,effort high,exploratory,"policy effect (HIGH-LOW), COPY",15,15,0.4466666666666667,0.28,0.6133333333333333,9.999000099990002e-05,class-label permutation
+GPT-5.5,effort high,exploratory,"policy effect (HIGH-LOW), DIFFERENT",15,15,0.5333333333333333,0.33999999999999997,0.7133333333333333,0.00019998000199980003,class-label permutation
+GPT-5.5,effort high,exploratory,interaction (LOW shift - HIGH shift),15,15,0.08666666666666661,-0.026666666666666672,0.20666666666666667,0.20307969203079693,class-label permutation
+Claude Opus 5,"adaptive, effort low",frozen primary,"partner shift, all items",15,15,0.15500000000000003,0.09666666666666668,0.21833333333333338,0.00019998000199980003,item sign-flip (COPY/DIFFERENT swapped within item)
+Claude Opus 5,"adaptive, effort low",frozen primary,"partner shift, HIGH items",15,15,0.023333333333333317,0.0033333333333332993,0.046666666666666745,0.11488851114888511,item sign-flip (COPY/DIFFERENT swapped within item)
+Claude Opus 5,"adaptive, effort low",frozen primary,"partner shift, LOW items",15,15,0.2866666666666666,0.17000000000000004,0.41,0.0007999200079992001,item sign-flip (COPY/DIFFERENT swapped within item)
+Claude Opus 5,"adaptive, effort low",frozen primary,"policy effect (HIGH-LOW), COPY",15,15,0.19000000000000006,0.07999999999999996,0.30999999999999994,0.0020997900209979003,class-label permutation
+Claude Opus 5,"adaptive, effort low",frozen primary,"policy effect (HIGH-LOW), DIFFERENT",15,15,0.45333333333333337,0.2866666666666666,0.62,0.00019998000199980003,class-label permutation
+Claude Opus 5,"adaptive, effort low",frozen primary,interaction (LOW shift - HIGH shift),15,15,0.2633333333333333,0.1466666666666666,0.38999999999999996,9.999000099990002e-05,class-label permutation
+Claude Opus 5,"adaptive, effort high",exploratory,"partner shift, all items",15,15,0.1333333333333333,0.09333333333333338,0.17500000000000004,9.999000099990002e-05,item sign-flip (COPY/DIFFERENT swapped within item)
+Claude Opus 5,"adaptive, effort high",exploratory,"partner shift, HIGH items",15,15,0.08000000000000007,0.033333333333333326,0.13,0.0081991800819918,item sign-flip (COPY/DIFFERENT swapped within item)
+Claude Opus 5,"adaptive, effort high",exploratory,"partner shift, LOW items",15,15,0.18666666666666665,0.1233333333333333,0.25666666666666665,9.999000099990002e-05,item sign-flip (COPY/DIFFERENT swapped within item)
+Claude Opus 5,"adaptive, effort high",exploratory,"policy effect (HIGH-LOW), COPY",15,15,0.3866666666666667,0.23325000000000004,0.5433333333333333,0.00019998000199980003,class-label permutation
+Claude Opus 5,"adaptive, effort high",exploratory,"policy effect (HIGH-LOW), DIFFERENT",15,15,0.4933333333333333,0.3333333333333333,0.64,9.999000099990002e-05,class-label permutation
+Claude Opus 5,"adaptive, effort high",exploratory,interaction (LOW shift - HIGH shift),15,15,0.10666666666666658,0.02666666666666656,0.19333333333333325,0.029597040295970403,class-label permutation
+Qwen step-316,thinking off,frozen primary,"partner shift, all items",15,15,0.15475702975702976,0.10715011880983745,0.2037305508404794,9.999000099990002e-05,item sign-flip (COPY/DIFFERENT swapped within item)
+Qwen step-316,thinking off,frozen primary,"partner shift, HIGH items",15,15,0.1244909566602207,0.054429789854248095,0.19996446061375936,0.0037996200379962005,item sign-flip (COPY/DIFFERENT swapped within item)
+Qwen step-316,thinking off,frozen primary,"partner shift, LOW items",15,15,0.18392255892255893,0.11799228704504992,0.2500688517831375,0.00029997000299970003,item sign-flip (COPY/DIFFERENT swapped within item)
+Qwen step-316,thinking off,frozen primary,"policy effect (HIGH-LOW), COPY",15,15,0.13338926174496646,0.028668131385522672,0.2499026588910309,0.024197580241975804,class-label permutation
+Qwen step-316,thinking off,frozen primary,"policy effect (HIGH-LOW), DIFFERENT",15,15,0.1928208640073047,0.07308695282968887,0.3043708515078206,0.005699430056994301,class-label permutation
+Qwen step-316,thinking off,frozen primary,interaction (LOW shift - HIGH shift),15,15,0.059431602262338235,-0.041606502682588614,0.1567418112578879,0.268973102689731,class-label permutation

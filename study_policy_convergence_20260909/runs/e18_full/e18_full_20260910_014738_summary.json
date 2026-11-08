@@ -1,0 +1,34 @@
+{
+  "ok": 2160,
+  "parse_fail": 0,
+  "transport_fail": 0,
+  "mismatch": 0,
+  "retries": 0,
+  "cost": 8.601059999999997,
+  "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/runs/e18_full/e18_full_20260910_014738.csv",
+  "stamp": "20260910_014738",
+  "stage": "full",
+  "n": 48,
+  "items": [
+    "x_acronym_case",
+    "x_enum_value",
+    "x_listkey",
+    "x_money",
+    "x_test_naming"
+  ],
+  "endpoints": [
+    "gpt-4-turbo-2024-04-09",
+    "gpt-4.1-2025-04-14",
+    "gpt-5-2025-08-07",
+    "gpt-5.5-2026-04-23",
+    "claude-opus-4-5-20251101",
+    "claude-opus-4-6",
+    "claude-opus-4-7",
+    "claude-opus-4-8",
+    "claude-opus-5"
+  ],
+  "cap_per_endpoint": 4,
+  "seconds": 367.76366686820984,
+  "prompt_hash": "0339bee6",
+  "battery_hash": "8a7b8d16"
+}

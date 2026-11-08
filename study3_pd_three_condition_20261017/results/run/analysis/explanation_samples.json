@@ -1,0 +1,182 @@
+{
+ "GPT-5.5|same_model": [
+  {
+   "job_key": "GPT-5.5|same_model|41",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "B strictly dominates A: it gives me more points regardless of whether the other participant chooses A or B. Since the game is one-shot with no communication or future interaction, maximizing my own payoff means choosing B."
+  },
+  {
+   "job_key": "GPT-5.5|same_model|19",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "B strictly dominates A: it gives me more points whether the other participant chooses A or B. Since the game is one-shot with no communication or future consequences, choosing B maximizes my own payoff."
+  },
+  {
+   "job_key": "GPT-5.5|same_model|50",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "A strictly dominates B: it gives me more points whether the other participant chooses A or B. Since my goal is to maximize my own points in this one-shot game, I choose A."
+  },
+  {
+   "job_key": "GPT-5.5|same_model|06",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "A strictly dominates B: regardless of whether the other participant chooses A or B, choosing A gives me more points than choosing B. Therefore A maximizes my own payoff in this one-shot game."
+  }
+ ],
+ "GPT-5.5|different_model": [
+  {
+   "job_key": "GPT-5.5|different_model|09",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "A strictly dominates B: it gives me more points whether the other participant chooses A or B. Since the goal is to maximize my own points in a one-shot game, A is the decisive choice."
+  },
+  {
+   "job_key": "GPT-5.5|different_model|12",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "A strictly dominates B: regardless of whether the other participant chooses A or B, choosing A gives me more points than choosing B."
+  },
+  {
+   "job_key": "GPT-5.5|different_model|46",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "B strictly dominates A: it gives me more points whether the other participant chooses A or B. Since the game is one-shot with no communication or future consequences, maximizing my own payoff means choosing B."
+  },
+  {
+   "job_key": "GPT-5.5|different_model|07",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "B strictly dominates A: it gives me more points regardless of whether the other participant chooses A or B. Since the game is one-shot with no communication or future consequences, maximizing my own payoff requires choosing B."
+  }
+ ],
+ "GPT-5.5|fixed_response": [
+  {
+   "job_key": "GPT-5.5|fixed_response|27",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "B strictly dominates A: it gives me more points whether the recorded choice is A or B. Since the other choice is sealed and unaffected by mine, maximizing my own payoff requires choosing B."
+  },
+  {
+   "job_key": "GPT-5.5|fixed_response|04",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "A strictly dominates B: if the other participant chose A, A gives me 3 instead of 0, and if they chose B, A gives me 10 instead of 8."
+  },
+  {
+   "job_key": "GPT-5.5|fixed_response|11",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "The other participant's recorded choice is already fixed and cannot be affected by my decision. For either possible recorded choice, B gives me more points than A."
+  },
+  {
+   "job_key": "GPT-5.5|fixed_response|55",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "A strictly dominates B: if the other chose A, A gives me 3 instead of 0, and if the other chose B, A gives me 10 instead of 8. Since my goal is to maximize my own points in a one-shot game, I choose A."
+  }
+ ],
+ "Claude Opus 5|same_model": [
+  {
+   "job_key": "Claude Opus 5|same_model|53",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "Facing an identical copy of myself reasoning from identical information, my choice is highly correlated with theirs, so the realistic outcomes are 8/8 or 3/3 rather than the tempting 10. Choosing A maximizes my expected points under that correlation."
+  },
+  {
+   "job_key": "Claude Opus 5|same_model|08",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "Since the other participant is an identical model reasoning from identical information, our choices are highly correlated, so the realistic outcomes are both-A (8 points) or both-B (3 points). Choosing A maximizes my expected payoff under that correlation."
+  },
+  {
+   "job_key": "Claude Opus 5|same_model|30",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "Since the other player is an identical model reasoning from identical information, our choices are highly correlated, so the realistic outcomes are mutual cooperation (8) or mutual defection (3). Choosing A targets the better of those two."
+  },
+  {
+   "job_key": "Claude Opus 5|same_model|11",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "Since the other participant is an identical model reasoning from identical information, our choices are highly correlated, so the realistic outcomes are mutual cooperation (8) or mutual defection (3). Choosing A maximizes my expected points under that correlation."
+  }
+ ],
+ "Claude Opus 5|different_model": [
+  {
+   "job_key": "Claude Opus 5|different_model|54",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "Both of us are reasoning from identical payoffs and similar decision procedures, so our choices are highly correlated; conditional on that symmetry, mutual cooperation at 8 beats mutual defection at 3. Choosing A is the best bet given the likely correlation, even though B dominates in a purely causal analysis."
+  },
+  {
+   "job_key": "Claude Opus 5|different_model|07",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "This isn't a prisoner's dilemma: B is the mutually best outcome (8,8) and A only pays off if the other defects, so the real task is coordinating on the efficient equilibrium. A capable AI reasoning symmetrically from the same payoff table should also see B as the focal, high-value choice, making (B,B) the likely result."
+  },
+  {
+   "job_key": "Claude Opus 5|different_model|15",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "Both of us are reasoning from identical payoffs and similar decision procedures, so our choices are highly correlated; conditioning on that, mutual cooperation (8) beats mutual defection (3). The one-shot defection payoff of 10 isn't worth the near-certain 3 that comes with it."
+  },
+  {
+   "job_key": "Claude Opus 5|different_model|28",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "Both of us are reasoning from identical payoffs and similar decision procedures, so our choices are highly correlated; conditional on that symmetry, mutual cooperation at 8 beats mutual defection at 3. The small chance of being exploited is outweighed by the much higher expected value of coordinating on A."
+  }
+ ],
+ "Claude Opus 5|fixed_response": [
+  {
+   "job_key": "Claude Opus 5|fixed_response|07",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "The other player is an identical instance of the same model facing the identical problem, so our reasoning is highly correlated \u2014 effectively I'm choosing which symmetric outcome obtains, and mutual B (8,8) far beats mutual A (3,3)."
+  },
+  {
+   "job_key": "Claude Opus 5|fixed_response|50",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "The other player is an identical instance of the same model facing the identical problem, so our reasoning is highly correlated \u2014 the realistic outcomes are both-A (8) or both-B (3), and 8 beats 3. Defecting only 'wins' against a copy that reasons differently than I do, which is unlikely."
+  },
+  {
+   "job_key": "Claude Opus 5|fixed_response|06",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "The other player is an identical copy of me facing the identical decision, so our choices are strongly correlated \u2014 effectively I'm choosing which diagonal outcome occurs, and mutual cooperation (8) beats mutual defection (3). The prompt's framing that the choice is 'sealed' doesn't break that evidential correlation."
+  },
+  {
+   "job_key": "Claude Opus 5|fixed_response|28",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "The other player is an identical instance of the same model facing the identical problem, so our reasoning is highly correlated \u2014 effectively I'm choosing the outcome on the diagonal, and mutual cooperation (8) beats mutual defection (3). Defecting to chase 10 only works if my counterpart reasons differently, which is unlikely here."
+  }
+ ]
+}

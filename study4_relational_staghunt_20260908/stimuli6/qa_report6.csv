@@ -1,0 +1,9 @@
+array_id,wins_per_object,intended_gpt_wins,n_rules,ink_min,ink_max,max_centroid_off,max_margin_diff,hue_outlier,perms_distinct,balance_ok
+r_line_contour_v0,2|2|2|2,2,8,0.79,1.43,0.0022,0.0032,0.0029,24,True
+r_line_contour_v1,2|2|2|2,2,8,0.79,1.55,0.0022,0.0032,0.0029,24,True
+r_line_contour_v2,2|2|2|2,2,8,0.82,1.11,0.0022,0.0032,0.0029,24,True
+r_nesting_v0,2|2|2|2,2,8,0.72,1.23,0.0023,0.0032,0.0013,24,True
+r_nesting_v1,2|2|2|2,2,8,0.6,1.26,0.0024,0.0032,0.0004,24,True
+r_nesting_v2,2|2|2|2,2,8,0.57,1.39,0.0024,0.0032,0.0011,24,True
+r_noise_texture_v0,2|2|2|2,2,8,0.9,1.08,0.0077,0.0032,0.0015,24,True
+r_noise_texture_v1,2|2|2|2,2,8,0.89,1.08,0.0044,0.0032,0.0016,24,True

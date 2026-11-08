@@ -1,0 +1,26 @@
+{
+ "rule_id": "E18-SCREEN-v1",
+ "written": "2026-09-10, after the pilot ran and BEFORE any pilot result was inspected",
+ "n_pilot": 12,
+ "boundary_checkpoints": ["gpt-4-turbo-2024-04-09","gpt-5.5-2026-04-23",
+                          "claude-opus-4-5-20251101","claude-opus-5"],
+ "exclusion_criteria": {
+  "malformed": "any parse failure in any cell",
+  "ceiling": "median modal_share across the 4 boundary checkpoints >= 0.95",
+  "near_random": "pooled effective_support (n=48) >= 3.60 AND no checkpoint at modal_share >= 0.50",
+  "order_sensitive": "pooled position_modal_share (n=48) >= 0.45 (chance = 0.25)"
+ },
+ "selection_rule": {
+  "statistic": "min over the 4 boundary checkpoints of effective_support",
+  "direction": "descending; the 12 highest are frozen into the full battery",
+  "rationale": "A max-min rule keeps the items that stay live at their WORST checkpoint, which is exactly what 'balanced across the vintage ladder' means. An item live at three checkpoints and collapsed at the fourth contributes nothing at the point where it collapsed.",
+  "tie_break": "item_id, alphabetically. No human adjudication."
+ },
+ "forbidden_criteria": [
+  "which option won in any cell",
+  "whether the two families agreed or disagreed",
+  "any cross-model or cross-family statistic",
+  "any vintage slope or temporal direction"
+ ],
+ "forbidden_rationale": "Screening on the dependent variable is the defect that disqualified FROZEN_22 from Stage 1. At n=12 the pilot is a screen, not an estimator; no temporal claim may be drawn from it."
+}

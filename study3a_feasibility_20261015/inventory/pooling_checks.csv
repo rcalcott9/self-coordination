@@ -1,0 +1,27 @@
+comparison,model,array,condition,sources,counts,max_pairwise_TVD,chi2,perm_p
+GPT by run,GPT-5.5,F01_oddone_m0,COPY,study3a_pilot vs two_model,study3a_pilot: 0/0/0/0/48 | two_model: 0/0/0/0/30,0.0,0.0,1.0
+GPT by run,GPT-5.5,F01_oddone_m0,DIFFERENT,study3a_pilot vs two_model,study3a_pilot: 0/0/0/0/12 | two_model: 0/0/0/0/20,0.0,0.0,1.0
+GPT by run,GPT-5.5,F02_size_m2,COPY,study3a_pilot vs two_model,study3a_pilot: 0/0/0/0/48 | two_model: 0/0/0/0/30,0.0,0.0,1.0
+GPT by run,GPT-5.5,F02_size_m2,DIFFERENT,study3a_pilot vs two_model,study3a_pilot: 0/0/0/0/12 | two_model: 0/0/0/0/20,0.0,0.0,1.0
+GPT by run,GPT-5.5,F11_noise_m0,COPY,gpt_staghunt_pilot vs two_model,gpt_staghunt_pilot: 11/1/7/0/0 | two_model: 20/5/4/1/0,0.235,4.87,0.1669
+GPT by run,GPT-5.5,F11_noise_m0,DIFFERENT,gpt_staghunt_pilot vs two_model,gpt_staghunt_pilot: 19/0/0/0/0 | two_model: 20/0/0/0/0,0.0,0.0,1.0
+GPT by run,GPT-5.5,F27_linecount_m1,COPY,study3a_pilot vs two_model,study3a_pilot: 0/0/0/0/48 | two_model: 0/0/0/0/30,0.0,0.0,1.0
+GPT by run,GPT-5.5,F27_linecount_m1,DIFFERENT,study3a_pilot vs two_model,study3a_pilot: 1/0/1/0/10 | two_model: 2/1/0/0/17,0.083,2.29,0.831
+GPT by run,GPT-5.5,F41_contain_m2,COPY,study3a_pilot vs two_model,study3a_pilot: 3/0/7/31/7 | two_model: 1/2/2/23/2,0.188,5.9,0.2073
+GPT by run,GPT-5.5,F41_contain_m2,DIFFERENT,study3a_pilot vs two_model,study3a_pilot: 5/0/3/4/0 | two_model: 11/0/2/6/1,0.183,1.97,0.632
+GPT by sub-run/role,GPT-5.5,F01_oddone_m0,COPY,study3a_pilot/focal vs study3a_pilot/fresh vs study3a_pilot/policy vs two_model/low_ext vs two_model/main,study3a_pilot/focal: 0/0/0/0/12 | study3a_pilot/fresh: 0/0/0/0/12 | study3a_pilot/policy: 0/0/0/0/24 | two_model/low_ext: 0/0/0/0/10 | two_model/main: 0/0/0/0/20,0.0,0.0,1.0
+GPT by sub-run/role,GPT-5.5,F01_oddone_m0,DIFFERENT,study3a_pilot/focal vs two_model/main,study3a_pilot/focal: 0/0/0/0/12 | two_model/main: 0/0/0/0/20,0.0,0.0,1.0
+GPT by sub-run/role,GPT-5.5,F02_size_m2,COPY,study3a_pilot/focal vs study3a_pilot/fresh vs study3a_pilot/policy vs two_model/low_ext vs two_model/main,study3a_pilot/focal: 0/0/0/0/12 | study3a_pilot/fresh: 0/0/0/0/12 | study3a_pilot/policy: 0/0/0/0/24 | two_model/low_ext: 0/0/0/0/10 | two_model/main: 0/0/0/0/20,0.0,0.0,1.0
+GPT by sub-run/role,GPT-5.5,F02_size_m2,DIFFERENT,study3a_pilot/focal vs two_model/main,study3a_pilot/focal: 0/0/0/0/12 | two_model/main: 0/0/0/0/20,0.0,0.0,1.0
+GPT by sub-run/role,GPT-5.5,F03_symmetry_m1,COPY,two_model/low_ext vs two_model/main,two_model/low_ext: 0/10/0/0/0 | two_model/main: 0/18/0/0/2,0.1,1.07,0.5379
+GPT by sub-run/role,GPT-5.5,F11_noise_m0,COPY,gpt_staghunt_pilot vs two_model/low_ext vs two_model/main,gpt_staghunt_pilot: 11/1/7/0/0 | two_model/low_ext: 6/2/2/0/0 | two_model/main: 14/3/2/1/0,0.268,6.23,0.4201
+GPT by sub-run/role,GPT-5.5,F11_noise_m0,DIFFERENT,gpt_staghunt_pilot vs two_model/main,gpt_staghunt_pilot: 19/0/0/0/0 | two_model/main: 20/0/0/0/0,0.0,0.0,1.0
+GPT by sub-run/role,GPT-5.5,F14_bars_m1,COPY,two_model/low_ext vs two_model/main,two_model/low_ext: 1/0/0/9/0 | two_model/main: 0/0/0/20/0,0.1,2.07,0.3341
+GPT by sub-run/role,GPT-5.5,F15_ring_m0,COPY,two_model/low_ext vs two_model/main,two_model/low_ext: 0/4/0/0/6 | two_model/main: 0/6/0/0/14,0.1,0.3,0.6874
+GPT by sub-run/role,GPT-5.5,F18_stroke_m1,COPY,two_model/low_ext vs two_model/main,two_model/low_ext: 0/3/0/1/6 | two_model/main: 0/5/0/0/15,0.15,2.28,0.3613
+GPT by sub-run/role,GPT-5.5,F27_linecount_m1,COPY,study3a_pilot/focal vs study3a_pilot/fresh vs study3a_pilot/policy vs two_model/low_ext vs two_model/main,study3a_pilot/focal: 0/0/0/0/12 | study3a_pilot/fresh: 0/0/0/0/12 | study3a_pilot/policy: 0/0/0/0/24 | two_model/low_ext: 0/0/0/0/10 | two_model/main: 0/0/0/0/20,0.0,0.0,1.0
+GPT by sub-run/role,GPT-5.5,F27_linecount_m1,DIFFERENT,study3a_pilot/focal vs two_model/main,study3a_pilot/focal: 1/0/1/0/10 | two_model/main: 2/1/0/0/17,0.083,2.29,0.831
+GPT by sub-run/role,GPT-5.5,F36_split_m0,COPY,two_model/low_ext vs two_model/main,two_model/low_ext: 0/0/0/0/10 | two_model/main: 0/3/0/0/17,0.15,1.67,0.5316
+GPT by sub-run/role,GPT-5.5,F41_contain_m2,COPY,study3a_pilot/focal vs study3a_pilot/fresh vs study3a_pilot/policy vs two_model/low_ext vs two_model/main,study3a_pilot/focal: 0/0/1/9/2 | study3a_pilot/fresh: 1/0/3/7/1 | study3a_pilot/policy: 2/0/3/15/4 | two_model/low_ext: 1/0/1/7/1 | two_model/main: 0/2/1/16/1,0.317,13.84,0.6361
+GPT by sub-run/role,GPT-5.5,F41_contain_m2,DIFFERENT,study3a_pilot/focal vs two_model/main,study3a_pilot/focal: 5/0/3/4/0 | two_model/main: 11/0/2/6/1,0.183,1.97,0.632
+Opus Sep vs Oct,Claude Opus 5,F01_oddone_m0,DIFFERENT,2026-09 vs 2026-10,2026-09: 0/0/0/0/20 | 2026-10: 0/0/0/0/36,0.0,0.0,1.0

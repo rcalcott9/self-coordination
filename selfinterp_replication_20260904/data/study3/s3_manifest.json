@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-09-05T20:37:53.447195+00:00",
+  "ft_model": "gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini",
+  "sku": "GlobalStandard",
+  "capacity": 8,
+  "temperature": 1.0,
+  "seed": 20260909,
+  "n_candidates": 148,
+  "n_divergent_confirmed": 33,
+  "n_agreement_confirmed": 24,
+  "gate": "GO",
+  "n_focal_calls": 2291,
+  "deleted_utc": "2026-09-05T22:47:12.326590+00:00",
+  "lifetime_hours": 2.1,
+  "hosting_usd": 3.57,
+  "deployments_remaining": 0
+}

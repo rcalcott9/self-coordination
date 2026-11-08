@@ -1,0 +1,110 @@
+[
+ {
+  "name": "1 current fixed-depth",
+  "n_stim": 72,
+  "nC": 30,
+  "pairs_med": 37,
+  "pairs_lo": 33,
+  "pairs_hi": 41,
+  "p_ge20": 1.0,
+  "fp_rate": 0.376715499835515,
+  "mean_true_gap": 0.38969100415576025,
+  "surv": 72.0,
+  "calls": {
+   "stageA": 17280.0,
+   "auditor": 8640.0,
+   "salience": 8640.0,
+   "confidence": 4320.0,
+   "stageC": 7200
+  },
+  "total": 46080.0,
+  "lo": 720.0,
+  "hi": 1056.0,
+  "power": {
+   "0.145": 1.0,
+   "0.10": 0.9666666666666667,
+   "0.07": 0.82
+  }
+ },
+ {
+  "name": "2 reduced fixed-depth",
+  "n_stim": 72,
+  "nC": 24,
+  "pairs_med": 38,
+  "pairs_lo": 33,
+  "pairs_hi": 42,
+  "p_ge20": 1.0,
+  "fp_rate": 0.4506566934825366,
+  "mean_true_gap": 0.3780696000843614,
+  "surv": 72.0,
+  "calls": {
+   "stageA": 8640.0,
+   "auditor": 5760.0,
+   "salience": 5760.0,
+   "confidence": 2880.0,
+   "stageC": 5760
+  },
+  "total": 28800.0,
+  "lo": 450.0,
+  "hi": 660.0,
+  "power": {
+   "0.145": 1.0,
+   "0.10": 0.94,
+   "0.07": 0.7166666666666667
+  }
+ },
+ {
+  "name": "3 two-stage adaptive",
+  "n_stim": 72,
+  "nC": 24,
+  "pairs_med": 37,
+  "pairs_lo": 32,
+  "pairs_hi": 43,
+  "p_ge20": 1.0,
+  "fp_rate": 0.44405253507725123,
+  "mean_true_gap": 0.380201239029101,
+  "surv": 67.18,
+  "calls": {
+   "stageA": 6912.75,
+   "auditor": 4416.5,
+   "salience": 4416.5,
+   "confidence": 1493.2,
+   "stageC": 5760
+  },
+  "total": 22998.95,
+  "lo": 359.35859375,
+  "hi": 527.0592708333334,
+  "power": {
+   "0.145": 1.0,
+   "0.10": 0.95,
+   "0.07": 0.76
+  }
+ },
+ {
+  "name": "4 aggressive breadth-first",
+  "n_stim": 110,
+  "nC": 24,
+  "pairs_med": 62,
+  "pairs_lo": 57,
+  "pairs_hi": 68,
+  "p_ge20": 1.0,
+  "fp_rate": 0.45503460862497286,
+  "mean_true_gap": 0.3806324327620078,
+  "surv": 106.525,
+  "calls": {
+   "stageA": 9025.5,
+   "auditor": 6017.0,
+   "salience": 6017.0,
+   "confidence": 2500.6,
+   "stageC": 5760
+  },
+  "total": 29320.1,
+  "lo": 458.1265625,
+  "hi": 671.9189583333333,
+  "power": {
+   "0.145": 1.0,
+   "0.10": 0.97,
+   "0.07": 0.7533333333333333
+  }
+ }
+]

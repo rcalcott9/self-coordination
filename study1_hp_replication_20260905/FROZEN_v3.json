@@ -1,0 +1,62 @@
+{
+ "frozen": "2026-09-05",
+ "study": "Study 1-HP v3 - single-focal confirmatory replication",
+ "focal_model": {
+  "requested": "gpt-5.5",
+  "pinned": "gpt-5.5-2026-04-23",
+  "verified_live": true
+ },
+ "auditor_and_salience_rater": {
+  "requested": "claude-opus-5",
+  "verified_live": true
+ },
+ "design_doc_sha256": "cb800a9b8eb291bb442b4f99176cf97b3aa0a6b419d9fb25d0402675a313ee02",
+ "manifest_sha256": "a8def9a3b9633663abd14d0b0fbd3d94bb8ba7987a136e918826fa651e318fb0",
+ "battery_images_sha256": "16bedb3d15b61b1fc629e3795527a8c6421e015adf3087001c8d7ce657e6353c",
+ "v3_new_battery_sha256": "8be0ffac23799f3f35af7d649f4c49881c859bad6e95d5d87566cb548ea15316",
+ "generator_sha256": "86db3e168f032f5eeb502269eda9eab31b3f2e8ed69144a235fea4380dc87a69",
+ "battery": {
+  "total": 120,
+  "study1_original": 15,
+  "expansion_frozen": 30,
+  "v3_new": 75,
+  "families": 42
+ },
+ "stage_prompt_sha8": "3003ae1b",
+ "depths": {
+  "A1_screen": 16,
+  "A2_confirm": 30,
+  "stageB_auditor": 20,
+  "stageB_salience": 20,
+  "stageC": 24
+ },
+ "IMPLEMENTATION_NOTE_A1_DEPTH": "Design said A1 depth 15. The frozen build_jobs() requires an EVEN n so AB/BA allocation is exactly balanced - a frozen invariant of the selector. 15 is therefore unrunnable. Raised to 16, the nearest even value, which preserves exact balance and errs toward MORE screening precision. +120 calls (~$3). No other depth changed; A1 remains drop-only and never enters a pair estimate.",
+ "selector": {
+  "LARGE_TRUE_Z": 0.75,
+  "SMALL_PUBLIC_Z": 0.35,
+  "windows_note": "z on the focal model's own battery SD; unchanged from Study 1",
+  "fallback_stimuli": "eligible, unchanged",
+  "non_reuse": "enforced"
+ },
+ "payoff_grid": [
+  3,
+  5,
+  7,
+  9
+ ],
+ "targets": {
+  "pairs_target": 24,
+  "GO_floor": 20
+ },
+ "budget": {
+  "planned_calls": 13128,
+  "planned_usd": "205-301",
+  "hard_stop_usd": 400,
+  "gpt_pricing": "UNVERIFIED - no pricing endpoint; assumes parity with Claude $5/$25"
+ },
+ "phase1_launch": {
+  "stage": "A1",
+  "calls": 1920,
+  "model": "gpt-5.5"
+ }
+}

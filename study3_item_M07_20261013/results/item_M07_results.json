@@ -1,0 +1,292 @@
+{
+ "requests_sha256": "6dd938e684e8dd36bc0956afaa5d2e71033fb4c9aade5dcf91314051a5c6a0c5",
+ "seed": 20261013,
+ "n_requests": 1000,
+ "n_small": 700,
+ "legacy_limit_bytes": 4096,
+ "reps": 3,
+ "seconds": 87.6,
+ "python": "3.12.6",
+ "codec_checks": [
+  {
+   "check": "roundtrip",
+   "enc": "A",
+   "dec": "A",
+   "n": 2000,
+   "exact": 2000
+  },
+  {
+   "check": "roundtrip",
+   "enc": "B",
+   "dec": "B",
+   "n": 2000,
+   "exact": 2000
+  },
+  {
+   "check": "roundtrip",
+   "enc": "C",
+   "dec": "C",
+   "n": 2000,
+   "exact": 2000
+  },
+  {
+   "check": "roundtrip",
+   "enc": "D",
+   "dec": "D",
+   "n": 2000,
+   "exact": 2000
+  },
+  {
+   "check": "cross",
+   "enc": "A",
+   "dec": "B",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "A",
+   "dec": "C",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "A",
+   "dec": "D",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "B",
+   "dec": "A",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "B",
+   "dec": "C",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "B",
+   "dec": "D",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "C",
+   "dec": "A",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "C",
+   "dec": "B",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "C",
+   "dec": "D",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "D",
+   "dec": "A",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "D",
+   "dec": "B",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "cross",
+   "enc": "D",
+   "dec": "C",
+   "n": 50,
+   "exact": 0,
+   "decoded_wrong": 0,
+   "error": 50
+  },
+  {
+   "check": "legacy_size",
+   "n": 2000,
+   "under_limit": 1400,
+   "over_limit": 600,
+   "limit": 4096
+  }
+ ],
+ "payoff_completions": {
+  "KEEP": {
+   "KEEP": {
+    "min": 700,
+    "max": 700,
+    "n": 6
+   },
+   "MIGRATE_A": {
+    "min": 700,
+    "max": 700,
+    "n": 6
+   },
+   "MIGRATE_B": {
+    "min": 700,
+    "max": 700,
+    "n": 6
+   },
+   "MIGRATE_C": {
+    "min": 700,
+    "max": 700,
+    "n": 6
+   },
+   "MIGRATE_D": {
+    "min": 700,
+    "max": 700,
+    "n": 6
+   }
+  },
+  "MIGRATE_A": {
+   "KEEP": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_A": {
+    "min": 1000,
+    "max": 1000,
+    "n": 6
+   },
+   "MIGRATE_B": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_C": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_D": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   }
+  },
+  "MIGRATE_B": {
+   "KEEP": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_A": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_B": {
+    "min": 1000,
+    "max": 1000,
+    "n": 6
+   },
+   "MIGRATE_C": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_D": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   }
+  },
+  "MIGRATE_C": {
+   "KEEP": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_A": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_B": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_C": {
+    "min": 1000,
+    "max": 1000,
+    "n": 6
+   },
+   "MIGRATE_D": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   }
+  },
+  "MIGRATE_D": {
+   "KEEP": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_A": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_B": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_C": {
+    "min": 0,
+    "max": 0,
+    "n": 6
+   },
+   "MIGRATE_D": {
+    "min": 1000,
+    "max": 1000,
+    "n": 6
+   }
+  }
+ }
+}

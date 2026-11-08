@@ -1,0 +1,277 @@
+{
+ "n": 600,
+ "parse_fail": 0,
+ "tx_fail": 0,
+ "cost": 6.84729,
+ "p_high": 0.8266666666666667,
+ "p_low": 0.44666666666666666,
+ "diff": 0.37999999999999984,
+ "diff_ci": [
+  0.22000000000000008,
+  0.5433333333333332
+ ],
+ "p_perm": 4.999750012499375e-05,
+ "dprime": 1.0751620943449642,
+ "auc_item": 0.8666666666666667,
+ "auc_p": 0.0006176448081964,
+ "c": -0.40349348318049405,
+ "sens": 0.8266666666666667,
+ "spec": 0.5533333333333333,
+ "spearman": 0.6428805348504629,
+ "spearman_p": 0.00012751591660234803,
+ "pearson": 0.6674695512042151,
+ "rho_high": -0.036210341218895076,
+ "rho_low": 0.38883904139973313,
+ "loo_diff": [
+  0.3480952380952379,
+  0.4104761904761904
+ ],
+ "loo_auc": [
+  0.8571428571428571,
+  0.9023809523809524
+ ],
+ "perm_chi2_p": 0.9977488446831334,
+ "rep_rho": -0.20361256240386666,
+ "items": [
+  {
+   "array": "F14_bars_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 20,
+   "p": 1.0
+  },
+  {
+   "array": "F02_size_m3",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 20,
+   "k": 20,
+   "p": 1.0
+  },
+  {
+   "array": "F10_curvature_m3",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 20,
+   "k": 13,
+   "p": 0.65
+  },
+  {
+   "array": "F32_tilt_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 20,
+   "p": 1.0
+  },
+  {
+   "array": "F22_star_m1",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 20,
+   "k": 12,
+   "p": 0.6
+  },
+  {
+   "array": "F41_contain_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 8,
+   "p": 0.4
+  },
+  {
+   "array": "F24_subdiv_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 12,
+   "p": 0.6
+  },
+  {
+   "array": "F07_contrast_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 19,
+   "p": 0.95
+  },
+  {
+   "array": "F04_complexity_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 12,
+   "p": 0.6
+  },
+  {
+   "array": "F17_gapclock_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 17,
+   "p": 0.85
+  },
+  {
+   "array": "F29_arcdir_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 19,
+   "p": 0.95
+  },
+  {
+   "array": "F19_fill_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 20,
+   "p": 1.0
+  },
+  {
+   "array": "F38_endcap_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 20,
+   "p": 1.0
+  },
+  {
+   "array": "F09_convexity_m3",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 20,
+   "k": 20,
+   "p": 1.0
+  },
+  {
+   "array": "F03_symmetry_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 20,
+   "k": 16,
+   "p": 0.8
+  },
+  {
+   "array": "F05_orient_m3",
+   "arm": "LOW",
+   "agreement": 0.3431,
+   "n": 20,
+   "k": 1,
+   "p": 0.05
+  },
+  {
+   "array": "F12_mirror_m3",
+   "arm": "LOW",
+   "agreement": 0.2988,
+   "n": 20,
+   "k": 2,
+   "p": 0.1
+  },
+  {
+   "array": "F27_linecount_m1",
+   "arm": "LOW",
+   "agreement": 0.3564,
+   "n": 20,
+   "k": 13,
+   "p": 0.65
+  },
+  {
+   "array": "F23_ellipseang_m1",
+   "arm": "LOW",
+   "agreement": 0.5461,
+   "n": 20,
+   "k": 10,
+   "p": 0.5
+  },
+  {
+   "array": "F36_split_m1",
+   "arm": "LOW",
+   "agreement": 0.3466,
+   "n": 20,
+   "k": 11,
+   "p": 0.55
+  },
+  {
+   "array": "F28_dotarrange_m1",
+   "arm": "LOW",
+   "agreement": 0.4894,
+   "n": 20,
+   "k": 7,
+   "p": 0.35
+  },
+  {
+   "array": "F25_nested_m1",
+   "arm": "LOW",
+   "agreement": 0.5035,
+   "n": 20,
+   "k": 13,
+   "p": 0.65
+  },
+  {
+   "array": "F35_gradang_m1",
+   "arm": "LOW",
+   "agreement": 0.3076,
+   "n": 20,
+   "k": 12,
+   "p": 0.6
+  },
+  {
+   "array": "F34_jitter_m1",
+   "arm": "LOW",
+   "agreement": 0.3644,
+   "n": 20,
+   "k": 11,
+   "p": 0.55
+  },
+  {
+   "array": "F11_noise_m3",
+   "arm": "LOW",
+   "agreement": 0.4105,
+   "n": 20,
+   "k": 0,
+   "p": 0.0
+  },
+  {
+   "array": "F33_hole_m1",
+   "arm": "LOW",
+   "agreement": 0.5035,
+   "n": 20,
+   "k": 3,
+   "p": 0.15
+  },
+  {
+   "array": "F30_pairratio_m1",
+   "arm": "LOW",
+   "agreement": 0.4956,
+   "n": 20,
+   "k": 8,
+   "p": 0.4
+  },
+  {
+   "array": "F26_bumploc_m1",
+   "arm": "LOW",
+   "agreement": 0.4973,
+   "n": 20,
+   "k": 13,
+   "p": 0.65
+  },
+  {
+   "array": "F06_density_m3",
+   "arm": "LOW",
+   "agreement": 0.5115,
+   "n": 20,
+   "k": 14,
+   "p": 0.7
+  },
+  {
+   "array": "F37_mirroraxis_m1",
+   "arm": "LOW",
+   "agreement": 0.5035,
+   "n": 20,
+   "k": 16,
+   "p": 0.8
+  }
+ ]
+}

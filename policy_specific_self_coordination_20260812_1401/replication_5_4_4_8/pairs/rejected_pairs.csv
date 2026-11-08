@@ -1,0 +1,204 @@
+pair_id,focal_model,reason
+claude__proto__vs__d_texture,claude,E4 |salience gap| 0.114 > 0.1
+claude__s_arrow__vs__d_texture,claude,E4 |salience gap| 0.138 > 0.1
+claude__s_convexity__vs__d_dens_extreme,claude,"E6 public z too large (sal -0.25, aud 0.85)"
+claude__s_contrast__vs__c_contr_subtle,claude,"E6 public z too large (sal 0.29, aud -2.06)"
+claude__a_chev_ud__vs__d_texture,claude,"E4 |salience gap| 0.227 > 0.1; E6 public z too large (sal -0.64, aud -1.11)"
+claude__s_convexity__vs__d_texture,claude,"E4 |salience gap| 0.105 > 0.1; E6 public z too large (sal 0.73, aud 1.56)"
+claude__s_contrast__vs__mirror,claude,E4 |salience gap| 0.198 > 0.1
+claude__s_density__vs__d_texture,claude,"E4 |salience gap| 0.194 > 0.1; E6 public z too large (sal 0.97, aud 1.48)"
+claude__a_chev_ud__vs__c_contr_subtle,claude,"E4 |salience gap| 0.213 > 0.1; E6 public z too large (sal 0.98, aud -2.48)"
+claude__b_spiral_cw__vs__c_contr_subtle,claude,"E4 |salience gap| 0.162 > 0.1; E6 public z too large (sal 0.73, aud -2.48)"
+claude__s_contrast__vs__noise,claude,E4 |salience gap| 0.252 > 0.1
+claude__b_spiral_cw__vs__d_texture,claude,"E4 |salience gap| 0.278 > 0.1; E6 public z too large (sal -0.89, aud -1.11)"
+claude__proto__vs__d_dens_extreme,claude,"E4 |salience gap| 0.307 > 0.1; E6 public z too large (sal -0.99, aud -1.48)"
+claude__a_chev_ud__vs__mirror,claude,"E4 |salience gap| 0.318 > 0.1; E6 public z too large (sal 1.26, aud -0.31)"
+claude__s_arrow__vs__d_dens_extreme,claude,"E4 |salience gap| 0.331 > 0.1; E6 public z too large (sal -1.00, aud -1.42)"
+claude__c_open_cplx__vs__d_dens_extreme,claude,E4 |salience gap| 0.140 > 0.1
+claude__proto__vs__b_tee_ell,claude,"E4 |salience gap| 0.124 > 0.1; E6 public z too large (sal -0.25, aud -1.48)"
+claude__b_spiral_cw__vs__mirror,claude,"E4 |salience gap| 0.267 > 0.1; E6 public z too large (sal 1.01, aud -0.31)"
+claude__s_arrow__vs__b_tee_ell,claude,"E4 |salience gap| 0.148 > 0.1; E6 public z too large (sal -0.27, aud -1.42)"
+claude__a_chev_ud__vs__noise,claude,"E4 |salience gap| 0.372 > 0.1; E6 public z too large (sal 1.50, aud 0.21)"
+claude__s_convexity__vs__b_tee_ell,claude,"E6 public z too large (sal 0.49, aud 0.85)"
+claude__b_spiral_cw__vs__noise,claude,"E4 |salience gap| 0.322 > 0.1; E6 public z too large (sal 1.25, aud 0.21)"
+claude__b_tee_ell__vs__d_texture,claude,E1 select gap 0.221 < 0.25; E3 holdout gap 0.103 < 0.2
+claude__s_arrow__vs__c_contr_subtle,claude,"E4 |salience gap| 0.302 > 0.1; E6 public z too large (sal 1.60, aud -2.08)"
+claude__proto__vs__c_contr_subtle,claude,"E4 |salience gap| 0.327 > 0.1; E6 public z too large (sal 1.62, aud -2.14)"
+claude__a_chev_ud__vs__rot,claude,"E1 select gap 0.186 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E6 public z too large (sal 0.14, aud -1.96)"
+claude__s_contrast__vs__d_texture,claude,"E4 |salience gap| 0.347 > 0.1; E6 public z too large (sal -1.33, aud -0.69)"
+claude__rot__vs__d_texture,claude,"E4 |salience gap| 0.282 > 0.1; E6 public z too large (sal -0.79, aud 0.85)"
+claude__rot__vs__c_contr_subtle,claude,E4 |salience gap| 0.158 > 0.1
+claude__s_density__vs__b_tee_ell,claude,E4 |salience gap| 0.184 > 0.1
+claude__s_arrow__vs__mirror,claude,"E4 |salience gap| 0.407 > 0.1; E6 public z too large (sal 1.88, aud 0.08)"
+claude__a_chev_ud__vs__d_dens_extreme,claude,"E4 |salience gap| 0.421 > 0.1; E6 public z too large (sal -1.62, aud -1.81)"
+claude__proto__vs__mirror,claude,"E4 |salience gap| 0.432 > 0.1; E6 public z too large (sal 1.90, aud 0.02)"
+claude__b_spiral_cw__vs__rot,claude,"E1 select gap 0.120 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E6 public z too large (sal -0.11, aud -1.96)"
+claude__a_chev_ud__vs__b_tee_ell,claude,"E4 |salience gap| 0.238 > 0.1; E6 public z too large (sal -0.89, aud -1.81)"
+claude__s_convexity__vs__c_open_cplx,claude,"E1 select gap 0.129 < 0.25; E3 holdout gap 0.186 < 0.2; E6 public z too large (sal 0.17, aud 0.90)"
+claude__c_open_cplx__vs__b_tee_ell,claude,E1 select gap 0.159 < 0.25
+claude__rot__vs__mirror,claude,"E4 |salience gap| 0.263 > 0.1; E6 public z too large (sal 1.12, aud 1.65)"
+claude__s_arrow__vs__noise,claude,"E4 |salience gap| 0.462 > 0.1; E6 public z too large (sal 2.12, aud 0.60)"
+claude__proto__vs__noise,claude,"E4 |salience gap| 0.486 > 0.1; E6 public z too large (sal 2.14, aud 0.54)"
+claude__s_density__vs__c_open_cplx,claude,E1 select gap 0.129 < 0.25; E3 holdout gap 0.119 < 0.2; E4 |salience gap| 0.141 > 0.1
+claude__rot__vs__noise,claude,"E4 |salience gap| 0.318 > 0.1; E6 public z too large (sal 1.36, aud 2.17)"
+claude__s_arrow__vs__rot,claude,"E1 select gap 0.186 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.144 > 0.1; E6 public z too large (sal 0.76, aud -1.56)"
+claude__proto__vs__rot,claude,"E1 select gap 0.186 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.168 > 0.1; E6 public z too large (sal 0.78, aud -1.62)"
+claude__b_tee_ell__vs__d_dens_extreme,claude,E1 select gap 0.172 < 0.25; E3 holdout gap 0.092 < 0.2; E4 |salience gap| 0.183 > 0.1
+claude__a_chev_ud__vs__b_spiral_cw,claude,E1 select gap 0.067 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2
+claude__proto__vs__c_open_cplx,claude,"E1 select gap 0.129 < 0.25; E3 holdout gap 0.186 < 0.2; E4 |salience gap| 0.167 > 0.1; E6 public z too large (sal -0.57, aud -1.43)"
+claude__s_arrow__vs__c_open_cplx,claude,"E1 select gap 0.129 < 0.25; E3 holdout gap 0.119 < 0.2; E4 |salience gap| 0.191 > 0.1; E6 public z too large (sal -0.58, aud -1.37)"
+claude__s_contrast__vs__rot,claude,"E1 select gap 0.120 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E6 public z too large (sal -0.55, aud -1.54)"
+claude__s_convexity__vs__c_contr_subtle,claude,"E4 |salience gap| 0.545 > 0.1; E6 public z too large (sal 2.35, aud 0.19)"
+claude__proto__vs__s_arrow,claude,E1 select gap 0.000 < 0.25; E3 holdout gap 0.067 < 0.2
+claude__b_spiral_cw__vs__d_dens_extreme,claude,"E4 |salience gap| 0.472 > 0.1; E6 public z too large (sal -1.87, aud -1.81)"
+claude__b_spiral_cw__vs__b_tee_ell,claude,"E1 select gap 0.221 < 0.25; E4 |salience gap| 0.288 > 0.1; E6 public z too large (sal -1.14, aud -1.81)"
+claude__c_contr_subtle__vs__mirror,claude,"E1 select gap 0.009 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.002 < 0.2; E4 |salience gap| 0.105 > 0.1; E5 |auditor gap| 0.108 > 0.1; E6 public z too large (sal 0.28, aud 2.17)"
+claude__mirror__vs__noise,claude,E1 select gap 0.000 < 0.25; E3 holdout gap 0.002 < 0.2
+claude__s_density__vs__s_convexity,claude,E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.067 < 0.2
+claude__s_convexity__vs__mirror,claude,"E4 |salience gap| 0.650 > 0.1; E6 public z too large (sal 2.64, aud 2.36)"
+claude__s_density__vs__c_contr_subtle,claude,"E4 |salience gap| 0.634 > 0.1; E6 public z too large (sal 2.59, aud 0.10)"
+claude__a_chev_ud__vs__s_contrast,claude,E1 select gap 0.067 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.120 > 0.1
+claude__c_open_cplx__vs__c_contr_subtle,claude,"E4 |salience gap| 0.493 > 0.1; E6 public z too large (sal 2.18, aud -0.71)"
+claude__s_contrast__vs__b_spiral_cw,claude,E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2
+claude__c_contr_subtle__vs__noise,claude,"E1 select gap 0.009 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.159 > 0.1; E5 |auditor gap| 0.144 > 0.1; E6 public z too large (sal 0.53, aud 2.69)"
+claude__s_convexity__vs__noise,claude,"E4 |salience gap| 0.704 > 0.1; E5 |auditor gap| 0.128 > 0.1; E6 public z too large (sal 2.88, aud 2.87)"
+claude__s_density__vs__mirror,claude,"E4 |salience gap| 0.739 > 0.1; E6 public z too large (sal 2.88, aud 2.27)"
+claude__s_contrast__vs__d_dens_extreme,claude,"E4 |salience gap| 0.541 > 0.1; E6 public z too large (sal -2.32, aud -1.40)"
+claude__rot__vs__d_dens_extreme,claude,"E4 |salience gap| 0.476 > 0.1; E6 public z too large (sal -1.77, aud 0.15)"
+claude__s_contrast__vs__b_tee_ell,claude,"E1 select gap 0.221 < 0.25; E4 |salience gap| 0.358 > 0.1; E6 public z too large (sal -1.58, aud -1.40)"
+claude__s_arrow__vs__b_spiral_cw,claude,"E1 select gap 0.067 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.140 > 0.1; E6 public z too large (sal 0.87, aud 0.40)"
+claude__rot__vs__b_tee_ell,claude,"E1 select gap 0.101 < 0.25; E4 |salience gap| 0.292 > 0.1; E6 public z too large (sal -1.03, aud 0.15)"
+claude__proto__vs__b_spiral_cw,claude,"E1 select gap 0.067 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.164 > 0.1; E6 public z too large (sal 0.89, aud 0.34)"
+claude__a_chev_ud__vs__c_open_cplx,claude,"E1 select gap 0.129 < 0.25; E3 holdout gap 0.119 < 0.2; E4 |salience gap| 0.280 > 0.1; E6 public z too large (sal -1.20, aud -1.77)"
+claude__a_chev_ud__vs__s_arrow,claude,E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2
+claude__proto__vs__a_chev_ud,claude,E1 select gap 0.000 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.114 > 0.1
+claude__s_convexity__vs__rot,claude,"E1 select gap 0.186 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.387 > 0.1; E6 public z too large (sal 1.52, aud 0.71)"
+claude__c_open_cplx__vs__mirror,claude,"E4 |salience gap| 0.599 > 0.1; E6 public z too large (sal 2.47, aud 1.46)"
+claude__s_density__vs__noise,claude,"E4 |salience gap| 0.794 > 0.1; E5 |auditor gap| 0.117 > 0.1; E6 public z too large (sal 3.12, aud 2.79)"
+claude__proto__vs__s_convexity,claude,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.218 > 0.1; E6 public z too large (sal -0.73, aud -2.33)"
+claude__s_arrow__vs__s_convexity,claude,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.067 < 0.2; E4 |salience gap| 0.242 > 0.1; E6 public z too large (sal -0.75, aud -2.27)"
+claude__d_dens_extreme__vs__d_texture,claude,"E1 select gap 0.048 < 0.25; E3 holdout gap 0.011 < 0.2; E4 |salience gap| 0.194 > 0.1; E6 public z too large (sal 0.98, aud 0.71)"
+claude__b_tee_ell__vs__c_contr_subtle,claude,"E1 select gap 0.221 < 0.25; E3 holdout gap 0.113 < 0.2; E4 |salience gap| 0.451 > 0.1; E6 public z too large (sal 1.87, aud -0.66)"
+claude__s_density__vs__rot,claude,"E1 select gap 0.186 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.476 > 0.1; E6 public z too large (sal 1.76, aud 0.62)"
+claude__c_open_cplx__vs__noise,claude,"E4 |salience gap| 0.653 > 0.1; E6 public z too large (sal 2.71, aud 1.98)"
+claude__proto__vs__s_density,claude,"E1 select gap 0.000 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.308 > 0.1; E6 public z too large (sal -0.98, aud -2.25)"
+claude__s_density__vs__s_arrow,claude,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.332 > 0.1; E6 public z too large (sal 1.00, aud 2.19)"
+claude__s_arrow__vs__s_contrast,claude,"E1 select gap 0.067 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.210 > 0.1; E6 public z too large (sal 1.31, aud -0.02)"
+claude__proto__vs__s_contrast,claude,"E1 select gap 0.067 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.234 > 0.1; E6 public z too large (sal 1.33, aud -0.08)"
+claude__c_open_cplx__vs__rot,claude,"E1 select gap 0.057 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.119 < 0.2; E4 |salience gap| 0.335 > 0.1; E6 public z too large (sal 1.35, aud -0.19)"
+claude__b_tee_ell__vs__mirror,claude,"E1 select gap 0.230 < 0.25; E3 holdout gap 0.110 < 0.2; E4 |salience gap| 0.556 > 0.1; E6 public z too large (sal 2.15, aud 1.50)"
+claude__b_spiral_cw__vs__c_open_cplx,claude,"E1 select gap 0.062 < 0.25; E3 holdout gap 0.119 < 0.2; E4 |salience gap| 0.331 > 0.1; E6 public z too large (sal -1.45, aud -1.77)"
+claude__s_convexity__vs__b_spiral_cw,claude,"E1 select gap 0.067 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.383 > 0.1; E6 public z too large (sal 1.62, aud 2.67)"
+claude__b_tee_ell__vs__noise,claude,"E1 select gap 0.230 < 0.25; E3 holdout gap 0.113 < 0.2; E4 |salience gap| 0.610 > 0.1; E6 public z too large (sal 2.39, aud 2.02)"
+claude__a_chev_ud__vs__s_convexity,claude,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.067 < 0.2; E4 |salience gap| 0.332 > 0.1; E6 public z too large (sal -1.37, aud -2.67)"
+claude__s_density__vs__b_spiral_cw,claude,"E1 select gap 0.067 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.472 > 0.1; E6 public z too large (sal 1.87, aud 2.58)"
+claude__s_contrast__vs__c_open_cplx,claude,"E1 select gap 0.062 < 0.25; E3 holdout gap 0.119 < 0.2; E4 |salience gap| 0.401 > 0.1; E6 public z too large (sal -1.90, aud -1.35)"
+claude__s_density__vs__a_chev_ud,claude,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.421 > 0.1; E6 public z too large (sal 1.61, aud 2.58)"
+claude__c_contr_subtle__vs__d_texture,claude,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.009 < 0.2; E4 |salience gap| 0.440 > 0.1; E6 public z too large (sal -1.62, aud 1.37)"
+claude__s_convexity__vs__s_contrast,claude,"E1 select gap 0.067 < 0.25; E3 holdout gap 0.067 < 0.2; E4 |salience gap| 0.452 > 0.1; E6 public z too large (sal 2.06, aud 2.25)"
+claude__d_texture__vs__mirror,claude,"E1 select gap 0.009 < 0.25; E3 holdout gap 0.007 < 0.2; E4 |salience gap| 0.545 > 0.1; E6 public z too large (sal 1.90, aud 0.79)"
+claude__s_density__vs__s_contrast,claude,"E1 select gap 0.067 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.542 > 0.1; E6 public z too large (sal 2.31, aud 2.17)"
+claude__d_texture__vs__noise,claude,"E1 select gap 0.009 < 0.25; E3 holdout gap 0.009 < 0.2; E4 |salience gap| 0.600 > 0.1; E6 public z too large (sal 2.15, aud 1.31)"
+claude__d_dens_extreme__vs__c_contr_subtle,claude,"E1 select gap 0.048 < 0.25; E3 holdout gap 0.021 < 0.2; E4 |salience gap| 0.634 > 0.1; E6 public z too large (sal 2.60, aud -0.66)"
+claude__d_dens_extreme__vs__mirror,claude,"E1 select gap 0.057 < 0.25; E3 holdout gap 0.018 < 0.2; E4 |salience gap| 0.739 > 0.1; E6 public z too large (sal 2.89, aud 1.50)"
+claude__d_dens_extreme__vs__noise,claude,"E1 select gap 0.057 < 0.25; E3 holdout gap 0.021 < 0.2; E4 |salience gap| 0.793 > 0.1; E5 |auditor gap| 0.111 > 0.1; E6 public z too large (sal 3.13, aud 2.02)"
+gpt__b_tee_ell__vs__s_arrow,gpt,E4 |salience gap| 0.148 > 0.1
+gpt__s_contrast__vs__mirror,gpt,"E4 |salience gap| 0.198 > 0.1; E5 |auditor gap| 0.197 > 0.1; E6 public z too large (sal 0.57, aud 1.80)"
+gpt__d_texture__vs__s_arrow,gpt,E4 |salience gap| 0.138 > 0.1
+gpt__s_contrast__vs__rot,gpt,"E5 |auditor gap| 0.138 > 0.1; E6 public z too large (sal -0.55, aud 1.24)"
+gpt__proto__vs__a_chev_ud,gpt,"E4 |salience gap| 0.114 > 0.1; E6 public z too large (sal 0.64, aud 0.87)"
+gpt__s_contrast__vs__a_chev_ud,gpt,E4 |salience gap| 0.120 > 0.1
+gpt__s_contrast__vs__noise,gpt,"E4 |salience gap| 0.252 > 0.1; E5 |auditor gap| 0.247 > 0.1; E6 public z too large (sal 0.81, aud 2.25)"
+gpt__s_density__vs__c_open_cplx,gpt,E4 |salience gap| 0.141 > 0.1
+gpt__proto__vs__rot,gpt,"E4 |salience gap| 0.168 > 0.1; E5 |auditor gap| 0.270 > 0.1; E6 public z too large (sal 0.78, aud 2.49)"
+gpt__b_tee_ell__vs__a_chev_ud,gpt,"E4 |salience gap| 0.238 > 0.1; E6 public z too large (sal 0.89, aud 0.26)"
+gpt__s_density__vs__s_arrow,gpt,"E4 |salience gap| 0.332 > 0.1; E6 public z too large (sal 1.00, aud -0.13)"
+gpt__proto__vs__c_open_cplx,gpt,E4 |salience gap| 0.167 > 0.1
+gpt__c_contr_subtle__vs__mirror,gpt,"E4 |salience gap| 0.105 > 0.1; E5 |auditor gap| 0.169 > 0.1; E6 public z too large (sal 0.28, aud 1.58)"
+gpt__b_tee_ell__vs__rot,gpt,"E4 |salience gap| 0.292 > 0.1; E5 |auditor gap| 0.201 > 0.1; E6 public z too large (sal 1.03, aud 1.88)"
+gpt__s_contrast__vs__s_arrow,gpt,"E4 |salience gap| 0.210 > 0.1; E6 public z too large (sal -1.31, aud -0.58)"
+gpt__d_texture__vs__a_chev_ud,gpt,E4 |salience gap| 0.227 > 0.1
+gpt__c_contr_subtle__vs__noise,gpt,"E4 |salience gap| 0.159 > 0.1; E5 |auditor gap| 0.219 > 0.1; E6 public z too large (sal 0.53, aud 2.03)"
+gpt__d_texture__vs__rot,gpt,"E4 |salience gap| 0.282 > 0.1; E5 |auditor gap| 0.116 > 0.1; E6 public z too large (sal 0.79, aud 1.04)"
+gpt__d_dens_extreme__vs__c_open_cplx,gpt,E4 |salience gap| 0.140 > 0.1
+gpt__d_dens_extreme__vs__s_arrow,gpt,"E4 |salience gap| 0.331 > 0.1; E6 public z too large (sal 1.00, aud 0.32)"
+gpt__b_spiral_cw__vs__rot,gpt,"E1 select gap 0.193 < 0.25; E3 holdout gap 0.044 < 0.2; E5 |auditor gap| 0.136 > 0.1; E6 public z too large (sal -0.11, aud 1.16)"
+gpt__s_density__vs__a_chev_ud,gpt,"E4 |salience gap| 0.421 > 0.1; E6 public z too large (sal 1.61, aud 0.06)"
+gpt__d_texture__vs__c_open_cplx,gpt,"E5 |auditor gap| 0.111 > 0.1; E6 public z too large (sal -0.56, aud -0.91)"
+gpt__b_spiral_cw__vs__a_chev_ud,gpt,E1 select gap 0.209 < 0.25
+gpt__proto__vs__s_convexity,gpt,E4 |salience gap| 0.218 > 0.1
+gpt__proto__vs__d_texture,gpt,"E1 select gap 0.129 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.114 > 0.1; E5 |auditor gap| 0.154 > 0.1; E6 public z too large (sal -0.00, aud 1.45)"
+gpt__s_contrast__vs__c_contr_subtle,gpt,E1 select gap 0.186 < 0.25
+gpt__s_density__vs__d_dens_extreme,gpt,E1 select gap 0.129 < 0.25; E3 holdout gap 0.129 < 0.2
+gpt__proto__vs__mirror,gpt,"E4 |salience gap| 0.432 > 0.1; E5 |auditor gap| 0.329 > 0.1; E6 public z too large (sal 1.90, aud 3.06)"
+gpt__c_contr_subtle__vs__rot,gpt,"E3 holdout gap 0.092 < 0.2; E4 |salience gap| 0.158 > 0.1; E5 |auditor gap| 0.110 > 0.1; E6 public z too large (sal -0.84, aud 1.01)"
+gpt__s_density__vs__rot,gpt,"E4 |salience gap| 0.476 > 0.1; E5 |auditor gap| 0.198 > 0.1; E6 public z too large (sal 1.76, aud 1.69)"
+gpt__c_contr_subtle__vs__a_chev_ud,gpt,"E4 |salience gap| 0.213 > 0.1; E6 public z too large (sal -0.98, aud -0.61)"
+gpt__d_dens_extreme__vs__s_convexity,gpt,E1 select gap 0.159 < 0.25; E3 holdout gap 0.110 < 0.2
+gpt__proto__vs__b_spiral_cw,gpt,"E4 |salience gap| 0.164 > 0.1; E5 |auditor gap| 0.134 > 0.1; E6 public z too large (sal 0.89, aud 1.33)"
+gpt__s_convexity__vs__c_open_cplx,gpt,E1 select gap 0.117 < 0.25; E3 holdout gap 0.166 < 0.2
+gpt__b_tee_ell__vs__d_texture,gpt,E1 select gap 0.129 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2
+gpt__b_tee_ell__vs__mirror,gpt,"E4 |salience gap| 0.556 > 0.1; E5 |auditor gap| 0.259 > 0.1; E6 public z too large (sal 2.15, aud 2.45)"
+gpt__s_convexity__vs__s_arrow,gpt,E1 select gap 0.228 < 0.25; E4 |salience gap| 0.242 > 0.1
+gpt__proto__vs__noise,gpt,"E4 |salience gap| 0.486 > 0.1; E5 |auditor gap| 0.379 > 0.1; E6 public z too large (sal 2.14, aud 3.51)"
+gpt__b_tee_ell__vs__b_spiral_cw,gpt,"E4 |salience gap| 0.288 > 0.1; E6 public z too large (sal 1.14, aud 0.71)"
+gpt__b_spiral_cw__vs__s_arrow,gpt,"E1 select gap 0.228 < 0.25; E3 holdout gap 0.193 < 0.2; E4 |salience gap| 0.140 > 0.1; E6 public z too large (sal -0.87, aud -0.65)"
+gpt__d_dens_extreme__vs__a_chev_ud,gpt,"E4 |salience gap| 0.421 > 0.1; E6 public z too large (sal 1.62, aud 0.51)"
+gpt__b_spiral_cw__vs__mirror,gpt,"E1 select gap 0.228 < 0.25; E4 |salience gap| 0.267 > 0.1; E5 |auditor gap| 0.195 > 0.1; E6 public z too large (sal 1.01, aud 1.73)"
+gpt__b_tee_ell__vs__noise,gpt,"E4 |salience gap| 0.610 > 0.1; E5 |auditor gap| 0.309 > 0.1; E6 public z too large (sal 2.39, aud 2.90)"
+gpt__s_contrast__vs__c_open_cplx,gpt,"E4 |salience gap| 0.401 > 0.1; E6 public z too large (sal -1.90, aud -0.71)"
+gpt__d_texture__vs__s_convexity,gpt,"E1 select gap 0.159 < 0.25; E4 |salience gap| 0.105 > 0.1; E5 |auditor gap| 0.149 > 0.1; E6 public z too large (sal -0.73, aud -1.22)"
+gpt__c_contr_subtle__vs__s_arrow,gpt,"E4 |salience gap| 0.302 > 0.1; E6 public z too large (sal -1.60, aud -0.80)"
+gpt__d_texture__vs__mirror,gpt,"E4 |salience gap| 0.545 > 0.1; E5 |auditor gap| 0.175 > 0.1; E6 public z too large (sal 1.90, aud 1.61)"
+gpt__c_open_cplx__vs__s_arrow,gpt,E1 select gap 0.110 < 0.25; E3 holdout gap 0.076 < 0.2; E4 |salience gap| 0.191 > 0.1
+gpt__d_dens_extreme__vs__rot,gpt,"E4 |salience gap| 0.476 > 0.1; E5 |auditor gap| 0.229 > 0.1; E6 public z too large (sal 1.77, aud 2.14)"
+gpt__rot__vs__a_chev_ud,gpt,"E1 select gap 0.016 < 0.25; E3 holdout gap 0.186 < 0.2; E5 |auditor gap| 0.182 > 0.1; E6 public z too large (sal -0.14, aud -1.62)"
+gpt__b_tee_ell__vs__d_dens_extreme,gpt,E1 select gap 0.129 < 0.25; E3 holdout gap 0.129 < 0.2; E4 |salience gap| 0.183 > 0.1
+gpt__d_texture__vs__b_spiral_cw,gpt,"E1 select gap 0.159 < 0.25; E4 |salience gap| 0.278 > 0.1; E6 public z too large (sal 0.89, aud -0.12)"
+gpt__b_spiral_cw__vs__noise,gpt,"E1 select gap 0.221 < 0.25; E4 |salience gap| 0.322 > 0.1; E5 |auditor gap| 0.245 > 0.1; E6 public z too large (sal 1.25, aud 2.18)"
+gpt__noise__vs__mirror,gpt,E1 select gap 0.007 < 0.25; E3 holdout gap 0.011 < 0.2
+gpt__c_contr_subtle__vs__b_spiral_cw,gpt,E1 select gap 0.101 < 0.25; E3 holdout gap 0.048 < 0.2; E4 |salience gap| 0.162 > 0.1
+gpt__proto__vs__b_tee_ell,gpt,E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.124 > 0.1
+gpt__d_texture__vs__noise,gpt,"E4 |salience gap| 0.600 > 0.1; E5 |auditor gap| 0.225 > 0.1; E6 public z too large (sal 2.15, aud 2.06)"
+gpt__s_density__vs__d_texture,gpt,"E1 select gap 0.129 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.194 > 0.1; E6 public z too large (sal 0.97, aud 0.64)"
+gpt__s_convexity__vs__a_chev_ud,gpt,"E1 select gap 0.209 < 0.25; E4 |salience gap| 0.332 > 0.1; E6 public z too large (sal 1.37, aud 0.64)"
+gpt__proto__vs__d_dens_extreme,gpt,"E1 select gap 0.129 < 0.25; E3 holdout gap 0.129 < 0.2; E4 |salience gap| 0.307 > 0.1; E6 public z too large (sal -0.99, aud 0.35)"
+gpt__s_density__vs__mirror,gpt,"E4 |salience gap| 0.739 > 0.1; E5 |auditor gap| 0.256 > 0.1; E6 public z too large (sal 2.88, aud 2.25)"
+gpt__s_density__vs__b_spiral_cw,gpt,"E4 |salience gap| 0.472 > 0.1; E6 public z too large (sal 1.87, aud 0.52)"
+gpt__a_chev_ud__vs__s_arrow,gpt,E1 select gap 0.018 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.037 < 0.2
+gpt__s_convexity__vs__rot,gpt,"E1 select gap 0.193 < 0.25; E3 holdout gap 0.092 < 0.2; E4 |salience gap| 0.387 > 0.1; E5 |auditor gap| 0.265 > 0.1; E6 public z too large (sal 1.52, aud 2.27)"
+gpt__rot__vs__s_arrow,gpt,"E1 select gap 0.034 < 0.25; E3 holdout gap 0.149 < 0.2; E4 |salience gap| 0.144 > 0.1; E5 |auditor gap| 0.204 > 0.1; E6 public z too large (sal -0.76, aud -1.81)"
+gpt__s_density__vs__noise,gpt,"E4 |salience gap| 0.794 > 0.1; E5 |auditor gap| 0.306 > 0.1; E6 public z too large (sal 3.12, aud 2.70)"
+gpt__s_contrast__vs__s_convexity,gpt,"E4 |salience gap| 0.452 > 0.1; E5 |auditor gap| 0.127 > 0.1; E6 public z too large (sal -2.06, aud -1.03)"
+gpt__s_contrast__vs__d_texture,gpt,"E1 select gap 0.129 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.347 > 0.1; E6 public z too large (sal -1.33, aud 0.19)"
+gpt__proto__vs__c_contr_subtle,gpt,"E1 select gap 0.186 < 0.25; E4 |salience gap| 0.327 > 0.1; E5 |auditor gap| 0.160 > 0.1; E6 public z too large (sal 1.62, aud 1.48)"
+gpt__s_density__vs__b_tee_ell,gpt,E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.184 > 0.1
+gpt__c_open_cplx__vs__a_chev_ud,gpt,"E1 select gap 0.092 < 0.25; E3 holdout gap 0.113 < 0.2; E4 |salience gap| 0.280 > 0.1; E6 public z too large (sal 1.20, aud 0.33)"
+gpt__b_spiral_cw__vs__c_open_cplx,gpt,"E1 select gap 0.117 < 0.25; E3 holdout gap 0.117 < 0.2; E4 |salience gap| 0.331 > 0.1; E6 public z too large (sal -1.45, aud -0.79)"
+gpt__rot__vs__mirror,gpt,"E1 select gap 0.034 < 0.25; E3 holdout gap 0.177 < 0.2; E4 |salience gap| 0.263 > 0.1; E6 public z too large (sal 1.12, aud 0.57)"
+gpt__b_tee_ell__vs__c_contr_subtle,gpt,"E1 select gap 0.186 < 0.25; E4 |salience gap| 0.451 > 0.1; E6 public z too large (sal 1.87, aud 0.87)"
+gpt__proto__vs__s_density,gpt,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.308 > 0.1; E6 public z too large (sal -0.98, aud 0.80)"
+gpt__c_open_cplx__vs__rot,gpt,"E1 select gap 0.076 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.074 < 0.2; E4 |salience gap| 0.335 > 0.1; E5 |auditor gap| 0.228 > 0.1; E6 public z too large (sal 1.35, aud 1.95)"
+gpt__d_dens_extreme__vs__d_texture,gpt,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.129 < 0.2; E4 |salience gap| 0.194 > 0.1; E5 |auditor gap| 0.113 > 0.1; E6 public z too large (sal 0.98, aud 1.09)"
+gpt__d_dens_extreme__vs__mirror,gpt,"E4 |salience gap| 0.739 > 0.1; E5 |auditor gap| 0.288 > 0.1; E6 public z too large (sal 2.89, aud 2.70)"
+gpt__d_dens_extreme__vs__b_spiral_cw,gpt,"E1 select gap 0.159 < 0.25; E3 holdout gap 0.159 < 0.2; E4 |salience gap| 0.472 > 0.1; E6 public z too large (sal 1.87, aud 0.97)"
+gpt__c_contr_subtle__vs__c_open_cplx,gpt,"E1 select gap 0.218 < 0.25; E3 holdout gap 0.166 < 0.2; E4 |salience gap| 0.493 > 0.1; E5 |auditor gap| 0.117 > 0.1; E6 public z too large (sal -2.18, aud -0.94)"
+gpt__a_chev_ud__vs__mirror,gpt,"E1 select gap 0.018 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.009 < 0.2; E4 |salience gap| 0.318 > 0.1; E5 |auditor gap| 0.241 > 0.1; E6 public z too large (sal 1.26, aud 2.19)"
+gpt__rot__vs__noise,gpt,"E1 select gap 0.027 < 0.25; E3 holdout gap 0.166 < 0.2; E4 |salience gap| 0.318 > 0.1; E5 |auditor gap| 0.109 > 0.1; E6 public z too large (sal 1.36, aud 1.02)"
+gpt__d_dens_extreme__vs__noise,gpt,"E4 |salience gap| 0.793 > 0.1; E5 |auditor gap| 0.338 > 0.1; E6 public z too large (sal 3.13, aud 3.15)"
+gpt__proto__vs__s_contrast,gpt,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.234 > 0.1; E5 |auditor gap| 0.132 > 0.1; E6 public z too large (sal 1.33, aud 1.26)"
+gpt__d_texture__vs__c_contr_subtle,gpt,"E1 select gap 0.057 < 0.25; E4 |salience gap| 0.440 > 0.1; E6 public z too large (sal 1.62, aud 0.03)"
+gpt__a_chev_ud__vs__noise,gpt,"E1 select gap 0.011 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.021 < 0.2; E4 |salience gap| 0.372 > 0.1; E5 |auditor gap| 0.291 > 0.1; E6 public z too large (sal 1.50, aud 2.64)"
+gpt__s_convexity__vs__mirror,gpt,"E1 select gap 0.228 < 0.25; E4 |salience gap| 0.650 > 0.1; E5 |auditor gap| 0.324 > 0.1; E6 public z too large (sal 2.64, aud 2.83)"
+gpt__s_contrast__vs__b_tee_ell,gpt,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.358 > 0.1; E6 public z too large (sal -1.58, aud -0.64)"
+gpt__b_spiral_cw__vs__s_convexity,gpt,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.048 < 0.2; E4 |salience gap| 0.383 > 0.1; E5 |auditor gap| 0.129 > 0.1; E6 public z too large (sal -1.62, aud -1.10)"
+gpt__s_density__vs__c_contr_subtle,gpt,"E1 select gap 0.186 < 0.25; E4 |salience gap| 0.634 > 0.1; E6 public z too large (sal 2.59, aud 0.68)"
+gpt__s_contrast__vs__d_dens_extreme,gpt,"E1 select gap 0.129 < 0.25; E3 holdout gap 0.129 < 0.2; E4 |salience gap| 0.541 > 0.1; E6 public z too large (sal -2.32, aud -0.90)"
+gpt__s_convexity__vs__noise,gpt,"E1 select gap 0.221 < 0.25; E4 |salience gap| 0.704 > 0.1; E5 |auditor gap| 0.374 > 0.1; E6 public z too large (sal 2.88, aud 3.28)"
+gpt__c_contr_subtle__vs__s_convexity,gpt,"E1 select gap 0.101 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.545 > 0.1; E5 |auditor gap| 0.155 > 0.1; E6 public z too large (sal -2.35, aud -1.26)"
+gpt__mirror__vs__s_arrow,gpt,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.028 < 0.2; E4 |salience gap| 0.407 > 0.1; E5 |auditor gap| 0.263 > 0.1; E6 public z too large (sal -1.88, aud -2.38)"
+gpt__c_open_cplx__vs__mirror,gpt,"E1 select gap 0.110 < 0.25; E3 holdout gap 0.103 < 0.2; E4 |salience gap| 0.599 > 0.1; E5 |auditor gap| 0.286 > 0.1; E6 public z too large (sal 2.47, aud 2.52)"
+gpt__noise__vs__s_arrow,gpt,"E1 select gap 0.007 < 0.25; E2 holdout sign does not agree; E3 holdout gap -0.016 < 0.2; E4 |salience gap| 0.462 > 0.1; E5 |auditor gap| 0.312 > 0.1; E6 public z too large (sal -2.12, aud -2.83)"
+gpt__c_open_cplx__vs__noise,gpt,"E1 select gap 0.103 < 0.25; E3 holdout gap 0.092 < 0.2; E4 |salience gap| 0.653 > 0.1; E5 |auditor gap| 0.336 > 0.1; E6 public z too large (sal 2.71, aud 2.97)"
+gpt__s_density__vs__s_contrast,gpt,"E1 select gap 0.000 < 0.25; E2 holdout sign does not agree; E3 holdout gap 0.000 < 0.2; E4 |salience gap| 0.542 > 0.1; E6 public z too large (sal 2.31, aud 0.45)"
+gpt__d_dens_extreme__vs__c_contr_subtle,gpt,"E1 select gap 0.057 < 0.25; E3 holdout gap 0.110 < 0.2; E4 |salience gap| 0.634 > 0.1; E5 |auditor gap| 0.119 > 0.1; E6 public z too large (sal 2.60, aud 1.13)"

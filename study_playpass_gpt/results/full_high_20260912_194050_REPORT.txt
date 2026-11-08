@@ -1,0 +1,110 @@
+========================================================================
+GPT PLAY/PASS — Study 1 arm, behavioural analysis
+========================================================================
+file            playpass_full_high_20260912_194050.csv
+model returned  {'gpt-5.5-2026-04-23': 300}
+prompt/frozen   ['cbc2592c/8ee3a56e: 300']
+
+[1] INTEGRITY
+  decisions attempted 300   parsed 300   parse failures 0
+  transport ok 300            transport failures 0
+  usable rows 300  (HIGH 150, LOW 150)
+[2] COST
+  total $12.9545   $0.04318/call
+
+[3-4] PLAY RATES
+  P(PLAY | HIGH) = 0.8533  [0.788, 0.901]  (128/150)
+  P(PLAY | LOW ) = 0.4067  [0.331, 0.487]  (61/150)
+  overall P(PLAY) = 0.6300
+
+[5] HIGH - LOW DIFFERENCE (item-clustered)
+  difference +0.4467   95% CI [+0.2800, +0.6133]  (item bootstrap, B=20000)
+  item-level permutation test of arm label: p = 0.0001
+
+[6] d'
+  d' = 1.2870   (zH +1.0508, zFA -0.2361; rates clamped at 1/2n)
+[7] AUC
+  item-level (15 vs 15, Mann-Whitney) AUC = 0.9067, p = 0.0001
+  trial-level balanced accuracy of the PLAY rule = 0.7233
+[8] CRITERION / OPERATING POINT
+  sensitivity (hit, PLAY|HIGH) = 0.8533
+  specificity (PASS|LOW)       = 0.5933
+  criterion c = -0.4074   (negative = bias toward PLAY)
+
+[9] CONTINUOUS AGREEMENT vs ITEM P(PLAY)   (n=30 items)
+  Spearman rho = +0.7818, p = 0.0000
+  Pearson  r   = +0.7674, p = 0.0000
+  within HIGH: rho = +0.2601, p = 0.3492
+  within LOW : rho = +0.6673, p = 0.0066
+
+[10] ITEM-LEVEL DETAIL  (array, arm, agreement, PLAY/20)
+  F19_fill_m1            HIGH  agr 1.0000  PLAY 10/10 = 1.000
+  F07_contrast_m3        HIGH  agr 1.0000  PLAY 10/10 = 1.000
+  F32_tilt_m1            HIGH  agr 1.0000  PLAY 10/10 = 1.000
+  F14_bars_m3            HIGH  agr 1.0000  PLAY 10/10 = 1.000
+  F03_symmetry_m3        HIGH  agr 1.0000  PLAY  9/10 = 0.900
+  F29_arcdir_m1          HIGH  agr 1.0000  PLAY  8/10 = 0.800
+  F04_complexity_m3      HIGH  agr 1.0000  PLAY  8/10 = 0.800
+  F17_gapclock_m1        HIGH  agr 1.0000  PLAY 10/10 = 1.000
+  F24_subdiv_m1          HIGH  agr 1.0000  PLAY  7/10 = 0.700
+  F38_endcap_m1          HIGH  agr 1.0000  PLAY 10/10 = 1.000
+  F41_contain_m1         HIGH  agr 1.0000  PLAY  4/10 = 0.400
+  F22_star_m1            HIGH  agr 0.9583  PLAY  6/10 = 0.600
+  F02_size_m3            HIGH  agr 0.9583  PLAY 10/10 = 1.000
+  F09_convexity_m3       HIGH  agr 0.9583  PLAY  8/10 = 0.800
+  F10_curvature_m3       HIGH  agr 0.9583  PLAY  8/10 = 0.800
+  F23_ellipseang_m1      LOW   agr 0.5461  PLAY  5/10 = 0.500
+  F06_density_m3         LOW   agr 0.5115  PLAY  9/10 = 0.900
+  F33_hole_m1            LOW   agr 0.5035  PLAY  4/10 = 0.400
+  F37_mirroraxis_m1      LOW   agr 0.5035  PLAY  6/10 = 0.600
+  F25_nested_m1          LOW   agr 0.5035  PLAY  8/10 = 0.800
+  F26_bumploc_m1         LOW   agr 0.4973  PLAY  4/10 = 0.400
+  F30_pairratio_m1       LOW   agr 0.4956  PLAY  6/10 = 0.600
+  F28_dotarrange_m1      LOW   agr 0.4894  PLAY  5/10 = 0.500
+  F11_noise_m3           LOW   agr 0.4105  PLAY  0/10 = 0.000
+  F34_jitter_m1          LOW   agr 0.3644  PLAY  5/10 = 0.500
+  F27_linecount_m1       LOW   agr 0.3564  PLAY  6/10 = 0.600
+  F36_split_m1           LOW   agr 0.3466  PLAY  2/10 = 0.200
+  F05_orient_m3          LOW   agr 0.3431  PLAY  0/10 = 0.000
+  F35_gradang_m1         LOW   agr 0.3076  PLAY  1/10 = 0.100
+  F12_mirror_m3          LOW   agr 0.2988  PLAY  0/10 = 0.000
+  leave-one-item-out: difference range [+0.4176, +0.4819]   AUC range [0.9000, 0.9429]
+  most influential for difference: drop F11_noise_m3 -> +0.4176
+  most influential for AUC:        drop F19_fill_m1 -> 0.9000
+
+[11] PERMUTATION / POSITION EFFECTS
+  perm  0  n=  9  P(PLAY)=0.889
+  perm  1  n= 14  P(PLAY)=0.714
+  perm  2  n=  6  P(PLAY)=0.500
+  perm  3  n= 12  P(PLAY)=0.750
+  perm  4  n= 12  P(PLAY)=0.500
+  perm  5  n= 10  P(PLAY)=0.400
+  perm  6  n=  8  P(PLAY)=0.750
+  perm  7  n= 13  P(PLAY)=0.692
+  perm  8  n= 13  P(PLAY)=0.538
+  perm  9  n= 10  P(PLAY)=0.500
+  perm 10  n= 13  P(PLAY)=0.692
+  perm 11  n= 14  P(PLAY)=0.714
+  perm 12  n= 12  P(PLAY)=0.667
+  perm 13  n= 16  P(PLAY)=0.625
+  perm 14  n= 15  P(PLAY)=0.733
+  perm 15  n= 15  P(PLAY)=0.467
+  perm 16  n= 14  P(PLAY)=0.643
+  perm 17  n= 12  P(PLAY)=0.583
+  perm 18  n= 13  P(PLAY)=0.692
+  perm 19  n= 18  P(PLAY)=0.778
+  perm 20  n= 13  P(PLAY)=0.615
+  perm 21  n= 11  P(PLAY)=0.545
+  perm 22  n= 15  P(PLAY)=0.667
+  perm 23  n= 12  P(PLAY)=0.333
+  chi2 across permutations (pooled): chi2=19.343, df=23, p=0.6812
+  within HIGH: P(PLAY) by perm [1.0, 0.714, 0.0, 0.8, 0.714, 0.6, 1.0, 1.0, 0.857, 0.667, 0.857, 1.0, 1.0, 1.0, 1.0, 0.875, 1.0, 1.0, 0.889, 1.0, 0.8, 0.714, 0.857, 0.4]  chi2 p = 0.0978
+  within LOW: P(PLAY) by perm [0.5, 0.714, 0.6, 0.5, 0.2, 0.2, 0.5, 0.5, 0.167, 0.25, 0.5, 0.429, 0.429, 0.4, 0.6, 0.0, 0.444, 0.286, 0.25, 0.5, 0.5, 0.25, 0.5, 0.286]  chi2 p = 0.8150
+  rep-order trend: Spearman rho = -0.0122, p = 0.9732
+
+[12] COMPARISON WITH QWEN
+                GPT-5.5       Qwen
+  d-prime         1.287      0.492
+  AUC             0.907      0.776
+  c              -0.407     -0.442
+========================================================================

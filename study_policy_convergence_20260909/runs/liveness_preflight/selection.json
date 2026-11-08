@@ -1,0 +1,235 @@
+{
+  "selection_id": "LIVENESS-PREFLIGHT-24",
+  "owner": "lead",
+  "frozen": "2026-09-09",
+  "purpose": "Measure the effective-support distribution under thinking OFF, which no existing data reports, and test whether OFF moves support in the SAME DIRECTION for GPT and Claude. A differential ON->OFF effect by model family sits directly on top of the cross-family similarity measure and would matter more than the identifiability question.",
+  "design": "Within-array, within-checkpoint ON->OFF contrast. The two checkpoints are the only two with existing four-option data on every B203 array, so every OFF cell has a paired ON cell at the same n on the same images and the same prompt d40ea45d. The ONLY difference is the request surface.",
+  "checkpoints": [
+    "gpt-5.5-2026-04-23",
+    "claude-opus-5"
+  ],
+  "n_per_cell": 24,
+  "n_arrays": 24,
+  "n_calls": 1152,
+  "selection_rule": "Rank all 203 B203 arrays by min(eff_support_gpt, eff_support_opus5) measured under adaptive-ON at n=24. Three strata by fixed cut points on that value: high >= 1.60, mid 1.10-1.59, low < 1.10. Take 8 per stratum, round-robin over families by rank so distinct families are maximised. Deterministic, no RNG.",
+  "conditioning_disclosure": "This selection conditions on a WITHIN-MODEL marginal (how deterministic each model is on the array), measured on two checkpoints that are themselves in the panel. It does NOT condition on any BETWEEN-model relationship - not on agreement, not on cross-model match, not on modal coincidence. That is a weaker form of selection than the one that disqualified FROZEN_22, whose rule was literally \"GPT-5.5 share >= .75 and FC >= .80\". It is weaker, not absent, and it is declared: results from the liveness-screened stratum are reported as conditioned on a generator property, never as a property of the battery.",
+  "not_a_frame_screen": "This preflight does NOT reduce VIS-FRAME-41. The full 41-array frame is collected as approved. The preflight defines a DECLARED STRATUM within it plus the extra live arrays, and prevalence of collapse is reported on the full unscreened frame as a substantive result.",
+  "arrays": [
+    {
+      "array_id": "F11_noise_m1",
+      "family": "F11_noise",
+      "mechanism": "noise",
+      "on_support_gpt": 3.6456,
+      "on_support_claude": 3.7895,
+      "on_min": 3.6456,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F05_orient_m5",
+      "family": "F05_orient",
+      "mechanism": "orient",
+      "on_support_gpt": 3.3103,
+      "on_support_claude": 3.6456,
+      "on_min": 3.3103,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F35_gradang_m0",
+      "family": "F35_gradang",
+      "mechanism": "gradang",
+      "on_support_gpt": 2.7961,
+      "on_support_claude": 3.6,
+      "on_min": 2.7961,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F12_mirror_m4",
+      "family": "F12_mirror",
+      "mechanism": "mirror",
+      "on_support_gpt": 2.6422,
+      "on_support_claude": 3.6456,
+      "on_min": 2.6422,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F41_contain_m2",
+      "family": "F41_contain",
+      "mechanism": "contain",
+      "on_support_gpt": 3.0968,
+      "on_support_claude": 2.5043,
+      "on_min": 2.5043,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F34_jitter_m1",
+      "family": "F34_jitter",
+      "mechanism": "jitter",
+      "on_support_gpt": 3.236,
+      "on_support_claude": 1.9862,
+      "on_min": 1.9862,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F37_mirroraxis_m0",
+      "family": "F37_mirroraxis",
+      "mechanism": "mirroraxis",
+      "on_support_gpt": 1.9862,
+      "on_support_claude": 2.1654,
+      "on_min": 1.9862,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F01_oddone_m7",
+      "family": "F01_oddone",
+      "mechanism": "oddone",
+      "on_support_gpt": 1.8824,
+      "on_support_claude": 3.4286,
+      "on_min": 1.8824,
+      "on_stratum": "high"
+    },
+    {
+      "array_id": "F30_pairratio_m1",
+      "family": "F30_pairratio",
+      "mechanism": "pairratio",
+      "on_support_gpt": 1.9459,
+      "on_support_claude": 1.5401,
+      "on_min": 1.5401,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F37_mirroraxis_m1",
+      "family": "F37_mirroraxis",
+      "mechanism": "mirroraxis",
+      "on_support_gpt": 1.8824,
+      "on_support_claude": 1.5238,
+      "on_min": 1.5238,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F05_orient_m4",
+      "family": "F05_orient",
+      "mechanism": "orient",
+      "on_support_gpt": 1.4922,
+      "on_support_claude": 2.1818,
+      "on_min": 1.4922,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F10_curvature_m4",
+      "family": "F10_curvature",
+      "mechanism": "curvature",
+      "on_support_gpt": 1.4922,
+      "on_support_claude": 1.8824,
+      "on_min": 1.4922,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F23_ellipseang_m0",
+      "family": "F23_ellipseang",
+      "mechanism": "ellipseang",
+      "on_support_gpt": 1.4922,
+      "on_support_claude": 1.9459,
+      "on_min": 1.4922,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F25_nested_m2",
+      "family": "F25_nested",
+      "mechanism": "nested",
+      "on_support_gpt": 1.8824,
+      "on_support_claude": 1.4922,
+      "on_min": 1.4922,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F06_density_m4",
+      "family": "F06_density",
+      "mechanism": "density",
+      "on_support_gpt": 1.9862,
+      "on_support_claude": 1.4118,
+      "on_min": 1.4118,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F12_mirror_m0",
+      "family": "F12_mirror",
+      "mechanism": "mirror",
+      "on_support_gpt": 1.4049,
+      "on_support_claude": 3.4699,
+      "on_min": 1.4049,
+      "on_stratum": "mid"
+    },
+    {
+      "array_id": "F01_oddone_m5",
+      "family": "F01_oddone",
+      "mechanism": "oddone",
+      "on_support_gpt": 1.0868,
+      "on_support_claude": 1.7041,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    },
+    {
+      "array_id": "F02_size_m0",
+      "family": "F02_size",
+      "mechanism": "size",
+      "on_support_gpt": 1.1803,
+      "on_support_claude": 1.0868,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    },
+    {
+      "array_id": "F06_density_m5",
+      "family": "F06_density",
+      "mechanism": "density",
+      "on_support_gpt": 1.7041,
+      "on_support_claude": 1.0868,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    },
+    {
+      "array_id": "F07_contrast_m6",
+      "family": "F07_contrast",
+      "mechanism": "contrast",
+      "on_support_gpt": 1.0868,
+      "on_support_claude": 1.1803,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    },
+    {
+      "array_id": "F08_closure_m7",
+      "family": "F08_closure",
+      "mechanism": "closure",
+      "on_support_gpt": 1.28,
+      "on_support_claude": 1.0868,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    },
+    {
+      "array_id": "F09_convexity_m1",
+      "family": "F09_convexity",
+      "mechanism": "convexity",
+      "on_support_gpt": 1.0868,
+      "on_support_claude": 1.4922,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    },
+    {
+      "array_id": "F10_curvature_m1",
+      "family": "F10_curvature",
+      "mechanism": "curvature",
+      "on_support_gpt": 1.9862,
+      "on_support_claude": 1.0868,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    },
+    {
+      "array_id": "F12_mirror_m3",
+      "family": "F12_mirror",
+      "mechanism": "mirror",
+      "on_support_gpt": 3.5122,
+      "on_support_claude": 1.0868,
+      "on_min": 1.0868,
+      "on_stratum": "low"
+    }
+  ]
+}

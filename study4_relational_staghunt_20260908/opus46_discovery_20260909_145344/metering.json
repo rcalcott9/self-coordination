@@ -1,0 +1,8 @@
+{
+ "calls": 1056,
+ "input_tokens": 778272,
+ "output_tokens": 33352,
+ "cost_usd": 4.7252,
+ "per_call_usd": 0.004475,
+ "projected_full_usd": 4.73
+}

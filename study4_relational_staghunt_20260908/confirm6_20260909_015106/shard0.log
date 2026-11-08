@@ -1,0 +1,21 @@
+=== STUDY 4 FOUR-OBJECT CONFIRMATION (n=72, fresh) ===
+arrays   : 4   models: gpt, claude   perms/cell: 24
+shard    : 0 of 2   arrays in shard: 2
+gpt      : gpt-5.5
+claude   : claude-opus-5
+prompt   : sha8=d40ea45d  (four-option; binary parent 3003ae1b)
+stimuli  : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/stimuli6
+run dir  : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/confirm6_20260909_015106
+calls    : 288 of 576 total
+
+  stageA_confirm6: 288 calls to make (0 skipped)
+    50/288
+    100/288
+    150/288
+    200/288
+    250/288
+
+wrote /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/confirm6_20260909_015106/data/stageA_confirm6_s0of2.csv  (288 rows)
+  transport ok : 288/288
+  parsed ok    : 288/288
+  PARSE FAILS  : 0

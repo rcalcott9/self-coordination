@@ -1,0 +1,117 @@
+{
+  "gate": "Gate 1 -- acquisition of arbitrary latent preferences",
+  "verdict": "PASS",
+  "frozen_threshold": "r(behavioural learned weights, true assigned weights) >= 0.70",
+  "job_id": "ftjob-c531948cc65b41ef80c9e2c753f18555",
+  "base_model": "gpt-4.1-mini-2025-04-14",
+  "fine_tuned_model": "gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1",
+  "resolved_hyperparameters": {
+    "n_epochs": 3,
+    "batch_size": 10,
+    "learning_rate_multiplier": 2.0,
+    "mode": "AUTO (not pinned)"
+  },
+  "trained_tokens": 3014928,
+  "training_wall_clock": "1h40m20s",
+  "datasets": {
+    "train_rows": 5000,
+    "validation_file_rows": 1000,
+    "heldout_scored_rows": 5000,
+    "heldout_seed": 20260904,
+    "regenerated_byte_identical_to_plunkett": {
+      "train": true,
+      "val": true
+    },
+    "hashes": {
+      "gate1_train_5000.jsonl": "8610f03beedbf981c5bf2bc09e8b00b0d2b926c125d7c77d78b30f786df72863",
+      "gate1_val_1000.jsonl": "a2946d4d92faaa7a46fc6ea068fc497f0ca2f0bb62095f083fc3aed0191b3ed2",
+      "gate1_heldout_5000.json": "367f6a64b38f5b25363ef56acbcf078867b6155a8fd747d3382f8f2dca3497be",
+      "gate1_true_weights.json": "4eb83079e7d09215d0268edc83a44649dc7dd119d06685eb8a67de14df97ea89"
+    }
+  },
+  "results": {
+    "finetuned": {
+      "r": 0.8531059479102717,
+      "ci95": [
+        0.8327437027026414,
+        0.8728341394004242
+      ],
+      "heldout_choice_accuracy": 0.8342,
+      "contexts_usable": 100,
+      "contexts_failed": 0,
+      "invalid_responses": 0,
+      "per_context_accuracy": {
+        "mean": 0.8342,
+        "sd": 0.06941574356401763,
+        "min": 0.62,
+        "max": 0.96,
+        "n_above_0.70": 96,
+        "n_at_or_below_chance": 0
+      },
+      "per_context_r_within": {
+        "mean": 0.8438001190197733,
+        "median": 0.8746495127152105,
+        "n_negative": 2
+      },
+      "served_model": "gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1",
+      "deployment_sku": "DeveloperTier"
+    },
+    "base_control": {
+      "r": 0.07678629900617738,
+      "ci95": [
+        -0.00978802286152858,
+        0.16334532039692923
+      ],
+      "heldout_choice_accuracy": 0.5246,
+      "contexts_usable": 100,
+      "contexts_failed": 0,
+      "invalid_responses": 0,
+      "per_context_accuracy": {
+        "mean": 0.5246,
+        "sd": 0.15657586020839867,
+        "min": 0.2,
+        "max": 0.84,
+        "n_above_0.70": 16,
+        "n_at_or_below_chance": 44
+      },
+      "per_context_r_within": {
+        "mean": 0.008389445855705651,
+        "median": 0.01339335091948837,
+        "n_negative": 49
+      },
+      "served_model": "gpt-4.1-mini-2025-04-14",
+      "deployment_sku": "GlobalStandard (authorised, control only)"
+    }
+  },
+  "contrast": {
+    "delta_r": 0.7763196489040943,
+    "delta_accuracy": 0.3096000000000001,
+    "base_ci_includes_zero": true,
+    "ci_overlap": false
+  },
+  "plunkett_reference": {
+    "gpt-4o-2024-08-06": 0.843,
+    "gpt-4o-mini-2024-07-18": 0.871,
+    "their_base_controls": {
+      "gpt-4o": 0.102,
+      "gpt-4o-mini": -0.008
+    },
+    "note": "recomputed by us from their shipped data, not quoted from the paper"
+  },
+  "cost_usd": {
+    "training": 15.0746,
+    "ft_eval": 0.816,
+    "base_eval": 0.442,
+    "hosting": 0.0,
+    "total": 16.33
+  },
+  "deployments_remaining": 0,
+  "documented_deviations": [
+    "Estimator: brms posterior mean -> L2-penalised MAP under the identical normal(0,1) slope prior. VALIDATED at r=0.9999 against their shipped brms coefficients.",
+    "Held-out trial generation deterministically seeded per context (theirs depended on asyncio scheduling and was unreproducible).",
+    "Contexts with failed fits are reported, never silently dropped (they dropped any warning-emitting fit).",
+    "Base control deployed on GlobalStandard because DeveloperTier is refused for non-fine-tuned models. Explicitly authorised; deleted immediately.",
+    "Base model is gpt-4.1-mini-2025-04-14, not their gpt-4o/gpt-4o-mini: OpenAI's fine-tuning API is closed to this org and DeveloperTier (zero hosting cost) covers only the 4.1 family."
+  ],
+  "sealed": "Self-report/introspection and relational datasets untouched. No downstream phase run."
+}

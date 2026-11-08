@@ -1,0 +1,12 @@
+report trials: 1000  contexts: 100
+  deployed gate2a-base-dev: gpt-4.1-mini sku=GlobalStandard
+  200/1000
+  400/1000
+  600/1000
+  800/1000
+  1000/1000
+  served_model=gpt-4.1-mini-2025-04-14
+  provenance (base gpt-4.1-mini AND no ft- tag): True
+  transport failures: 0/1000
+[delete] gate2a-base-dev: HTTP 200 at 2026-09-05T01:27:36.508605+00:00
+[cleanup] deployments remaining: 0

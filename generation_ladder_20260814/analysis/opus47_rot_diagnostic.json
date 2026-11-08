@@ -1,0 +1,24 @@
+{
+  "rot": {
+    "stage_a_self_match": 1.0,
+    "form_consistency": 1.0,
+    "p_left_stage_a": 0.5,
+    "held_out_self_match": 1.0,
+    "generic_salience": 0.1953,
+    "auditor_prediction": 0.6677,
+    "stage_c_attempt": 0.408,
+    "nofeature_rate_stage_c": 0.508,
+    "nofeature_rate_stage_a": 0.0
+  },
+  "b_spiral_cw": {
+    "stage_a_self_match": 0.4938,
+    "form_consistency": 0.0667,
+    "p_left_stage_a": 0.967,
+    "held_out_self_match": 0.4851,
+    "generic_salience": 0.231,
+    "auditor_prediction": 0.672,
+    "stage_c_attempt": 0.683,
+    "nofeature_rate_stage_c": 0.108,
+    "nofeature_rate_stage_a": 0.0
+  }
+}

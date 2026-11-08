@@ -1,0 +1,28 @@
+model=g4omini ft=gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini
+items=60  calls=1680
+[pre] deployments: 0
+  deployed precheck-4omini sku=GlobalStandard rpm=48.0
+  400/1680
+  800/1680
+  1200/1680
+  1600/1680
+  provenance OK: gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini
+[delete] precheck-4omini HTTP 202
+[cleanup] deployments remaining: 0 (verified)
+  lifetime 0.87h  hosting $1.48
+
+====================================================================
+PRE-CHECK  g4omini   items usable=60  unusable replies=0
+====================================================================
+  overall flip rate (COMP differs from PLAIN modal) = 0.1792
+  baseline: PLAIN draws differing from own modal    = 0.0875
+  excess over baseline                              = +0.0917
+
+  predictability distribution: 0.500x2, 0.625x4, 0.750x6, 0.875x6, 1.000x42
+  by worker-predictability band:
+    <0.75      n=  6  pred=0.583  flip=0.5139  baseline=0.3333  excess=+0.1806
+    0.75-0.94  n= 12  pred=0.812  flip=0.4306  baseline=0.1979  excess=+0.2326
+    >=0.95     n= 42  pred=1.000  flip=0.0595  baseline=0.0208  excess=+0.0387
+
+  reading: flip ~ baseline  => the checkpoint IGNORES the instruction
+           flip rising with predictability => it uses self-policy inference

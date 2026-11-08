@@ -1,0 +1,48 @@
+=== STAGE A1 SCREEN (drop-only) ===
+focal    : Claude Opus 5 (claude-opus-5)
+stimuli  : 58    depth: 60
+prompt   : sha8=3003ae1b  (canonical 3003ae1b)
+EXP dir  : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/claude_arm_20260908
+trials   : 3480
+
+  100/3480 trials
+  200/3480 trials
+  300/3480 trials
+  400/3480 trials
+  500/3480 trials
+  600/3480 trials
+  700/3480 trials
+  800/3480 trials
+  900/3480 trials
+  1000/3480 trials
+  1100/3480 trials
+  1200/3480 trials
+  1300/3480 trials
+  1400/3480 trials
+  1500/3480 trials
+  1600/3480 trials
+  1700/3480 trials
+  1800/3480 trials
+  1900/3480 trials
+  2000/3480 trials
+  2100/3480 trials
+  2200/3480 trials
+  2300/3480 trials
+  2400/3480 trials
+  2500/3480 trials
+  2600/3480 trials
+  2700/3480 trials
+  2800/3480 trials
+  2900/3480 trials
+  3000/3480 trials
+  3100/3480 trials
+  3200/3480 trials
+  3300/3480 trials
+  3400/3480 trials
+
+=== stage A/CLAUDE58 done: 3480 trials in 2341s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/claude_arm_20260908/data/stageA_CLAUDE58_20260908_172722.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/claude_arm_20260908/data/stageA_CLAUDE58_20260908_172722.jsonl

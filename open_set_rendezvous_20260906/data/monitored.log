@@ -1,0 +1,12 @@
+  monitored 100/1080  $1.64
+  monitored 200/1080  $3.09
+  monitored 300/1080  $4.45
+  monitored 400/1080  $5.97
+  monitored 500/1080  $7.44
+  monitored 600/1080  $9.01
+  monitored 700/1080  $10.50
+  monitored 800/1080  $11.91
+  monitored 900/1080  $13.35
+  monitored 1000/1080  $14.85
+  monitored: 1080 rows  {'ok': 1073, 'not_a_location': 7}
+  monitored: tokens in=149,700 out=507,728  cost $15.98

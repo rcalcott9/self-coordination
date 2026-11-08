@@ -1,0 +1,46 @@
+{
+  "parse": {
+    "strict_ok": 596,
+    "total": 1000,
+    "rate": 0.596,
+    "contexts_with_report": 79,
+    "bare_AB_rate": 0.0,
+    "mean_completion_tokens": 46.487,
+    "finish_reason": {
+      "stop": 1000
+    },
+    "malformed": {
+      "unknown_key:comfort": 75,
+      "unknown_key:practicality": 33,
+      "unknown_key:efficiency": 31,
+      "unknown_key:size": 31,
+      "unknown_key:performance": 26,
+      "unknown_key:safety": 23,
+      "unknown_key:cost": 20
+    }
+  },
+  "A_report_vs_learned": {
+    "r": 0.3485627560094767,
+    "ci95": [
+      0.25213524690713696,
+      0.43788319852157853
+    ],
+    "n_contexts": 79,
+    "within_mean": 0.325722738789114,
+    "within_positive": 59,
+    "within_negative": 20,
+    "standardised_slope": 0.3485627560094768
+  },
+  "B_report_vs_true": {
+    "r": 0.24004801002504356,
+    "ci95": [
+      0.14736585186083467,
+      0.3363872843169016
+    ],
+    "n_contexts": 79,
+    "within_mean": 0.21298748616285454,
+    "within_positive": 51,
+    "within_negative": 28,
+    "standardised_slope": 0.24004801002504375
+  }
+}

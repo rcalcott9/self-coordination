@@ -1,0 +1,56 @@
+# Academic journal figure style.
+# Use with:  import matplotlib.pyplot as plt; plt.style.use("academic")
+#
+# Arial, plain black text, thin black axes, no decorative weight. Series should
+# additionally be distinguished by marker or linetype so figures survive
+# greyscale printing — the style cannot enforce that, so set it per plot.
+
+font.family:          sans-serif
+font.sans-serif:      Arial, Helvetica, DejaVu Sans
+font.size:            9
+axes.labelsize:       9
+axes.titlesize:       9
+xtick.labelsize:      9
+ytick.labelsize:      9
+legend.fontsize:      9
+
+text.color:           black
+axes.labelcolor:      black
+axes.edgecolor:       black
+axes.linewidth:       0.8
+axes.titlelocation:   left
+axes.titleweight:     normal
+axes.labelweight:     normal
+axes.spines.top:      False
+axes.spines.right:    False
+axes.grid:            False
+axes.axisbelow:       True
+
+xtick.color:          black
+ytick.color:          black
+xtick.direction:      out
+ytick.direction:      out
+xtick.major.width:    0.8
+ytick.major.width:    0.8
+xtick.major.size:     3.5
+ytick.major.size:     3.5
+
+lines.linewidth:      0.8
+lines.markersize:     4.5
+lines.markeredgewidth: 0.8
+errorbar.capsize:     2.5
+
+legend.frameon:       False
+legend.handletextpad: 0.4
+legend.labelspacing:  0.35
+legend.borderaxespad: 0.6
+
+figure.figsize:       5.5, 3.2
+figure.dpi:           300
+figure.facecolor:     white
+savefig.facecolor:    white
+savefig.dpi:          300
+savefig.bbox:         tight
+savefig.pad_inches:   0.02
+pdf.fonttype:         42
+ps.fonttype:          42

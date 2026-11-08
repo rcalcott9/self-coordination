@@ -1,0 +1,55 @@
+=== STUDY 2 (revised) - partner-policy betting on a compatibility gradient ===
+design table: /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/design/frozen_design_table.csv
+advantages  : confirmed_compatibility.csv (wide: advantage_claude, advantage_gpt)
+gate        : allocation-consistency check vs the CONFIRMED advantages (the design must BE the frozen allocation rule applied to them)
+  CONFIRMATION_RESULTS.md verdict: FAIL  (CONFIRMATION_RESULTS.md: 'must not proceed')   [PROVENANCE ONLY - recorded against the superseded provisional table, re-frozen 2026-08-22; see design/RE_FREEZE_RECORD.md]
+  per actor : claude=FAIL, gpt=PASS
+payoffs     : 3, 5, 7, 9   (EV-neutral p = S/10; match 10, mismatch 0, framing neutral)
+seed        : 20260822   AB/BA exactly n/2 per cell, n PER CELL from the table
+actors      : GPT-5.5 (gpt-5.5), Claude Opus 5 (claude-opus-5)
+  Claude Opus 5    partner=same      -> Claude Opus 5 (claude-opus-5)
+  Claude Opus 5    partner=different -> GPT-5.5 (gpt-5.5)
+
+gradient    : per-payoff n VARIES by stimulus (allocation is inverse to effect size)
+  actor   stimulus      tier        n/cell  cells  trials   provisional  confirmed  source
+  claude  a_chev_ud     large            8      8      64        +0.678     +0.319  confirmed
+  claude  b_spiral_cw   medium          16      8     128        +0.217     +0.250  confirmed
+  claude  c_open_cplx   zero_floor      30      8     240        -0.106     -0.003  confirmed
+  claude  d_texture     zero_floor      30      8     240        +0.401     +0.003  confirmed
+  claude  mirror        small           30      8     240        +0.022     +0.114  confirmed
+  claude  proto         zero_ceil       16      8     128        +0.000     +0.000  confirmed
+  claude  rot           zero_floor      30      8     240        -0.009     -0.004  confirmed
+  claude  s_arrow       zero_ceil       16      8     128        +0.000     +0.000  confirmed
+
+cells       : 64   per-payoff cell sizes: [8, 16, 30]   planned trials: 1408
+  sha8 Claude Opus 5    same      S3=c7ed394c S5=4ec6f9a1 S7=36b89b66 S9=76fd392e
+  sha8 Claude Opus 5    different S3=41102d5d S5=f41ee2b4 S7=737bab42 S9=37377410
+
+confirmation gate satisfied: all 64 planned cell(s) carry the confirmation screen's own advantage,
+  at exactly the tier and n FROZEN_PARAMS.allocation_for() assigns to it.
+to run      : 1408 trials   [LIVE]
+
+  100/1408 trials
+  200/1408 trials
+  300/1408 trials
+  400/1408 trials
+  500/1408 trials
+  600/1408 trials
+  700/1408 trials
+  800/1408 trials
+  900/1408 trials
+  1000/1408 trials
+  1100/1408 trials
+  1200/1408 trials
+  1300/1408 trials
+  1400/1408 trials
+
+=== study 2 part done: 1408 trials in 883s ===
+unparseable first responses (retried): 179
+trials lost (retry also failed)      : 179
+API errors                           : 358
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/data/study2C_20260822_173758.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/data/study2C_20260822_173758.jsonl
+
+complete cells: 6/64   still partial: 58
+RUN INCOMPLETE - re-run the same command to resume.

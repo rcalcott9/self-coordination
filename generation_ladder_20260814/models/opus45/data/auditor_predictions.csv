@@ -1,0 +1,16 @@
+focal_model,focal_model_name,auditor_model,auditor_model_name,stimulus,n,auditor_predicted_match,ci_lo,ci_hi,sd,auditor_select,auditor_select_ci_lo,auditor_select_ci_hi,n_select,auditor_holdout,auditor_holdout_ci_lo,auditor_holdout_ci_hi,n_holdout
+claude,Claude Opus 4.5,gpt,GPT-5.5,a_chev_ud,30,0.7077,0.698,0.718,0.0282,0.705,0.6893,0.7229,14,0.71,0.6987,0.7225,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,b_spiral_cw,30,0.661,0.6473,0.6737,0.0368,0.6479,0.6286,0.6657,14,0.6725,0.655,0.6894,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,b_tee_ell,30,0.7387,0.7177,0.7597,0.0584,0.7357,0.71,0.7657,14,0.7412,0.7106,0.7694,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,c_contr_subtle,30,0.758,0.7383,0.779,0.0578,0.7629,0.7307,0.7971,14,0.7538,0.7312,0.7819,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,c_open_cplx,30,0.7207,0.7117,0.73,0.0259,0.7207,0.71,0.7336,14,0.7206,0.7075,0.735,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,d_dens_extreme,30,0.7457,0.7303,0.763,0.0465,0.7336,0.7221,0.7464,14,0.7562,0.7294,0.7856,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,d_texture,30,0.714,0.7017,0.7267,0.035,0.7179,0.6986,0.7379,14,0.7106,0.695,0.7262,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,mirror,30,0.6393,0.6197,0.6597,0.0576,0.6393,0.6171,0.6607,14,0.6394,0.605,0.6731,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,noise,30,0.6147,0.6053,0.624,0.0264,0.6179,0.6029,0.6336,14,0.6119,0.6006,0.6231,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,proto,30,0.7357,0.7153,0.7587,0.0599,0.7279,0.7071,0.7493,14,0.7425,0.71,0.78,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,rot,30,0.6603,0.6483,0.6727,0.0347,0.6636,0.6464,0.6836,14,0.6575,0.6419,0.6744,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,s_arrow,30,0.7147,0.6987,0.732,0.0465,0.7114,0.69,0.7343,14,0.7175,0.695,0.7444,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,s_contrast,30,0.726,0.7073,0.7447,0.0524,0.73,0.7057,0.7571,14,0.7225,0.695,0.7494,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,s_convexity,30,0.793,0.774,0.8123,0.0539,0.7871,0.7571,0.8171,14,0.7981,0.7731,0.8231,16
+claude,Claude Opus 4.5,gpt,GPT-5.5,s_density,30,0.7517,0.7387,0.764,0.0359,0.7593,0.7407,0.7764,14,0.745,0.7275,0.7625,16

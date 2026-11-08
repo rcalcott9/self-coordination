@@ -1,0 +1,11 @@
+{
+ "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1b_crossed_object_20261007/runs/preflight/preflight_20261008_023603.csv",
+ "n": 6,
+ "ok": 6,
+ "parsed": 6,
+ "mismatch": 0,
+ "cost_usd": 0.062,
+ "frozen_sha8": "9e11e56e",
+ "selection_sha8": "26eb30e6",
+ "budget_stopped": false
+}

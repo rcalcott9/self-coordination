@@ -1,0 +1,1161 @@
+actor_model,stimulus,safe_payoff,participation_decision,_pair,_side,_fc,_len,_rat,hedge_no_rule,asserts_salient,partner_self_ref,payoff_reasoning,explicit_chance,position_word
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,19,"The two spirals are mirror forms; I'll pick the one whose loose tail points upward, a salient shared descriptor.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,34,"The sparse cluster of three big dots is distinctive, but the dense many-dot cluster is the more salient ""main"" shape—still, coordination is risky; I'll attempt with the sparse trio as the clearly describable form.",0,1,0,1,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,22,"Both shapes are similar blobs, but the left one is rounder/wider while the right is taller/tilted; I'll coordinate on the rounder one.",0,0,0,0,0,1
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,12,"The star is the more salient focal shape, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal shape, so matching is likely enough to beat the safe payoff.",0,1,0,1,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,12,"The sparse trio of large circles is the more distinctive, easily-named form.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should converge on it.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,14,The shade-based focal point is not certain enough to beat the guaranteed 9 points.,0,1,0,1,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,13,The forms are not focal enough to justify risking the guaranteed 9 points.,0,1,0,1,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient shared form, so matching is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,15,"The starburst is the more distinctive focal shape, so matching is likely enough to attempt.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,12,The coordination cue is too weak to justify risking 7 certain points.,1,0,0,1,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,17,"The darker circle is the more salient focal choice, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,19,"The two forms are too similar to reliably distinguish a shared salient feature, so the safe payoff is better.",1,1,0,1,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,13,The star is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,14,"The forms lack a near-certain shared focal point, so the guaranteed payoff is better.",1,1,0,1,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,12,Clockwise spiral seems like the more natural focal form to coordinate on.,0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,"The right-hand spiral looks more regular and complete, making it the more salient form.",0,1,0,0,0,1
+claude,d_dens_extreme,9,SAFE,5,low,0.3,18,"The sparse three-large-circle cluster is distinctive, but matching odds likely below 90%, so the safe payoff is better.",0,1,0,1,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,13,"Coordination on mirror-image spirals is near coin-flip, so the guaranteed 9 is better.",1,0,0,1,1,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I'd expect both of us to pick it.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,17,The two differ in chirality; a natural focal choice is the one whose outer tail points upward.,0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,13,"The dense cluster of many small dots is the more salient, distinctive choice.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,20,"The two blobs are too similar for a reliable form-based focal point, so the guaranteed 9 beats a coin-flip 10.",1,1,0,1,1,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,13,"The larger, simpler circles are the more salient form, so coordination seems likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,16,"The shapes are mirror-image spirals, so I'll coordinate on the one whose free tail points upward.",0,0,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,13,"The spiky star is the more distinctive focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,11,The two forms are too similar for >90% confidence in matching.,1,0,0,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,35,"Salient distinction: sparse cluster of few large dots vs dense cluster of many small dots; the dense many-dot cluster is the more distinctive attractor, but the ""few big dots"" is simpler and easier to name.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,35,"Distinctive salient choice: the sparse cluster of three big dots is easier to name, but the dense many-dot cluster is the more obvious ""main"" shape; I'll take the sparse large-dot cluster since it's uniquely describable.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,19,"The darker circle is the more distinctive focal option, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,17,"The dense cluster of many small dots is the more salient, distinctive shape, so I'll pick it.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,18,The two spirals are mirror images; a natural tiebreak is picking the one whose free tail points upward.,0,0,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,15,The safe payoff is preferable because coordination is not certain enough to justify risking 0.,0,0,0,1,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,16,"The star is the more distinctive, salient shape, so both instances would likely converge on it.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,13,"The dense many-dot cluster is the more distinctive, salient form to converge on.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,16,"The right spiral's tail sweeps up to the top, a salient distinguishing feature to coordinate on.",0,1,0,0,0,1
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,16,The spiral with the open tail at the top is a salient form to coordinate on.,0,1,0,0,0,1
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient focal choice, so attempting is worthwhile.",0,1,0,1,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,14,The focal shape is not certain enough to justify risking the guaranteed 9 points.,0,1,0,1,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,11,"The larger, sparser set is more visually salient and likely focal.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,15,"The starburst is the more salient distinctive form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,16,"The spirals differ by orientation, so I'll coordinate on the one whose free tail points upward.",0,0,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,24,"Both are similar blobs, but the left one is smoother/rounder while the right has a sharper pointed base, so I'll pick the rounder one.",0,0,0,0,0,1
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,19,"The star is the more distinctive and salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,rot,9,SAFE,4,low,0.2,17,"The two blobs are too similar for a reliable focal distinction, so 9 guaranteed beats a coin-flip.",1,1,0,1,1,0
+claude,rot,5,ATTEMPT,4,low,0.2,40,"Both shapes are similar blobs, but the left one is rounder/wider while the right is taller and more tilted; a salient distinguishing feature is the left shape's broad rounded top, which I'd expect a copy of me to also pick.",0,1,1,0,0,1
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,27,"The sparse cluster of three large dots is distinctive, but the dense many-dot cluster is the more salient ""big"" group; still, coordination favors the striking sparse triple.",0,1,0,0,0,0
+claude,b_spiral_cw,9,ATTEMPT,4,high,1.0,18,The two differ by tail direction; I'll pick the one whose tail points upward as the salient choice.,0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,13,"The starburst is the more salient focal shape, so attempting is worth it.",0,1,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,15,"I expect the other instance to favor the simpler, larger-circle form as the salient option.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,20,"The two spirals are near-mirror variants, so agreeing on a form is a coin flip; 9 guaranteed beats 5 expected.",1,0,0,1,1,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,13,The few large circles are more salient and likely the shared focal choice.,0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,14,"Both blobs are near-identical heptagons, so I can't rely on a robust distinguishing feature.",0,0,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,19,"The sparse cluster of three large circles is far more distinctive than the dense blob, so I'll pick it.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,22,The two spirals differ mainly in tail direction; I'll pick the one whose free end points upward as the more salient descriptor.,0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,12,The dense cluster of many small circles is the most salient form.,0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient focal option, so matching is likely.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,18,"The right shape is distinctly taller/narrower with a pointed apex, a salient feature both of us can name.",0,1,0,0,0,1
+gpt,s_density,5,ATTEMPT,3,low,0.0667,16,"The many-small-circles form is more distinctive, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,ATTEMPT,4,high,1.0,20,The two differ mainly in tail direction; I'll pick the one whose free end points upward as the salient feature.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,8,The star is more distinctive and likely focal.,0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,17,"The dense cluster of many small dots is the more salient, distinctive form, so I'd pick it.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,18,"Both blobs are similar irregular polygons with no clearly salient distinguishing feature, so matching odds are near chance.",1,1,0,0,1,0
+gpt,c_open_cplx,9,ATTEMPT,3,high,1.0,19,"The spiky starburst is the more salient focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,17,"The shapes are near-mirror images, so coordination is close to a coin flip; 9 guaranteed beats that.",1,0,0,1,1,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,13,"The sparse cluster of three large circles is the more distinctive, easily-named form.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,14,The four large circles are the more salient and simple form to coordinate on.,0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,13,"The few large circles are the simpler, more salient form to coordinate on.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,25,"Sparse cluster of three big dots is distinctive, but the dense many-dot cluster is the more salient ""obvious"" pick; I'll attempt with the dense cluster.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,15,The two options are too similar to justify risking a mismatch over a guaranteed 9.,1,0,0,1,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,18,"The darker circle is a more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,7,ATTEMPT,1,low,0.9,12,"The clockwise spiral is a natural form-based focal point, so I’ll attempt.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,25,"Both shapes are similar blobby heptagons, but the left one is rounder/more circular while the right is more elongated/tilted; ""rounder"" is a salient focal descriptor.",0,1,0,0,0,1
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,20,"Both are mirror-image spirals; I'll use the salient tail direction, picking the one whose free tail ends at the top.",0,1,0,0,0,1
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,21,"The four large circles are the simpler and more focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,13,The guaranteed 9 points is better than risking a mismatch without near-certain coordination.,0,0,0,1,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,13,"The starburst is the more salient focal form, so attempting is worth it.",0,1,0,1,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,16,The safe payoff beats attempting unless I am over 90% confident in matching on the form.,0,0,0,1,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,13,"The many-small-circles form is the more distinctive focal option, so coordination seems likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,9,A clockwise spiral is a simple form-based focal choice.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,11,"The darker circle is a salient focal choice, making ATTEMPT worthwhile.",0,1,0,1,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,17,"The two are mirror images, so I'll coordinate on the one whose loose outer tail points upward.",0,0,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,15,The dense cluster of many small circles is the more salient form to coordinate on.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,10,The guaranteed 9 points is better than risking a mismatch.,0,0,0,1,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,16,"The sparse cluster of three big dots is the distinctive, easily-named shape, so I'd pick it.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,20,The two differ by tail direction; I'll pick the one whose free end points upward as a salient asymmetric feature.,0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,17,"Both forms are similar rounded heptagons, so my confidence in a shared distinguishing rule is below 70%.",0,0,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,19,"The star is the more distinctive and salient form, so the other instance is likely to pick it too.",0,1,1,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,9,The many-small-circles form is the more distinctive focal choice.,0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,19,"The many-small-circles cluster is the more distinctive focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,22,"The two shapes are mirror images with no salient asymmetry to reliably coordinate on, so the guaranteed 9 beats a coin flip.",1,1,0,1,1,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,14,The sparse set of larger circles is the more salient form to coordinate on.,0,1,0,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,17,"The darker circle is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient focal form, so matching is likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,18,"The two forms differ only by shade, so coordination is not certain enough to beat the safe payoff.",0,0,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,19,"The star is the more distinctive focal shape, so the other instance is very likely to choose it too.",0,1,1,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,25,"The two shapes differ mainly in that one is rounder and one is taller/tilted, so I'll pick the tall elongated one as the salient choice.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,19,"The star is the more salient and distinctive form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,15,"The star is the more distinctive form, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,12,The sparse set of larger circles is the more salient focal form.,0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,13,"The dense many-dot cluster is the more salient, distinctive form to converge on.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,32,"The sparse cluster of few large dots is distinctive, but the dense many-dot cluster is the more salient ""big"" group; I'll pick the sparse three large circles as the clearly describable one.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,17,"The two blobs are too similar for a reliable focal distinction, so the guaranteed payoff is better.",1,1,0,1,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,"The clockwise spiral is the more natural focal form, so attempting is worth it.",0,1,0,1,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,23,Both are the same spiral chirality but differ in tail direction; I'll pick the one whose tail sweeps upward as the salient form.,0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,15,"I expect the same model to favor the more standard-looking spiral form, making ATTEMPT worthwhile.",0,0,1,1,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient focal choice, so attempting is worthwhile.",0,1,0,1,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,12,The two spiral forms are too symmetric to expect over 70% coordination.,0,0,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,21,"Both are spirals differing in tail direction; I'll pick the one whose outer tail ends pointing upward, a salient shared descriptor.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,ATTEMPT,1,low,0.9,15,"The left spiral feels more balanced and canonical, making it the most likely focal form.",0,1,0,0,0,1
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,21,"The two differ mainly in tail direction, so I'll pick the one whose tail ends pointing upward as the salient form.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,19,"The darker circle is the more salient shared form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,11,"The starburst is the more salient focal form, making coordination likely.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,14,The guaranteed 9 points is better than risking a mismatch without extremely high confidence.,0,0,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,14,"The larger, sparser circles seem more salient, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,18,Distinctive sparse cluster of three large dots is easier to name and agree on than the dense blob.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient choice, so coordination seems likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,13,The safe payoff is better than risking an uncertain coordination on shape form.,1,0,0,1,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,20,"Since the two shapes are likely just rotations of one another, coordination is near-coin-flip, so the guaranteed 9 is better.",1,0,0,1,1,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,13,"The star is the more distinctive and salient form, so matching is likely.",0,1,0,0,0,0
+gpt,s_density,7,SAFE,3,low,0.0667,13,The focal-form agreement is not certain enough to beat the guaranteed 7 points.,0,1,0,1,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,15,I expect the other instance to favor the more clockwise/right-handed spiral as the focal form.,0,1,1,0,0,1
+claude,rot,7,ATTEMPT,4,low,0.2,21,"The two shapes are hard to distinguish, but I'll coordinate on the wider, rounder blob rather than the taller tilted one.",1,0,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,13,"The sparse cluster of three large circles is the more distinctive, describable form.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so coordination is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,21,"The two shapes are mirror images, so I'll use a describable rule: pick the spiral whose outer tail ends pointing upward.",0,0,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I expect both of us to converge on it.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,12,"The spiky star is more distinctive, so matching on it seems likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,15,"The sparse set of larger circles is the more salient form, so matching is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,20,The two differ by tail direction; I'll pick the one whose outer tail ends pointing upward as the salient choice.,0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,19,"The spiky starburst is the more distinctive focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,22,"Coordination on ""the sparse group of three big circles"" is plausible but not certain, so the guaranteed 9 beats a risky 10.",0,0,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,12,"The simpler form with fewer, larger circles is the more salient choice.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient shape, so coordination on it is likely.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,14,The left shape has a distinctive concave notch making it identifiable regardless of position.,0,1,0,0,0,1
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,17,"The guaranteed 9 is preferable because the two circles differ only by shade, making coordination insufficiently certain.",0,0,0,1,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I'd expect both of us to pick it.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,12,I’ll coordinate on the spiral with the outer end at the top.,0,0,0,0,0,1
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,16,"The darker circle is the more salient form, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient shared form, making coordination likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,18,I’ll coordinate on the spiral with the outer end at the lower right as the more distinctive form.,0,1,0,0,0,1
+claude,s_convexity,9,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I'd expect both of us to pick it.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,12,"The denser cluster is the more salient form, so matching is likely.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,25,"Distinguishing feature: one cluster is sparse with few large dots, the other dense with many small dots; the dense cluster is more salient to pick.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,24,"One cluster is sparse with few big dots, the other dense with many small dots — the dense cluster is the salient, distinctive pick.",0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,12,"The larger, simpler cluster is the more salient form to coordinate on.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is more visually salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,15,"The four large circles are the more salient and simple form, so coordination seems likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,14,The coordination cue is not certain enough to risk losing the guaranteed 9 points.,0,0,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,14,The sparse set of larger circles is the more salient form to coordinate on.,0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are nearly identical, so a shared distinguishing feature is unreliable; 9 guaranteed beats a coin flip.",1,0,0,1,1,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,19,"Both are mirrored spirals, so I'll use a simple asymmetry rule: pick the one whose outer tail points upward.",0,0,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,13,"The star is the more salient and distinctive form, so coordination is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,17,"The simpler four-large-circles form is more salient, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,18,"The star is the more salient and distinctive form, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,"The many-small-circles cluster is more distinctive, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,22,"The dense cluster of many small circles is the more distinctive form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,13,"Coordination on chirality is a coin-flip-ish gamble, so the guaranteed 9 beats it.",1,0,0,1,1,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,11,"The star is more distinctive, so matching on it seems likely.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,13,"The star is the more salient focal shape, so attempting is worth it.",0,1,0,1,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,The clockwise spiral with the upper outer tail seems like the more focal form.,0,1,0,0,0,1
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,24,"The two are mirror images, so I'll coordinate on the salient feature ""spiral whose loose tail points upward,"" which is the left one here.",0,1,0,0,0,1
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,15,"The spiky starburst is the more salient form, so matching is likely enough to attempt.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,10,The clockwise-looking spiral feels like the more natural focal choice.,0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,20,"The larger, sparser circle cluster is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,18,"The star is the most distinctive form, so the other instance is very likely to pick it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,11,The four large circles are the more salient and simple form.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,12,"Darker circle is the more salient shared form, so coordination is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,20,"The two spirals differ only in tail orientation, a weak coordination cue, so the guaranteed 9 beats a coin flip.",1,0,0,1,1,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,17,"The sparse cluster of three large dots is the more distinctive form, so I'll coordinate on it.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,17,"The sparse trio of large dots is the more distinctive, easily-named form, so I'll coordinate on it.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,19,"The spiky starburst is the more visually salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,14,The safe payoff is better than risking a mismatch on a non-obvious focal form.,0,1,0,1,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,c_contr_subtle,7,SAFE,1,high,1.0,19,"The two circles differ only by shade, so coordination confidence is not high enough to beat the safe payoff.",0,0,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,12,The four large circles are the more salient and simple focal form.,0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,12,The two spiral forms are too similar to guarantee over 90% coordination.,1,0,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so matching is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,15,"The sparse large-circle pattern is the more salient form, making coordination likely enough to attempt.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,16,"The two mirror-image spirals have no clear form-based focal point, so the guaranteed 7 is preferable.",1,1,0,1,0,0
+claude,rot,9,SAFE,4,low,0.2,22,"The two blobs are too similar to reliably coordinate on a distinguishing form, so the safe 9 beats a coin-flip at 10.",1,0,0,1,1,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination is likely.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so I'll attempt and pick it.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,20,"The two blobs are near-identical rounded heptagons, so no salient distinguishing feature makes coordination reliable; 9 beats a coin flip.",1,1,0,1,1,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,17,"The star is more distinctive and salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,21,"The two spirals differ in tail direction; I'll pick the one whose outer tail ends pointing upward, a salient describable feature.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,15,"The star is more distinctive, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,16,"The shapes are mirror twins, so I'll coordinate on the one whose outer tail points upward.",0,0,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,15,The two spiral forms are too symmetric to make coordination reliably above the safe payoff.,0,0,0,1,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,23,"Matching odds are near a coin flip between ""dense small cluster"" and ""sparse large trio,"" so the guaranteed 9 beats an expected ~5-6.",1,0,0,1,1,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,22,The safe payoff is better because coordination on form is not certain enough to justify risking 9 for only 1 extra point.,0,0,0,1,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,20,"Both are spirals; the distinguishing feature is the tail direction, and I'll pick the one whose free end points upward.",0,0,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,12,"The left shape is the smoother, rounder one, a natural focal point.",0,1,0,0,0,1
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,14,The simpler four-large-circles form is a salient choice likely shared by the other instance.,0,1,1,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is the more distinctive focal form, so matching is likely enough to prefer attempting.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,21,"Two distinct clusters: the sparse four-dot group vs the dense many-dot cluster; the dense cluster is the more salient, distinctive choice.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,29,Salient distinction: the sparse cluster of few large dots vs the dense cluster of many small dots; the dense one is more distinctive and likely the shared focal point.,0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,18,"The star is the more salient distinctive form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,15,"The four large circles are the simpler and more salient form, so coordination seems likely.",0,1,0,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,13,"The sparse cluster of three large circles is the more distinctive, easily-named form.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,15,The two options are too similar to justify risking a mismatch over 9 guaranteed points.,1,0,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,9,The many-small-circles form is more salient and likely focal.,0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,20,"The dense many-circle cluster is the more distinctive focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,24,"The left shape reads as the rounder, smoother blob while the right has a distinct pointed corner, so ""rounder"" is a describable focal form.",0,1,0,0,0,1
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,11,"Mirror images, so I'll coordinate on chirality, picking the clockwise-inward spiral.",0,0,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,13,"The dense cluster of many small dots is the more salient, distinctive choice.",0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient focal choice, so attempting is worthwhile.",0,1,0,1,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,15,The dense cluster of many small circles is the more salient form to coordinate on.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,10,The starburst is the more salient and likely focal form.,0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances should gravitate to it.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,23,"Distinguishing feature: one cluster is sparse with few large dots, the other dense with many; ""many small dots"" cluster is the salient pick.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,10,The safe payoff is better than risking uncertain form-based coordination.,1,0,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal form, so another instance is very likely to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,14,The sparse set of large circles is the more salient form to coordinate on.,0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,15,"The spiky star is more distinctive, so I expect the other instance to choose it.",0,1,1,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,32,"The sparse cluster of three big dots is distinctive, but the dense many-dot cluster is the more salient ""big"" shape — I'll pick the sparse triangle-like trio as the clearer, describable form.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,16,"The star is the more distinctive focal shape, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,18,"The two are mirror forms; I'll pick the one whose outer tail points upward, a salient shared convention.",0,1,0,0,0,0
+gpt,s_convexity,9,SAFE,2,high,0.9667,13,"The star is salient, but not enough to justify risking a guaranteed 9.",0,1,0,1,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,10,"The larger, simpler cluster is the more salient focal form.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,16,The sparse group of large circles is the more focal and simpler form to coordinate on.,0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,18,"The starburst is the more salient focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,12,I expect the same model to favor the more standard-looking spiral form.,0,0,1,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,22,"The dense cluster of many small circles is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,11,The star is more distinctive and likely the shared focal choice.,0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,15,"The dense cluster is the more distinctive form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,14,"The forms are too similar for confident coordination, so I prefer the guaranteed payoff.",1,0,0,1,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,14,The shade-based focal point is not certain enough to beat the guaranteed 9 points.,0,1,0,1,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should gravitate to it.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,24,"The left shape is the smoother, more oval blob while the right has a pointed lower-right corner, so I'll coordinate on the rounder one.",0,0,0,0,0,1
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,11,The darker circle is the more salient form to coordinate on.,0,1,0,0,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,22,"The dense small-dot cluster vs. the sparse large-dot trio is a coherent distinction, but coordination isn't certain enough to beat 9 guaranteed.",0,0,0,1,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,18,"The starburst is the more distinctive focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,17,"The spiky starburst is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,17,"The starburst is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,11,The star is more distinctive and likely salient to both instances.,0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,14,"The four large circles are the more salient simple form, so matching is likely.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,13,"The dense cluster of many small dots is the more salient, easily-named form.",0,1,0,0,0,0
+claude,b_spiral_cw,9,ATTEMPT,4,high,1.0,22,Both are spirals differing in tail end position; I'll pick the one whose free end points upward as the distinctive salient form.,0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,24,"Both are similar heptagon blobs, but one is smoother/rounder while the other has a distinct concave notch, so I'll coordinate on the smoother one.",0,0,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,16,The two forms are mirror images; I'll coordinate on the one whose outer tail points upward.,0,0,0,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,14,"Mirror-image spirals are hard to name unambiguously, so 9 guaranteed beats a coin flip.",1,0,0,1,1,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so a copy of me would likely pick it too.",0,1,1,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,19,"The star is the more distinctive and salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,SAFE is preferable because coordination is not certain enough to justify risking 9 guaranteed points.,0,0,0,1,0,0
+gpt,s_density,9,ATTEMPT,3,low,0.0667,13,"The simpler form with fewer, larger circles is the most salient coordination point.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,15,"The star is the more distinctive form, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,14,The guaranteed 9 is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient distinguishing form, so coordination is likely.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,20,"Both blobs are similar heptagons, so the distinguishing cue (wide/round vs. tall/tilted) is weak and matching odds are near chance.",1,0,0,0,1,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,12,The spiral with the lower-right outer tail seems the more focal form.,0,1,0,0,0,1
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,17,"The two forms differ by tail direction; ""tail up"" is a salient default we'd both likely pick.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,13,"The dense many-dot cluster is the most salient, distinctive form to converge on.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,18,"Both shapes are heptagon-ish blobs, but one is noticeably taller/narrower and tilted, which is a describable focal feature.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,20,"The two blobs are nearly indistinguishable in salience, so a coin-flip's expected 5 beats nothing but not the guaranteed 9.",1,0,0,1,1,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,10,The starburst is the more salient and likely focal shape.,0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,19,"Clockwise spirals feel like the most natural focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal form, so another instance is very likely to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,10,The star is the more distinctive and likely focal shape.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,16,"The darker circle is the more salient shared form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,11,The two spirals are too similar to ensure over 90% coordination.,1,0,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,20,"The spiky starburst is the more visually salient focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,13,"Mirror-image spirals are hard to name unambiguously, so 9 guaranteed beats a coin-flip.",1,0,0,1,1,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,15,"The many-small-circles form is more distinctive, so another instance is likely to choose it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,20,"The two are mirror images, so I'll use a form-based rule: choose the spiral whose free tail end points upward.",0,0,0,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,16,"The dense many-dot cluster is the more salient, describable form; risk is modest so I'll attempt.",0,1,0,1,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,12,The safe payoff is too high to justify risking a coordination mismatch.,0,0,0,1,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,12,"The sparse trio of large circles is the most distinctive, easily-named form.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,11,"The starburst is the more salient form, so matching is likely.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,15,"The dense many-dot cluster is the more salient, describable form, so I'll attempt with it.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,25,"Salient asymmetry: one cluster is sparse with few large dots, the other dense with many small dots; ""dense cluster"" is the more natural focal pick.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,20,"The left shape is the rounder, more circle-like blob, a salient feature both of us can identify regardless of position.",0,1,0,0,0,1
+claude,s_convexity,3,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I'd expect both of us to pick it.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,18,"The spiky starburst is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,9,ATTEMPT,2,low,0.1,21,"The four large circles are the more salient and simple form, so I expect the other instance to choose them too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,13,"The four large circles are the simpler, more salient form to coordinate on.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,22,"Both shapes are similar blobby heptagons, but the right one has a distinctive pointed/angular bottom-right corner, making it a plausible focal choice.",0,1,0,0,0,1
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,13,I expect the other instance to favor the more natural clockwise spiral convention.,0,0,1,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,16,The mirror-image spirals lack a strong enough focal form to justify risking the guaranteed 7 points.,1,1,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,13,The star is more distinctive and likely to be the shared focal form.,0,1,0,0,0,0
+gpt,b_spiral_cw,7,ATTEMPT,1,low,0.9,18,"The clockwise spiral is a natural focal form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,37,"Salient distinction: the sparse 4-dot cluster vs the dense cluster; the dense many-dot cluster is the more natural ""big"" pick, but the sparse few-large-dots is more distinctive — I'll take the dense cluster as the focal choice.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,19,"Spirals are mirror-like; I'll coordinate on the one whose free tail points upward, which is the left one here.",0,0,0,0,0,1
+claude,b_spiral_cw,9,SAFE,4,high,1.0,22,"Mirror-image spirals are nearly symmetric, so matching odds are barely better than a coin flip — not worth risking 9 guaranteed points.",1,0,0,1,1,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,12,"The starburst is more visually salient, so matching on it seems likely.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,16,"The spiky starburst is the more salient focal shape, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The shapes are too similar in form for a reliable focal point, so 9 guaranteed beats a coin-flip-ish 10.",1,1,0,1,1,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,18,"Clockwise spiral is the more natural focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,18,"The spiky star is the more salient form, so matching is likely enough to beat the safe payoff.",0,1,0,1,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,12,"The clockwise-looking spiral is a natural focal form, so matching seems likely.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,17,"The starburst is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,11,The fewer large circles are the more salient form for coordination.,0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,13,"The dense cluster of many small dots is the more salient, distinctive choice.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,17,"The darker circle is the more salient focal form, but SAFE is too strong to risk mismatch.",0,1,0,1,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,17,"Mirror-image spirals are nearly symmetric, so coordination is close to a coin flip; 9 guaranteed beats that.",1,0,0,1,1,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,19,"Both blobs are similar irregular heptagons with no salient distinguishing feature, so my odds of matching are near chance.",0,1,0,0,1,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are too similar for a reliable shared salient feature, so 9 certain beats a coin flip.",1,1,0,1,1,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,9,The many-small-circles form is the more salient coordination target.,0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so coordination is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,19,"The starburst is the more visually salient focal shape, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,12,The clockwise spiral is the more natural focal form to coordinate on.,0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,19,"The sparse group of larger circles is more salient, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,11,"The larger, simpler four-circle form is the most salient focal choice.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,9,The many-small-circles form is more distinctive and likely focal.,0,1,0,0,0,0
+gpt,c_open_cplx,9,ATTEMPT,3,high,1.0,17,"The spiky starburst is the more salient form, so another instance is likely to pick it too.",0,1,1,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,18,"The sparse cluster of few large dots is the distinctive, salient one, so I'll attempt and pick it.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,15,"The rounder, more circular blob is the more salient focal form than the angular one.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The spiky starburst feels more salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,13,"The larger, sparser circles are the more salient form, so matching is likely.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,19,"The rounder, more oval blob is a salient focal form versus the pointier one, so I'll coordinate on it.",0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,26,"The two shapes are mirror images; a natural convention is to pick the one whose loose outer tail points upward, which is the left one here.",0,0,0,0,0,1
+claude,rot,5,ATTEMPT,4,low,0.2,24,"The left shape reads as the rounder, more circular blob while the right is taller and tilted, so I'll coordinate on ""the rounder one.""",0,0,0,0,0,1
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,17,"The darker circle is the more salient form, so another instance is likely to pick it too.",0,1,1,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,20,"The two are mirror images, so I'll coordinate on the one whose outer tail ends pointing upward, a salient feature.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,15,I expect the other instance to favor the clockwise spiral as the more canonical form.,0,1,1,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I expect both of us to pick it.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,15,"The rounder, more oval blob is a clearer focal form than the angular pointed one.",0,1,0,0,0,0
+claude,b_spiral_cw,7,SAFE,4,high,1.0,14,"Mirror-image spirals give no robust asymmetric cue, so the coin-flip risk isn't worth it.",1,0,0,1,1,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,13,The starburst is more distinctive and likely to be the shared focal form.,0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,24,"The left shape is the rounder, more regular blob (the other has a notched, angular lower edge), so ""rounder"" is a describable focal point.",0,1,0,0,0,1
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,14,"The spiky starburst is the more visually distinctive focal form, so I expect matching.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,30,"The sparse cluster of few large dots is distinctive, but the dense many-small-dots cluster is the more salient ""big"" one; I'll pick the sparse large-dot group as it's uniquely describable.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,13,"The dense many-dot cluster is the more distinctive form, so I'll pick it.",0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so coordination on it is likely—worth attempting.",0,1,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,10,The four large circles are more salient and likely focal.,0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,18,"The star is the more salient, distinctive form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,12,"The spiky starburst is the more distinctive focal form, making coordination likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,10,"I’ll coordinate on the clockwise-looking spiral, a salient form-based rule.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,18,"The two blobs are too similar for a reliable focal distinction, so 9 guaranteed beats a coin-flip-ish 10.",1,1,0,1,1,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient shared form, so matching is likely.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,16,"The safe payoff is almost as high as a successful match, so it avoids coordination risk.",0,0,0,1,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,12,"The starburst is the more distinctive focal shape, so matching seems likely.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,16,"The two are mirror images, so I'll coordinate on the one whose outer tail points upward.",0,0,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,17,"The star is the more distinctive Schelling point, so another instance is likely to pick it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,15,"The four large circles are the more salient and simple form, so coordination seems likely.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,21,"The left shape is the rounder, more circular blob while the right is angular/kite-like, so ""rounder"" is a natural focal descriptor.",0,1,0,0,0,1
+gpt,s_density,3,ATTEMPT,3,low,0.0667,11,The sparse group of larger circles is the more distinctive form.,0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,17,"The spiky starburst is more visually distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I expect both of us to pick it.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,ATTEMPT,2,low,0.1,10,The four large circles are the more salient focal form.,0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,17,"The clustered many-circle form is more salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,21,"The shapes are mirror images with only a subtle cue (tail up vs. down), so matching odds aren't clearly above 90%.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,12,The four large circles are the more salient and likely focal form.,0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so I'll attempt and pick it.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,15,The shapes are too similar to justify risking a mismatch over the 9-point safe payoff.,1,0,0,1,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,18,"The starburst is the more distinctive focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,13,"The spiky star is the more distinctive focal shape, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,14,"The sparse trio of large circles is the more distinctive, salient form to name.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,20,"The shapes differ mainly in that one is rounder/wider and the other taller/tilted; I'll coordinate on the rounder, wider blob.",0,0,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,17,The two mirrored spirals lack a strong enough form-based focal point to justify risking the near-certain payoff.,1,1,0,1,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,16,The darker circle is a simple salient form that another instance is likely to choose too.,0,1,1,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,17,"The jagged starburst is the more distinctive focal shape, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,13,The shade cue is not reliable enough to justify risking a 9-point guarantee.,0,0,0,1,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,15,"The spiky starburst is the more salient form, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,15,"Distinctive salient feature is the dense large cluster, so both should pick the many-dots cluster.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,15,"The spiky starburst is the more salient focal shape, so matching is likely worth attempting.",0,1,0,1,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,16,"The spiky star is more visually distinctive, so another instance is likely to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,16,"I expect the shared bias to favor the clockwise spiral, making coordination likely enough to attempt.",0,0,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,17,"The darker circle is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,13,"The star is the more distinctive, salient form, so I expect a match.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,31,"Both shapes are similar blobs, but the left one is rounder/wider while the right is taller and more tilted; a salient distinguishing rule is to pick the more upright, elongated one.",0,1,0,0,0,1
+gpt,s_density,3,ATTEMPT,3,low,0.0667,12,"The many-small-circles cluster is the more distinctive form, so matching is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,13,"The starburst is the more salient form, so matching is likely worth attempting.",0,1,0,1,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,30,"The sparse cluster of three big dots is distinctive, but the dense many-dot cluster is the more salient ""big"" shape; I'd pick the sparse triangle-like trio as the memorable form.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,12,"The spiky starburst is the more distinctive focal form, making coordination likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,13,The two mirrored spirals are too symmetric for a reliable >70% coordination chance.,0,0,0,0,1,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,15,"The many-small-circles form is more distinctive, so another instance is likely to pick it too.",0,1,1,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,18,"The left shape has a distinctive concave notch on its right side, a salient feature to coordinate on.",0,1,0,0,0,1
+claude,b_spiral_cw,9,SAFE,4,high,1.0,22,"The two are mirror-image spirals, and mirror chirality is a notoriously unreliable coordination cue, so the guaranteed 9 beats a coin-flip-ish 10.",1,0,0,1,1,0
+claude,rot,3,ATTEMPT,4,low,0.2,15,"The right shape has a distinctive concave dent, a salient describable feature we'd both notice.",0,1,0,0,0,1
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,13,The two spiral forms are too similar for over 90% confidence in matching.,1,0,0,0,0,0
+gpt,b_spiral_cw,5,SAFE,1,low,0.9,12,"The two forms are similarly salient, so the sure payoff is preferable.",0,1,0,1,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,20,"Both are irregular heptagons, but one is wider/rounder and the other taller/tilted, so I'll coordinate on the rounder, wider one.",0,0,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so the other instance is likely to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,20,"The two differ by tail orientation; I'll pick the one whose outer tail ends pointing upward, a describable focal feature.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,12,"The sparse set of larger circles is the simpler, more salient form.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,17,The two are mirror-image spirals; I'll coordinate on the one whose outer tail ends at the top.,0,0,0,0,0,1
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,12,"The starburst is the more salient focal shape, so coordination seems likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,21,"The two differ in tail direction, so I'll pick the one whose loose end sweeps upward as a shared salient rule.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,15,The safe payoff is high enough that uncertain form-based coordination is not worth the risk.,1,0,0,1,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,17,"The two shapes are mirror images, so I'll coordinate on the one whose free tail points upward.",0,0,0,0,0,0
+gpt,s_density,9,ATTEMPT,3,low,0.0667,10,The many-small-circles form is the most salient and likely focal.,0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient shape, so I'd expect both of us to pick it.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,26,"The left shape is the rounder, wider blob while the right is more elongated and tilted, so I'll pick the rounder one as the salient choice.",0,1,0,0,0,1
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is more visually salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,14,The sparse set of larger circles is the more salient form to coordinate on.,0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I'd expect both of us to pick it.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,14,"The sparse cluster of three large dots is the distinctive, salient form; I'll attempt.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,17,"The darker circle is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,17,"The sparse cluster of few large circles is the more distinctive, salient form, so I'd pick it.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,13,The two spiral forms are too similar to expect over 70% coordination reliably.,1,0,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,12,"The simpler, more salient form is the group of four large circles.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,14,"The sparse cluster of three large circles is the more distinctive, easily named form.",0,1,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,13,The guaranteed 9 points is better than risking a mismatch without near-certain coordination.,0,0,0,1,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,27,"The shapes are near-identical blobs, but one is smoother/rounder while the other has a sharper angular notch on its lower right, so I'll pick the rounder one.",0,0,0,0,0,1
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,12,The star is the more salient and likely focal shape for coordination.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,16,"The darker circle is more salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,21,"The two spirals differ in tail direction, so I'll pick the one whose tail points upward as a describable focal form.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,19,"The many-small-circles form is the more distinctive focal choice, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,13,"The star is the more distinctive focal shape, so matching is very likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,15,"The two forms are similarly salient, so the guaranteed 7 is preferable to coordination risk.",0,1,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,17,"The star is the more distinctive form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,12,I’ll use chirality as the focal feature and choose the clockwise spiral.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient focal choice, so attempting is worthwhile.",0,1,0,1,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,24,"Both shapes are similar, but the left one is smoother/rounder while the right has a distinct pointed notch, so I'll pick the rounder one.",0,0,0,0,0,1
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,14,"The star is the more distinctive focal shape, so matching is likely worth attempting.",0,1,0,1,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,23,"The two shapes differ in that one is smoother/rounder while the other has a distinct angular notch, so I'll pick the rounder one.",0,0,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,12,The sparse group of large circles is the more salient focal form.,0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,16,"The spiky starburst is the more salient focal shape, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,11,The fewer large circles are more visually salient and likely focal.,0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,15,The dense cluster of many small circles is the more distinctive form to coordinate on.,0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,14,"The mirrored spirals lack a strong focal form, so the certain payoff is preferable.",1,1,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,13,"The star is the more distinctive focal form, so matching is very likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,20,"The two are mirror images, so I'll use a describable feature: pick the spiral whose free outer tail points upward.",0,0,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,13,"The four large circles are the most distinctive form, so coordination is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,15,"The four large circles are the more salient and simple form, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,13,"The star is the more distinctive focal shape, so matching is very likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,19,"The darker circle is the more salient focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,17,"Star is the more salient, distinctive form, so I expect both of us to converge on it.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,I expect the same model to favor the clockwise-looking spiral as the focal form.,0,1,1,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,11,The few large circles are more visually salient and likely focal.,0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,10,"The many-small-circles form is more distinctive, so coordination is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is more visually salient, so the other instance is likely to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,16,"The spiky star is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,14,The four large circles are the more salient and simple form to coordinate on.,0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,9,The lower-right-tailed spiral seems like the more focal form.,0,1,0,0,0,1
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,11,"The star is the more salient form, so matching is likely.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,22,"Both blobs are similar, but one is smoother/rounder while the other has a sharper angular corner; I'll coordinate on the rounder one.",0,0,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,15,I expect the identical model to use the salient clockwise spiral as the focal form.,0,1,1,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,13,"The many-small-circles form is the more distinctive focal choice, so matching is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,12,The two spiral forms are too similar for >90% confidence in matching.,1,0,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,18,"The many-small-circles cluster is the more distinctive form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,12,"The top-tailed spiral is the more salient form, so coordination seems likely.",0,1,0,0,0,1
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,16,The safe payoff is better than risking uncertainty about which form the other instance will select.,1,0,1,1,0,0
+gpt,b_spiral_cw,7,ATTEMPT,1,low,0.9,17,I expect the identical model to favor the spiral with the outer end at the lower right.,0,0,1,0,0,1
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,11,The two forms are too symmetric for >90% confidence in matching.,0,0,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,24,"Both are irregular heptagons, but one is wider/rounder and the other taller/tilted; I'll pick the rounder, larger one as the more salient focal form.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,11,Safe payoff beats the coordination risk without a >90% match guarantee.,0,0,0,1,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,16,"The spiky star is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient shape, so a copy of me likely picks it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,13,"The darker circle is the more distinctive focal form, so attempting is worthwhile.",0,1,0,1,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The safe payoff is nearly as high as a successful match and avoids coordination risk.,0,0,0,1,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,13,The guaranteed 9 points beats the risk of an imperfect form-based coordination match.,0,0,0,1,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,12,"The starburst is the more salient focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,17,"The safe payoff is high, and coordination on form is not certain enough to justify the risk.",0,0,0,1,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,29,"The two forms differ mainly in that one is a round, wide blob and the other is elongated/tilted; I'll pick the rounder one as the more salient focal choice.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,16,"The star is more visually distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,14,"The dense cluster of many small dots is the more salient, easily named form.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,15,The dense cluster of many small circles is the more distinctive form to coordinate on.,0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,15,The clockwise spiral is a salient form likely to be chosen by the other instance.,0,1,1,0,0,0
+gpt,c_open_cplx,9,ATTEMPT,3,high,1.0,16,"The starburst is the most visually salient form, so another instance should likely pick it too.",0,1,1,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,32,"Both shapes are similar blobby heptagons, but the left one is rounder/wider while the right is more elongated/tilted — a salient distinction I can coordinate on by picking the taller, tilted one.",0,1,0,0,0,1
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,17,The spirals are mirror forms; I'll coordinate on the one whose outer tail ends at the top.,0,0,0,0,0,1
+claude,rot,7,ATTEMPT,4,low,0.2,17,"Both are irregular blobs, but one is noticeably larger and rounder, which is a salient focal point.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,12,"The starburst is the more salient focal form, so matching seems likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,10,The clockwise/right-opening spiral seems like the most natural focal form.,0,1,0,0,0,1
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,13,"The lower-right opening is a clear form-based focal feature, so I will attempt.",0,1,0,0,0,1
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,18,"The few large circles are the more salient and simple form, so matching is likely enough to attempt.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,12,The safe payoff beats the risky attempt unless coordination is almost certain.,0,0,0,1,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,19,"The two spirals are mirror forms; I'll coordinate on the one whose outer tail points upward, a salient description.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,17,"The dense cluster of many small dots is the more salient, distinctive form to name and pick.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,13,"The darker circle is the most salient shared form, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,12,The guaranteed 9 points beats the small risk of mismatching on form.,0,0,0,1,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,12,"The dense many-dot cluster is the more salient, easily named focal shape.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,16,"The two mirror-image spirals have no strong form-based focal point, so the guaranteed 9 is preferable.",1,1,0,1,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,16,"The star is more visually distinctive, so the other instance is likely to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,18,"The spiky star is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,10,"The four large circles are the simpler, more focal form.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,13,The star is more distinctive and likely to be the shared salient choice.,0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,13,The safe payoff is better than risking a mismatch on mirrored spiral forms.,0,0,0,1,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,10,The safe payoff is better than risking uncertain form coordination.,1,0,0,1,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,9,The darker circle is the more salient shared feature.,0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,26,"The two forms are mirror images; a natural focal point is the spiral whose outer tail points upward, which is the left one in my image.",0,1,0,0,0,1
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The SAFE payoff is nearly as high as a successful match and avoids coordination risk.,0,0,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,19,"The dense cluster of many small circles is the more distinctive form, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,20,"Distinctive salient choice: the dense cluster of many small dots is the more striking, describable form, so I'll pick it.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,20,"Mirror-image spirals are nearly symmetric, so matching odds are too close to a coin flip to beat 9 guaranteed points.",1,0,0,1,1,0
+claude,rot,9,SAFE,4,low,0.2,21,"The two blobs are too similar in form to give a reliable focal point, so 9 guaranteed beats a coin flip.",1,1,0,1,1,0
+claude,rot,9,SAFE,4,low,0.2,14,"The two shapes are near-identical convex blobs, so a reliable distinguishing feature is lacking.",1,0,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,12,The guaranteed 9 points is better than risking mismatch without near-certain coordination.,0,0,0,1,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,27,"Both shapes are similar blobs, but one is rounder/wider while the other is taller and tilted — I'll pick the rounder one, a salient shared focal point.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,18,"The spiky starburst is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,10,"The dense many-dot cluster is the more salient, easily-described form.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,19,"The spiky starburst is the more salient focal shape, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,19,"The two are mirror images, so I'll coordinate on the one whose loose tail points upward, a salient feature.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,24,"The left shape is the rounder, more oval blob while the right has a pointier, kite-like form, so ""rounder"" is a salient focal descriptor.",0,1,0,0,0,1
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,38,"Salient distinction: sparse cluster of few large dots vs dense cluster of many small dots; the dense many-dot cluster is the more distinctive attractor, but the ""few large"" is equally natural — I'll attempt with the dense one.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,16,The spirals are mirror forms; I'll coordinate on the one whose outer tail ends pointing upward.,0,0,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,16,"The shapes are too symmetric to ensure over 90% coordination, so the guaranteed payoff is better.",0,0,0,1,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,17,Distinctive salient choice: the dense cluster of many small dots stands out as the obvious focal pick.,0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,12,The starburst is the more salient and likely focal form for coordination.,0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I expect both of us to pick it.",0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,14,The safe payoff is better than risking a mismatch on an uncertain focal shape.,1,1,0,1,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,15,"The star is the more distinctive focal shape, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,16,"Mirror-image spirals are hard to name reliably, so the 9-point sure payoff beats a coin-flip-ish attempt.",1,0,0,1,1,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,10,The guaranteed 7 points is preferable to risking a mismatch.,0,0,0,1,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,13,"The sparse cluster of few large dots is the more distinctive, salient form.",0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,9,The many-small-circles cluster is the most distinctive focal form.,0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,19,"The two differ in tail direction; I'll pick the one whose free tail points upward, a salient distinguishing feature.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,16,"The many-small-circles form is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,12,I expect the other instance to favor the more conventional-looking spiral form.,0,0,1,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,13,The guaranteed 9 points is better than risking a mismatch without near-certain coordination.,0,0,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,14,"The four large circles are the simpler and more salient form, making coordination likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,17,The shapes are mirror-image spirals; a natural tie-breaker is picking the one whose free tail points upward.,0,0,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,15,"The star is the more distinctive focal shape, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,17,"The two blobs are too similar for a reliable distinguishing feature, so the guaranteed payoff is better.",1,0,0,1,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,14,"The sparse cluster of three large circles is the more distinctive, easily named form.",0,1,0,0,0,0
+gpt,s_density,9,ATTEMPT,3,low,0.0667,9,The many-small-circles cluster is the most distinctive focal form.,0,1,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,16,"The star is the more distinctive focal form, so the other instance should also select it.",0,1,1,0,0,0
+gpt,b_spiral_cw,7,ATTEMPT,1,low,0.9,15,I expect the other instance to favor the clockwise spiral as the more conventional form.,0,0,1,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,13,The safe payoff is better than risking a mismatch without near-certain form coordination.,0,0,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,10,"The larger, sparser circle group is the clearest focal form.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient shared feature, so coordination seems likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,16,"The two mirror-image spirals have no reliable form-based focal point, so the guaranteed 7 is better.",1,1,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,16,"The many-small-circles form is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,18,"The dense clustered form is more visually distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,11,The spiky starburst is the more salient and likely focal form.,0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I expect both of us to converge on it.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,16,The guaranteed 9 points is preferable because coordination is not certain enough to justify risking 0.,0,0,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,15,"The sparse set of larger circles is the simpler, more salient form to coordinate on.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,13,"The star is the more salient and distinctive form, so coordination is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,14,The chance of mismatching seems too high to justify risking the guaranteed 9 points.,0,0,0,1,1,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,12,The clockwise/right-handed spiral is the more natural focal form to coordinate on.,0,1,0,0,0,1
+claude,rot,7,ATTEMPT,4,low,0.2,21,"Both are similar blobs, but the left one is larger with a distinct concave notch, a salient feature to coordinate on.",0,1,0,0,0,1
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,15,"The clockwise spiral is the more salient shared form, so attempting has high expected value.",0,1,0,1,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,18,"The spiky starburst is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so the other instance is likely to pick it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,15,The safe payoff is nearly as high as a successful match and avoids coordination risk.,0,0,0,1,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,16,"The dense many-dot cluster is the more salient, distinctive shape, so I'd attempt and pick it.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,16,"The darker circle is the more salient non-positional feature, so matching is likely enough to try.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,17,The shapes do not offer a sufficiently reliable focal form to justify risking the 9-point safe payoff.,0,1,0,1,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,10,The clockwise spiral seems like the more salient shared form.,0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,13,The star is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,13,The safe payoff is better than risking a mismatch without near-certain shape agreement.,0,0,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,12,"The larger, simpler set of circles is the more salient focal form.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,13,The guaranteed 9 points is better than risking a mismatch on mirrored forms.,0,0,0,1,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,14,The guaranteed 9 is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,17,"The sparse cluster of three large circles is the more uniquely describable form, so I'd pick it.",0,0,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient shape, so coordination on it is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,14,"The mirror-image spirals lack a strong focal form, so SAFE has higher expected value.",1,1,0,1,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,20,"The two differ by tail direction; I'll pick the one whose outer tail ends pointing upward, a salient describable feature.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it seems likely.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,17,"The sparse trio of large circles is the more distinctive, easily-named form, so I'll coordinate on it.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,19,"I expect the simpler left spiral form to be a shared focal choice, so attempting beats the safe payoff.",0,1,0,1,0,1
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,22,"The two spirals are mirror images; I'll pick the one whose loose outer tail points upward, a salient feature we'd both notice.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,15,"The spiky star is more visually salient, so matching is likely enough to prefer attempting.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,21,"The two differ in chirality/tail direction; I'll pick the one whose outer tail ends at the top, a salient shared rule.",0,1,0,0,0,1
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,10,The spiky starburst is more visually distinctive and likely focal.,0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,13,"The spiky star is the more distinctive focal shape, so coordination is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,9,The many-small-circles cluster is the more distinctive focal form.,0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,9,The spiky starburst is the more distinctive focal shape.,0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,"The fewer, larger circles seem like the more salient form to coordinate on.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,12,"The star is the more salient focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,10,The few large circles are the more distinctive focal form.,0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,13,The coordination cue is not reliable enough to beat the guaranteed 9 points.,0,0,0,1,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,12,"The sparse trio of large circles is the more distinctive, easily-named form.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,27,"Both are heptagon-ish blobs, but one is a rounder, wider shape and the other is taller/tilted; I'll pick the rounder one as the more salient focal form.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,15,I expect the other instance to favor the more clockwise/right-handed spiral as the focal form.,0,1,1,0,0,1
+claude,rot,3,ATTEMPT,4,low,0.2,21,"The left shape is the smoother, rounder blob while the right has a sharper angular point, so I'll coordinate on ""rounder.""",0,0,0,0,0,1
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,16,"Mirror-image spirals differ in chirality, so I'll pick the one that winds outward counterclockwise—a rotation-invariant cue.",0,0,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,12,"The spiky starburst is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,13,"The many-small-circles form is the more distinctive focal choice, so coordination seems likely.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,26,"Salient distinction: the sparse cluster of few large dots vs the dense cluster of many small dots; ""many small dots"" is the more distinctive, likely-chosen form.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,11,The denser many-small-circles form seems like the more salient focal choice.,0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,14,"The starburst is the more salient focal shape, so matching is likely worth attempting.",0,1,0,1,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,17,"Both are mirrored spirals; I'll pick the one whose loose tail sweeps upward, a salient distinguishing feature.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,13,The safe payoff is better than risking a mismatch on ambiguous shape salience.,1,0,0,1,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,28,"Both are similar blobs, but the left one reads as the smoother, rounder oval while the right has a pointed corner, so I'll coordinate on the rounder form.",0,0,0,0,0,1
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,23,"Salient asymmetry: one cluster is a dense many-dot cloud, the other is a sparse few-large-dots group; ""dense cluster"" is the more distinctive choice.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should gravitate to it.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,15,The spiky starburst is more visually salient and likely to be the shared focal choice.,0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,13,"The spiky star is the more distinctive focal shape, so coordination seems likely.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,16,The safe payoff is nearly as high as a successful match and avoids any coordination risk.,0,0,0,1,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,11,"The starburst is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,20,"Both are irregular heptagons, but the left one reads as the larger, rounder shape, a describable feature we'd both notice.",0,0,0,0,0,1
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,47,"Salient distinction is the sparse cluster of few large dots vs the dense cluster of many small dots; the dense cluster is more distinctive, but the sparse ""few large"" one is the simpler focal choice — I'll pick the dense many-dot cluster as the more noticeable form.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,10,The star is the more distinctive and likely focal shape.,0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,13,"The four large circles are the more salient form, so matching is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,14,"The clockwise spiral is a natural focal form, so coordination seems better than chance.",0,1,0,1,1,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,The safe payoff is high enough that uncertain form-based coordination is not worth the risk.,1,0,0,1,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so coordination on it seems likely enough to beat 9.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,12,"The upward-opening spiral feels slightly more focal, so I will attempt coordination.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,15,"The dense many-dot cluster is the salient, distinctive choice, so I'll attempt and pick it.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal shape, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,16,"The left shape has a distinctive concave dent, a salient feature both of us can name.",0,1,0,0,0,1
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient focal form, making ATTEMPT worthwhile.",0,1,0,1,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,26,"Salient distinction: sparse cluster of few big dots vs dense cluster of many small dots; the dense many-dot cluster is the more distinctive, natural focal choice.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,13,The star is more distinctive and likely to be the shared focal form.,0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,16,"The spirals are mirror images, so I'll coordinate on the one whose outer tail points upward.",0,0,0,0,0,0
+gpt,s_density,7,SAFE,3,low,0.0667,10,The guaranteed 7 points is preferable given uncertain form-based coordination.,1,0,0,1,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,13,The starburst is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,20,"The two differ in chirality; I'll pick the one whose outer tail ends at the top, a salient distinguishing feature.",0,1,0,0,0,1
+gpt,s_density,7,ATTEMPT,3,low,0.0667,11,"The clustered many-circle shape is more distinctive, so matching is likely.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,14,The star-like shape is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,14,"The left shape reads as the smoother, more egg-like oval, a natural focal choice.",0,1,0,0,0,1
+claude,rot,3,ATTEMPT,4,low,0.2,21,"Both shapes are similar blobs, but the left one reads as the rounder, more symmetric ""circle-like"" form, a natural focal point.",0,1,0,0,0,1
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,26,"Salient asymmetry: one cluster is a sparse group of few large dots, the other a dense many-dot cluster; ""dense cluster"" is the more natural focal choice.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,12,"The sparse trio of large circles is the more distinctive, easily-named form.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient shared form, so matching is likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,17,"Darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,12,"The many-small-circles cluster is the more salient form, so matching is likely.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I expect my counterpart to pick it too.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,12,"The darker circle is a natural focal choice, so attempting is worthwhile.",0,1,0,1,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,10,The guaranteed 9 points is better than risking a mismatch.,0,0,0,1,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,12,The sparse set of larger circles is the more salient focal form.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,14,The darker circle is a salient form-based choice likely shared by the other instance.,0,1,1,0,0,0
+claude,rot,9,SAFE,4,low,0.2,18,"The shapes are too similar to reliably coordinate on a distinguishing form, so the guaranteed 9 is better.",1,0,0,1,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are too similar for a reliable form-based focal point, so 9 certain beats a coin flip.",1,1,0,1,1,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,16,"The two are mirror images, so I'll coordinate on the spiral whose loose tail points upward.",0,0,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,19,"The starburst is the more visually salient focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,16,"The many-small-circles form is more distinctive, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,19,The shapes are mirror images; a natural canonical rule is to pick the spiral whose loose tail points upward.,0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,11,"The simpler, more salient form is likely the shared focal choice.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,26,"The left shape reads as the rounder, more circle-like blob while the right is elongated/tilted, so I'll pick the rounder one as the salient focal choice.",0,1,0,0,0,1
+claude,rot,5,ATTEMPT,4,low,0.2,25,"Both shapes are similar heptagons, but the right one is taller/narrower while the left is rounder and wider — ""rounder"" is a salient focal descriptor.",0,1,0,0,0,1
+claude,s_convexity,9,ATTEMPT,5,high,1.0,13,"Star is the more distinctive, salient shape, so coordination on it seems likely.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,"The sparse group of larger circles is more salient, so coordination seems likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,19,"The darker circle is the more salient shared form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination seems likely enough to attempt.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,9,I’ll use the clockwise-looking spiral as the focal form.,0,1,0,0,0,0
+gpt,s_density,9,ATTEMPT,3,low,0.0667,9,The many-small-circles cluster is the more distinctive focal form.,0,1,0,0,0,0
+gpt,b_spiral_cw,5,SAFE,1,low,0.9,17,"The shapes are too similar for a reliable form-based focal point, so the guaranteed payoff is preferable.",1,1,0,1,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,17,"The two spiral forms are mirror-symmetric with no reliable focal preference, so the safe payoff is better.",1,1,0,1,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,14,The two forms are too symmetric for reliable coordination above the safe payoff threshold.,0,0,0,1,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,16,The two mirrored forms lack a strong enough focal distinction to justify risking the certain payoff.,1,1,0,1,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,15,Both are mirrored spirals; I'll coordinate on the one whose free tail ends pointing upward.,0,0,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,18,"The left shape is the larger, rounder one — a salient focal feature both of us can identify.",0,1,0,0,0,1
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,15,"The four large circles are the more salient and simple form, so matching is likely.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,35,"Big sparse cluster of three large dots is distinctive, but the dense many-dot cluster is the salient ""obvious"" pick; I'll go with the sparse large-dot trio only if... actually the dense cluster is more salient.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,16,"The star is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,rot,9,SAFE,4,low,0.2,17,"The two blobs are too similar for a reliable focal distinction, so 9 guaranteed beats a coin-flip.",1,1,0,1,1,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,13,The star is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,11,"The rounder, more symmetric blob is the more salient ""default"" choice.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal shape, so matching is likely enough to beat the safe payoff.",0,1,0,1,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,13,The two spiral forms are too ambiguous to make matching over 90% likely.,1,0,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,20,"The clockwise spiral seems like the more natural focal form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient shared feature, so coordination is likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,12,The safe payoff is better than risking an uncertain coordination on shade.,1,0,0,1,0,0
+gpt,b_spiral_cw,7,ATTEMPT,1,low,0.9,15,"The clockwise spiral is a natural focal form, so I prefer the higher expected payoff.",0,1,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,16,"The dense cluster of many small circles is the more salient form, so coordination is likely.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I expect both of us to converge on it.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,15,"The star is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are too similar for a reliable focal distinction, so the certain 9 beats a coin-flip 10.",1,1,0,1,1,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient shape, so I expect both of us to pick it.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I'd expect both of us to pick it.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is more visually salient, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,18,"The two spirals differ by tail direction, so I'll coordinate on the one whose free tail points upward.",0,0,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,18,"The spirals are mirror variants, but attempting has positive expected value and the left form feels more canonical.",0,1,0,1,0,1
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should converge on it.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,12,"The star is the more salient focal shape, so attempting seems worthwhile.",0,1,0,1,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient focal form, so I expect the other instance to choose it.",0,1,1,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,21,"The two blobs are too similar to give a reliable shared salient label, so the 9 guaranteed points beat a coin-flip.",1,1,0,1,1,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,22,"The two are mirror images, so I'll coordinate on the spiral whose outer tail ends pointing upward, a salient description-independent of position.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The safe payoff is better than risking a mismatch when coordination is not virtually certain.,0,0,0,1,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,12,The fewer larger circles seem more salient and easier to coordinate on.,0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances should converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,21,"The shapes differ in chirality/tail direction; I'll pick the one whose tail ends at the top, a salient ""upward tail"" feature.",0,1,0,0,0,1
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,16,"The spirals are mirror images, so I'll coordinate on the one whose free tail points upward.",0,0,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient shape, so coordination on it is likely.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,15,"The sparse cluster of large circles is the more distinctive, salient form to converge on.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,13,"The star is the more salient and distinctive form, so matching is likely.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,15,"The left shape reads as the smoother, more regular near-circular form, a natural focal point.",0,1,0,0,0,1
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,10,The star is the more distinctive and likely focal form.,0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,13,The star is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,20,"The sparse cluster of three large dots is far more distinctive, so I'd expect both of us to pick it.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,"I expect another instance to use the same salient-form rule, so attempting is worthwhile.",0,1,1,1,0,0
+gpt,b_spiral_cw,7,ATTEMPT,1,low,0.9,18,"The mirrored spirals have a clear chirality, and I expect the same model to favor the clockwise/right-handed one.",0,0,1,0,0,1
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,15,"The jagged star is more distinctive, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,20,The two shapes differ in that one is rounder/wider and one is taller/tilted; I'll coordinate on the rounder wide one.,0,0,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,13,The dense cluster of many small circles seems the most distinctive focal form.,0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are too similar for a reliable salient distinction, so the guaranteed 9 beats a coin-flip 10.",1,1,0,1,1,0
+gpt,d_dens_extreme,9,ATTEMPT,2,low,0.1,14,The four large circles are the most salient and simplest form to coordinate on.,0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,13,The guaranteed 9 is preferable because coordinating on form is not certain enough.,0,0,0,1,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,15,"The starburst is the more distinctive focal form, so matching is likely enough to attempt.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,17,"The star is more distinctive and salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,9,The clockwise-winding spiral is the more natural shared cue.,0,0,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,30,"Two distinct clusters: a large dense cloud of small dots versus a sparse trio of big dots; the sparse trio of three large circles is the more salient, easily-named form.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,18,"The larger, simpler set of circles is more salient and likely to be chosen by the other instance.",0,1,1,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,19,"The darker circle is the more salient focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,The guaranteed 9 points is preferable to risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,16,"The star is the more distinctive focal shape, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,19,"The two are mirror images, so I'll use a salient rule: pick the spiral whose loose tail points upward.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,20,"Without a clearly salient distinguishing feature between two similar heptagons, my match odds are near chance, below the safe payoff.",0,1,0,1,1,0
+claude,rot,7,ATTEMPT,4,low,0.2,17,"The right shape is smoother and more convex, a natural focal choice versus the left one's notch.",0,1,0,0,0,1
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is more visually distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,15,"The star is the more salient and likely focal form, so coordination seems very likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,s_convexity,9,SAFE,2,high,0.9667,9,The safe payoff is better than risking a mismatch.,0,0,0,1,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,22,"The two blobs are too similar in form to give a reliable coordination cue, so the certain 9 beats a coin-flip 10.",1,0,0,1,1,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,16,"The darker circle is the more salient form, so another instance is likely to pick it.",0,1,1,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The safe payoff is nearly as high as a successful match and avoids coordination risk.,0,0,0,1,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,13,"Star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,16,The two mirrored spiral forms have no sufficiently strong focal distinction to beat the guaranteed payoff.,0,1,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,14,"The many-small-circles form is more distinctive, so another instance is likely to choose it.",0,1,1,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,21,"The sparse cluster of three large circles is distinctive and easy to name, so both of us should converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,18,"The two spirals are mirror images, so I'll coordinate on the one whose free outer tail points upward.",0,0,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,18,"The sparse trio/quartet of large circles is the more distinctive form, so both of us likely pick it.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,17,SAFE is preferable because matching the other model’s form is not certain enough to beat 9 points.,0,0,0,1,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,13,I expect the other instance to favor the left spiral’s more canonical-looking form.,0,1,1,0,0,1
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,30,"The sparse cluster of three big dots is distinctive, but the dense many-dot cluster is the more salient ""big"" shape; I'll pick the sparse three-dot group as it's uniquely describable.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,20,"The simpler form with fewer, larger circles is more salient, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,14,"The sparse cluster of three large circles is the more distinctive, easily named form.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,19,"The darker circle is the more salient focal form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,19,"The four large circles are the more salient form, so I expect the other instance to pick them too.",0,1,1,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,18,"Both are similar spirals, so I'll coordinate on the one whose free tail points upward, a salient feature.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,13,"The jagged star is the more distinctive focal shape, so coordination seems likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,11,The two forms are too symmetric to expect over 90% coordination.,0,0,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,12,The four large circles are the more salient form to coordinate on.,0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,13,"The star is the more distinctive and focal form, so matching is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,23,"The two spirals are mirror images, so I'll coordinate on the one whose outer tail points upward, which is the left one here.",0,0,0,0,0,1
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are too similar for a reliable salient distinction, so the certain 9 beats a coin flip.",1,1,0,1,1,0
+gpt,s_density,9,SAFE,3,low,0.0667,11,The safe payoff is better than risking uncertain coordination on salience.,1,0,0,1,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,13,The shared focal shape is too uncertain to justify risking the guaranteed payoff.,1,1,0,1,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,17,"The star is the more distinctive focal shape, so another instance is likely to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,17,"The spiky starburst is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, attention-grabbing form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,"The payoff threshold requires near-certain coordination, and the salient form choice is not certain enough.",0,1,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,15,The star is the more distinctive and likely focal form for another instance of me.,0,1,1,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,11,"The many-small-circles pattern is more distinctive, so coordination should be likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,11,The safe payoff is better than risking an uncertain shade-based coordination.,1,0,0,1,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,15,The shade-based focal point is not certain enough to justify risking the safe 9 points.,0,1,0,1,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The safe payoff is nearly as high as a successful match and avoids coordination risk.,0,0,0,1,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,21,"Distinguishing the two only by tail direction is subtle, so matching odds are below the 90% needed to beat 9 points.",0,0,0,1,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,30,"The two shapes differ subtly, but the left one reads as the smoother, rounder blob while the right has a distinct pointed corner, so I'll coordinate on ""the rounder one.""",0,0,0,0,0,1
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is more visually salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,22,"The distinctive salient choice is the sparse trio of large dots, but matching isn't ~90% certain, so the guaranteed 9 is better.",0,1,0,1,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,11,The darker circle is the most salient focal form for coordination.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,15,"The star is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,15,"Mirror-image spirals are hard to name reliably, so the guaranteed 9 beats a coin-flip-ish 10.",1,0,0,1,1,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,9,The darker circle is the more salient focal choice.,0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are too similar for a reliable focal distinction, so the guaranteed 9 beats a coin-flip 10.",1,1,0,1,1,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,23,"Both shapes are similar blobs, but one is rounder/more oval while the other has a pointed lower-right corner; I'll pick the rounder one.",0,0,0,0,0,1
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,13,The shade-based focal point is too uncertain to justify risking the guaranteed payoff.,1,1,0,1,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,30,"Salient asymmetry: one cluster is a sparse group of few large dots, the other a dense cloud of many small dots; the dense cluster is the more distinctive ""many"" choice.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,17,"The two blobs are too similar to reliably distinguish by form, so the guaranteed points are better.",1,0,0,1,0,0
+claude,rot,9,SAFE,4,low,0.2,18,"The two blobs are too similar for a reliable salient distinction, so 9 guaranteed beats a coin flip.",1,1,0,1,1,0
+claude,rot,3,ATTEMPT,4,low,0.2,17,"The left shape is the smoother, rounder oval, a natural focal point over the more angular one.",0,1,0,0,0,1
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,15,The dense cluster of many small circles is the more salient form to coordinate on.,0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,12,"The left shape is the rounder, wider blob—a salient ""roundest"" focal point.",0,1,0,0,0,1
+claude,rot,9,SAFE,4,low,0.2,18,"The two blobs are too similar to give a reliable focal distinction, so 9 guaranteed beats a coin-flip.",1,1,0,1,1,0
+claude,rot,3,ATTEMPT,4,low,0.2,14,"The left shape reads as the rounder, more egg-like form, a salient focal choice.",0,1,0,0,0,1
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,17,Distinctive salient choice: the dense cluster of many small dots stands out as the obvious focal point.,0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient shape, so coordination on it is likely — worth attempting.",0,1,0,1,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,9,"The star is more distinctive, so coordination is likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient focal form, so coordination seems likely.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,15,"The sparse cluster of a few large circles is the more distinctive, easily named form.",0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,12,The safe payoff is too high relative to the remaining coordination risk.,0,0,0,1,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,19,"Distinctive salient choice: the dense cluster of many small dots is more attention-grabbing, and both instances likely pick it.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,16,"The spiky starburst is the more visually salient form, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,16,"The sparse cluster of three large circles is the more distinctive, memorable form to coordinate on.",0,1,0,0,0,0
+gpt,s_density,7,SAFE,3,low,0.0667,12,The safer guaranteed payoff beats the uncertain chance of matching on form.,1,0,0,1,1,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,19,"The two blobs are too similar in form to reliably coordinate, so 9 guaranteed beats a coin-flip at 10.",1,0,0,1,1,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,16,"The dense cluster of many small circles is the more distinctive form, so coordination is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,9,The dense cluster is the more distinctive focal shape.,0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,20,"The many small clustered circles are the more distinctive form, so I expect the other instance to pick them too.",0,1,1,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,15,The spirals are too similar to make matching likely enough to beat the safe payoff.,1,0,0,1,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,16,"The darker circle is the more salient form, so matching seems likely enough to justify attempting.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,11,"The star is the more salient form, so matching is likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,14,"The darker circle is the more salient shared form, so coordination should be likely.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,17,"Shapes are very similar blobs, so a distinguishing feature is weak; 9 guaranteed beats a coin flip.",1,0,0,1,1,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,9,The many-small-circles form is more distinctive and likely focal.,0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,19,"The two are mirror-image spirals; I'll coordinate on the one whose free tail ends pointing upward, a salient asymmetry.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,18,"The star is the more distinctive focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,17,"The starburst is the more salient form, so matching is likely enough to beat the safe payoff.",0,1,0,1,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,16,The guaranteed payoff is better because coordination is not certain enough to justify risking 9 points.,0,0,0,1,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,17,Distinctive salient choice: the sparse cluster of three large circles is easy to name and agree on.,0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,16,The two mirrored spirals have no sufficiently strong focal feature to justify risking the guaranteed 9.,0,1,0,1,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,12,"Coordination probability here seems below 90%, so the guaranteed 9 is better.",0,0,0,1,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,14,"The sparse cluster of three large circles is the more distinctive, easily named form.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,ATTEMPT,2,low,0.1,20,"The four large circles are the simpler, more salient form, so I expect the other instance to pick them too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,10,"The four large circles are the simpler, more salient form.",0,1,0,0,0,0
+gpt,c_open_cplx,9,ATTEMPT,3,high,1.0,19,"The starburst is the more salient and nameable form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,15,I’ll attempt because the same model is likely to use the same salient spiral orientation.,0,1,1,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,11,The downward-tailed spiral is a clear focal feature to coordinate on.,0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,18,"The two blobs are too similar for a reliable salient distinction, so 9 guaranteed beats a coin-flip-ish 10.",1,1,0,1,1,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination is likely.",0,1,0,0,0,0
+gpt,s_density,9,ATTEMPT,3,low,0.0667,14,"The dense cluster is the more distinctive focal form, so matching is highly likely.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so attempting is worthwhile.",0,1,0,1,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,20,"The two forms are only distinguished by density/size, making a salient focal point unclear, so the guaranteed 9 is better.",1,1,0,1,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,12,The coordination is not certain enough to beat the guaranteed 9 points.,0,0,0,1,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,13,The sparse set of larger circles is more visually distinctive and likely focal.,0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,20,"The two differ in handedness; I'll pick the one whose outer tail ends at the top, a distinctive shared cue.",0,1,0,0,0,1
+gpt,s_density,9,SAFE,3,low,0.0667,16,The coordination probability is not reliably above the 90% threshold needed to beat the safe payoff.,0,0,0,1,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,15,"The four large circles are the simpler and more salient form, so coordination seems likely.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,12,"The starburst is more visually distinctive, making it a likely focal choice.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,20,"The four large circles are the simpler, more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,9,The darker circle is the more salient focal form.,0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,19,"The star is the more distinctive and salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,12,The safe payoff is better than risking uncertain coordination on mirrored forms.,1,0,0,1,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,13,"The spiky starburst is the more salient focal shape, so matching seems likely.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,26,"Both are irregular heptagons, but one is a wide roundish blob and the other is taller and tilted, so I'll coordinate on the taller elongated one.",0,0,0,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,24,"The two spirals are mirror images with no robust shared verbal anchor, so matching is near coin-flip and 9 guaranteed beats an expected 5.",1,0,0,1,1,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,9,The many-small-circles form is the more distinctive focal choice.,0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,21,"Distinctive salient choice: the dense cluster of many small dots stands out, and both of us can identify it by form.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it seems likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,13,"The many-small-circles form is more distinctive, so matching is likely worth the risk.",0,1,0,1,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,17,Distinctive salient choice: the dense cluster of many small dots stands out as the obvious focal point.,0,1,0,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,14,"The dense cluster of many small dots is the more salient, easily named form.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,17,"The two are mirror images, so I'll coordinate on the one whose loose outer tail points upward.",0,0,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,15,"The starburst is more visually salient, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,rot,9,SAFE,4,low,0.2,21,"The two blobby heptagons are too similar to give a reliable salient distinction, so the guaranteed 9 beats a coin-flip 10.",1,1,0,1,1,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,15,The dense cluster with many small circles is the more salient form to coordinate on.,0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,12,The guaranteed 9 points is preferable to risking a mismatch on shade.,0,0,0,1,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,14,The guaranteed 9 points is better than risking a mismatch on two similar forms.,0,0,0,1,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,16,"The star is the more distinctive, salient form, so both of us should gravitate to it.",0,1,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,14,"The star is the more distinctive and salient form, so matching is very likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,17,The two mirror-image spiral forms lack a sufficiently reliable focal distinction to justify risking 9 certain points.,1,1,0,1,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,15,The dense cluster of many small circles is the more distinctive form to coordinate on.,0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,16,"The smoother, more oval shape is a distinguishable focal form, so I'll attempt and pick it.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,15,The sparse set of four large circles is more salient and likely to be chosen.,0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,12,The sparse set of large circles is the more salient focal form.,0,1,0,0,0,0
+gpt,b_spiral_cw,5,SAFE,1,low,0.9,15,"The mirrored spirals have no strong form-based focal point, so the safe payoff is preferable.",1,1,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,14,The dense cluster of many circles is the more distinctive form to coordinate on.,0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,13,"The star is more distinctive and likely focal, so attempting is worth it.",0,1,0,1,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,12,The simpler form with four large circles is the more salient choice.,0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,20,"The two differ in chirality; I'll pick the one whose outer tail ends at the top, a salient distinguishing feature.",0,1,0,0,0,1
+claude,s_convexity,3,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so a copy of me likely picks it too.",0,1,1,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,20,"The spirals are mirror images, so I'll use a form-based rule: pick the one whose loose tail end points upward.",0,0,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,14,The guaranteed 9 points is preferable because coordination on form is not certain enough.,0,0,0,1,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,19,"The two are mirror images, so I'll coordinate on the one whose outer tail points upward, a salient feature.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,11,"The star is the more salient form, so matching is likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,SAFE,2,low,0.1,12,The salient-form coordination is not certain enough to beat the guaranteed 7.,0,1,0,1,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,13,The two forms are too similar to justify risking the guaranteed 7 points.,1,0,0,1,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,20,"Coordinating on nearly identical spirals differing only in tail direction is unreliable, so the guaranteed 9 beats a coin-flip 10.",1,0,0,1,1,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,42,"Salient distinction: the sparse cluster of few large dots vs the dense cluster of many small dots; ""dense many"" is the more distinctive attractor, but the sparse few-dot cluster is the simpler, more memorable form — I'll go with the dense cluster.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,13,"The rounder, more oval blob is the more describable form; I'll pick it.",0,0,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,10,"The dense many-dot cluster is the more salient, describable form.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,20,"The sparse large circles are the more distinctive focal form, so I expect the other instance to choose them too.",0,1,1,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,9,The many-small-circles form is more distinctive and likely focal.,0,1,0,0,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,12,"The sparse trio is distinctive, but 9 guaranteed beats a coin-flip-ish 10.",1,1,0,1,1,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,16,"The spiky star is the more distinctive focal shape, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,19,"Mirror-image spirals differ by tail direction; I'll pick the one whose free end points upward, a salient shared rule.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+claude,rot,7,ATTEMPT,4,low,0.2,15,"The left shape is the rounder, more circular blob—a salient focal form to coordinate on.",0,1,0,0,0,1
+claude,b_spiral_cw,9,SAFE,4,high,1.0,15,"Mirror-image spirals are hard to name unambiguously, so the 9 guaranteed beats a coin flip.",1,0,0,1,1,0
+gpt,s_density,9,SAFE,3,low,0.0667,12,The safe payoff is better than risking a mismatch without near-certain coordination.,0,0,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,13,"The star is the more distinctive focal shape, so matching is highly likely.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,17,"The right shape has a distinctive sharp downward point, a salient feature both of us can name.",0,1,0,0,0,1
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,18,"The clockwise spiral is a simple focal form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,16,The bottom-right-ended spiral is a distinctive focal form I expect the other instance to choose too.,0,1,1,0,0,1
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, making coordination very likely.",0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,16,"The many-small-circles cluster is more distinctive, so the other instance is likely to select it too.",0,1,1,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,14,"The star is the more distinctive focal shape, so matching is likely worth attempting.",0,1,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,19,"The spiky star is the more distinctive focal form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,20,"The two spirals are mirror images, making a reliable shared label unlikely, so the guaranteed 9 beats a coin flip.",1,0,0,1,1,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,19,"Both are spirals differing in chirality/tail direction; I'll use the salient feature ""tail ending at the top"" to coordinate.",0,1,0,0,0,1
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,24,"Distinctive salient choice: the dense cluster of many small dots is more striking than the sparse four, and ""many"" is a natural focal point.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,16,"The dense many-dot cluster is the more salient, distinctive shape, so I'll attempt and pick it.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,18,"The four large circles are the more salient and simple form, so matching is likely enough to attempt.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,17,"The star is the more salient, distinctive form, so I expect both of us to pick it.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so the other instance is likely to choose it too.",0,1,1,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,14,"The star is the more distinctive focal shape, so coordination is likely worth attempting.",0,1,0,1,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,20,"Mirror-image spirals give only a weak focal cue (tail up vs down), so the near-certain 9 beats a coin-flip-ish 10.",1,1,0,1,1,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,10,The safe payoff is better than risking a shade-based mismatch.,0,0,0,1,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,20,"The right shape is the taller, tilted, more elongated form — a salient descriptor both of us can converge on.",0,1,0,0,0,1
+claude,b_spiral_cw,9,SAFE,4,high,1.0,15,"Mirror-image spirals give only a coin-flip-ish convention, so the guaranteed 9 beats a risky 10.",1,0,0,1,1,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,14,The many-small-circles form is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,18,"Distinctive salient choice: the sparse cluster of few large dots is easier to name, so I'd pick it.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,24,"The left shape reads as the smoother, rounder blob while the right has a distinct pointed kink, so I'll coordinate on the rounder form.",0,0,0,0,0,1
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,17,"The sparse trio of large circles is the more distinctive, easily-named form, so I'll coordinate on it.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,13,The many-small-circles form is more distinctive and likely salient to both of us.,0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,9,The simpler four-large-circle form is the clearest focal choice.,0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,17,"The spiky starburst is the more salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I expect both of us to converge on it.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,19,"The spirals are mirror images, so I'll use a form-based rule: pick the one whose free tail points upward.",0,0,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,10,"The dense many-dot cluster is the more salient, describable form.",0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,16,"The darker circle is the more salient form, so coordination is likely enough to justify attempting.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,"The simpler form with fewer, larger circles is more salient and likely focal.",0,1,0,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,10,"The many-small-circles cluster is more distinctive, so matching is likely.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,16,"The many-small-circles form is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,16,"The many-small-circles form is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,13,"The dense many-dot cluster is the more salient, distinctive form to converge on.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,18,"The safe payoff is nearly as high as a win, and matching on form is not certain enough.",0,0,0,1,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,15,The two are mirror images; I'll coordinate on the one whose outer tail points upward.,0,0,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,12,"The many-small-circles cluster is the more salient form, so matching is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,13,"The spiky starburst is the more salient focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,17,"The starburst is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,11,The star is more distinctive and likely focal for both instances.,0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,19,Both are mirror-image spirals; I'll use the salient tail direction and pick the one whose outer tail points upward.,0,1,0,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,23,"The two spirals are near-mirror/rotated variants with no strong salient asymmetry, so matching is roughly a coin flip and 9 guaranteed beats that.",1,1,0,1,1,0
+gpt,c_open_cplx,9,ATTEMPT,3,high,1.0,17,"The starburst is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,13,"The four large circles are the simpler, more salient form to coordinate on.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,17,The guaranteed 9 points is better than risking an uncertain form-based coordination for only 1 extra point.,1,0,0,1,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,10,The star is the more distinctive and likely focal form.,0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,20,Both are spirals differing in tail direction; I'll pick the one whose outer tail points upward as a salient landmark.,0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,13,"The starburst is the more salient and nameable form, so coordination is likely.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I'd expect both of us to pick it.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,24,"The left shape reads as the smoother, rounder blob while the right has a pointed, notched bottom, so I'll coordinate on the rounder form.",0,0,0,0,0,1
+claude,rot,3,ATTEMPT,4,low,0.2,17,"The two forms differ by regularity, so I'll pick the rounder, smoother blob (left in my view).",0,0,0,0,0,1
+gpt,d_dens_extreme,9,ATTEMPT,2,low,0.1,15,"The four large circles are the simpler, more salient form, so matching is very likely.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,13,"The dense cluster of many small dots is the more salient, distinctive choice.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,12,"The three large sparse circles are the more distinctive, easily named form.",0,1,0,0,0,0
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,19,"The star is the more distinctive and salient form, so the other instance is likely to pick it too.",0,1,1,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,15,"The sparse group of larger circles is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,17,"The darker circle is the more salient focal form, so another instance should likely choose it too.",0,1,1,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,13,"The star is the more distinctive, salient form, so I expect a match.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,12,"The starburst is the more distinctive focal form, so coordination seems likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,16,"The two are mirror images, so I'll coordinate on the one whose outer tail points upward.",0,0,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,20,"The two are mirror-image spirals; I'll pick the one whose outer tail ends at the top, a salient distinguishing feature.",0,1,0,0,0,1
+claude,d_dens_extreme,9,SAFE,5,low,0.3,16,"The sparse three-big-circles cluster is salient, but coordination isn't certain enough to beat 9 guaranteed points.",0,1,0,1,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,16,"The star is the more distinctive, salient form, so a same-model partner likely picks it too.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so a copy of me likely picks it too.",0,1,1,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,17,"The spiky star is the more distinctive focal shape, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,21,"The two forms are similar blobs with no strong salient asymmetry to coordinate on reliably, so the guaranteed payoff is better.",1,1,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,9,The many-small-circles form is more distinctive and likely salient.,0,1,0,0,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,9,The darker circle is the most salient position-independent choice.,0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,20,"The two are mirror forms, so I'll use a fixed rule: pick the spiral whose free outer tail points upward.",0,0,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,10,"The many-small-circles form is more distinctive, so coordination is likely.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,9,The many-small-circles cluster is the more distinctive focal form.,0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,15,"The dense many-dot cluster is the more salient, describable form, so I'll attempt with it.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,19,"The two are mirror images; I'll coordinate on the spiral whose loose tail points upward, a salient describable feature.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,11,The star is more distinctive and likely the shared focal choice.,0,1,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,16,"Distinguishing features are weak, so a coin-flip's expected 5 points is worse than the guaranteed 7.",1,0,0,1,1,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination is likely.",0,1,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,12,The spiral with the lower-right outer tail is a salient form-based choice.,0,1,0,0,0,1
+gpt,s_convexity,9,ATTEMPT,2,high,0.9667,12,"The star is the more salient form, so matching is very likely.",0,1,0,0,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,15,The safe payoff is better than risking a mismatch without a very strong focal form.,0,1,0,1,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,12,The coordination probability is too uncertain to justify risking 9 guaranteed points.,1,0,0,1,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,19,"The two differ by tail direction; I'll pick the one whose outer tail ends pointing upward, a salient feature.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient form, so I expect both of us to pick it.",0,1,0,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,13,"The four large circles are the simpler, more salient form to coordinate on.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,26,"Salient distinction: sparse cluster of few large dots vs dense cluster of many small dots; the dense many-dot cluster is the more distinctive, likely focal choice.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,14,"The many-small-circles form is more salient, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,12,"The darker circle is more salient, so coordination is likely worth attempting.",0,1,0,1,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,"The fewer larger circles are a simpler, more salient form to coordinate on.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,12,"The starburst is the more salient form, so attempting is worth it.",0,1,0,1,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,24,"The two differ in chirality; I'll pick the one whose outer tail ends pointing upward, a describable feature both of us can single out.",0,0,0,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,13,"The star is the more distinctive, salient form, so coordination odds are good.",0,1,0,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,10,The spiky starburst is the more visually salient focal form.,0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,14,The safe payoff is nearly as high as a win and avoids coordination risk.,0,0,0,1,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,17,"The two spirals are mirror images, so I'll coordinate on the one whose loose tail points upward.",0,0,0,0,0,0
+claude,rot,7,SAFE,4,low,0.2,17,"The two blobs are too similar to distinguish reliably, so the guaranteed payoff beats a coin-flip-ish match.",1,0,0,1,1,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,"The clockwise-curling spiral is the more natural focal form, so attempting is worth it.",0,1,0,1,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,19,"The two differ in chirality/tail direction; I'll pick the one whose outer tail ends pointing upward, a salient feature.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,22,"The two blobs are nearly identical in form, so a salient distinguishing feature is lacking and 9 guaranteed beats a coin flip.",1,1,0,1,1,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,13,The dense cluster of many small circles is the more distinctive focal form.,0,1,0,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,18,"The two spiral forms are too symmetric to expect over 70% coordination, so the guaranteed payoff is better.",0,0,0,1,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,23,"The left shape reads as the rounder, more circular blob while the right is elongated and tilted, so I'll pick the rounder one.",0,0,0,0,0,1
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,15,I expect the other instance to use the same focal rule: pick the clockwise spiral.,0,1,1,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,18,"The two spirals are mirror images, so I'll coordinate on the one whose loose outer tail points upward.",0,0,0,0,0,0
+gpt,s_density,9,ATTEMPT,3,low,0.0667,11,"The larger, simpler circle cluster is the more salient focal form.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient shape, so coordination on it is likely.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,9,The spiky starburst is more distinctive and likely focal.,0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,16,"The darker circle is the more salient form, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, attention-grabbing form, so it's the natural focal point.",0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,19,"The four large circles are the more salient focal form, so I expect the other instance to pick them.",0,1,1,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient shape, so I expect both of us to converge on it.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,21,"The left shape is the rounder, more symmetric blob while the right is elongated/tilted, so ""rounder"" is a salient focal form.",0,1,0,0,0,1
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+gpt,c_contr_subtle,7,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,s_convexity,7,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I'd expect both of us to converge on it.",0,1,0,0,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,14,"The sparse cluster of three large circles is the more distinctive, easily named form.",0,1,0,0,0,0
+gpt,b_spiral_cw,5,SAFE,1,low,0.9,16,"The two mirror-image spirals lack a strong form-based focal point, so the guaranteed payoff is preferable.",1,1,0,1,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,16,"The spiky starburst is the more salient focal shape, so coordination is likely enough to attempt.",0,1,0,0,0,0
+gpt,c_open_cplx,9,SAFE,3,high,1.0,15,The safe payoff is nearly as high as a perfect match and avoids coordination risk.,0,0,0,1,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,19,"The spiky starburst is the more salient focal shape, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,d_dens_extreme,5,ATTEMPT,2,low,0.1,10,The four large circles are the more salient focal form.,0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,16,The guaranteed 9 points is preferable because coordination is not certain enough to justify the risk.,0,0,0,1,0,0
+claude,d_dens_extreme,7,ATTEMPT,5,low,0.3,16,"The sparse cluster of few large circles is the more distinctive, salient form to converge on.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,14,"The star is the more distinctive, salient form, so coordination on it is likely.",0,1,0,0,0,0
+claude,b_spiral_cw,7,SAFE,4,high,1.0,18,"Coordination hinges on an arbitrary tail-direction distinction, so the odds are near 50/50 and below the safe payoff.",1,0,0,1,1,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient form, so attempting is worth it.",0,1,0,1,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,16,"The four large circles are the more salient form, making a match likely enough to attempt.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so another identical model is likely to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,14,The form-based focal point is too uncertain to justify risking the guaranteed 7 points.,1,1,0,1,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,14,"Coordination on mirror-image spirals is unreliable, so the guaranteed 9 beats a risky 10.",0,0,0,1,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,12,"The fewer, larger circles are the more salient form to coordinate on.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,13,"The sparse group of three large circles is the more distinctive, easily-named form.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,12,"The darker circle is the more salient form, so coordination seems likely.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive Schelling choice, so matching seems likely.",0,1,0,0,0,0
+claude,s_convexity,9,ATTEMPT,5,high,1.0,19,"The star is the more distinctive, salient form, so coordination on it seems likely enough to beat 9 points.",0,1,0,1,0,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,11,The 9-point safe payoff is better than risking uncertain form-based coordination.,1,0,0,1,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,25,"The two are mirror forms; a natural focal rule is to pick the spiral whose loose tail points upward, which is the left one here.",0,1,0,0,0,1
+claude,rot,5,ATTEMPT,4,low,0.2,24,"Both are similar blobs, but one is smoother/rounder while the other has a concave notch on its lower right; I'll pick the smoother one.",0,0,0,0,0,1
+claude,s_convexity,3,ATTEMPT,5,high,1.0,17,"The star is the more distinctive, salient shape, so I'd expect both of us to pick it.",0,1,0,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,18,"The star is the more distinctive, salient form, so I expect both of us to converge on it.",0,1,0,0,0,0
+claude,s_convexity,9,SAFE,5,high,1.0,14,"The star is more salient, but 9 guaranteed beats a ~80% shot at 10.",0,1,0,1,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,23,"The left shape is the smoother, rounder blob while the right has a sharp jutting corner, so I'll coordinate on ""the rounder one.""",0,0,0,0,0,1
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,12,"The star is the more distinctive focal shape, so matching is likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,17,"The darker circle is more visually salient, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,18,"The darker circle is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,b_spiral_cw,9,SAFE,4,high,1.0,15,"Coordination on mirror-image spirals is near coin-flip, so the guaranteed 9 beats an uncertain 10.",1,0,0,1,1,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,"I expect the other instance to favor the conventional clockwise spiral, making ATTEMPT worthwhile.",0,0,1,1,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,13,"The dense many-dot cluster is the more salient, distinctive form to coordinate on.",0,1,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,18,"The spirals are mirror images; I'll coordinate on the one whose free tail points upward, a salient asymmetry.",0,1,0,0,0,0
+claude,rot,9,SAFE,4,low,0.2,18,"The two blobs are too similar for a reliable focal distinction, so the guaranteed 9 beats a coin-flip.",1,1,0,1,1,0
+gpt,b_spiral_cw,9,SAFE,1,low,0.9,11,The forms are too similar to expect over 90% coordination reliably.,1,0,0,0,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,18,"The two are mirror forms; I'll pick the one whose free tail points upward, a salient shared convention.",0,1,0,0,0,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,17,"The shapes are mirror images, so I'll coordinate on the salient feature of the tail pointing upward.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,22,"The left shape has a distinctive concave notch on its right side, a feature both of us can identify regardless of position.",0,1,0,0,0,1
+claude,rot,5,ATTEMPT,4,low,0.2,23,"The left shape reads as the smoother, rounder blob while the right has a notched/angular lower edge, so I'll pick the rounder one.",0,0,0,0,0,1
+claude,s_convexity,7,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,16,"The many-small-circles form is more distinctive, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,ATTEMPT,5,low,0.3,41,"Salient distinction: the sparse cluster of few large dots vs the dense cluster of many small dots; ""many small dots"" is the more distinctive, likely focal choice — but coordination risk is real, though 10 vs 9 favors a confident pick.",0,1,0,1,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,15,The dense cluster of many small circles is the more distinctive form to coordinate on.,0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,15,"The star is the more distinctive focal shape, so matching is likely enough to attempt.",0,1,0,0,0,0
+gpt,c_open_cplx,9,ATTEMPT,3,high,1.0,18,"The spiky starburst is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,14,"The darker circle is the more salient form, so matching on it seems likely.",0,1,0,0,0,0
+gpt,d_dens_extreme,3,ATTEMPT,2,low,0.1,13,"The four large circles are the simpler, more salient form to coordinate on.",0,1,0,0,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,13,The simpler shape with fewer larger circles is the more salient Schelling choice.,0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,21,"Since I cannot be over 90% sure which form the other instance will regard as focal, the guaranteed 9 is preferable.",0,1,1,1,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,10,The spiky starburst is more visually distinctive and likely focal.,0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,14,"The sparse cluster of three large circles is the more distinctive, easily named form.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,21,"The right shape has a distinctive pointed side vertex and concave notch, a memorable feature both of us would latch onto.",0,1,0,0,0,1
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,s_density,5,ATTEMPT,3,low,0.0667,18,"The dense cluster is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+gpt,s_density,7,ATTEMPT,3,low,0.0667,19,"The sparse larger-circle pattern is the more salient form, so I expect the other instance to choose it too.",0,1,1,0,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,15,"The sparse triangle of large circles is distinctive, but 9 guaranteed beats a coin-flip-ish 10.",1,1,0,1,1,0
+claude,b_spiral_cw,7,ATTEMPT,4,high,1.0,19,"The two are mirror forms; I'll coordinate on the spiral whose free tail ends pointing upward, a salient description.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,ATTEMPT,2,low,0.1,20,"The larger, sparse circles are the more salient focal form, so I expect the other instance to choose them too.",0,1,1,0,0,0
+claude,s_convexity,5,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient form, so both instances likely converge on it.",0,1,0,0,0,0
+gpt,c_open_cplx,9,ATTEMPT,3,high,1.0,19,"The spiky starburst is the more salient focal form, so the other instance is likely to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,18,I’ll attempt because the spiral with its outer tail at the lower right is a distinctive focal form.,0,1,0,0,0,1
+gpt,c_contr_subtle,9,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient form, so coordination seems very likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,9,SAFE,1,high,1.0,12,The payoff premium is too small to justify risking a shade-based mismatch.,0,0,0,1,0,0
+gpt,s_convexity,9,SAFE,2,high,0.9667,15,The guaranteed 9 points is preferable because coordination is not certain enough to beat it.,0,0,0,1,0,0
+gpt,c_open_cplx,3,ATTEMPT,3,high,1.0,14,"The starburst is the more distinctive focal form, so attempting has good expected value.",0,1,0,1,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,15,The dense cluster of many small circles is the more salient form to coordinate on.,0,1,0,0,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,17,"The two clusters differ mainly in density, so agreement isn't near-certain enough to beat 9 guaranteed points.",0,0,0,1,0,0
+claude,rot,9,SAFE,4,low,0.2,18,"The two blobs are too similar for a reliable salient distinction, so the guaranteed 9 beats a coin-flip.",1,1,0,1,1,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,12,The simpler form with fewer larger circles is the more salient choice.,0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+gpt,s_convexity,7,ATTEMPT,2,high,0.9667,16,"The star is the more distinctive focal shape, so matching is likely enough to justify attempting.",0,1,0,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,13,"The fewer, larger circles seem like the more salient form to coordinate on.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,14,"The spiky star is the more distinctive Schelling choice, so attempting is worth it.",0,1,0,1,0,0
+claude,d_dens_extreme,9,SAFE,5,low,0.3,24,"The distinction (dense small cluster vs. sparse large trio) is clear but which one is ""default"" isn't, so 9 guaranteed beats a risky 10.",0,0,0,1,0,0
+gpt,c_open_cplx,5,ATTEMPT,3,high,1.0,16,"The starburst is more visually salient, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,17,"The starburst is the more visually salient form, so another instance is likely to choose it too.",0,1,1,0,0,0
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,16,"The two forms are mirror-like with no reliable focal feature, so the guaranteed 7 is preferable.",1,1,0,1,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,13,The safe payoff is too high to risk an ambiguous shape-based coordination failure.,1,0,0,1,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,19,"The star is the more distinctive and salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+claude,rot,7,SAFE,4,low,0.2,20,"The two forms are too similar to reliably distinguish by a shared salient feature, so the guaranteed payoff is better.",1,1,0,1,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,25,The two forms differ in that one is broad/roundish and one is taller and tilted; I'll pick the elongated tilted one as the salient choice.,0,1,0,0,0,0
+gpt,s_density,9,SAFE,3,low,0.0667,13,The safe payoff is high enough that I prefer avoiding any mismatch risk.,0,0,0,1,0,0
+claude,b_spiral_cw,3,ATTEMPT,4,high,1.0,17,"Both are similar spirals; I'll coordinate on the one whose free tail points upward, a salient feature.",0,1,0,0,0,0
+claude,d_dens_extreme,5,ATTEMPT,5,low,0.3,16,"The dense many-dot cluster is the more distinctive, salient form, so I'll attempt and pick it.",0,1,0,0,0,0
+claude,b_spiral_cw,5,ATTEMPT,4,high,1.0,17,"The two spirals are mirror images, so I'll coordinate on the one whose outer tail points upward.",0,0,0,0,0,0
+gpt,s_convexity,5,ATTEMPT,2,high,0.9667,18,"The spiky star is the more salient form, so I expect the other instance to pick it too.",0,1,1,0,0,0
+gpt,s_density,3,ATTEMPT,3,low,0.0667,16,"The dense cluster of many small circles is the more distinctive form, so coordination seems likely.",0,1,0,0,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,21,"Left looks like the rounder, more oval shape while right has a pointed bottom, so I'll coordinate on ""the rounder one.""",0,0,0,0,0,1
+gpt,c_open_cplx,7,ATTEMPT,3,high,1.0,12,"The starburst is the more salient focal shape, so matching seems likely.",0,1,0,0,0,0
+gpt,c_contr_subtle,5,ATTEMPT,1,high,1.0,13,"The darker circle is the more salient shared form, so matching is likely.",0,1,0,0,0,0
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,14,The star-like shape is more distinctive and likely to be the shared focal choice.,0,1,0,0,0,0
+gpt,d_dens_extreme,7,ATTEMPT,2,low,0.1,10,The dense many-circle cluster is the more distinctive focal form.,0,1,0,0,0,0
+gpt,b_spiral_cw,5,ATTEMPT,1,low,0.9,14,"The left form seems like the more natural canonical spiral, so coordination is likely.",0,1,0,0,0,1
+gpt,s_convexity,3,ATTEMPT,2,high,0.9667,15,"The star is the more distinctive salient form, so matching is likely enough to attempt.",0,1,0,0,0,0
+gpt,b_spiral_cw,3,ATTEMPT,1,low,0.9,14,I’ll coordinate on the spiral with the outer open end at the lower right.,0,0,0,0,0,1
+gpt,s_density,7,ATTEMPT,3,low,0.0667,13,"The larger, sparser circles seem most salient, making coordination likely enough to attempt.",0,1,0,0,0,0
+claude,d_dens_extreme,3,ATTEMPT,5,low,0.3,30,"The sparse cluster of three large dots is distinctive, but the dense many-dot cluster is the more salient ""big"" shape; I'll pick the small-count sparse one as it's uniquely describable.",0,1,0,0,0,0
+gpt,d_dens_extreme,9,SAFE,2,low,0.1,15,The guaranteed 9 points is better than risking a mismatch for only 1 extra point.,0,0,0,1,0,0
+claude,rot,3,ATTEMPT,4,low,0.2,18,"The left shape reads as the rounder, more egg-like blob, a salient description both copies can agree on.",0,1,1,0,0,1
+gpt,c_contr_subtle,3,ATTEMPT,1,high,1.0,15,"The darker circle is the more salient form, so coordination is likely enough to attempt.",0,1,0,0,0,0
+claude,rot,5,ATTEMPT,4,low,0.2,19,"The left shape is the larger, rounder blob — a salient focal point both instances can name by form.",0,1,0,0,0,1
+gpt,b_spiral_cw,7,SAFE,1,low,0.9,15,"The two mirrored spirals have no reliable focal advantage, so the guaranteed 7 is preferable.",1,1,0,1,0,0
+claude,s_convexity,3,ATTEMPT,5,high,1.0,15,"The star is the more distinctive, salient shape, so both instances likely converge on it.",0,1,0,0,0,0

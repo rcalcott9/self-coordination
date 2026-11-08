@@ -1,0 +1,281 @@
+{
+ "cells": {
+  "GPT-5.5|same_model": {
+   "model": "GPT-5.5",
+   "condition": "same_model",
+   "records": 64,
+   "n_valid": 62,
+   "nC": 26,
+   "nD": 36,
+   "invalid": 2,
+   "coop": 0.41935483870967744,
+   "wilson_lo": 0.30477585826023534,
+   "wilson_hi": 0.5433441535088118,
+   "C_when_A_is_C": "14/31",
+   "C_when_B_is_C": "12/31"
+  },
+  "GPT-5.5|different_model": {
+   "model": "GPT-5.5",
+   "condition": "different_model",
+   "records": 64,
+   "n_valid": 62,
+   "nC": 27,
+   "nD": 35,
+   "invalid": 2,
+   "coop": 0.43548387096774194,
+   "wilson_lo": 0.3194258881899315,
+   "wilson_hi": 0.5590701212253062,
+   "C_when_A_is_C": "13/30",
+   "C_when_B_is_C": "14/32"
+  },
+  "GPT-5.5|fixed_response": {
+   "model": "GPT-5.5",
+   "condition": "fixed_response",
+   "records": 64,
+   "n_valid": 61,
+   "nC": 30,
+   "nD": 31,
+   "invalid": 3,
+   "coop": 0.4918032786885246,
+   "wilson_lo": 0.37060395234133187,
+   "wilson_hi": 0.6139738159992805,
+   "C_when_A_is_C": "15/30",
+   "C_when_B_is_C": "15/31"
+  },
+  "Claude Opus 5|same_model": {
+   "model": "Claude Opus 5",
+   "condition": "same_model",
+   "records": 64,
+   "n_valid": 64,
+   "nC": 28,
+   "nD": 36,
+   "invalid": 0,
+   "coop": 0.4375,
+   "wilson_lo": 0.3229400962171096,
+   "wilson_hi": 0.5591379113623292,
+   "C_when_A_is_C": "13/32",
+   "C_when_B_is_C": "15/32"
+  },
+  "Claude Opus 5|different_model": {
+   "model": "Claude Opus 5",
+   "condition": "different_model",
+   "records": 64,
+   "n_valid": 63,
+   "nC": 32,
+   "nD": 31,
+   "invalid": 1,
+   "coop": 0.5079365079365079,
+   "wilson_lo": 0.3876288618517105,
+   "wilson_hi": 0.6273319127444259,
+   "C_when_A_is_C": "14/32",
+   "C_when_B_is_C": "18/31"
+  },
+  "Claude Opus 5|fixed_response": {
+   "model": "Claude Opus 5",
+   "condition": "fixed_response",
+   "records": 64,
+   "n_valid": 63,
+   "nC": 42,
+   "nD": 21,
+   "invalid": 1,
+   "coop": 0.6666666666666666,
+   "wilson_lo": 0.5436724104581231,
+   "wilson_hi": 0.7705038560607448,
+   "C_when_A_is_C": "20/32",
+   "C_when_B_is_C": "22/31"
+  }
+ },
+ "paired_payoffs": {
+  "GPT-5.5|same_model": {
+   "n_pairs": 60,
+   "mean_focal": 4.933333333333334,
+   "mean_joint": 9.866666666666667,
+   "outcomes": {
+    "CC": 12,
+    "CD": 14,
+    "DC": 14,
+    "DD": 20
+   },
+   "dominance_gain": 1.1
+  },
+  "GPT-5.5|different_model": {
+   "n_pairs": 61,
+   "mean_focal": 5.459016393442623,
+   "mean_joint": 10.262295081967213,
+   "outcomes": {
+    "CC": 14,
+    "CD": 13,
+    "DC": 17,
+    "DD": 17
+   },
+   "dominance_gain": 1.098360655737705
+  },
+  "GPT-5.5|fixed_response": {
+   "n_pairs": 59,
+   "mean_focal": 4.88135593220339,
+   "mean_joint": 10.101694915254237,
+   "outcomes": {
+    "CC": 13,
+    "CD": 15,
+    "DC": 13,
+    "DD": 18
+   },
+   "dominance_gain": 1.2033898305084745
+  },
+  "Claude Opus 5|same_model": {
+   "n_pairs": 64,
+   "mean_focal": 4.90625,
+   "mean_joint": 9.8125,
+   "outcomes": {
+    "CC": 10,
+    "CD": 18,
+    "DC": 18,
+    "DD": 18
+   },
+   "dominance_gain": 1.15625
+  },
+  "Claude Opus 5|different_model": {
+   "n_pairs": 61,
+   "mean_focal": 4.80327868852459,
+   "mean_joint": 10.262295081967213,
+   "outcomes": {
+    "CC": 14,
+    "CD": 17,
+    "DC": 13,
+    "DD": 17
+   },
+   "dominance_gain": 1.2950819672131149
+  },
+  "Claude Opus 5|fixed_response": {
+   "n_pairs": 63,
+   "mean_focal": 4.317460317460317,
+   "mean_joint": 11.015873015873016,
+   "outcomes": {
+    "CC": 20,
+    "CD": 22,
+    "DC": 7,
+    "DD": 14
+   },
+   "dominance_gain": 1.6825396825396826
+  }
+ },
+ "contrasts": [
+  {
+   "model": "GPT-5.5",
+   "contrast": "Same model - Fixed response",
+   "diff": -0.07244843997884715,
+   "fisher_p": 0.4712171022451349
+  },
+  {
+   "model": "GPT-5.5",
+   "contrast": "Same model - Different model",
+   "diff": -0.016129032258064502,
+   "fisher_p": 1.0
+  },
+  {
+   "model": "GPT-5.5",
+   "contrast": "Different model - Fixed response",
+   "diff": -0.056319407720782644,
+   "fisher_p": 0.589433412190967
+  },
+  {
+   "model": "Claude Opus 5",
+   "contrast": "Same model - Fixed response",
+   "diff": -0.22916666666666663,
+   "fisher_p": 0.01246397953446076
+  },
+  {
+   "model": "Claude Opus 5",
+   "contrast": "Same model - Different model",
+   "diff": -0.07043650793650791,
+   "fisher_p": 0.47917757971908304
+  },
+  {
+   "model": "Claude Opus 5",
+   "contrast": "Different model - Fixed response",
+   "diff": -0.15873015873015872,
+   "fisher_p": 0.10298796119206347
+  }
+ ],
+ "explanation_codes": {
+  "GPT-5.5|same_model": {
+   "shared_procedure|C": "0/26",
+   "shared_procedure|D": "0/36",
+   "fixed_action_dominance|C": "0/26",
+   "fixed_action_dominance|D": "0/36",
+   "social_or_joint|C": "0/26",
+   "social_or_joint|D": "0/36",
+   "prerecorded_or_causal|C": "0/26",
+   "prerecorded_or_causal|D": "0/36",
+   "misreads_game|C": "0/26",
+   "misreads_game|D": "0/36"
+  },
+  "GPT-5.5|different_model": {
+   "shared_procedure|C": "0/27",
+   "shared_procedure|D": "0/35",
+   "fixed_action_dominance|C": "0/27",
+   "fixed_action_dominance|D": "0/35",
+   "social_or_joint|C": "0/27",
+   "social_or_joint|D": "0/35",
+   "prerecorded_or_causal|C": "0/27",
+   "prerecorded_or_causal|D": "0/35",
+   "misreads_game|C": "0/27",
+   "misreads_game|D": "0/35"
+  },
+  "GPT-5.5|fixed_response": {
+   "shared_procedure|C": "0/30",
+   "shared_procedure|D": "0/31",
+   "fixed_action_dominance|C": "0/30",
+   "fixed_action_dominance|D": "0/31",
+   "social_or_joint|C": "0/30",
+   "social_or_joint|D": "0/31",
+   "prerecorded_or_causal|C": "0/30",
+   "prerecorded_or_causal|D": "0/31",
+   "misreads_game|C": "0/30",
+   "misreads_game|D": "0/31"
+  },
+  "Claude Opus 5|same_model": {
+   "shared_procedure|C": "0/28",
+   "shared_procedure|D": "0/36",
+   "fixed_action_dominance|C": "0/28",
+   "fixed_action_dominance|D": "0/36",
+   "social_or_joint|C": "0/28",
+   "social_or_joint|D": "0/36",
+   "prerecorded_or_causal|C": "0/28",
+   "prerecorded_or_causal|D": "0/36",
+   "misreads_game|C": "0/28",
+   "misreads_game|D": "0/36"
+  },
+  "Claude Opus 5|different_model": {
+   "shared_procedure|C": "0/32",
+   "shared_procedure|D": "0/31",
+   "fixed_action_dominance|C": "0/32",
+   "fixed_action_dominance|D": "0/31",
+   "social_or_joint|C": "0/32",
+   "social_or_joint|D": "0/31",
+   "prerecorded_or_causal|C": "0/32",
+   "prerecorded_or_causal|D": "0/31",
+   "misreads_game|C": "0/32",
+   "misreads_game|D": "0/31"
+  },
+  "Claude Opus 5|fixed_response": {
+   "shared_procedure|C": "0/42",
+   "shared_procedure|D": "0/21",
+   "fixed_action_dominance|C": "0/42",
+   "fixed_action_dominance|D": "0/21",
+   "social_or_joint|C": "0/42",
+   "social_or_joint|D": "0/21",
+   "prerecorded_or_causal|C": "0/42",
+   "prerecorded_or_causal|D": "0/21",
+   "misreads_game|C": "0/42",
+   "misreads_game|D": "0/21"
+  }
+ },
+ "spend": {
+  "run_usd": 2.7456
+ },
+ "status_counts": {
+  "ok": 375,
+  "invalid_response": 9
+ }
+}

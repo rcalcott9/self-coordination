@@ -1,0 +1,27 @@
+{
+ "note": "Old PLAY/PASS assets. Read-only; preserved in place. Not pooled with this study.",
+ "files": {
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/_VOID_probe_playpass_pilot_different_high_20260912_205518.csv": "e46f54836e43e6ed9310d9ea6431960225304c1733c123b01dc56ae37c7b26dd",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/_VOID_spendlimit_playpass_full_different_high_20260912_205215.csv": "535aea230c9d8619f984577ba6680e951d229b597b28476e26f6a76c85ab45a6",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/playpass_full_20260912_191607.csv": "c28d016762d4fe1987d5d28bb644567bd930c7948f276a363274daf86db79d7f",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/playpass_full_different_high_20260912_210001.csv": "3dc71fe1e79a7baf384fb5284ba7bf8fce3ea537795dce1fb5f055dc00ae559b",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv": "06447fc054789b9ee9a5fbdbb25e30f788c9373ce08211feee534b2c6bd2b48f",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/playpass_full_high_20260912_194050.csv": "c8e2b8aa602accc8221d1d95b4d0e03cb633a2fafd08108e320996e2af44ee32",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/playpass_pilot_20260912_191204.csv": "9b2f9f3d795a37cc78ccc091e8eb540b9e510d49e7e80df7f2cfc1f9d9f31a44",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/playpass_pilot_different_high_20260912_205821.csv": "fedf910197a7008d76057ecc1691036be7f5ca3d6d32dfc04bef9138d2cf2b92",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/playpass_pilot_high_20260912_193021.csv": "502a95b470f78b79b4d50c97b4549f14c5df98178ee3aa6444dbee4100cf9d9e",
+  "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_playpass_gpt/data/frozen_items.json": "8ee3a56e235d93541a94c41903fdd3f6bd45ffc2110004f4fde202eeae40965a",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/main_20260912_190813/raw_rows.json": "f1757b034f7c41b562b9df9724986f584e871c0b2a7f8588e77b787c1099c49a",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json": "b2c27f28cf63a6bbe295ce09aa1e2c9b0f3d7c9bcabb8613b4ad22e886702c35",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/parallel_disabled_20260912_191726/raw_rows.json": "d2f76322720bc5c03e86f7d84e9504267c16b66acc9c9dc1d0ab083bced659ae",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/pilot_20260912_190606/raw_rows.json": "600cfd12dd4d21dd4e34796fd60cd722969d055c1effd4d993ebea3aaef3668a",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/pp_different_adaptive_20260912_192846/raw_rows.json": "e1d78fea10a493cdc0d08bb0ac44e9740329476953b377e3b707ef02cddcd32a",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/pp_different_adaptive_effhigh_20260912_195615/raw_rows.json": "887edb18430694b85bfae83b5e5658d7566a20aae6d82bc250b4451b5c02fcc6",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/pp_different_adaptive_effhigh_20260912_200227/raw_rows.json": "218d27094b8792da7c46dd7a7452ddf55d7d7ea785c3633ff8b9d100f146bc96",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json": "24c5ff72a592e06df8853703cdfc6dca42830a8572c57123cba657cec777ef6e",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/pp_different_disabled_20260912_192632/raw_rows.json": "14994aae193464f61c77b859a8d8b6259b6977c8210e85b3159951e8441568c9",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/results/pp_same_adaptive_effhigh_20260912_195117/raw_rows.json": "d76148cd90685c0d69b7c9907488428ed6b53df47d873bfa74601968dc7d2211",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/design/FROZEN_ITEMS.json": "7cb80f130649dd84d1ea877caaa1e30c82815ce54b0b2beb4e1efe20fe4ba8a0",
+  "/Users/calypsocalcott/Desktop/Superrationality/Stag/opus_playpass/design/FROZEN_PARALLEL.json": "ea44298c8932d42a76aea28ba5542ec48190452af278a9229ac0cf1db390b2ad"
+ }
+}

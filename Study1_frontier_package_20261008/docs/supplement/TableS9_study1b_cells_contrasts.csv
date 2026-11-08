@@ -1,0 +1,10 @@
+quantity,value
+gpt->gpt,0.5719
+gpt->claude,0.8212
+claude->gpt,0.7883
+claude->claude,0.5222
+primary.pooled.mean [CI] p,"0.2577 [0.1261, 0.3992] p=0.0033"
+primary.target_gpt.mean [CI] p,"0.2165 [0.0790, 0.3941] p=0.0066"
+primary.target_opus.mean [CI] p,"0.2990 [0.1382, 0.4643] p=0.0096"
+primary.predictor_effect.mean [CI] p,"0.0413 [-0.0416, 0.1241] p=0.3863"
+primary.target_effect.mean [CI] p,"0.0084 [-0.0938, 0.1191] p=0.8567"

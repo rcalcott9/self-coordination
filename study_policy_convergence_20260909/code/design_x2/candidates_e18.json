@@ -1,0 +1,926 @@
+{
+ "battery_id": "E18_code_expansion",
+ "battery_version": "1.0",
+ "status": "AUDITED against frozen rubric 230ca3d8; 17 candidates enter the pilot",
+ "author": "lead",
+ "date": "2026-09-10",
+ "domain": "code",
+ "n_items": 17,
+ "n_options_per_item": 4,
+ "api_calls_made": 0,
+ "selection_principle": "Expansion battery E18 \u2014 18 candidate four-option code-convention items.\n\nOffline. No API calls. Authored 2026-09-10.\n\nSELECTION PRINCIPLE (the one that follows from \"balanced across the vintage ladder\"):\nevery locus is a split that was already contested BEFORE the oldest panel checkpoint's\ntraining window (2024-04) and is still contested now - typically one where a style guide\nexplicitly declines to choose, or where two equally prominent ecosystems disagree.\n\nThe reason is not aesthetic. An item whose split was resolved recently is live at the old\nend of the ladder and dead at the new end, so it contributes nothing exactly where the\ntrend is estimated; an item contested throughout keeps a measurable policy at every\ncheckpoint. Stage 1's four surviving items (function_naming, interface_layout,\njson_field_naming, tie_breaking) were all of the long-contested kind; its eight collapsed\nitems were loci where one convention had genuinely won.\n\nOption order here is CANONICAL order only. Presentation order is set per trial from the\nfrozen 24-permutation table, never from this file.",
+ "presentation": {
+  "scheme": "full_S4",
+  "presentation_id_range": [
+   0,
+   23
+  ],
+  "labels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "permutation_table_semantics": "permutation_table[presentation_id][display_position] = canonical_index shown at that display position. display_position 0 -> label A.",
+  "permutation_table": [
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    0,
+    1,
+    3,
+    2
+   ],
+   [
+    0,
+    2,
+    1,
+    3
+   ],
+   [
+    0,
+    2,
+    3,
+    1
+   ],
+   [
+    0,
+    3,
+    1,
+    2
+   ],
+   [
+    0,
+    3,
+    2,
+    1
+   ],
+   [
+    1,
+    0,
+    2,
+    3
+   ],
+   [
+    1,
+    0,
+    3,
+    2
+   ],
+   [
+    1,
+    2,
+    0,
+    3
+   ],
+   [
+    1,
+    2,
+    3,
+    0
+   ],
+   [
+    1,
+    3,
+    0,
+    2
+   ],
+   [
+    1,
+    3,
+    2,
+    0
+   ],
+   [
+    2,
+    0,
+    1,
+    3
+   ],
+   [
+    2,
+    0,
+    3,
+    1
+   ],
+   [
+    2,
+    1,
+    0,
+    3
+   ],
+   [
+    2,
+    1,
+    3,
+    0
+   ],
+   [
+    2,
+    3,
+    0,
+    1
+   ],
+   [
+    2,
+    3,
+    1,
+    0
+   ],
+   [
+    3,
+    0,
+    1,
+    2
+   ],
+   [
+    3,
+    0,
+    2,
+    1
+   ],
+   [
+    3,
+    1,
+    0,
+    2
+   ],
+   [
+    3,
+    1,
+    2,
+    0
+   ],
+   [
+    3,
+    2,
+    0,
+    1
+   ],
+   [
+    3,
+    2,
+    1,
+    0
+   ]
+  ],
+  "decode_rule": "canonical_index = permutation_table[presentation_id][label_index]",
+  "sampling_note": "n=48 is two complete cycles of all 24 permutations, so every option appears at every label exactly 12 times. n=12 in the pilot is a HALF cycle: 12 of the 24 permutations, drawn by a fixed seed, giving every option every label exactly 3 times. Counterbalancing is exact at both n."
+ },
+ "mechanism_counts": {
+  "argument_ordering": 1,
+  "identifier_case": 1,
+  "json_field_naming": 1,
+  "function_naming": 1,
+  "parameterization": 1,
+  "serialization": 1,
+  "test_naming": 1,
+  "variable_naming": 1,
+  "enum_serialization": 1,
+  "output_ordering": 1,
+  "docstring_style": 1,
+  "type_annotation": 1,
+  "package_layout": 1,
+  "migration_naming": 1,
+  "env_encoding": 1,
+  "identifier_choice": 1,
+  "file_organization": 1
+ },
+ "items": [
+  {
+   "item_id": "x_argorder_replace",
+   "mechanism": "argument_ordering",
+   "family": "parameterization",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python utility module needs a free function that returns a copy of a string with every occurrence of one substring replaced by another. The three values it needs are the text, the substring to find, and the substring to substitute. In what order do you declare the parameters?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_argorder_replace::o1",
+     "option_key": "text_old_new",
+     "display": "def replace(text, old, new):",
+     "gloss": "subject first (Python str.replace)"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_argorder_replace::o2",
+     "option_key": "old_new_text",
+     "display": "def replace(old, new, text):",
+     "gloss": "operands first (sed, Perl s///)"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_argorder_replace::o3",
+     "option_key": "text_new_old",
+     "display": "def replace(text, new, old):",
+     "gloss": "subject first, replacement before target"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_argorder_replace::o4",
+     "option_key": "new_old_text",
+     "display": "def replace(new, old, text):",
+     "gloss": "replacement first (some Lisp dialects)"
+    }
+   ],
+   "distinguishing_dimension": "position of the subject relative to the two operands",
+   "co_validity_rationale": "All four declare the same three values and compute the same result; only the positional contract differs. No option changes behaviour, guarantees or failure modes.",
+   "attestation": "Python str.replace puts the subject first via the method receiver; sed and Perl put the operands first; PHP's string functions are famously inconsistent between the two. The split is older than any model in the panel.",
+   "liveness_rationale": "Argument-order conventions are language-local and have never converged across ecosystems; there is no cross-language authority to converge on."
+  },
+  {
+   "item_id": "x_acronym_case",
+   "mechanism": "identifier_case",
+   "family": "identifier_lexeme",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "You are naming a Python class that is a client for an HTTP-based API. The name will contain both acronyms. Which spelling do you use?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_acronym_case::o1",
+     "option_key": "all_caps",
+     "display": "class HTTPAPIClient:",
+     "gloss": "both acronyms fully capitalised"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_acronym_case::o2",
+     "option_key": "title_both",
+     "display": "class HttpApiClient:",
+     "gloss": "both acronyms title-cased"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_acronym_case::o3",
+     "option_key": "caps_then_title",
+     "display": "class HTTPApiClient:",
+     "gloss": "leading acronym capitalised, second title-cased"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_acronym_case::o4",
+     "option_key": "title_then_caps",
+     "display": "class HttpAPIClient:",
+     "gloss": "leading acronym title-cased, second capitalised"
+    }
+   ],
+   "distinguishing_dimension": "capitalisation of embedded acronyms in CapWords",
+   "co_validity_rationale": "All four are valid Python identifiers naming the same class with the same public surface. Nothing about behaviour or discoverability differs.",
+   "attestation": "PEP 8 prescribes CapWords but does not say how acronyms inside them are cased. Google's Python style guide capitalises acronyms; Java's convention title-cases them; the standard library contains both (HTTPServer, HttpOnly cookies in third-party code).",
+   "liveness_rationale": "PEP 8's silence here is long-standing and unchanged, so no authority has ever resolved it in either direction."
+  },
+  {
+   "item_id": "x_listkey",
+   "mechanism": "json_field_naming",
+   "family": "collection_key",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A REST endpoint returns a page of records as JSON. The body is an object whose one content field carries the array of records. What do you name that field?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_listkey::o1",
+     "option_key": "items",
+     "display": "{\"items\": [...]}",
+     "gloss": "generic container noun"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_listkey::o2",
+     "option_key": "results",
+     "display": "{\"results\": [...]}",
+     "gloss": "query-outcome noun"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_listkey::o3",
+     "option_key": "data",
+     "display": "{\"data\": [...]}",
+     "gloss": "payload noun (JSON:API)"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_listkey::o4",
+     "option_key": "records",
+     "display": "{\"records\": [...]}",
+     "gloss": "domain noun"
+    }
+   ],
+   "distinguishing_dimension": "which noun names the collection",
+   "co_validity_rationale": "All four are the same array under a different key; a consumer written against any one of them is the same client with one string changed.",
+   "attestation": "JSON:API mandates `data`; the Kubernetes API and GitHub search use `items`; the Django REST Framework default page uses `results`; Salesforce and many data APIs use `records`. Four independent, maintained, mutually incompatible conventions.",
+   "liveness_rationale": "Each convention is anchored in a large ecosystem with no incentive to move, so the split is stable rather than trending."
+  },
+  {
+   "item_id": "x_predicate",
+   "mechanism": "function_naming",
+   "family": "identifier_lexeme",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python cache class needs a method that reports whether an entry has passed its time-to-live. It returns a boolean and has no side effects. What do you name it?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_predicate::o1",
+     "option_key": "is_expired",
+     "display": "def is_expired(self):",
+     "gloss": "is- prefix"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_predicate::o2",
+     "option_key": "expired",
+     "display": "def expired(self):",
+     "gloss": "bare adjective"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_predicate::o3",
+     "option_key": "has_expired",
+     "display": "def has_expired(self):",
+     "gloss": "has- prefix, present perfect"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_predicate::o4",
+     "option_key": "check_expired",
+     "display": "def check_expired(self):",
+     "gloss": "check- verb prefix"
+    }
+   ],
+   "distinguishing_dimension": "predicate naming scheme",
+   "co_validity_rationale": "All four are the same no-argument boolean method. None implies a different contract, mutation or failure mode.",
+   "attestation": "PEP 8 gives no predicate-naming rule. The standard library uses bare adjectives (`str.isdigit` is prefixed, `Thread.is_alive` is prefixed, `dict.keys` is bare); Ruby's convention is a trailing `?`; Java mandates `is`/`has`. All are attested in mainstream Python.",
+   "liveness_rationale": "Predicate naming has been contested in Python since before type checkers existed and no formatter or linter has ever normalised it."
+  },
+  {
+   "item_id": "x_span",
+   "mechanism": "parameterization",
+   "family": "range_convention",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python function operates on a contiguous span of a sequence. Every span the program handles can be described by any of the parameterizations below, and the function's behaviour is identical under all of them. Which signature do you write?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_span::o1",
+     "option_key": "start_stop_half",
+     "display": "def window(seq, start, stop):   # stop exclusive",
+     "gloss": "half-open, exclusive end (Python slicing)"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_span::o2",
+     "option_key": "start_end_incl",
+     "display": "def window(seq, start, end):     # end inclusive",
+     "gloss": "closed interval (SQL BETWEEN, Ruby ..)"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_span::o3",
+     "option_key": "start_count",
+     "display": "def window(seq, start, count):",
+     "gloss": "offset plus item count"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_span::o4",
+     "option_key": "offset_limit",
+     "display": "def window(seq, offset, limit):",
+     "gloss": "offset plus limit (SQL, REST paging)"
+    }
+   ],
+   "distinguishing_dimension": "how the extent of the span is expressed",
+   "co_validity_rationale": "All four describe the identical set of elements and return the identical result; only the caller's arithmetic differs. This is the same class of choice as a rectangle constructor's parameterization, not a behavioural difference.",
+   "attestation": "Python slicing and C++ iterators are half-open; SQL BETWEEN and Ruby's `..` are closed; almost every paginated HTTP API uses offset/limit; memcpy-style APIs use start plus count.",
+   "liveness_rationale": "Dijkstra's argument for half-open indexing dates to 1982 and did not settle the question outside programming-language internals; paging APIs went the other way."
+  },
+  {
+   "item_id": "x_money",
+   "mechanism": "serialization",
+   "family": "wire_encoding",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A JSON API returns a monetary amount. The currency is carried elsewhere in the response and is not in question here; only the amount's encoding is. All consumers are internal and will be written against whatever you choose. How do you encode nineteen dollars and ninety-nine cents?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_money::o1",
+     "option_key": "minor_units",
+     "display": "\"amount\": 1999",
+     "gloss": "integer minor units (Stripe)"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_money::o2",
+     "option_key": "decimal_string",
+     "display": "\"amount\": \"19.99\"",
+     "gloss": "decimal as a string"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_money::o3",
+     "option_key": "minor_string",
+     "display": "\"amount\": \"1999\"",
+     "gloss": "integer minor units as a string"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_money::o4",
+     "option_key": "units_nanos",
+     "display": "\"amount\": {\"units\": 19, \"nanos\": 990000000}",
+     "gloss": "units plus nanos (Google Cloud)"
+    }
+   ],
+   "distinguishing_dimension": "how a fixed-point quantity crosses the wire",
+   "co_validity_rationale": "All four represent exactly nineteen dollars ninety-nine and round-trip without loss. All four are exact: none goes through binary floating point at any point. REPAIRED 2026-09-10 - the original fourth option was a bare JSON number, which C5 rejects at severity 2 because float money is decisively less robust and a reviewer would raise it, making any convergence instrumental rather than conventional.",
+   "attestation": "Stripe uses integer minor units; Google Cloud's Money type uses units plus nanos; PayPal and many bank APIs use decimal strings; several ledger APIs send minor units as strings to dodge 53-bit integer limits in JavaScript consumers.",
+   "liveness_rationale": "Four incompatible conventions each anchored in a major, long-lived, still-maintained public API. None has absorbed the others in a decade."
+  },
+  {
+   "item_id": "x_test_naming",
+   "mechanism": "test_naming",
+   "family": "identifier_lexeme",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "You are writing a pytest test for a function that returns None when its input list is empty. What do you name the test function?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_test_naming::o1",
+     "option_key": "action_condition",
+     "display": "def test_returns_none_when_empty():",
+     "gloss": "behaviour first, condition second"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_test_naming::o2",
+     "option_key": "condition_action",
+     "display": "def test_empty_returns_none():",
+     "gloss": "condition first, behaviour second"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_test_naming::o3",
+     "option_key": "given_when_then",
+     "display": "def test_when_empty_then_returns_none():",
+     "gloss": "explicit when/then"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_test_naming::o4",
+     "option_key": "terse",
+     "display": "def test_empty():",
+     "gloss": "condition only"
+    }
+   ],
+   "distinguishing_dimension": "clause order and verbosity of the test name",
+   "co_validity_rationale": "All four name the same test and produce the same report line; none changes what is asserted or how a failure surfaces.",
+   "attestation": "pytest's documentation shows terse names; the BDD tradition prescribes when/then; Google's testing guidance prescribes MethodName_StateUnderTest_ExpectedBehavior; large Python projects contain all four in quantity.",
+   "liveness_rationale": "Test naming has never been enforced by a formatter or linter default, so no tooling pressure has pushed the ecosystem toward one form."
+  },
+  {
+   "item_id": "x_logger_var",
+   "mechanism": "variable_naming",
+   "family": "identifier_lexeme",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "At the top of a Python module you bind the module's logger to a module-level name. What do you call that name?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_logger_var::o1",
+     "option_key": "logger",
+     "display": "logger = logging.getLogger(__name__)",
+     "gloss": "full noun"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_logger_var::o2",
+     "option_key": "log",
+     "display": "log = logging.getLogger(__name__)",
+     "gloss": "short noun"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_logger_var::o3",
+     "option_key": "LOG",
+     "display": "LOG = logging.getLogger(__name__)",
+     "gloss": "constant-cased noun"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_logger_var::o4",
+     "option_key": "_log",
+     "display": "_log = logging.getLogger(__name__)",
+     "gloss": "private-marked short noun"
+    }
+   ],
+   "distinguishing_dimension": "lexeme and casing of the module logger binding",
+   "co_validity_rationale": "All four bind the same object at module scope with the same visibility in practice; the underscore prefix is conventional, not enforced, and the module exports nothing either way.",
+   "attestation": "The Python logging HOWTO uses `logger`; Django's source uses `logger`; OpenStack's guidelines use `LOG`; a large number of projects use `log`; CPython's own stdlib contains `_log`.",
+   "liveness_rationale": "The logging module has been stable since 2003 and its documentation has never prescribed a binding name."
+  },
+  {
+   "item_id": "x_enum_value",
+   "mechanism": "enum_serialization",
+   "family": "wire_encoding",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python service serialises a status enum into JSON. The set of statuses is fixed and known to every consumer. What form does the value take on the wire?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_enum_value::o1",
+     "option_key": "upper_name",
+     "display": "\"status\": \"ACTIVE\"",
+     "gloss": "upper-case member name"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_enum_value::o2",
+     "option_key": "lower_name",
+     "display": "\"status\": \"active\"",
+     "gloss": "lower-case member name"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_enum_value::o3",
+     "option_key": "integer",
+     "display": "\"status\": 1",
+     "gloss": "ordinal integer"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_enum_value::o4",
+     "option_key": "kebab_name",
+     "display": "\"status\": \"active-state\"",
+     "gloss": "kebab-cased descriptive token"
+    }
+   ],
+   "distinguishing_dimension": "textual form of an enumerated value on the wire",
+   "co_validity_rationale": "All four encode the same fixed member of the same closed set and decode back to it unambiguously. None is more extensible than the others for a set stated to be fixed.",
+   "attestation": "Protocol Buffers' JSON mapping emits upper-case names; GraphQL mandates upper-case; Stripe and most REST APIs emit lower-case; older binary-derived APIs emit ordinals; Kubernetes label values are kebab-cased.",
+   "liveness_rationale": "The split runs along a protocol boundary rather than a language one, so no single language community's convergence can resolve it."
+  },
+  {
+   "item_id": "x_dict_order",
+   "mechanism": "output_ordering",
+   "family": "sort_policy",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python tool prints the key-value pairs of a configuration dictionary, one per line, for a human reader. The dictionary preserves insertion order. In what order do you print the pairs?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_dict_order::o1",
+     "option_key": "insertion",
+     "display": "in the dictionary's insertion order",
+     "gloss": "as authored"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_dict_order::o2",
+     "option_key": "sorted_key",
+     "display": "sorted alphabetically by key",
+     "gloss": "lexicographic by key"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_dict_order::o3",
+     "option_key": "grouped_prefix",
+     "display": "grouped by the key's dotted prefix, groups alphabetical",
+     "gloss": "grouped by namespace"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_dict_order::o4",
+     "option_key": "sorted_section",
+     "display": "in the order the keys appear in the config file on disk",
+     "gloss": "source order (git config, INI writers)"
+    }
+   ],
+   "distinguishing_dimension": "ordering rule applied to a mapping on output",
+   "co_validity_rationale": "The same pairs are printed in every case and no information is added or lost; only the reading order differs. REPAIRED 2026-09-10 - the original fourth option was 'shortest keys first', which has no attestation anywhere and no non-embarrassing defence, failing A3 rather than tripping a rejection criterion.",
+   "attestation": "`json.dumps` defaults to insertion order and offers `sort_keys`; `pprint` sorts by default; `git config --list` prints grouped by section; TOML and INI writers group by table.",
+   "liveness_rationale": "The stdlib itself is internally inconsistent here (json vs pprint) and has been since dicts became ordered in 3.7, with no move to reconcile them."
+  },
+  {
+   "item_id": "x_docstring",
+   "mechanism": "docstring_style",
+   "family": "documentation_form",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "You are documenting a Python function's parameters and return value in its docstring. Which sectioning style do you use?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_docstring::o1",
+     "option_key": "google",
+     "display": "Args:\n    n (int): how many.\nReturns:\n    list: the items.",
+     "gloss": "Google style"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_docstring::o2",
+     "option_key": "numpy",
+     "display": "Parameters\n----------\nn : int\n    how many.\n\nReturns\n-------\nlist\n    the items.",
+     "gloss": "NumPy style"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_docstring::o3",
+     "option_key": "rest",
+     "display": ":param n: how many.\n:type n: int\n:returns: the items.\n:rtype: list",
+     "gloss": "reST / Sphinx info fields"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_docstring::o4",
+     "option_key": "epytext",
+     "display": "@param n: how many.\n@type n: int\n@return: the items.\n@rtype: list",
+     "gloss": "Epytext / javadoc-style"
+    }
+   ],
+   "distinguishing_dimension": "docstring sectioning grammar",
+   "co_validity_rationale": "All four carry identical information about the same function and are rendered by mainstream tooling. None documents anything the others cannot.",
+   "attestation": "PEP 257 specifies docstring placement and explicitly declines to specify content structure. Google's style guide mandates Google style; NumPy, SciPy and pandas mandate NumPy style; Sphinx's native form is reST info fields; Epytext predates all of them and persists.",
+   "liveness_rationale": "PEP 257's deliberate silence is the canonical example of a Python convention left open on purpose, and Napoleon exists precisely because the split did not resolve."
+  },
+  {
+   "item_id": "x_optional_type",
+   "mechanism": "type_annotation",
+   "family": "annotation_form",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "In a Python 3.12 codebase you annotate a parameter that accepts a string or nothing. The project has no linter rule on this. Which spelling do you write?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_optional_type::o1",
+     "option_key": "optional",
+     "display": "def f(name: Optional[str] = None):",
+     "gloss": "typing.Optional"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_optional_type::o2",
+     "option_key": "pipe_none",
+     "display": "def f(name: str | None = None):",
+     "gloss": "PEP 604 union operator"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_optional_type::o3",
+     "option_key": "union",
+     "display": "def f(name: Union[str, None] = None):",
+     "gloss": "typing.Union, explicit"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_optional_type::o4",
+     "option_key": "qualified",
+     "display": "def f(name: t.Optional[str] = None):",
+     "gloss": "module-qualified typing"
+    }
+   ],
+   "distinguishing_dimension": "spelling of an optional type annotation",
+   "co_validity_rationale": "All four are accepted by every current type checker on 3.12 and produce the identical inferred type. The choice does not change static or runtime behaviour.",
+   "attestation": "PEP 604 introduced `|` without deprecating `Optional`; typing's documentation presents both; large codebases pin one for consistency and disagree on which; module-qualified typing imports are the house style at several large shops.",
+   "liveness_rationale": "This is the newest split in the battery and is included deliberately as the vintage-sensitive control: if any item shows a liveness gradient across the ladder, this is the one that should, and the pilot will say so."
+  },
+  {
+   "item_id": "x_init_export",
+   "mechanism": "package_layout",
+   "family": "layout_tree",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A small Python package has one internal module, `core.py`, defining a public class `Widget`. The package must support `from pkg import Widget`, so the re-export itself is settled. How do you write the `__init__.py` that provides it?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_init_export::o1",
+     "option_key": "bare",
+     "display": "from .core import Widget",
+     "gloss": "re-export only"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_init_export::o2",
+     "option_key": "with_all",
+     "display": "from .core import Widget\n\n__all__ = [\"Widget\"]",
+     "gloss": "re-export plus __all__"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_init_export::o3",
+     "option_key": "aliased",
+     "display": "from .core import Widget as Widget",
+     "gloss": "redundant alias (PEP 484 re-export)"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_init_export::o4",
+     "option_key": "star",
+     "display": "from .core import *",
+     "gloss": "star import from the submodule"
+    }
+   ],
+   "distinguishing_dimension": "how a settled re-export is written",
+   "co_validity_rationale": "REPAIRED 2026-09-10. The original option set let the import path differ between choices - `from pkg import Widget` worked under some and failed under others - which is an API-surface difference and C4 at severity 2. The stem now fixes the surface, so all four provide the identical import and differ only in how it is spelled.",
+   "attestation": "Flask and requests re-export bare; typeshed and PEP 484 prescribe the redundant alias for explicit re-export and mypy enforces it under --no-implicit-reexport; `__all__` usage in the stdlib is inconsistent across modules; star imports from a private submodule remain common in scientific packages.",
+   "liveness_rationale": "The question predates namespace packages and has survived every packaging change since, because it is a taste question about surface, not a mechanism question."
+  },
+  {
+   "item_id": "x_migration_name",
+   "mechanism": "migration_naming",
+   "family": "file_naming",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python project keeps database migrations as files in one directory, applied in order. You are adding the first one, which creates the initial schema. What do you name the file?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_migration_name::o1",
+     "option_key": "seq_desc",
+     "display": "0001_initial.py",
+     "gloss": "zero-padded sequence plus description"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_migration_name::o2",
+     "option_key": "ts_desc",
+     "display": "20260910_143000_initial.py",
+     "gloss": "timestamp plus description"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_migration_name::o3",
+     "option_key": "hash_desc",
+     "display": "a3f21c_initial.py",
+     "gloss": "opaque revision id plus description"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_migration_name::o4",
+     "option_key": "ver_desc",
+     "display": "v1_initial.py",
+     "gloss": "version tag plus description"
+    }
+   ],
+   "distinguishing_dimension": "what carries the ordering in a migration filename",
+   "co_validity_rationale": "All four order deterministically within the stated single-directory, single-author case and all carry the same description. Merge behaviour under concurrent authorship is out of the item's stated scope.",
+   "attestation": "Django uses zero-padded sequences; Rails and its many ports use timestamps; Alembic uses opaque revision ids; several hand-rolled systems use version tags. All four are in wide current use.",
+   "liveness_rationale": "Each form is baked into a framework that will not change it, so the split is fixed by tooling lock-in rather than by unresolved argument."
+  },
+  {
+   "item_id": "x_bool_env",
+   "mechanism": "env_encoding",
+   "family": "wire_encoding",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python service reads a boolean setting from an environment variable. You are writing the deployment documentation and must state the value that turns the setting on. Which do you specify?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_bool_env::o1",
+     "option_key": "one",
+     "display": "FEATURE_X=1",
+     "gloss": "numeric one"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_bool_env::o2",
+     "option_key": "true_lower",
+     "display": "FEATURE_X=true",
+     "gloss": "lower-case true"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_bool_env::o3",
+     "option_key": "True_title",
+     "display": "FEATURE_X=True",
+     "gloss": "Python-style True"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_bool_env::o4",
+     "option_key": "yes",
+     "display": "FEATURE_X=yes",
+     "gloss": "yes"
+    }
+   ],
+   "distinguishing_dimension": "textual encoding of boolean truth in an environment variable",
+   "co_validity_rationale": "The reader is yours to write and will accept whatever you document; all four are equally parseable and equally unambiguous once documented.",
+   "attestation": "Docker Compose and most twelve-factor guidance use `true`; Kubernetes manifests use `\"true\"`; a great many shell-era tools use `1`; Ansible and several config systems accept `yes`; Django's own docs show `True` in some examples.",
+   "liveness_rationale": "Environment variables have no type system and never will, so the encoding question cannot be resolved by any language or runtime change."
+  },
+  {
+   "item_id": "x_id_field",
+   "mechanism": "identifier_choice",
+   "family": "collection_key",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A JSON API returns a record whose primary identifier is a UUID. What do you name the field that carries it?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_id_field::o1",
+     "option_key": "id",
+     "display": "\"id\": \"3f2a...\"",
+     "gloss": "bare id"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_id_field::o2",
+     "option_key": "uuid",
+     "display": "\"uuid\": \"3f2a...\"",
+     "gloss": "names the format"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_id_field::o3",
+     "option_key": "entity_id",
+     "display": "\"user_id\": \"3f2a...\"",
+     "gloss": "entity-qualified id"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_id_field::o4",
+     "option_key": "key",
+     "display": "\"key\": \"3f2a...\"",
+     "gloss": "generic key noun"
+    }
+   ],
+   "distinguishing_dimension": "what the primary-identifier field is called",
+   "co_validity_rationale": "All four carry the same UUID for the same record and are equally unambiguous inside a response whose type is already known from the endpoint.",
+   "attestation": "JSON:API mandates `id`; many Google APIs use `name`; a large number of internal APIs qualify the field with the entity; DynamoDB and several key-value-derived APIs use `key`; some schema-first shops name the format.",
+   "liveness_rationale": "The choice interacts with whether responses are self-describing, which is itself an unresolved architectural split, so it inherits that split's stability."
+  },
+  {
+   "item_id": "x_constants_home",
+   "mechanism": "file_organization",
+   "family": "layout_tree",
+   "language": "python",
+   "display_kind": "inline",
+   "spec": "A Python package has several magic numbers and strings used by exactly one module. Where do you put them?",
+   "n_options": 4,
+   "options": [
+    {
+     "canonical_index": 0,
+     "canonical_id": "x_constants_home::o1",
+     "option_key": "module_top",
+     "display": "at the top of the module that uses them",
+     "gloss": "module-level, local"
+    },
+    {
+     "canonical_index": 1,
+     "canonical_id": "x_constants_home::o2",
+     "option_key": "constants_py",
+     "display": "in a separate constants.py imported by that module",
+     "gloss": "dedicated module"
+    },
+    {
+     "canonical_index": 2,
+     "canonical_id": "x_constants_home::o3",
+     "option_key": "class_attrs",
+     "display": "as class attributes on the class that uses them",
+     "gloss": "class-namespaced"
+    },
+    {
+     "canonical_index": 3,
+     "canonical_id": "x_constants_home::o4",
+     "option_key": "settings_obj",
+     "display": "as fields on a module-level settings object",
+     "gloss": "settings object"
+    }
+   ],
+   "distinguishing_dimension": "where single-consumer constants live",
+   "co_validity_rationale": "Under the stated single-consumer case all four are importable, testable and overridable to the same degree; none changes import graph shape or introduces a cycle.",
+   "attestation": "PEP 8 says module constants go at module level but is silent on whether a dedicated module is preferable; Django ships a settings object; large codebases at Google and elsewhere mandate constants modules; class-attribute constants are pervasive in the stdlib.",
+   "liveness_rationale": "The disagreement is about code organisation rather than mechanism, and organisation conventions have shown no convergence across the period the panel covers."
+  }
+ ]
+}

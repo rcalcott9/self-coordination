@@ -1,0 +1,91 @@
+model,config,item,family,group,group_label,agreement,n_attempted_copy,n_attempted_different,n_parsed_copy,n_parsed_different,n_play_copy,n_play_different,p_play_copy,p_play_different,partner_shift
+Claude Opus 5,"adaptive, effort low",F02_size_m3,F02_size,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F03_symmetry_m3,F03_symmetry,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F04_complexity_m3,F04_complexity,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F05_orient_m3,F05_orient,LOW,LOW,0.4495,20,20,20,20,14,6,0.7,0.3,0.39999999999999997
+Claude Opus 5,"adaptive, effort low",F07_contrast_m3,F07_contrast,HIGH,HIGH,1.0,20,20,20,20,20,17,1.0,0.85,0.15000000000000002
+Claude Opus 5,"adaptive, effort low",F08_closure_m3,F08_closure,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F10_curvature_m3,F10_curvature,LOW,LOW,0.6631,20,20,20,20,20,19,1.0,0.95,0.050000000000000044
+Claude Opus 5,"adaptive, effort low",F11_noise_m3,F11_noise,LOW,LOW,0.6631,20,20,20,20,4,0,0.2,0.0,0.2
+Claude Opus 5,"adaptive, effort low",F12_mirror_m3,F12_mirror,LOW,LOW,0.5488,20,20,20,20,18,1,0.9,0.05,0.85
+Claude Opus 5,"adaptive, effort low",F13_count_m3,F13_count,HIGH,HIGH,1.0,20,20,20,20,20,19,1.0,0.95,0.050000000000000044
+Claude Opus 5,"adaptive, effort low",F14_bars_m3,F14_bars,HIGH,HIGH,1.0,20,20,20,20,19,20,0.95,1.0,-0.050000000000000044
+Claude Opus 5,"adaptive, effort low",F15_ring_m3,F15_ring,LOW,LOW,0.4929,20,20,20,20,19,13,0.95,0.65,0.29999999999999993
+Claude Opus 5,"adaptive, effort low",F16_aspect_m3,F16_aspect,HIGH,HIGH,1.0,20,20,20,20,19,18,0.95,0.9,0.04999999999999993
+Claude Opus 5,"adaptive, effort low",F17_gapclock_m1,F17_gapclock,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F18_stroke_m1,F18_stroke,HIGH,HIGH,1.0,20,20,20,20,20,19,1.0,0.95,0.050000000000000044
+Claude Opus 5,"adaptive, effort low",F19_fill_m1,F19_fill,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F20_corner_m1,F20_corner,HIGH,HIGH,1.0,20,20,20,20,12,11,0.6,0.55,0.04999999999999993
+Claude Opus 5,"adaptive, effort low",F21_notch_m1,F21_notch,HIGH,HIGH,1.0,20,20,20,20,20,19,1.0,0.95,0.050000000000000044
+Claude Opus 5,"adaptive, effort low",F22_star_m1,F22_star,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F24_subdiv_m1,F24_subdiv,LOW,LOW,0.6888,20,20,20,20,17,17,0.85,0.85,0.0
+Claude Opus 5,"adaptive, effort low",F26_bumploc_m1,F26_bumploc,LOW,LOW,0.4468,20,20,20,20,17,10,0.85,0.5,0.35
+Claude Opus 5,"adaptive, effort low",F28_dotarrange_m1,F28_dotarrange,LOW,LOW,0.6764,20,20,20,20,19,17,0.95,0.85,0.09999999999999998
+Claude Opus 5,"adaptive, effort low",F30_pairratio_m1,F30_pairratio,LOW,LOW,0.5381,20,20,20,20,16,14,0.8,0.7,0.10000000000000009
+Claude Opus 5,"adaptive, effort low",F31_overlap_m1,F31_overlap,LOW,LOW,0.3254,20,20,20,20,11,12,0.55,0.6,-0.04999999999999993
+Claude Opus 5,"adaptive, effort low",F34_jitter_m1,F34_jitter,LOW,LOW,0.5328,20,20,20,20,20,18,1.0,0.9,0.09999999999999998
+Claude Opus 5,"adaptive, effort low",F35_gradang_m1,F35_gradang,LOW,LOW,0.3927,20,20,20,20,17,7,0.85,0.35,0.5
+Claude Opus 5,"adaptive, effort low",F36_split_m1,F36_split,LOW,LOW,0.469,20,20,20,20,14,4,0.7,0.2,0.49999999999999994
+Claude Opus 5,"adaptive, effort low",F37_mirroraxis_m1,F37_mirroraxis,LOW,LOW,0.4176,20,20,20,20,15,5,0.75,0.25,0.5
+Claude Opus 5,"adaptive, effort low",F40_crossang_m1,F40_crossang,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+Claude Opus 5,"adaptive, effort low",F41_contain_m1,F41_contain,LOW,LOW,0.4858,20,20,20,20,12,4,0.6,0.2,0.39999999999999997
+GPT-5.5,effort low,F02_size_m3,F02_size,HIGH,HIGH,0.9583,20,20,20,20,20,20,1.0,1.0,0.0
+GPT-5.5,effort low,F03_symmetry_m3,F03_symmetry,HIGH,HIGH,1.0,20,20,20,20,16,14,0.8,0.7,0.10000000000000009
+GPT-5.5,effort low,F04_complexity_m3,F04_complexity,HIGH,HIGH,1.0,20,20,20,20,12,8,0.6,0.4,0.19999999999999996
+GPT-5.5,effort low,F05_orient_m3,F05_orient,LOW,LOW,0.3431,20,20,20,20,1,0,0.05,0.0,0.05
+GPT-5.5,effort low,F06_density_m3,F06_density,LOW,LOW,0.5115,20,20,20,20,14,13,0.7,0.65,0.04999999999999993
+GPT-5.5,effort low,F07_contrast_m3,F07_contrast,HIGH,HIGH,1.0,20,20,20,20,19,12,0.95,0.6,0.35
+GPT-5.5,effort low,F09_convexity_m3,F09_convexity,HIGH,HIGH,0.9583,20,20,20,20,20,14,1.0,0.7,0.30000000000000004
+GPT-5.5,effort low,F10_curvature_m3,F10_curvature,HIGH,HIGH,0.9583,20,20,20,20,13,9,0.65,0.45,0.2
+GPT-5.5,effort low,F11_noise_m3,F11_noise,LOW,LOW,0.4105,20,20,20,20,0,0,0.0,0.0,0.0
+GPT-5.5,effort low,F12_mirror_m3,F12_mirror,LOW,LOW,0.2988,20,20,20,20,2,0,0.1,0.0,0.1
+GPT-5.5,effort low,F14_bars_m3,F14_bars,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+GPT-5.5,effort low,F17_gapclock_m1,F17_gapclock,HIGH,HIGH,1.0,20,20,20,20,17,19,0.85,0.95,-0.09999999999999998
+GPT-5.5,effort low,F19_fill_m1,F19_fill,HIGH,HIGH,1.0,20,20,20,20,20,19,1.0,0.95,0.050000000000000044
+GPT-5.5,effort low,F22_star_m1,F22_star,HIGH,HIGH,0.9583,20,20,20,20,12,12,0.6,0.6,0.0
+GPT-5.5,effort low,F23_ellipseang_m1,F23_ellipseang,LOW,LOW,0.5461,20,20,20,20,10,3,0.5,0.15,0.35
+GPT-5.5,effort low,F24_subdiv_m1,F24_subdiv,HIGH,HIGH,1.0,20,20,20,20,12,12,0.6,0.6,0.0
+GPT-5.5,effort low,F25_nested_m1,F25_nested,LOW,LOW,0.5035,20,20,20,20,13,8,0.65,0.4,0.25
+GPT-5.5,effort low,F26_bumploc_m1,F26_bumploc,LOW,LOW,0.4973,20,20,20,20,13,11,0.65,0.55,0.09999999999999998
+GPT-5.5,effort low,F27_linecount_m1,F27_linecount,LOW,LOW,0.3564,20,20,20,20,13,12,0.65,0.6,0.050000000000000044
+GPT-5.5,effort low,F28_dotarrange_m1,F28_dotarrange,LOW,LOW,0.4894,20,20,20,20,7,3,0.35,0.15,0.19999999999999998
+GPT-5.5,effort low,F29_arcdir_m1,F29_arcdir,HIGH,HIGH,1.0,20,20,20,20,19,15,0.95,0.75,0.19999999999999996
+GPT-5.5,effort low,F30_pairratio_m1,F30_pairratio,LOW,LOW,0.4956,20,20,20,20,8,6,0.4,0.3,0.10000000000000003
+GPT-5.5,effort low,F32_tilt_m1,F32_tilt,HIGH,HIGH,1.0,20,20,20,20,20,20,1.0,1.0,0.0
+GPT-5.5,effort low,F33_hole_m1,F33_hole,LOW,LOW,0.5035,20,20,20,20,3,2,0.15,0.1,0.04999999999999999
+GPT-5.5,effort low,F34_jitter_m1,F34_jitter,LOW,LOW,0.3644,20,20,20,20,11,6,0.55,0.3,0.25000000000000006
+GPT-5.5,effort low,F35_gradang_m1,F35_gradang,LOW,LOW,0.3076,20,20,20,20,12,6,0.6,0.3,0.3
+GPT-5.5,effort low,F36_split_m1,F36_split,LOW,LOW,0.3466,20,20,20,20,11,4,0.55,0.2,0.35000000000000003
+GPT-5.5,effort low,F37_mirroraxis_m1,F37_mirroraxis,LOW,LOW,0.5035,20,20,20,20,16,7,0.8,0.35,0.45000000000000007
+GPT-5.5,effort low,F38_endcap_m1,F38_endcap,HIGH,HIGH,1.0,20,20,20,20,20,19,1.0,0.95,0.050000000000000044
+GPT-5.5,effort low,F41_contain_m1,F41_contain,HIGH,HIGH,1.0,20,20,20,20,8,4,0.4,0.2,0.2
+Qwen step-316,thinking off,adapter,adapter,HIGH,CLEAR,0.953076923076923,20,20,20,19,16,13,0.8,0.6842105263157895,0.11578947368421055
+Qwen step-316,thinking off,alcohol_markers,alcohol_markers,HIGH,CLEAR,0.9243589743589743,20,20,20,20,17,13,0.85,0.65,0.19999999999999996
+Qwen step-316,thinking off,antenna,antenna,LOW,WEAK,0.7215384615384616,20,20,20,20,7,5,0.35,0.25,0.09999999999999998
+Qwen step-316,thinking off,balance_board,balance_board,LOW,WEAK,0.597948717948718,20,20,20,20,18,15,0.9,0.75,0.15000000000000002
+Qwen step-316,thinking off,bracelet,bracelet,LOW,WEAK,0.7294871794871794,20,20,19,18,17,12,0.8947368421052632,0.6666666666666666,0.22807017543859653
+Qwen step-316,thinking off,cocktail_kit,cocktail_kit,HIGH,CLEAR,0.9435897435897436,20,20,20,20,15,15,0.75,0.75,0.0
+Qwen step-316,thinking off,dry_bag,dry_bag,HIGH,CLEAR,0.98,20,20,20,19,10,8,0.5,0.42105263157894735,0.07894736842105265
+Qwen step-316,thinking off,ecg_monitor,ecg_monitor,HIGH,CLEAR,0.951025641025641,20,20,20,20,16,8,0.8,0.4,0.4
+Qwen step-316,thinking off,fabric_markers,fabric_markers,LOW,WEAK,0.7194871794871794,20,20,20,20,12,12,0.6,0.6,0.0
+Qwen step-316,thinking off,fins,fins,LOW,WEAK,0.6735897435897437,20,20,20,20,12,6,0.6,0.3,0.3
+Qwen step-316,thinking off,garment_steamer,garment_steamer,LOW,WEAK,0.6017948717948718,20,20,20,20,13,9,0.65,0.45,0.2
+Qwen step-316,thinking off,golf_cart,golf_cart,LOW,WEAK,0.7297435897435898,20,20,20,20,13,7,0.65,0.35,0.30000000000000004
+Qwen step-316,thinking off,ham,ham,LOW,WEAK,0.6697435897435897,20,20,20,20,3,4,0.15,0.2,-0.05000000000000002
+Qwen step-316,thinking off,hoodie,hoodie,LOW,WEAK,0.7194871794871796,20,20,20,20,11,8,0.55,0.4,0.15000000000000002
+Qwen step-316,thinking off,hotel,hotel,HIGH,CLEAR,1.0,20,20,20,20,16,15,0.8,0.75,0.050000000000000044
+Qwen step-316,thinking off,house,house,HIGH,CLEAR,0.9805128205128205,20,20,19,20,11,10,0.5789473684210527,0.5,0.07894736842105265
+Qwen step-316,thinking off,loan,loan,HIGH,CLEAR,0.9351282051282052,20,20,20,20,15,13,0.75,0.65,0.09999999999999998
+Qwen step-316,thinking off,magnetic_calendar,magnetic_calendar,HIGH,CLEAR,0.951025641025641,20,20,20,19,19,13,0.95,0.6842105263157895,0.26578947368421046
+Qwen step-316,thinking off,milk_storage_bags,milk_storage_bags,LOW,WEAK,0.7311066126855601,20,20,19,20,11,9,0.5789473684210527,0.45,0.12894736842105264
+Qwen step-316,thinking off,mold_test,mold_test,HIGH,CLEAR,0.9705128205128205,20,20,20,20,14,6,0.7,0.3,0.39999999999999997
+Qwen step-316,thinking off,olive_pitter,olive_pitter,LOW,WEAK,0.7174358974358974,20,20,20,19,13,12,0.65,0.631578947368421,0.018421052631579005
+Qwen step-316,thinking off,pattern_weights,pattern_weights,HIGH,CLEAR,0.9615384615384616,20,20,20,19,14,11,0.7,0.5789473684210527,0.1210526315789473
+Qwen step-316,thinking off,rabbit,rabbit,HIGH,CLEAR,0.99,20,20,20,20,15,15,0.75,0.75,0.0
+Qwen step-316,thinking off,safety_pins,safety_pins,LOW,WEAK,0.7053846153846154,20,20,19,20,13,6,0.6842105263157895,0.3,0.3842105263157895
+Qwen step-316,thinking off,sewing_machine,sewing_machine,HIGH,CLEAR,0.9551282051282052,20,20,20,19,19,17,0.95,0.8947368421052632,0.05526315789473679
+Qwen step-316,thinking off,shuffleboard_table,shuffleboard_table,LOW,WEAK,0.7007692307692308,20,20,19,20,14,12,0.7368421052631579,0.6,0.13684210526315788
+Qwen step-316,thinking off,snow_blower,snow_blower,HIGH,CLEAR,0.98,20,20,19,20,15,13,0.7894736842105263,0.65,0.1394736842105263
+Qwen step-316,thinking off,soil,soil,HIGH,CLEAR,0.9420512820512821,20,20,20,20,14,17,0.7,0.85,-0.15000000000000002
+Qwen step-316,thinking off,tamper,tamper,LOW,WEAK,0.538974358974359,20,20,20,20,14,7,0.7,0.35,0.35
+Qwen step-316,thinking off,windshield_cover,windshield_cover,LOW,WEAK,0.6069230769230769,20,20,20,20,14,7,0.7,0.35,0.35

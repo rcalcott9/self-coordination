@@ -1,0 +1,19 @@
+=== CONFIRMATION  gpt-5.5 x claude-opus-4-6 ===
+arrays 9  n/model/array 72  calls 1296
+prompt sha8 d40ea45d
+
+    100/1296
+    200/1296
+    300/1296
+    400/1296
+    500/1296
+    600/1296
+    700/1296
+    800/1296
+    900/1296
+    1000/1296
+    1100/1296
+    1200/1296
+
+transport 1296/1296  parsed 1296/1296
+claude tokens [477576, 20520]  measured cost $2.90 (gpt usage not exposed by ask_gpt)

@@ -1,0 +1,25 @@
+model,pair,type,identity,variant,side,chosen_shape,reasoning
+gpt-5.4,inkblot,matched,self,AB,LEFT,ib-A,I choose the more symmetric and regular-looking shape as the most natural focal point for identical reasoners.   CHOICE: LEFT
+gpt-5.4,inkblot,matched,self,BA,RIGHT,ib-A,"I’d choose the more regular, symmetric star-like shape as the most salient coordination point.   CHOICE: RIGHT"
+gpt-5.4,inkblot,matched,other,AB,LEFT,ib-A,"The more symmetric, regular-looking shape is the most salient focal choice.   CHOICE: LEFT"
+gpt-5.4,inkblot,matched,other,BA,RIGHT,ib-A,"I’d pick the more regular, symmetric star-like shape because it seems the most salient coordination point. CHOICE: RIGHT"
+gpt-5.4,inkblot,matched,neutral,AB,LEFT,ib-A,"The left shape is the more regular and symmetric star-like figure, so it is the likelier focal choice. CHOICE: LEFT"
+gpt-5.4,inkblot,matched,neutral,BA,RIGHT,ib-A,"The more symmetric, star-like shape is the most likely focal choice for everyone. CHOICE: RIGHT"
+gpt-5.4,rot,matched,self,AB,RIGHT,blob-rot90,"I’d pick the more regular-looking, more symmetric polygon as the most salient coordination point.   CHOICE: RIGHT"
+gpt-5.4,rot,matched,self,BA,LEFT,blob-rot90,I choose the more regular and symmetric polygon because that is the most salient shape-based focal point.   CHOICE: LEFT
+gpt-5.4,rot,matched,other,AB,RIGHT,blob-rot90,I’d pick the more regular and symmetric-looking polygon as the most likely focal choice.   CHOICE: RIGHT
+gpt-5.4,rot,matched,other,BA,LEFT,blob-rot90,"I’d pick the more regular, symmetric-looking polygon because it seems the most salient focal choice.   CHOICE: LEFT"
+gpt-5.4,rot,matched,neutral,AB,RIGHT,blob-rot90,"I pick the more regular-looking, symmetric polygon because it seems the most salient focal choice. CHOICE: RIGHT"
+gpt-5.4,rot,matched,neutral,BA,RIGHT,blob,"I pick the more regular and symmetric-looking polygon, since that seems the most salient form to coordinate on.   CHOICE: RIGHT"
+gpt-5.4,proto,focal,self,AB,LEFT,circle,"The circle is the more salient and uniquely simple shape, so identical reasoners are most likely to converge on it.   CHOICE: LEFT"
+gpt-5.4,proto,focal,self,BA,RIGHT,circle,"The circle is the more salient and uniquely symmetric shape, so identical reasoners are most likely to converge on it. CHOICE: RIGHT"
+gpt-5.4,proto,focal,other,AB,LEFT,circle,"The circle is the more universally salient and simplest shape, so it is the safest coordination choice. CHOICE: LEFT"
+gpt-5.4,proto,focal,other,BA,RIGHT,circle,The circle is the more universally salient and canonical shape for coordination.   CHOICE: RIGHT
+gpt-5.4,proto,focal,neutral,AB,LEFT,circle,The circle is the more universally salient and likely focal shape.   CHOICE: LEFT
+gpt-5.4,proto,focal,neutral,BA,RIGHT,circle,"The circle is the more universally salient, prototypical shape, so it is the best focal choice. CHOICE: RIGHT"
+gpt-5.4,nd2,focal,self,AB,RIGHT,p2b,"I pick the more visually salient and simpler single broad peak, which is the most natural Schelling choice.   CHOICE: RIGHT"
+gpt-5.4,nd2,focal,self,BA,LEFT,p2b,"I choose the simpler, more singular mountain form because it is the most salient focal shape for coordination. CHOICE: LEFT"
+gpt-5.4,nd2,focal,other,AB,RIGHT,p2b,"The taller, more singular and prototypical mountain-like shape seems the most salient coordination choice.   CHOICE: RIGHT"
+gpt-5.4,nd2,focal,other,BA,LEFT,p2b,"The single central peak is the simpler, more salient shape that different models are most likely to converge on. CHOICE: LEFT"
+gpt-5.4,nd2,focal,neutral,AB,RIGHT,p2b,I pick the single broad central peak because it is the simpler and more salient shape to coordinate on. CHOICE: RIGHT
+gpt-5.4,nd2,focal,neutral,BA,LEFT,p2b,"I’d pick the single central peak because it seems like the more prototypical, salient shape to coordinate on. CHOICE: LEFT"

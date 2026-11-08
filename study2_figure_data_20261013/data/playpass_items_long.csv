@@ -1,0 +1,181 @@
+model,config,item,family,group,group_label,agreement,partner,n_attempted,n_transport_ok,n_parsed,n_play,source,p_play
+GPT-5.5,effort low,F05_orient_m3,F05_orient,LOW,LOW,0.3431,COPY,20,20,20,1,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.05
+GPT-5.5,effort low,F14_bars_m3,F14_bars,HIGH,HIGH,1.0,COPY,20,20,20,20,study_playpass_gpt/data/playpass_full_20260912_191607.csv,1.0
+GPT-5.5,effort low,F12_mirror_m3,F12_mirror,LOW,LOW,0.2988,COPY,20,20,20,2,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.1
+GPT-5.5,effort low,F02_size_m3,F02_size,HIGH,HIGH,0.9583,COPY,20,20,20,20,study_playpass_gpt/data/playpass_full_20260912_191607.csv,1.0
+GPT-5.5,effort low,F27_linecount_m1,F27_linecount,LOW,LOW,0.3564,COPY,20,20,20,13,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.65
+GPT-5.5,effort low,F10_curvature_m3,F10_curvature,HIGH,HIGH,0.9583,COPY,20,20,20,13,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.65
+GPT-5.5,effort low,F23_ellipseang_m1,F23_ellipseang,LOW,LOW,0.5461,COPY,20,20,20,10,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.5
+GPT-5.5,effort low,F32_tilt_m1,F32_tilt,HIGH,HIGH,1.0,COPY,20,20,20,20,study_playpass_gpt/data/playpass_full_20260912_191607.csv,1.0
+GPT-5.5,effort low,F36_split_m1,F36_split,LOW,LOW,0.3466,COPY,20,20,20,11,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.55
+GPT-5.5,effort low,F22_star_m1,F22_star,HIGH,HIGH,0.9583,COPY,20,20,20,12,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.6
+GPT-5.5,effort low,F28_dotarrange_m1,F28_dotarrange,LOW,LOW,0.4894,COPY,20,20,20,7,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.35
+GPT-5.5,effort low,F25_nested_m1,F25_nested,LOW,LOW,0.5035,COPY,20,20,20,13,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.65
+GPT-5.5,effort low,F41_contain_m1,F41_contain,HIGH,HIGH,1.0,COPY,20,20,20,8,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.4
+GPT-5.5,effort low,F24_subdiv_m1,F24_subdiv,HIGH,HIGH,1.0,COPY,20,20,20,12,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.6
+GPT-5.5,effort low,F35_gradang_m1,F35_gradang,LOW,LOW,0.3076,COPY,20,20,20,12,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.6
+GPT-5.5,effort low,F07_contrast_m3,F07_contrast,HIGH,HIGH,1.0,COPY,20,20,20,19,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.95
+GPT-5.5,effort low,F04_complexity_m3,F04_complexity,HIGH,HIGH,1.0,COPY,20,20,20,12,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.6
+GPT-5.5,effort low,F17_gapclock_m1,F17_gapclock,HIGH,HIGH,1.0,COPY,20,20,20,17,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.85
+GPT-5.5,effort low,F34_jitter_m1,F34_jitter,LOW,LOW,0.3644,COPY,20,20,20,11,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.55
+GPT-5.5,effort low,F11_noise_m3,F11_noise,LOW,LOW,0.4105,COPY,20,20,20,0,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.0
+GPT-5.5,effort low,F29_arcdir_m1,F29_arcdir,HIGH,HIGH,1.0,COPY,20,20,20,19,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.95
+GPT-5.5,effort low,F19_fill_m1,F19_fill,HIGH,HIGH,1.0,COPY,20,20,20,20,study_playpass_gpt/data/playpass_full_20260912_191607.csv,1.0
+GPT-5.5,effort low,F33_hole_m1,F33_hole,LOW,LOW,0.5035,COPY,20,20,20,3,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.15
+GPT-5.5,effort low,F30_pairratio_m1,F30_pairratio,LOW,LOW,0.4956,COPY,20,20,20,8,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.4
+GPT-5.5,effort low,F38_endcap_m1,F38_endcap,HIGH,HIGH,1.0,COPY,20,20,20,20,study_playpass_gpt/data/playpass_full_20260912_191607.csv,1.0
+GPT-5.5,effort low,F26_bumploc_m1,F26_bumploc,LOW,LOW,0.4973,COPY,20,20,20,13,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.65
+GPT-5.5,effort low,F09_convexity_m3,F09_convexity,HIGH,HIGH,0.9583,COPY,20,20,20,20,study_playpass_gpt/data/playpass_full_20260912_191607.csv,1.0
+GPT-5.5,effort low,F06_density_m3,F06_density,LOW,LOW,0.5115,COPY,20,20,20,14,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.7
+GPT-5.5,effort low,F37_mirroraxis_m1,F37_mirroraxis,LOW,LOW,0.5035,COPY,20,20,20,16,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.8
+GPT-5.5,effort low,F03_symmetry_m3,F03_symmetry,HIGH,HIGH,1.0,COPY,20,20,20,16,study_playpass_gpt/data/playpass_full_20260912_191607.csv,0.8
+GPT-5.5,effort low,F02_size_m3,F02_size,HIGH,HIGH,0.9583,DIFFERENT,20,20,20,20,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,1.0
+GPT-5.5,effort low,F14_bars_m3,F14_bars,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,1.0
+GPT-5.5,effort low,F12_mirror_m3,F12_mirror,LOW,LOW,0.2988,DIFFERENT,20,20,20,0,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.0
+GPT-5.5,effort low,F05_orient_m3,F05_orient,LOW,LOW,0.3431,DIFFERENT,20,20,20,0,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.0
+GPT-5.5,effort low,F27_linecount_m1,F27_linecount,LOW,LOW,0.3564,DIFFERENT,20,20,20,12,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.6
+GPT-5.5,effort low,F10_curvature_m3,F10_curvature,HIGH,HIGH,0.9583,DIFFERENT,20,20,20,9,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.45
+GPT-5.5,effort low,F23_ellipseang_m1,F23_ellipseang,LOW,LOW,0.5461,DIFFERENT,20,20,20,3,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.15
+GPT-5.5,effort low,F36_split_m1,F36_split,LOW,LOW,0.3466,DIFFERENT,20,20,20,4,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.2
+GPT-5.5,effort low,F32_tilt_m1,F32_tilt,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,1.0
+GPT-5.5,effort low,F22_star_m1,F22_star,HIGH,HIGH,0.9583,DIFFERENT,20,20,20,12,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.6
+GPT-5.5,effort low,F25_nested_m1,F25_nested,LOW,LOW,0.5035,DIFFERENT,20,20,20,8,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.4
+GPT-5.5,effort low,F28_dotarrange_m1,F28_dotarrange,LOW,LOW,0.4894,DIFFERENT,20,20,20,3,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.15
+GPT-5.5,effort low,F41_contain_m1,F41_contain,HIGH,HIGH,1.0,DIFFERENT,20,20,20,4,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.2
+GPT-5.5,effort low,F24_subdiv_m1,F24_subdiv,HIGH,HIGH,1.0,DIFFERENT,20,20,20,12,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.6
+GPT-5.5,effort low,F11_noise_m3,F11_noise,LOW,LOW,0.4105,DIFFERENT,20,20,20,0,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.0
+GPT-5.5,effort low,F35_gradang_m1,F35_gradang,LOW,LOW,0.3076,DIFFERENT,20,20,20,6,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.3
+GPT-5.5,effort low,F07_contrast_m3,F07_contrast,HIGH,HIGH,1.0,DIFFERENT,20,20,20,12,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.6
+GPT-5.5,effort low,F17_gapclock_m1,F17_gapclock,HIGH,HIGH,1.0,DIFFERENT,20,20,20,19,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.95
+GPT-5.5,effort low,F04_complexity_m3,F04_complexity,HIGH,HIGH,1.0,DIFFERENT,20,20,20,8,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.4
+GPT-5.5,effort low,F33_hole_m1,F33_hole,LOW,LOW,0.5035,DIFFERENT,20,20,20,2,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.1
+GPT-5.5,effort low,F34_jitter_m1,F34_jitter,LOW,LOW,0.3644,DIFFERENT,20,20,20,6,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.3
+GPT-5.5,effort low,F29_arcdir_m1,F29_arcdir,HIGH,HIGH,1.0,DIFFERENT,20,20,20,15,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.75
+GPT-5.5,effort low,F19_fill_m1,F19_fill,HIGH,HIGH,1.0,DIFFERENT,20,20,20,19,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.95
+GPT-5.5,effort low,F30_pairratio_m1,F30_pairratio,LOW,LOW,0.4956,DIFFERENT,20,20,20,6,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.3
+GPT-5.5,effort low,F26_bumploc_m1,F26_bumploc,LOW,LOW,0.4973,DIFFERENT,20,20,20,11,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.55
+GPT-5.5,effort low,F09_convexity_m3,F09_convexity,HIGH,HIGH,0.9583,DIFFERENT,20,20,20,14,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.7
+GPT-5.5,effort low,F38_endcap_m1,F38_endcap,HIGH,HIGH,1.0,DIFFERENT,20,20,20,19,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.95
+GPT-5.5,effort low,F37_mirroraxis_m1,F37_mirroraxis,LOW,LOW,0.5035,DIFFERENT,20,20,20,7,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.35
+GPT-5.5,effort low,F06_density_m3,F06_density,LOW,LOW,0.5115,DIFFERENT,20,20,20,13,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.65
+GPT-5.5,effort low,F03_symmetry_m3,F03_symmetry,HIGH,HIGH,1.0,DIFFERENT,20,20,20,14,study_playpass_gpt/data/playpass_full_different_low_20260912_195055.csv,0.7
+Claude Opus 5,"adaptive, effort low",F40_crossang_m1,F40_crossang,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F20_corner_m1,F20_corner,HIGH,HIGH,1.0,COPY,20,20,20,12,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.6
+Claude Opus 5,"adaptive, effort low",F19_fill_m1,F19_fill,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F18_stroke_m1,F18_stroke,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F17_gapclock_m1,F17_gapclock,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F16_aspect_m3,F16_aspect,HIGH,HIGH,1.0,COPY,20,20,20,19,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F14_bars_m3,F14_bars,HIGH,HIGH,1.0,COPY,20,20,20,19,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F13_count_m3,F13_count,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F08_closure_m3,F08_closure,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F07_contrast_m3,F07_contrast,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F04_complexity_m3,F04_complexity,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F03_symmetry_m3,F03_symmetry,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F02_size_m3,F02_size,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F22_star_m1,F22_star,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F21_notch_m1,F21_notch,HIGH,HIGH,1.0,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F31_overlap_m1,F31_overlap,LOW,LOW,0.3254,COPY,20,20,20,11,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.55
+Claude Opus 5,"adaptive, effort low",F35_gradang_m1,F35_gradang,LOW,LOW,0.3927,COPY,20,20,20,17,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.85
+Claude Opus 5,"adaptive, effort low",F37_mirroraxis_m1,F37_mirroraxis,LOW,LOW,0.4176,COPY,20,20,20,15,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.75
+Claude Opus 5,"adaptive, effort low",F26_bumploc_m1,F26_bumploc,LOW,LOW,0.4468,COPY,20,20,20,17,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.85
+Claude Opus 5,"adaptive, effort low",F05_orient_m3,F05_orient,LOW,LOW,0.4495,COPY,20,20,20,14,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.7
+Claude Opus 5,"adaptive, effort low",F36_split_m1,F36_split,LOW,LOW,0.469,COPY,20,20,20,14,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.7
+Claude Opus 5,"adaptive, effort low",F41_contain_m1,F41_contain,LOW,LOW,0.4858,COPY,20,20,20,12,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.6
+Claude Opus 5,"adaptive, effort low",F15_ring_m3,F15_ring,LOW,LOW,0.4929,COPY,20,20,20,19,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F34_jitter_m1,F34_jitter,LOW,LOW,0.5328,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F30_pairratio_m1,F30_pairratio,LOW,LOW,0.5381,COPY,20,20,20,16,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.8
+Claude Opus 5,"adaptive, effort low",F12_mirror_m3,F12_mirror,LOW,LOW,0.5488,COPY,20,20,20,18,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.9
+Claude Opus 5,"adaptive, effort low",F10_curvature_m3,F10_curvature,LOW,LOW,0.6631,COPY,20,20,20,20,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F11_noise_m3,F11_noise,LOW,LOW,0.6631,COPY,20,20,20,4,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.2
+Claude Opus 5,"adaptive, effort low",F28_dotarrange_m1,F28_dotarrange,LOW,LOW,0.6764,COPY,20,20,20,19,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F24_subdiv_m1,F24_subdiv,LOW,LOW,0.6888,COPY,20,20,20,17,Stag/opus_playpass/results/parallel_20260912_191415/raw_rows.json,0.85
+Claude Opus 5,"adaptive, effort low",F40_crossang_m1,F40_crossang,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F20_corner_m1,F20_corner,HIGH,HIGH,1.0,DIFFERENT,20,20,20,11,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.55
+Claude Opus 5,"adaptive, effort low",F19_fill_m1,F19_fill,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F18_stroke_m1,F18_stroke,HIGH,HIGH,1.0,DIFFERENT,20,20,20,19,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F17_gapclock_m1,F17_gapclock,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F16_aspect_m3,F16_aspect,HIGH,HIGH,1.0,DIFFERENT,20,20,20,18,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.9
+Claude Opus 5,"adaptive, effort low",F14_bars_m3,F14_bars,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F13_count_m3,F13_count,HIGH,HIGH,1.0,DIFFERENT,20,20,20,19,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F08_closure_m3,F08_closure,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F07_contrast_m3,F07_contrast,HIGH,HIGH,1.0,DIFFERENT,20,20,20,17,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.85
+Claude Opus 5,"adaptive, effort low",F04_complexity_m3,F04_complexity,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F03_symmetry_m3,F03_symmetry,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F02_size_m3,F02_size,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F22_star_m1,F22_star,HIGH,HIGH,1.0,DIFFERENT,20,20,20,20,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,1.0
+Claude Opus 5,"adaptive, effort low",F21_notch_m1,F21_notch,HIGH,HIGH,1.0,DIFFERENT,20,20,20,19,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F31_overlap_m1,F31_overlap,LOW,LOW,0.3254,DIFFERENT,20,20,20,12,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.6
+Claude Opus 5,"adaptive, effort low",F35_gradang_m1,F35_gradang,LOW,LOW,0.3927,DIFFERENT,20,20,20,7,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.35
+Claude Opus 5,"adaptive, effort low",F37_mirroraxis_m1,F37_mirroraxis,LOW,LOW,0.4176,DIFFERENT,20,20,20,5,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.25
+Claude Opus 5,"adaptive, effort low",F26_bumploc_m1,F26_bumploc,LOW,LOW,0.4468,DIFFERENT,20,20,20,10,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.5
+Claude Opus 5,"adaptive, effort low",F05_orient_m3,F05_orient,LOW,LOW,0.4495,DIFFERENT,20,20,20,6,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.3
+Claude Opus 5,"adaptive, effort low",F36_split_m1,F36_split,LOW,LOW,0.469,DIFFERENT,20,20,20,4,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.2
+Claude Opus 5,"adaptive, effort low",F41_contain_m1,F41_contain,LOW,LOW,0.4858,DIFFERENT,20,20,20,4,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.2
+Claude Opus 5,"adaptive, effort low",F15_ring_m3,F15_ring,LOW,LOW,0.4929,DIFFERENT,20,20,20,13,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.65
+Claude Opus 5,"adaptive, effort low",F34_jitter_m1,F34_jitter,LOW,LOW,0.5328,DIFFERENT,20,20,20,18,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.9
+Claude Opus 5,"adaptive, effort low",F30_pairratio_m1,F30_pairratio,LOW,LOW,0.5381,DIFFERENT,20,20,20,14,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.7
+Claude Opus 5,"adaptive, effort low",F12_mirror_m3,F12_mirror,LOW,LOW,0.5488,DIFFERENT,20,20,20,1,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.05
+Claude Opus 5,"adaptive, effort low",F10_curvature_m3,F10_curvature,LOW,LOW,0.6631,DIFFERENT,20,20,20,19,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.95
+Claude Opus 5,"adaptive, effort low",F11_noise_m3,F11_noise,LOW,LOW,0.6631,DIFFERENT,20,20,20,0,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.0
+Claude Opus 5,"adaptive, effort low",F28_dotarrange_m1,F28_dotarrange,LOW,LOW,0.6764,DIFFERENT,20,20,20,17,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.85
+Claude Opus 5,"adaptive, effort low",F24_subdiv_m1,F24_subdiv,LOW,LOW,0.6888,DIFFERENT,20,20,20,17,Stag/opus_playpass/results/pp_different_adaptive_efflow_20260912_200226/raw_rows.json,0.85
+Qwen step-316,thinking off,hotel,hotel,HIGH,CLEAR,1.0,COPY,20,20,20,16,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.8
+Qwen step-316,thinking off,hotel,hotel,HIGH,CLEAR,1.0,DIFFERENT,20,20,20,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.75
+Qwen step-316,thinking off,rabbit,rabbit,HIGH,CLEAR,0.99,COPY,20,20,20,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.75
+Qwen step-316,thinking off,rabbit,rabbit,HIGH,CLEAR,0.99,DIFFERENT,20,20,20,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.75
+Qwen step-316,thinking off,house,house,HIGH,CLEAR,0.9805128205128205,COPY,20,20,19,11,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.5789473684210527
+Qwen step-316,thinking off,house,house,HIGH,CLEAR,0.9805128205128205,DIFFERENT,20,20,20,10,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.5
+Qwen step-316,thinking off,snow_blower,snow_blower,HIGH,CLEAR,0.98,COPY,20,20,19,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.7894736842105263
+Qwen step-316,thinking off,snow_blower,snow_blower,HIGH,CLEAR,0.98,DIFFERENT,20,20,20,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.65
+Qwen step-316,thinking off,dry_bag,dry_bag,HIGH,CLEAR,0.98,COPY,20,20,20,10,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.5
+Qwen step-316,thinking off,dry_bag,dry_bag,HIGH,CLEAR,0.98,DIFFERENT,20,20,19,8,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.42105263157894735
+Qwen step-316,thinking off,mold_test,mold_test,HIGH,CLEAR,0.9705128205128205,COPY,20,20,20,14,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.7
+Qwen step-316,thinking off,mold_test,mold_test,HIGH,CLEAR,0.9705128205128205,DIFFERENT,20,20,20,6,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.3
+Qwen step-316,thinking off,pattern_weights,pattern_weights,HIGH,CLEAR,0.9615384615384616,COPY,20,20,20,14,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.7
+Qwen step-316,thinking off,pattern_weights,pattern_weights,HIGH,CLEAR,0.9615384615384616,DIFFERENT,20,20,19,11,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.5789473684210527
+Qwen step-316,thinking off,sewing_machine,sewing_machine,HIGH,CLEAR,0.9551282051282052,COPY,20,20,20,19,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.95
+Qwen step-316,thinking off,sewing_machine,sewing_machine,HIGH,CLEAR,0.9551282051282052,DIFFERENT,20,20,19,17,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.8947368421052632
+Qwen step-316,thinking off,adapter,adapter,HIGH,CLEAR,0.953076923076923,COPY,20,20,20,16,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.8
+Qwen step-316,thinking off,adapter,adapter,HIGH,CLEAR,0.953076923076923,DIFFERENT,20,20,19,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6842105263157895
+Qwen step-316,thinking off,magnetic_calendar,magnetic_calendar,HIGH,CLEAR,0.951025641025641,COPY,20,20,20,19,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.95
+Qwen step-316,thinking off,magnetic_calendar,magnetic_calendar,HIGH,CLEAR,0.951025641025641,DIFFERENT,20,20,19,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6842105263157895
+Qwen step-316,thinking off,ecg_monitor,ecg_monitor,HIGH,CLEAR,0.951025641025641,COPY,20,20,20,16,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.8
+Qwen step-316,thinking off,ecg_monitor,ecg_monitor,HIGH,CLEAR,0.951025641025641,DIFFERENT,20,20,20,8,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.4
+Qwen step-316,thinking off,cocktail_kit,cocktail_kit,HIGH,CLEAR,0.9435897435897436,COPY,20,20,20,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.75
+Qwen step-316,thinking off,cocktail_kit,cocktail_kit,HIGH,CLEAR,0.9435897435897436,DIFFERENT,20,20,20,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.75
+Qwen step-316,thinking off,soil,soil,HIGH,CLEAR,0.9420512820512821,COPY,20,20,20,14,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.7
+Qwen step-316,thinking off,soil,soil,HIGH,CLEAR,0.9420512820512821,DIFFERENT,20,20,20,17,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.85
+Qwen step-316,thinking off,loan,loan,HIGH,CLEAR,0.9351282051282052,COPY,20,20,20,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.75
+Qwen step-316,thinking off,loan,loan,HIGH,CLEAR,0.9351282051282052,DIFFERENT,20,20,20,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.65
+Qwen step-316,thinking off,alcohol_markers,alcohol_markers,HIGH,CLEAR,0.9243589743589743,COPY,20,20,20,17,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.85
+Qwen step-316,thinking off,alcohol_markers,alcohol_markers,HIGH,CLEAR,0.9243589743589743,DIFFERENT,20,20,20,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.65
+Qwen step-316,thinking off,milk_storage_bags,milk_storage_bags,LOW,WEAK,0.7311066126855601,COPY,20,20,19,11,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.5789473684210527
+Qwen step-316,thinking off,milk_storage_bags,milk_storage_bags,LOW,WEAK,0.7311066126855601,DIFFERENT,20,20,20,9,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.45
+Qwen step-316,thinking off,golf_cart,golf_cart,LOW,WEAK,0.7297435897435898,COPY,20,20,20,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.65
+Qwen step-316,thinking off,golf_cart,golf_cart,LOW,WEAK,0.7297435897435898,DIFFERENT,20,20,20,7,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.35
+Qwen step-316,thinking off,bracelet,bracelet,LOW,WEAK,0.7294871794871794,COPY,20,20,19,17,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.8947368421052632
+Qwen step-316,thinking off,bracelet,bracelet,LOW,WEAK,0.7294871794871794,DIFFERENT,20,20,18,12,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6666666666666666
+Qwen step-316,thinking off,antenna,antenna,LOW,WEAK,0.7215384615384616,COPY,20,20,20,7,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.35
+Qwen step-316,thinking off,antenna,antenna,LOW,WEAK,0.7215384615384616,DIFFERENT,20,20,20,5,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.25
+Qwen step-316,thinking off,hoodie,hoodie,LOW,WEAK,0.7194871794871796,COPY,20,20,20,11,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.55
+Qwen step-316,thinking off,hoodie,hoodie,LOW,WEAK,0.7194871794871796,DIFFERENT,20,20,20,8,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.4
+Qwen step-316,thinking off,fabric_markers,fabric_markers,LOW,WEAK,0.7194871794871794,COPY,20,20,20,12,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6
+Qwen step-316,thinking off,fabric_markers,fabric_markers,LOW,WEAK,0.7194871794871794,DIFFERENT,20,20,20,12,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6
+Qwen step-316,thinking off,olive_pitter,olive_pitter,LOW,WEAK,0.7174358974358974,COPY,20,20,20,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.65
+Qwen step-316,thinking off,olive_pitter,olive_pitter,LOW,WEAK,0.7174358974358974,DIFFERENT,20,20,19,12,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.631578947368421
+Qwen step-316,thinking off,safety_pins,safety_pins,LOW,WEAK,0.7053846153846154,COPY,20,20,19,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6842105263157895
+Qwen step-316,thinking off,safety_pins,safety_pins,LOW,WEAK,0.7053846153846154,DIFFERENT,20,20,20,6,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.3
+Qwen step-316,thinking off,shuffleboard_table,shuffleboard_table,LOW,WEAK,0.7007692307692308,COPY,20,20,19,14,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.7368421052631579
+Qwen step-316,thinking off,shuffleboard_table,shuffleboard_table,LOW,WEAK,0.7007692307692308,DIFFERENT,20,20,20,12,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6
+Qwen step-316,thinking off,fins,fins,LOW,WEAK,0.6735897435897437,COPY,20,20,20,12,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.6
+Qwen step-316,thinking off,fins,fins,LOW,WEAK,0.6735897435897437,DIFFERENT,20,20,20,6,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.3
+Qwen step-316,thinking off,ham,ham,LOW,WEAK,0.6697435897435897,COPY,20,20,20,3,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.15
+Qwen step-316,thinking off,ham,ham,LOW,WEAK,0.6697435897435897,DIFFERENT,20,20,20,4,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.2
+Qwen step-316,thinking off,windshield_cover,windshield_cover,LOW,WEAK,0.6069230769230769,COPY,20,20,20,14,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.7
+Qwen step-316,thinking off,windshield_cover,windshield_cover,LOW,WEAK,0.6069230769230769,DIFFERENT,20,20,20,7,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.35
+Qwen step-316,thinking off,garment_steamer,garment_steamer,LOW,WEAK,0.6017948717948718,COPY,20,20,20,13,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.65
+Qwen step-316,thinking off,garment_steamer,garment_steamer,LOW,WEAK,0.6017948717948718,DIFFERENT,20,20,20,9,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.45
+Qwen step-316,thinking off,balance_board,balance_board,LOW,WEAK,0.597948717948718,COPY,20,20,20,18,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.9
+Qwen step-316,thinking off,balance_board,balance_board,LOW,WEAK,0.597948717948718,DIFFERENT,20,20,20,15,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.75
+Qwen step-316,thinking off,tamper,tamper,LOW,WEAK,0.538974358974359,COPY,20,20,20,14,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.7
+Qwen step-316,thinking off,tamper,tamper,LOW,WEAK,0.538974358974359,DIFFERENT,20,20,20,7,Stag/plunkett_qwen/results/s2_20260912_181428/raw/s2_trials.jsonl,0.35

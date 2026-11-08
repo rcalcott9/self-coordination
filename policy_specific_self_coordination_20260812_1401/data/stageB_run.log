@@ -1,0 +1,46 @@
+
+=== STAGE B / auditor ===
+  Claude Opus 5 predicts GPT-5.5 self-self
+  GPT-5.5 predicts Claude Opus 5 self-self
+  prompt sha8 (focal=gpt)   : 4df579ca
+  prompt sha8 (focal=claude): 768ec589
+  stimuli: 15   trials: 900
+
+  100/900 trials
+  200/900 trials
+  300/900 trials
+  400/900 trials
+  500/900 trials
+  600/900 trials
+  700/900 trials
+  800/900 trials
+  900/900 trials
+
+=== stage B/auditor done: 900 trials in 741s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/policy_specific_self_coordination_20260812_1401/data/stageB_auditor_20260812_153330.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/policy_specific_self_coordination_20260812_1401/data/stageB_auditor_20260812_153330.jsonl
+
+=== STAGE B / salience ===
+  both models rate generic salience (no focal model named)
+  prompt sha8: bef7b3ec
+  stimuli: 15   trials: 900
+
+  100/900 trials
+  200/900 trials
+  300/900 trials
+  400/900 trials
+  500/900 trials
+  600/900 trials
+  700/900 trials
+  800/900 trials
+  900/900 trials
+
+=== stage B/salience done: 900 trials in 671s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/policy_specific_self_coordination_20260812_1401/data/stageB_salience_20260812_154552.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/policy_specific_self_coordination_20260812_1401/data/stageB_salience_20260812_154552.jsonl

@@ -1,0 +1,702 @@
+{
+ "loose_leaf_tea": {
+  "attr1": -100,
+  "attr2": 95,
+  "attr3": 72,
+  "attr4": -67,
+  "attr5": -1
+ },
+ "cutting_board": {
+  "attr1": -11,
+  "attr2": 32,
+  "attr3": 61,
+  "attr4": -86,
+  "attr5": -100
+ },
+ "knee_pads": {
+  "attr1": 67,
+  "attr2": -14,
+  "attr3": 53,
+  "attr4": -100,
+  "attr5": -11
+ },
+ "ice_cream": {
+  "attr1": 47,
+  "attr2": -58,
+  "attr3": 95,
+  "attr4": 86,
+  "attr5": -100
+ },
+ "painters_tape": {
+  "attr1": -100,
+  "attr2": 9,
+  "attr3": 93,
+  "attr4": -25,
+  "attr5": -60
+ },
+ "olive_pitter": {
+  "attr1": -17,
+  "attr2": -100,
+  "attr3": -59,
+  "attr4": -13,
+  "attr5": -1
+ },
+ "wood_burner": {
+  "attr1": -95,
+  "attr2": -96,
+  "attr3": -100,
+  "attr4": -14,
+  "attr5": -75
+ },
+ "hotel": {
+  "attr1": -100,
+  "attr2": 71,
+  "attr3": 12,
+  "attr4": 30,
+  "attr5": -66
+ },
+ "hot_glue_sticks": {
+  "attr1": 100,
+  "attr2": 73,
+  "attr3": -77,
+  "attr4": -34,
+  "attr5": 45
+ },
+ "scrunchie": {
+  "attr1": 48,
+  "attr2": 100,
+  "attr3": -18,
+  "attr4": 76,
+  "attr5": 39
+ },
+ "rfid_wallet": {
+  "attr1": -51,
+  "attr2": 23,
+  "attr3": 100,
+  "attr4": 91,
+  "attr5": 1
+ },
+ "blush": {
+  "attr1": 19,
+  "attr2": -100,
+  "attr3": -55,
+  "attr4": 64,
+  "attr5": -18
+ },
+ "cocktail_kit": {
+  "attr1": -100,
+  "attr2": 15,
+  "attr3": 62,
+  "attr4": 53,
+  "attr5": -38
+ },
+ "security_camera": {
+  "attr1": -22,
+  "attr2": 3,
+  "attr3": 100,
+  "attr4": 8,
+  "attr5": -38
+ },
+ "shuffleboard_table": {
+  "attr1": -2,
+  "attr2": -97,
+  "attr3": -94,
+  "attr4": 42,
+  "attr5": 100
+ },
+ "reusable_bag": {
+  "attr1": 19,
+  "attr2": -22,
+  "attr3": -68,
+  "attr4": 0,
+  "attr5": 100
+ },
+ "luggage_tag": {
+  "attr1": 75,
+  "attr2": 11,
+  "attr3": 100,
+  "attr4": -74,
+  "attr5": 4
+ },
+ "inversion_table": {
+  "attr1": 100,
+  "attr2": 17,
+  "attr3": -9,
+  "attr4": -51,
+  "attr5": 11
+ },
+ "shower_curtain": {
+  "attr1": 92,
+  "attr2": -100,
+  "attr3": 57,
+  "attr4": 65,
+  "attr5": 78
+ },
+ "milk_storage_bags": {
+  "attr1": 78,
+  "attr2": 100,
+  "attr3": 6,
+  "attr4": 20,
+  "attr5": -24
+ },
+ "nail_file": {
+  "attr1": -100,
+  "attr2": 83,
+  "attr3": 16,
+  "attr4": -68,
+  "attr5": 1
+ },
+ "pasta_maker": {
+  "attr1": -10,
+  "attr2": -93,
+  "attr3": -100,
+  "attr4": 25,
+  "attr5": 80
+ },
+ "washing_machine": {
+  "attr1": 24,
+  "attr2": -9,
+  "attr3": -100,
+  "attr4": -57,
+  "attr5": -68
+ },
+ "easel": {
+  "attr1": 23,
+  "attr2": 100,
+  "attr3": 83,
+  "attr4": 82,
+  "attr5": 88
+ },
+ "salmon": {
+  "attr1": -51,
+  "attr2": 71,
+  "attr3": 36,
+  "attr4": -86,
+  "attr5": -100
+ },
+ "magnetic_calendar": {
+  "attr1": -100,
+  "attr2": 53,
+  "attr3": -52,
+  "attr4": -80,
+  "attr5": 26
+ },
+ "ham": {
+  "attr1": -36,
+  "attr2": -100,
+  "attr3": -79,
+  "attr4": 6,
+  "attr5": -77
+ },
+ "snow_blower": {
+  "attr1": -100,
+  "attr2": 93,
+  "attr3": -20,
+  "attr4": -78,
+  "attr5": -12
+ },
+ "ecg_monitor": {
+  "attr1": -100,
+  "attr2": -24,
+  "attr3": -17,
+  "attr4": -65,
+  "attr5": -82
+ },
+ "dslr_camera": {
+  "attr1": 100,
+  "attr2": 3,
+  "attr3": -73,
+  "attr4": 26,
+  "attr5": 79
+ },
+ "convertible": {
+  "attr1": -99,
+  "attr2": -100,
+  "attr3": -73,
+  "attr4": 45,
+  "attr5": -70
+ },
+ "washi_tape": {
+  "attr1": 43,
+  "attr2": 37,
+  "attr3": 9,
+  "attr4": -59,
+  "attr5": 100
+ },
+ "dry_bag": {
+  "attr1": 100,
+  "attr2": 6,
+  "attr3": -93,
+  "attr4": 50,
+  "attr5": -35
+ },
+ "hair_dryer": {
+  "attr1": 17,
+  "attr2": -41,
+  "attr3": 30,
+  "attr4": -100,
+  "attr5": -46
+ },
+ "balance_board": {
+  "attr1": 100,
+  "attr2": 80,
+  "attr3": -41,
+  "attr4": 77,
+  "attr5": -41
+ },
+ "hoodie": {
+  "attr1": 89,
+  "attr2": 50,
+  "attr3": -17,
+  "attr4": -50,
+  "attr5": -100
+ },
+ "loan": {
+  "attr1": 82,
+  "attr2": -100,
+  "attr3": 69,
+  "attr4": 100,
+  "attr5": 15
+ },
+ "mold_test": {
+  "attr1": -69,
+  "attr2": 78,
+  "attr3": 100,
+  "attr4": 43,
+  "attr5": 2
+ },
+ "boxing_gloves": {
+  "attr1": -41,
+  "attr2": -52,
+  "attr3": -100,
+  "attr4": 59,
+  "attr5": -23
+ },
+ "citrus_juicer": {
+  "attr1": -77,
+  "attr2": -100,
+  "attr3": 42,
+  "attr4": -52,
+  "attr5": 0
+ },
+ "stopwatch": {
+  "attr1": -36,
+  "attr2": 77,
+  "attr3": 83,
+  "attr4": -100,
+  "attr5": -62
+ },
+ "fins": {
+  "attr1": -35,
+  "attr2": 100,
+  "attr3": 58,
+  "attr4": -33,
+  "attr5": -59
+ },
+ "lip_scrub": {
+  "attr1": 40,
+  "attr2": 78,
+  "attr3": 100,
+  "attr4": -36,
+  "attr5": 88
+ },
+ "hoe": {
+  "attr1": 39,
+  "attr2": -3,
+  "attr3": 100,
+  "attr4": -55,
+  "attr5": 46
+ },
+ "pilates_ring": {
+  "attr1": -100,
+  "attr2": -80,
+  "attr3": 99,
+  "attr4": -69,
+  "attr5": 62
+ },
+ "oven": {
+  "attr1": 29,
+  "attr2": 100,
+  "attr3": -39,
+  "attr4": -47,
+  "attr5": -61
+ },
+ "sparkling_water": {
+  "attr1": 81,
+  "attr2": 23,
+  "attr3": 100,
+  "attr4": 85,
+  "attr5": -80
+ },
+ "gas_can": {
+  "attr1": 11,
+  "attr2": -86,
+  "attr3": -100,
+  "attr4": -93,
+  "attr5": 79
+ },
+ "golf_cart": {
+  "attr1": 88,
+  "attr2": 100,
+  "attr3": -48,
+  "attr4": 35,
+  "attr5": 86
+ },
+ "tongs": {
+  "attr1": -29,
+  "attr2": 17,
+  "attr3": -66,
+  "attr4": -100,
+  "attr5": -56
+ },
+ "sippy_cup": {
+  "attr1": 92,
+  "attr2": 15,
+  "attr3": 100,
+  "attr4": -10,
+  "attr5": -52
+ },
+ "windshield_cover": {
+  "attr1": 59,
+  "attr2": 67,
+  "attr3": -100,
+  "attr4": 35,
+  "attr5": -84
+ },
+ "console": {
+  "attr1": -79,
+  "attr2": 79,
+  "attr3": -94,
+  "attr4": -53,
+  "attr5": 100
+ },
+ "stapler": {
+  "attr1": -21,
+  "attr2": -100,
+  "attr3": -87,
+  "attr4": -67,
+  "attr5": 63
+ },
+ "jewelry_kit": {
+  "attr1": -84,
+  "attr2": 87,
+  "attr3": -26,
+  "attr4": 100,
+  "attr5": 87
+ },
+ "antenna": {
+  "attr1": -52,
+  "attr2": -62,
+  "attr3": -6,
+  "attr4": -100,
+  "attr5": 38
+ },
+ "house": {
+  "attr1": -94,
+  "attr2": -100,
+  "attr3": 99,
+  "attr4": -42,
+  "attr5": 20
+ },
+ "electric_grill": {
+  "attr1": -11,
+  "attr2": -40,
+  "attr3": -93,
+  "attr4": 88,
+  "attr5": 100
+ },
+ "tea": {
+  "attr1": 98,
+  "attr2": -81,
+  "attr3": -59,
+  "attr4": 25,
+  "attr5": 100
+ },
+ "lint_roller": {
+  "attr1": 18,
+  "attr2": 78,
+  "attr3": 67,
+  "attr4": -100,
+  "attr5": 17
+ },
+ "diaper_bag": {
+  "attr1": -40,
+  "attr2": -52,
+  "attr3": -87,
+  "attr4": -45,
+  "attr5": 100
+ },
+ "sponges": {
+  "attr1": -12,
+  "attr2": 34,
+  "attr3": 33,
+  "attr4": 100,
+  "attr5": -25
+ },
+ "popcorn": {
+  "attr1": -49,
+  "attr2": -44,
+  "attr3": -47,
+  "attr4": 88,
+  "attr5": 100
+ },
+ "recliner": {
+  "attr1": -100,
+  "attr2": -84,
+  "attr3": 22,
+  "attr4": 40,
+  "attr5": 49
+ },
+ "arrows": {
+  "attr1": -53,
+  "attr2": -100,
+  "attr3": -53,
+  "attr4": -89,
+  "attr5": 11
+ },
+ "pattern_weights": {
+  "attr1": -100,
+  "attr2": -99,
+  "attr3": 32,
+  "attr4": -49,
+  "attr5": 68
+ },
+ "wheelbarrow": {
+  "attr1": -2,
+  "attr2": 100,
+  "attr3": -95,
+  "attr4": 0,
+  "attr5": 81
+ },
+ "soil": {
+  "attr1": -87,
+  "attr2": 93,
+  "attr3": -67,
+  "attr4": 57,
+  "attr5": 100
+ },
+ "sleeping_bag": {
+  "attr1": 77,
+  "attr2": -43,
+  "attr3": -94,
+  "attr4": 3,
+  "attr5": 100
+ },
+ "paper_towel": {
+  "attr1": -44,
+  "attr2": 84,
+  "attr3": -77,
+  "attr4": 88,
+  "attr5": -100
+ },
+ "outdoor_tv_cover": {
+  "attr1": -45,
+  "attr2": 99,
+  "attr3": 75,
+  "attr4": 100,
+  "attr5": 84
+ },
+ "tamper": {
+  "attr1": 72,
+  "attr2": 55,
+  "attr3": -94,
+  "attr4": -20,
+  "attr5": -100
+ },
+ "garment_steamer": {
+  "attr1": 46,
+  "attr2": 36,
+  "attr3": -53,
+  "attr4": -94,
+  "attr5": 100
+ },
+ "alcohol_markers": {
+  "attr1": 88,
+  "attr2": 14,
+  "attr3": 12,
+  "attr4": 100,
+  "attr5": -13
+ },
+ "rabbit": {
+  "attr1": -22,
+  "attr2": -34,
+  "attr3": -51,
+  "attr4": -100,
+  "attr5": 31
+ },
+ "bracelet": {
+  "attr1": -19,
+  "attr2": 16,
+  "attr3": -100,
+  "attr4": -33,
+  "attr5": -83
+ },
+ "adapter": {
+  "attr1": -100,
+  "attr2": -64,
+  "attr3": 88,
+  "attr4": -27,
+  "attr5": -26
+ },
+ "night_light": {
+  "attr1": 23,
+  "attr2": -54,
+  "attr3": -100,
+  "attr4": 6,
+  "attr5": 0
+ },
+ "travel_wallet": {
+  "attr1": 57,
+  "attr2": -24,
+  "attr3": 71,
+  "attr4": 88,
+  "attr5": -100
+ },
+ "central_vacuum": {
+  "attr1": -2,
+  "attr2": -8,
+  "attr3": -100,
+  "attr4": -32,
+  "attr5": 22
+ },
+ "microwave_cover": {
+  "attr1": 90,
+  "attr2": 92,
+  "attr3": -50,
+  "attr4": 32,
+  "attr5": -100
+ },
+ "porch_swing": {
+  "attr1": -100,
+  "attr2": 3,
+  "attr3": 88,
+  "attr4": -79,
+  "attr5": 62
+ },
+ "stability_ball": {
+  "attr1": 100,
+  "attr2": -49,
+  "attr3": 50,
+  "attr4": 91,
+  "attr5": -34
+ },
+ "ink_cartridge": {
+  "attr1": 51,
+  "attr2": 60,
+  "attr3": 24,
+  "attr4": 90,
+  "attr5": 100
+ },
+ "wood_glue": {
+  "attr1": 100,
+  "attr2": 15,
+  "attr3": -70,
+  "attr4": -54,
+  "attr5": -61
+ },
+ "sleep_sack": {
+  "attr1": 16,
+  "attr2": 58,
+  "attr3": -100,
+  "attr4": 41,
+  "attr5": 48
+ },
+ "mixer": {
+  "attr1": -33,
+  "attr2": 3,
+  "attr3": -73,
+  "attr4": 50,
+  "attr5": -100
+ },
+ "dominoes": {
+  "attr1": 100,
+  "attr2": 64,
+  "attr3": 27,
+  "attr4": -48,
+  "attr5": 86
+ },
+ "crochet_hook": {
+  "attr1": 100,
+  "attr2": -79,
+  "attr3": 60,
+  "attr4": 74,
+  "attr5": 35
+ },
+ "sawhorse": {
+  "attr1": 43,
+  "attr2": -12,
+  "attr3": 90,
+  "attr4": 100,
+  "attr5": -25
+ },
+ "stockings": {
+  "attr1": 81,
+  "attr2": -18,
+  "attr3": -90,
+  "attr4": -47,
+  "attr5": -100
+ },
+ "fabric_markers": {
+  "attr1": 89,
+  "attr2": 100,
+  "attr3": -83,
+  "attr4": 22,
+  "attr5": -20
+ },
+ "cherry_pitter": {
+  "attr1": -77,
+  "attr2": -41,
+  "attr3": -51,
+  "attr4": 50,
+  "attr5": -100
+ },
+ "amusement_park": {
+  "attr1": -65,
+  "attr2": -13,
+  "attr3": -100,
+  "attr4": 27,
+  "attr5": 22
+ },
+ "snow_brush": {
+  "attr1": 100,
+  "attr2": -87,
+  "attr3": -64,
+  "attr4": 13,
+  "attr5": -68
+ },
+ "safety_pins": {
+  "attr1": 28,
+  "attr2": -81,
+  "attr3": 59,
+  "attr4": 94,
+  "attr5": 100
+ },
+ "sewing_machine": {
+  "attr1": 100,
+  "attr2": 10,
+  "attr3": -2,
+  "attr4": 75,
+  "attr5": 57
+ },
+ "pressure_cooker": {
+  "attr1": 18,
+  "attr2": -30,
+  "attr3": -55,
+  "attr4": -100,
+  "attr5": 78
+ },
+ "necklace_stand": {
+  "attr1": -82,
+  "attr2": 53,
+  "attr3": 10,
+  "attr4": 100,
+  "attr5": 56
+ },
+ "soccer_ball": {
+  "attr1": 100,
+  "attr2": -77,
+  "attr3": 0,
+  "attr4": 15,
+  "attr5": -40
+ }
+}

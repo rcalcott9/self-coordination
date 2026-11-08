@@ -1,0 +1,2 @@
+jobs 384 · final 8 · pending now 376 · prior Study 3 $51.31619 · this pilot so far $0.0391 · cap $20.0 · ceiling $71.31619
+{"ts": "2026-10-17T20:28:55+00:00", "records": 384, "by_status": {"ok": 384, "invalid_response": 0, "refusal": 0, "api_failure": 0}, "run_spent": 1.99287, "cumulative": 53.30905, "refusals": 0, "bank_sealed": ["Claude Opus 5", "GPT-5.5"], "stop_reason": null}

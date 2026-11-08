@@ -1,0 +1,8 @@
+stimulus_id,family,hypothesised_track,track_at_075,focal_at_075,track_at_090,focal_at_090,reason
+q_closure_cplx,Q1_closure_complexity,B,shared_control,both,shared_control,both,"both form-driven, same modal object"
+q_nesting_weight,Q2_nesting_weight,B,fail,,fail,,"gpt modal share 0.6667<0.75; gpt mixed (FC 0.5, pos 0.4167)"
+q_sizerank_tone,Q3_sizerank_tone,B,fail,,fail,,"gpt modal share 0.5417<0.75; gpt mixed (FC 0.6667, pos 0.3333); claude mixed (FC 0.6667, pos 0.4167)"
+q_grain_arrange,Q4_grain_arrangement,B,fail,,fail,,"gpt mixed (FC 0.5, pos 0.3333); claude modal share 0.5<0.75; claude mixed (FC 0.3333, pos 0.375)"
+q_tone_fill_edge,Q5_fill_edge_tone,A,fail,,fail,,"gpt mixed (FC 0.3333, pos 0.375); claude modal share 0.5417<0.75; claude mixed (FC 0.3333, pos 0.4583)"
+q_chevron_4way,Q6_chevron_orientation,A,fail,,fail,,"claude mixed (FC 0.5, pos 0.2917)"
+q_numer_arrange,Q7_numerosity_arrangement,A,fail,,fail,,"gpt mixed (FC 0.6667, pos 0.3333); claude modal share 0.5417<0.75; claude mixed (FC 0.5, pos 0.375)"

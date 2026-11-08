@@ -1,0 +1,140 @@
+[format_check_resume 8] claude-opus-5|fc_prediction|1 stop=end_turn out=226 ok=True $0.0082 spent=$0.0894 
+[pilot 9] gpt-5.5|action|0 stop=completed out=411 ok=True $0.0133 spent=$0.1027 
+[pilot 10] claude-opus-5|action|0 stop=end_turn out=116 ok=True $0.0043 spent=$0.1070 
+[pilot 11] gpt-5.5|action|1 stop=completed out=198 ok=True $0.0069 spent=$0.1139 
+[pilot 12] claude-opus-5|action|1 stop=end_turn out=100 ok=True $0.0039 spent=$0.1178 
+[pilot 13] gpt-5.5|action|2 stop=completed out=528 ok=True $0.0168 spent=$0.1346 
+[pilot 14] claude-opus-5|action|2 stop=end_turn out=145 ok=True $0.0050 spent=$0.1396 
+[pilot 15] gpt-5.5|action|3 stop=completed out=291 ok=True $0.0097 spent=$0.1492 
+[pilot 16] claude-opus-5|action|3 stop=end_turn out=135 ok=True $0.0047 spent=$0.1540 
+[pilot 17] gpt-5.5|action|4 stop=completed out=371 ok=True $0.0121 spent=$0.1661 
+[pilot 18] claude-opus-5|action|4 stop=end_turn out=89 ok=True $0.0036 spent=$0.1697 
+[pilot 19] gpt-5.5|action|5 stop=completed out=222 ok=True $0.0076 spent=$0.1773 
+[pilot 20] claude-opus-5|action|5 stop=end_turn out=164 ok=True $0.0055 spent=$0.1827 
+[pilot 21] gpt-5.5|action|6 stop=completed out=448 ok=True $0.0144 spent=$0.1971 
+[pilot 22] claude-opus-5|action|6 stop=end_turn out=118 ok=True $0.0043 spent=$0.2015 
+[pilot 23] gpt-5.5|action|7 stop=completed out=233 ok=True $0.0080 spent=$0.2094 
+[pilot 24] claude-opus-5|action|7 stop=end_turn out=138 ok=True $0.0048 spent=$0.2142 
+[pilot 25] gpt-5.5|action|8 stop=completed out=229 ok=True $0.0078 spent=$0.2221 
+[pilot 26] claude-opus-5|action|8 stop=end_turn out=92 ok=True $0.0037 spent=$0.2257 
+[pilot 27] gpt-5.5|action|9 stop=completed out=284 ok=True $0.0095 spent=$0.2352 
+[pilot 28] claude-opus-5|action|9 stop=end_turn out=117 ok=True $0.0043 spent=$0.2395 
+[pilot 29] gpt-5.5|action|10 stop=completed out=472 ok=True $0.0151 spent=$0.2546 
+[pilot 30] claude-opus-5|action|10 stop=end_turn out=181 ok=True $0.0059 spent=$0.2605 
+[pilot 31] gpt-5.5|action|11 stop=completed out=372 ok=True $0.0121 spent=$0.2726 
+[pilot 32] claude-opus-5|action|11 stop=end_turn out=242 ok=True $0.0074 spent=$0.2800 
+[pilot 33] gpt-5.5|action|12 stop=completed out=205 ok=True $0.0071 spent=$0.2872 
+[pilot 34] claude-opus-5|action|12 stop=end_turn out=309 ok=True $0.0091 spent=$0.2962 
+[pilot 35] gpt-5.5|action|13 stop=completed out=528 ok=True $0.0168 spent=$0.3130 
+[pilot 36] claude-opus-5|action|13 stop=end_turn out=84 ok=True $0.0035 spent=$0.3165 
+[pilot 37] gpt-5.5|action|14 stop=completed out=223 ok=True $0.0076 spent=$0.3242 
+[pilot 38] claude-opus-5|action|14 stop=end_turn out=121 ok=True $0.0044 spent=$0.3285 
+[pilot 39] gpt-5.5|action|15 stop=completed out=323 ok=True $0.0107 spent=$0.3392 
+[pilot 40] claude-opus-5|action|15 stop=end_turn out=114 ok=True $0.0042 spent=$0.3434 
+[pilot 41] gpt-5.5|action|16 stop=completed out=471 ok=True $0.0151 spent=$0.3585 
+[pilot 42] claude-opus-5|action|16 stop=end_turn out=137 ok=True $0.0048 spent=$0.3633 
+[pilot 43] gpt-5.5|action|17 stop=completed out=442 ok=True $0.0142 spent=$0.3775 
+[pilot 44] claude-opus-5|action|17 stop=end_turn out=130 ok=True $0.0046 spent=$0.3821 
+[pilot 45] gpt-5.5|action|18 stop=completed out=368 ok=True $0.0120 spent=$0.3941 
+[pilot 46] claude-opus-5|action|18 stop=end_turn out=142 ok=True $0.0049 spent=$0.3990 
+[pilot 47] gpt-5.5|action|19 stop=completed out=253 ok=True $0.0086 spent=$0.4076 
+[pilot 48] claude-opus-5|action|19 stop=end_turn out=172 ok=True $0.0057 spent=$0.4133 
+[pilot 49] gpt-5.5|action|20 stop=completed out=371 ok=True $0.0121 spent=$0.4253 
+[pilot 50] claude-opus-5|action|20 stop=end_turn out=132 ok=True $0.0047 spent=$0.4300 
+[pilot 51] gpt-5.5|action|21 stop=completed out=311 ok=True $0.0103 spent=$0.4403 
+[pilot 52] claude-opus-5|action|21 stop=end_turn out=146 ok=True $0.0050 spent=$0.4453 
+[pilot 53] gpt-5.5|action|22 stop=completed out=340 ok=True $0.0112 spent=$0.4565 
+[pilot 54] claude-opus-5|action|22 stop=end_turn out=103 ok=True $0.0039 spent=$0.4604 
+[pilot 55] gpt-5.5|action|23 stop=completed out=411 ok=True $0.0133 spent=$0.4737 
+[pilot 56] claude-opus-5|action|23 stop=end_turn out=123 ok=True $0.0044 spent=$0.4781 
+[pilot 57] gpt-5.5|action|24 stop=completed out=414 ok=True $0.0134 spent=$0.4915 
+[pilot 58] claude-opus-5|action|24 stop=end_turn out=198 ok=True $0.0063 spent=$0.4978 
+[pilot 59] gpt-5.5|action|25 stop=completed out=524 ok=True $0.0167 spent=$0.5145 
+[pilot 60] claude-opus-5|action|25 stop=end_turn out=94 ok=True $0.0037 spent=$0.5182 
+[pilot 61] gpt-5.5|action|26 stop=completed out=513 ok=True $0.0163 spent=$0.5346 
+[pilot 62] claude-opus-5|action|26 stop=end_turn out=159 ok=True $0.0053 spent=$0.5399 
+[pilot 63] gpt-5.5|action|27 stop=completed out=529 ok=True $0.0168 spent=$0.5568 
+[pilot 64] claude-opus-5|action|27 stop=end_turn out=93 ok=True $0.0037 spent=$0.5604 
+[pilot 65] gpt-5.5|action|28 stop=completed out=444 ok=True $0.0143 spent=$0.5747 
+[pilot 66] claude-opus-5|action|28 stop=end_turn out=93 ok=True $0.0037 spent=$0.5784 
+[pilot 67] gpt-5.5|action|29 stop=completed out=240 ok=True $0.0082 spent=$0.5866 
+[pilot 68] claude-opus-5|action|29 stop=end_turn out=113 ok=True $0.0042 spent=$0.5908 
+[pilot 69] gpt-5.5|action|30 stop=completed out=376 ok=True $0.0122 spent=$0.6030 
+[pilot 70] claude-opus-5|action|30 stop=end_turn out=113 ok=True $0.0042 spent=$0.6072 
+[pilot 71] gpt-5.5|action|31 stop=completed out=527 ok=True $0.0168 spent=$0.6240 
+[pilot 72] claude-opus-5|action|31 stop=end_turn out=111 ok=True $0.0041 spent=$0.6281 
+[pilot 73] gpt-5.5|action|32 stop=completed out=336 ok=True $0.0110 spent=$0.6391 
+[pilot 74] claude-opus-5|action|32 stop=end_turn out=107 ok=True $0.0040 spent=$0.6432 
+[pilot 75] gpt-5.5|action|33 stop=completed out=274 ok=True $0.0092 spent=$0.6524 
+[pilot 76] claude-opus-5|action|33 stop=end_turn out=193 ok=True $0.0062 spent=$0.6586 
+[pilot 77] gpt-5.5|action|34 stop=completed out=310 ok=True $0.0103 spent=$0.6688 
+[pilot 78] claude-opus-5|action|34 stop=end_turn out=140 ok=True $0.0049 spent=$0.6737 
+[pilot 79] gpt-5.5|action|35 stop=completed out=188 ok=True $0.0066 spent=$0.6803 
+[pilot 80] claude-opus-5|action|35 stop=end_turn out=105 ok=True $0.0040 spent=$0.6843 
+[pilot 81] gpt-5.5|action|36 stop=completed out=274 ok=True $0.0092 spent=$0.6935 
+[pilot 82] claude-opus-5|action|36 stop=end_turn out=46 ok=True $0.0025 spent=$0.6960 
+[pilot 83] gpt-5.5|action|37 stop=completed out=337 ok=True $0.0111 spent=$0.7070 
+[pilot 84] claude-opus-5|action|37 stop=end_turn out=169 ok=True $0.0056 spent=$0.7126 
+[pilot 85] gpt-5.5|action|38 stop=completed out=273 ok=True $0.0092 spent=$0.7218 
+[pilot 86] claude-opus-5|action|38 stop=end_turn out=133 ok=True $0.0047 spent=$0.7265 
+[pilot 87] gpt-5.5|action|39 stop=completed out=261 ok=True $0.0088 spent=$0.7353 
+[pilot 88] claude-opus-5|action|39 stop=end_turn out=188 ok=True $0.0061 spent=$0.7413 
+[pilot 89] gpt-5.5|prediction|0 stop=completed out=492 ok=True $0.0166 spent=$0.7579 
+[pilot 90] claude-opus-5|prediction|0 stop=end_turn out=237 ok=True $0.0085 spent=$0.7663 
+[pilot 91] gpt-5.5|prediction|1 stop=completed out=551 ok=True $0.0183 spent=$0.7847 
+[pilot 92] claude-opus-5|prediction|1 stop=end_turn out=241 ok=True $0.0086 spent=$0.7932 
+[pilot 93] gpt-5.5|prediction|2 stop=completed out=551 ok=True $0.0183 spent=$0.8116 
+[pilot 94] claude-opus-5|prediction|2 stop=end_turn out=189 ok=True $0.0073 spent=$0.8188 
+[pilot 95] gpt-5.5|prediction|3 stop=completed out=551 ok=True $0.0183 spent=$0.8372 
+[pilot 96] claude-opus-5|prediction|3 stop=end_turn out=199 ok=True $0.0075 spent=$0.8447 
+[pilot 97] gpt-5.5|prediction|4 stop=completed out=508 ok=True $0.0170 spent=$0.8617 
+[pilot 98] claude-opus-5|prediction|4 stop=end_turn out=158 ok=True $0.0065 spent=$0.8682 
+[pilot 99] gpt-5.5|prediction|5 stop=completed out=551 ok=True $0.0183 spent=$0.8866 
+[pilot 100] claude-opus-5|prediction|5 stop=end_turn out=167 ok=True $0.0067 spent=$0.8933 
+[pilot 101] gpt-5.5|prediction|6 stop=completed out=559 ok=True $0.0186 spent=$0.9118 
+[pilot 102] claude-opus-5|prediction|6 stop=end_turn out=205 ok=True $0.0077 spent=$0.9195 
+[pilot 103] gpt-5.5|prediction|7 stop=completed out=551 ok=True $0.0183 spent=$0.9378 
+[pilot 104] claude-opus-5|prediction|7 stop=end_turn out=201 ok=True $0.0076 spent=$0.9454 
+[pilot 105] gpt-5.5|prediction|8 stop=completed out=551 ok=True $0.0183 spent=$0.9637 
+[pilot 106] claude-opus-5|prediction|8 stop=end_turn out=188 ok=True $0.0072 spent=$0.9710 
+[pilot 107] gpt-5.5|prediction|9 stop=completed out=551 ok=True $0.0183 spent=$0.9893 
+[pilot 108] claude-opus-5|prediction|9 stop=end_turn out=216 ok=True $0.0079 spent=$0.9972 
+[pilot 109] gpt-5.5|prediction|10 stop=completed out=551 ok=True $0.0183 spent=$1.0156 
+[pilot 110] claude-opus-5|prediction|10 stop=end_turn out=279 ok=True $0.0095 spent=$1.0251 
+[pilot 111] gpt-5.5|prediction|11 stop=completed out=475 ok=True $0.0161 spent=$1.0411 
+[pilot 112] claude-opus-5|prediction|11 stop=end_turn out=188 ok=True $0.0072 spent=$1.0484 
+[pilot 113] gpt-5.5|prediction|12 stop=completed out=409 ok=True $0.0141 spent=$1.0624 
+[pilot 114] claude-opus-5|prediction|12 stop=end_turn out=218 ok=True $0.0080 spent=$1.0704 
+[pilot 115] gpt-5.5|prediction|13 stop=completed out=1069 ok=True $0.0339 spent=$1.1043 
+[pilot 116] claude-opus-5|prediction|13 stop=end_turn out=174 ok=True $0.0069 spent=$1.1112 
+[pilot 117] gpt-5.5|prediction|14 stop=completed out=861 ok=True $0.0276 spent=$1.1388 
+[pilot 118] claude-opus-5|prediction|14 stop=end_turn out=215 ok=True $0.0079 spent=$1.1467 
+[pilot 119] gpt-5.5|prediction|15 stop=completed out=551 ok=True $0.0183 spent=$1.1651 
+[pilot 120] claude-opus-5|prediction|15 stop=end_turn out=196 ok=True $0.0074 spent=$1.1725 
+[pilot 121] gpt-5.5|prediction|16 stop=completed out=476 ok=True $0.0161 spent=$1.1886 
+[pilot 122] claude-opus-5|prediction|16 stop=end_turn out=163 ok=True $0.0066 spent=$1.1952 
+[pilot 123] gpt-5.5|prediction|17 stop=completed out=551 ok=True $0.0183 spent=$1.2135 
+[pilot 124] claude-opus-5|prediction|17 stop=end_turn out=224 ok=True $0.0081 spent=$1.2217 
+[pilot 125] gpt-5.5|prediction|18 stop=completed out=540 ok=True $0.0180 spent=$1.2397 
+[pilot 126] claude-opus-5|prediction|18 stop=end_turn out=252 ok=True $0.0088 spent=$1.2485 
+[pilot 127] gpt-5.5|prediction|19 stop=completed out=826 ok=True $0.0266 spent=$1.2751 
+[pilot 128] claude-opus-5|prediction|19 stop=end_turn out=220 ok=True $0.0080 spent=$1.2831 
+{
+ "cap": 2.0,
+ "prior_spend": 0.04687,
+ "max_output_tokens": 4000,
+ "resumed_from_spend": 0.08126499999999999,
+ "parser": "selfplay.py with 2026-10-14 (label) amendment",
+ "format_check_resume": {
+  "stop": null,
+  "spent": 0.008180000000000007
+ },
+ "pilot": {
+  "stop": null,
+  "spent": 1.1936750000000005
+ },
+ "stop": null,
+ "run_spend": 1.2831200000000005,
+ "cumulative": 1.3299900000000004,
+ "n_calls": 128
+}

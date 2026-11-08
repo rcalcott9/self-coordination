@@ -1,0 +1,21 @@
+{
+  "job_id": "ftjob-c531948cc65b41ef80c9e2c753f18555",
+  "job_created_utc": "2026-09-04T19:16:45.809856+00:00",
+  "train_file": "file-ec0ad25735314ecd8c1146c94dd3a372",
+  "val_file": "file-b9fab8ee4dac43788d1f8e3fba991dc8",
+  "base_model": "gpt-4.1-mini-2025-04-14",
+  "job_status": "succeeded",
+  "job_finished_utc": "2026-09-04T20:57:06.746562+00:00",
+  "fine_tuned_model": "gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1",
+  "resolved_epochs": 3,
+  "resolved_batch_size": 10,
+  "resolved_lr_multiplier": 2.0,
+  "trained_tokens": 3014928,
+  "cost_training_usd": 15.0746,
+  "ft_served_model": "gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1",
+  "deployments_remaining": 0,
+  "deployments_deleted_utc": "2026-09-05T00:03:59.073385+00:00",
+  "cleanup_verified": true,
+  "base_served_model": "gpt-4.1-mini-2025-04-14",
+  "eval_finished_utc": "2026-09-05T00:03:56.361490+00:00"
+}

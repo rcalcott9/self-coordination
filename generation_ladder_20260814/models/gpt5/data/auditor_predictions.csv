@@ -1,0 +1,16 @@
+focal_model,focal_model_name,auditor_model,auditor_model_name,stimulus,n,auditor_predicted_match,ci_lo,ci_hi,sd,auditor_select,auditor_select_ci_lo,auditor_select_ci_hi,n_select,auditor_holdout,auditor_holdout_ci_lo,auditor_holdout_ci_hi,n_holdout
+gpt,GPT-5,claude,Claude Opus 5,a_chev_ud,30,0.7023,0.691,0.713,0.0309,0.7043,0.6886,0.72,14,0.7006,0.6837,0.7156,16
+gpt,GPT-5,claude,Claude Opus 5,b_spiral_cw,30,0.624,0.6153,0.6333,0.0252,0.6193,0.6086,0.6321,14,0.6281,0.6156,0.6412,16
+gpt,GPT-5,claude,Claude Opus 5,b_tee_ell,30,0.7067,0.6993,0.7133,0.0197,0.7057,0.6929,0.7179,14,0.7075,0.7,0.715,16
+gpt,GPT-5,claude,Claude Opus 5,c_contr_subtle,30,0.7227,0.706,0.7373,0.0433,0.7343,0.7136,0.7479,14,0.7125,0.6881,0.7344,16
+gpt,GPT-5,claude,Claude Opus 5,c_open_cplx,30,0.7743,0.7627,0.7857,0.0324,0.775,0.7571,0.7921,14,0.7738,0.7575,0.7888,16
+gpt,GPT-5,claude,Claude Opus 5,d_dens_extreme,30,0.7707,0.762,0.78,0.0257,0.7714,0.7571,0.7879,14,0.77,0.7594,0.7812,16
+gpt,GPT-5,claude,Claude Opus 5,d_texture,30,0.7183,0.7103,0.7273,0.0238,0.7129,0.7036,0.7229,14,0.7231,0.7106,0.7362,16
+gpt,GPT-5,claude,Claude Opus 5,mirror,30,0.6167,0.6113,0.6213,0.014,0.6186,0.6157,0.62,14,0.615,0.6056,0.6238,16
+gpt,GPT-5,claude,Claude Opus 5,noise,30,0.5133,0.51,0.5167,0.0094,0.5114,0.5057,0.5157,14,0.515,0.51,0.5188,16
+gpt,GPT-5,claude,Claude Opus 5,proto,30,0.749,0.7437,0.7543,0.0147,0.755,0.75,0.7629,14,0.7438,0.7369,0.75,16
+gpt,GPT-5,claude,Claude Opus 5,rot,30,0.6223,0.619,0.6267,0.0109,0.6236,0.62,0.63,14,0.6212,0.6162,0.6275,16
+gpt,GPT-5,claude,Claude Opus 5,s_arrow,30,0.722,0.7163,0.728,0.0162,0.725,0.7143,0.7357,14,0.7194,0.715,0.7244,16
+gpt,GPT-5,claude,Claude Opus 5,s_contrast,30,0.7303,0.7207,0.741,0.0287,0.7336,0.7171,0.7514,14,0.7275,0.715,0.74,16
+gpt,GPT-5,claude,Claude Opus 5,s_convexity,30,0.76,0.7543,0.7663,0.0169,0.7621,0.7543,0.7721,14,0.7581,0.7512,0.7669,16
+gpt,GPT-5,claude,Claude Opus 5,s_density,30,0.763,0.7577,0.7687,0.0151,0.7664,0.7586,0.7743,14,0.76,0.7538,0.7669,16

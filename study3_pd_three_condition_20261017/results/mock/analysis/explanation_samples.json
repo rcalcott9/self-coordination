@@ -1,0 +1,182 @@
+{
+ "GPT-5.5|same_model": [
+  {
+   "job_key": "GPT-5.5|same_model|21",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|same_model|62",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|same_model|10",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|same_model|26",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "mock"
+  }
+ ],
+ "GPT-5.5|different_model": [
+  {
+   "job_key": "GPT-5.5|different_model|42",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|different_model|03",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|different_model|04",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|different_model|53",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  }
+ ],
+ "GPT-5.5|fixed_response": [
+  {
+   "job_key": "GPT-5.5|fixed_response|34",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|fixed_response|06",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|fixed_response|23",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "GPT-5.5|fixed_response|38",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  }
+ ],
+ "Claude Opus 5|same_model": [
+  {
+   "job_key": "Claude Opus 5|same_model|07",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|same_model|27",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|same_model|04",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|same_model|11",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "mock"
+  }
+ ],
+ "Claude Opus 5|different_model": [
+  {
+   "job_key": "Claude Opus 5|different_model|27",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|different_model|26",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|different_model|04",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|different_model|15",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  }
+ ],
+ "Claude Opus 5|fixed_response": [
+  {
+   "job_key": "Claude Opus 5|fixed_response|05",
+   "action_canonical": "C",
+   "action_label": "A",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|fixed_response|35",
+   "action_canonical": "D",
+   "action_label": "B",
+   "mapping": 0,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|fixed_response|27",
+   "action_canonical": "D",
+   "action_label": "A",
+   "mapping": 1,
+   "reason": "mock"
+  },
+  {
+   "job_key": "Claude Opus 5|fixed_response|03",
+   "action_canonical": "C",
+   "action_label": "B",
+   "mapping": 1,
+   "reason": "mock"
+  }
+ ]
+}

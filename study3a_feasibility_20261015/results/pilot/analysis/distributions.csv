@@ -1,0 +1,25 @@
+array,label,condition,role,model,n,PASS,PLAY_obj0,PLAY_obj1,PLAY_obj2,PLAY_obj3
+F01_oddone_m0,strong,COPY,policy,GPT-5.5,24,0,0,0,0,24
+F01_oddone_m0,strong,COPY,focal,GPT-5.5,12,0,0,0,0,12
+F01_oddone_m0,strong,COPY,fresh,GPT-5.5,12,0,0,0,0,12
+F01_oddone_m0,strong,DIFFERENT,policy,Claude Opus 5,24,0,0,0,0,24
+F01_oddone_m0,strong,DIFFERENT,focal,GPT-5.5,12,0,0,0,0,12
+F01_oddone_m0,strong,DIFFERENT,fresh,Claude Opus 5,12,0,0,0,0,12
+F02_size_m2,strong,COPY,policy,GPT-5.5,24,0,0,0,0,24
+F02_size_m2,strong,COPY,focal,GPT-5.5,12,0,0,0,0,12
+F02_size_m2,strong,COPY,fresh,GPT-5.5,12,0,0,0,0,12
+F02_size_m2,strong,DIFFERENT,policy,Claude Opus 5,24,3,0,0,0,21
+F02_size_m2,strong,DIFFERENT,focal,GPT-5.5,12,0,0,0,0,12
+F02_size_m2,strong,DIFFERENT,fresh,Claude Opus 5,12,1,0,0,0,11
+F27_linecount_m1,weak,COPY,policy,GPT-5.5,24,0,0,0,0,24
+F27_linecount_m1,weak,COPY,focal,GPT-5.5,12,0,0,0,0,12
+F27_linecount_m1,weak,COPY,fresh,GPT-5.5,12,0,0,0,0,12
+F27_linecount_m1,weak,DIFFERENT,policy,Claude Opus 5,24,18,2,0,0,4
+F27_linecount_m1,weak,DIFFERENT,focal,GPT-5.5,12,1,0,1,0,10
+F27_linecount_m1,weak,DIFFERENT,fresh,Claude Opus 5,12,8,1,0,0,3
+F41_contain_m2,weak,COPY,policy,GPT-5.5,24,2,0,3,15,4
+F41_contain_m2,weak,COPY,focal,GPT-5.5,12,0,0,1,9,2
+F41_contain_m2,weak,COPY,fresh,GPT-5.5,12,1,0,3,7,1
+F41_contain_m2,weak,DIFFERENT,policy,Claude Opus 5,24,24,0,0,0,0
+F41_contain_m2,weak,DIFFERENT,focal,GPT-5.5,12,5,0,3,4,0
+F41_contain_m2,weak,DIFFERENT,fresh,Claude Opus 5,12,12,0,0,0,0

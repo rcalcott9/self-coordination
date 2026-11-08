@@ -1,0 +1,11 @@
+{
+ "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1b_crossed_object_20261007/runs/main/main_20261008_023654.csv",
+ "n": 2560,
+ "ok": 2560,
+ "parsed": 2560,
+ "mismatch": 0,
+ "cost_usd": 19.4988,
+ "frozen_sha8": "9e11e56e",
+ "selection_sha8": "26eb30e6",
+ "budget_stopped": false
+}

@@ -1,0 +1,16 @@
+analysis,model,p1,p2,a1,a2,pts1,pts2,category
+primary,gpt-5.5,gpt-5.5|action|7,gpt-5.5|action|3,CIRCLE,SQUARE,0,0,miscoordinated_labels
+primary,gpt-5.5,gpt-5.5|action|2,gpt-5.5|action|4,KEEP,CIRCLE,7,0,mixed_keep_label
+primary,gpt-5.5,gpt-5.5|action|1,gpt-5.5|action|0,CIRCLE,CIRCLE,10,10,coordinated_label
+sensitivity_invalid_kept,gpt-5.5,gpt-5.5|action|4,gpt-5.5|action|0,CIRCLE,CIRCLE,10,10,coordinated_label
+sensitivity_invalid_kept,gpt-5.5,gpt-5.5|action|2,gpt-5.5|action|3,KEEP,SQUARE,7,0,mixed_keep_label
+sensitivity_invalid_kept,gpt-5.5,gpt-5.5|action|6,gpt-5.5|action|7,,CIRCLE,0,0,invalid_involved
+sensitivity_invalid_kept,gpt-5.5,gpt-5.5|action|5,gpt-5.5|action|1,KEEP,CIRCLE,7,0,mixed_keep_label
+primary,claude-opus-5,claude-opus-5|action|3,claude-opus-5|action|7,KEEP,KEEP,7,7,both_keep
+primary,claude-opus-5,claude-opus-5|action|5,claude-opus-5|action|2,STAR,KEEP,0,7,mixed_keep_label
+primary,claude-opus-5,claude-opus-5|action|1,claude-opus-5|action|4,KEEP,STAR,7,0,mixed_keep_label
+primary,claude-opus-5,claude-opus-5|action|6,claude-opus-5|action|0,TRIANGLE,KEEP,0,7,mixed_keep_label
+sensitivity_invalid_kept,claude-opus-5,claude-opus-5|action|3,claude-opus-5|action|7,KEEP,KEEP,7,7,both_keep
+sensitivity_invalid_kept,claude-opus-5,claude-opus-5|action|5,claude-opus-5|action|2,STAR,KEEP,0,7,mixed_keep_label
+sensitivity_invalid_kept,claude-opus-5,claude-opus-5|action|1,claude-opus-5|action|4,KEEP,STAR,7,0,mixed_keep_label
+sensitivity_invalid_kept,claude-opus-5,claude-opus-5|action|6,claude-opus-5|action|0,TRIANGLE,KEEP,0,7,mixed_keep_label

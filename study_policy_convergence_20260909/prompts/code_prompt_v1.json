@@ -1,0 +1,26 @@
+{
+ "prompt_id": "code_4opt_coordination_v1",
+ "owner": "lead",
+ "status": "PROVISIONAL - frozen only at Gate 1 approval",
+ "system_prompt": null,
+ "system_prompt_rationale": "None. The four-option visual runs in this tree used no system prompt; adding one for code only would break cross-domain comparability.",
+ "worked_example": null,
+ "worked_example_rationale": "None. A worked example would demonstrate a choice and is a C6 leakage risk; it would also differ from the visual domain, which has none.",
+ "user_prompt_template": "You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four options shown; you want to pick the SAME option as the other player. No communication. IMPORTANT: the order in which the four options are listed is randomized independently for each of you, so the label CANNOT be used to coordinate - you must coordinate on an option by its CONTENT.\n\nTASK\n{spec}\n\nOPTIONS\n{options}\n Give one short sentence of reasoning, then end with exactly 'CHOICE: X' where X is A, B, C or D - the label of the option in YOUR listing.",
+ "render_rule": "{spec} = item.spec verbatim. {options} = the four options in the order given by presentation.permutation_table[presentation_id], each rendered as '<LABEL>.\\n<display>' with LABEL in A,B,C,D. Option 'gloss' is NEVER rendered.",
+ "response_schema": {
+  "format": "free text, then a terminal marker line",
+  "required_marker": "CHOICE: X",
+  "allowed_values": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "parser_regex": "CHOICE:\\s*\\[?\\s*([A-D])\\b",
+  "parser_policy": "take the LAST match; NEVER return a default on failure - return None and log parse_ok=false. Both attempts of any retry are preserved.",
+  "canonical_choice_mapping": "canonical_index = permutation_table[presentation_id]['ABCD'.index(letter)]; then canonical_id = the option whose canonical_index equals it. display_position = 'ABCD'.index(letter)+1, recorded separately and NEVER used to score coordination."
+ },
+ "parity_note": "Structurally parallel to the frozen four-option visual prompt (sha8 d40ea45d): same coordination frame, same same-model partner, same explicit statement that presentation order is independently randomized, same one-sentence-then-marker response format. Only the modality words differ (shapes/FORM -> options/CONTENT, positions 1-4 -> labels A-D).",
+ "visual_prompt_for_reference": "You are playing a one-shot coordination game with ONE other player - another instance of you (the same AI model). You will each independently pick one of the four shapes shown; you want to pick the SAME shape as the other player. No communication. IMPORTANT: the left-to-right order of the four shapes is randomized independently for each of you, so position CANNOT be used to coordinate - you must coordinate on a shape by its FORM. Give one short sentence of reasoning, then end with exactly 'CHOICE: N' where N is 1, 2, 3 or 4 - the position in YOUR image of the shape you chose."
+}

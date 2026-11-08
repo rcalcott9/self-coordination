@@ -1,0 +1,37 @@
+[pre] deployments before start: 0
+  deployed g4omini-ft-gs: sku=GlobalStandard capacity=8 at 2026-09-05T03:54:00.640582+00:00
+    rateLimit: {'key': 'request', 'renewalPeriod': 10, 'count': 8}
+    rateLimit: {'key': 'token', 'renewalPeriod': 60, 'count': 8000}
+  rate limiter set to 43 req/min
+  [acq] 250/5000  lifetime=6m
+  [acq] 500/5000  lifetime=12m
+  [acq] 750/5000  lifetime=18m
+  [acq] 1000/5000  lifetime=24m
+  [acq] 1250/5000  lifetime=30m
+  [acq] 1500/5000  lifetime=36m
+  [acq] 1750/5000  lifetime=42m
+  [acq] 2000/5000  lifetime=48m
+  [acq] 2250/5000  lifetime=55m
+  [acq] 2500/5000  lifetime=61m
+  [acq] 2750/5000  lifetime=67m
+  [acq] 3000/5000  lifetime=73m
+  [acq] 3250/5000  lifetime=79m
+  [acq] 3500/5000  lifetime=85m
+  [acq] 3750/5000  lifetime=91m
+  [acq] 4000/5000  lifetime=97m
+  [acq] 4250/5000  lifetime=104m
+  [acq] 4500/5000  lifetime=110m
+  [acq] 4750/5000  lifetime=116m
+  [acq] 5000/5000  lifetime=122m
+  [acq] served_model=gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini  provenance OK
+
+  ACQUISITION r=+0.8156 [+0.7886,+0.8414] acc=0.7958 usable=100/100 -> PASS
+  [report] 250/1000  lifetime=130m
+  [report] 500/1000  lifetime=137m
+  [report] 750/1000  lifetime=145m
+  [report] 1000/1000  lifetime=152m
+  [report] served_model=gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini  provenance OK
+[delete] HTTP 202 at 2026-09-05T06:25:47.775528+00:00
+[cleanup] deployments remaining: 0 (verified)
+
+lifetime 2.529h  hosting $4.31

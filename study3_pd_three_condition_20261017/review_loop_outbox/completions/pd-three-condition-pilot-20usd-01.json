@@ -1,0 +1,103 @@
+{
+  "run_id": "pd-three-condition-pilot-20usd-01",
+  "status": "completed",
+  "accepted_at": "2026-10-17T20:21:13+00:00",
+  "finished_at": "2026-10-17T20:40:00+00:00",
+  "authorisation_reference": {
+    "verbatim": "okay run a small pilot based on that. budget = $20. im going to go away, so provide me with a plot of the three conditions by the time i get back",
+    "pilot_cap_usd": 20,
+    "cumulative_ceiling_usd": 71.31619
+  },
+  "finding": {
+    "per_cell": {
+      "GPT-5.5 same_model": {"nC": 1, "nD": 63, "invalid": 0, "coop": 0.016, "wilson95": [0.003, 0.083], "C_by_mapping": {"A=C": "1/32", "B=C": "0/32"}},
+      "GPT-5.5 different_model": {"nC": 0, "nD": 64, "invalid": 0, "coop": 0.0, "wilson95": [0.0, 0.057], "C_by_mapping": {"A=C": "0/32", "B=C": "0/32"}},
+      "GPT-5.5 fixed_response": {"nC": 6, "nD": 58, "invalid": 0, "coop": 0.094, "wilson95": [0.044, 0.19], "C_by_mapping": {"A=C": "6/32", "B=C": "0/32"}},
+      "Claude Opus 5 same_model": {"nC": 64, "nD": 0, "invalid": 0, "coop": 1.0, "wilson95": [0.943, 1.0]},
+      "Claude Opus 5 different_model": {"nC": 64, "nD": 0, "invalid": 0, "coop": 1.0, "wilson95": [0.943, 1.0]},
+      "Claude Opus 5 fixed_response": {"nC": 64, "nD": 0, "invalid": 0, "coop": 1.0, "wilson95": [0.943, 1.0]}
+    },
+    "paired_payoffs_exploratory": {
+      "GPT same": "CC/CD/DC/DD 0/1/1/62, focal 3.06",
+      "GPT different (vs Opus)": "0/0/64/0, focal 10.0",
+      "GPT fixed": "0/6/1/57, focal 2.83",
+      "Opus same": "64/0/0/0, focal 8.0",
+      "Opus different (vs GPT)": "0/64/0/0, focal 0.0",
+      "Opus fixed": "64/0/0/0, focal 8.0"
+    },
+    "contrasts_exploratory_fisher_uncorrected": {
+      "GPT same-fixed": [-0.078, 0.115],
+      "GPT same-different": [0.016, 1.0],
+      "GPT different-fixed": [-0.094, 0.028],
+      "Opus all": [0.0, 1.0]
+    },
+    "explanation_review": "Opus (reported): correlated-choice / identical-reasoner argument in 64/64 same, 64/64 fixed, 57/64 different; it calls the partner an 'identical copy' despite the prompt saying identical choice is not guaranteed, and applies the same argument to the sealed prerecorded response (only 3/64 mention it is already fixed). 24/64 Opus different_model reasons (all under mapping B=C, 24/32) misread the game as a Stag Hunt and falsely deny that A is dominant. GPT (reported): fixed-action dominance in nearly all defections; all 7 cooperations give an evidential 'my choice is evidence about theirs' argument, all 7 under the A=C mapping. Keyword coding is automated inference; quotes are in explanation_samples.json and REPORT.md.",
+    "interpretation": "Exploratory. Opus is at ceiling (100% cooperation) in every condition and GPT near floor, so the partner manipulation produced no detectable effect for Opus and only a small, label-entangled effect for GPT (fixed 6/64 vs different 0/64; all GPT cooperation under A=cooperate). Opus's stated reasoning is shared-procedure/evidential and is insensitive to whether the partner can currently deliberate (same = fixed) or is a different model; that it cooperates against GPT, which defected 64/64, shows the cooperation is not accurate partner prediction. Social preferences, recognition of the textbook PD, framing (payoff misreadings under one label mapping) and generic conventions remain alternatives; this does not uniquely identify superrationality."
+  },
+  "evidence_paths": [
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/design/FROZEN.json",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/design/jobs.jsonl",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/requests.jsonl",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/responses.jsonl",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/bank_sealed.json",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/assignments.jsonl",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/run_ledger.jsonl",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/analysis/REPORT.md",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/analysis/cells.csv",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/analysis/summary.json",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/analysis/explanation_samples.json",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/analysis/fig_pd_three_conditions.png",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/results/run/analysis/fig_pd_three_conditions.pdf",
+    "/Users/calypsocalcott/.codex/.chatgpt-projects/g-p-6aa069d23ae08191a861f83470dbc913/review_loop/fig_pd_three_conditions.png",
+    "/Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017/code/"
+  ],
+  "hashes_sha256": {
+    "FROZEN.json": "86eaeb529ca44a6b3d592f33eff65b531f53b8db181d103aaff389055b7b33e8",
+    "jobs.jsonl": "8916615f2ec6cb3514d71c48caf4e49b64a6de25c0a80ead6ac5800156aa9319",
+    "responses.jsonl": "5eafcd07c9550e916cbbd5ed649f30dbab945ba41f88467bf33f72ffaf9e2470",
+    "bank_sealed.json": "304fe7c2a78f0e05337b1d0fe7a20ff6c0b1510188724caa619c3f66c4638a88",
+    "assignments.jsonl": "ee77f2bc5ec338a80e70d267fcbabad347f31583607ee35bcb264869ff1689d3"
+  },
+  "validation": {
+    "offline_design": "20/20 checks: PD dominance (10>8, 3>0), CC>DD, symmetry, T>R>P>S, 2R>T+S; prompt tables re-parse to canonical payoffs under stated A/B mapping; no loaded words; non-condition text identical; 32/32 mapping balance per cell; derangement (no self-pairing); bank one-to-one assignment; reciprocal different-model dyads; all pairs share mapping; fixed phase after phase 1; format check = first 8 frozen jobs",
+    "parser": "9/9 unit tests; invalid recorded, never resampled",
+    "mock": "full 384 mock run (invalid kept, bank sealed before fixed, assignments match frozen) and budget stop test (cap $0.50 -> stopped at $0.379, no fixed calls with unsealed bank)",
+    "prices": "re-verified 2026-10-17 ~20:30Z: GPT-5.5 $5/$30 (developers.openai.com pricing), Claude Opus 5 $5/$25 (platform.claude.com pricing)",
+    "prior_spend": "recomputed $51.316185 from raw files (matches $51.31619)",
+    "freeze": "FROZEN.json and jobs.jsonl sha256-checked by the runner before every launch; model settings identical to PASS=5 pilot, text only",
+    "format_check": "first 8 frozen jobs, 8/8 valid, $0.039145, counted in the 384",
+    "collection": "384/384 valid; 0 invalid/refusal/failure/retry; returned models claude-opus-5 x192, gpt-5.5-2026-04-23 x192; max output 469 tokens",
+    "bank": "both 64-response same-model banks sealed (bank_sealed.json + sha256) before any fixed_response call; each fixed call's assigned bank response logged to assignments.jsonl before dispatch; all fixed records timestamped after seal; bank action never disclosed",
+    "figure": "real data (not mock); 3 named conditions, both models, y 0-100%, Wilson 95% CI, exact counts/n"
+  },
+  "spend": {
+    "actual_run_spend_usd": 1.99287,
+    "format_check_usd": 0.03915,
+    "by_model_usd": {"GPT-5.5": 1.11269, "Claude Opus 5": 0.88018},
+    "pilot_cap_usd": 20,
+    "prior_cumulative_usd": 51.31619,
+    "cumulative_study3_spend_usd": 53.30905,
+    "cumulative_ceiling_usd": 71.31619,
+    "outstanding_reservations_usd": 0.0
+  },
+  "actual_run_spend_usd": 1.99287,
+  "cumulative_study3_spend_usd": 53.30905,
+  "agent_inference_usage": "unknown: ordinary inference in this Claude Code session; not free",
+  "reporting_corrections_to_previous_summaries": [
+    "Pilot 3 (PASS=5): the matching gains were not entirely from F01 - GPT COPY F27 realized matching also rose from .090909 to .227273.",
+    "Pilot 3 (PASS=5): diffuse items were mostly PASS, not literally all PASS - one GPT F05 COPY evaluation draw played.",
+    "Manager-verified reporting corrections; raw results and science unchanged. Text staged in HANDOFF_ADDENDA.md for appending to the PASS=5 REPORT.md and the ledger (see location_note)."
+  ],
+  "location_note": "This background session was required to work in a git worktree (the project folder sits inside the home-directory git repo). After entering it, writes to the shared Self_Coordination folder, the claudine diary and this review_loop were blocked by the isolation guard, so per instructions I stopped rather than work around it. Before the block: acknowledgement, processed_messages 'accepted', pd_execution_status.json (runner-written, state 'complete') and the figure copy landed in review_loop. Everything else is in /Users/calypsocalcott/.claude/worktrees/pd-three-condition-pilot/study3_pd_three_condition_20261017 (local branch worktree-pd-three-condition-pilot, committed, not pushed: the repo's only remote is the concussion-tracker GitHub repo). This completion JSON and the processed_messages 'completed' update are staged in review_loop_outbox/; ledger, diary and Pilot-3 corrections in HANDOFF_ADDENDA.md.",
+  "limitations": [
+    "Opus at ceiling and GPT near floor: partner-condition effects undetectable for Opus; GPT effect small and confounded with label mapping",
+    "one payoff matrix, one prompt per condition, low effort, 1-2 sentence post-hoc reasons",
+    "fixed control is a prerecorded same-model action, not causally/logically unrelated; same-vs-different changes partner and identity information together",
+    "paired payoffs reuse responses (not independent observations)",
+    "24/64 Opus different-model reasons misread the payoff table (mapping B=C only)"
+  ],
+  "unresolved_decisions": [
+    "Any follow-up (e.g. moving Opus off ceiling, counterbalancing row order, higher effort, a less textbook-recognisable game) needs a new design decision and budget"
+  ],
+  "next_action": "Stop. Frozen pilot complete; no further experiments. User and ChatGPT review."
+}

@@ -1,0 +1,54 @@
+=== STUDY 2 (revised) - partner-policy betting on a compatibility gradient ===
+design table: /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/design/frozen_design_table.csv
+advantages  : confirmed_compatibility.csv (wide: advantage_claude, advantage_gpt)
+gate        : allocation-consistency check vs the CONFIRMED advantages (the design must BE the frozen allocation rule applied to them)
+  CONFIRMATION_RESULTS.md verdict: FAIL  (CONFIRMATION_RESULTS.md: 'must not proceed')   [PROVENANCE ONLY - recorded against the superseded provisional table, re-frozen 2026-08-22; see design/RE_FREEZE_RECORD.md]
+  per actor : claude=FAIL, gpt=PASS
+payoffs     : 3, 5, 7, 9   (EV-neutral p = S/10; match 10, mismatch 0, framing neutral)
+seed        : 20260822   AB/BA exactly n/2 per cell, n PER CELL from the table
+actors      : GPT-5.5 (gpt-5.5), Claude Opus 5 (claude-opus-5)
+  GPT-5.5          partner=same      -> GPT-5.5 (gpt-5.5)
+  GPT-5.5          partner=different -> Claude Opus 5 (claude-opus-5)
+
+gradient    : per-payoff n VARIES by stimulus (allocation is inverse to effect size)
+  actor   stimulus      tier        n/cell  cells  trials   provisional  confirmed  source
+  gpt     a_chev_ud     large            8      8      64        +0.650     +0.294  confirmed
+  gpt     b_spiral_cw   negative        40      8     320        -0.128     -0.127  confirmed
+  gpt     c_open_cplx   large            8      8      64        +0.367     +0.489  confirmed
+  gpt     d_texture     small           30      8     240        +0.057     +0.048  confirmed
+  gpt     mirror        zero_floor      30      8     240        +0.007     -0.012  confirmed
+  gpt     proto         zero_ceil       16      8     128        +0.000     +0.000  confirmed
+  gpt     rot           small           30      8     240        +0.073     +0.070  confirmed
+  gpt     s_arrow       zero_ceil       16      8     128        +0.000     +0.000  confirmed
+
+cells       : 64   per-payoff cell sizes: [8, 16, 30, 40]   planned trials: 1424
+  sha8 GPT-5.5          same      S3=41102d5d S5=f41ee2b4 S7=737bab42 S9=37377410
+  sha8 GPT-5.5          different S3=c7ed394c S5=4ec6f9a1 S7=36b89b66 S9=76fd392e
+
+confirmation gate satisfied: all 64 planned cell(s) carry the confirmation screen's own advantage,
+  at exactly the tier and n FROZEN_PARAMS.allocation_for() assigns to it.
+to run      : 1424 trials   [LIVE]
+
+  100/1424 trials
+  200/1424 trials
+  300/1424 trials
+  400/1424 trials
+  500/1424 trials
+  600/1424 trials
+  700/1424 trials
+  800/1424 trials
+  900/1424 trials
+  1000/1424 trials
+  1100/1424 trials
+  1200/1424 trials
+  1300/1424 trials
+  1400/1424 trials
+
+=== study 2 part done: 1424 trials in 1184s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/data/study2C_20260822_173757.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/data/study2C_20260822_173757.jsonl
+
+complete cells: 64/64   still partial: 0

@@ -1,0 +1,32 @@
+{
+ "stratum_L": [
+  "F05_orient_m3",
+  "F12_mirror_m3",
+  "F15_ring_m3",
+  "F26_bumploc_m1",
+  "F30_pairratio_m1",
+  "F34_jitter_m1",
+  "F35_gradang_m1",
+  "F36_split_m1",
+  "F37_mirroraxis_m1"
+ ],
+ "unanimous": [
+  "F03_symmetry_m3",
+  "F04_complexity_m3",
+  "F07_contrast_m3",
+  "F08_closure_m3",
+  "F13_count_m3",
+  "F14_bars_m3",
+  "F16_aspect_m3",
+  "F17_gapclock_m1",
+  "F18_stroke_m1",
+  "F19_fill_m1",
+  "F22_star_m1",
+  "F24_subdiv_m1",
+  "F29_arcdir_m1",
+  "F32_tilt_m1",
+  "F38_endcap_m1",
+  "F39_spacing_m1",
+  "F40_crossang_m1"
+ ]
+}

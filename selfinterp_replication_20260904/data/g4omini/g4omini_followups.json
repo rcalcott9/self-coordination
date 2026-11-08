@@ -1,0 +1,60 @@
+{
+  "spearman": {
+    "ours_rho": 0.32292853195579646,
+    "ours_pearson": 0.3485627560094768,
+    "plunkett_rho": 0.5076187528951958,
+    "plunkett_pearson": 0.5059837822719162,
+    "ours_n_contexts": 79,
+    "plunkett_n_contexts": 79
+  },
+  "regression": {
+    "standardised_slope": 0.3485627560094768,
+    "standardised_intercept": 5.0275244510174515e-17,
+    "unstandardised_slope": 0.19648755885526886,
+    "unstandardised_intercept": 29.41154892170737,
+    "sd_ratio_reported_over_learned": 0.5637078416086625
+  },
+  "reliability": {
+    "report_split_half": 0.583261975327818,
+    "report_full": 0.7367851744270588,
+    "learned_split_half": 0.806815991796127,
+    "learned_full": 0.8930804193227049,
+    "attenuation_ceiling": 0.8111771770261229,
+    "observed": 0.3485627560094768,
+    "disattenuated": 0.4296999051272023,
+    "pct_of_ceiling": 42.96999051272023
+  },
+  "heterogeneity": {
+    "n": 79,
+    "mean": 0.325722738789114,
+    "median": 0.41159338739785495,
+    "sd": 0.4320250453335945,
+    "positive": 59,
+    "negative": 20,
+    "quantiles": {
+      "0": -0.7180525748829729,
+      "10": -0.2987256342485472,
+      "25": 0.008190440453158455,
+      "50": 0.41159338739785495,
+      "75": 0.6681948360222255,
+      "90": 0.8614829796759877,
+      "100": 0.9597399518058786
+    },
+    "sign_test_p": 1.2967077325175125e-05,
+    "loo_min": 0.3372216606898395,
+    "loo_max": 0.36315214358980596
+  },
+  "matched_test": {
+    "r_report_learned": 0.3485627560094768,
+    "r_report_true": 0.24004801002504372,
+    "r_learned_true": 0.815115914995893,
+    "difference": 0.10851474598443306,
+    "boot_ci95": [
+      0.061977760384941925,
+      0.15595466964047588
+    ],
+    "boot_p_diff_le_0": 0.0,
+    "williams_t": 3.780320917890374,
+    "williams_p": 0.00018100583233349177
+  }
+}

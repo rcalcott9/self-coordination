@@ -1,0 +1,31 @@
+
+=== STAGE B / salience ===
+  both models rate generic salience (no focal model named)
+  prompt sha8: bef7b3ec
+  stimuli: 30   trials: 1800
+
+  100/1800 trials
+  200/1800 trials
+  300/1800 trials
+  400/1800 trials
+  500/1800 trials
+  600/1800 trials
+  700/1800 trials
+  800/1800 trials
+  900/1800 trials
+  1000/1800 trials
+  1100/1800 trials
+  1200/1800 trials
+  1300/1800 trials
+  1400/1800 trials
+  1500/1800 trials
+  1600/1800 trials
+  1700/1800 trials
+  1800/1800 trials
+
+=== stage B/salience done: 1800 trials in 1688s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45_expanded/data/stageB_salience_20260815_095449.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45_expanded/data/stageB_salience_20260815_095449.jsonl

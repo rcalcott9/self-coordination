@@ -1,0 +1,26 @@
+=== STUDY 5 FOUR-OBJECT DISCOVERY ===
+arrays   : 42   models: gpt, claude   perms/cell: 24
+shard    : 0 of 4   arrays in shard: 11
+gpt      : gpt-5.5
+claude   : claude-opus-5
+prompt   : sha8=d40ea45d  (four-option; binary parent 3003ae1b)
+stimuli  : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/stimuli5
+run dir  : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211
+calls    : 528 of 2016 total
+
+  stageA_discovery5: 528 calls to make (0 skipped)
+    50/528
+    100/528
+    150/528
+    200/528
+    250/528
+    300/528
+    350/528
+    400/528
+    450/528
+    500/528
+
+wrote /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s0of4.csv  (528 rows)
+  transport ok : 528/528
+  parsed ok    : 528/528
+  PARSE FAILS  : 0

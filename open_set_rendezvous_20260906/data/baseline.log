@@ -1,0 +1,12 @@
+  baseline 100/1080  $0.52
+  baseline 200/1080  $0.98
+  baseline 300/1080  $1.33
+  baseline 400/1080  $1.83
+  baseline 500/1080  $2.28
+  baseline 600/1080  $3.00
+  baseline 700/1080  $3.77
+  baseline 800/1080  $4.34
+  baseline 900/1080  $5.31
+  baseline 1000/1080  $5.82
+  baseline: 1080 rows  {'ok': 1064, 'api_failure': 16}
+  baseline: tokens in=99,596 out=191,105  cost $6.23

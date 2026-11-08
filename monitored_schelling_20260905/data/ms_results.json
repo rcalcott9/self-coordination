@@ -1,0 +1,37 @@
+{
+  "n_items": 40,
+  "observed_mean_gap": 0.349555,
+  "observed_median_gap": 0.33999999999999997,
+  "n_qualify": 28,
+  "rank1": 22,
+  "rank2": 6,
+  "rank3plus": 0,
+  "p_mean_gap_vs_null": 0.0,
+  "p_count_vs_null": 0.0,
+  "null_n_qualify_mean": 1.513,
+  "null_n_qualify_p95": 4.0,
+  "null_mean_gap": 0.06788703275461434,
+  "token_shared_qualifying": 6,
+  "token_shared_all": 6,
+  "criteria": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true,
+    "e_position": true
+  },
+  "sensitivity": {
+    "p<0.05,pcopy>=0.15": 28,
+    "p<0.025,pcopy>=0.15": 28,
+    "p<0.01,pcopy>=0.15": 25,
+    "p<0.05,pcopy>=0.2": 27,
+    "p<0.05,pcopy>=0.25": 26
+  },
+  "focal_pos1": 0.08333333333333333,
+  "monitor_pos1": 0.10231854838709678,
+  "verdict": "GO",
+  "parse_failures": {
+    "focal": 8,
+    "monitor": 16
+  }
+}

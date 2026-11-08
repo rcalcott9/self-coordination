@@ -1,0 +1,21 @@
+{
+  "base_model": "gpt-4.1-mini-2025-04-14",
+  "region": "northcentralus",
+  "training_type": "GlobalStandard",
+  "hyperparameters": "AUTO (not pinned)",
+  "n_contexts": 100,
+  "n_train": 5000,
+  "n_val": 1000,
+  "n_heldout": 5000,
+  "heldout_seed": 20260904,
+  "regenerated_byte_identical_to_plunkett": {
+    "train": true,
+    "val": true
+  },
+  "hashes": {
+    "gate1_train_5000.jsonl": "8610f03beedbf981c5bf2bc09e8b00b0d2b926c125d7c77d78b30f786df72863",
+    "gate1_val_1000.jsonl": "a2946d4d92faaa7a46fc6ea068fc497f0ca2f0bb62095f083fc3aed0191b3ed2",
+    "gate1_heldout_5000.json": "367f6a64b38f5b25363ef56acbcf078867b6155a8fd747d3382f8f2dca3497be",
+    "gate1_true_weights.json": "4eb83079e7d09215d0268edc83a44649dc7dd119d06685eb8a67de14df97ea89"
+  }
+}

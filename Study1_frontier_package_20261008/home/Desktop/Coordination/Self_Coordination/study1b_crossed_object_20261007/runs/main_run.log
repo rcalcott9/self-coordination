@@ -1,0 +1,19 @@
+[gates] preflight 6/6 OK; pilot parse claude->claude 8/8, claude->gpt 8/8, gpt->claude 8/8, gpt->gpt 8/8
+[main] FROZEN 9e11e56e selection 26eb30e6 | 2560 calls (skip 0) | est $18.94 cap $40.00
+   PRED|answerer=claude|target=claude            160  $1.01
+   PRED|answerer=claude|target=gpt               160  $1.01
+   PRED|answerer=gpt|target=claude               160  $1.84
+   PRED|answerer=gpt|target=gpt                  160  $1.84
+   REF|answerer=claude|target=claude             960  $5.38
+   REF|answerer=gpt|target=gpt                   960  $7.87
+{
+ "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1b_crossed_object_20261007/runs/main/main_20261008_023654.csv",
+ "n": 2560,
+ "ok": 2560,
+ "parsed": 2560,
+ "mismatch": 0,
+ "cost_usd": 19.4988,
+ "frozen_sha8": "9e11e56e",
+ "selection_sha8": "26eb30e6",
+ "budget_stopped": false
+}

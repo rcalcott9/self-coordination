@@ -1,0 +1,2 @@
+{"ts": "2026-10-16T02:02:58.584058+00:00", "argv": ["run.py", "--mock"], "mode": "mock", "pending": 384, "spent_prior": 0.0, "frozen_sha256": "aa6f81a9c80338b78974236d811fe91313bf9301818da33d029aafc8c9b423b4"}
+{"ts": "2026-10-16T02:02:58.651739+00:00", "records": 384, "by_status": {"ok": 384, "invalid_response": 0, "refusal": 0, "api_failure": 0}, "spent_run": 0.0, "cumulative": 1.32999, "refusals": 0, "stop_reason": null}

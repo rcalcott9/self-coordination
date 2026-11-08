@@ -1,0 +1,27 @@
+model_spec,term,beta,odds_ratio,ci_lo,ci_hi,excludes_zero,n_trials,n_stimuli
+baseline: safe + true,intercept,9.58519,14547.7641,6.30272,15.40784,True,1200,9
+baseline: safe + true,safe,-1.21059,0.29802,-1.8634,-0.83191,True,1200,9
+baseline: safe + true,true,1.4124,4.10579,-0.59089,4.19509,False,1200,9
+full: does TRUE survive controlling for public salience?,intercept,-0.12512,0.8824,-40.21614,72.8412,False,1200,9
+full: does TRUE survive controlling for public salience?,safe,-1.29359,0.27428,-2.00717,-0.86946,True,1200,9
+full: does TRUE survive controlling for public salience?,true,4.25711,70.6055,-24.96773,42.73456,False,1200,9
+full: does TRUE survive controlling for public salience?,auditor,9.04928,8512.40095,-108.36586,69.88145,False,1200,9
+full: does TRUE survive controlling for public salience?,salience,0.88587,2.4251,-18.84368,22.19692,False,1200,9
+full: does TRUE survive controlling for public salience?,is_claude,0.06009,1.06194,-9.90308,4.43198,False,1200,9
+full: does TRUE survive controlling for public salience?,fallback,1.38101,3.9789,-9.04479,17.78912,False,1200,9
+"public-only (alternative 1): auditor + salience, no true",intercept,0.02126,1.02149,-8.8172,7.54247,False,1200,9
+"public-only (alternative 1): auditor + salience, no true",safe,-1.26511,0.28221,-1.93811,-0.84614,True,1200,9
+"public-only (alternative 1): auditor + salience, no true",auditor,13.36877,639710.54191,5.80979,25.26133,True,1200,9
+"public-only (alternative 1): auditor + salience, no true",salience,0.94783,2.58011,-1.55238,4.80838,False,1200,9
+model-specific: GPT-5.4,intercept,-2.42415,0.08855,-11.69156,14.33561,False,720,6
+model-specific: GPT-5.4,safe,-1.06826,0.3436,-1.9799,-0.67431,True,720,6
+model-specific: GPT-5.4,true,1.36128,3.90117,-1.27022,6.25611,False,720,6
+model-specific: GPT-5.4,auditor,13.60307,808606.13995,-4.1625,28.09741,False,720,6
+model-specific: Claude Opus 4.8,intercept,-27.56888,0.0,-52.95896,42.2727,False,480,4
+model-specific: Claude Opus 4.8,safe,-1.77668,0.1692,-7.06566,-1.41263,True,480,4
+model-specific: Claude Opus 4.8,true,-1.04468,0.3518,-3.62324,40.14765,False,480,4
+model-specific: Claude Opus 4.8,auditor,56.95388,5.429467990029519e+24,5.78455,91.21399,True,480,4
+auditor + policy_specific residual,intercept,-0.42503,0.65375,-10.77498,9.34374,False,1200,9
+auditor + policy_specific residual,safe,-1.2606,0.28348,-1.92195,-0.85048,True,1200,9
+auditor + policy_specific residual,auditor,14.64423,2290380.18966,6.32099,28.88873,True,1200,9
+auditor + policy_specific residual,policy_specific,0.935,2.54722,-1.19439,2.83346,False,1200,9

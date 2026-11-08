@@ -1,0 +1,8 @@
+model,divergences,max_rhat,min_ess,clean
+B0 payoff-only,0,1.0036,2004.3647,True
+B1 payoff+is_high,0,1.0015,3155.8044,True
+B2 pair-constrained q,0,1.0028,3663.6437,True
+B3 +auditor,0,1.0022,3197.2981,True
+B3b +auditor+salience,0,1.0013,4129.8636,True
+B2 by-model mu_delta,0,1.0007,3844.3964,True
+B2 no-alpha (ridge check),0,1.0014,2569.2989,True

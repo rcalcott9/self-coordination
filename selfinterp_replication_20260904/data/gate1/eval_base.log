@@ -1,0 +1,19 @@
+held-out rows: 5000  contexts: 100
+
+[BASE arm -- negative control]
+  deployed gate1-base-dev: gpt-4.1-mini sku=GlobalStandard
+  500/5000
+  1000/5000
+  1500/5000
+  2000/5000
+  2500/5000
+  3000/5000
+  3500/5000
+  4000/5000
+  4500/5000
+  5000/5000
+  served_model=gpt-4.1-mini-2025-04-14
+  provenance (must be base gpt-4.1-mini AND carry no ft- tag): True
+  invalid/failed responses: 420/5000
+[delete] gate1-base-dev: HTTP 200 at 2026-09-04T23:59:44.181769+00:00
+[cleanup] deployments remaining: 0

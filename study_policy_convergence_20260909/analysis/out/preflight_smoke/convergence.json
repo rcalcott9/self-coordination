@@ -1,0 +1,715 @@
+{
+ "by_vintage": {
+  "cross_model_match": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.47424770833333324
+  },
+  "cos_raw": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.8309334583333333
+  },
+  "das": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.7323995000000001
+  },
+  "dajs": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.6386618333333334
+  },
+  "rank_similarity": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.7099471249999999
+  },
+  "distribution_distance": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.21384166666666662
+  },
+  "hellinger": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.22908245833333332
+  },
+  "modal_agreement": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.5
+  },
+  "determinism_channel": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": -0.724125125
+  },
+  "alignment_channel": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": -0.21736004166666667
+  },
+  "log_cross_match": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": -0.9414852083333333
+  }
+ },
+ "decomposition_of_raw_trend": {
+  "log_cross_match_slope": NaN,
+  "determinism_channel_slope": NaN,
+  "alignment_channel_slope": NaN,
+  "residual": NaN,
+  "share_from_determinism": NaN,
+  "note": "log M_AB = .5 log M_AA + .5 log M_BB + log cos_raw, exactly. The residual is 0 by construction and is printed as a check."
+ },
+ "by_pair_type": {
+  "cross_model_match": {
+   "cross_family": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  },
+  "das": {
+   "cross_family": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  }
+ },
+ "by_domain": {
+  "cross_model_match": {
+   "visual": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  },
+  "das": {
+   "visual": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  }
+ },
+ "by_mechanism": {
+  "cross_model_match": {
+   "mirror": {
+    "n": 3,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  },
+  "das": {
+   "mirror": {
+    "n": 3,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  }
+ },
+ "by_item_family": {
+  "cross_model_match": {
+   "F12_mirror": {
+    "n": 3,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  },
+  "das": {
+   "F12_mirror": {
+    "n": 3,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  }
+ },
+ "by_stratum_match": {
+  "cross_model_match": {
+   "0": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  },
+  "das": {
+   "0": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  }
+ },
+ "interactions": {
+  "by_pair_type": {
+   "cross_model_match": null,
+   "das": null
+  },
+  "by_domain": {
+   "cross_model_match": null,
+   "das": null
+  },
+  "by_mechanism": {
+   "cross_model_match": null,
+   "das": null
+  },
+  "by_item_family": {
+   "cross_model_match": null,
+   "das": null
+  },
+  "by_stratum_match": {
+   "cross_model_match": null,
+   "das": null
+  }
+ },
+ "determinism_adjusted_test": {
+  "observed_slope": null,
+  "null_mean": null,
+  "null_lo": null,
+  "null_hi": null,
+  "p_two_sided": null,
+  "reject": false,
+  "excess_slope": null,
+  "identifiable": false,
+  "n_reference_rows": 10,
+  "n_reference_rows_strict": 10,
+  "reference_threshold": 1.8,
+  "delta0": 0.6299874113344514,
+  "n_rows": 24,
+  "b": 400,
+  "mean_support_a": 2.1116326018512974,
+  "mean_support_b": 2.274390176695048,
+  "degenerate": true,
+  "degenerate_reason": "vintage axis has no spread (n distinct vintages = 1) so every slope is undefined"
+ },
+ "estimable_subset": {
+  "n": 16,
+  "n_total": 24,
+  "threshold": 1.5,
+  "slope": NaN,
+  "lo": NaN,
+  "hi": NaN,
+  "note": "too few pairs above the support threshold to refit; the panel is too deterministic for an unadjusted-bias estimate of the DAS trend"
+ },
+ "target_support_sensitivity": {
+  "1.5": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.6456294148986174
+  },
+  "2.0": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.7323995177918822
+  },
+  "2.5": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.7965589436885537
+  },
+  "3.0": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN,
+   "mean": 0.8626750110242926
+  }
+ },
+ "alpha_sensitivity": {
+  "0.25": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN
+  },
+  "0.5": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN
+  },
+  "1.0": {
+   "slope": NaN,
+   "lo": NaN,
+   "hi": NaN
+  }
+ },
+ "item_level": {},
+ "exceptions": {
+  "pooled_das_slope": NaN,
+  "n_items": 0,
+  "n_opposing": 0,
+  "opposing_items": [],
+  "n_modal_reversals": 0,
+  "reversal_items": []
+ },
+ "leave_one_family_out": {
+  "cross_model_match": {
+   "__ALL__": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F01_oddone": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F02_size": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F05_orient": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F06_density": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F07_contrast": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F08_closure": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F09_convexity": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F10_curvature": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F11_noise": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F12_mirror": {
+    "n": 21,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F23_ellipseang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F25_nested": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F30_pairratio": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F34_jitter": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F35_gradang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F37_mirroraxis": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F41_contain": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  },
+  "das": {
+   "__ALL__": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F01_oddone": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F02_size": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F05_orient": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F06_density": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F07_contrast": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F08_closure": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F09_convexity": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F10_curvature": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F11_noise": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F12_mirror": {
+    "n": 21,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F23_ellipseang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F25_nested": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F30_pairratio": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F34_jitter": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F35_gradang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F37_mirroraxis": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:F41_contain": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  }
+ },
+ "leave_one_mechanism_out": {
+  "cross_model_match": {
+   "__ALL__": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:closure": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:contain": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:contrast": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:convexity": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:curvature": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:density": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:ellipseang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:gradang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:jitter": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:mirror": {
+    "n": 21,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:mirroraxis": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:nested": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:noise": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:oddone": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:orient": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:pairratio": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:size": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  },
+  "das": {
+   "__ALL__": {
+    "n": 24,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:closure": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:contain": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:contrast": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:convexity": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:curvature": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:density": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:ellipseang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:gradang": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:jitter": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:mirror": {
+    "n": 21,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:mirroraxis": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:nested": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:noise": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:oddone": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:orient": {
+    "n": 22,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:pairratio": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "drop:size": {
+    "n": 23,
+    "slope": NaN,
+    "lo": NaN,
+    "hi": NaN
+   }
+  }
+ }
+}

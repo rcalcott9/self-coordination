@@ -1,0 +1,133 @@
+{
+ "status": "FROZEN 2026-10-16 before any PASS=5 outcome",
+ "message_id": "study3a-pass5-adapted-pilot-execution-20usd-01",
+ "user_authorisation_verbatim": "great. run the adapted pilot",
+ "pass_value": 5,
+ "threshold": 0.5,
+ "items": [
+  "F01_oddone_m0",
+  "F27_linecount_m1",
+  "F05_orient_m5",
+  "F12_mirror_m3"
+ ],
+ "models": {
+  "GPT-5.5": {
+   "api": "openai.responses",
+   "model": "gpt-5.5-2026-04-23",
+   "reasoning": {
+    "effort": "low",
+    "summary": "auto"
+   },
+   "max_output_tokens": 4000,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 30.0
+   },
+   "input_tokens_observed": {
+    "COPY": 818,
+    "DIFFERENT": 813
+   },
+   "note": "archived settings plus max_output_tokens=4000 (required for a finite reservation bound; archived GPT runs had no cap, so no GPT draw is reused)"
+  },
+  "Claude Opus 5": {
+   "api": "anthropic.messages",
+   "model": "claude-opus-5",
+   "thinking": {
+    "type": "adaptive",
+    "display": "summarized"
+   },
+   "output_config": {
+    "effort": "low"
+   },
+   "max_tokens": 4000,
+   "temperature": null,
+   "content_order": "text,image",
+   "price_per_mtok": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "input_tokens_observed": {
+    "COPY": 1022,
+    "DIFFERENT": 1015
+   },
+   "note": "identical to the archived and 2026-10-15 settings"
+  }
+ },
+ "prompts": {
+  "COPY": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another independently sampled instance of the same model as you, run with the same settings. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 5 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 5 points.\n- If you choose PASS and the other player chooses PLAY, you receive 5 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nBefore choosing your action, assess these two questions. Give brief judgments, not a detailed reasoning trace.\n\n1. Own-policy reliability. Across independent instances of your model making this decision, how consistently would they select the same underlying object despite shuffled positions? Identify your candidate object, consider competing selection rules, and estimate a probability distribution over PASS and the four objects. Distinguish finding an object salient from expecting your policy to select it reliably.\n\n2. Reciprocal confidence. Given the stated partner description, estimate the partner's probability distribution over PASS and the four objects. Consider whether the partner would also judge its own selection rule reliable and expect you to share that rule. Shared reasoning can support coordination, but do not assume another model shares your policy, that independent instances are deterministic, or that your present choice causally changes the partner's action. Both players receive this same additional instruction.\n\nUse those judgments to choose the action with the highest expected points under the original game rules. For PLAY on object j, success requires the partner to PLAY that same underlying object; confidence conditional on the partner playing is insufficient. PASS earns 5; PLAY(j) has expected points 10 times your estimated probability of the partner choosing PLAY(j). PLAY beats PASS only when that probability exceeds 0.50. If tied, either action is acceptable. Do not default to PLAY to demonstrate coordination or to PASS merely because it is safe.\n\nReport your own-action distribution and partner-action distribution (each summing to 1), expected points for PASS and each PLAY action, your final action, and a brief explanation of the decisive uncertainty. Use the requested response schema and the displayed object labels.\n\nResponse schema. Objects are identified by their position (1, 2, 3 or 4) in YOUR image. \"own_distribution\" is your estimate of how independent instances of your model, each given this complete prompt including these instructions, would act; it is a forecast, not a commitment. \"partner_distribution\" is your estimate of the other player's action. Each distribution's values are probabilities between 0 and 1 that sum to 1.\n\nAnswer with exactly one JSON object and nothing else, in this form:\n{\"own_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"partner_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"expected_points\": {\"PASS\": 5, \"1\": <number>, \"2\": <number>, \"3\": <number>, \"4\": <number>}, \"decision\": \"PASS\" or \"PLAY\", \"object\": null or \"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\", \"explanation\": \"<one or two sentences on the decisive uncertainty>\"}",
+   "sha8": "b5346bb0",
+   "derived_from": "b308cb54"
+  },
+  "DIFFERENT": {
+   "text": "You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.\n\nThe other player is another AI model that was trained on different data from yours. Both of you receive the same game instructions, the same four objects, and the same description of the other player.\n\nEach of you independently chooses PASS or PLAY:\n- If you choose PASS, you receive 5 points, whatever the other player does.\n- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.\n- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.\n- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 5 points.\n- If you choose PASS and the other player chooses PLAY, you receive 5 points and the other player receives 0 points.\n\nThere is no communication, no shared randomness, and neither of you sees the other player's response before answering.\n\nBefore choosing your action, assess these two questions. Give brief judgments, not a detailed reasoning trace.\n\n1. Own-policy reliability. Across independent instances of your model making this decision, how consistently would they select the same underlying object despite shuffled positions? Identify your candidate object, consider competing selection rules, and estimate a probability distribution over PASS and the four objects. Distinguish finding an object salient from expecting your policy to select it reliably.\n\n2. Reciprocal confidence. Given the stated partner description, estimate the partner's probability distribution over PASS and the four objects. Consider whether the partner would also judge its own selection rule reliable and expect you to share that rule. Shared reasoning can support coordination, but do not assume another model shares your policy, that independent instances are deterministic, or that your present choice causally changes the partner's action. Both players receive this same additional instruction.\n\nUse those judgments to choose the action with the highest expected points under the original game rules. For PLAY on object j, success requires the partner to PLAY that same underlying object; confidence conditional on the partner playing is insufficient. PASS earns 5; PLAY(j) has expected points 10 times your estimated probability of the partner choosing PLAY(j). PLAY beats PASS only when that probability exceeds 0.50. If tied, either action is acceptable. Do not default to PLAY to demonstrate coordination or to PASS merely because it is safe.\n\nReport your own-action distribution and partner-action distribution (each summing to 1), expected points for PASS and each PLAY action, your final action, and a brief explanation of the decisive uncertainty. Use the requested response schema and the displayed object labels.\n\nResponse schema. Objects are identified by their position (1, 2, 3 or 4) in YOUR image. \"own_distribution\" is your estimate of how independent instances of your model, each given this complete prompt including these instructions, would act; it is a forecast, not a commitment. \"partner_distribution\" is your estimate of the other player's action. Each distribution's values are probabilities between 0 and 1 that sum to 1.\n\nAnswer with exactly one JSON object and nothing else, in this form:\n{\"own_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"partner_distribution\": {\"PASS\": <p>, \"1\": <p>, \"2\": <p>, \"3\": <p>, \"4\": <p>}, \"expected_points\": {\"PASS\": 5, \"1\": <number>, \"2\": <number>, \"3\": <number>, \"4\": <number>}, \"decision\": \"PASS\" or \"PLAY\", \"object\": null or \"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>\", \"explanation\": \"<one or two sentences on the decisive uncertainty>\"}",
+   "sha8": "c12a5ed6",
+   "derived_from": "5b087c1d"
+  }
+ },
+ "substitutions": [
+  {
+   "old": "- If you choose PASS, you receive 7 points, whatever the other player does.",
+   "new": "- If you choose PASS, you receive 5 points, whatever the other player does."
+  },
+  {
+   "old": "you receive 0 points and the other player receives 7 points.",
+   "new": "you receive 0 points and the other player receives 5 points."
+  },
+  {
+   "old": "- If you choose PASS and the other player chooses PLAY, you receive 7 points",
+   "new": "- If you choose PASS and the other player chooses PLAY, you receive 5 points"
+  },
+  {
+   "old": "PASS earns 7;",
+   "new": "PASS earns 5;"
+  },
+  {
+   "old": "PLAY beats PASS only when that probability exceeds 0.70.",
+   "new": "PLAY beats PASS only when that probability exceeds 0.50."
+  },
+  {
+   "old": "\"expected_points\": {\"PASS\": 7,",
+   "new": "\"expected_points\": {\"PASS\": 5,"
+  }
+ ],
+ "design": {
+  "per_cell": {
+   "policy": 24,
+   "eval": 12
+  },
+  "jobs": "identical keys, roles, permutations and order to the reciprocal-confidence pilot (seed 20261017)",
+  "partner_benchmark": "fresh PASS=5 policies only; PASS=7 q never used for PASS=5 regret",
+  "comparison": "exploratory matched-item comparison with the completed PASS=7 reciprocal pilot"
+ },
+ "outcomes": [
+  "regret = (max(5, 10 max_j q_j) - [5 p_PASS + 10 sum_j p_j q_j]) / 10 (same-q plug-in, >= 0)",
+  "joint payoff shortfall = (10 - mean dyadic payoff)/10, 10 = ideal coordination ceiling (not guaranteed attainable without a shared rule)",
+  "realized 10-point matching rate",
+  "mean focal payoff and PLAY rate",
+  "own/partner forecast accuracy (TVD), BR-consistency, EV arithmetic at explicit tolerances"
+ ],
+ "budget": {
+  "pilot_cap_usd": 20.0,
+  "cumulative_ceiling_usd": 60.60191,
+  "prior_cumulative_usd_recomputed": 40.60191,
+  "rule": "dispatch only if pilot actual + outstanding reservations (token-limit bound) + next bound <= 20 AND prior + same <= 60.60191; missing usage keeps the full bound; retries are new reservations",
+  "prices": "GPT-5.5 $5/$30, Claude Opus 5 $5/$25 per MTok (re-verified 2026-10-16 \u224817:45Z)"
+ },
+ "frozen_utc": "2026-10-16",
+ "authorisation_verbatim": [
+  "great. run the adapted pilot",
+  "okay now run pilot if ready"
+ ],
+ "authorisation_context": "manager: the go-ahead approves its requested fresh $20 Pilot-3 cap",
+ "stop_rules": [
+  "budget rule",
+  "3 refusals",
+  "5 consecutive API failures",
+  "non-retryable 4xx"
+ ],
+ "format_check": "first 8 frozen jobs (2 per model x condition), counted in the sample",
+ "parsing": "rc_parse (identical to the PASS=7 pilot); invalid replies recorded, never resampled"
+}

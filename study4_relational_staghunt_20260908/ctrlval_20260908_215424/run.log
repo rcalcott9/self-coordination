@@ -1,0 +1,19 @@
+=== STAGE 1: SHARED-POLICY CONTROL VALIDATION (n=24, ungreened, fresh) ===
+arrays  : 7   models: gpt, claude   perms/cell: 24 (each once)
+gpt     : gpt-5.5
+claude  : claude-opus-5
+prompt  : sha8=d40ea45d
+locked  : e5378ac89a64c7d1
+run dir : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/ctrlval_20260908_215424
+calls   : 336
+
+  stageA_ctrlval: 336 calls to make (0 skipped)
+    50/336
+    100/336
+    150/336
+    200/336
+    250/336
+    300/336
+
+rows 336  transport_fail 0  parse_fail 0
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/ctrlval_20260908_215424/data/stageA_ctrlval_parsed.csv

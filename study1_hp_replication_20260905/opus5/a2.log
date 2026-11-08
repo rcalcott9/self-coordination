@@ -1,0 +1,42 @@
+=== STAGE A1 SCREEN (drop-only) ===
+focal    : Claude Opus 5 (claude-opus-5)
+stimuli  : 96    depth: 30
+prompt   : sha8=3003ae1b  (canonical 3003ae1b)
+EXP dir  : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905
+trials   : 2880
+
+  100/2880 trials
+  200/2880 trials
+  300/2880 trials
+  400/2880 trials
+  500/2880 trials
+  600/2880 trials
+  700/2880 trials
+  800/2880 trials
+  900/2880 trials
+  1000/2880 trials
+  1100/2880 trials
+  1200/2880 trials
+  1300/2880 trials
+  1400/2880 trials
+  1500/2880 trials
+  1600/2880 trials
+  1700/2880 trials
+  1800/2880 trials
+  1900/2880 trials
+  2000/2880 trials
+  2100/2880 trials
+  2200/2880 trials
+  2300/2880 trials
+  2400/2880 trials
+  2500/2880 trials
+  2600/2880 trials
+  2700/2880 trials
+  2800/2880 trials
+
+=== stage A/A2_OPUS5 done: 2880 trials in 1609s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageA_A2_OPUS5_20260910_121948.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageA_A2_OPUS5_20260910_121948.jsonl

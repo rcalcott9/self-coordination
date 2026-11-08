@@ -1,0 +1,762 @@
+[
+ {
+  "item_id": "MS00",
+  "domain": "glyph_code",
+  "options": [
+   "BJ-76",
+   "XH-28",
+   "XL-11",
+   "XK-5",
+   "FQ-81",
+   "KC-39",
+   "TF-94",
+   "CM-16",
+   "RX-4",
+   "JG-8",
+   "XV-41",
+   "NX-6"
+  ],
+  "option_set_hash": "f706f7969f624d1f"
+ },
+ {
+  "item_id": "MS01",
+  "domain": "grid_cell",
+  "options": [
+   "B6",
+   "G8",
+   "C1",
+   "C6",
+   "B5",
+   "F4",
+   "D1",
+   "B1",
+   "B4",
+   "H7",
+   "D7",
+   "B3"
+  ],
+  "option_set_hash": "fdc0f69b8a6a0ef7"
+ },
+ {
+  "item_id": "MS02",
+  "domain": "identifier",
+  "options": [
+   "QPY3",
+   "JN02",
+   "41PA",
+   "0OZ",
+   "TCQ",
+   "FWKH",
+   "3PLP",
+   "X0H",
+   "WSZH",
+   "PCE",
+   "1HN",
+   "WKL"
+  ],
+  "option_set_hash": "0601794dbea4a157"
+ },
+ {
+  "item_id": "MS03",
+  "domain": "filename",
+  "options": [
+   "amber_81.dat",
+   "sorrel_85.idx",
+   "fathom_84.dat",
+   "amber_13.idx",
+   "harbor_54.bin",
+   "cobalt_63.idx",
+   "cobalt_6.cfg",
+   "cinder_61.tmp",
+   "kelp_95.tmp",
+   "pylon_44.tmp",
+   "granite_14.dat",
+   "flint_47.dat"
+  ],
+  "option_set_hash": "e17610d36534f363"
+ },
+ {
+  "item_id": "MS04",
+  "domain": "coordinate",
+  "options": [
+   "62.7N 98.0E",
+   "60.6N 89.7E",
+   "58.0N 36.7E",
+   "44.2N 103.3E",
+   "72.1N 163.8E",
+   "6.6N 169.6E",
+   "13.6N 84.2E",
+   "23.1N 62.6E",
+   "21.3N 167.0E",
+   "14.7N 51.3E",
+   "74.6N 118.1E",
+   "77.5N 93.2E"
+  ],
+  "option_set_hash": "733bd7d88717af96"
+ },
+ {
+  "item_id": "MS05",
+  "domain": "code_label",
+  "options": [
+   "scan_hdr8",
+   "merge_seg4",
+   "parse_blk3",
+   "wrap_ptr1",
+   "bind_hdr5",
+   "seek_seg9",
+   "parse_blk1",
+   "merge_que9",
+   "seek_frm8",
+   "seek_buf2",
+   "merge_frm3",
+   "bind_hdr1"
+  ],
+  "option_set_hash": "38e3cc37770e06e9"
+ },
+ {
+  "item_id": "MS06",
+  "domain": "glyph_code",
+  "options": [
+   "DG-67",
+   "FR-29",
+   "TF-95",
+   "JZ-22",
+   "XC-13",
+   "PF-73",
+   "DB-18",
+   "LM-97",
+   "LS-48",
+   "KZ-79",
+   "QG-19",
+   "JG-44"
+  ],
+  "option_set_hash": "065e615a16b90d5f"
+ },
+ {
+  "item_id": "MS07",
+  "domain": "grid_cell",
+  "options": [
+   "D5",
+   "E4",
+   "A7",
+   "E1",
+   "B4",
+   "H2",
+   "H8",
+   "G3",
+   "D3",
+   "D1",
+   "H7",
+   "H5"
+  ],
+  "option_set_hash": "e929f99800d63a07"
+ },
+ {
+  "item_id": "MS08",
+  "domain": "identifier",
+  "options": [
+   "W9X",
+   "KMG",
+   "SN1",
+   "2Q6",
+   "QJT",
+   "F9DS",
+   "Z3T",
+   "7FC",
+   "TKO",
+   "UOR",
+   "ZN7",
+   "6OT7"
+  ],
+  "option_set_hash": "a5e156c15ee31acf"
+ },
+ {
+  "item_id": "MS09",
+  "domain": "filename",
+  "options": [
+   "nimbus_9.log",
+   "beacon_50.tmp",
+   "salvage_17.tmp",
+   "marrow_79.cfg",
+   "meadow_43.bin",
+   "kelp_74.log",
+   "cobalt_20.dat",
+   "orchid_51.dat",
+   "flint_43.idx",
+   "granite_9.tmp",
+   "amber_65.dat",
+   "lantern_22.dat"
+  ],
+  "option_set_hash": "6d216f8354da7863"
+ },
+ {
+  "item_id": "MS10",
+  "domain": "coordinate",
+  "options": [
+   "71.1N 149.5E",
+   "35.2N 34.3E",
+   "60.5N 137.5E",
+   "84.8N 132.2E",
+   "87.8N 45.3E",
+   "42.5N 53.0E",
+   "51.6N 123.5E",
+   "20.6N 142.1E",
+   "46.5N 118.9E",
+   "5.9N 100.9E",
+   "26.0N 33.3E",
+   "66.1N 170.6E"
+  ],
+  "option_set_hash": "2811f7122c795fea"
+ },
+ {
+  "item_id": "MS11",
+  "domain": "code_label",
+  "options": [
+   "wrap_blk1",
+   "emit_tbl6",
+   "scan_seg8",
+   "merge_frm9",
+   "merge_que7",
+   "merge_hdr1",
+   "bind_buf9",
+   "bind_que4",
+   "wrap_blk6",
+   "wrap_buf7",
+   "seek_tbl4",
+   "parse_hdr4"
+  ],
+  "option_set_hash": "1474b93f10cc666e"
+ },
+ {
+  "item_id": "MS12",
+  "domain": "glyph_code",
+  "options": [
+   "FN-99",
+   "DS-78",
+   "VM-97",
+   "HZ-72",
+   "CJ-36",
+   "QD-46",
+   "KS-9",
+   "ZJ-62",
+   "QJ-73",
+   "ZS-13",
+   "FC-12",
+   "XV-14"
+  ],
+  "option_set_hash": "98de3eb1a4c9ac48"
+ },
+ {
+  "item_id": "MS13",
+  "domain": "grid_cell",
+  "options": [
+   "A3",
+   "H1",
+   "B7",
+   "D7",
+   "D2",
+   "E8",
+   "G4",
+   "E4",
+   "H7",
+   "G8",
+   "C5",
+   "A5"
+  ],
+  "option_set_hash": "2eac55bb38cdbaa3"
+ },
+ {
+  "item_id": "MS14",
+  "domain": "identifier",
+  "options": [
+   "O5PD",
+   "AYO",
+   "JG5D",
+   "89Z",
+   "PMW",
+   "VCBA",
+   "3WWH",
+   "ZT5",
+   "T35E",
+   "TV8K",
+   "O33",
+   "WYNY"
+  ],
+  "option_set_hash": "b394f2379c836428"
+ },
+ {
+  "item_id": "MS15",
+  "domain": "filename",
+  "options": [
+   "lantern_53.bin",
+   "thistle_83.log",
+   "quarry_94.cfg",
+   "ravine_4.log",
+   "cobalt_53.bin",
+   "pylon_23.cfg",
+   "sorrel_82.dat",
+   "pylon_39.bin",
+   "cinder_61.cfg",
+   "juniper_88.idx",
+   "lantern_59.dat",
+   "lantern_66.bin"
+  ],
+  "option_set_hash": "c1c7f91309e130c8"
+ },
+ {
+  "item_id": "MS16",
+  "domain": "coordinate",
+  "options": [
+   "50.3N 112.6E",
+   "75.1N 129.7E",
+   "22.6N 6.3E",
+   "5.5N 131.7E",
+   "75.1N 14.3E",
+   "85.1N 176.8E",
+   "28.5N 99.4E",
+   "89.0N 12.2E",
+   "26.9N 60.0E",
+   "49.9N 114.5E",
+   "13.7N 163.5E",
+   "2.4N 147.6E"
+  ],
+  "option_set_hash": "db8e61c5efbc0ecf"
+ },
+ {
+  "item_id": "MS17",
+  "domain": "code_label",
+  "options": [
+   "seek_seg5",
+   "seek_buf8",
+   "wrap_buf3",
+   "scan_seg6",
+   "bind_blk1",
+   "seek_ptr5",
+   "emit_que8",
+   "parse_ptr9",
+   "bind_buf7",
+   "merge_hdr6",
+   "scan_blk8",
+   "parse_ptr4"
+  ],
+  "option_set_hash": "90a91e47f5cc66f1"
+ },
+ {
+  "item_id": "MS18",
+  "domain": "glyph_code",
+  "options": [
+   "XC-42",
+   "KZ-77",
+   "XX-59",
+   "BJ-35",
+   "DM-77",
+   "JQ-84",
+   "WQ-40",
+   "RL-90",
+   "VW-55",
+   "TS-58",
+   "KF-71",
+   "FZ-61"
+  ],
+  "option_set_hash": "de2fa64ab676c12a"
+ },
+ {
+  "item_id": "MS19",
+  "domain": "grid_cell",
+  "options": [
+   "B4",
+   "F4",
+   "A8",
+   "B2",
+   "E7",
+   "B5",
+   "A7",
+   "H2",
+   "D5",
+   "H8",
+   "G5",
+   "E4"
+  ],
+  "option_set_hash": "4d9ad15f58bbb661"
+ },
+ {
+  "item_id": "MS20",
+  "domain": "identifier",
+  "options": [
+   "HF9Y",
+   "9LV",
+   "V7EE",
+   "HSX6",
+   "TKJ4",
+   "4Z8F",
+   "Q0K7",
+   "OPXZ",
+   "HF3X",
+   "1AZ5",
+   "XSP",
+   "VJ0"
+  ],
+  "option_set_hash": "9e2b817543867949"
+ },
+ {
+  "item_id": "MS21",
+  "domain": "filename",
+  "options": [
+   "meadow_82.bin",
+   "juniper_40.cfg",
+   "flint_47.tmp",
+   "lantern_88.dat",
+   "fathom_78.idx",
+   "kelp_8.cfg",
+   "amber_90.cfg",
+   "orchid_29.bin",
+   "fathom_72.log",
+   "vellum_42.bin",
+   "cinder_75.idx",
+   "sorrel_27.bin"
+  ],
+  "option_set_hash": "66b61b1eca8af335"
+ },
+ {
+  "item_id": "MS22",
+  "domain": "coordinate",
+  "options": [
+   "89.8N 131.5E",
+   "65.1N 147.9E",
+   "77.6N 23.3E",
+   "28.3N 89.5E",
+   "3.0N 85.8E",
+   "7.0N 64.3E",
+   "89.5N 133.2E",
+   "63.9N 1.2E",
+   "70.6N 73.3E",
+   "28.5N 64.8E",
+   "4.5N 91.9E",
+   "83.4N 115.5E"
+  ],
+  "option_set_hash": "43c356c834685c37"
+ },
+ {
+  "item_id": "MS23",
+  "domain": "code_label",
+  "options": [
+   "flush_blk6",
+   "merge_buf2",
+   "seek_que7",
+   "parse_frm9",
+   "parse_tbl4",
+   "parse_frm6",
+   "flush_que5",
+   "emit_blk5",
+   "merge_hdr4",
+   "emit_hdr5",
+   "flush_ptr6",
+   "bind_hdr7"
+  ],
+  "option_set_hash": "96de4dbfc997b8c6"
+ },
+ {
+  "item_id": "MS24",
+  "domain": "glyph_code",
+  "options": [
+   "KC-54",
+   "JQ-83",
+   "KM-29",
+   "GN-83",
+   "SN-91",
+   "FW-35",
+   "RV-38",
+   "WV-62",
+   "CV-31",
+   "CP-26",
+   "BT-11",
+   "NJ-68"
+  ],
+  "option_set_hash": "29fedd0b7b40782f"
+ },
+ {
+  "item_id": "MS25",
+  "domain": "grid_cell",
+  "options": [
+   "C2",
+   "F5",
+   "B2",
+   "A7",
+   "A4",
+   "A1",
+   "C3",
+   "H1",
+   "B7",
+   "D2",
+   "H2",
+   "F1"
+  ],
+  "option_set_hash": "bc0212b96b650d81"
+ },
+ {
+  "item_id": "MS26",
+  "domain": "identifier",
+  "options": [
+   "U6G2",
+   "ZSRN",
+   "L1W",
+   "9PB9",
+   "L4S2",
+   "F6C",
+   "HBE",
+   "6QH",
+   "MY8",
+   "HZXV",
+   "GSB2",
+   "E5H"
+  ],
+  "option_set_hash": "aeee4b9901168d97"
+ },
+ {
+  "item_id": "MS27",
+  "domain": "filename",
+  "options": [
+   "marrow_7.dat",
+   "fathom_49.tmp",
+   "marrow_78.tmp",
+   "amber_18.bin",
+   "thistle_27.idx",
+   "quarry_85.tmp",
+   "thistle_78.dat",
+   "marrow_70.tmp",
+   "cinder_35.tmp",
+   "orchid_33.dat",
+   "lantern_90.tmp",
+   "granite_45.dat"
+  ],
+  "option_set_hash": "65908707f52e7690"
+ },
+ {
+  "item_id": "MS28",
+  "domain": "coordinate",
+  "options": [
+   "78.0N 143.7E",
+   "12.3N 68.0E",
+   "10.5N 53.4E",
+   "76.3N 26.6E",
+   "78.5N 130.9E",
+   "49.8N 79.9E",
+   "5.1N 173.9E",
+   "67.9N 27.8E",
+   "44.4N 33.6E",
+   "38.0N 27.7E",
+   "7.9N 51.6E",
+   "31.6N 86.2E"
+  ],
+  "option_set_hash": "cb0e46b8ae945828"
+ },
+ {
+  "item_id": "MS29",
+  "domain": "code_label",
+  "options": [
+   "scan_tbl6",
+   "seek_seg7",
+   "scan_tbl4",
+   "flush_blk2",
+   "merge_seg4",
+   "scan_tbl5",
+   "seek_seg8",
+   "bind_seg6",
+   "merge_blk5",
+   "seek_seg3",
+   "bind_ptr5",
+   "emit_hdr9"
+  ],
+  "option_set_hash": "0c43078c31301702"
+ },
+ {
+  "item_id": "MS30",
+  "domain": "glyph_code",
+  "options": [
+   "MP-97",
+   "TT-24",
+   "CG-54",
+   "RC-88",
+   "BP-31",
+   "PF-23",
+   "ZK-77",
+   "ZM-83",
+   "BZ-38",
+   "QJ-8",
+   "SN-7",
+   "BK-53"
+  ],
+  "option_set_hash": "203a4081abb9f8ad"
+ },
+ {
+  "item_id": "MS31",
+  "domain": "grid_cell",
+  "options": [
+   "G5",
+   "E4",
+   "G8",
+   "H4",
+   "B1",
+   "B2",
+   "C3",
+   "E2",
+   "F3",
+   "H2",
+   "D2",
+   "D6"
+  ],
+  "option_set_hash": "a7c58dfc57e60741"
+ },
+ {
+  "item_id": "MS32",
+  "domain": "identifier",
+  "options": [
+   "NBN6",
+   "1OSD",
+   "V84",
+   "FY2",
+   "GQXO",
+   "LMVF",
+   "GPPY",
+   "3233",
+   "VJA0",
+   "EOZ",
+   "9F2",
+   "9JWR"
+  ],
+  "option_set_hash": "94205045440f05cb"
+ },
+ {
+  "item_id": "MS33",
+  "domain": "filename",
+  "options": [
+   "thistle_80.tmp",
+   "fathom_54.log",
+   "willow_54.dat",
+   "willow_66.cfg",
+   "juniper_19.cfg",
+   "harbor_78.tmp",
+   "meadow_64.dat",
+   "salvage_64.log",
+   "beacon_59.log",
+   "ravine_34.dat",
+   "harbor_24.tmp",
+   "vellum_88.cfg"
+  ],
+  "option_set_hash": "3d40489ff4f44946"
+ },
+ {
+  "item_id": "MS34",
+  "domain": "coordinate",
+  "options": [
+   "75.3N 86.6E",
+   "8.7N 72.0E",
+   "20.5N 88.0E",
+   "87.5N 31.7E",
+   "35.4N 52.2E",
+   "4.4N 77.1E",
+   "77.2N 71.6E",
+   "85.3N 7.1E",
+   "71.6N 161.4E",
+   "3.7N 121.0E",
+   "55.9N 138.1E",
+   "89.3N 52.9E"
+  ],
+  "option_set_hash": "e3f04ab44b5ce559"
+ },
+ {
+  "item_id": "MS35",
+  "domain": "code_label",
+  "options": [
+   "merge_hdr5",
+   "scan_blk8",
+   "parse_tbl1",
+   "bind_frm5",
+   "parse_hdr9",
+   "wrap_frm9",
+   "merge_tbl6",
+   "seek_tbl6",
+   "bind_buf5",
+   "parse_blk9",
+   "seek_seg3",
+   "flush_blk5"
+  ],
+  "option_set_hash": "6fda1c37c64a40a7"
+ },
+ {
+  "item_id": "MS36",
+  "domain": "glyph_code",
+  "options": [
+   "FR-88",
+   "QV-21",
+   "NJ-2",
+   "MG-91",
+   "KD-75",
+   "ZH-52",
+   "QJ-19",
+   "RG-95",
+   "BD-88",
+   "CG-30",
+   "JD-53",
+   "ZM-3"
+  ],
+  "option_set_hash": "b79300815053cd83"
+ },
+ {
+  "item_id": "MS37",
+  "domain": "grid_cell",
+  "options": [
+   "B7",
+   "C1",
+   "H1",
+   "D2",
+   "G8",
+   "C4",
+   "D3",
+   "H4",
+   "F3",
+   "B1",
+   "B6",
+   "H6"
+  ],
+  "option_set_hash": "7b37bfd797ca406b"
+ },
+ {
+  "item_id": "MS38",
+  "domain": "identifier",
+  "options": [
+   "ELPA",
+   "PY1",
+   "XFS1",
+   "U4PQ",
+   "DL3",
+   "U3KX",
+   "NPQ",
+   "6EBY",
+   "M6G9",
+   "JVN3",
+   "3F5",
+   "NGD"
+  ],
+  "option_set_hash": "bcdb197930e5edca"
+ },
+ {
+  "item_id": "MS39",
+  "domain": "filename",
+  "options": [
+   "lantern_64.bin",
+   "ravine_36.bin",
+   "sorrel_32.idx",
+   "sorrel_4.idx",
+   "fathom_95.idx",
+   "quarry_13.bin",
+   "marrow_97.log",
+   "vellum_51.cfg",
+   "amber_61.tmp",
+   "granite_8.log",
+   "orchid_13.tmp",
+   "granite_81.bin"
+  ],
+  "option_set_hash": "89381740aefe6237"
+ }
+]

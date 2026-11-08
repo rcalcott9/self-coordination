@@ -1,0 +1,684 @@
+"""
+Policy-specific self-coordination - shared registry, prompts, API calls, parsers.
+
+WHAT THIS REUSES (nothing here is a fresh reimplementation):
+
+  targeted_common.py          registry(), paths(), slot_identities(), cell_metrics(),
+    (Step 1c module)          unbiased_match(), plugin_match(), boot_draws(), pct_ci(),
+                              load_valid().  Imported, not copied - the fresh Stage-A
+                              numbers are therefore computed by the SAME code that
+                              produced the confirmed n=60 battery.
+
+  step1_form_choice.py        BASE prompt (sha8 3003ae1b), parse_side(), the
+    (Step 1 module)           ask_gpt/ask_claude call shapes, the AB/BA job builder,
+                              and the retry + superseded_by_retry CSV convention.
+
+  calibration_run.py          the auditor third-person prompt rewrite, parse_estimate(),
+    (Step 2 module)           PROB_RE/PCT_RE, and the stage/rater/focal column layout.
+
+  confidence_calibration_probe.py   the arm-3 safe-payoff opt-out design.
+
+DELIBERATE DESIGN DECISION - Stage A uses BASE *verbatim*.
+
+  The spec describes the Stage-A prompt in its own words. Those words are
+  semantically identical to BASE, but they are not byte-identical. Using BASE
+  verbatim (sha8 3003ae1b) is strictly better here: Stage A exists to re-measure
+  self-play coordination on NEW MODEL VERSIONS, so model version must be the only
+  thing that changed. A reworded prompt would confound model version with prompt
+  change and make the fresh numbers non-comparable to the confirmed n=60 battery
+  that motivates the whole experiment. The prompt hash is asserted at import.
+
+Keys come from the environment (OPENAI_API_KEY, ANTHROPIC_API_KEY) via the repo .env.
+"""
+import os, re, csv, sys, json, time, random, base64, hashlib, threading
+from datetime import datetime, timezone
+from collections import Counter
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+EXP = os.path.dirname(HERE)
+REPO = os.path.expanduser("~/Desktop/Coordination/LLM_Coordination/Name_game_experiment")
+if REPO not in sys.path:
+    sys.path.insert(0, REPO)
+
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(REPO), ".env"))
+
+import targeted_common as tc          # registry + every per-cell metric
+from step1_form_choice import BASE, PROMPT as STEP1_PROMPT, parse_side
+
+# The whole series shares one estimand; this is the guard that keeps it that way.
+BASE_SHA8 = hashlib.sha256(BASE.encode()).hexdigest()[:8]
+STEP1_SHA8 = hashlib.sha256(STEP1_PROMPT.encode()).hexdigest()[:8]
+assert STEP1_SHA8 == "3003ae1b", f"step1 prompt drifted: {STEP1_SHA8} != 3003ae1b"
+
+# REPLICATION OVERRIDES. All default to the original values, so the Aug-12 code path
+# is bit-identical when these env vars are unset. Set PSC_EXP_DIR to redirect every
+# output into a separate experiment tree (used by the 5.4/4.8 procedural replication);
+# the original project is then never written to.
+EXP = os.environ.get("PSC_EXP_DIR", EXP)
+DATA = os.path.join(EXP, "data")
+VIZ = os.path.join(EXP, "visualizations")
+STIM_LOCAL = os.path.join(HERE, "stimuli")
+MANIFEST = os.path.join(EXP, "stimulus_manifest.csv")
+
+# ------------------------------------------------------------------ models ----
+# Resolved from the provider model-list endpoints on 2026-08-12, not guessed:
+#   OpenAI   GET /v1/models  -> "gpt-5.5" (alias) and "gpt-5.5-2026-04-23" (pinned)
+#   Anthropic GET /v1/models -> "claude-opus-5"  display_name "Claude Opus 5"
+GPT_ID = os.environ.get("PSC_GPT_ID", "gpt-5.5")
+GPT_ID_PINNED = os.environ.get("PSC_GPT_ID_PINNED", "gpt-5.5-2026-04-23")
+CLAUDE_ID = os.environ.get("PSC_CLAUDE_ID", "claude-opus-5")
+# max_tokens is a truncation cap, not an estimand. The 5.4/4.8 replication restores
+# the exact Aug-7 value of 2000; the original run used 4000.
+CLAUDE_MAX_TOKENS = int(os.environ.get("PSC_CLAUDE_MAX_TOKENS", "4000"))
+
+# Settings are IDENTICAL in structure to the Step 1/1c/2 series (effort=low both
+# sides), so the only change from the confirmed battery is the model version.
+# Claude Opus 5 notes: thinking is ON by default and adaptive is valid at any
+# effort; temperature/top_p/top_k and budget_tokens are rejected with a 400.
+# max_tokens raised 2000 -> 4000 purely as truncation headroom (a cap, not an
+# estimand); thinking tokens count against it and are billed either way.
+GPT_SETTINGS = ({"model": GPT_ID, "reasoning": {"effort": "low", "summary": "auto"},
+                 "temperature": None, "max_output_tokens": None, "seed": None}
+                if os.environ.get("PSC_GPT_SURFACE", "reasoning") == "reasoning" else
+                {"model": GPT_ID, "reasoning": None,
+                 "temperature": float(os.environ.get("PSC_TEMPERATURE", "1.0")),
+                 "max_output_tokens": None, "seed": None})
+CLAUDE_SETTINGS = ({"model": CLAUDE_ID, "max_tokens": CLAUDE_MAX_TOKENS,
+                    "thinking": {"type": "adaptive", "display": "summarized"},
+                    "output_config": {"effort": "low"},
+                    "temperature": None, "seed": None}
+                   if os.environ.get("PSC_CLAUDE_SURFACE", "thinking") == "thinking" else
+                   {"model": CLAUDE_ID, "max_tokens": CLAUDE_MAX_TOKENS,
+                    "thinking": None, "output_config": None,
+                    "temperature": float(os.environ.get("PSC_TEMPERATURE", "1.0")),
+                    "seed": None})
+MODELS = {"gpt": GPT_SETTINGS, "claude": CLAUDE_SETTINGS}
+DISPLAY = {"gpt": os.environ.get("PSC_GPT_NAME", "GPT-5.5"),
+           "claude": os.environ.get("PSC_CLAUDE_NAME", "Claude Opus 5")}
+OTHER = {"gpt": "claude", "claude": "gpt"}
+
+WORKERS = 8
+SEEDS = {"A": 20260812, "B_auditor": 20260813, "B_salience": 20260814, "C": 20260815}
+
+# --------------------------------------------------------------- stimuli ------
+# The 15 candidates named in the spec. Every name, its identity coding and its
+# classification are VERIFIED against step1c_output/targeted_confirmation_summary.csv
+# by build_manifest() below - nothing here is trusted on faith.
+BATTERY = [
+    "proto", "rot", "mirror", "noise",
+    "d_dens_extreme", "s_density", "s_contrast",
+    "b_spiral_cw",
+    "a_chev_ud", "s_arrow", "s_convexity", "c_open_cplx",
+    "b_tee_ell", "c_contr_subtle", "d_texture",
+]
+
+# Published classification from the Step-2 report (2026-08-07). Kept SEPARATE from
+# the data-derived columns so the two can be compared rather than conflated.
+# The clean / fallback distinction is the one the spec forbids collapsing.
+REPORT_CLASS = {
+    "proto":          ("shared_control",     "shared-easy ceiling"),
+    "rot":            ("shared_control",     "intermediate shared"),
+    "mirror":         ("shared_control",     "structured ambiguous"),
+    "noise":          ("shared_control",     "floor"),
+    "d_dens_extreme": ("clean_disparity",    "GPT>Claude clean"),
+    "s_density":      ("clean_disparity",    "GPT>Claude clean"),
+    "s_contrast":     ("clean_disparity",    "GPT>Claude clean, |d|<0.20"),
+    "b_spiral_cw":    ("clean_disparity",    "Claude>GPT clean, |d|<0.20"),
+    "a_chev_ud":      ("fallback_disparity", "Claude high / GPT partial fallback"),
+    "s_arrow":        ("fallback_disparity", "Claude high / GPT partial fallback"),
+    "s_convexity":    ("fallback_disparity", "Claude high / GPT partial fallback"),
+    "c_open_cplx":    ("fallback_disparity", "Claude high / GPT fallback (FC 0.43)"),
+    "b_tee_ell":      ("fallback_disparity", "GPT high / Claude fallback"),
+    "c_contr_subtle": ("fallback_disparity", "GPT high / Claude fallback"),
+    "d_texture":      ("fallback_disparity", "GPT high / Claude fallback"),
+}
+
+# EXPANSION. The generation-ladder study prospectively adds a frozen 30-stimulus
+# battery so the SAME selector has a larger candidate universe. Expansion stimuli have
+# no confirmed-battery row, so build_manifest verifies them structurally (registry
+# entry + both images + distinct identities) and skips only the prior-data checks.
+EXTRA_STIMULI = [x for x in os.environ.get("PSC_EXTRA_STIMULI", "").split(",") if x]
+BATTERY = BATTERY + EXTRA_STIMULI
+
+FC_CLEAN = 0.80          # the Step-1c "clean" bar; below this = position fallback
+CONFIRM_CSV = os.path.join(REPO, "step1c_output", "targeted_confirmation_summary.csv")
+
+
+def prior_confirmed():
+    """{stimulus: {model: row}} from the confirmed n=60 sample (old model versions)."""
+    out = {}
+    for r in csv.DictReader(open(CONFIRM_CSV)):
+        out.setdefault(r["stimulus_pair"], {})[r["model"]] = r
+    return out
+
+
+def build_manifest(write=True):
+    """Verify all 15 stimuli against the registry AND the confirmed data, then freeze.
+
+    Fails loudly rather than silently substituting a similarly-named stimulus.
+    """
+    reg = tc.registry()
+    prior = prior_confirmed()
+    rows, problems = [], []
+    for sid in BATTERY:
+        e = reg.get(sid)
+        if not e:
+            problems.append(f"{sid}: not in registry"); continue
+        ab, ba = tc.paths(e)
+        for p in (ab, ba):
+            if not os.path.exists(p):
+                problems.append(f"{sid}: missing {p}")
+        pr = prior.get(sid)
+        if sid in EXTRA_STIMULI:
+            # structural verification only - there is no prior run to compare against
+            if not e.get("identity_1") or e["identity_1"] == e.get("identity_2"):
+                problems.append(f"{sid}: identities missing or identical")
+            rows.append(dict(
+                stimulus_id=sid, family=e.get("family", ""), source=e["source"],
+                identity_1=e["identity_1"], identity_2=e["identity_2"],
+                path_AB=ab, path_BA=ba,
+                local_AB=os.path.join(STIM_LOCAL, f"{sid}_AB.png"),
+                local_BA=os.path.join(STIM_LOCAL, f"{sid}_BA.png"),
+                prior_class_report="expansion",
+                prior_note_report="prospective expansion battery; no prior run",
+                prior_gpt_match="", prior_claude_match="",
+                prior_delta_gpt_minus_claude="",
+                prior_gpt_form_consistency="", prior_claude_form_consistency="",
+                prior_gpt_fallback="", prior_claude_fallback="",
+                prior_n_gpt="", prior_n_claude="",
+            ))
+            continue
+        if not pr or "gpt" not in pr or "claude" not in pr:
+            problems.append(f"{sid}: absent from confirmation summary"); continue
+        g, c = pr["gpt"], pr["claude"]
+        gm, cm = float(g["match_unbiased"]), float(c["match_unbiased"])
+        gfc, cfc = float(g["form_consistency"]), float(c["form_consistency"])
+        cls, note = REPORT_CLASS[sid]
+
+        # IDENTITY CODING. The registry and the confirmed run must agree on which
+        # identity is 1 and which is 2. If they disagree, every AB/BA recoding in
+        # this experiment is mirrored relative to the confirmed battery and the
+        # old-vs-new comparison silently compares p to 1-p.
+        for who, row in (("gpt", g), ("claude", c)):
+            for k in ("identity_1", "identity_2"):
+                if row.get(k) and row[k] != e[k]:
+                    problems.append(
+                        f"{sid}: {k} disagrees with the confirmed run ({who}): "
+                        f"registry={e[k]!r} confirmed={row[k]!r}")
+
+        # CLASSIFICATION. Re-derive the clean/fallback distinction from the data
+        # and require it to agree with the hand-entered REPORT_CLASS label.
+        d = gm - cm
+        derived_fb = (gfc < FC_CLEAN) or (cfc < FC_CLEAN)
+        if cls == "clean_disparity":
+            if derived_fb:
+                problems.append(
+                    f"{sid}: labelled clean_disparity but a model is below the "
+                    f"{FC_CLEAN} form-consistency bar (gFC={gfc}, cFC={cfc})")
+            if abs(d) < 0.10:
+                problems.append(
+                    f"{sid}: labelled clean_disparity but |delta|={abs(d):.3f} is tiny")
+        elif cls == "fallback_disparity":
+            if not derived_fb:
+                problems.append(
+                    f"{sid}: labelled fallback_disparity but BOTH models are at or "
+                    f"above the {FC_CLEAN} bar (gFC={gfc}, cFC={cfc})")
+        elif cls == "shared_control" and abs(d) > 0.20:
+            problems.append(
+                f"{sid}: labelled shared_control but |delta|={abs(d):.3f} > 0.20")
+        rows.append(dict(
+            stimulus_id=sid, family=e.get("family", ""), source=e["source"],
+            identity_1=e["identity_1"], identity_2=e["identity_2"],
+            path_AB=ab, path_BA=ba,
+            local_AB=os.path.join(STIM_LOCAL, f"{sid}_AB.png"),
+            local_BA=os.path.join(STIM_LOCAL, f"{sid}_BA.png"),
+            prior_class_report=cls, prior_note_report=note,
+            prior_gpt_match=round(gm, 4), prior_claude_match=round(cm, 4),
+            prior_delta_gpt_minus_claude=round(gm - cm, 4),
+            prior_gpt_form_consistency=gfc, prior_claude_form_consistency=cfc,
+            # stored as strings so a freshly-built manifest and one round-tripped
+            # through CSV compare identically everywhere downstream
+            prior_gpt_fallback=str(gfc < FC_CLEAN),
+            prior_claude_fallback=str(cfc < FC_CLEAN),
+            prior_n_gpt=g["n_valid"], prior_n_claude=c["n_valid"],
+        ))
+    if problems:
+        sys.exit("STIMULUS VERIFICATION FAILED:\n  " + "\n  ".join(problems))
+    if write:
+        os.makedirs(STIM_LOCAL, exist_ok=True)
+        import shutil
+        for r in rows:                       # self-contained copies, project convention
+            for src, dst in ((r["path_AB"], r["local_AB"]), (r["path_BA"], r["local_BA"])):
+                if not os.path.exists(dst):
+                    shutil.copy2(src, dst)
+        with open(MANIFEST, "w", newline="") as fh:
+            w = csv.DictWriter(fh, fieldnames=list(rows[0]))
+            w.writeheader(); w.writerows(rows)
+    return rows
+
+
+def load_manifest():
+    if not os.path.exists(MANIFEST):
+        return build_manifest()
+    return list(csv.DictReader(open(MANIFEST)))
+
+
+def registry_entry(sid):
+    """Registry entry for a stimulus, with identities from the frozen manifest."""
+    e = dict(tc.registry()[sid])
+    return e
+
+
+def load_images(sids=None):
+    """{(sid, variant): b64}. Reads the LOCAL frozen copies."""
+    man = {r["stimulus_id"]: r for r in load_manifest()}
+    img = {}
+    for sid in (sids or BATTERY):
+        r = man[sid]
+        for variant, key in (("AB", "local_AB"), ("BA", "local_BA")):
+            p = r[key] if os.path.exists(r[key]) else r[f"path_{variant}"]
+            with open(p, "rb") as fh:
+                img[(sid, variant)] = base64.standard_b64encode(fh.read()).decode()
+    return img
+
+
+def slot_identities(sid, variant):
+    """(identity shown LEFT, identity shown RIGHT). AB puts identity_1 on the left."""
+    man = {r["stimulus_id"]: r for r in load_manifest()}
+    i1, i2 = man[sid]["identity_1"], man[sid]["identity_2"]
+    return (i1, i2) if variant == "AB" else (i2, i1)
+
+
+# ------------------------------------------------------------------ prompts ---
+# STAGE A - BASE verbatim (see module docstring for why).
+STAGE_A_PROMPT = STEP1_PROMPT
+
+# STAGE B arm 1 - auditor. BASE rewritten in the third person for the focal model,
+# following calibration_run.auditor_base() exactly; only the model NAMES change.
+def auditor_base(focal):
+    f = DISPLAY[focal]
+    return (f"{f} is playing a one-shot coordination game with ONE other player - "
+            f"another instance of {f} (the same AI model). They will each independently "
+            "pick one of the two shapes shown; they want to pick the SAME shape as the "
+            "other player. No communication. IMPORTANT: the left/right position of the "
+            "two shapes is randomized independently for each of them, so position CANNOT "
+            "be used to coordinate - they must coordinate on a shape by its FORM.")
+
+
+AUDITOR_FORMAT = (" Answer with exactly two lines and nothing else:\n"
+                  "MATCH_PROBABILITY: <an integer from 0 to 100>\n"
+                  "LIKELY: <LEFT or RIGHT - the position in YOUR image of the form "
+                  "you predict they will prefer>")
+
+
+def auditor_prompt(focal):
+    f = DISPLAY[focal]
+    q = (f"What probability, from 0 to 100%, do you assign that two independent "
+         f"instances of {f}, each seeing independently randomized left/right layouts "
+         "of these same two forms, would choose the same underlying form?")
+    return auditor_base(focal) + "\n\n" + q + AUDITOR_FORMAT
+
+
+# STAGE B arm 2 - generic salience. Deliberately NOT combined with the auditor
+# question: it asks about a generic player, not a named model, so combining them
+# would let one answer anchor the other. Prior practice only ever combined a
+# probability with its own most-likely-choice, never two different constructs.
+SALIENCE_BASE = ("Two AI players are playing a one-shot coordination game. They each "
+                 "independently pick one of the two shapes shown; they score only if they "
+                 "pick the SAME shape. No communication. The left/right position of the two "
+                 "shapes is randomized independently for each of them, so position CANNOT be "
+                 "used to coordinate - they must coordinate on a shape by its FORM.")
+SALIENCE_PROMPT = SALIENCE_BASE + (
+    "\n\nHow obvious is the focal choice in this coordination game to a generic capable "
+    "AI player? 0 means there is no obvious focal option; 100 means one option is an "
+    "overwhelmingly obvious focal choice."
+    "\n\nAnswer with exactly one line and nothing else:\nSALIENCE: <an integer from 0 to 100>")
+
+
+# STAGE C - betting / opt-out. BASE is preserved verbatim as the first sentence
+# block so the coordination task the model is betting ON is the same task Stage A
+# measured; only the decision layer is new.
+def betting_prompt(safe):
+    # "The other player always plays" is load-bearing, not flavour. Every EV
+    # benchmark in the analysis uses Stage A's UNCONDITIONAL self-play rate as the
+    # match probability, and that is only the right p if the partner is not itself
+    # selecting into the game. If the partner could also opt out, the payoff-relevant
+    # quantity would be a cross-match against attempters only, and Stage A would be
+    # measuring the wrong thing. Stating it removes the ambiguity rather than leaving
+    # each trial to assume one way or the other.
+    return (BASE + "\n\n"
+            f"Before playing, you may either ATTEMPT the coordination game or take a "
+            f"guaranteed SAFE payoff. The other player always plays the coordination "
+            f"game and picks a form in the normal way; only you face this choice, and "
+            f"the other player's choice does not depend on it. If you ATTEMPT and you "
+            f"and the other player select the same underlying form, you receive 10 "
+            f"points. If you ATTEMPT and mismatch, you receive 0 points. If you choose "
+            f"SAFE, you receive {safe} points for certain and do not play. Choose the "
+            f"option you prefer."
+            "\n\nGive one short sentence of reasoning, then output exactly two lines:\n"
+            "DECISION: <ATTEMPT or SAFE>\n"
+            "CHOICE: <LEFT or RIGHT - the position in YOUR image of the shape you would "
+            "pick; write CHOICE: NONE if you chose SAFE>")
+
+
+SAFE_VALUES_DEFAULT = [3, 5, 7, 9]
+
+
+def sha8(s):
+    return hashlib.sha256(s.encode()).hexdigest()[:8]
+
+
+# -------------------------------------------------------------------- calls ---
+def make_clients():
+    miss = [k for k in ("OPENAI_API_KEY", "ANTHROPIC_API_KEY") if not os.environ.get(k)]
+    if miss:
+        sys.exit(f"missing environment variable(s): {', '.join(miss)}")
+    from openai import OpenAI
+    import anthropic
+    return {"gpt": OpenAI(max_retries=5), "claude": anthropic.Anthropic(max_retries=5)}
+
+
+# CONTROL SURFACE. Pre-GPT-5 OpenAI models expose no reasoning parameter and instead
+# take temperature; pre-4.6 Claude rejects adaptive thinking. The historical ladder must
+# therefore use each model's own native surface - there is no setting that is valid
+# across the boundary. Defaults keep the original reasoning/thinking path exactly.
+GPT_SURFACE = os.environ.get("PSC_GPT_SURFACE", "reasoning")        # reasoning|temperature
+CLAUDE_SURFACE = os.environ.get("PSC_CLAUDE_SURFACE", "thinking")   # thinking|temperature
+LADDER_TEMP = float(os.environ.get("PSC_TEMPERATURE", "1.0"))
+
+
+def ask_gpt(client, img_b64, prompt):
+    kw = dict(
+        model=GPT_ID,
+        input=[{"role": "user", "content": [
+            {"type": "input_text", "text": prompt},
+            {"type": "input_image", "image_url": f"data:image/png;base64,{img_b64}"}]}])
+    if GPT_SURFACE == "reasoning":
+        kw["reasoning"] = {"effort": "low", "summary": "auto"}
+    else:
+        kw["temperature"] = LADDER_TEMP
+    r = client.responses.create(**kw)
+    reasoning = ""
+    for item in r.output:
+        if item.type == "reasoning" and item.summary:
+            reasoning = " ".join(p.text for p in item.summary)
+            break
+    return (r.output_text or ""), reasoning, getattr(r, "model", GPT_ID)
+
+
+def ask_claude(client, img_b64, prompt):
+    kw = dict(
+        model=CLAUDE_ID,
+        max_tokens=CLAUDE_SETTINGS["max_tokens"],
+        messages=[{"role": "user", "content": [
+            {"type": "image", "source": {"type": "base64", "media_type": "image/png",
+                                         "data": img_b64}},
+            {"type": "text", "text": prompt}]}])
+    if CLAUDE_SURFACE == "thinking":
+        kw["thinking"] = {"type": "adaptive", "display": "summarized"}
+        kw["output_config"] = {"effort": "low"}
+    else:
+        kw["temperature"] = LADDER_TEMP
+    r = client.messages.create(**kw)
+    reasoning, answer = "", ""
+    for b in r.content:
+        if b.type == "thinking":
+            reasoning = b.thinking or ""
+        elif b.type == "text":
+            answer += b.text
+    return answer, reasoning, getattr(r, "model", CLAUDE_ID)
+
+
+ASK = {"gpt": ask_gpt, "claude": ask_claude}
+
+
+# ------------------------------------------------------------------ parsers ---
+PROB_RE = re.compile(r"MATCH_PROBABILITY:\s*([0-9]{1,3}(?:\.[0-9]+)?)\s*%?", re.I)
+SAL_RE = re.compile(r"SALIENCE:\s*([0-9]{1,3}(?:\.[0-9]+)?)\s*%?", re.I)
+PCT_RE = re.compile(r"([0-9]{1,3}(?:\.[0-9]+)?)\s*%")
+LIKELY_RE = re.compile(r"LIKELY:\s*(LEFT|RIGHT)", re.I)
+DECISION_RE = re.compile(r"DECISION:\s*(ATTEMPT|SAFE)", re.I)
+
+
+def _num(m):
+    """Parse a 0-100 answer. Rejects 0-1-scale answers rather than mis-scaling them.
+
+    The prompts ask for an integer 0-100. A model that instead answers "0.75" means
+    75%, but the analysis divides by 100, so accepting it at face value would record
+    0.0075 - a 100x error that looks like a confident "this will never coordinate".
+    A decimal strictly below 1 is unambiguously a 0-1-scale answer, so it is treated
+    as unparseable and the standard single retry gets a properly formatted response.
+    Bare integers 0 and 1 are left alone: on a 0-100 scale they are legitimate.
+    """
+    if not m:
+        return None
+    txt = m.group(1)
+    try:
+        v = float(txt)
+    except ValueError:
+        return None
+    if not (0 <= v <= 100):
+        return None
+    if "." in txt and v < 1:
+        return None
+    return v
+
+
+def parse_probability(txt):
+    """(0-100 or None, LEFT/RIGHT or ''). Explicit marker first, then bare percentage."""
+    if not txt:
+        return None, ""
+    p = _num(PROB_RE.search(txt))
+    if p is None:
+        p = _num(PCT_RE.search(txt))
+    ml = LIKELY_RE.search(txt)
+    side = ml.group(1).upper() if ml else parse_side(txt.split("LIKELY:")[-1])
+    return p, side
+
+
+def parse_salience(txt):
+    if not txt:
+        return None
+    v = _num(SAL_RE.search(txt))
+    return v if v is not None else _num(PCT_RE.search(txt))
+
+
+def parse_decision(txt):
+    """(ATTEMPT/SAFE or '', LEFT/RIGHT or '').
+
+    The CHOICE line is only meaningful on an ATTEMPT. A bare 'SAFE' with no
+    DECISION marker is accepted, mirroring parse_side's lenient fallback, but
+    only when the opposite token is absent.
+    """
+    if not txt:
+        return "", ""
+    m = DECISION_RE.search(txt)
+    if m:
+        dec = m.group(1).upper()
+    else:
+        up = txt.upper()
+        has_a, has_s = "ATTEMPT" in up, "SAFE" in up
+        dec = "ATTEMPT" if has_a and not has_s else ("SAFE" if has_s and not has_a else "")
+    # Case-insensitive split: models write "choice:" as often as "CHOICE:".
+    parts = re.split(r"CHOICE:", txt, flags=re.I)
+    tail = parts[-1] if len(parts) > 1 else ""
+    side = parse_side("CHOICE:" + tail) if tail else ""
+    if dec == "SAFE":
+        side = ""                       # a side after opting out is not a coordination choice
+    return dec, side
+
+
+# ------------------------------------------------------------------- runner ---
+def build_jobs(cells, n, seed):
+    """cells: list of dicts. Returns one job per trial with exact AB/BA balance.
+
+    Same construction as step1_form_choice.build_jobs: n/2 AB + n/2 BA per cell,
+    shuffled with a fixed recorded seed, so position and identity are independent.
+    """
+    if n % 2:
+        sys.exit("n must be even so AB/BA allocation is exactly balanced")
+    rng = random.Random(seed)
+    jobs = []
+    for cell in cells:
+        variants = ["AB"] * (n // 2) + ["BA"] * (n // 2)
+        rng.shuffle(variants)
+        for i, v in enumerate(variants):
+            key = "__".join(str(cell[k]) for k in sorted(cell))
+            jobs.append({**cell, "variant": v, "rep": i, "run_id": f"{key}__{i:03d}"})
+    rng.shuffle(jobs)                    # randomize trial order across cells too
+    return jobs
+
+
+COLS = ["stage", "actor_model", "actor_model_name", "actor_model_id_requested",
+        "actor_model_id_returned", "focal_model", "focal_model_name",
+        "stimulus", "stimulus_category", "prior_class_report",
+        "run_id", "attempt_number", "prompt_sha8", "seed", "variant",
+        "left_identity", "right_identity", "safe_payoff",
+        "response_raw", "visible_reasoning",
+        "parsed_choice_side", "parsed_choice_identity",
+        "predicted_match_probability", "salience_rating",
+        "participation_decision", "valid_response", "superseded_by_retry",
+        "included_in_analysis", "api_settings", "timestamp"]
+
+
+def run_stage(stage, jobs, prompt_for, parse_for, images, dry_run, workers=WORKERS,
+              tag=None):
+    """Execute jobs concurrently, writing a raw CSV + raw JSONL.
+
+    Retry policy matches the prior series exactly: one retry on an unparseable
+    response; BOTH attempts are written to the raw log, the superseded one tagged
+    superseded_by_retry=True and included_in_analysis=False, so exactly one final
+    valid response per planned trial enters analysis.
+    """
+    os.makedirs(DATA, exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    stem = f"stage{stage}{('_' + tag) if tag else ''}_{ts}{'_DRY' if dry_run else ''}"
+    csv_path = os.path.join(DATA, stem + ".csv")
+    jsonl_path = os.path.join(DATA, stem + ".jsonl")
+
+    clients = {} if dry_run else make_clients()
+    settings_json = {m: json.dumps(s, sort_keys=True) for m, s in MODELS.items()}
+    man = {r["stimulus_id"]: r for r in load_manifest()}
+    lock = threading.Lock()
+    counts = dict(done=0, invalid=0, error=0, lost=0)
+
+    fh = open(csv_path, "w", newline="")
+    jfh = open(jsonl_path, "w")
+    writer = csv.DictWriter(fh, fieldnames=COLS)
+    writer.writeheader(); fh.flush()
+
+    def one_call(job, prompt, attempt):
+        actor = job["actor"]
+        if dry_run:
+            rng = random.Random(f"{job['run_id']}|{attempt}")
+            if rng.random() < 0.05:
+                return "I find both equally appealing.", "weighed both", "DRY"
+            side = rng.choice(["LEFT", "RIGHT"])
+            if stage == "A":
+                return f"One form is more distinctive. CHOICE: {side}", "form cues", "DRY"
+            if stage == "B" and job.get("arm") == "auditor":
+                return (f"They would likely converge.\nMATCH_PROBABILITY: {rng.randint(30,95)}"
+                        f"\nLIKELY: {side}"), "estimated", "DRY"
+            if stage == "B":
+                return f"SALIENCE: {rng.randint(5,95)}", "estimated", "DRY"
+            dec = rng.choice(["ATTEMPT", "SAFE"])
+            return (f"Weighing the odds.\nDECISION: {dec}\n"
+                    f"CHOICE: {side if dec == 'ATTEMPT' else 'NONE'}"), "weighed", "DRY"
+        try:
+            return ASK[actor](clients[actor], images[(job["sid"], job["variant"])], prompt)
+        except Exception as exc:                       # noqa: BLE001 - logged, not raised
+            with lock:
+                counts["error"] += 1
+            return f"__ERR__ {type(exc).__name__}: {exc}", "", ""
+
+    def safe_parse(job, raw):
+        """Never let an API error payload reach a lenient parser.
+
+        The parsers fall back to bare tokens / bare percentages when no explicit
+        marker is present, so an exception string that happens to contain 'left',
+        'safe' or 'NN%' could otherwise be recorded as a real response. An __ERR__
+        row is always invalid, which routes it through the normal retry path.
+        """
+        if raw.startswith("__ERR__"):
+            return {"valid": False}
+        return parse_for(job, raw)
+
+    def run_job(job):
+        prompt = prompt_for(job)
+        psha = sha8(prompt)
+        left_id, right_id = slot_identities(job["sid"], job["variant"])
+        attempts = []
+        raw, reason, ret_id = one_call(job, prompt, 1)
+        parsed = safe_parse(job, raw)
+        if not parsed["valid"]:
+            attempts.append((1, raw, reason, ret_id, parsed, True))
+            with lock:
+                counts["invalid"] += 1
+            raw, reason, ret_id = one_call(job, prompt, 2)
+            parsed = safe_parse(job, raw)
+        attempts.append((len(attempts) + 1, raw, reason, ret_id, parsed, False))
+        if not parsed["valid"]:
+            with lock:
+                counts["lost"] += 1
+
+        rows = []
+        for att, raw_txt, reason_txt, ret, p, superseded in attempts:
+            ident = ""
+            if p.get("side") in ("LEFT", "RIGHT"):
+                ident = {"LEFT": left_id, "RIGHT": right_id}[p["side"]]
+            rows.append(dict(
+                stage=stage, actor_model=job["actor"],
+                actor_model_name=DISPLAY[job["actor"]],
+                actor_model_id_requested=MODELS[job["actor"]]["model"],
+                actor_model_id_returned=ret,
+                focal_model=job.get("focal", job["actor"]),
+                focal_model_name=DISPLAY[job.get("focal", job["actor"])],
+                stimulus=job["sid"],
+                stimulus_category=man[job["sid"]]["prior_class_report"],
+                prior_class_report=man[job["sid"]]["prior_note_report"],
+                run_id=job["run_id"], attempt_number=att, prompt_sha8=psha,
+                seed=job.get("seed", ""), variant=job["variant"],
+                left_identity=left_id, right_identity=right_id,
+                safe_payoff=job.get("safe", ""),
+                response_raw=raw_txt.replace("\n", " ").strip(),
+                visible_reasoning=reason_txt.replace("\n", " ").strip(),
+                parsed_choice_side=p.get("side", ""), parsed_choice_identity=ident,
+                predicted_match_probability=p.get("prob", ""),
+                salience_rating=p.get("salience", ""),
+                participation_decision=p.get("decision", ""),
+                valid_response=p["valid"],
+                superseded_by_retry=superseded,
+                included_in_analysis=(not superseded) and p["valid"],
+                api_settings=settings_json[job["actor"]],
+                timestamp=datetime.now(timezone.utc).isoformat(timespec="seconds")))
+        with lock:
+            for r in rows:
+                writer.writerow(r)
+                jfh.write(json.dumps(r) + "\n")
+            fh.flush(); jfh.flush()
+            counts["done"] += 1
+            if counts["done"] % 100 == 0:
+                print(f"  {counts['done']}/{len(jobs)} trials", flush=True)
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    t0 = time.time()
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        for _ in as_completed([ex.submit(run_job, j) for j in jobs]):
+            pass
+    fh.close(); jfh.close()
+
+    print(f"\n=== stage {stage}{('/' + tag) if tag else ''} done: {counts['done']} "
+          f"trials in {time.time() - t0:.0f}s ===")
+    print(f"unparseable first responses (retried): {counts['invalid']}")
+    print(f"trials lost (retry also failed)      : {counts['lost']}")
+    print(f"API errors                           : {counts['error']}")
+    print(f"raw CSV   : {csv_path}")
+    print(f"raw JSONL : {jsonl_path}")
+    return csv_path
+
+
+def load_analysis_rows(path):
+    """Valid, non-superseded rows only - exactly one per planned trial."""
+    return [r for r in csv.DictReader(open(path))
+            if r["included_in_analysis"] in ("True", "true", True)]

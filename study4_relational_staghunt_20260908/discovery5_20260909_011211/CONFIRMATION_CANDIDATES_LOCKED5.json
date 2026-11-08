@@ -1,0 +1,3005 @@
+[
+ {
+  "array_id": "m1_nesting_v2",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity n3_lw12_even_r92 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object n3_lw12_even_r92",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n3_lw12_even_r92",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.2917,
+   "cross_model_identity_match": 0.7083,
+   "gpt": {
+    "eff_identity_support": 1.7669,
+    "entropy_bits": 1.0434,
+    "fc": 0.1667,
+    "form_consistency_by_slot": {
+     "0": 0.167,
+     "1": 0.667,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.5471,
+    "identity_match_ci": [
+     0.4167,
+     0.7717
+    ],
+    "item_counts": {
+     "0": 6,
+     "1": 0,
+     "2": 17,
+     "3": 1
+    },
+    "live": 2,
+    "margin": 0.4583,
+    "modal": "n3_lw12_even_r92",
+    "modal_index": 2,
+    "policy": "mixed",
+    "pos_modal": 3,
+    "pos_share": 0.375,
+    "share": 0.7083
+   },
+   "gpt_copy_minus_other": -0.1612,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 1.0,
+  "expected_copy_minus_other": 0.2917,
+  "expected_cross_model_match": 0.7083,
+  "family": "M1_nesting",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "nesting",
+  "objects": "n2_lw3_geom_r92|n4_lw4_even_r92|n3_lw12_even_r92|n7_lw2_even_r92",
+  "other_model": "gpt",
+  "other_policy": "weak_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "n3_lw12_even_r92"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "n3_lw12_even_r92"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "2"
+ },
+ {
+  "array_id": "m1_nesting_v3",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity n5_lw5_geom_r92 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object n2_lw9_even_r92",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.3846,
+    "entropy_bits": 0.65,
+    "fc": 0.5,
+    "form_consistency_by_slot": {
+     "0": 0.5,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.7101,
+    "identity_match_ci": [
+     0.5362,
+     0.9167
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 4,
+     "3": 20
+    },
+    "live": 2,
+    "margin": 0.6667,
+    "modal": "n2_lw9_even_r92",
+    "modal_index": 3,
+    "policy": "mixed",
+    "pos_modal": 2,
+    "pos_share": 0.3333,
+    "share": 0.8333
+   },
+   "claude_copy_minus_other": 0.4879,
+   "cross_model_identity_match": 0.2222,
+   "gpt": {
+    "eff_identity_support": 1.1803,
+    "entropy_bits": 0.4138,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.8406,
+    "identity_match_ci": [
+     0.6558,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 22,
+     "3": 2
+    },
+    "live": 2,
+    "margin": 0.8333,
+    "modal": "n5_lw5_geom_r92",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 3,
+    "pos_share": 0.3333,
+    "share": 0.9167
+   },
+   "gpt_copy_minus_other": 0.6184,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.8406,
+  "expected_copy_minus_other": 0.6184,
+  "expected_cross_model_match": 0.2222,
+  "family": "M1_nesting",
+  "focal_model": "gpt",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "nesting",
+  "objects": "n3_lw3_even_r62|n3_lw3_even_r98|n5_lw5_geom_r92|n2_lw9_even_r92",
+  "other_model": "claude",
+  "other_policy": "weak_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "n5_lw5_geom_r92"
+  },
+  "predicted_other_modal_identity": {
+   "index": 3,
+   "name": "n2_lw9_even_r92"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "3"
+ },
+ {
+  "array_id": "m1_nesting_v4",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce n4_lw8_geom_r92 at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n4_lw8_geom_r92",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n4_lw8_geom_r92",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M1_nesting",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "nesting",
+  "objects": "n4_lw3_even_r92|n2_lw3_even_r92|n4_lw8_geom_r92|n3_lw3_even_r55",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "n4_lw8_geom_r92"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "n4_lw8_geom_r92"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "4"
+ },
+ {
+  "array_id": "m2_texture_v0",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce n150_r36_lattice at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n150_r36_lattice",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n150_r36_lattice",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M2_texture",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "noise_texture",
+  "objects": "n60_r55_random|n240_r28_random|n150_r36_lattice|n150_r36_clustered",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "n150_r36_lattice"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "n150_r36_lattice"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "0"
+ },
+ {
+  "array_id": "m2_texture_v1",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce n110_r42_lattice at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 24,
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n110_r42_lattice",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 24,
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n110_r42_lattice",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M2_texture",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "noise_texture",
+  "objects": "n110_r42_lattice|n110_r42_random|n40_r70_random|n300_r24_clustered",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 0,
+   "name": "n110_r42_lattice"
+  },
+  "predicted_other_modal_identity": {
+   "index": 0,
+   "name": "n110_r42_lattice"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "1"
+ },
+ {
+  "array_id": "m2_texture_v2",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity n90_r46_lattice reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object n90_r46_lattice",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n90_r46_lattice",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.375,
+   "cross_model_identity_match": 0.625,
+   "gpt": {
+    "eff_identity_support": 1.8824,
+    "entropy_bits": 0.9544,
+    "fc": 0.1667,
+    "form_consistency_by_slot": {
+     "0": 0.167,
+     "1": 0.5,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.5109,
+    "identity_match_ci": [
+     0.4783,
+     0.7101
+    ],
+    "item_counts": {
+     "0": 9,
+     "1": 15,
+     "2": 0,
+     "3": 0
+    },
+    "live": 2,
+    "margin": 0.25,
+    "modal": "n90_r46_lattice",
+    "modal_index": 1,
+    "policy": "mixed",
+    "pos_modal": 3,
+    "pos_share": 0.4167,
+    "share": 0.625
+   },
+   "gpt_copy_minus_other": -0.1141,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 1.0,
+  "expected_copy_minus_other": 0.375,
+  "expected_cross_model_match": 0.625,
+  "family": "M2_texture",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "noise_texture",
+  "objects": "n90_r46_random_nb|n90_r46_lattice|n200_r30_random|n45_r62_clustered",
+  "other_model": "gpt",
+  "other_policy": "weak_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "n90_r46_lattice"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "n90_r46_lattice"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "2"
+ },
+ {
+  "array_id": "m2_texture_v3",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity n160_r34_clustered reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER identity distribution stays diffuse: modal share <= .55 and effective identity support >= 2.5",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.28,
+    "entropy_bits": 0.5436,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 0.833,
+     "3": 0.833
+    },
+    "identity_match": 0.7717,
+    "identity_match_ci": [
+     0.6087,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 3,
+     "2": 0,
+     "3": 21
+    },
+    "live": 2,
+    "margin": 0.75,
+    "modal": "n160_r34_clustered",
+    "modal_index": 3,
+    "policy": "form",
+    "pos_modal": 2,
+    "pos_share": 0.2917,
+    "share": 0.875
+   },
+   "claude_copy_minus_other": 0.3707,
+   "cross_model_identity_match": 0.401,
+   "gpt": {
+    "eff_identity_support": 1.9862,
+    "entropy_bits": 0.995,
+    "fc": 0.0,
+    "form_consistency_by_slot": {
+     "0": 0.0,
+     "1": 0.167,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.4819,
+    "identity_match_ci": [
+     0.4783,
+     0.6087
+    ],
+    "item_counts": {
+     "0": 13,
+     "1": 0,
+     "2": 0,
+     "3": 11
+    },
+    "live": 2,
+    "margin": 0.0833,
+    "modal": "n160_r34_lattice",
+    "modal_index": 0,
+    "policy": "mixed",
+    "pos_modal": 3,
+    "pos_share": 0.4167,
+    "share": 0.5417
+   },
+   "gpt_copy_minus_other": 0.0809,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.7717,
+  "expected_copy_minus_other": 0.3707,
+  "expected_cross_model_match": 0.401,
+  "family": "M2_texture",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "noise_texture",
+  "objects": "n160_r34_lattice|n60_r56_lattice|n160_r34_random|n160_r34_clustered",
+  "other_model": "gpt",
+  "other_policy": "diffuse_identity",
+  "predicted_focal_modal_identity": {
+   "index": 3,
+   "name": "n160_r34_clustered"
+  },
+  "predicted_other_modal_identity": {
+   "index": 0,
+   "name": "n160_r34_lattice"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": false,
+  "track": "focal_vs_other",
+  "variant": "3"
+ },
+ {
+  "array_id": "m2_texture_v4",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce n280_r26_lattice at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n280_r26_lattice",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n280_r26_lattice",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M2_texture",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "noise_texture",
+  "objects": "n70_r50_clustered|n280_r26_lattice|n120_r40_random|n70_r50_random_nb",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "n280_r26_lattice"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "n280_r26_lattice"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "4"
+ },
+ {
+  "array_id": "m2_texture_v6",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce n130_r38_lattice_nb at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 24,
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n130_r38_lattice_nb",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 24,
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n130_r38_lattice_nb",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M2_texture",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "noise_texture",
+  "objects": "n130_r38_lattice_nb|n130_r38_clustered|n55_r58_random|n260_r27_random",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 0,
+   "name": "n130_r38_lattice_nb"
+  },
+  "predicted_other_modal_identity": {
+   "index": 0,
+   "name": "n130_r38_lattice_nb"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "6"
+ },
+ {
+  "array_id": "m3_mirror_v0",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity sym1 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object sym2",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.1803,
+    "entropy_bits": 0.4138,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.8406,
+    "identity_match_ci": [
+     0.6558,
+     1.0
+    ],
+    "item_counts": {
+     "0": 22,
+     "1": 2,
+     "2": 0,
+     "3": 0
+    },
+    "live": 2,
+    "margin": 0.8333,
+    "modal": "sym1",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 2,
+    "pos_share": 0.2917,
+    "share": 0.9167
+   },
+   "claude_copy_minus_other": 0.5212,
+   "cross_model_identity_match": 0.3194,
+   "gpt": {
+    "eff_identity_support": 2.0719,
+    "entropy_bits": 1.241,
+    "fc": 0.1667,
+    "form_consistency_by_slot": {
+     "0": 0.167,
+     "1": 0.667,
+     "2": 0.667,
+     "3": 1.0
+    },
+    "identity_match": 0.4601,
+    "identity_match_ci": [
+     0.3514,
+     0.6558
+    ],
+    "item_counts": {
+     "0": 7,
+     "1": 15,
+     "2": 2,
+     "3": 0
+    },
+    "live": 3,
+    "margin": 0.3333,
+    "modal": "sym2",
+    "modal_index": 1,
+    "policy": "mixed",
+    "pos_modal": 4,
+    "pos_share": 0.375,
+    "share": 0.625
+   },
+   "gpt_copy_minus_other": 0.1407,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.8406,
+  "expected_copy_minus_other": 0.5212,
+  "expected_cross_model_match": 0.3194,
+  "family": "M3_mirror",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "mirror",
+  "objects": "sym1|sym2|twinTrue|twinFalse",
+  "other_model": "gpt",
+  "other_policy": "weak_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 0,
+   "name": "sym1"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "sym2"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "0"
+ },
+ {
+  "array_id": "m3_mirror_v2",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity sym3 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER identity distribution stays diffuse: modal share <= .55 and effective identity support >= 2.5",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.1803,
+    "entropy_bits": 0.4138,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.8406,
+    "identity_match_ci": [
+     0.6558,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 22,
+     "2": 2,
+     "3": 0
+    },
+    "live": 2,
+    "margin": 0.8333,
+    "modal": "sym3",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 2,
+    "pos_share": 0.2917,
+    "share": 0.9167
+   },
+   "claude_copy_minus_other": 0.3545,
+   "cross_model_identity_match": 0.4861,
+   "gpt": {
+    "eff_identity_support": 2.6422,
+    "entropy_bits": 1.5944,
+    "fc": 0.5,
+    "form_consistency_by_slot": {
+     "0": 0.167,
+     "1": 0.5,
+     "2": 0.667,
+     "3": 0.667
+    },
+    "identity_match": 0.3514,
+    "identity_match_ci": [
+     0.2754,
+     0.5254
+    ],
+    "item_counts": {
+     "0": 3,
+     "1": 12,
+     "2": 8,
+     "3": 1
+    },
+    "live": 3,
+    "margin": 0.1667,
+    "modal": "sym3",
+    "modal_index": 1,
+    "policy": "mixed",
+    "pos_modal": 3,
+    "pos_share": 0.3333,
+    "share": 0.5
+   },
+   "gpt_copy_minus_other": -0.1347,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.8406,
+  "expected_copy_minus_other": 0.3545,
+  "expected_cross_model_match": 0.4861,
+  "family": "M3_mirror",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "mirror",
+  "objects": "twinFalse|sym3|sym1|twinTrue",
+  "other_model": "gpt",
+  "other_policy": "diffuse_identity",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "sym3"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "sym3"
+  },
+  "predicted_other_modal_position": null,
+  "priority": true,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "2"
+ },
+ {
+  "array_id": "m3_mirror_v3",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce sym6 at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "sym6",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0417,
+   "cross_model_identity_match": 0.9583,
+   "gpt": {
+    "eff_identity_support": 1.0868,
+    "entropy_bits": 0.2499,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.9167,
+    "identity_match_ci": [
+     0.7717,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 23,
+     "2": 1,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 0.9167,
+    "modal": "sym6",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 3,
+    "pos_share": 0.2917,
+    "share": 0.9583
+   },
+   "gpt_copy_minus_other": -0.0416,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 0.9167
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0417,
+   "gpt": -0.0416
+  },
+  "expected_cross_model_match": 0.9583,
+  "family": "M3_mirror",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "mirror",
+  "objects": "sym1|sym6|twinTrue|sym2",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "sym6"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "sym6"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "3"
+ },
+ {
+  "array_id": "m3_mirror_v4",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity sym1 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER identity distribution stays diffuse: modal share <= .55 and effective identity support >= 2.5",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0868,
+    "entropy_bits": 0.2499,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.9167,
+    "identity_match_ci": [
+     0.7717,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 1,
+     "3": 23
+    },
+    "live": 1,
+    "margin": 0.9167,
+    "modal": "sym1",
+    "modal_index": 3,
+    "policy": "form",
+    "pos_modal": 3,
+    "pos_share": 0.2917,
+    "share": 0.9583
+   },
+   "claude_copy_minus_other": 0.3785,
+   "cross_model_identity_match": 0.5382,
+   "gpt": {
+    "eff_identity_support": 1.9862,
+    "entropy_bits": 0.995,
+    "fc": 0.3333,
+    "form_consistency_by_slot": {
+     "0": 0.167,
+     "1": 0.5,
+     "2": 0.667,
+     "3": 0.833
+    },
+    "identity_match": 0.4819,
+    "identity_match_ci": [
+     0.4783,
+     0.6087
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 11,
+     "3": 13
+    },
+    "live": 2,
+    "margin": 0.0833,
+    "modal": "sym1",
+    "modal_index": 3,
+    "policy": "mixed",
+    "pos_modal": 4,
+    "pos_share": 0.3333,
+    "share": 0.5417
+   },
+   "gpt_copy_minus_other": -0.0563,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.9167,
+  "expected_copy_minus_other": 0.3785,
+  "expected_cross_model_match": 0.5382,
+  "family": "M3_mirror",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "mirror",
+  "objects": "twinTrue|twinFalse|sym2|sym1",
+  "other_model": "gpt",
+  "other_policy": "diffuse_identity",
+  "predicted_focal_modal_identity": {
+   "index": 3,
+   "name": "sym1"
+  },
+  "predicted_other_modal_identity": {
+   "index": 3,
+   "name": "sym1"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "4"
+ },
+ {
+  "array_id": "m3_mirror_v6",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce twinTrue at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "twinTrue",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "twinTrue",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M3_mirror",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "mirror",
+  "objects": "sym3|twinTrue|sym1|sym2",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "twinTrue"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "twinTrue"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "6"
+ },
+ {
+  "array_id": "m4_contour_v0",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce closed1_lw7 at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed1_lw7",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed1_lw7",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M4_contour",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "line_contour",
+  "objects": "segments2_lw7|segments5_lw4|closed1_lw7|crossing3_lw6",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "closed1_lw7"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "closed1_lw7"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "0"
+ },
+ {
+  "array_id": "m4_contour_v1",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity closed1_lw10 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object crossing4_lw5",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.6,
+    "entropy_bits": 0.8113,
+    "fc": 0.5,
+    "form_consistency_by_slot": {
+     "0": 0.5,
+     "1": 1.0,
+     "2": 0.833,
+     "3": 0.667
+    },
+    "identity_match": 0.6087,
+    "identity_match_ci": [
+     0.4928,
+     0.8406
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 18,
+     "3": 6
+    },
+    "live": 2,
+    "margin": 0.5,
+    "modal": "crossing4_lw5",
+    "modal_index": 2,
+    "policy": "mixed",
+    "pos_modal": 2,
+    "pos_share": 0.4167,
+    "share": 0.75
+   },
+   "claude_copy_minus_other": 0.317,
+   "cross_model_identity_match": 0.2917,
+   "gpt": {
+    "eff_identity_support": 1.1803,
+    "entropy_bits": 0.4138,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.8406,
+    "identity_match_ci": [
+     0.6558,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 2,
+     "3": 22
+    },
+    "live": 2,
+    "margin": 0.8333,
+    "modal": "closed1_lw10",
+    "modal_index": 3,
+    "policy": "form",
+    "pos_modal": 3,
+    "pos_share": 0.3333,
+    "share": 0.9167
+   },
+   "gpt_copy_minus_other": 0.5489,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.8406,
+  "expected_copy_minus_other": 0.5489,
+  "expected_cross_model_match": 0.2917,
+  "family": "M4_contour",
+  "focal_model": "gpt",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "line_contour",
+  "objects": "continuous1_lw7|segments4_lw5|crossing4_lw5|closed1_lw10",
+  "other_model": "claude",
+  "other_policy": "weak_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 3,
+   "name": "closed1_lw10"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "crossing4_lw5"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "1"
+ },
+ {
+  "array_id": "m4_contour_v2",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce closed1_lw6 at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed1_lw6",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed1_lw6",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M4_contour",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "line_contour",
+  "objects": "zigzag5_lw6|segments2_lw8|closed1_lw6|arcs4_lw5",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "closed1_lw6"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "closed1_lw6"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "2"
+ },
+ {
+  "array_id": "m4_contour_v4",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity closed1_lw6 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object crossing2_lw7",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "crossing2_lw7",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.9167,
+   "cross_model_identity_match": 0.0833,
+   "gpt": {
+    "eff_identity_support": 1.1803,
+    "entropy_bits": 0.4138,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.8406,
+    "identity_match_ci": [
+     0.6558,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 2,
+     "3": 22
+    },
+    "live": 2,
+    "margin": 0.8333,
+    "modal": "closed1_lw6",
+    "modal_index": 3,
+    "policy": "form",
+    "pos_modal": 3,
+    "pos_share": 0.3333,
+    "share": 0.9167
+   },
+   "gpt_copy_minus_other": 0.7573,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.8406,
+  "expected_copy_minus_other": 0.7573,
+  "expected_cross_model_match": 0.0833,
+  "family": "M4_contour",
+  "focal_model": "gpt",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "line_contour",
+  "objects": "segments6_lw3|continuous1_lw9|crossing2_lw7|closed1_lw6",
+  "other_model": "claude",
+  "other_policy": "strong_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 3,
+   "name": "closed1_lw6"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "crossing2_lw7"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "4"
+ },
+ {
+  "array_id": "m4_contour_v4",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity crossing2_lw7 reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object closed1_lw6",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "crossing2_lw7",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.9167,
+   "cross_model_identity_match": 0.0833,
+   "gpt": {
+    "eff_identity_support": 1.1803,
+    "entropy_bits": 0.4138,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 0.833
+    },
+    "identity_match": 0.8406,
+    "identity_match_ci": [
+     0.6558,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 2,
+     "3": 22
+    },
+    "live": 2,
+    "margin": 0.8333,
+    "modal": "closed1_lw6",
+    "modal_index": 3,
+    "policy": "form",
+    "pos_modal": 3,
+    "pos_share": 0.3333,
+    "share": 0.9167
+   },
+   "gpt_copy_minus_other": 0.7573,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 1.0,
+  "expected_copy_minus_other": 0.9167,
+  "expected_cross_model_match": 0.0833,
+  "family": "M4_contour",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "line_contour",
+  "objects": "segments6_lw3|continuous1_lw9|crossing2_lw7|closed1_lw6",
+  "other_model": "gpt",
+  "other_policy": "strong_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "crossing2_lw7"
+  },
+  "predicted_other_modal_identity": {
+   "index": 3,
+   "name": "closed1_lw6"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "4"
+ },
+ {
+  "array_id": "m4_contour_v5",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce closed1_lw7 at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed1_lw7",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed1_lw7",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M4_contour",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "line_contour",
+  "objects": "arcs3_lw6|closed1_lw7|zigzag6_lw5|segments2_lw7",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "closed1_lw7"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "closed1_lw7"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "5"
+ },
+ {
+  "array_id": "m5_numerosity_v2",
+  "borderline_fc": true,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity n7_row reproduces at share >= .75",
+    "focal form consistency >= .667 (locked as BORDERLINE)",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object n4_ring",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.28,
+    "entropy_bits": 0.5436,
+    "fc": 0.6667,
+    "form_consistency_by_slot": {
+     "0": 0.667,
+     "1": 0.833,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.7717,
+    "identity_match_ci": [
+     0.6087,
+     1.0
+    ],
+    "item_counts": {
+     "0": 3,
+     "1": 21,
+     "2": 0,
+     "3": 0
+    },
+    "live": 2,
+    "margin": 0.75,
+    "modal": "n7_row",
+    "modal_index": 1,
+    "policy": "mixed",
+    "pos_modal": 3,
+    "pos_share": 0.2917,
+    "share": 0.875
+   },
+   "claude_copy_minus_other": 0.3342,
+   "cross_model_identity_match": 0.4375,
+   "gpt": {
+    "eff_identity_support": 1.9459,
+    "entropy_bits": 0.9799,
+    "fc": 0.3333,
+    "form_consistency_by_slot": {
+     "0": 0.333,
+     "1": 0.333,
+     "2": 1.0,
+     "3": 0.667
+    },
+    "identity_match": 0.4928,
+    "identity_match_ci": [
+     0.4783,
+     0.6558
+    ],
+    "item_counts": {
+     "0": 14,
+     "1": 10,
+     "2": 0,
+     "3": 0
+    },
+    "live": 2,
+    "margin": 0.1667,
+    "modal": "n4_ring",
+    "modal_index": 0,
+    "policy": "mixed",
+    "pos_modal": 3,
+    "pos_share": 0.4583,
+    "share": 0.5833
+   },
+   "gpt_copy_minus_other": 0.0553,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 0.7717,
+  "expected_copy_minus_other": 0.3342,
+  "expected_cross_model_match": 0.4375,
+  "family": "M5_numerosity",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "numerosity",
+  "objects": "n4_ring|n7_row|n4_scatter|n10_block",
+  "other_model": "gpt",
+  "other_policy": "weak_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "n7_row"
+  },
+  "predicted_other_modal_identity": {
+   "index": 0,
+   "name": "n4_ring"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": false,
+  "track": "focal_vs_other",
+  "variant": "2"
+ },
+ {
+  "array_id": "m5_numerosity_v4",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal identity n9_ring reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "focal dyadic identity match > .35 (chance .25)",
+    "OTHER reproduces its competing modal object n9_ring",
+    "focal COPY-minus-OTHER identity advantage >= .25",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 24,
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "n9_ring",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.4167,
+   "cross_model_identity_match": 0.5833,
+   "gpt": {
+    "eff_identity_support": 2.3415,
+    "entropy_bits": 1.3965,
+    "fc": 0.1667,
+    "form_consistency_by_slot": {
+     "0": 0.167,
+     "1": 0.333,
+     "2": 0.833,
+     "3": 1.0
+    },
+    "identity_match": 0.4022,
+    "identity_match_ci": [
+     0.3188,
+     0.6341
+    ],
+    "item_counts": {
+     "0": 14,
+     "1": 5,
+     "2": 0,
+     "3": 5
+    },
+    "live": 3,
+    "margin": 0.375,
+    "modal": "n9_ring",
+    "modal_index": 0,
+    "policy": "mixed",
+    "pos_modal": 4,
+    "pos_share": 0.5,
+    "share": 0.5833
+   },
+   "gpt_copy_minus_other": -0.1811,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": 1.0,
+  "expected_copy_minus_other": 0.4167,
+  "expected_cross_model_match": 0.5833,
+  "family": "M5_numerosity",
+  "focal_model": "claude",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "numerosity",
+  "objects": "n9_ring|n4_row|n6_scatter|n3_block",
+  "other_model": "gpt",
+  "other_policy": "weak_competing_identity",
+  "predicted_focal_modal_identity": {
+   "index": 0,
+   "name": "n9_ring"
+  },
+  "predicted_other_modal_identity": {
+   "index": 0,
+   "name": "n9_ring"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "focal_vs_other",
+  "variant": "4"
+ },
+ {
+  "array_id": "m5_numerosity_v6",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce n9_block at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0868,
+    "entropy_bits": 0.2499,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.9167,
+    "identity_match_ci": [
+     0.7717,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 1,
+     "3": 23
+    },
+    "live": 1,
+    "margin": 0.9167,
+    "modal": "n9_block",
+    "modal_index": 3,
+    "policy": "form",
+    "pos_modal": 4,
+    "pos_share": 0.2917,
+    "share": 0.9583
+   },
+   "claude_copy_minus_other": 0.1875,
+   "cross_model_identity_match": 0.7292,
+   "gpt": {
+    "eff_identity_support": 1.6,
+    "entropy_bits": 0.8113,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 0.667,
+     "2": 0.833,
+     "3": 0.667
+    },
+    "identity_match": 0.6087,
+    "identity_match_ci": [
+     0.4928,
+     0.8406
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 6,
+     "3": 18
+    },
+    "live": 2,
+    "margin": 0.5,
+    "modal": "n9_block",
+    "modal_index": 3,
+    "policy": "form",
+    "pos_modal": 3,
+    "pos_share": 0.4167,
+    "share": 0.75
+   },
+   "gpt_copy_minus_other": -0.1205,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 0.9167,
+   "gpt": 0.6087
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.1875,
+   "gpt": -0.1205
+  },
+  "expected_cross_model_match": 0.7292,
+  "family": "M5_numerosity",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "numerosity",
+  "objects": "n7_scatter|n5_row|n3_ring|n9_block",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 3,
+   "name": "n9_block"
+  },
+  "predicted_other_modal_identity": {
+   "index": 3,
+   "name": "n9_block"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": false,
+  "track": "shared_control",
+  "variant": "6"
+ },
+ {
+  "array_id": "m6_sizerank_v0",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce equal at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "equal",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0417,
+   "cross_model_identity_match": 0.9583,
+   "gpt": {
+    "eff_identity_support": 1.0868,
+    "entropy_bits": 0.2499,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.9167,
+    "identity_match_ci": [
+     0.7717,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 23,
+     "3": 1
+    },
+    "live": 1,
+    "margin": 0.9167,
+    "modal": "equal",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 2,
+    "pos_share": 0.2917,
+    "share": 0.9583
+   },
+   "gpt_copy_minus_other": -0.0416,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 0.9167
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0417,
+   "gpt": -0.0416
+  },
+  "expected_cross_model_match": 0.9583,
+  "family": "M6_sizerank",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "size_rank",
+  "objects": "asc|desc|equal|peak",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "equal"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "equal"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "0"
+ },
+ {
+  "array_id": "m6_sizerank_v2",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce equal at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 24,
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "equal",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0417,
+   "cross_model_identity_match": 0.9583,
+   "gpt": {
+    "eff_identity_support": 1.0868,
+    "entropy_bits": 0.2499,
+    "fc": 0.8333,
+    "form_consistency_by_slot": {
+     "0": 0.833,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 0.9167,
+    "identity_match_ci": [
+     0.7717,
+     1.0
+    ],
+    "item_counts": {
+     "0": 23,
+     "1": 0,
+     "2": 1,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 0.9167,
+    "modal": "equal",
+    "modal_index": 0,
+    "policy": "form",
+    "pos_modal": 4,
+    "pos_share": 0.2917,
+    "share": 0.9583
+   },
+   "gpt_copy_minus_other": -0.0416,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 0.9167
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0417,
+   "gpt": -0.0416
+  },
+  "expected_cross_model_match": 0.9583,
+  "family": "M6_sizerank",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "size_rank",
+  "objects": "equal|peak|asc|valley",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 0,
+   "name": "equal"
+  },
+  "predicted_other_modal_identity": {
+   "index": 0,
+   "name": "equal"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "2"
+ },
+ {
+  "array_id": "m6_sizerank_v4",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce equal at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "equal",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 24,
+     "2": 0,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "equal",
+    "modal_index": 1,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M6_sizerank",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "size_rank",
+  "objects": "valley|equal|desc|peak",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 1,
+   "name": "equal"
+  },
+  "predicted_other_modal_identity": {
+   "index": 1,
+   "name": "equal"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "4"
+ },
+ {
+  "array_id": "m6_sizerank_v6",
+  "borderline_fc": false,
+  "confirmation": {
+   "n_per_model_per_array": 72,
+   "permutations": "72 = 2 full 24-permutation cycles (exact position balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "both models reproduce equal at share >= .75",
+    "both form consistencies >= .80",
+    "cross-model identity match stays >= .55",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "discovery": {
+   "chance_identity_match": 0.25,
+   "claude": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "equal",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "eff_identity_support": 1.0,
+    "entropy_bits": -0.0,
+    "fc": 1.0,
+    "form_consistency_by_slot": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0
+    },
+    "identity_match": 1.0,
+    "identity_match_ci": [
+     1.0,
+     1.0
+    ],
+    "item_counts": {
+     "0": 0,
+     "1": 0,
+     "2": 24,
+     "3": 0
+    },
+    "live": 1,
+    "margin": 1.0,
+    "modal": "equal",
+    "modal_index": 2,
+    "policy": "form",
+    "pos_modal": 1,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "expected_copy_match": {
+   "claude": 1.0,
+   "gpt": 1.0
+  },
+  "expected_copy_minus_other": {
+   "claude": 0.0,
+   "gpt": 0.0
+  },
+  "expected_cross_model_match": 1.0,
+  "family": "M6_sizerank",
+  "focal_model": "both",
+  "locked_utc": "2026-09-09T01:18:20.748958+00:00",
+  "mechanism": "size_rank",
+  "objects": "desc|peak|equal|valley",
+  "other_model": "both",
+  "other_policy": "shared_convention",
+  "predicted_focal_modal_identity": {
+   "index": 2,
+   "name": "equal"
+  },
+  "predicted_other_modal_identity": {
+   "index": 2,
+   "name": "equal"
+  },
+  "predicted_other_modal_position": null,
+  "priority": false,
+  "stable_at_090": true,
+  "track": "shared_control",
+  "variant": "6"
+ }
+]

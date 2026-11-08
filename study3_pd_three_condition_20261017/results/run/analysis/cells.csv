@@ -1,0 +1,7 @@
+model,condition,records,n_valid,nC,nD,invalid,coop,wilson_lo,wilson_hi,C_when_A_is_C,C_when_B_is_C
+GPT-5.5,same_model,64,64,1,63,0,0.015625,0.0027635418927853816,0.08334101684786545,1/32,0/32
+GPT-5.5,different_model,64,64,0,64,0,0.0,0.0,0.05662406063551054,0/32,0/32
+GPT-5.5,fixed_response,64,64,6,58,0,0.09375,0.04367825232989313,0.18982879693645915,6/32,0/32
+Claude Opus 5,same_model,64,64,64,0,0,1.0,0.9433759393644894,1.0,32/32,32/32
+Claude Opus 5,different_model,64,64,64,0,0,1.0,0.9433759393644894,1.0,32/32,32/32
+Claude Opus 5,fixed_response,64,64,64,0,0,1.0,0.9433759393644894,1.0,32/32,32/32

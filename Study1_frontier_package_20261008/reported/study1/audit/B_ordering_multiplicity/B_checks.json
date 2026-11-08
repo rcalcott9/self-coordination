@@ -1,0 +1,115 @@
+{
+ "preflight_rows": 8,
+ "preflight_frozen_sha": [
+  "18853f3e"
+ ],
+ "pilot_rows": 48,
+ "pilot_frozen_sha": [
+  "18853f3e"
+ ],
+ "anchor_rows": 328,
+ "anchor_frozen_sha": [
+  "18853f3e"
+ ],
+ "main_rows": 2296,
+ "main_frozen_sha": [
+  "18853f3e"
+ ],
+ "cells_checked": 348,
+ "violations": {},
+ "violation_examples": [],
+ "main_balance_per_task": {
+  "PLAYPASS": [
+   [
+    3,
+    3
+   ]
+  ],
+  "SELFPRED": [
+   [
+    2,
+    2
+   ]
+  ],
+  "AUDITOR": [
+   [
+    2,
+    2
+   ]
+  ]
+ },
+ "analyze_reads_runs": [
+  "main"
+ ],
+ "calib_sha_match": true,
+ "analyze_uses_calibration_reuse_source": true,
+ "analyze_mentions_anchor": true,
+ "position_effects": {
+  "PLAYPASS|focal=gpt": {
+   "n_arrays": 41,
+   "slot_effect_demeaned": [
+    -0.0305,
+    -0.0061,
+    0.0264,
+    0.0102
+   ],
+   "friedman_p": 0.8187,
+   "within_array_perm_p": 0.6545
+  },
+  "PLAYPASS|focal=claude": {
+   "n_arrays": 41,
+   "slot_effect_demeaned": [
+    -0.0305,
+    0.002,
+    0.002,
+    0.0264
+   ],
+   "friedman_p": 0.2712,
+   "within_array_perm_p": 0.2557
+  },
+  "SELFPRED|focal=gpt": {
+   "n_arrays": 41,
+   "slot_effect_demeaned": [
+    0.0012,
+    -0.0098,
+    0.0165,
+    -0.0079
+   ],
+   "friedman_p": 0.1601,
+   "within_array_perm_p": 0.1018
+  },
+  "SELFPRED|focal=claude": {
+   "n_arrays": 41,
+   "slot_effect_demeaned": [
+    -0.014,
+    0.0135,
+    0.0154,
+    -0.0149
+   ],
+   "friedman_p": 0.003,
+   "within_array_perm_p": 0.0148
+  },
+  "AUDITOR|focal=gpt": {
+   "n_arrays": 41,
+   "slot_effect_demeaned": [
+    0.0074,
+    0.0078,
+    0.0039,
+    -0.0191
+   ],
+   "friedman_p": 0.0815,
+   "within_array_perm_p": 0.0514
+  },
+  "AUDITOR|focal=claude": {
+   "n_arrays": 41,
+   "slot_effect_demeaned": [
+    -0.0101,
+    -0.0112,
+    0.0148,
+    0.0066
+   ],
+   "friedman_p": 0.0462,
+   "within_array_perm_p": 0.1048
+  }
+ }
+}

@@ -1,0 +1,15 @@
+  MONITORED_SCHELLING_PHASE1.md            2ec4a5724eb5ec50d085aef9
+  ms_items.py                              4a5de4483ffd975f26a2aec5
+  ms_sample.py                             a3ca02c843cc81a1191574e3
+  ms_analyze.py                            a6436adc3b0e353c60df4433
+  ms_plots.py                              7d52ba1e48cec28112d36cb1
+  ms_items.json                            bcc4c1c0c3d8a23dba177d2d
+  frozen_utc 2026-09-06T00:28:00Z
+
+--- exploratory addendum (NOT confirmatory) ---
+  ms_exploratory_position_control.py       13af70c0d9225c88d87a6f61
+  specified_utc 2026-09-06T00:59:25Z
+  monitor rows usable when specified: 1241 / 2000
+  Reason: Stage A2 P(displayed pos 1) ~ 0.104 (z~2.3); focal stage clean.
+  Bias direction FAVOURS the study hypothesis, so it is adjusted, not noted.
+  The confirmatory test remains ms_analyze.py (a6436adc3b0e353c60df4433).

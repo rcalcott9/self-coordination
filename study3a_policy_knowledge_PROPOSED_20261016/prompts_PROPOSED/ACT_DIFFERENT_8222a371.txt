@@ -1,0 +1,16 @@
+You and one other player each see the same four objects. The left-to-right order of the four objects is randomized independently for each of you, so an object may sit in a different position in your image than in theirs.
+
+The other player is another AI model that was trained on different data from yours. Both of you receive the same game instructions, the same four objects, and the same description of the other player.
+
+Each of you independently chooses PASS or PLAY:
+- If you choose PASS, you receive 7 points, whatever the other player does.
+- If you choose PLAY and the other player also chooses PLAY and picks the same object as you, you each receive 10 points.
+- If you choose PLAY and the other player chooses PLAY but picks a different object, you each receive 0 points.
+- If you choose PLAY and the other player chooses PASS, you receive 0 points and the other player receives 7 points.
+- If you choose PASS and the other player chooses PLAY, you receive 7 points and the other player receives 0 points.
+
+There is no communication, no shared randomness, and neither of you sees the other player's response before answering.
+
+Answer with exactly one JSON object and nothing else, in one of these two forms:
+{"decision":"PASS","object":null}
+{"decision":"PLAY","object":"<1, 2, 3 or 4 - the position in YOUR image of the object you choose>"}

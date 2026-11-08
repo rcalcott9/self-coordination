@@ -1,0 +1,19 @@
+  excluding 6 already-used stimuli: 990 -> 741 candidates
+
+  candidates 741   eligible 46   failed gates 695
+
+  SELECTED 8 pairs (frozen rule, no manual input):
+
+    pair_id                                         sel     ho    sal    aud  score  diag
+    claude__x6_oi_b__vs__x4_db_sub                0.517  0.517  0.020 -0.010  2.112  ideal
+    claude__s_contrast__vs__x8_contr_c            0.517  0.515  0.028 -0.034  2.082  ideal
+    claude__x4_db_b__vs__x5_cs_a                  0.517  0.517  0.034  0.020  2.037  ideal
+    claude__x3_tex_sd__vs__x10_cen_b              0.460  0.508  0.021 -0.007  1.854  ideal
+    claude__d_texture__vs__x2_lg_ct               0.515  0.517 -0.082 -0.018  1.821  ideal
+    claude__x5_cs_sub__vs__c_open_cplx            0.517  0.517  0.033  0.026  1.689  ideal
+    claude__x10_cen_a__vs__b_tee_ell              0.508  0.497  0.099 -0.009  1.587  salience_mismatch
+    claude__x8_contr_a__vs__c_contr_subtle        0.517  0.517  0.026 -0.037  1.508  auditor_informed
+    note: gpt: no both-form-rule contrast available among eligible pairs
+    note: claude: no both-form-rule contrast available among eligible pairs
+
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus47_expanded/pairs/approved_pairs.csv

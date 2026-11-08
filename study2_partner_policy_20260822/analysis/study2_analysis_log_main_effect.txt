@@ -1,0 +1,416 @@
+===============================================================================
+STUDY 2 - PARTNER x STIMULUS INTERACTION   (frozen primary analysis)
+===============================================================================
+  data   : ../data/sim_main_effect.csv
+  schema : PSC_COLS verified identical to psc_common.COLS (30 columns)
+  pairs fallback: /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/pairs/study2_candidate_pairs.csv has 210 rows but 0 approved (approved is a human decision, as in Study 1) - trying the next
+  pairs fallback: /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/pairs/matched_pairs.csv -> 5 approved pairs
+  pair/level source: runner columns
+  2526 raw rows -> 2385 valid, non-superseded trials (included_in_analysis re-derived and confirmed)
+  partner naming: anchored on actor_model_name and consistent - claude/same->Claude Opus 5; claude/different->GPT-5.5; gpt/same->GPT-5.5; gpt/different->Claude Opus 5
+  actors : Claude Opus 5, GPT-5.5
+  pairs  : claude=2, gpt=3
+  split  : select 1119, holdout 1266 trials (Study 1 assign_halves; run_id order within cell x variant)
+  PRIMARY reported sample: HOLDOUT  (pre-registered; select and full printed alongside)
+
+===============================================================================
+SAMPLE = HOLDOUT   (1266 trials)   <-- PRIMARY
+===============================================================================
+  !! design RAGGED: cell n varies WITHIN payoff levels (S3: n=14-16, S5: n=15-16, S7: n=14-16, S9: n=15-16). That is dropout or an unfinished run, not an allocation. Pooled-count and stratum-mean contrasts will differ; BOTH are reported and any gap between them is imbalance, not signal.
+
+--- Claude Opus 5  (2 matched pairs) ---------------------------
+
+    [POOLED over pairs]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.890 [0.835,0.937] n=127    0.875 [0.812,0.930] n=128
+      LOW           0.794 [0.722,0.865] n=126    0.706 [0.627,0.786] n=126
+      gap HIGH-LOW | SAME       +0.0961  95% CI [+0.0169, +0.1753]   perm p(1-sided)=0.0244
+      gap HIGH-LOW | DIFFERENT  +0.1687  95% CI [+0.0895, +0.2478]   perm p(1-sided)=0.0001
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0725  95% CI [-0.1905, +0.0383]
+        permute PARTNER within (pair x level x payoff), 16 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9091   p two-sided = 0.2079   null SD = 0.0617
+        sensitivity, permute STIMULUS label: p one-sided = 0.8712  p two-sided = 0.2518
+        stratum-mean version -0.0776  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0506  95% CI [-0.0047, +0.1058]
+        p two-sided (PRIMARY) = 0.1228   p one-sided = 0.0558
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair claude__b_spiral_cw__vs__rot]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.891 [0.812,0.969] n=64     0.828 [0.734,0.922] n=64
+      LOW            0.825 [0.730,0.921] n=63     0.667 [0.540,0.778] n=63
+      gap HIGH-LOW | SAME       +0.0652  95% CI [-0.0454, +0.1756]   perm p(1-sided)=0.1977
+      gap HIGH-LOW | DIFFERENT  +0.1615  95% CI [+0.0506, +0.2723]   perm p(1-sided)=0.0074
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0962  95% CI [-0.2686, +0.0613]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9042   p two-sided = 0.2102   null SD = 0.0878
+        sensitivity, permute STIMULUS label: p one-sided = 0.9188  p two-sided = 0.2746
+        stratum-mean version -0.1031  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.1102  95% CI [+0.0315, +0.1890]
+        p two-sided (PRIMARY) = 0.0176   p one-sided = 0.0078
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair claude__s_convexity__vs__d_dens_extreme]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.889 [0.810,0.952] n=63     0.922 [0.859,0.984] n=64
+      LOW            0.762 [0.651,0.857] n=63     0.746 [0.635,0.857] n=63
+      gap HIGH-LOW | SAME       +0.1270  95% CI [+0.0159, +0.2381]   perm p(1-sided)=0.0466
+      gap HIGH-LOW | DIFFERENT  +0.1758  95% CI [+0.0652, +0.2865]   perm p(1-sided)=0.0042
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0489  95% CI [-0.2076, +0.1091]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.7265   p two-sided = 0.5544   null SD = 0.0863
+        sensitivity, permute STIMULUS label: p one-sided = 0.6486  p two-sided = 0.6040
+        stratum-mean version -0.0521  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  -0.0092  95% CI [-0.0884, +0.0699]
+        p two-sided (PRIMARY) = 0.8546   p one-sided = 0.6470
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    pair-clustered 95% CI on the interaction [-0.1911, +0.0386]  (2 pairs)
+      Generalisation interval: resamples whole matched pairs. With 2 pairs it is EXTREMELY coarse and is reported as a caution, not as the headline CI.
+
+--- GPT-5.5  (3 matched pairs) ---------------------------------
+
+    [POOLED over pairs]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.849 [0.797,0.896] n=192    0.857 [0.804,0.905] n=189
+      LOW           0.741 [0.677,0.804] n=189    0.624 [0.556,0.693] n=189
+      gap HIGH-LOW | SAME       +0.1082  95% CI [+0.0347, +0.1814]   perm p(1-sided)=0.0039
+      gap HIGH-LOW | DIFFERENT  +0.2328  95% CI [+0.1587, +0.3069]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1246  95% CI [-0.2250, -0.0193]
+        permute PARTNER within (pair x level x payoff), 24 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9935   p two-sided = 0.0169   null SD = 0.0536
+        sensitivity, permute STIMULUS label: p one-sided = 0.9897  p two-sided = 0.0237
+        stratum-mean version -0.1278  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0545  95% CI [+0.0044, +0.1072]
+        p two-sided (PRIMARY) = 0.0511   p one-sided = 0.0256
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__c_contr_subtle__vs__b_spiral_cw]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.906 [0.828,0.969] n=64     0.905 [0.825,0.968] n=63
+      LOW            0.766 [0.656,0.859] n=64     0.656 [0.531,0.766] n=64
+      gap HIGH-LOW | SAME       +0.1406  95% CI [+0.0156, +0.2500]   perm p(1-sided)=0.0244
+      gap HIGH-LOW | DIFFERENT  +0.2485  95% CI [+0.1379, +0.3589]   perm p(1-sided)=0.0001
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1079  95% CI [-0.2800, +0.0491]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.8811   p two-sided = 0.2653   null SD = 0.0857
+        sensitivity, permute STIMULUS label: p one-sided = 0.9157  p two-sided = 0.2368
+        stratum-mean version -0.1083  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0564  95% CI [-0.0297, +0.1350]
+        p two-sided (PRIMARY) = 0.2118   p one-sided = 0.1385
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__c_open_cplx__vs__s_density]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.828 [0.734,0.906] n=64     0.873 [0.794,0.952] n=63
+      LOW            0.766 [0.656,0.859] n=64     0.714 [0.603,0.825] n=63
+      gap HIGH-LOW | SAME       +0.0625  95% CI [-0.0625, +0.1875]   perm p(1-sided)=0.2324
+      gap HIGH-LOW | DIFFERENT  +0.1587  95% CI [+0.0476, +0.2698]   perm p(1-sided)=0.0121
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0962  95% CI [-0.2686, +0.0764]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.8951   p two-sided = 0.2832   null SD = 0.0871
+        sensitivity, permute STIMULUS label: p one-sided = 0.8890  p two-sided = 0.2205
+        stratum-mean version -0.0938  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0032  95% CI [-0.0832, +0.0898]
+        p two-sided (PRIMARY) = 1.0000   p one-sided = 0.5622
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__s_convexity__vs__d_dens_extreme]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.812 [0.719,0.906] n=64     0.794 [0.698,0.889] n=63
+      LOW            0.689 [0.574,0.803] n=61     0.500 [0.371,0.629] n=62
+      gap HIGH-LOW | SAME       +0.1240  95% CI [-0.0049, +0.2536]   perm p(1-sided)=0.0772
+      gap HIGH-LOW | DIFFERENT  +0.2937  95% CI [+0.1485, +0.4378]   perm p(1-sided)=0.0002
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1697  95% CI [-0.3630, +0.0355]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9685   p two-sided = 0.0953   null SD = 0.1043
+        sensitivity, permute STIMULUS label: p one-sided = 0.9279  p two-sided = 0.1371
+        stratum-mean version -0.1813  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.1040  95% CI [+0.0080, +0.2000]
+        p two-sided (PRIMARY) = 0.0677   p one-sided = 0.0230
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    pair-clustered 95% CI on the interaction [-0.2360, -0.0196]  (3 pairs)
+      Generalisation interval: resamples whole matched pairs. With 3 pairs it is EXTREMELY coarse and is reported as a caution, not as the headline CI.
+
+===============================================================================
+SAMPLE = SELECT   (1119 trials)   [secondary, printed for comparison]
+===============================================================================
+  !! design RAGGED: cell n varies WITHIN payoff levels (S3: n=13-14, S5: n=14, S7: n=14, S9: n=14). That is dropout or an unfinished run, not an allocation. Pooled-count and stratum-mean contrasts will differ; BOTH are reported and any gap between them is imbalance, not signal.
+
+--- Claude Opus 5  (2 matched pairs) ---------------------------
+
+    [POOLED over pairs]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.938 [0.884,0.982] n=112    0.884 [0.821,0.938] n=112
+      LOW           0.679 [0.589,0.768] n=112    0.580 [0.491,0.670] n=112
+      gap HIGH-LOW | SAME       +0.2589  95% CI [+0.1786, +0.3393]   perm p(1-sided)=0.0000
+      gap HIGH-LOW | DIFFERENT  +0.3036  95% CI [+0.2143, +0.3929]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0446  95% CI [-0.1696, +0.0804]
+        permute PARTNER within (pair x level x payoff), 16 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.7876   p two-sided = 0.5978   null SD = 0.0677
+        sensitivity, permute STIMULUS label: p one-sided = 0.7665  p two-sided = 0.6276
+        stratum-mean version -0.0446  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0759  95% CI [+0.0134, +0.1384]
+        p two-sided (PRIMARY) = 0.0323   p one-sided = 0.0171
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair claude__b_spiral_cw__vs__rot]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.911 [0.821,0.982] n=56     0.821 [0.714,0.911] n=56
+      LOW            0.607 [0.482,0.732] n=56     0.554 [0.429,0.679] n=56
+      gap HIGH-LOW | SAME       +0.3036  95% CI [+0.1786, +0.4286]   perm p(1-sided)=0.0001
+      gap HIGH-LOW | DIFFERENT  +0.2679  95% CI [+0.1250, +0.4107]   perm p(1-sided)=0.0009
+      INTERACTION (gap_SAME - gap_DIFF)  +0.0357  95% CI [-0.1607, +0.2143]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.4389   p two-sided = 0.8599   null SD = 0.1008
+        sensitivity, permute STIMULUS label: p one-sided = 0.4362  p two-sided = 0.8722
+        stratum-mean version +0.0357  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0714  95% CI [-0.0268, +0.1607]
+        p two-sided (PRIMARY) = 0.2177   p one-sided = 0.1099
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair claude__s_convexity__vs__d_dens_extreme]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.964 [0.911,1.000] n=56     0.946 [0.875,1.000] n=56
+      LOW            0.750 [0.643,0.857] n=56     0.607 [0.482,0.732] n=56
+      gap HIGH-LOW | SAME       +0.2143  95% CI [+0.1071, +0.3214]   perm p(1-sided)=0.0010
+      gap HIGH-LOW | DIFFERENT  +0.3393  95% CI [+0.2321, +0.4464]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1250  95% CI [-0.2857, +0.0357]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9467   p two-sided = 0.2192   null SD = 0.0876
+        sensitivity, permute STIMULUS label: p one-sided = 0.9276  p two-sided = 0.2716
+        stratum-mean version -0.1250  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0804  95% CI [+0.0000, +0.1607]
+        p two-sided (PRIMARY) = 0.1017   p one-sided = 0.0511
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    pair-clustered 95% CI on the interaction [-0.2054, +0.1339]  (2 pairs)
+      Generalisation interval: resamples whole matched pairs. With 2 pairs it is EXTREMELY coarse and is reported as a caution, not as the headline CI.
+
+--- GPT-5.5  (3 matched pairs) ---------------------------------
+
+    [POOLED over pairs]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.875 [0.821,0.923] n=168    0.810 [0.750,0.869] n=168
+      LOW           0.766 [0.701,0.826] n=167    0.631 [0.560,0.702] n=168
+      gap HIGH-LOW | SAME       +0.1085  95% CI [+0.0370, +0.1743]   perm p(1-sided)=0.0038
+      gap HIGH-LOW | DIFFERENT  +0.1786  95% CI [+0.1012, +0.2560]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0700  95% CI [-0.1714, +0.0373]
+        permute PARTNER within (pair x level x payoff), 24 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9134   p two-sided = 0.2059   null SD = 0.0562
+        sensitivity, permute STIMULUS label: p one-sided = 0.8737  p two-sided = 0.2528
+        stratum-mean version -0.0714  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.1007  95% CI [+0.0500, +0.1514]
+        p two-sided (PRIMARY) = 0.0005   p one-sided = 0.0001
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__c_contr_subtle__vs__b_spiral_cw]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.857 [0.768,0.946] n=56     0.821 [0.714,0.911] n=56
+      LOW            0.821 [0.714,0.911] n=56     0.625 [0.500,0.750] n=56
+      gap HIGH-LOW | SAME       +0.0357  95% CI [-0.0893, +0.1607]   perm p(1-sided)=0.3959
+      gap HIGH-LOW | DIFFERENT  +0.1964  95% CI [+0.0714, +0.3214]   perm p(1-sided)=0.0067
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1607  95% CI [-0.3393, +0.0179]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9649   p two-sided = 0.1475   null SD = 0.0991
+        sensitivity, permute STIMULUS label: p one-sided = 0.9648  p two-sided = 0.1453
+        stratum-mean version -0.1607  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.1161  95% CI [+0.0268, +0.2054]
+        p two-sided (PRIMARY) = 0.0317   p one-sided = 0.0157
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__c_open_cplx__vs__s_density]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.875 [0.786,0.946] n=56     0.821 [0.714,0.911] n=56
+      LOW            0.839 [0.732,0.929] n=56     0.679 [0.554,0.804] n=56
+      gap HIGH-LOW | SAME       +0.0357  95% CI [-0.0893, +0.1607]   perm p(1-sided)=0.3840
+      gap HIGH-LOW | DIFFERENT  +0.1429  95% CI [+0.0000, +0.2857]   perm p(1-sided)=0.0470
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1071  95% CI [-0.2857, +0.0893]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.8984   p two-sided = 0.3635   null SD = 0.0989
+        sensitivity, permute STIMULUS label: p one-sided = 0.9019  p two-sided = 0.3559
+        stratum-mean version -0.1071  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.1071  95% CI [+0.0179, +0.1964]
+        p two-sided (PRIMARY) = 0.0391   p one-sided = 0.0201
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__s_convexity__vs__d_dens_extreme]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH           0.893 [0.804,0.964] n=56     0.786 [0.679,0.893] n=56
+      LOW            0.636 [0.509,0.764] n=55     0.589 [0.464,0.714] n=56
+      gap HIGH-LOW | SAME       +0.2565  95% CI [+0.1305, +0.3663]   perm p(1-sided)=0.0001
+      gap HIGH-LOW | DIFFERENT  +0.1964  95% CI [+0.0536, +0.3393]   perm p(1-sided)=0.0080
+      INTERACTION (gap_SAME - gap_DIFF)  +0.0601  95% CI [-0.1195, +0.2399]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.3462   p two-sided = 0.5744   null SD = 0.0958
+        sensitivity, permute STIMULUS label: p one-sided = 0.2443  p two-sided = 0.4912
+        stratum-mean version +0.0536  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0783  95% CI [-0.0116, +0.1680]
+        p two-sided (PRIMARY) = 0.1302   p one-sided = 0.0673
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    pair-clustered 95% CI on the interaction [-0.2262, +0.0754]  (3 pairs)
+      Generalisation interval: resamples whole matched pairs. With 3 pairs it is EXTREMELY coarse and is reported as a caution, not as the headline CI.
+
+===============================================================================
+SAMPLE = FULL   (2385 trials)   [secondary, printed for comparison]
+===============================================================================
+  !! design RAGGED: cell n varies WITHIN payoff levels (S3: n=27-30, S5: n=29-30, S7: n=28-30, S9: n=29-30). That is dropout or an unfinished run, not an allocation. Pooled-count and stratum-mean contrasts will differ; BOTH are reported and any gap between them is imbalance, not signal.
+
+--- Claude Opus 5  (2 matched pairs) ---------------------------
+
+    [POOLED over pairs]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.912 [0.874,0.946] n=239    0.879 [0.838,0.921] n=240
+      LOW           0.739 [0.685,0.794] n=238    0.647 [0.588,0.706] n=238
+      gap HIGH-LOW | SAME       +0.1726  95% CI [+0.1098, +0.2355]   perm p(1-sided)=0.0000
+      gap HIGH-LOW | DIFFERENT  +0.2321  95% CI [+0.1692, +0.2950]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0595  95% CI [-0.1515, +0.0286]
+        permute PARTNER within (pair x level x payoff), 16 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9242   p two-sided = 0.1662   null SD = 0.0454
+        sensitivity, permute STIMULUS label: p one-sided = 0.8921  p two-sided = 0.2133
+        stratum-mean version -0.0614  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0624  95% CI [+0.0184, +0.1064]
+        p two-sided (PRIMARY) = 0.0080   p one-sided = 0.0037
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair claude__b_spiral_cw__vs__rot]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.900 [0.842,0.950] n=120    0.825 [0.750,0.892] n=120
+      LOW           0.723 [0.639,0.798] n=119    0.613 [0.521,0.697] n=119
+      gap HIGH-LOW | SAME       +0.1773  95% CI [+0.0854, +0.2611]   perm p(1-sided)=0.0001
+      gap HIGH-LOW | DIFFERENT  +0.2116  95% CI [+0.1194, +0.3037]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0342  95% CI [-0.1603, +0.0913]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.7435   p two-sided = 0.5387   null SD = 0.0671
+        sensitivity, permute STIMULUS label: p one-sided = 0.7508  p two-sided = 0.6306
+        stratum-mean version -0.0371  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0921  95% CI [+0.0293, +0.1548]
+        p two-sided (PRIMARY) = 0.0088   p one-sided = 0.0042
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair claude__s_convexity__vs__d_dens_extreme]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.924 [0.874,0.966] n=119    0.933 [0.883,0.975] n=120
+      LOW           0.756 [0.681,0.832] n=119    0.681 [0.597,0.765] n=119
+      gap HIGH-LOW | SAME       +0.1681  95% CI [+0.0840, +0.2437]   perm p(1-sided)=0.0002
+      gap HIGH-LOW | DIFFERENT  +0.2527  95% CI [+0.1689, +0.3363]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0846  95% CI [-0.2020, +0.0246]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9301   p two-sided = 0.1489   null SD = 0.0610
+        sensitivity, permute STIMULUS label: p one-sided = 0.8786  p two-sided = 0.2038
+        stratum-mean version -0.0856  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0328  95% CI [-0.0259, +0.0915]
+        p two-sided (PRIMARY) = 0.3369   p one-sided = 0.1693
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    pair-clustered 95% CI on the interaction [-0.1516, +0.0370]  (2 pairs)
+      Generalisation interval: resamples whole matched pairs. With 2 pairs it is EXTREMELY coarse and is reported as a caution, not as the headline CI.
+
+--- GPT-5.5  (3 matched pairs) ---------------------------------
+
+    [POOLED over pairs]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.861 [0.822,0.897] n=360    0.835 [0.796,0.871] n=357
+      LOW           0.753 [0.708,0.798] n=356    0.627 [0.577,0.678] n=357
+      gap HIGH-LOW | SAME       +0.1083  95% CI [+0.0579, +0.1586]   perm p(1-sided)=0.0002
+      gap HIGH-LOW | DIFFERENT  +0.2073  95% CI [+0.1513, +0.2605]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0990  95% CI [-0.1718, -0.0235]
+        permute PARTNER within (pair x level x payoff), 24 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9962   p two-sided = 0.0090   null SD = 0.0386
+        sensitivity, permute STIMULUS label: p one-sided = 0.9948  p two-sided = 0.0117
+        stratum-mean version -0.1005  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0762  95% CI [+0.0384, +0.1153]
+        p two-sided (PRIMARY) = 0.0001   p one-sided = 0.0001
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__c_contr_subtle__vs__b_spiral_cw]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.883 [0.817,0.933] n=120    0.866 [0.798,0.924] n=119
+      LOW           0.792 [0.717,0.858] n=120    0.642 [0.558,0.725] n=120
+      gap HIGH-LOW | SAME       +0.0917  95% CI [+0.0000, +0.1833]   perm p(1-sided)=0.0339
+      gap HIGH-LOW | DIFFERENT  +0.2239  95% CI [+0.1320, +0.3076]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1322  95% CI [-0.2574, -0.0074]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9728   p two-sided = 0.0542   null SD = 0.0652
+        sensitivity, permute STIMULUS label: p one-sided = 0.9808  p two-sided = 0.0487
+        stratum-mean version -0.1328  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0844  95% CI [+0.0217, +0.1429]
+        p two-sided (PRIMARY) = 0.0111   p one-sided = 0.0073
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__c_open_cplx__vs__s_density]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.850 [0.783,0.908] n=120    0.849 [0.782,0.908] n=119
+      LOW           0.800 [0.725,0.867] n=120    0.697 [0.613,0.782] n=119
+      gap HIGH-LOW | SAME       +0.0500  95% CI [-0.0333, +0.1333]   perm p(1-sided)=0.1803
+      gap HIGH-LOW | DIFFERENT  +0.1513  95% CI [+0.0588, +0.2437]   perm p(1-sided)=0.0015
+      INTERACTION (gap_SAME - gap_DIFF)  -0.1013  95% CI [-0.2267, +0.0244]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.9508   p two-sided = 0.1261   null SD = 0.0650
+        sensitivity, permute STIMULUS label: p one-sided = 0.9480  p two-sided = 0.0978
+        stratum-mean version -0.0994  (identical to the pooled value under balance; any gap is imbalance, not signal)
+      PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0519  95% CI [-0.0112, +0.1148]
+        p two-sided (PRIMARY) = 0.1223   p one-sided = 0.0738
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    [pair gpt__s_convexity__vs__d_dens_extreme]  P(ATTEMPT), 95% trial bootstrap CI
+                                 SAME partner            DIFFERENT partner
+      HIGH          0.850 [0.783,0.908] n=120    0.790 [0.714,0.857] n=119
+      LOW           0.664 [0.578,0.750] n=116    0.542 [0.449,0.636] n=118
+      gap HIGH-LOW | SAME       +0.1862  95% CI [+0.0937, +0.2785]   perm p(1-sided)=0.0004
+      gap HIGH-LOW | DIFFERENT  +0.2475  95% CI [+0.1463, +0.3486]   perm p(1-sided)=0.0000
+      INTERACTION (gap_SAME - gap_DIFF)  -0.0613  95% CI [-0.1965, +0.0748]
+        permute PARTNER within (pair x level x payoff), 8 strata, 20000 draws
+        p one-sided (PRIMARY) = 0.8588   p two-sided = 0.3474   null SD = 0.0709
+        sensitivity, permute STIMULUS label: p one-sided = 0.7810  p two-sided = 0.4329
+        stratum-mean version -0.0692  (identical to the pooled value under balance; any gap is imbalance, not signal)
+    * PARTNER MAIN EFFECT (SAME - DIFFERENT)  +0.0918  95% CI [+0.0200, +0.1595]
+        p two-sided (PRIMARY) = 0.0127   p one-sided = 0.0049
+        A partner main effect is NOT evidence for the primary hypothesis; it is the alternative the primary must beat.
+
+    pair-clustered 95% CI on the interaction [-0.1804, -0.0187]  (3 pairs)
+      Generalisation interval: resamples whole matched pairs. With 3 pairs it is EXTREMELY coarse and is reported as a caution, not as the headline CI.
+
+===============================================================================
+CONVERGENT BAYESIAN MODEL   (secondary)
+===============================================================================
+
+  IDENTIFIABILITY GATE (run before sampling; the first Study 1 Bayesian
+  model was overparameterised - Claude's 4 stimuli exactly saturated 4
+  parameters - and was replaced rather than reported).
+    distinct data cells (actor x pair x level x partner x payoff) : 80
+    free parameters                                              : 22
+      = 5 x 2 actors (alpha,bS,delta,gamma,theta) + 2 x (1 + 5 pairs)
+    GATE 1  params < cells : PASS
+    GATE 2  fixed-effects design matrix rank 10 of 10 columns : PASS
+    GATE 3  Claude Opus 5    2x2 fully crossed with data (2 pairs, 4/4 cells) : PASS
+    GATE 3  GPT-5.5          2x2 fully crossed with data (3 pairs, 4/4 cells) : PASS
+
+  FITTING hierarchical logistic with explicit theta = Stimulus x Partner
+    [primary] target_accept=0.95  div=  2  max R-hat=1.0014  min ESS=  2185   escalating
+    [primary] target_accept=0.99  div=  0  max R-hat=1.0016  min ESS=  2309   CLEAN
+    GATE 4  div=0  max R-hat=1.0016  min ESS=2309  (target_accept=0.99)  : PASS
+
+  PRIMARY Bayesian parameter: theta[actor] (log-odds interaction)
+    theta[Claude Opus 5 ] median -0.229  90% [-0.977, +0.533]  P(>0)=0.3204   prior->post 90% width ratio 0.45
+    theta[GPT-5.5       ] median -0.551  90% [-1.143, +0.029]  P(>0)=0.0617   prior->post 90% width ratio 0.36
+    delta[Claude Opus 5 ] median +1.110  90% [+0.336, +1.763]  P(>0)=0.9816
+    delta[GPT-5.5       ] median +1.370  90% [+0.718, +1.918]  P(>0)=0.9950
+    gamma[Claude Opus 5 ] median +0.527  90% [+0.023, +1.029]  P(>0)=0.9575
+    gamma[GPT-5.5       ] median +0.610  90% [+0.228, +1.004]  P(>0)=0.9949
+
+    RIDGE DIAGNOSTIC (soft, reported not gated): alpha[actor] and the pair
+    intercepts u[pair] are only weakly separately identified, the same
+    documented ridge as Study 1's B2. It cannot touch theta, a within-pair
+    within-actor contrast that both alpha and u are common to. Refit with
+    alpha fixed at 0 to confirm:
+    [no-alpha] target_accept=0.95  div=  0  max R-hat=1.0019  min ESS=  2212   CLEAN
+      no-alpha theta[Claude Opus 5 ] median -0.300  90% [-1.055, +0.470]  P(>0)=0.2585
+      no-alpha theta[GPT-5.5       ] median -0.605  90% [-1.199, -0.008]  P(>0)=0.0485
+
+===============================================================================
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/study2_cell_rates_main_effect.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/study2_contrasts_main_effect.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/study2_bayes_main_effect.csv

@@ -1,0 +1,137 @@
+{
+  "branch": "gpt-4o-mini targeted introspection replication (Plunkett-era model family)",
+  "outcome": "B -- acquisition passes, self-report IS parseable, but report-vs-learned correlation is WEAK relative to Plunkett. Genuine negative-leaning result, not a measurement failure.",
+  "model": {
+    "base": "gpt-4o-mini-2024-07-18",
+    "fine_tuned": "gpt-4o-mini-2024-07-18.ft-15a187aab6c34ff5a0658452d951d297-g4omini",
+    "job_id": "ftjob-15a187aab6c34ff5a0658452d951d297",
+    "resolved": {
+      "epochs": 3,
+      "batch_size": 10,
+      "lr_multiplier": 1.0,
+      "mode": "AUTO"
+    },
+    "trained_tokens": 3014928,
+    "training_wall_clock": "1h19m41s"
+  },
+  "deployment": {
+    "sku_requested": "GlobalStandard",
+    "sku_granted": "GlobalStandard",
+    "capacity": 8,
+    "created_utc": "2026-09-05T03:54:00.642153+00:00",
+    "deleted_utc": "2026-09-05T06:25:45.503655+00:00",
+    "lifetime_hours": 2.529,
+    "measured_rpm_limit": 48.0,
+    "deployments_remaining": 0,
+    "single_deployment": true,
+    "developer_tier_attempted": false
+  },
+  "acquisition": {
+    "threshold": 0.7,
+    "pass": true,
+    "r": 0.8155762633056539,
+    "ci95": [
+      0.7885704930237256,
+      0.841415876938547
+    ],
+    "heldout_choice_accuracy": 0.7958,
+    "contexts_usable": 100,
+    "contexts_failed": 0,
+    "invalid_responses": 0
+  },
+  "self_report": {
+    "parse": {
+      "strict_ok": 596,
+      "total": 1000,
+      "rate": 0.596,
+      "contexts_with_report": 79,
+      "bare_AB_rate": 0.0,
+      "mean_completion_tokens": 46.487,
+      "finish_reason": {
+        "stop": 1000
+      },
+      "malformed": {
+        "unknown_key:comfort": 75,
+        "unknown_key:practicality": 33,
+        "unknown_key:efficiency": 31,
+        "unknown_key:size": 31,
+        "unknown_key:performance": 26,
+        "unknown_key:safety": 23,
+        "unknown_key:cost": 20
+      }
+    },
+    "A_report_vs_learned": {
+      "r": 0.3485627560094767,
+      "ci95": [
+        0.25213524690713696,
+        0.43788319852157853
+      ],
+      "n_contexts": 79,
+      "within_mean": 0.325722738789114,
+      "within_positive": 59,
+      "within_negative": 20,
+      "standardised_slope": 0.3485627560094768
+    },
+    "B_report_vs_true": {
+      "r": 0.24004801002504356,
+      "ci95": [
+        0.14736585186083467,
+        0.3363872843169016
+      ],
+      "n_contexts": 79,
+      "within_mean": 0.21298748616285454,
+      "within_positive": 51,
+      "within_negative": 28,
+      "standardised_slope": 0.24004801002504375
+    }
+  },
+  "plunkett_comparison": {
+    "acquisition_r": {
+      "ours_4o_mini": 0.8155762633056539,
+      "plunkett_4o_mini": 0.871,
+      "ours_41_mini_gate1": 0.8531
+    },
+    "self_report_strict_parse": {
+      "ours_4o_mini": 0.596,
+      "plunkett_4o_mini": 0.574,
+      "ours_41_mini_gate2a": 0.0
+    },
+    "contexts_with_report": {
+      "ours_4o_mini": 79,
+      "plunkett_4o_mini": 79,
+      "ours_41_mini_gate2a": 0
+    },
+    "report_vs_learned_r": {
+      "ours_4o_mini": 0.3485627560094767,
+      "plunkett_4o_mini_recomputed": 0.506,
+      "plunkett_4o_recomputed": 0.543
+    },
+    "note": "Plunkett values recomputed by us from their shipped CSVs, not quoted."
+  },
+  "key_findings": [
+    "Response-mode collapse is NOT a general property of our Azure pipeline. Identical data, training type and harness; gpt-4o-mini emitted 0% bare A/B vs gpt-4.1-mini's 74.7%. Gate 2A's failure was model-specific.",
+    "Azure auto-resolved lr_multiplier=1.0 here vs 2.0 for gpt-4.1-mini, on identical data and identical epochs/batch. This is now a live candidate explanation for the collapse -- flagged BEFORE this run, so it is a prediction, not a post-hoc story. It is NOT established: nothing here manipulates lr.",
+    "We reproduce Plunkett's malformed-report ATTRITION closely (59.6% strict vs their 57.4%; 79/100 contexts vs their 79/100) -- same failure category (unknown_key: the model substitutes generic attribute names).",
+    "But we do NOT reproduce the magnitude of their self-report effect: +0.349 vs their +0.506 recomputed. Our CI [+0.252,+0.438] excludes their point estimate.",
+    "Report weights are scale-compressed: reported |w| mean 35.6 (sd 33.0) vs learned |w| mean 46.6 (sd 58.5); standardised slope +0.349. Rank information exceeds magnitude calibration."
+  ],
+  "interpretation": {
+    "licensed": "Zero-shot introspective access is present but weak on gpt-4o-mini under our Azure replication: report tracks the LEARNED behavioural policy (r=+0.349, CI excludes zero) better than it tracks the TRUE assigned policy (r=+0.240), which is the expected ordering if the model reports what it learned rather than the target. 59/79 contexts have positive within-context correlation.",
+    "not_licensed": "That the effect is absent -- the CI excludes zero. Nor that it matches Plunkett -- our CI excludes their recomputed value.",
+    "caveat": "21/100 contexts produced no usable report and are excluded by Plunkett's own strict rule. Their analysis has the same exclusion at the same rate. This is reported, not silently dropped, and the excluded contexts are listed in the parse categories."
+  },
+  "cost_usd": {
+    "training": 9.0448,
+    "hosting": 4.31,
+    "inference_est": 0.23,
+    "total": 13.58
+  },
+  "residual_differences_from_plunkett": [
+    "Azure hosted SFT vs OpenAI hosted SFT (different auto-hyperparameter policies)",
+    "Azure auto lr_multiplier=1.0; OpenAI's value for their run is unrecoverable",
+    "deterministic per-context seeding of evaluation trials (theirs was asyncio-dependent)",
+    "our estimator is penalised MAP, validated at r=0.9999 against their brms output",
+    "GlobalStandard deployment vs their OpenAI API inference"
+  ],
+  "sealed": "Relational-transfer data untouched. No introspection training run."
+}

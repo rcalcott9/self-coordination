@@ -1,0 +1,60 @@
+=== STAGE C v3 - ATTEMPT vs SAFE ===
+focal      : GPT-5.5 (gpt-5.5)
+pairs      : 24 (frozen, sha256 22418f33c25887a7...)
+stimuli    : 48   payoff grid: [3, 5, 7, 9]   n/cell: 24
+prompt sha8: S3=5a9b96d3, S5=0b7fee99, S7=3a4d54dd, S9=9d5a63ec
+trials     : 4608
+
+  100/4608 trials
+  200/4608 trials
+  300/4608 trials
+  400/4608 trials
+  500/4608 trials
+  600/4608 trials
+  700/4608 trials
+  800/4608 trials
+  900/4608 trials
+  1000/4608 trials
+  1100/4608 trials
+  1200/4608 trials
+  1300/4608 trials
+  1400/4608 trials
+  1500/4608 trials
+  1600/4608 trials
+  1700/4608 trials
+  1800/4608 trials
+  1900/4608 trials
+  2000/4608 trials
+  2100/4608 trials
+  2200/4608 trials
+  2300/4608 trials
+  2400/4608 trials
+  2500/4608 trials
+  2600/4608 trials
+  2700/4608 trials
+  2800/4608 trials
+  2900/4608 trials
+  3000/4608 trials
+  3100/4608 trials
+  3200/4608 trials
+  3300/4608 trials
+  3400/4608 trials
+  3500/4608 trials
+  3600/4608 trials
+  3700/4608 trials
+  3800/4608 trials
+  3900/4608 trials
+  4000/4608 trials
+  4100/4608 trials
+  4200/4608 trials
+  4300/4608 trials
+  4400/4608 trials
+  4500/4608 trials
+  4600/4608 trials
+
+=== stage C done: 4608 trials in 2631s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageC_20260905_200932.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageC_20260905_200932.jsonl

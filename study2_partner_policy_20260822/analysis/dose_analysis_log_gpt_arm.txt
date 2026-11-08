@@ -1,0 +1,380 @@
+===============================================================================
+STUDY 2 (revised) - COMPATIBILITY DOSE-RESPONSE   [frozen primary analysis]
+===============================================================================
+  data   : ../data/study2C_20260822_173757.csv
+  schema : PSC_COLS verified identical to psc_common.COLS (30 columns)
+  frozen : FROZEN_PARAMS.py  advantage=own_minus_cross  primary coefficient=partner_x_advantage  models=('A_coarse_identity', 'B_policy_specific')
+  advantage definition check: own_minus_cross reproduced from pairs/cross_model_table.csv for 16 (actor x stimulus) cells, max |diff| vs FROZEN_PARAMS.GRADIENT = 0.0008
+  confirmation counts: /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/design/confirmed_compatibility.csv  (confirm_compat.py CONFIRMED TABLE; identity counts recovered by exact inversion of the binary-stimulus identity, max residual against its own GG/CC/GC/advantage columns 0.00007)
+
+  CONFIRMED advantage (own-copy minus cross-model), from /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/design/confirmed_compatibility.csv:
+      stimulus      tier(gpt)        n  own_gpt  own_cla    cross  adv_gpt  adv_cla  prov_gpt  prov_cla
+      a_chev_ud     large          180   0.6402   0.6651   0.3459  +0.2943  +0.3191    +0.650    +0.678
+      b_spiral_cw   negative       180   0.6229   1.0000   0.7500  -0.1271  +0.2500    -0.128    +0.217
+      c_open_cplx   large          180   0.9889   0.4972   0.5000  +0.4889  -0.0028    +0.367    -0.106
+      d_texture     small          180   0.5425   0.4978   0.4950  +0.0475  +0.0028    +0.057    +0.401
+      mirror        zero_floor     120   0.4964   0.6218   0.5083  -0.0120  +0.1135    +0.007    +0.022
+      proto         zero_ceil       60   1.0000   1.0000   1.0000  +0.0000  +0.0000    +0.000    +0.000
+      rot           small          120   0.5699   0.4958   0.5000  +0.0699  -0.0042    +0.073    -0.009
+      s_arrow       zero_ceil       60   1.0000   1.0000   1.0000  +0.0000  +0.0000    +0.000    +0.000
+      SE(advantage) from a parametric bootstrap of the confirmation counts: a_chev_ud=0.0551, b_spiral_cw=0.0319, c_open_cplx=0.0384, d_texture=0.0257, mirror=0.0448, proto=0.0000, rot=0.0376, s_arrow=0.0000
+  confirmation gate: 5 critical cells sit within 2 SE of zero, so their SIGN is not resolved and is not gated on (the zero_floor tier is at advantage ~ 0 by design):
+      gpt    rot           zero_floor   provisional +0.073  confirmed +0.0699  SE 0.0376
+      gpt    mirror        zero_floor   provisional +0.007  confirmed -0.0120  SE 0.0211
+      claude rot           zero_floor   provisional -0.009  confirmed -0.0042  SE 0.0185
+      claude mirror        zero_floor   provisional +0.022  confirmed +0.1135  SE 0.0448
+      claude c_open_cplx   negative     provisional -0.106  confirmed -0.0028  SE 0.0371
+  confirmation gate: sign holds in every critical tier ('large', 'negative', 'zero_floor')
+  1424 raw rows -> 1424 valid, non-superseded trials (included_in_analysis re-derived and confirmed)
+  partner naming: anchored on actor_model_name and consistent - gpt/same->GPT-5.5; gpt/different->Claude Opus 5
+  runner compatibility_advantage vs confirmed: max |diff| 0.0005 at ('gpt', 'd_texture')
+    The ANALYSED value is always the confirmed one - it is the only one whose sampling error is available to the errors-in-variables model.
+  actors : GPT-5.5
+  split  : select 688, holdout 736 trials
+  PRIMARY reported sample: FULL
+
+===============================================================================
+SAMPLE = FULL  (1424 trials)   <-- PRIMARY
+===============================================================================
+
+--- PER-STIMULUS PARTNER EFFECT  P(ATTEMPT|same) - P(ATTEMPT|different) --
+    Raw integer cells are printed, including zero and negative cells. A rate never appears without the k/n it came from.
+
+    GPT-5.5
+      stimulus      tier             adv      k/n SAME      k/n DIFF  p_same  p_diff   effect              95% CI  perm p1
+      a_chev_ud     large         +0.294     22/32         22/32       0.688   0.688  +0.0000  [-0.094,+0.094]   0.7209
+      b_spiral_cw   negative      -0.127     59/160        52/160      0.369   0.325  +0.0438  [-0.012,+0.100]   0.0827
+      c_open_cplx   large         +0.489     24/32         23/32       0.750   0.719  +0.0312  [-0.094,+0.156]   0.5058
+      d_texture     small         +0.047     63/120        73/120      0.525   0.608  -0.0833  [-0.133,-0.033]   0.9997 NEG
+      mirror        zero_floor    -0.012     37/120        43/120      0.308   0.358  -0.0500  [-0.108,+0.008]   0.9716 NEG
+      proto         zero_ceil     +0.000     43/64         40/64       0.672   0.625  +0.0469  [-0.031,+0.125]   0.2352
+      rot           small         +0.070     56/120        57/120      0.467   0.475  -0.0083  [-0.075,+0.050]   0.6972 NEG
+      s_arrow       zero_ceil     +0.000     42/64         41/64       0.656   0.641  +0.0156  [-0.078,+0.094]   0.5048
+
+-------------------------------------------------------------------------------
+PRIMARY SLOPE   POOLED (shared g1, actor-specific everything else)   [all stimuli]   8 stimuli, 1424 trials
+-------------------------------------------------------------------------------
+  RISK-DIFFERENCE SCALE (trial-level OLS with stimulus fixed effects;
+  identical to a precision-weighted regression of the per-stimulus
+  partner effect on advantage - the quantity the main figure plots).
+      g1 PLUG-IN (Partner x Advantage)       -0.0558  95% [-0.2340, +0.1183]  perm p(1-sided)=0.7163
+        two-sided perm p = 0.5697   permutation null SD 0.0977 over 32 strata, 20000 exact hypergeometric draws
+      PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+      intercepts g0 (the constant same-model shift MODEL A also has): g0[gpt]=-0.0057
+      A nonzero g0 is MODEL A's prediction as much as MODEL B's. It is NOT evidence for a dose-response.
+      g1 PLUG-IN + STAGE A BOOTSTRAP         -0.0551  95% [-0.2455, +0.1117]
+        Propagates the confirmation screen's sampling error. It WIDENS the interval and does NOT undo the attenuation - the centre is still biased toward zero.
+      measurement-error reliability lambda = 0.9779  (Var(adv_hat)=0.03943, mean SE=0.0295)
+      g1 REGRESSION-CALIBRATED (g1 / lambda) -0.0571
+        Method of moments. At lambda=0.978 the attenuation is 2.2% - the plug-in slope is that much too flat.
+      g1 POSTERIOR-PROPAGATION (cross-check on the EIV) -0.0588  95% [-0.2486, +0.1070]
+      naive OLS on the 8 aggregated per-stimulus points: +0.0223
+        DESCRIPTIVE ONLY, never the analysis. It weights a 32-trial stimulus the same as a 160-trial one, so it targets the UNWEIGHTED estimand and is not comparable in size to the weighted slope above; its sampling variance is also much larger. Attenuation applies to it as to every plug-in estimate. PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+
+  MODEL COMPARISON on the LOGIT scale (A_coarse_identity vs B_policy_specific)
+      model                               params      logLik        AIC        BIC
+      MODEL 0  no partner effect               9     -261.97     541.94     589.29
+      MODEL A  constant same-model shift      10     -261.82     543.64     596.25
+      MODEL B  shift proportional to advantage      11     -261.58     545.15     603.02
+      LRT  B vs A: chi2 = 0.491 on 1 df, p = 0.4833
+      dAIC (A - B) = -1.51   dBIC (A - B) = -6.77   (positive favours B)
+      LEAVE-ONE-STIMULUS-OUT predictive log-loss on the held-out SAME-partner cells
+        (held-out baseline refitted from its DIFFERENT cells only, so no partner information leaks in)
+        MODEL 0 115.75   MODEL A 121.72   MODEL B 131.36   (lower is better)
+        LOSO verdict: MODEL A  (A - B = -9.64 nats; positive favours B)
+        NOTE: MODEL A does not beat MODEL 0 out of sample, so the partner label itself is not predictive here and the A-vs-B comparison is between two models neither of which is earning its parameters.
+
+      BASELINE-ARTEFACT DIAGNOSTIC: the FITTED MODEL A, which has no advantage term at all,
+      nevertheless implies a risk-difference slope of +0.0043 through the logit -> risk-difference
+      nonlinearity alone. Observed plug-in slope -0.0558; excess over the artefact -0.0601.
+        LOSO winner 0 by 5.97 nats over A; anything under 2 nats over ~1424 trials is a tie, not a result, and is reported as one.
+
+      >>> VERDICT [POOLED (shared g1, actor-specific everything else) / all stimuli]: NEITHER - no partner effect survives out of sample
+          Decision rule, fixed in advance. The leave-one-stimulus-out winner decides, with MODEL 0 in the race: if the no-partner-effect model predicts a new stimulus best, neither A nor B has earned anything. A verdict of B additionally requires one-sided permutation p < 0.05 on g1 and the likelihood moving the right way. A positive same-model shift g0 never counts toward B on its own - MODEL A predicts one too.
+      LOGIT-scale plug-in g1 (MODEL B's coefficient): -1.2046   advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+        This is the estimate the EIV posterior below is directly comparable with - same link, same parameterisation, the ONLY difference being whether advantage is latent or plugged in. The risk-difference slope above is a different link and the two should not be differenced against each other.
+
+  ERRORS-IN-VARIABLES / LATENT-PREDICTOR MODEL [POOLED (shared g1, actor-specific everything else)]
+
+  EIV IDENTIFIABILITY GATE (before sampling)
+    Stage C cells 64 + Stage A cells 16 = 80 data cells;  free parameters 27 (11 outcome + 16 latent pi)
+    GATE E1  params < cells                         : PASS
+    GATE E2  outcome design matrix full rank (11 cols) : PASS
+    GATE E3  gpt     7 distinct advantage values, arms ['different', 'same'] : PASS
+    GATE E4  confirmation counts present for BOTH models on all 8 stimuli : PASS
+      (cross[s] needs both marginals; one missing makes advantage undefined for BOTH actors on that stimulus, not just one)
+
+  EIV sampler: 4 chains x (500 warmup + 1500 kept), 11 outcome parameters + 16 latent pi; two independence-MH blocks
+    chain 0: independence-MH acceptance  theta 0.795, latent pi 0.979
+    chain 1: independence-MH acceptance  theta 0.770, latent pi 0.980
+    chain 2: independence-MH acceptance  theta 0.802, latent pi 0.979
+    chain 3: independence-MH acceptance  theta 0.806, latent pi 0.979
+    GATE E5  max split R-hat 1.0031  min bulk ESS 1672  acceptance >= 0.10 everywhere True : PASS
+    EIV g1       (LOGIT scale) median -0.2636  90% [-2.3969, +1.7703]  P(>0)=0.4217   prior->post 90% width ratio 0.63
+    EIV g1 on the RISK-DIFFERENCE scale (posterior pushed through the fitted probabilities):
+      median -0.0124  95% [-0.1509, +0.1241]  P(>0)=0.4267  (600 draws)
+      LIKE-FOR-LIKE (logit scale): plug-in g1 -1.2046  ->  EIV g1 -0.2636
+        ratio NOT reported: the plug-in estimate is smaller than the EIV posterior's own 90% width, so the ratio of two near-zero numbers would be noise dressed as a correction. (1/lambda = 1.023.)
+        Read the size, not the sign of the difference. 1/lambda = 1.023 is a 2.3% correction, while g1's own posterior is wide (-2.397 to +1.770 at 90%). The attenuation is real and its DIRECTION is not in doubt, but at FROZEN_PARAMS.CONFIRM_N it is an order of magnitude below the sampling noise, so plug-in and EIV can land either side of one another. That is a statement about how large the confirmation screen is, not a licence to drop the EIV: at the provisional n = 60 the same calculation gives a correction several times bigger.
+      For reference the RISK-DIFFERENCE plug-in slope was -0.0558 and the EIV's risk-difference push-through is -0.0124. These use DIFFERENT links, so their difference is not an attenuation correction and is not read as one.
+
+-------------------------------------------------------------------------------
+PRIMARY SLOPE   POOLED (shared g1, actor-specific everything else)   [excluding a_chev_ud]   7 stimuli, 1360 trials
+-------------------------------------------------------------------------------
+  RISK-DIFFERENCE SCALE (trial-level OLS with stimulus fixed effects;
+  identical to a precision-weighted regression of the per-stimulus
+  partner effect on advantage - the quantity the main figure plots).
+      g1 PLUG-IN (Partner x Advantage)       -0.0740  95% [-0.2640, +0.1213]  perm p(1-sided)=0.7519
+        two-sided perm p = 0.4969   permutation null SD 0.1091 over 28 strata, 20000 exact hypergeometric draws
+      PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+      intercepts g0 (the constant same-model shift MODEL A also has): g0[gpt]=-0.0065
+      A nonzero g0 is MODEL A's prediction as much as MODEL B's. It is NOT evidence for a dose-response.
+      g1 PLUG-IN + STAGE A BOOTSTRAP         -0.0745  95% [-0.2836, +0.1152]
+        Propagates the confirmation screen's sampling error. It WIDENS the interval and does NOT undo the attenuation - the centre is still biased toward zero.
+      measurement-error reliability lambda = 0.9847  (Var(adv_hat)=0.03839, mean SE=0.0242)
+      g1 REGRESSION-CALIBRATED (g1 / lambda) -0.0751
+        Method of moments. At lambda=0.985 the attenuation is 1.5% - the plug-in slope is that much too flat.
+      g1 POSTERIOR-PROPAGATION (cross-check on the EIV) -0.0759  95% [-0.2882, +0.1297]
+      naive OLS on the 7 aggregated per-stimulus points: +0.0262
+        DESCRIPTIVE ONLY, never the analysis. It weights a 32-trial stimulus the same as a 160-trial one, so it targets the UNWEIGHTED estimand and is not comparable in size to the weighted slope above; its sampling variance is also much larger. Attenuation applies to it as to every plug-in estimate. PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+
+  MODEL COMPARISON on the LOGIT scale (A_coarse_identity vs B_policy_specific)
+      model                               params      logLik        AIC        BIC
+      MODEL 0  no partner effect               8     -252.50     521.01     562.73
+      MODEL A  constant same-model shift       9     -252.35     522.70     569.63
+      MODEL B  shift proportional to advantage      10     -251.99     523.98     576.13
+      LRT  B vs A: chi2 = 0.719 on 1 df, p = 0.3966
+      dAIC (A - B) = -1.28   dBIC (A - B) = -6.50   (positive favours B)
+      LEAVE-ONE-STIMULUS-OUT predictive log-loss on the held-out SAME-partner cells
+        (held-out baseline refitted from its DIFFERENT cells only, so no partner information leaks in)
+        MODEL 0 111.22   MODEL A 117.51   MODEL B 139.26   (lower is better)
+        LOSO verdict: MODEL A  (A - B = -21.75 nats; positive favours B)
+        NOTE: MODEL A does not beat MODEL 0 out of sample, so the partner label itself is not predictive here and the A-vs-B comparison is between two models neither of which is earning its parameters.
+
+      BASELINE-ARTEFACT DIAGNOSTIC: the FITTED MODEL A, which has no advantage term at all,
+      nevertheless implies a risk-difference slope of +0.0050 through the logit -> risk-difference
+      nonlinearity alone. Observed plug-in slope -0.0740; excess over the artefact -0.0790.
+        LOSO winner 0 by 6.29 nats over A; anything under 2 nats over ~1360 trials is a tie, not a result, and is reported as one.
+
+      >>> VERDICT [POOLED (shared g1, actor-specific everything else) / excluding a_chev_ud]: NEITHER - no partner effect survives out of sample
+          Decision rule, fixed in advance. The leave-one-stimulus-out winner decides, with MODEL 0 in the race: if the no-partner-effect model predicts a new stimulus best, neither A nor B has earned anything. A verdict of B additionally requires one-sided permutation p < 0.05 on g1 and the likelihood moving the right way. A positive same-model shift g0 never counts toward B on its own - MODEL A predicts one too.
+      LOGIT-scale plug-in g1 (MODEL B's coefficient): -1.6348   advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+        This is the estimate the EIV posterior below is directly comparable with - same link, same parameterisation, the ONLY difference being whether advantage is latent or plugged in. The risk-difference slope above is a different link and the two should not be differenced against each other.
+
+===============================================================================
+SAMPLE = HOLDOUT  (736 trials)   [secondary, printed for comparison]
+===============================================================================
+
+--- PER-STIMULUS PARTNER EFFECT  P(ATTEMPT|same) - P(ATTEMPT|different) --
+    Raw integer cells are printed, including zero and negative cells. A rate never appears without the k/n it came from.
+
+    GPT-5.5
+      stimulus      tier             adv      k/n SAME      k/n DIFF  p_same  p_diff   effect              95% CI  perm p1
+      a_chev_ud     large         +0.294     12/16         11/16       0.750   0.688  +0.0625  [+0.000,+0.188]   0.5024
+      b_spiral_cw   negative      -0.127     33/80         28/80       0.412   0.350  +0.0625  [-0.013,+0.138]   0.0997
+      c_open_cplx   large         +0.489     12/16         12/16       0.750   0.750  +0.0000  [-0.188,+0.188]   0.7116
+      d_texture     small         +0.047     32/64         42/64       0.500   0.656  -0.1562  [-0.219,-0.094]   1.0000 NEG
+      mirror        zero_floor    -0.012     18/64         24/64       0.281   0.375  -0.0938  [-0.172,-0.016]   0.9957 NEG
+      proto         zero_ceil     +0.000     21/32         19/32       0.656   0.594  +0.0625  [-0.062,+0.188]   0.3152
+      rot           small         +0.070     31/64         30/64       0.484   0.469  +0.0156  [-0.062,+0.094]   0.5044
+      s_arrow       zero_ceil     +0.000     20/32         19/32       0.625   0.594  +0.0312  [-0.094,+0.156]   0.5041
+
+-------------------------------------------------------------------------------
+PRIMARY SLOPE   POOLED (shared g1, actor-specific everything else)   [all stimuli]   8 stimuli, 736 trials
+-------------------------------------------------------------------------------
+  RISK-DIFFERENCE SCALE (trial-level OLS with stimulus fixed effects;
+  identical to a precision-weighted regression of the per-stimulus
+  partner effect on advantage - the quantity the main figure plots).
+      g1 PLUG-IN (Partner x Advantage)       -0.0779  95% [-0.3215, +0.1628]  perm p(1-sided)=0.6902
+        two-sided perm p = 0.6193   permutation null SD 0.1533 over 32 strata, 20000 exact hypergeometric draws
+      PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+      intercepts g0 (the constant same-model shift MODEL A also has): g0[gpt]=-0.0144
+      A nonzero g0 is MODEL A's prediction as much as MODEL B's. It is NOT evidence for a dose-response.
+      g1 PLUG-IN + STAGE A BOOTSTRAP         -0.0836  95% [-0.3394, +0.1729]
+        Propagates the confirmation screen's sampling error. It WIDENS the interval and does NOT undo the attenuation - the centre is still biased toward zero.
+      measurement-error reliability lambda = 0.9779  (Var(adv_hat)=0.03943, mean SE=0.0295)
+      g1 REGRESSION-CALIBRATED (g1 / lambda) -0.0797
+        Method of moments. At lambda=0.978 the attenuation is 2.2% - the plug-in slope is that much too flat.
+      g1 POSTERIOR-PROPAGATION (cross-check on the EIV) -0.0895  95% [-0.3617, +0.1682]
+      naive OLS on the 8 aggregated per-stimulus points: +0.0244
+        DESCRIPTIVE ONLY, never the analysis. It weights a 32-trial stimulus the same as a 160-trial one, so it targets the UNWEIGHTED estimand and is not comparable in size to the weighted slope above; its sampling variance is also much larger. Attenuation applies to it as to every plug-in estimate. PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+
+  MODEL COMPARISON on the LOGIT scale (A_coarse_identity vs B_policy_specific)
+      model                               params      logLik        AIC        BIC
+      MODEL 0  no partner effect               9     -146.33     310.65     352.06
+      MODEL A  constant same-model shift      10     -145.93     311.87     357.88
+      MODEL B  shift proportional to advantage      11     -145.69     313.38     363.99
+      LRT  B vs A: chi2 = 0.490 on 1 df, p = 0.4840
+      dAIC (A - B) = -1.51   dBIC (A - B) = -6.11   (positive favours B)
+      LEAVE-ONE-STIMULUS-OUT predictive log-loss on the held-out SAME-partner cells
+        (held-out baseline refitted from its DIFFERENT cells only, so no partner information leaks in)
+        MODEL 0 67.62   MODEL A 76.15   MODEL B 84.52   (lower is better)
+        LOSO verdict: MODEL A  (A - B = -8.36 nats; positive favours B)
+        NOTE: MODEL A does not beat MODEL 0 out of sample, so the partner label itself is not predictive here and the A-vs-B comparison is between two models neither of which is earning its parameters.
+
+      BASELINE-ARTEFACT DIAGNOSTIC: the FITTED MODEL A, which has no advantage term at all,
+      nevertheless implies a risk-difference slope of +0.0100 through the logit -> risk-difference
+      nonlinearity alone. Observed plug-in slope -0.0779; excess over the artefact -0.0879.
+        LOSO winner 0 by 8.54 nats over A; anything under 2 nats over ~736 trials is a tie, not a result, and is reported as one.
+
+      >>> VERDICT [POOLED (shared g1, actor-specific everything else) / all stimuli]: NEITHER - no partner effect survives out of sample
+          Decision rule, fixed in advance. The leave-one-stimulus-out winner decides, with MODEL 0 in the race: if the no-partner-effect model predicts a new stimulus best, neither A nor B has earned anything. A verdict of B additionally requires one-sided permutation p < 0.05 on g1 and the likelihood moving the right way. A positive same-model shift g0 never counts toward B on its own - MODEL A predicts one too.
+      LOGIT-scale plug-in g1 (MODEL B's coefficient): -1.6310   advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+        This is the estimate the EIV posterior below is directly comparable with - same link, same parameterisation, the ONLY difference being whether advantage is latent or plugged in. The risk-difference slope above is a different link and the two should not be differenced against each other.
+
+-------------------------------------------------------------------------------
+PRIMARY SLOPE   POOLED (shared g1, actor-specific everything else)   [excluding a_chev_ud]   7 stimuli, 704 trials
+-------------------------------------------------------------------------------
+  RISK-DIFFERENCE SCALE (trial-level OLS with stimulus fixed effects;
+  identical to a precision-weighted regression of the per-stimulus
+  partner effect on advantage - the quantity the main figure plots).
+      g1 PLUG-IN (Partner x Advantage)       -0.1594  95% [-0.4485, +0.1344]  perm p(1-sided)=0.8021
+        two-sided perm p = 0.3969   permutation null SD 0.1833 over 28 strata, 20000 exact hypergeometric draws
+      PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+      intercepts g0 (the constant same-model shift MODEL A also has): g0[gpt]=-0.0179
+      A nonzero g0 is MODEL A's prediction as much as MODEL B's. It is NOT evidence for a dose-response.
+      g1 PLUG-IN + STAGE A BOOTSTRAP         -0.1508  95% [-0.4767, +0.1328]
+        Propagates the confirmation screen's sampling error. It WIDENS the interval and does NOT undo the attenuation - the centre is still biased toward zero.
+      measurement-error reliability lambda = 0.9847  (Var(adv_hat)=0.03839, mean SE=0.0242)
+      g1 REGRESSION-CALIBRATED (g1 / lambda) -0.1618
+        Method of moments. At lambda=0.985 the attenuation is 1.5% - the plug-in slope is that much too flat.
+      g1 POSTERIOR-PROPAGATION (cross-check on the EIV) -0.1644  95% [-0.4904, +0.1298]
+      naive OLS on the 7 aggregated per-stimulus points: -0.0343
+        DESCRIPTIVE ONLY, never the analysis. It weights a 32-trial stimulus the same as a 160-trial one, so it targets the UNWEIGHTED estimand and is not comparable in size to the weighted slope above; its sampling variance is also much larger. Attenuation applies to it as to every plug-in estimate. PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+
+  MODEL COMPARISON on the LOGIT scale (A_coarse_identity vs B_policy_specific)
+      model                               params      logLik        AIC        BIC
+      MODEL 0  no partner effect               8     -142.68     301.36     337.81
+      MODEL A  constant same-model shift       9     -142.13     302.27     343.28
+      MODEL B  shift proportional to advantage      10     -141.40     302.80     348.37
+      LRT  B vs A: chi2 = 1.468 on 1 df, p = 0.2257
+      dAIC (A - B) = -0.53   dBIC (A - B) = -5.09   (positive favours B)
+      LEAVE-ONE-STIMULUS-OUT predictive log-loss on the held-out SAME-partner cells
+        (held-out baseline refitted from its DIFFERENT cells only, so no partner information leaks in)
+        MODEL 0 66.32   MODEL A 74.79   MODEL B 90.39   (lower is better)
+        LOSO verdict: MODEL A  (A - B = -15.60 nats; positive favours B)
+        NOTE: MODEL A does not beat MODEL 0 out of sample, so the partner label itself is not predictive here and the A-vs-B comparison is between two models neither of which is earning its parameters.
+
+      BASELINE-ARTEFACT DIAGNOSTIC: the FITTED MODEL A, which has no advantage term at all,
+      nevertheless implies a risk-difference slope of +0.0110 through the logit -> risk-difference
+      nonlinearity alone. Observed plug-in slope -0.1594; excess over the artefact -0.1704.
+        LOSO winner 0 by 8.47 nats over A; anything under 2 nats over ~704 trials is a tie, not a result, and is reported as one.
+
+      >>> VERDICT [POOLED (shared g1, actor-specific everything else) / excluding a_chev_ud]: NEITHER - no partner effect survives out of sample
+          Decision rule, fixed in advance. The leave-one-stimulus-out winner decides, with MODEL 0 in the race: if the no-partner-effect model predicts a new stimulus best, neither A nor B has earned anything. A verdict of B additionally requires one-sided permutation p < 0.05 on g1 and the likelihood moving the right way. A positive same-model shift g0 never counts toward B on its own - MODEL A predicts one too.
+      LOGIT-scale plug-in g1 (MODEL B's coefficient): -3.0598   advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+        This is the estimate the EIV posterior below is directly comparable with - same link, same parameterisation, the ONLY difference being whether advantage is latent or plugged in. The risk-difference slope above is a different link and the two should not be differenced against each other.
+
+===============================================================================
+SAMPLE = SELECT  (688 trials)   [secondary, printed for comparison]
+===============================================================================
+
+--- PER-STIMULUS PARTNER EFFECT  P(ATTEMPT|same) - P(ATTEMPT|different) --
+    Raw integer cells are printed, including zero and negative cells. A rate never appears without the k/n it came from.
+
+    GPT-5.5
+      stimulus      tier             adv      k/n SAME      k/n DIFF  p_same  p_diff   effect              95% CI  perm p1
+      a_chev_ud     large         +0.294     10/16         11/16       0.625   0.688  -0.0625  [-0.188,+0.125]   0.9308 NEG
+      b_spiral_cw   negative      -0.127     26/80         24/80       0.325   0.300  +0.0250  [-0.038,+0.100]   0.3587
+      c_open_cplx   large         +0.489     12/16         11/16       0.750   0.688  +0.0625  [+0.000,+0.188]   0.5006
+      d_texture     small         +0.047     31/56         31/56       0.554   0.554  +0.0000  [-0.071,+0.071]   0.6733
+      mirror        zero_floor    -0.012     19/56         19/56       0.339   0.339  +0.0000  [-0.089,+0.089]   0.6558
+      proto         zero_ceil     +0.000     22/32         21/32       0.688   0.656  +0.0312  [-0.094,+0.156]   0.4964
+      rot           small         +0.070     25/56         27/56       0.446   0.482  -0.0357  [-0.125,+0.054]   0.8776 NEG
+      s_arrow       zero_ceil     +0.000     22/32         22/32       0.688   0.688  +0.0000  [-0.094,+0.094]   0.7175
+
+-------------------------------------------------------------------------------
+PRIMARY SLOPE   POOLED (shared g1, actor-specific everything else)   [all stimuli]   8 stimuli, 688 trials
+-------------------------------------------------------------------------------
+  RISK-DIFFERENCE SCALE (trial-level OLS with stimulus fixed effects;
+  identical to a precision-weighted regression of the per-stimulus
+  partner effect on advantage - the quantity the main figure plots).
+      g1 PLUG-IN (Partner x Advantage)       -0.0333  95% [-0.2241, +0.1823]  perm p(1-sided)=0.6070
+        two-sided perm p = 0.7807   permutation null SD 0.1133 over 32 strata, 20000 exact hypergeometric draws
+      PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+      intercepts g0 (the constant same-model shift MODEL A also has): g0[gpt]=+0.0037
+      A nonzero g0 is MODEL A's prediction as much as MODEL B's. It is NOT evidence for a dose-response.
+      g1 PLUG-IN + STAGE A BOOTSTRAP         -0.0341  95% [-0.2202, +0.1836]
+        Propagates the confirmation screen's sampling error. It WIDENS the interval and does NOT undo the attenuation - the centre is still biased toward zero.
+      measurement-error reliability lambda = 0.9779  (Var(adv_hat)=0.03943, mean SE=0.0295)
+      g1 REGRESSION-CALIBRATED (g1 / lambda) -0.0340
+        Method of moments. At lambda=0.978 the attenuation is 2.2% - the plug-in slope is that much too flat.
+      g1 POSTERIOR-PROPAGATION (cross-check on the EIV) -0.0343  95% [-0.2433, +0.1745]
+      naive OLS on the 8 aggregated per-stimulus points: +0.0164
+        DESCRIPTIVE ONLY, never the analysis. It weights a 32-trial stimulus the same as a 160-trial one, so it targets the UNWEIGHTED estimand and is not comparable in size to the weighted slope above; its sampling variance is also much larger. Attenuation applies to it as to every plug-in estimate. PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+
+  MODEL COMPARISON on the LOGIT scale (A_coarse_identity vs B_policy_specific)
+      model                               params      logLik        AIC        BIC
+      MODEL 0  no partner effect               9     -107.52     233.04     273.84
+      MODEL A  constant same-model shift      10     -107.50     235.01     280.34
+      MODEL B  shift proportional to advantage      11     -107.46     236.93     286.80
+      LRT  B vs A: chi2 = 0.078 on 1 df, p = 0.7795
+      dAIC (A - B) = -1.92   dBIC (A - B) = -6.46   (positive favours B)
+      LEAVE-ONE-STIMULUS-OUT predictive log-loss on the held-out SAME-partner cells
+        (held-out baseline refitted from its DIFFERENT cells only, so no partner information leaks in)
+        MODEL 0 52.47   MODEL A 53.23   MODEL B 57.67   (lower is better)
+        LOSO verdict: MODEL A  (A - B = -4.44 nats; positive favours B)
+        NOTE: MODEL A does not beat MODEL 0 out of sample, so the partner label itself is not predictive here and the A-vs-B comparison is between two models neither of which is earning its parameters.
+
+      BASELINE-ARTEFACT DIAGNOSTIC: the FITTED MODEL A, which has no advantage term at all,
+      nevertheless implies a risk-difference slope of -0.0010 through the logit -> risk-difference
+      nonlinearity alone. Observed plug-in slope -0.0333; excess over the artefact -0.0323.
+        LOSO winner 0 by 0.76 nats over A; anything under 2 nats over ~688 trials is a tie, not a result, and is reported as one.
+
+      >>> VERDICT [POOLED (shared g1, actor-specific everything else) / all stimuli]: INDISTINGUISHABLE - the models are within the out-of-sample noise of each other
+          Decision rule, fixed in advance. The leave-one-stimulus-out winner decides, with MODEL 0 in the race: if the no-partner-effect model predicts a new stimulus best, neither A nor B has earned anything. A verdict of B additionally requires one-sided permutation p < 0.05 on g1 and the likelihood moving the right way. A positive same-model shift g0 never counts toward B on its own - MODEL A predicts one too.
+      LOGIT-scale plug-in g1 (MODEL B's coefficient): -0.7266   advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+        This is the estimate the EIV posterior below is directly comparable with - same link, same parameterisation, the ONLY difference being whether advantage is latent or plugged in. The risk-difference slope above is a different link and the two should not be differenced against each other.
+
+-------------------------------------------------------------------------------
+PRIMARY SLOPE   POOLED (shared g1, actor-specific everything else)   [excluding a_chev_ud]   7 stimuli, 656 trials
+-------------------------------------------------------------------------------
+  RISK-DIFFERENCE SCALE (trial-level OLS with stimulus fixed effects;
+  identical to a precision-weighted regression of the per-stimulus
+  partner effect on advantage - the quantity the main figure plots).
+      g1 PLUG-IN (Partner x Advantage)       +0.0134  95% [-0.1885, +0.2295]  perm p(1-sided)=0.4632
+        two-sided perm p = 0.9226   permutation null SD 0.1171 over 28 strata, 20000 exact hypergeometric draws
+      PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+      intercepts g0 (the constant same-model shift MODEL A also has): g0[gpt]=+0.0060
+      A nonzero g0 is MODEL A's prediction as much as MODEL B's. It is NOT evidence for a dose-response.
+      g1 PLUG-IN + STAGE A BOOTSTRAP         +0.0089  95% [-0.1904, +0.2357]
+        Propagates the confirmation screen's sampling error. It WIDENS the interval and does NOT undo the attenuation - the centre is still biased toward zero.
+      measurement-error reliability lambda = 0.9847  (Var(adv_hat)=0.03839, mean SE=0.0242)
+      g1 REGRESSION-CALIBRATED (g1 / lambda) +0.0136
+        Method of moments. At lambda=0.985 the attenuation is 1.5% - the plug-in slope is that much too flat.
+      g1 POSTERIOR-PROPAGATION (cross-check on the EIV) +0.0141  95% [-0.2007, +0.2430]
+      naive OLS on the 7 aggregated per-stimulus points: +0.0836
+        DESCRIPTIVE ONLY, never the analysis. It weights a 32-trial stimulus the same as a 160-trial one, so it targets the UNWEIGHTED estimand and is not comparable in size to the weighted slope above; its sampling variance is also much larger. Attenuation applies to it as to every plug-in estimate. PLUG-IN: advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+
+  MODEL COMPARISON on the LOGIT scale (A_coarse_identity vs B_policy_specific)
+      model                               params      logLik        AIC        BIC
+      MODEL 0  no partner effect               8     -102.16     220.33     256.22
+      MODEL A  constant same-model shift       9     -102.10     222.21     262.58
+      MODEL B  shift proportional to advantage      10     -102.09     224.19     269.05
+      LRT  B vs A: chi2 = 0.021 on 1 df, p = 0.8857
+      dAIC (A - B) = -1.98   dBIC (A - B) = -6.47   (positive favours B)
+      LEAVE-ONE-STIMULUS-OUT predictive log-loss on the held-out SAME-partner cells
+        (held-out baseline refitted from its DIFFERENT cells only, so no partner information leaks in)
+        MODEL 0 49.15   MODEL A 49.76   MODEL B 56.56   (lower is better)
+        LOSO verdict: MODEL A  (A - B = -6.79 nats; positive favours B)
+        NOTE: MODEL A does not beat MODEL 0 out of sample, so the partner label itself is not predictive here and the A-vs-B comparison is between two models neither of which is earning its parameters.
+
+      BASELINE-ARTEFACT DIAGNOSTIC: the FITTED MODEL A, which has no advantage term at all,
+      nevertheless implies a risk-difference slope of -0.0039 through the logit -> risk-difference
+      nonlinearity alone. Observed plug-in slope +0.0134; excess over the artefact +0.0173.
+      The artefact is a substantial fraction of the observed slope. Read the LOGIT-scale model comparison, not the risk-difference slope, as the discriminating evidence.
+        LOSO winner 0 by 0.61 nats over A; anything under 2 nats over ~656 trials is a tie, not a result, and is reported as one.
+
+      >>> VERDICT [POOLED (shared g1, actor-specific everything else) / excluding a_chev_ud]: INDISTINGUISHABLE - the models are within the out-of-sample noise of each other
+          Decision rule, fixed in advance. The leave-one-stimulus-out winner decides, with MODEL 0 in the race: if the no-partner-effect model predicts a new stimulus best, neither A nor B has earned anything. A verdict of B additionally requires one-sided permutation p < 0.05 on g1 and the likelihood moving the right way. A positive same-model shift g0 never counts toward B on its own - MODEL A predicts one too.
+      LOGIT-scale plug-in g1 (MODEL B's coefficient): +0.4348   advantage treated as error-free, so this slope is ATTENUATED - biased TOWARD ZERO by regression dilution. It understates MODEL B and flatters MODEL A.
+        This is the estimate the EIV posterior below is directly comparable with - same link, same parameterisation, the ONLY difference being whether advantage is latent or plugged in. The risk-difference slope above is a different link and the two should not be differenced against each other.
+
+===============================================================================
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/dose_stimulus_effects_gpt_arm.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/dose_cells_gpt_arm.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/dose_slopes_gpt_arm.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/dose_loso_gpt_arm.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/dose_eiv_gpt_arm.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/dose_fit_draws_gpt_arm.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study2_partner_policy_20260822/analysis/dose_eiv_status_gpt_arm.json

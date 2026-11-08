@@ -1,0 +1,277 @@
+{
+ "n": 300,
+ "parse_fail": 0,
+ "tx_fail": 0,
+ "cost": 12.95448,
+ "p_high": 0.8533333333333334,
+ "p_low": 0.4066666666666667,
+ "diff": 0.44666666666666677,
+ "diff_ci": [
+  0.28,
+  0.6133333333333333
+ ],
+ "p_perm": 9.99950002499875e-05,
+ "dprime": 1.2869652918952332,
+ "auc_item": 0.9066666666666666,
+ "auc_p": 0.00013521046003277178,
+ "c": -0.40735462793561106,
+ "sens": 0.8533333333333334,
+ "spec": 0.5933333333333333,
+ "spearman": 0.7817746284873104,
+ "spearman_p": 3.3823604033422943e-07,
+ "pearson": 0.7674304489643708,
+ "rho_high": 0.2600571834854217,
+ "rho_low": 0.6672932929381636,
+ "loo_diff": [
+  0.4176190476190477,
+  0.48190476190476195
+ ],
+ "loo_auc": [
+  0.9,
+  0.9428571428571428
+ ],
+ "perm_chi2_p": 0.6811675118887357,
+ "rep_rho": -0.012232930723626228,
+ "items": [
+  {
+   "array": "F19_fill_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 10,
+   "p": 1.0
+  },
+  {
+   "array": "F07_contrast_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 10,
+   "p": 1.0
+  },
+  {
+   "array": "F32_tilt_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 10,
+   "p": 1.0
+  },
+  {
+   "array": "F14_bars_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 10,
+   "p": 1.0
+  },
+  {
+   "array": "F22_star_m1",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 10,
+   "k": 6,
+   "p": 0.6
+  },
+  {
+   "array": "F03_symmetry_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 9,
+   "p": 0.9
+  },
+  {
+   "array": "F29_arcdir_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 8,
+   "p": 0.8
+  },
+  {
+   "array": "F04_complexity_m3",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 8,
+   "p": 0.8
+  },
+  {
+   "array": "F02_size_m3",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 10,
+   "k": 10,
+   "p": 1.0
+  },
+  {
+   "array": "F17_gapclock_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 10,
+   "p": 1.0
+  },
+  {
+   "array": "F24_subdiv_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 7,
+   "p": 0.7
+  },
+  {
+   "array": "F09_convexity_m3",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 10,
+   "k": 8,
+   "p": 0.8
+  },
+  {
+   "array": "F38_endcap_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 10,
+   "p": 1.0
+  },
+  {
+   "array": "F10_curvature_m3",
+   "arm": "HIGH",
+   "agreement": 0.9583,
+   "n": 10,
+   "k": 8,
+   "p": 0.8
+  },
+  {
+   "array": "F41_contain_m1",
+   "arm": "HIGH",
+   "agreement": 1.0,
+   "n": 10,
+   "k": 4,
+   "p": 0.4
+  },
+  {
+   "array": "F06_density_m3",
+   "arm": "LOW",
+   "agreement": 0.5115,
+   "n": 10,
+   "k": 9,
+   "p": 0.9
+  },
+  {
+   "array": "F11_noise_m3",
+   "arm": "LOW",
+   "agreement": 0.4105,
+   "n": 10,
+   "k": 0,
+   "p": 0.0
+  },
+  {
+   "array": "F33_hole_m1",
+   "arm": "LOW",
+   "agreement": 0.5035,
+   "n": 10,
+   "k": 4,
+   "p": 0.4
+  },
+  {
+   "array": "F12_mirror_m3",
+   "arm": "LOW",
+   "agreement": 0.2988,
+   "n": 10,
+   "k": 0,
+   "p": 0.0
+  },
+  {
+   "array": "F26_bumploc_m1",
+   "arm": "LOW",
+   "agreement": 0.4973,
+   "n": 10,
+   "k": 4,
+   "p": 0.4
+  },
+  {
+   "array": "F05_orient_m3",
+   "arm": "LOW",
+   "agreement": 0.3431,
+   "n": 10,
+   "k": 0,
+   "p": 0.0
+  },
+  {
+   "array": "F37_mirroraxis_m1",
+   "arm": "LOW",
+   "agreement": 0.5035,
+   "n": 10,
+   "k": 6,
+   "p": 0.6
+  },
+  {
+   "array": "F30_pairratio_m1",
+   "arm": "LOW",
+   "agreement": 0.4956,
+   "n": 10,
+   "k": 6,
+   "p": 0.6
+  },
+  {
+   "array": "F36_split_m1",
+   "arm": "LOW",
+   "agreement": 0.3466,
+   "n": 10,
+   "k": 2,
+   "p": 0.2
+  },
+  {
+   "array": "F25_nested_m1",
+   "arm": "LOW",
+   "agreement": 0.5035,
+   "n": 10,
+   "k": 8,
+   "p": 0.8
+  },
+  {
+   "array": "F28_dotarrange_m1",
+   "arm": "LOW",
+   "agreement": 0.4894,
+   "n": 10,
+   "k": 5,
+   "p": 0.5
+  },
+  {
+   "array": "F35_gradang_m1",
+   "arm": "LOW",
+   "agreement": 0.3076,
+   "n": 10,
+   "k": 1,
+   "p": 0.1
+  },
+  {
+   "array": "F27_linecount_m1",
+   "arm": "LOW",
+   "agreement": 0.3564,
+   "n": 10,
+   "k": 6,
+   "p": 0.6
+  },
+  {
+   "array": "F34_jitter_m1",
+   "arm": "LOW",
+   "agreement": 0.3644,
+   "n": 10,
+   "k": 5,
+   "p": 0.5
+  },
+  {
+   "array": "F23_ellipseang_m1",
+   "arm": "LOW",
+   "agreement": 0.5461,
+   "n": 10,
+   "k": 5,
+   "p": 0.5
+  }
+ ]
+}

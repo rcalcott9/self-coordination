@@ -1,0 +1,146 @@
+{
+ "0": [
+  "circle",
+  "square",
+  "triangle",
+  "pentagon"
+ ],
+ "1": [
+  "circle",
+  "square",
+  "pentagon",
+  "triangle"
+ ],
+ "2": [
+  "circle",
+  "triangle",
+  "square",
+  "pentagon"
+ ],
+ "3": [
+  "circle",
+  "triangle",
+  "pentagon",
+  "square"
+ ],
+ "4": [
+  "circle",
+  "pentagon",
+  "square",
+  "triangle"
+ ],
+ "5": [
+  "circle",
+  "pentagon",
+  "triangle",
+  "square"
+ ],
+ "6": [
+  "square",
+  "circle",
+  "triangle",
+  "pentagon"
+ ],
+ "7": [
+  "square",
+  "circle",
+  "pentagon",
+  "triangle"
+ ],
+ "8": [
+  "square",
+  "triangle",
+  "circle",
+  "pentagon"
+ ],
+ "9": [
+  "square",
+  "triangle",
+  "pentagon",
+  "circle"
+ ],
+ "10": [
+  "square",
+  "pentagon",
+  "circle",
+  "triangle"
+ ],
+ "11": [
+  "square",
+  "pentagon",
+  "triangle",
+  "circle"
+ ],
+ "12": [
+  "triangle",
+  "circle",
+  "square",
+  "pentagon"
+ ],
+ "13": [
+  "triangle",
+  "circle",
+  "pentagon",
+  "square"
+ ],
+ "14": [
+  "triangle",
+  "square",
+  "circle",
+  "pentagon"
+ ],
+ "15": [
+  "triangle",
+  "square",
+  "pentagon",
+  "circle"
+ ],
+ "16": [
+  "triangle",
+  "pentagon",
+  "circle",
+  "square"
+ ],
+ "17": [
+  "triangle",
+  "pentagon",
+  "square",
+  "circle"
+ ],
+ "18": [
+  "pentagon",
+  "circle",
+  "square",
+  "triangle"
+ ],
+ "19": [
+  "pentagon",
+  "circle",
+  "triangle",
+  "square"
+ ],
+ "20": [
+  "pentagon",
+  "square",
+  "circle",
+  "triangle"
+ ],
+ "21": [
+  "pentagon",
+  "square",
+  "triangle",
+  "circle"
+ ],
+ "22": [
+  "pentagon",
+  "triangle",
+  "circle",
+  "square"
+ ],
+ "23": [
+  "pentagon",
+  "triangle",
+  "square",
+  "circle"
+ ]
+}

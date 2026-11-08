@@ -1,0 +1,27 @@
+{
+ "arms": {
+  "A_focal_choice": {
+   "model": "claude-opus-5",
+   "n": 12,
+   "in_tok": 925,
+   "out_tok": 99.41666666666667,
+   "usd_per_call": 0.0076075
+  },
+  "B_auditor": {
+   "model": "gpt-5.5",
+   "n": 12,
+   "in_tok": 865,
+   "out_tok": 232.58333333333334,
+   "usd_per_call": 0.0113025
+  },
+  "B_salience": {
+   "model": "gpt-5.5",
+   "n": 12,
+   "in_tok": 812,
+   "out_tok": 163,
+   "usd_per_call": 0.00895
+  }
+ },
+ "total": 110.45616000000001,
+ "phase1": 75.40079999999999
+}

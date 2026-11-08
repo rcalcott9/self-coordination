@@ -1,0 +1,59 @@
+{
+ "gates": [
+  {
+   "gate": "single_prompt_generation",
+   "pass_": true,
+   "value": [
+    "d40ea45d"
+   ],
+   "note": "MASTER_DESIGN threat 6: never combine incompatible prompt generations."
+  },
+  {
+   "gate": "expected_prompt_hash",
+   "pass_": true,
+   "value": [
+    "d40ea45d"
+   ],
+   "expected": "d40ea45d"
+  },
+  {
+   "gate": "checkpoint_requested_eq_returned",
+   "pass_": true,
+   "value": []
+  }
+ ],
+ "excluded_cells": [],
+ "per_model": {
+  "gpt-5.5-2026-04-23": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "claude-opus-5": {
+   "raw_rows": 576,
+   "usable": 576
+  }
+ },
+ "prompt_hashes": {
+  "gpt-5.5-2026-04-23": {
+   "d40ea45d": 576
+  },
+  "claude-opus-5": {
+   "d40ea45d": 576
+  }
+ },
+ "checkpoint_mismatches": [],
+ "duplicates": [
+  {
+   "model": "gpt-5.5-2026-04-23",
+   "n": 0
+  },
+  {
+   "model": "claude-opus-5",
+   "n": 0
+  }
+ ],
+ "parse_failures": {
+  "gpt-5.5-2026-04-23": 0,
+  "claude-opus-5": 0
+ }
+}

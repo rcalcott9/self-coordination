@@ -1,0 +1,68 @@
+
+=== STAGE B / auditor ===
+  Claude Opus 4.6 predicts GPT-5.5 self-self
+  GPT-5.5 predicts Claude Opus 4.6 self-self
+  prompt sha8 (focal=gpt)   : 4df579ca
+  prompt sha8 (focal=claude): 5fdf2206
+  stimuli: 45   trials: 1350
+
+  100/1350 trials
+  200/1350 trials
+  300/1350 trials
+  400/1350 trials
+  500/1350 trials
+  600/1350 trials
+  700/1350 trials
+  800/1350 trials
+  900/1350 trials
+  1000/1350 trials
+  1100/1350 trials
+  1200/1350 trials
+  1300/1350 trials
+
+=== stage B/auditor done: 1350 trials in 1041s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus46_expanded/data/stageB_auditor_20260817_153323.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus46_expanded/data/stageB_auditor_20260817_153323.jsonl
+
+=== STAGE B / salience ===
+  both models rate generic salience (no focal model named)
+  prompt sha8: bef7b3ec
+  stimuli: 45   trials: 2700
+
+  100/2700 trials
+  200/2700 trials
+  300/2700 trials
+  400/2700 trials
+  500/2700 trials
+  600/2700 trials
+  700/2700 trials
+  800/2700 trials
+  900/2700 trials
+  1000/2700 trials
+  1100/2700 trials
+  1200/2700 trials
+  1300/2700 trials
+  1400/2700 trials
+  1500/2700 trials
+  1600/2700 trials
+  1700/2700 trials
+  1800/2700 trials
+  1900/2700 trials
+  2000/2700 trials
+  2100/2700 trials
+  2200/2700 trials
+  2300/2700 trials
+  2400/2700 trials
+  2500/2700 trials
+  2600/2700 trials
+  2700/2700 trials
+
+=== stage B/salience done: 2700 trials in 69106s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus46_expanded/data/stageB_salience_20260817_155044.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus46_expanded/data/stageB_salience_20260817_155044.jsonl

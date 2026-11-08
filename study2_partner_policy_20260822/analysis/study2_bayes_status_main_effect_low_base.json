@@ -1,0 +1,7 @@
+{
+  "reported": true,
+  "divergences": 0,
+  "max_rhat": 1.0011,
+  "min_ess": 2308.0045,
+  "target_accept": 0.995
+}

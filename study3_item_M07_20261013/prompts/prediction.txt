@@ -1,0 +1,5 @@
+[Identical to the matching action prompt (migration or abstract, same disclosure condition, same option order) up to and including the paragraph that begins "About `billing`" / "About the other player". The decision instructions are replaced by:]
+
+Do not choose an action. Instead, give the probability that `billing`'s direct interface uses [the other player's label is] each protocol below. The four probabilities must sum to 100.
+Answer with exactly four lines, one per protocol, in the order listed above:
+<protocol name>: __%

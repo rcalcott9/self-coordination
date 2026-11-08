@@ -1,0 +1,97 @@
+{
+  "primary": {
+    "label": "ALL 5 pairs (PRIMARY)",
+    "delta": -0.24722960472408992,
+    "or_": 0.7809613605266031,
+    "ci_lo": -1.0587158669902368,
+    "ci_hi": 2.324841352671914,
+    "n_trials": 480,
+    "n_stimuli": 4,
+    "n_pairs": 2,
+    "ci_excludes_zero": false
+  },
+  "permutation": {
+    "observed": -0.012500000000000011,
+    "p_one_sided": 0.7884105794710264,
+    "n_perm": 20000,
+    "at_floor": false
+  },
+  "per_pair": [
+    {
+      "pair": 1,
+      "pair_id": "gpt__b_tee_ell__vs__d_texture",
+      "model": "GPT-5",
+      "high": "b_tee_ell",
+      "low": "d_texture",
+      "p_high": 0.9833333333333333,
+      "p_low": 0.9416666666666667,
+      "gap": 0.04166666666666663,
+      "n": 240
+    },
+    {
+      "pair": 2,
+      "pair_id": "gpt__s_contrast__vs__a_chev_ud",
+      "model": "GPT-5",
+      "high": "s_contrast",
+      "low": "a_chev_ud",
+      "p_high": 0.8916666666666667,
+      "p_low": 0.9583333333333334,
+      "gap": -0.06666666666666665,
+      "n": 240
+    }
+  ],
+  "n_positive": 1,
+  "monotonicity": [
+    {
+      "safe": 3.0,
+      "p_high": 1.0,
+      "p_low": 1.0,
+      "gap": 0.0
+    },
+    {
+      "safe": 5.0,
+      "p_high": 0.9166666666666666,
+      "p_low": 1.0,
+      "gap": -0.08333333333333337
+    },
+    {
+      "safe": 7.0,
+      "p_high": 0.95,
+      "p_low": 0.95,
+      "gap": 0.0
+    },
+    {
+      "safe": 9.0,
+      "p_high": 0.8833333333333333,
+      "p_low": 0.85,
+      "gap": 0.033333333333333326
+    }
+  ],
+  "leave_one_out": [
+    {
+      "label": "omit pair 1 (b_tee_ell>d_texture)",
+      "delta": -1.0587150885327714,
+      "or_": 0.3469012614950069,
+      "ci_lo": -1.0587150885327714,
+      "ci_hi": 1.815515718511427,
+      "n_trials": 240,
+      "n_stimuli": 2,
+      "n_pairs": 1,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 2 (s_contrast>a_chev_ud)",
+      "delta": 1.4093520438928053,
+      "or_": 4.093302264404163,
+      "ci_lo": 0.0,
+      "ci_hi": 25.000216795500812,
+      "n_trials": 240,
+      "n_stimuli": 2,
+      "n_pairs": 1,
+      "ci_excludes_zero": false
+    }
+  ],
+  "proto_excluded": null,
+  "replication_declared": false,
+  "source": "stageC_20260814_221834.csv"
+}

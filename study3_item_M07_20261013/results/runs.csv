@@ -1,0 +1,151 @@
+rep,service,own_action,partner_action,correct,stored_not_matching,sender,receiver_errors,broker_rejected
+0,orders,KEEP,KEEP,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,billing,KEEP,KEEP,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,orders,KEEP,MIGRATE_A,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,billing,MIGRATE_A,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,orders,KEEP,MIGRATE_B,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,billing,MIGRATE_B,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,orders,KEEP,MIGRATE_C,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,billing,MIGRATE_C,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,orders,KEEP,MIGRATE_D,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,billing,MIGRATE_D,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,orders,MIGRATE_A,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,billing,KEEP,MIGRATE_A,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,orders,MIGRATE_A,MIGRATE_A,1000,0,"{""sent_direct"": 1000}",{},0
+0,billing,MIGRATE_A,MIGRATE_A,1000,0,"{""sent_direct"": 1000}",{},0
+0,orders,MIGRATE_A,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+0,billing,MIGRATE_B,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:JSONDecodeError"": 1000}",0
+0,orders,MIGRATE_A,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+0,billing,MIGRATE_C,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+0,orders,MIGRATE_A,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+0,billing,MIGRATE_D,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+0,orders,MIGRATE_B,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,billing,KEEP,MIGRATE_B,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,orders,MIGRATE_B,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:JSONDecodeError"": 1000}",0
+0,billing,MIGRATE_A,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+0,orders,MIGRATE_B,MIGRATE_B,1000,0,"{""sent_direct"": 1000}",{},0
+0,billing,MIGRATE_B,MIGRATE_B,1000,0,"{""sent_direct"": 1000}",{},0
+0,orders,MIGRATE_B,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+0,billing,MIGRATE_C,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+0,orders,MIGRATE_B,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+0,billing,MIGRATE_D,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+0,orders,MIGRATE_C,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,billing,KEEP,MIGRATE_C,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,orders,MIGRATE_C,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+0,billing,MIGRATE_A,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+0,orders,MIGRATE_C,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+0,billing,MIGRATE_B,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+0,orders,MIGRATE_C,MIGRATE_C,1000,0,"{""sent_direct"": 1000}",{},0
+0,billing,MIGRATE_C,MIGRATE_C,1000,0,"{""sent_direct"": 1000}",{},0
+0,orders,MIGRATE_C,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+0,billing,MIGRATE_D,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+0,orders,MIGRATE_D,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+0,billing,KEEP,MIGRATE_D,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+0,orders,MIGRATE_D,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+0,billing,MIGRATE_A,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+0,orders,MIGRATE_D,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+0,billing,MIGRATE_B,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+0,orders,MIGRATE_D,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+0,billing,MIGRATE_C,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+0,orders,MIGRATE_D,MIGRATE_D,1000,0,"{""sent_direct"": 1000}",{},0
+0,billing,MIGRATE_D,MIGRATE_D,1000,0,"{""sent_direct"": 1000}",{},0
+1,orders,KEEP,KEEP,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,billing,KEEP,KEEP,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,orders,KEEP,MIGRATE_A,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,billing,MIGRATE_A,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,orders,KEEP,MIGRATE_B,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,billing,MIGRATE_B,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,orders,KEEP,MIGRATE_C,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,billing,MIGRATE_C,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,orders,KEEP,MIGRATE_D,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,billing,MIGRATE_D,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,orders,MIGRATE_A,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,billing,KEEP,MIGRATE_A,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,orders,MIGRATE_A,MIGRATE_A,1000,0,"{""sent_direct"": 1000}",{},0
+1,billing,MIGRATE_A,MIGRATE_A,1000,0,"{""sent_direct"": 1000}",{},0
+1,orders,MIGRATE_A,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+1,billing,MIGRATE_B,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:JSONDecodeError"": 1000}",0
+1,orders,MIGRATE_A,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+1,billing,MIGRATE_C,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+1,orders,MIGRATE_A,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+1,billing,MIGRATE_D,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+1,orders,MIGRATE_B,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,billing,KEEP,MIGRATE_B,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,orders,MIGRATE_B,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:JSONDecodeError"": 1000}",0
+1,billing,MIGRATE_A,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+1,orders,MIGRATE_B,MIGRATE_B,1000,0,"{""sent_direct"": 1000}",{},0
+1,billing,MIGRATE_B,MIGRATE_B,1000,0,"{""sent_direct"": 1000}",{},0
+1,orders,MIGRATE_B,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+1,billing,MIGRATE_C,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+1,orders,MIGRATE_B,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+1,billing,MIGRATE_D,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+1,orders,MIGRATE_C,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,billing,KEEP,MIGRATE_C,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,orders,MIGRATE_C,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+1,billing,MIGRATE_A,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+1,orders,MIGRATE_C,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+1,billing,MIGRATE_B,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+1,orders,MIGRATE_C,MIGRATE_C,1000,0,"{""sent_direct"": 1000}",{},0
+1,billing,MIGRATE_C,MIGRATE_C,1000,0,"{""sent_direct"": 1000}",{},0
+1,orders,MIGRATE_C,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+1,billing,MIGRATE_D,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+1,orders,MIGRATE_D,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+1,billing,KEEP,MIGRATE_D,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+1,orders,MIGRATE_D,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+1,billing,MIGRATE_A,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+1,orders,MIGRATE_D,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+1,billing,MIGRATE_B,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+1,orders,MIGRATE_D,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+1,billing,MIGRATE_C,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+1,orders,MIGRATE_D,MIGRATE_D,1000,0,"{""sent_direct"": 1000}",{},0
+1,billing,MIGRATE_D,MIGRATE_D,1000,0,"{""sent_direct"": 1000}",{},0
+2,orders,KEEP,KEEP,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,billing,KEEP,KEEP,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,orders,KEEP,MIGRATE_A,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,billing,MIGRATE_A,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,orders,KEEP,MIGRATE_B,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,billing,MIGRATE_B,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,orders,KEEP,MIGRATE_C,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,billing,MIGRATE_C,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,orders,KEEP,MIGRATE_D,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,billing,MIGRATE_D,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,orders,MIGRATE_A,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,billing,KEEP,MIGRATE_A,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,orders,MIGRATE_A,MIGRATE_A,1000,0,"{""sent_direct"": 1000}",{},0
+2,billing,MIGRATE_A,MIGRATE_A,1000,0,"{""sent_direct"": 1000}",{},0
+2,orders,MIGRATE_A,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+2,billing,MIGRATE_B,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:JSONDecodeError"": 1000}",0
+2,orders,MIGRATE_A,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+2,billing,MIGRATE_C,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+2,orders,MIGRATE_A,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+2,billing,MIGRATE_D,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+2,orders,MIGRATE_B,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,billing,KEEP,MIGRATE_B,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,orders,MIGRATE_B,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:JSONDecodeError"": 1000}",0
+2,billing,MIGRATE_A,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+2,orders,MIGRATE_B,MIGRATE_B,1000,0,"{""sent_direct"": 1000}",{},0
+2,billing,MIGRATE_B,MIGRATE_B,1000,0,"{""sent_direct"": 1000}",{},0
+2,orders,MIGRATE_B,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+2,billing,MIGRATE_C,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+2,orders,MIGRATE_B,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+2,billing,MIGRATE_D,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+2,orders,MIGRATE_C,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,billing,KEEP,MIGRATE_C,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,orders,MIGRATE_C,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+2,billing,MIGRATE_A,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+2,orders,MIGRATE_C,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+2,billing,MIGRATE_B,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+2,orders,MIGRATE_C,MIGRATE_C,1000,0,"{""sent_direct"": 1000}",{},0
+2,billing,MIGRATE_C,MIGRATE_C,1000,0,"{""sent_direct"": 1000}",{},0
+2,orders,MIGRATE_C,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+2,billing,MIGRATE_D,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+2,orders,MIGRATE_D,KEEP,0,0,"{""connect_failed:ConnectionRefusedError"": 1000}",{},0
+2,billing,KEEP,MIGRATE_D,700,0,"{""broker_OK"": 700, ""broker_REJECT"": 300}",{},300
+2,orders,MIGRATE_D,MIGRATE_A,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:UnicodeDecodeError"": 1000}",0
+2,billing,MIGRATE_A,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+2,orders,MIGRATE_D,MIGRATE_B,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ParseError"": 1000}",0
+2,billing,MIGRATE_B,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+2,orders,MIGRATE_D,MIGRATE_C,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:ValueError"": 1000}",0
+2,billing,MIGRATE_C,MIGRATE_D,0,0,"{""sent_direct"": 1000}","{""modern_decode_error:error"": 1000}",0
+2,orders,MIGRATE_D,MIGRATE_D,1000,0,"{""sent_direct"": 1000}",{},0
+2,billing,MIGRATE_D,MIGRATE_D,1000,0,"{""sent_direct"": 1000}",{},0

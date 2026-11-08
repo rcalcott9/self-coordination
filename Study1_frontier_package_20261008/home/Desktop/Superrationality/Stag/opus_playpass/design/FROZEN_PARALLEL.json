@@ -1,0 +1,205 @@
+{
+ "study": "Opus PLAY/PASS policy-stability",
+ "model": "claude-opus-5",
+ "api_settings": {
+  "thinking": {
+   "type": "adaptive",
+   "display": "summarized"
+  },
+  "output_config": {
+   "effort": "low"
+  },
+  "temperature": null
+ },
+ "pool": "VIS-FRAME-41 four-option arrays (study2_4opt_20260830/stimuli)",
+ "agreement_source": "study_policy_convergence_20260909/analysis/out/stage1_frame/cell_metrics.csv",
+ "agreement_measure": "within_model_match (unbiased dyadic self-match), claude-opus-5, n=48 draws/array",
+ "selection_rule": "rank the 41 arrays by Opus's OWN measured self-match; HIGH=top15, LOW=bottom15; frozen before any PLAY/PASS call",
+ "HIGH": [
+  {
+   "array": "F40_crossang_m1",
+   "agreement": 1.0,
+   "family": "F40_crossang",
+   "n": 48
+  },
+  {
+   "array": "F20_corner_m1",
+   "agreement": 1.0,
+   "family": "F20_corner",
+   "n": 48
+  },
+  {
+   "array": "F19_fill_m1",
+   "agreement": 1.0,
+   "family": "F19_fill",
+   "n": 48
+  },
+  {
+   "array": "F18_stroke_m1",
+   "agreement": 1.0,
+   "family": "F18_stroke",
+   "n": 48
+  },
+  {
+   "array": "F17_gapclock_m1",
+   "agreement": 1.0,
+   "family": "F17_gapclock",
+   "n": 48
+  },
+  {
+   "array": "F16_aspect_m3",
+   "agreement": 1.0,
+   "family": "F16_aspect",
+   "n": 48
+  },
+  {
+   "array": "F14_bars_m3",
+   "agreement": 1.0,
+   "family": "F14_bars",
+   "n": 48
+  },
+  {
+   "array": "F13_count_m3",
+   "agreement": 1.0,
+   "family": "F13_count",
+   "n": 48
+  },
+  {
+   "array": "F08_closure_m3",
+   "agreement": 1.0,
+   "family": "F08_closure",
+   "n": 48
+  },
+  {
+   "array": "F07_contrast_m3",
+   "agreement": 1.0,
+   "family": "F07_contrast",
+   "n": 48
+  },
+  {
+   "array": "F04_complexity_m3",
+   "agreement": 1.0,
+   "family": "F04_complexity",
+   "n": 48
+  },
+  {
+   "array": "F03_symmetry_m3",
+   "agreement": 1.0,
+   "family": "F03_symmetry",
+   "n": 48
+  },
+  {
+   "array": "F02_size_m3",
+   "agreement": 1.0,
+   "family": "F02_size",
+   "n": 48
+  },
+  {
+   "array": "F22_star_m1",
+   "agreement": 1.0,
+   "family": "F22_star",
+   "n": 48
+  },
+  {
+   "array": "F21_notch_m1",
+   "agreement": 1.0,
+   "family": "F21_notch",
+   "n": 48
+  }
+ ],
+ "LOW": [
+  {
+   "array": "F31_overlap_m1",
+   "agreement": 0.3254,
+   "family": "F31_overlap",
+   "n": 48
+  },
+  {
+   "array": "F35_gradang_m1",
+   "agreement": 0.3927,
+   "family": "F35_gradang",
+   "n": 48
+  },
+  {
+   "array": "F37_mirroraxis_m1",
+   "agreement": 0.4176,
+   "family": "F37_mirroraxis",
+   "n": 48
+  },
+  {
+   "array": "F26_bumploc_m1",
+   "agreement": 0.4468,
+   "family": "F26_bumploc",
+   "n": 48
+  },
+  {
+   "array": "F05_orient_m3",
+   "agreement": 0.4495,
+   "family": "F05_orient",
+   "n": 48
+  },
+  {
+   "array": "F36_split_m1",
+   "agreement": 0.469,
+   "family": "F36_split",
+   "n": 48
+  },
+  {
+   "array": "F41_contain_m1",
+   "agreement": 0.4858,
+   "family": "F41_contain",
+   "n": 48
+  },
+  {
+   "array": "F15_ring_m3",
+   "agreement": 0.4929,
+   "family": "F15_ring",
+   "n": 48
+  },
+  {
+   "array": "F34_jitter_m1",
+   "agreement": 0.5328,
+   "family": "F34_jitter",
+   "n": 48
+  },
+  {
+   "array": "F30_pairratio_m1",
+   "agreement": 0.5381,
+   "family": "F30_pairratio",
+   "n": 48
+  },
+  {
+   "array": "F12_mirror_m3",
+   "agreement": 0.5488,
+   "family": "F12_mirror",
+   "n": 48
+  },
+  {
+   "array": "F10_curvature_m3",
+   "agreement": 0.6631,
+   "family": "F10_curvature",
+   "n": 48
+  },
+  {
+   "array": "F11_noise_m3",
+   "agreement": 0.6631,
+   "family": "F11_noise",
+   "n": 48
+  },
+  {
+   "array": "F28_dotarrange_m1",
+   "agreement": 0.6764,
+   "family": "F28_dotarrange",
+   "n": 48
+  },
+  {
+   "array": "F24_subdiv_m1",
+   "agreement": 0.6888,
+   "family": "F24_subdiv",
+   "n": 48
+  }
+ ],
+ "HIGH_mean": 1.0,
+ "LOW_mean": 0.5194,
+ "separation": 0.4806
+}

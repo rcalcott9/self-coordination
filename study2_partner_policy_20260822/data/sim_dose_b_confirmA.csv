@@ -1,0 +1,17 @@
+model,stimulus,n,k_identity1
+claude,a_chev_ud,180,12
+claude,b_spiral_cw,180,0
+claude,c_open_cplx,180,115
+claude,d_texture,180,16
+claude,mirror,120,54
+claude,proto,60,60
+claude,rot,120,69
+claude,s_arrow,60,60
+gpt,a_chev_ud,180,161
+gpt,b_spiral_cw,180,41
+gpt,c_open_cplx,180,180
+gpt,d_texture,180,107
+gpt,mirror,120,63
+gpt,proto,60,60
+gpt,rot,120,92
+gpt,s_arrow,60,60

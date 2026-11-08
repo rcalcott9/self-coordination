@@ -1,0 +1,25 @@
+REPRODUCTION CHECK
+  OK    study1/results.json
+  OK    study1/item_table.csv
+  OK    study1/fig1_calibration.png
+  OK    study1/fig2_paired_error.png
+  OK    study1/fig3_playpass.png
+  OK    study1/figS3_old_vs_corrected.png
+  OK    study1/divergence_results.json
+  OK    study1/divergence_items.csv
+  OK    study1/ANCHOR_CHECK.json
+  OK    study1/audit/A_bootstrap/audit_A_results.json
+  OK    study1/audit/B_ordering_multiplicity/B_checks.json
+  MISS  study1/audit/B_ordering_multiplicity/multiplicity.json
+        MISSING OUTPUT
+  OK    study1/audit/C_glm/glmm_output.txt
+  OK    study1/audit/C_glm/glmm_opus_adj_output.txt
+  OK    study1/audit/D_drift/drift_audit.json
+  DIFF  study1b/results.json
+        DIFF: .sensitivity.hierarchical_boot_ci_pooled[0]: 0.11796429166666667 vs 0.11697305468750001; .sensitivity.hierarchical_boot_ci_pooled[1]: 0.41216735416666656 vs 0.4156088203124999
+  OK    study1b/item_table.csv
+  OK    study1b/family_sensitivity.json
+  OK    study1b/projection_diagnostic_full.json
+  OK    study1b/fig_selfcross.png
+  OK    study1b/power_final.json
+SOME OUTPUTS DIFFER - see above

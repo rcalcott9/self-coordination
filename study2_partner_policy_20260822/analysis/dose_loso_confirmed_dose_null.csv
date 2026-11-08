@@ -1,0 +1,136 @@
+sample,scope,stimulus_set,stimulus,0,A,B
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,a_chev_ud,40.335056464524335,41.38342135530001,41.422072689982826
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,b_spiral_cw,123.56516518616166,122.94644872470548,124.53212814398388
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,c_open_cplx,134.7688579517403,134.6575257333622,136.81512590578694
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,d_texture,95.45923427303192,95.01214233433248,94.81323042291653
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,mirror,111.34888764145381,113.23977243957049,113.13621848613974
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,proto,55.19802114427397,55.35060409997779,55.33348185868984
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,rot,105.0588330797166,105.69276017359299,105.76547952421825
+full,"POOLED (shared g1, actor-specific everything else)",all stimuli,s_arrow,58.386217907112105,58.68374081042465,58.675520091046074
+full,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,b_spiral_cw,123.47793076970325,122.63066095144421,123.1544448179848
+full,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,c_open_cplx,135.16225666424498,135.10734148449697,135.1098183275066
+full,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,d_texture,95.42849746317371,94.35200553392767,94.45375085289774
+full,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,mirror,111.38602496360447,113.62910565315876,113.6643466903309
+full,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,proto,55.189205944152974,55.55874778389163,55.56009355946439
+full,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,rot,104.96917599609797,106.09742650744147,106.09719143432534
+full,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,s_arrow,58.46377252304055,58.57241698115273,58.571970337393594
+full,Claude Opus 5 only,all stimuli,a_chev_ud,17.81449032032167,18.176103634365884,18.28659805340938
+full,Claude Opus 5 only,all stimuli,b_spiral_cw,68.35686618819479,67.8829007512162,76.40851027583561
+full,Claude Opus 5 only,all stimuli,c_open_cplx,90.84733388746966,90.80383339251912,90.89314202569156
+full,Claude Opus 5 only,all stimuli,d_texture,35.578562825030026,35.194976474279464,35.450369555991045
+full,Claude Opus 5 only,all stimuli,mirror,53.05481768328096,55.09048010024024,55.072404423021496
+full,Claude Opus 5 only,all stimuli,proto,28.714493607956364,28.30800431673761,28.310935686162615
+full,Claude Opus 5 only,all stimuli,rot,53.15963081572748,53.18618233193433,53.208331681552494
+full,Claude Opus 5 only,all stimuli,s_arrow,21.19314703689865,21.639787672243628,21.761741427046225
+full,Claude Opus 5 only,excluding a_chev_ud,b_spiral_cw,68.35856737794799,67.74027436500279,90.90222929933469
+full,Claude Opus 5 only,excluding a_chev_ud,c_open_cplx,91.06049318936773,91.0806626668878,91.06518002159008
+full,Claude Opus 5 only,excluding a_chev_ud,d_texture,35.57921816720676,34.979934826729036,35.5007920780064
+full,Claude Opus 5 only,excluding a_chev_ud,mirror,53.07181225956452,55.540410771847284,55.64541291756511
+full,Claude Opus 5 only,excluding a_chev_ud,proto,28.722420076954283,28.206150063570675,28.330777352285228
+full,Claude Opus 5 only,excluding a_chev_ud,rot,53.16688186238528,53.244659865740616,53.234171984100385
+full,Claude Opus 5 only,excluding a_chev_ud,s_arrow,21.203119488137276,21.75636101461612,21.758748915645523
+full,GPT-5.5 only,all stimuli,a_chev_ud,22.520566145174133,23.20731772269286,23.12652454516987
+full,GPT-5.5 only,all stimuli,b_spiral_cw,55.20829899460418,55.06354797144918,54.96320395566303
+full,GPT-5.5 only,all stimuli,c_open_cplx,43.92152405849416,43.85369233386912,49.04481506744585
+full,GPT-5.5 only,all stimuli,d_texture,59.88067144756599,59.81716586001255,59.80576367822993
+full,GPT-5.5 only,all stimuli,mirror,58.29406995973141,58.149292336501965,58.0773858013793
+full,GPT-5.5 only,all stimuli,proto,26.483527536735092,27.04259978648141,27.22386901743443
+full,GPT-5.5 only,all stimuli,rot,51.89920226342529,52.506577841553906,52.54761682215303
+full,GPT-5.5 only,all stimuli,s_arrow,37.193070872029494,37.043953137338946,36.91497379300051
+full,GPT-5.5 only,excluding a_chev_ud,b_spiral_cw,55.11936338810226,54.89038658416422,54.8883025319219
+full,GPT-5.5 only,excluding a_chev_ud,c_open_cplx,44.101763468252145,44.02667880951605,44.07734667465431
+full,GPT-5.5 only,excluding a_chev_ud,d_texture,59.849279295589405,59.37207070735372,59.37941405139249
+full,GPT-5.5 only,excluding a_chev_ud,mirror,58.31421270586199,58.08869487890959,58.08614263451464
+full,GPT-5.5 only,excluding a_chev_ud,proto,26.46678586768742,27.352597723697322,27.388383236182996
+full,GPT-5.5 only,excluding a_chev_ud,rot,51.802294133121535,52.85276664165371,52.8520580275471
+full,GPT-5.5 only,excluding a_chev_ud,s_arrow,37.260653036925675,36.81605596602029,36.82059107052534
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,a_chev_ud,19.53368088802791,19.906632191810722,19.707397796358904
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,b_spiral_cw,63.75172962115127,63.316554667024604,66.67672442398477
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,c_open_cplx,71.53131494201868,71.95721226446022,71.77504397480932
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,d_texture,47.29161358500346,46.85059106374093,46.66011316065091
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,mirror,64.90756741429166,65.85126608232494,65.72260652780076
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,proto,27.48810817879786,27.57030792722931,27.61983921281913
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,rot,52.02685333595548,53.65538816021689,53.85564121963748
+holdout,"POOLED (shared g1, actor-specific everything else)",all stimuli,s_arrow,33.828091443025265,34.32495785994952,34.288965520765075
+holdout,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,b_spiral_cw,63.42689550448881,62.925152289501256,66.51684235212697
+holdout,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,c_open_cplx,71.55642580936431,72.16590790542529,74.3327937145019
+holdout,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,d_texture,47.27619856898281,46.66846142703351,46.629856109596716
+holdout,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,mirror,65.05540312284656,65.97922490582373,65.9243244735867
+holdout,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,proto,27.557961942400674,27.727393712464902,27.750019152021636
+holdout,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,rot,51.92437568440413,53.96370401669441,54.025410365247694
+holdout,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,s_arrow,33.99763620616877,34.28579129105381,34.28071126429597
+holdout,Claude Opus 5 only,all stimuli,a_chev_ud,7.108170208222525,7.144979814654107,7.411987601857238
+holdout,Claude Opus 5 only,all stimuli,b_spiral_cw,39.77697815944219,39.47906093679116,43.35272123310188
+holdout,Claude Opus 5 only,all stimuli,c_open_cplx,47.54643827489951,47.56879391723727,47.60445142603657
+holdout,Claude Opus 5 only,all stimuli,d_texture,17.59393851588692,17.32888919364494,18.560106534478223
+holdout,Claude Opus 5 only,all stimuli,mirror,29.598036192950904,30.72085934533379,30.785642565089056
+holdout,Claude Opus 5 only,all stimuli,proto,12.91273763844707,12.813048771433232,12.863582323847982
+holdout,Claude Opus 5 only,all stimuli,rot,26.1945847806007,26.887770411572745,26.685577807414933
+holdout,Claude Opus 5 only,all stimuli,s_arrow,10.138677666234539,10.652842104859785,10.44303139293924
+holdout,Claude Opus 5 only,excluding a_chev_ud,b_spiral_cw,39.63116424321284,39.318066586197666,55.889127154789165
+holdout,Claude Opus 5 only,excluding a_chev_ud,c_open_cplx,47.347593155257954,47.38438874493747,47.447768839520265
+holdout,Claude Opus 5 only,excluding a_chev_ud,d_texture,17.648086543150285,17.370926897882107,18.640229241643656
+holdout,Claude Opus 5 only,excluding a_chev_ud,mirror,29.63886203179371,30.844817385538455,31.060793149431625
+holdout,Claude Opus 5 only,excluding a_chev_ud,proto,12.962197345515396,12.860938336942711,12.914153313080867
+holdout,Claude Opus 5 only,excluding a_chev_ud,rot,26.21251837749405,26.955867542818947,26.730498695023645
+holdout,Claude Opus 5 only,excluding a_chev_ud,s_arrow,10.195121825606842,10.738665470947002,10.487743558567574
+holdout,GPT-5.5 only,all stimuli,a_chev_ud,12.425510684051716,12.761652383435695,12.187090200579881
+holdout,GPT-5.5 only,all stimuli,b_spiral_cw,23.974751448870457,23.8374937242855,23.93698213794233
+holdout,GPT-5.5 only,all stimuli,c_open_cplx,23.984876655418528,24.388418335889057,24.31524495629887
+holdout,GPT-5.5 only,all stimuli,d_texture,29.697675068615887,29.521701872920605,29.5116003420037
+holdout,GPT-5.5 only,all stimuli,mirror,35.309531225154885,35.13040673187557,34.91181578447889
+holdout,GPT-5.5 only,all stimuli,proto,14.575370542453168,14.757259159992994,14.90986294669259
+holdout,GPT-5.5 only,all stimuli,rot,25.832268553914865,26.76761774740779,26.852726585119008
+holdout,GPT-5.5 only,all stimuli,s_arrow,23.689413781610945,23.67211575121189,23.295288323285526
+holdout,GPT-5.5 only,excluding a_chev_ud,b_spiral_cw,23.795731248031327,23.607085696670858,23.721898305913008
+holdout,GPT-5.5 only,excluding a_chev_ud,c_open_cplx,24.208832641862173,24.781519149028174,23.884262064754786
+holdout,GPT-5.5 only,excluding a_chev_ud,d_texture,29.62811202567476,29.297534532136762,29.346089887153674
+holdout,GPT-5.5 only,excluding a_chev_ud,mirror,35.41654109583717,35.134407516839175,35.007129471458015
+holdout,GPT-5.5 only,excluding a_chev_ud,proto,14.59576459933046,14.866455380275218,14.970472249285137
+holdout,GPT-5.5 only,excluding a_chev_ud,rot,25.71185730550455,27.007836473008837,26.97720391247344
+holdout,GPT-5.5 only,excluding a_chev_ud,s_arrow,23.80251438587633,23.54712581702844,23.31632081964601
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,a_chev_ud,20.755070872525746,21.37853070771823,21.855695419640938
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,b_spiral_cw,61.33886835354679,61.37023770732743,61.32093651812216
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,c_open_cplx,65.11239970143386,65.14012757108247,71.22598558608318
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,d_texture,49.29461161413332,49.31605894892164,49.27961168216885
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,mirror,45.691798502990125,46.61525679969405,46.61153078711237
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,proto,28.423366930732783,28.71318827834306,28.692652372647792
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,rot,53.32172434779734,53.209543004474384,53.185006484886976
+select,"POOLED (shared g1, actor-specific everything else)",all stimuli,s_arrow,27.985820951180074,28.034425970541314,28.05441665289294
+select,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,b_spiral_cw,61.34459453216576,61.42176672964542,62.25400818646412
+select,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,c_open_cplx,65.39517749494414,65.23374003989727,67.79161801550427
+select,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,d_texture,49.335573628152055,48.96792269448172,49.03292551107122
+select,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,mirror,45.62201302146419,46.94491311299649,46.976270433365286
+select,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,proto,28.408526059963116,28.789381676657154,28.825154748267295
+select,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,rot,53.29911954593161,53.12806783244862,53.161108756465936
+select,"POOLED (shared g1, actor-specific everything else)",excluding a_chev_ud,s_arrow,27.95497716129732,28.068677890130292,28.04301400678543
+select,Claude Opus 5 only,all stimuli,a_chev_ud,10.523977455397652,10.815423569283594,10.328577210203058
+select,Claude Opus 5 only,all stimuli,b_spiral_cw,30.10898436923317,30.167758529155172,33.43856849055964
+select,Claude Opus 5 only,all stimuli,c_open_cplx,43.73760757830678,43.69772405648574,44.254824324597124
+select,Claude Opus 5 only,all stimuli,d_texture,19.205773192699326,19.089265175786558,18.80028614105304
+select,Claude Opus 5 only,all stimuli,mirror,23.267705856331016,24.180313124911272,24.068119873467644
+select,Claude Opus 5 only,all stimuli,proto,16.25834515512166,16.195644861190885,15.812638613193442
+select,Claude Opus 5 only,all stimuli,rot,27.126166387263275,27.005270113346434,26.828867400760227
+select,Claude Opus 5 only,all stimuli,s_arrow,11.1454146499944,11.187167553484805,11.30804745869074
+select,Claude Opus 5 only,excluding a_chev_ud,b_spiral_cw,30.114278176750975,30.245650172382334,36.56807565540054
+select,Claude Opus 5 only,excluding a_chev_ud,c_open_cplx,44.00475747215747,43.99508999795556,44.43085453564278
+select,Claude Opus 5 only,excluding a_chev_ud,d_texture,19.244674031393078,19.01007013369817,18.846293875429176
+select,Claude Opus 5 only,excluding a_chev_ud,mirror,23.203151399776267,24.465254466120676,24.311936977205313
+select,Claude Opus 5 only,excluding a_chev_ud,proto,16.242129014945462,16.009967553838077,15.803306541424334
+select,Claude Opus 5 only,excluding a_chev_ud,rot,27.09887373714863,26.86260911498293,26.776956261450287
+select,Claude Opus 5 only,excluding a_chev_ud,s_arrow,11.112971919892287,11.188319392267147,11.274625848415347
+select,GPT-5.5 only,all stimuli,a_chev_ud,10.231093416946328,10.563107138405988,11.523182629344744
+select,GPT-5.5 only,all stimuli,b_spiral_cw,31.229883984431485,31.20247917780503,31.383799845606518
+select,GPT-5.5 only,all stimuli,c_open_cplx,21.37479212133519,21.44240351164113,26.18983893391927
+select,GPT-5.5 only,all stimuli,d_texture,30.088838421211843,30.22679377243021,30.23663710551952
+select,GPT-5.5 only,all stimuli,mirror,22.424092647003718,22.434943673752322,22.423664296441686
+select,GPT-5.5 only,all stimuli,proto,12.16502177553031,12.517543418302285,12.455903661150654
+select,GPT-5.5 only,all stimuli,rot,26.195557960453954,26.204272891237746,26.200874071322083
+select,GPT-5.5 only,all stimuli,s_arrow,16.840406301472875,16.84725841729781,16.842258307748423
+select,GPT-5.5 only,excluding a_chev_ud,b_spiral_cw,31.230316355485066,31.17611655687962,31.51492395238788
+select,GPT-5.5 only,excluding a_chev_ud,c_open_cplx,21.39042002051941,21.23865003825501,20.580280339769537
+select,GPT-5.5 only,excluding a_chev_ud,d_texture,30.090899596496264,29.95785256013909,29.915985001051546
+select,GPT-5.5 only,excluding a_chev_ud,mirror,22.4188616220447,22.47965864582308,22.416814823583906
+select,GPT-5.5 only,excluding a_chev_ud,proto,12.166397044913868,12.779414123970122,12.616338683724752
+select,GPT-5.5 only,excluding a_chev_ud,rot,26.20024580868321,26.265458717573946,26.260310956033333
+select,GPT-5.5 only,excluding a_chev_ud,s_arrow,16.842005241716205,16.880358498164455,16.856775025868075

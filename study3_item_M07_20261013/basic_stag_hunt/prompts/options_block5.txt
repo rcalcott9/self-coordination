@@ -1,0 +1,8 @@
+Five option lines, shuffled independently for every call (uniform over all 120 orders; seeded per call and recorded). KEEP is shuffled with the labels. The sentence after the list is fixed and is placed directly after the last option line.
+
+- KEEP
+- json-b64 (label): each request is a JSON object; binary payload as base64.
+- xml-hex (label): each request is an XML element; binary payload as hex.
+- bin-fixed (label): fixed binary header (id, account, amount, length) followed by the raw payload bytes.
+- form-z85 (label): URL-encoded form, payload as base85, the whole message zlib-compressed.
+The four labels are names of message protocols; all four work equally well, and other services in the setting exchange JSON.

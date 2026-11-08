@@ -1,0 +1,2 @@
+jobs 384 · final 0 · pending 384 · spent $0.0000 · conservative projection for pending $10.92 · run cap $10.0 · cumulative $1.33+run <= $20.0
+{"ts": "2026-10-16T02:09:58.369780+00:00", "records": 384, "by_status": {"ok": 384, "invalid_response": 0, "refusal": 0, "api_failure": 0}, "spent_run": 3.4225150000000006, "cumulative": 4.752505000000001, "refusals": 0, "stop_reason": null}

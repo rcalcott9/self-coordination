@@ -1,0 +1,10 @@
+focal_model,pair_id,high_stimulus,low_stimulus,d_true_select,d_true_holdout,d_salience_holdout,d_auditor_holdout,z_true_holdout,holdout_retained_frac,holdout_sign_agrees,fresh_classification_high,fresh_classification_low,fresh_form_consistency_high,fresh_form_consistency_low,pair_diagnostic,approved
+gpt,gpt__c_open_cplx__vs__s_density,c_open_cplx,s_density,0.5149,0.5149,0.005,0.0106,2.2523,1.0,True,form_rule_ceiling,position_fallback,1.0,0.0667,ideal,False
+gpt,gpt__c_open_cplx__vs__d_dens_extreme,c_open_cplx,d_dens_extreme,0.5149,0.5172,-0.0513,-0.01,2.2624,1.0045,True,form_rule_ceiling,position_fallback,1.0,0.1,auditor_informed,False
+gpt,gpt__s_convexity__vs__d_dens_extreme,s_convexity,d_dens_extreme,0.5149,0.4505,0.0584,-0.0075,1.9706,0.8749,True,form_rule_ceiling,position_fallback,0.9667,0.1,salience_mismatch,False
+gpt,gpt__c_contr_subtle__vs__b_spiral_cw,c_contr_subtle,b_spiral_cw,0.2874,0.4046,0.0794,0.0588,1.7698,1.4078,True,form_rule_ceiling,form_rule_partial,1.0,0.9,auditor_informed,False
+gpt,gpt__c_contr_subtle__vs__rot,c_contr_subtle,rot,0.331,0.4966,0.0828,0.0894,2.1723,1.5003,True,form_rule_ceiling,position_fallback,1.0,0.6667,auditor_informed,False
+claude,claude__b_spiral_cw__vs__rot,b_spiral_cw,rot,0.5172,0.5172,0.0034,-0.03,2.283,1.0,True,form_rule_ceiling,position_fallback,1.0,0.2,ideal,False
+claude,claude__b_spiral_cw__vs__mirror,b_spiral_cw,mirror,0.508,0.4805,0.065,-0.0019,2.121,0.9459,True,form_rule_ceiling,position_fallback,1.0,0.6667,salience_mismatch,False
+claude,claude__s_convexity__vs__d_dens_extreme,s_convexity,d_dens_extreme,0.4805,0.4598,0.0584,0.0487,2.0297,0.9569,True,form_rule_ceiling,position_fallback,1.0,0.3,salience_mismatch,False
+claude,claude__c_contr_subtle__vs__rot,c_contr_subtle,rot,0.5172,0.5172,0.0828,0.0638,2.283,1.0,True,form_rule_ceiling,position_fallback,1.0,0.2,auditor_informed,False

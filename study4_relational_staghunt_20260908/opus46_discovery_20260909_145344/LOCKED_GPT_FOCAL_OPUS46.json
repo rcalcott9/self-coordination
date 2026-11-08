@@ -1,0 +1,338 @@
+{
+ "candidates": [
+  {
+   "array_id": "m3_mirror_v6",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 1.0,
+    "gpt_has_independent_n72": 0,
+    "gpt_n": 24,
+    "gpt_share": 1.0,
+    "opus_eff_support": 3.802,
+    "opus_fc": 0.5,
+    "opus_modal": "sym2",
+    "opus_pos_share": 0.6458,
+    "opus_share": 0.3333
+   },
+   "expected_copy_match": 1.0,
+   "expected_copy_minus_other": 0.8125,
+   "expected_cross_model_match": 0.1875,
+   "family": "M3_mirror",
+   "focal_model": "gpt-5.5",
+   "mechanism": "mirror",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "diffuse_identity",
+   "predicted_focal_modal_identity": {
+    "index": 1,
+    "name": "twinTrue"
+   }
+  },
+  {
+   "array_id": "m1_nesting_v3",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 0.8333,
+    "gpt_has_independent_n72": 1,
+    "gpt_n": 24,
+    "gpt_share": 0.9167,
+    "opus_eff_support": 1.811,
+    "opus_fc": 0.0,
+    "opus_modal": "n2_lw9_even_r92",
+    "opus_pos_share": 0.4583,
+    "opus_share": 0.7083
+   },
+   "expected_copy_match": 0.8406,
+   "expected_copy_minus_other": 0.5906,
+   "expected_cross_model_match": 0.25,
+   "family": "M1_nesting",
+   "focal_model": "gpt-5.5",
+   "mechanism": "nesting",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "weak_competing_identity",
+   "predicted_focal_modal_identity": {
+    "index": 2,
+    "name": "n5_lw5_geom_r92"
+   }
+  },
+  {
+   "array_id": "m6_sizerank_v0",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 0.8333,
+    "gpt_has_independent_n72": 0,
+    "gpt_n": 24,
+    "gpt_share": 0.9583,
+    "opus_eff_support": 2.415,
+    "opus_fc": 0.0833,
+    "opus_modal": "equal",
+    "opus_pos_share": 0.4583,
+    "opus_share": 0.5625
+   },
+   "expected_copy_match": 0.9167,
+   "expected_copy_minus_other": 0.3759,
+   "expected_cross_model_match": 0.5408,
+   "family": "M6_sizerank",
+   "focal_model": "gpt-5.5",
+   "mechanism": "size_rank",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "weak_competing_identity",
+   "predicted_focal_modal_identity": {
+    "index": 2,
+    "name": "equal"
+   }
+  },
+  {
+   "array_id": "m4_contour_v4",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 0.8333,
+    "gpt_has_independent_n72": 1,
+    "gpt_n": 24,
+    "gpt_share": 0.9167,
+    "opus_eff_support": 1.997,
+    "opus_fc": 0.5833,
+    "opus_modal": "closed1_lw6",
+    "opus_pos_share": 0.3958,
+    "opus_share": 0.5208
+   },
+   "expected_copy_match": 0.8406,
+   "expected_copy_minus_other": 0.3232,
+   "expected_cross_model_match": 0.5174,
+   "family": "M4_contour",
+   "focal_model": "gpt-5.5",
+   "mechanism": "line_contour",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "diffuse_identity",
+   "predicted_focal_modal_identity": {
+    "index": 3,
+    "name": "closed1_lw6"
+   }
+  },
+  {
+   "array_id": "m6_sizerank_v2",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 0.8333,
+    "gpt_has_independent_n72": 0,
+    "gpt_n": 24,
+    "gpt_share": 0.9583,
+    "opus_eff_support": 1.986,
+    "opus_fc": 0.0,
+    "opus_modal": "equal",
+    "opus_pos_share": 0.3958,
+    "opus_share": 0.625
+   },
+   "expected_copy_match": 0.9167,
+   "expected_copy_minus_other": 0.3039,
+   "expected_cross_model_match": 0.6128,
+   "family": "M6_sizerank",
+   "focal_model": "gpt-5.5",
+   "mechanism": "size_rank",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "weak_competing_identity",
+   "predicted_focal_modal_identity": {
+    "index": 0,
+    "name": "equal"
+   }
+  },
+  {
+   "array_id": "m6_sizerank_v6",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 1.0,
+    "gpt_has_independent_n72": 0,
+    "gpt_n": 24,
+    "gpt_share": 1.0,
+    "opus_eff_support": 1.837,
+    "opus_fc": 0.1667,
+    "opus_modal": "equal",
+    "opus_pos_share": 0.375,
+    "opus_share": 0.7083
+   },
+   "expected_copy_match": 1.0,
+   "expected_copy_minus_other": 0.2917,
+   "expected_cross_model_match": 0.7083,
+   "family": "M6_sizerank",
+   "focal_model": "gpt-5.5",
+   "mechanism": "size_rank",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "weak_competing_identity",
+   "predicted_focal_modal_identity": {
+    "index": 2,
+    "name": "equal"
+   }
+  },
+  {
+   "array_id": "m4_contour_v1",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 0.8333,
+    "gpt_has_independent_n72": 1,
+    "gpt_n": 24,
+    "gpt_share": 0.9167,
+    "opus_eff_support": 2.37,
+    "opus_fc": 0.4167,
+    "opus_modal": "closed1_lw10",
+    "opus_pos_share": 0.3958,
+    "opus_share": 0.6042
+   },
+   "expected_copy_match": 0.8406,
+   "expected_copy_minus_other": 0.2781,
+   "expected_cross_model_match": 0.5625,
+   "family": "M4_contour",
+   "focal_model": "gpt-5.5",
+   "mechanism": "line_contour",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "weak_competing_identity",
+   "predicted_focal_modal_identity": {
+    "index": 3,
+    "name": "closed1_lw10"
+   }
+  },
+  {
+   "array_id": "m3_mirror_v3",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 0.8333,
+    "gpt_has_independent_n72": 0,
+    "gpt_n": 24,
+    "gpt_share": 0.9583,
+    "opus_eff_support": 1.8,
+    "opus_fc": 0.1667,
+    "opus_modal": "sym6",
+    "opus_pos_share": 0.3333,
+    "opus_share": 0.6667
+   },
+   "expected_copy_match": 0.9167,
+   "expected_copy_minus_other": 0.2778,
+   "expected_cross_model_match": 0.6389,
+   "family": "M3_mirror",
+   "focal_model": "gpt-5.5",
+   "mechanism": "mirror",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "weak_competing_identity",
+   "predicted_focal_modal_identity": {
+    "index": 1,
+    "name": "sym6"
+   }
+  },
+  {
+   "array_id": "m6_sizerank_v4",
+   "confirmation_tests": [
+    "locked GPT identity share >= .75",
+    "GPT FC >= .80",
+    "GPT COPY-minus-Opus advantage >= .25",
+    "Opus 4.6 does not acquire the same strong identity convention",
+    "no material GPT position or rendering artifact"
+   ],
+   "discovery": {
+    "gpt_fc": 1.0,
+    "gpt_has_independent_n72": 0,
+    "gpt_n": 24,
+    "gpt_share": 1.0,
+    "opus_eff_support": 1.692,
+    "opus_fc": 0.1667,
+    "opus_modal": "equal",
+    "opus_pos_share": 0.3542,
+    "opus_share": 0.75
+   },
+   "expected_copy_match": 1.0,
+   "expected_copy_minus_other": 0.25,
+   "expected_cross_model_match": 0.75,
+   "family": "M6_sizerank",
+   "focal_model": "gpt-5.5",
+   "mechanism": "size_rank",
+   "other_model": "claude-opus-4-6",
+   "other_policy_subtype": "weak_competing_identity",
+   "predicted_focal_modal_identity": {
+    "index": 1,
+    "name": "equal"
+   }
+  }
+ ],
+ "confirmation_plan": {
+  "arrays": 9,
+  "calls": 1296,
+  "cycles": 3,
+  "identity_in_each_position": 18,
+  "models": [
+   "gpt",
+   "claude-opus-4-6"
+  ],
+  "n_per_model_per_array": 72,
+  "perms": 24
+ },
+ "criteria": {
+  "advantage_min": 0.25,
+  "gpt_fc_min": 0.8,
+  "locked_gpt_share_min": 0.75,
+  "no_position_artifact_gpt": true,
+  "other_must_not_share_strong_convention": true
+ },
+ "discovery_n_per_cell": 48,
+ "focal_model": "gpt-5.5",
+ "locked_utc": "2026-09-09T14:58:22.830810+00:00",
+ "other_model": "claude-opus-4-6",
+ "other_probe_returned": "claude-opus-4-6",
+ "prompt_sha8": "d40ea45d",
+ "retained_shared_controls": [
+  "m4_contour_v0",
+  "m4_contour_v2",
+  "m4_contour_v5",
+  "r_line_contour_v2",
+  "m2_texture_v0",
+  "m2_texture_v1",
+  "m2_texture_v4",
+  "m2_texture_v6",
+  "r_line_contour_v0",
+  "r_line_contour_v1"
+ ]
+}

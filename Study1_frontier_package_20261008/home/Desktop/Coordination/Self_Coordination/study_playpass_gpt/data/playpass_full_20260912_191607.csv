@@ -1,0 +1,1570 @@
+run_id,stage,array,arm,agreement,family,rep,perm_id,decision,parse_ok,transport_ok,in_tokens,out_tokens,cost_usd,prompt_sha8,frozen_sha8,model_returned,secs,ts_utc,error,raw,reasoning
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,10,10,PASS,1,1,713,153,0.008155,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.36,2026-09-12T19:16:13.189476+00:00,,"The four shapes are too similar and lack a clear focal distinguishing feature for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,12,5,PLAY,1,1,713,142,0.007825,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.38,2026-09-12T19:16:13.209043+00:00,,"Option 3 is uniquely uniform and visually salient, giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,11,0,PASS,1,1,713,151,0.008095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.38,2026-09-12T19:16:13.223576+00:00,,"The shapes are too similar and lack a clear focal option for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,8,18,PLAY,1,1,713,147,0.007975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.54,2026-09-12T19:16:13.365051+00:00,,"Option 1 is the clearly largest and most salient, giving a reliable focal choice.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,17,5,PASS,1,1,713,131,0.007495,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.52,2026-09-12T19:16:13.367539+00:00,,"The four abstract shapes lack a clear, uniquely salient focal choice for coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,19,23,PLAY,1,1,713,186,0.009145,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.56,2026-09-12T19:16:13.409394+00:00,,"Option 3 is uniquely salient because its label matches the number of lines shown.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,5,11,PASS,1,1,713,202,0.009625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.65,2026-09-12T19:16:14.500437+00:00,,"The four blobs lack a clear shared focal feature, so matching would be unreliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,14,14,PLAY,1,1,713,225,0.010315,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.96,2026-09-12T19:16:14.805024+00:00,,"Option 4 is the most visually distinctive and salient due to its spiky outline.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,5,20,PASS,1,1,713,219,0.010135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.39,2026-09-12T19:16:15.237892+00:00,,"The four blobs lack a uniquely salient feature that would make an independent matching choice reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,17,13,PASS,1,1,713,242,0.010825,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.53,2026-09-12T19:16:15.378743+00:00,,"The four shapes lack a clear unique focal feature, so matching would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,4,20,PLAY,1,1,713,299,0.012535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.08,2026-09-12T19:16:15.925014+00:00,,"The horizontal ellipse is the most canonical and salient focal choice, giving a reliable basis for matching.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,6,18,PASS,1,1,713,333,0.013555,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.08,2026-09-12T19:16:15.927836+00:00,,"There are multiple plausible focal choices (especially the spikiest or smoothest shape), so matching is not reliably grounded.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,18,13,PLAY,1,1,713,147,0.007975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.79,2026-09-12T19:16:16.999951+00:00,,"Option 2 is uniquely the most symmetric, centered diamond, giving a clear focal basis for matching.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,2,16,PASS,1,1,713,244,0.010885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.00,2026-09-12T19:16:18.204865+00:00,,"Several competing visual focal points exist, so my selection rule would not be reliably shared.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,12,10,PLAY,1,1,713,215,0.010015,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.96,2026-09-12T19:16:18.369206+00:00,,"Option 3 is uniquely simple and visually distinct, giving a clear focal basis for coordination.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,0,12,PLAY,1,1,713,132,0.007525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.43,2026-09-12T19:16:19.665835+00:00,,"Option 4 is the uniquely largest and most salient, giving a clear focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,6,3,PLAY,1,1,713,219,0.010135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.89,2026-09-12T19:16:20.817537+00:00,,"Option 4 is a clear focal choice because it forms the most regular symmetric shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,15,3,PLAY,1,1,713,333,0.013555,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.69,2026-09-12T19:16:20.909618+00:00,,"Option 3 is the most visually distinctive due to its spiky, star-like outline, giving a clear focal basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,14,0,PASS,1,1,713,458,0.017305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.65,2026-09-12T19:16:22.015517+00:00,,"Multiple plausible focal rules compete here, so I do not have a reliable basis for matching the other instance.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,8,18,PLAY,1,1,713,311,0.012895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.68,2026-09-12T19:16:22.069314+00:00,,"The lowest-numbered/leftmost option provides a simple shared focal rule.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,8,19,PLAY,1,1,713,402,0.015625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.09,2026-09-12T19:16:22.587495+00:00,,"Option 2 is a clearly simplest and most symmetric focal choice, so I expect another identical instance to use the same basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,2,13,PASS,1,1,713,214,0.009985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.41,2026-09-12T19:16:22.776439+00:00,,"The four gradients are symmetric with no uniquely salient focal option, so matching would depend on arbitrary tie-breaking.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,17,13,PLAY,1,1,713,391,0.015295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.72,2026-09-12T19:16:23.525246+00:00,,"The darkest circle (option 2) is a clear focal feature likely to anchor both instances.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,7,4,PASS,1,1,713,276,0.011845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.82,2026-09-12T19:16:23.747895+00:00,,"Competing focal features make the likely matching choice ambiguous.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,4,12,PLAY,1,1,713,385,0.015115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.95,2026-09-12T19:16:24.951466+00:00,,"Option 2 is a clear focal point because it most resembles a standard letter “C.”
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,18,17,PASS,1,1,713,190,0.009265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.40,2026-09-12T19:16:25.222085+00:00,,"The four polygons are too visually similar and lack a clear shared focal feature for reliable coordination.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,17,9,PLAY,1,1,713,363,0.014455,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.60,2026-09-12T19:16:25.809270+00:00,,"Option 4 is uniquely simple and visually distinctive, giving a clear focal basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,8,19,PASS,1,1,713,184,0.009085,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.20,2026-09-12T19:16:26.109346+00:00,,"The four grids look similarly random with no clear shared standout to anchor coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,10,23,PLAY,1,1,713,194,0.009385,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.06,2026-09-12T19:16:26.128972+00:00,,"Option 4 is a clear canonical “C,” giving a strong shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,10,0,PASS,1,1,713,190,0.009265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.05,2026-09-12T19:16:26.634877+00:00,,"The four noisy grids lack a clear shared focal feature, so matching would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,7,9,PLAY,1,1,713,322,0.013225,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,13.37,2026-09-12T19:16:26.731358+00:00,,"Option 4 is uniquely salient because it breaks the 3-4-5 line-count progression.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,19,1,PLAY,1,1,713,157,0.008275,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.59,2026-09-12T19:16:27.118533+00:00,,"Option 1 is the most salient because it looks like a smile and is also first.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,8,23,PLAY,1,1,713,314,0.012985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.92,2026-09-12T19:16:28.700601+00:00,,"Option 1 is a strong shared focal point because it is first and has the most rings.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,0,7,PLAY,1,1,713,364,0.014485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.71,2026-09-12T19:16:29.722042+00:00,,"The darkest circle is a clear salient focal point, giving a reliable basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,17,0,PASS,1,1,713,526,0.019345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.35,2026-09-12T19:16:30.020786+00:00,,"The options lack a single clearly focal choice, so matching another instance would be uncertain.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,4,10,PLAY,1,1,713,161,0.008395,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.88,2026-09-12T19:16:30.609208+00:00,,"The solid, unpatterned circle is the most salient and simplest focal choice among the four.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,11,9,PLAY,1,1,713,131,0.007495,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.88,2026-09-12T19:16:31.001950+00:00,,"Option 4 is the uniquely symmetric, upright diamond, giving a clear focal choice.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,7,16,PASS,1,1,713,219,0.010135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.95,2026-09-12T19:16:31.076263+00:00,,"No option is uniquely focal enough to make matching reliably predictable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,4,14,PASS,1,1,713,384,0.015085,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.01,2026-09-12T19:16:31.755605+00:00,,"There are competing focal choices (smallest hole vs largest hole), so I don’t have a reliable coordination basis.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,9,10,PLAY,1,1,713,346,0.013945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.17,2026-09-12T19:16:32.119623+00:00,,"The uniquely simplest image (fewest concentric circles) gives a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,3,0,PLAY,1,1,713,337,0.013675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.49,2026-09-12T19:16:32.303275+00:00,,"Option 4 is a clear focal outlier because the panel-count progression jumps there.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,2,22,PASS,1,1,713,264,0.011485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.43,2026-09-12T19:16:32.539933+00:00,,"The images offer multiple plausible focal choices (fewest or most rings), so I cannot rely on a unique shared rule.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,2,16,PLAY,1,1,713,136,0.007645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.43,2026-09-12T19:16:33.134645+00:00,,"Option 2 is uniquely simple and salient, giving a clear focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,17,15,PLAY,1,1,713,272,0.011725,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.70,2026-09-12T19:16:33.927829+00:00,,"The first/top-left option is a natural shared focal point by reading order.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,9,9,PASS,1,1,713,429,0.016435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.77,2026-09-12T19:16:34.401904+00:00,,"The four choices are essentially symmetric, with only weak arbitrary label/default cues, so I lack a reliable matching basis.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,7,8,PLAY,1,1,713,98,0.006505,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.61,2026-09-12T19:16:35.910871+00:00,,"Option 3 is the most symmetric and visually focal, giving a reliable basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,3,13,PLAY,1,1,713,136,0.007645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.51,2026-09-12T19:16:36.049476+00:00,,"The solid filled circle is a uniquely simple and salient focal point among the patterned circles.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,19,9,PLAY,1,1,713,267,0.011575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.07,2026-09-12T19:16:36.149249+00:00,,"Option 4 is the clearest focal choice because it looks the most regular and balanced.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,2,8,PLAY,1,1,713,199,0.009535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.57,2026-09-12T19:16:36.177324+00:00,,"Option 3 is a clear focal point because it most resembles a standard “C” shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,4,4,PLAY,1,1,713,333,0.013555,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.98,2026-09-12T19:16:36.705660+00:00,,"Option 2 is the clearest focal choice because it has two large matching circles.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,2,9,PLAY,1,1,713,333,0.013555,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.99,2026-09-12T19:16:37.008558+00:00,,"Option 4 is the most salient focal choice because it resembles a simple smile.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,0,16,PASS,1,1,713,266,0.011545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.31,2026-09-12T19:16:37.311178+00:00,,"The four noisy images have no clear, uniquely salient focal feature to anchor matching reliably.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,16,20,PLAY,1,1,713,222,0.010225,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.60,2026-09-12T19:16:37.734576+00:00,,"The simple four-point star is uniquely salient, giving a reliable focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,5,6,PLAY,1,1,713,212,0.009925,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.24,2026-09-12T19:16:38.365804+00:00,,"Option 1 is the most balanced and visually focal, giving a reliable shared basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,3,8,PLAY,1,1,713,154,0.008185,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.05,2026-09-12T19:16:40.226092+00:00,,"Option 4 is the most visually distinctive, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,1,10,PLAY,1,1,713,141,0.007795,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.20,2026-09-12T19:16:40.255146+00:00,,"Option 2 is the clearly largest and most salient, giving a reliable coordination cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,10,4,PASS,1,1,713,292,0.012325,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.05,2026-09-12T19:16:40.450866+00:00,,"The four blobs do not provide a clearly unique focal option, so matching would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,6,2,PASS,1,1,713,200,0.009565,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.52,2026-09-12T19:16:40.668816+00:00,,"The shapes are too similar and lack a clear unique focal feature for reliable coordination.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,13,17,PLAY,1,1,713,101,0.006595,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.11,2026-09-12T19:16:40.817619+00:00,,"Option 4 is the most visually salient and symmetric focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,0,4,PLAY,1,1,713,159,0.008335,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.67,2026-09-12T19:16:41.410514+00:00,,"Option 1 is the most salient because it looks like a smile and is also first.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,9,11,PLAY,1,1,713,137,0.007675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.25,2026-09-12T19:16:41.616149+00:00,,"Option 3 is uniquely salient compared with the other plain lines, giving a reliable focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,5,0,PLAY,1,1,713,346,0.013945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.83,2026-09-12T19:16:41.761561+00:00,,"The downward teardrop shape is the clearest focal option, so matching should be reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,10,9,PLAY,1,1,713,179,0.008935,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.70,2026-09-12T19:16:42.016465+00:00,,"The simple geometric diamond is the clearest focal option among the four.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,18,4,PASS,1,1,713,506,0.018745,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.76,2026-09-12T19:16:42.516087+00:00,,"Several plausible focal cues compete here, so I don’t have a unique reliable basis for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,6,16,PLAY,1,1,713,301,0.012595,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.78,2026-09-12T19:16:42.790830+00:00,,"Option 1 is a natural focal point by first/reading-order salience.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,6,15,PLAY,1,1,713,355,0.014215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.81,2026-09-12T19:16:43.725123+00:00,,"The upward-facing smile in option 4 is a clear focal cue for coordination.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,15,17,PLAY,1,1,713,231,0.010495,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.86,2026-09-12T19:16:45.314928+00:00,,"The unique option with the most lines provides a clear focal rule.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,15,9,PLAY,1,1,713,245,0.010915,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.68,2026-09-12T19:16:47.445190+00:00,,"The darkest circle is a clear salient focal point that the same model is likely to identify similarly.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,12,22,PASS,1,1,713,299,0.012535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.23,2026-09-12T19:16:47.638202+00:00,,"The four blobs have no clear focal option or shared rule likely to ensure matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,18,10,PASS,1,1,713,326,0.013345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.98,2026-09-12T19:16:47.652176+00:00,,"Several options are comparably simple or symmetric, so there is no uniquely focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,16,2,PLAY,1,1,713,251,0.011095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.89,2026-09-12T19:16:47.682596+00:00,,"Option 3 is uniquely focal because its label matches its three bars.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,1,5,PLAY,1,1,713,162,0.008425,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.24,2026-09-12T19:16:47.859697+00:00,,"Option 1 is a uniquely symmetric, salient focal choice, so matching should be reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,3,21,PASS,1,1,713,364,0.014485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.54,2026-09-12T19:16:48.358655+00:00,,"Multiple plausible saliences compete here, so I would not trust a unique matching rule.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,13,4,PASS,1,1,713,269,0.011635,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.13,2026-09-12T19:16:48.644139+00:00,,"Several options are salient for different reasons, so there is no reliable focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,7,22,PASS,1,1,713,469,0.017635,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.49,2026-09-12T19:16:48.716735+00:00,,"The four options are symmetrically equivalent with no clear unique focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,18,14,PASS,1,1,713,345,0.013915,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.89,2026-09-12T19:16:48.907822+00:00,,"There are several plausible focal choices, so I do not have a reliable basis for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,2,16,PLAY,1,1,713,195,0.009415,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.35,2026-09-12T19:16:49.081005+00:00,,"Option 4 is the most salient canonical upright shape, giving a shared focal choice.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,3,7,PLAY,1,1,713,481,0.017995,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.52,2026-09-12T19:16:49.781074+00:00,,"The horizontal ellipse is a clear canonical focal choice among the four orientations.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,10,2,PLAY,1,1,713,278,0.011905,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.17,2026-09-12T19:16:51.489620+00:00,,"The darkest and first option is a strong shared focal cue for identical model instances.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,16,8,PLAY,1,1,713,163,0.008455,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.17,2026-09-12T19:16:51.612839+00:00,,"Option 1 is uniquely balanced and thus provides a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,12,14,PLAY,1,1,713,249,0.011035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.88,2026-09-12T19:16:52.563341+00:00,,"Option 2 is the uniquely simple, regular, and symmetric focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,14,20,PASS,1,1,713,144,0.007885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.57,2026-09-12T19:16:52.649095+00:00,,"The four grids look similarly random with no clear focal option for coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,1,22,PLAY,1,1,713,220,0.010165,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.04,2026-09-12T19:16:52.677306+00:00,,"Option 3 is the uniquely darkest and most salient, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,10,3,PASS,1,1,713,266,0.011545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.35,2026-09-12T19:16:53.706076+00:00,,"The four polygons are too similar and lack a unique salient focal choice.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,6,8,PLAY,1,1,713,219,0.010135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.12,2026-09-12T19:16:53.841179+00:00,,"Option 4 is a salient canonical “map pin” shape, giving a clear shared basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,11,21,PLAY,1,1,713,341,0.013795,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.71,2026-09-12T19:16:55.366916+00:00,,"Option 2 is a clear focal choice as the most regular compact square, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,4,19,PLAY,1,1,713,362,0.014425,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.50,2026-09-12T19:16:55.409893+00:00,,"The uniquely darkest circle provides a clear focal choice for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,8,17,PASS,1,1,713,228,0.010405,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.81,2026-09-12T19:16:56.299480+00:00,,"The four blobs lack a clear uniquely salient option, so matching would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,7,8,PASS,1,1,713,225,0.010315,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.05,2026-09-12T19:16:56.666405+00:00,,"The options have no uniquely dominant focal choice, with competing salient extremes.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,5,0,PASS,1,1,713,374,0.014785,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.07,2026-09-12T19:16:56.714027+00:00,,"Several options are comparably salient by different heuristics, so I lack a reliable matching basis.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,14,9,PASS,1,1,713,457,0.017275,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.93,2026-09-12T19:16:56.795075+00:00,,"The options allow several plausible focal rules (first, simplest, most subdivided), so matching is not reliably grounded.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,7,15,PLAY,1,1,713,132,0.007525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.32,2026-09-12T19:16:57.026797+00:00,,"The solid unpatterned circle is the most uniquely simple and focal option.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,0,9,PASS,1,1,713,427,0.016375,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.79,2026-09-12T19:16:57.572448+00:00,,"There are competing salient extremes (largest versus smallest hole), so I lack a uniquely reliable focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,4,5,PASS,1,1,713,247,0.010975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.02,2026-09-12T19:16:57.666854+00:00,,"The four gradients are symmetric with no uniquely focal option, so my choice would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,14,13,PASS,1,1,713,274,0.011785,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.50,2026-09-12T19:16:58.174381+00:00,,"There are multiple plausible focal choices, so matching is not reliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,17,21,PASS,1,1,713,264,0.011485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.92,2026-09-12T19:16:58.482085+00:00,,"There is no clearly dominant focal option, since similarity and size contrast suggest different choices.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,5,5,PLAY,1,1,713,175,0.008815,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.51,2026-09-12T19:16:59.924590+00:00,,"Option 2 is a salient focal choice because it has the most concentric circles, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,2,11,PLAY,1,1,713,185,0.009115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.74,2026-09-12T19:17:00.042774+00:00,,"Option 4 is the uniquely symmetric diamond, giving a clear focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,2,20,PASS,1,1,713,130,0.007465,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.35,2026-09-12T19:17:00.064736+00:00,,"The four blob options lack a clear, uniquely salient focal choice for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,11,19,PASS,1,1,713,312,0.012925,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.47,2026-09-12T19:17:00.310690+00:00,,"The four options are symmetric rotations with no clear non-arbitrary focal choice, so matching would not be reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,15,0,PASS,1,1,713,142,0.007825,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.55,2026-09-12T19:17:01.120810+00:00,,"The four shapes are too similar and lack a clear focal option for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,16,15,PLAY,1,1,713,171,0.008695,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.19,2026-09-12T19:17:01.218345+00:00,,"Option 3 is a clear focal choice because it has the most dots and densest cluster.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,10,11,PASS,1,1,713,270,0.011665,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.00,2026-09-12T19:17:01.373410+00:00,,"Multiple plausible focal points (first, simplest, most complex, most distinctive) make matching unreliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,19,12,PASS,1,1,713,277,0.011875,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.27,2026-09-12T19:17:03.069130+00:00,,"Several options are plausible focal points, with no uniquely dominant cue for coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,5,19,PLAY,1,1,713,155,0.008215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.21,2026-09-12T19:17:03.131680+00:00,,"Option 1 is the clearly largest and most salient, giving a reliable coordination cue.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,18,23,PLAY,1,1,713,324,0.013285,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.98,2026-09-12T19:17:03.652239+00:00,,"Option 2 seems like a clear focal choice because it is the most symmetric and balanced.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,8,6,PASS,1,1,713,282,0.012025,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.17,2026-09-12T19:17:03.839949+00:00,,"Several options have plausible salience (square, line, diamond), so my selection rule would be ambiguous rather than reliably shared.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,19,7,PASS,1,1,713,160,0.008365,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.96,2026-09-12T19:17:04.267091+00:00,,"The options have several competing focal features (simplicity, order, number of sides), so matching is not reliably grounded.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,3,4,PLAY,1,1,713,281,0.011995,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.49,2026-09-12T19:17:04.667012+00:00,,"Option 1 is a clear focal point because it is both leftmost and darkest.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,5,8,PLAY,1,1,713,284,0.012085,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.25,2026-09-12T19:17:04.737727+00:00,,"Option 4 is clearly the most visually distinctive, giving a shared focal basis.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,3,4,PASS,1,1,713,155,0.008215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.56,2026-09-12T19:17:04.932037+00:00,,"The four shapes are too similar and lack a clear shared focal feature for reliable coordination.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,0,19,PASS,1,1,713,299,0.012535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.75,2026-09-12T19:17:05.814403+00:00,,"The four gradients are too symmetric, so any selection rule would be arbitrary rather than reliably focal.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,15,17,PLAY,1,1,713,277,0.011875,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.10,2026-09-12T19:17:06.147789+00:00,,"Option 3 is a uniquely simple and salient diamond, giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,6,19,PASS,1,1,713,230,0.010465,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.49,2026-09-12T19:17:06.615118+00:00,,"Multiple options have plausible salience (triangle, diamond, or most-sided), so my selection rule is not reliably unique.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,10,19,PLAY,1,1,713,151,0.008095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.81,2026-09-12T19:17:06.883054+00:00,,"The triangle is uniquely simple and likely a shared focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,17,8,PLAY,1,1,713,151,0.008095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.56,2026-09-12T19:17:07.209790+00:00,,"Option 3 is a strong focal point because the label matches the triangle’s three sides.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,2,23,PASS,1,1,713,307,0.012775,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.77,2026-09-12T19:17:07.987633+00:00,,"The sequence has multiple plausible focal choices (e.g., most equal vs. most different), so matching is not reliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,15,22,PLAY,1,1,713,197,0.009475,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.75,2026-09-12T19:17:09.490695+00:00,,"The triangle is a clear focal option because it is uniquely simplest among the shapes.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,5,19,PLAY,1,1,713,224,0.010285,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.70,2026-09-12T19:17:09.542619+00:00,,"Option 2 is the most focal because it is the canonical upright “C” shape.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,9,5,PASS,1,1,713,223,0.010255,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.78,2026-09-12T19:17:09.717532+00:00,,"The options have no single clearly dominant focal feature, so matching would depend on arbitrary heuristics.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,10,20,PLAY,1,1,713,326,0.013345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.71,2026-09-12T19:17:09.839270+00:00,,"Option 1 is the clearest focal choice because it has the most concentric rings.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,14,6,PLAY,1,1,713,149,0.008035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.71,2026-09-12T19:17:10.916870+00:00,,"The uniquely largest circle is a clear salient focal point, so matching should be reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,8,18,PLAY,1,1,713,267,0.011575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.39,2026-09-12T19:17:11.205259+00:00,,"The smile-like option is a clear positive focal point likely to guide both instances similarly.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,14,17,PLAY,1,1,713,150,0.008065,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.54,2026-09-12T19:17:11.527901+00:00,,"Option 4 is the clearest focal choice because it resembles a standard letter “C.”
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,3,17,PLAY,1,1,713,396,0.015445,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.32,2026-09-12T19:17:11.591492+00:00,,"The upward-pointing option 3 is a salient focal choice that the other instance is likely to select too.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,12,5,PASS,1,1,713,367,0.014575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.08,2026-09-12T19:17:11.753092+00:00,,"The four options are essentially symmetric variants with no strong shared focal cue.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,5,21,PLAY,1,1,713,280,0.011965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.84,2026-09-12T19:17:12.725823+00:00,,"Option 4 is the most salient as a recognizable smile, making coordination likely.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,6,8,PASS,1,1,713,386,0.015145,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.35,2026-09-12T19:17:15.498127+00:00,,"No option is uniquely focal enough among these similar divided rectangles to make matching reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,12,14,PLAY,1,1,713,318,0.013105,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.13,2026-09-12T19:17:15.620618+00:00,,"Option 3 is a natural focal point because it looks like a smile among otherwise similar arcs.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,6,10,PLAY,1,1,713,157,0.008275,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.10,2026-09-12T19:17:15.630492+00:00,,"Option 4 is uniquely salient, giving a clear focal point for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,8,10,PASS,1,1,713,282,0.012025,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.89,2026-09-12T19:17:15.733396+00:00,,"No option is uniquely salient enough to make matching reliably predictable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,17,7,PLAY,1,1,713,189,0.009235,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.06,2026-09-12T19:17:15.980152+00:00,,"The all-equal pattern is a clear focal choice likely to be selected consistently.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,15,20,PASS,1,1,713,225,0.010315,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.62,2026-09-12T19:17:16.208344+00:00,,"The four options are essentially symmetric, so any choice would be arbitrary rather than reliably focal.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,9,14,PLAY,1,1,713,504,0.018685,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.89,2026-09-12T19:17:16.506374+00:00,,"Option 1 is the most natural focal choice because it is first and visually upright.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,6,12,PASS,1,1,713,298,0.012505,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.05,2026-09-12T19:17:16.588609+00:00,,"Multiple options have competing salient features, so I don’t have a reliably unique focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,3,0,PLAY,1,1,713,226,0.010345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.41,2026-09-12T19:17:16.619679+00:00,,"Option 1 is the most salient because it is first and resembles a smile.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,13,12,PLAY,1,1,713,191,0.009295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.08,2026-09-12T19:17:17.807436+00:00,,"The upward smile-like arc is a clear shared focal cue among otherwise simple rotations.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,1,12,PLAY,1,1,713,395,0.015415,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.23,2026-09-12T19:17:17.950952+00:00,,"Option 4 is visually the most distinctive, giving a likely shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,1,7,PASS,1,1,713,283,0.012055,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.11,2026-09-12T19:17:18.866057+00:00,,"Multiple plausible focal rules apply here, so matching is not reliably determined.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,1,22,PLAY,1,1,713,131,0.007495,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.03,2026-09-12T19:17:20.244211+00:00,,"Option 2 is uniquely symmetric with all bars equal, giving a clear focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,3,4,PLAY,1,1,713,232,0.010525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.78,2026-09-12T19:17:20.406498+00:00,,"Option 3 is uniquely focal because it has three concentric circles matching its label.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,17,23,PASS,1,1,713,228,0.010405,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.84,2026-09-12T19:17:20.817076+00:00,,"The four noise grids lack a distinctive shared focal feature, so any selection would be arbitrary.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,11,16,PLAY,1,1,713,250,0.011065,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.74,2026-09-12T19:17:21.246109+00:00,,"Option 2 is a clear Schelling point because it has the most rings, so matching is reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,8,1,PLAY,1,1,713,321,0.013195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.15,2026-09-12T19:17:21.649675+00:00,,"Option 4 is uniquely focal because its label matches the number of lines shown.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,19,2,PLAY,1,1,713,265,0.011515,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.49,2026-09-12T19:17:22.084303+00:00,,"Option 3 is uniquely self-referential because its label matches its number of sections, giving a clear focal basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,2,21,PLAY,1,1,713,253,0.011155,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.24,2026-09-12T19:17:23.051507+00:00,,"The diamond is the clearest unique focal option among the four.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,10,14,PASS,1,1,713,260,0.011365,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.34,2026-09-12T19:17:23.288427+00:00,,"No single option is uniquely focal, since several simple rules could select different panels.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,4,19,PASS,1,1,713,397,0.015475,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.92,2026-09-12T19:17:23.535408+00:00,,"Several options have competing salient features, so there is no reliably unique focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,13,23,PASS,1,1,713,176,0.008845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.22,2026-09-12T19:17:24.462274+00:00,,"The four options are essentially symmetric with no uniquely focal choice to anchor coordination.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,5,5,PLAY,1,1,713,285,0.012115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.89,2026-09-12T19:17:24.759123+00:00,,"Option 1 is a clear focal default because it is first and simplest, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,6,17,PLAY,1,1,713,185,0.009115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.80,2026-09-12T19:17:25.209024+00:00,,"The solid filled circle is the uniquely simplest and most salient focal choice, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,12,2,PLAY,1,1,713,522,0.019225,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.50,2026-09-12T19:17:26.235599+00:00,,"The diamond is a uniquely salient simple focal option, so another identical instance is likely to use the same basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,13,16,PLAY,1,1,713,528,0.019405,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.96,2026-09-12T19:17:26.583671+00:00,,"The numbered options give a simple shared tie-breaker, so I would reliably choose the lowest label.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,16,2,PLAY,1,1,713,166,0.008545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.61,2026-09-12T19:17:27.145323+00:00,,"Option 1 is uniquely symmetric and visually canonical, giving a clear focal basis for coordination.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,13,18,PASS,1,1,713,242,0.010825,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.10,2026-09-12T19:17:28.152278+00:00,,"The options lack a clear, uniquely salient focal choice, so matching would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,14,11,PLAY,1,1,713,454,0.017185,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.04,2026-09-12T19:17:28.862774+00:00,,"The labeled ordering provides a simple shared convention (pick the first/lowest-numbered option) that another identical instance is likely to use.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,14,8,PLAY,1,1,713,192,0.009325,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.17,2026-09-12T19:17:28.927724+00:00,,"Option 3 is uniquely salient because it contains exactly three dots, matching its label.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,16,0,PASS,1,1,713,358,0.014305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.82,2026-09-12T19:17:29.065707+00:00,,"No single option is uniquely focal among the gradual ring-size variations, so matching would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,13,1,PLAY,1,1,713,310,0.012865,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.69,2026-09-12T19:17:29.345352+00:00,,"Option 3 is uniquely salient as the image with the most concentric circles, giving a reliable coordination cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,13,13,PLAY,1,1,713,239,0.010735,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.06,2026-09-12T19:17:29.519830+00:00,,"The hexagon (option 3) is a salient focal choice as the shape with the most sides.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,1,12,PLAY,1,1,713,109,0.006835,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.57,2026-09-12T19:17:30.150234+00:00,,"Option 4 is uniquely solid and simplest, giving a clear focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,12,14,PLAY,1,1,713,240,0.010765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.94,2026-09-12T19:17:30.154049+00:00,,"Option 4 is the uniquely salient cluster with far more dots, giving a clear focal choice.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,1,11,PASS,1,1,713,448,0.017005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.38,2026-09-12T19:17:30.463811+00:00,,"Several simple rules could select different panels, so I don’t have a reliable focal choice here.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,13,3,PASS,1,1,713,335,0.013615,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.38,2026-09-12T19:17:30.667973+00:00,,"Multiple plausible focal rules (first, horizontal, vertical/upright) compete, so matching is not reliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,7,16,PLAY,1,1,713,135,0.007615,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.57,2026-09-12T19:17:30.720319+00:00,,"The diamond is uniquely simple and salient, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,18,10,PLAY,1,1,713,163,0.008455,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.09,2026-09-12T19:17:31.950255+00:00,,"The triangle is uniquely simple and visually salient, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,16,17,PASS,1,1,713,158,0.008305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.29,2026-09-12T19:17:32.448380+00:00,,"The four blobs have no clear focal feature that would reliably determine the same choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,0,14,PASS,1,1,713,324,0.013285,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.44,2026-09-12T19:17:32.675471+00:00,,"Multiple options have competing salient features, so I lack a reliable focal rule for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,15,4,PLAY,1,1,713,155,0.008215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.03,2026-09-12T19:17:33.097920+00:00,,"Option 1 is uniquely symmetric and salient, giving a reliable focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,15,12,PLAY,1,1,713,200,0.009565,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.39,2026-09-12T19:17:33.739295+00:00,,"Option 1 is the clearest focal choice because it is first and most upright/symmetric.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,19,19,PLAY,1,1,713,204,0.009685,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.93,2026-09-12T19:17:34.395633+00:00,,"The plain solid circle labeled 1 is the most natural focal choice, giving a reliable basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,6,5,PLAY,1,1,713,253,0.011155,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.62,2026-09-12T19:17:35.144207+00:00,,"Option 1 is a strong focal point because it is both first and the darkest.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,9,7,PLAY,1,1,713,199,0.009535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.79,2026-09-12T19:17:35.510749+00:00,,"Option 3 is the most visually salient because it has by far the most dots and densest cluster.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,13,16,PASS,1,1,713,332,0.013525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.32,2026-09-12T19:17:36.250164+00:00,,"The four shapes are too similar and lack a clear uniquely focal option.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,10,13,PLAY,1,1,713,187,0.009175,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.09,2026-09-12T19:17:36.763493+00:00,,"Option 3 is the clearly most distinctive by having the most dots, giving a reliable shared rule.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,17,8,PLAY,1,1,713,251,0.011095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.96,2026-09-12T19:17:36.909313+00:00,,"Option 1 is a clear focal choice because it is the simplest and most symmetric shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,11,11,PLAY,1,1,713,158,0.008305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.49,2026-09-12T19:17:37.231341+00:00,,"Option 4 is the most visually distinctive and simplest focal choice, so matching is reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,16,10,PLAY,1,1,713,292,0.012325,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.70,2026-09-12T19:17:38.153976+00:00,,"Option 1 is the natural focal choice because it is first and upright, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,0,11,PASS,1,1,713,429,0.016435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.07,2026-09-12T19:17:38.740249+00:00,,"The options have competing salient features, so I lack a reliable focal basis for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,13,19,PASS,1,1,713,166,0.008545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.74,2026-09-12T19:17:38.885553+00:00,,"The options have no uniquely salient coordination point, with apparent duplicates creating ambiguity.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,12,20,PASS,1,1,713,444,0.016885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.61,2026-09-12T19:17:39.812003+00:00,,"The four gradients are essentially symmetric variants, so any tie-breaker like “pick the first” feels arbitrary rather than reliably focal.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,11,8,PASS,1,1,713,495,0.018415,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.96,2026-09-12T19:17:40.111611+00:00,,"The four shapes are too similar and any label-based default would be arbitrary rather than reliably focal.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,4,13,PLAY,1,1,713,234,0.010585,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.87,2026-09-12T19:17:41.121139+00:00,,"The simple, symmetric diamond is a clear focal choice among the four.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,1,15,PLAY,1,1,713,316,0.013045,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.20,2026-09-12T19:17:41.708231+00:00,,"Option 4 is uniquely the simplest shape, giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,16,1,PLAY,1,1,713,258,0.011305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.89,2026-09-12T19:17:42.127397+00:00,,"Option 4 is uniquely focal because its label matches the number of vertical sections.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,7,5,PASS,1,1,713,520,0.019165,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.39,2026-09-12T19:17:42.491996+00:00,,"Two options plausibly match their label by divider count, so my selection rule would be ambiguous.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,5,11,PLAY,1,1,713,285,0.012115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.96,2026-09-12T19:17:42.720971+00:00,,"Option 2 is a clear focal choice because it has far more dots than the others.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,6,2,PLAY,1,1,713,149,0.008035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.02,2026-09-12T19:17:42.907659+00:00,,"Option 1 is a strong focal point because it is both first and the most canonical horizontal ellipse.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,13,7,PASS,1,1,713,208,0.009805,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.37,2026-09-12T19:17:43.107539+00:00,,"Several options are salient by different criteria, so there is no uniquely reliable focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,17,21,PASS,1,1,713,286,0.012145,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.23,2026-09-12T19:17:43.135397+00:00,,"The options are visually symmetric in salience, with no uniquely obvious focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,3,10,PLAY,1,1,713,169,0.008635,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.00,2026-09-12T19:17:43.817642+00:00,,"Option 2 is a clear focal choice because it has by far the most dots.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,4,7,PLAY,1,1,713,546,0.019945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.37,2026-09-12T19:17:44.766734+00:00,,"The upward-curving “smile” (option 2) is a strong shared focal cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,18,23,PLAY,1,1,713,237,0.010675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.06,2026-09-12T19:17:45.177573+00:00,,"Option 4 is the most salient shared focal point because it resembles a smile.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,7,9,PLAY,1,1,713,163,0.008455,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.07,2026-09-12T19:17:45.196606+00:00,,"Option 2 is uniquely distinctive, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,3,1,PLAY,1,1,713,176,0.008845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.13,2026-09-12T19:17:45.838689+00:00,,"Option 1 is the uniquely canonical “C” shape, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,2,13,PLAY,1,1,713,282,0.012025,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.69,2026-09-12T19:17:45.850015+00:00,,"Option 3 is noticeably the most distinctive shape, giving a salient coordination cue.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,14,23,PLAY,1,1,713,222,0.010225,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.61,2026-09-12T19:17:46.737254+00:00,,"The plain filled circle in position 1 is a clear focal option, giving a reliable coordination basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,2,15,PASS,1,1,713,194,0.009385,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.58,2026-09-12T19:17:47.073213+00:00,,"The four grids lack a clear shared focal feature, so my choice would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,3,6,PLAY,1,1,713,207,0.009775,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.42,2026-09-12T19:17:47.142374+00:00,,"Option 3 is the uniquely uniform and most salient pattern, giving a strong focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,14,12,PLAY,1,1,713,219,0.010135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.18,2026-09-12T19:17:47.320581+00:00,,"The triangle is a uniquely simple and salient focal choice, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,1,16,PLAY,1,1,713,302,0.012625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.70,2026-09-12T19:17:48.611252+00:00,,"Option 4 is a uniquely focal choice because it shows the canonical “four” pattern and matches its label.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,9,20,PLAY,1,1,713,319,0.013135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.50,2026-09-12T19:17:48.612349+00:00,,"Option 4 is a clear focal choice because its label matches its four vertical sections.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,7,3,PLAY,1,1,713,156,0.008245,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.37,2026-09-12T19:17:49.214695+00:00,,"The triangle is the most salient and simplest focal option, so matching is likely reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,18,8,PASS,1,1,713,277,0.011875,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.23,2026-09-12T19:17:50.407770+00:00,,"The images offer competing focal points (fewest rings vs. most rings), so my choice would not be reliably predictable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,8,6,PLAY,1,1,713,142,0.007825,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.61,2026-09-12T19:17:50.749252+00:00,,"Option 2 is a clear focal point because it is the most symmetric, centered “diamond” shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,2,8,PLAY,1,1,713,136,0.007645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.24,2026-09-12T19:17:51.311910+00:00,,"Option 2 is uniquely uniform and therefore a strong focal point for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,17,6,PLAY,1,1,713,332,0.013525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.51,2026-09-12T19:17:51.329963+00:00,,"Option 2 is the most conventionally recognizable “C” shape, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,6,13,PLAY,1,1,713,229,0.010435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.90,2026-09-12T19:17:51.635476+00:00,,"Option 2 is the canonical “C” orientation, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,7,18,PASS,1,1,713,349,0.014035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.95,2026-09-12T19:17:51.714477+00:00,,"The four blobs lack a clear, uniquely salient focal choice, so matching would be fragile.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,16,17,PASS,1,1,713,151,0.008095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.54,2026-09-12T19:17:52.156105+00:00,,"The four noisy grids lack a clear shared focal feature, so my choice would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,9,11,PLAY,1,1,713,255,0.011215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.49,2026-09-12T19:17:52.816192+00:00,,"The upward-curving “smile” in option 4 is a salient positive focal point likely to be chosen consistently.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,9,6,PLAY,1,1,713,396,0.015445,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.87,2026-09-12T19:17:53.720740+00:00,,"The triangle is uniquely simple and visually salient, giving a strong shared focal basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,19,15,PASS,1,1,713,224,0.010285,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.11,2026-09-12T19:17:54.322371+00:00,,"The four shapes are too similar and lack a clear focal feature for reliable coordination.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,17,21,PLAY,1,1,713,281,0.011995,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.24,2026-09-12T19:17:54.858009+00:00,,"Option 4 is uniquely smooth and simple, making it a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,7,4,PLAY,1,1,713,480,0.017965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.77,2026-09-12T19:17:54.963557+00:00,,"Option 1 is uniquely simplest and also first, giving a strong shared focal cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,12,0,PLAY,1,1,713,136,0.007645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.28,2026-09-12T19:17:55.434976+00:00,,"The options have a clear shared pattern: label 1–4 corresponds to panels with 2–5 vertical lines, making the same choice basis likely.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,15,9,PLAY,1,1,713,162,0.008425,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.82,2026-09-12T19:17:55.457067+00:00,,"The upright shape in option 1 is the most natural focal choice, so matching should be reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,11,1,PLAY,1,1,713,251,0.011095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.13,2026-09-12T19:17:55.536628+00:00,,"Option 3 is a clear focal choice because it has the largest dark-filled portion.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,2,4,PASS,1,1,713,190,0.009265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.85,2026-09-12T19:17:55.560914+00:00,,"There are multiple plausible focal choices, so matching is not reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,3,15,PASS,1,1,713,240,0.010765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.95,2026-09-12T19:17:55.696945+00:00,,"The four options are too symmetric and lack a uniquely salient focal choice, so matching would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,10,12,PLAY,1,1,713,264,0.011485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.37,2026-09-12T19:17:57.677617+00:00,,"Option 1 is uniquely uniform and thus a strong focal choice for identical instances.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,2,23,PLAY,1,1,713,281,0.011995,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.46,2026-09-12T19:17:57.795520+00:00,,"Option 4 is the clearest focal choice because it is uniquely the smoothest and simplest shape.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,0,4,PLAY,1,1,713,147,0.007975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.12,2026-09-12T19:17:57.845293+00:00,,"The solid gray circle is the uniquely simplest and most focal option, giving a reliable basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,8,10,PASS,1,1,713,202,0.009625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.94,2026-09-12T19:17:59.796682+00:00,,"No single option is uniquely salient enough to make matching reliably predictable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,9,11,PASS,1,1,713,188,0.009205,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.41,2026-09-12T19:17:59.973718+00:00,,"The four shapes are essentially rotations of the same form with no clear focal option.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,12,16,PLAY,1,1,713,310,0.012865,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.86,2026-09-12T19:18:00.182711+00:00,,"The uniquely simplest figure with the fewest divisions gives a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,16,23,PASS,1,1,713,486,0.018145,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.85,2026-09-12T19:18:00.662674+00:00,,"Several options have plausible salience, so I lack a reliable shared basis for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,17,18,PASS,1,1,713,299,0.012535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.45,2026-09-12T19:18:00.912158+00:00,,"Two options (2 and 3) saliently match their labels, so there is no unique focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,7,11,PASS,1,1,713,314,0.012985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.97,2026-09-12T19:18:00.934659+00:00,,"Several options have plausible focal features, so I lack a reliable basis for matching.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,13,20,PASS,1,1,713,150,0.008065,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.90,2026-09-12T19:18:01.574579+00:00,,"Multiple plausible focal choices (triangle, diamond, or most regular polygon) make coordination uncertain.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,19,3,PASS,1,1,713,367,0.014575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.28,2026-09-12T19:18:01.972958+00:00,,"The four options are essentially symmetric, and any label/order tie-breaker feels too arbitrary to be reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,4,7,PASS,1,1,713,302,0.012625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.48,2026-09-12T19:18:02.019235+00:00,,"The four grids look like arbitrary noise without a clear shared focal feature, so I cannot reliably predict a matching choice.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,12,12,PLAY,1,1,713,325,0.013315,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.91,2026-09-12T19:18:02.345499+00:00,,"The numbered choices give a clear shared tie-breaker, making coordination likely.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,12,16,PLAY,1,1,713,129,0.007435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.34,2026-09-12T19:18:03.313913+00:00,,"The largest circle (option 2) is a clear focal point both instances would likely choose.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,7,3,PLAY,1,1,713,201,0.009595,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.12,2026-09-12T19:18:03.920737+00:00,,"Option 1 is the most salient canonical “C” shape, giving a clear coordination focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,17,18,PLAY,1,1,713,320,0.013165,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.31,2026-09-12T19:18:04.110954+00:00,,"Option 1 is uniquely salient because its line count does not match its label, giving a clear shared rule.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,18,4,PLAY,1,1,713,168,0.008605,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.37,2026-09-12T19:18:04.307350+00:00,,"Option 4 is uniquely salient because it has large endpoint circles, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,11,3,PLAY,1,1,713,358,0.014305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.82,2026-09-12T19:18:04.664015+00:00,,"Option 3 is a clear focal choice because it has the most dots and visually stands out.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,5,8,PLAY,1,1,713,129,0.007435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.55,2026-09-12T19:18:05.566054+00:00,,"Option 2 is uniquely salient, giving a reliable coordination basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,19,11,PLAY,1,1,713,137,0.007675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.78,2026-09-12T19:18:05.758232+00:00,,"Option 3 is uniquely simple and symmetric, making it a clear focal choice.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,8,12,PLAY,1,1,713,230,0.010465,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.94,2026-09-12T19:18:05.851486+00:00,,"Option 4 is uniquely salient as the densest image with the most dots, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,13,20,PLAY,1,1,713,122,0.007225,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.57,2026-09-12T19:18:05.915863+00:00,,"Option 4 is the most visually distinctive focal choice, so matching should be reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,8,1,PASS,1,1,713,287,0.012175,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.79,2026-09-12T19:18:06.457496+00:00,,"Several options have competing salient features, so I lack a reliable focal rule for matching.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,19,2,PLAY,1,1,713,259,0.011335,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.52,2026-09-12T19:18:07.100853+00:00,,"Option 2 is a clear focal choice because it is uniquely marked with endpoint circles.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,4,14,PLAY,1,1,713,376,0.014845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.85,2026-09-12T19:18:08.038026+00:00,,"The most balanced split is a clear focal feature likely to guide both instances similarly.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,15,11,PLAY,1,1,713,180,0.008965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.53,2026-09-12T19:18:08.196803+00:00,,"Option 4 is a clear focal choice because it appears most regular and balanced.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,4,1,PASS,1,1,713,272,0.011725,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.51,2026-09-12T19:18:10.435781+00:00,,"The shapes have no uniquely salient feature that would make my choice reliably match another instance.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,9,7,PLAY,1,1,713,238,0.010705,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.90,2026-09-12T19:18:10.659794+00:00,,"Option 1 is the most focal due to its first position and natural light-to-dark vertical gradient.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,10,17,PASS,1,1,713,349,0.014035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.61,2026-09-12T19:18:10.918886+00:00,,"The blobs have no uniquely dominant focal feature, so different plausible selection rules could point to different options.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,2,14,PLAY,1,1,713,308,0.012805,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.88,2026-09-12T19:18:11.731308+00:00,,"Option 3 is uniquely a simple straight horizontal line, giving a clear focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,9,1,PLAY,1,1,713,251,0.011095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.19,2026-09-12T19:18:11.761871+00:00,,"Option 3 is a clear focal outlier in shape, giving a reliable coordination basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,0,17,PASS,1,1,713,283,0.012055,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.64,2026-09-12T19:18:13.095248+00:00,,"Several options have plausible focal claims (first, vertical, horizontal), so matching is not reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,2,20,PLAY,1,1,713,276,0.011845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.21,2026-09-12T19:18:13.307484+00:00,,"The triangle is the uniquely simplest and most salient option, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,2,23,PASS,1,1,713,500,0.018565,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.26,2026-09-12T19:18:13.371170+00:00,,"The options have competing focal cues (first/most dots vs sparsest/simplest), so matching is not reliably grounded.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,14,8,PASS,1,1,713,358,0.014305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.67,2026-09-12T19:18:13.583977+00:00,,"There is no uniquely focal option, since several simple salience rules could point to different choices.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,17,7,PLAY,1,1,713,132,0.007525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,2.91,2026-09-12T19:18:13.831901+00:00,,"Option 4 is a clear focal point because it is uniquely marked with large circles at both ends.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,0,13,PASS,1,1,713,543,0.019855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.72,2026-09-12T19:18:14.029939+00:00,,"The options are symmetric rotations with no uniquely focal choice, so matching would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,14,18,PASS,1,1,713,265,0.011515,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.51,2026-09-12T19:18:14.706832+00:00,,"The four blobs are similar rotations with no clearly dominant focal choice for coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,14,19,PLAY,1,1,713,217,0.010075,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.83,2026-09-12T19:18:15.486661+00:00,,"The smiling curve is the most salient and positive focal option, so matching should be reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,1,17,PLAY,1,1,713,249,0.011035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.96,2026-09-12T19:18:16.399521+00:00,,"Option 4 is the most visually distinctive due to the largest size contrast, giving a clear focal basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,16,11,PLAY,1,1,713,234,0.010585,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.00,2026-09-12T19:18:16.735190+00:00,,"Option 2 is the most salient because it has the largest overall circles, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,0,17,PLAY,1,1,713,171,0.008695,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.78,2026-09-12T19:18:17.368903+00:00,,"Option 1 is uniquely distinctive with endpoint dots, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,14,9,PLAY,1,1,713,542,0.019825,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.44,2026-09-12T19:18:18.476502+00:00,,"The numbering/order provides a simple shared focal rule: pick the first option.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,2,23,PLAY,1,1,713,201,0.009595,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.81,2026-09-12T19:18:18.840014+00:00,,"Option 4 is a clear focal endpoint with the smallest hole and most filled area, so matching should be reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,15,19,PASS,1,1,713,263,0.011455,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.55,2026-09-12T19:18:18.920616+00:00,,"There are multiple plausible focal choices (e.g., thinnest ring or most filled disk), so coordination is not reliably grounded.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,4,1,PLAY,1,1,713,131,0.007495,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.66,2026-09-12T19:18:19.148262+00:00,,"Option 4 is uniquely uniform and visually salient, giving a reliable focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,14,6,PLAY,1,1,713,247,0.010975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.84,2026-09-12T19:18:19.607347+00:00,,"Option 4 is the most visually distinctive, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,1,10,PASS,1,1,713,281,0.011995,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.43,2026-09-12T19:18:19.739275+00:00,,"Several options are similarly salient, with no uniquely dominant focal choice for coordination.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,13,4,PASS,1,1,713,277,0.011875,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.04,2026-09-12T19:18:19.870061+00:00,,"The options are largely symmetric rotations with no uniquely compelling focal choice, so matching would be uncertain.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,3,4,PLAY,1,1,713,141,0.007795,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.31,2026-09-12T19:18:20.678351+00:00,,"Option 1 is the clearest focal choice because it is first and the simplest distinctive shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,16,3,PLAY,1,1,713,321,0.013195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.60,2026-09-12T19:18:21.308316+00:00,,"Option 3 is uniquely most visually salient because it has the most concentric circles.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,18,0,PLAY,1,1,713,195,0.009415,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.72,2026-09-12T19:18:21.459379+00:00,,"Option 1 is a clear focal point because it is both first and darkest, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,12,7,PASS,1,1,713,451,0.017095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.76,2026-09-12T19:18:21.858912+00:00,,"There are several plausible focal choices (simplest, most symmetric, or positional), so matching is not reliably grounded.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,13,21,PLAY,1,1,713,258,0.011305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.61,2026-09-12T19:18:22.011643+00:00,,"The unique and salient focal choice is option 1, which has the most lines and is also leftmost.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,16,14,PLAY,1,1,713,105,0.006715,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.16,2026-09-12T19:18:22.764680+00:00,,"The largest circle is a clear focal point that identical instances are likely to select.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,7,20,PLAY,1,1,713,121,0.007195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.62,2026-09-12T19:18:25.077887+00:00,,"The darkest circle is a clear shared focal feature likely to guide both instances the same way.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,12,12,PASS,1,1,713,280,0.011965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.28,2026-09-12T19:18:25.123915+00:00,,"The four noise-like options lack a clear shared focal feature, so matching would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,6,12,PLAY,1,1,713,352,0.014125,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.66,2026-09-12T19:18:25.580707+00:00,,"Option 3 is the most salient focal point because it appears closest to an even dark/light split.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,6,1,PLAY,1,1,713,237,0.010675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.72,2026-09-12T19:18:25.591873+00:00,,"Option 4 is a uniquely symmetric, canonical-looking blob, giving a clear focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,18,8,PLAY,1,1,713,267,0.011575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.85,2026-09-12T19:18:25.593250+00:00,,"Option 3 is the salient choice because it is a triangle under the label 3.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,13,17,PASS,1,1,713,374,0.014785,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.56,2026-09-12T19:18:25.708081+00:00,,"Multiple plausible focal choices (simplest, most striped, leftmost, etc.) make matching unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,15,15,PASS,1,1,713,181,0.008995,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.55,2026-09-12T19:18:26.407347+00:00,,"The images have several plausible focal choices, so I lack a reliable matching rule.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,2,23,PASS,1,1,713,248,0.011005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.65,2026-09-12T19:18:26.665437+00:00,,"The images form a spectrum with no uniquely dominant focal option, so my choice would be too arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,9,8,PLAY,1,1,713,148,0.008005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.05,2026-09-12T19:18:26.820728+00:00,,"The solid filled circle is the most salient and simplest focal choice, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,11,12,PLAY,1,1,713,266,0.011545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.86,2026-09-12T19:18:28.164997+00:00,,"The numbering and left-to-right presentation give a shared tie-breaker both instances can use.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,4,13,PLAY,1,1,713,445,0.016915,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.77,2026-09-12T19:18:28.446042+00:00,,"Option 2 is a clear focal point because its label matches its number of circles.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,4,22,PLAY,1,1,713,489,0.018235,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.57,2026-09-12T19:18:29.047851+00:00,,"The numbered layout supplies a simple shared convention: choose the lowest-numbered option if no stronger visual focal point dominates.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,15,5,PLAY,1,1,713,144,0.007885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.55,2026-09-12T19:18:29.132350+00:00,,"Option 1 is the clear focal choice because it resembles a standard letter “C,” so matching is reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,8,3,PLAY,1,1,713,141,0.007795,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.65,2026-09-12T19:18:29.363152+00:00,,"The solid filled circle is the simplest and most salient focal option.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,19,3,PLAY,1,1,713,164,0.008485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.11,2026-09-12T19:18:29.779787+00:00,,"Option 3 is the most visually distinctive because it has the largest dark-filled portion, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,6,0,PLAY,1,1,713,97,0.006475,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.42,2026-09-12T19:18:29.834788+00:00,,"Option 1 is the clear focal choice because it is the most symmetric and distinctive.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,16,13,PLAY,1,1,713,193,0.009355,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.50,2026-09-12T19:18:30.094858+00:00,,"Option 1 is a clear focal point because all bars are equal, making coordination reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,5,3,PLAY,1,1,713,267,0.011575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.32,2026-09-12T19:18:30.448180+00:00,,"The triangle is the simplest and leftmost salient focal option, so matching is reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,0,14,PLAY,1,1,713,233,0.010555,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.04,2026-09-12T19:18:30.637816+00:00,,"Option 3 is a clear focal point because its label matches its three-sided shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,12,9,PLAY,1,1,713,148,0.008005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.40,2026-09-12T19:18:32.760832+00:00,,"Option 3 is uniquely solid and visually simplest, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,17,21,PLAY,1,1,713,140,0.007765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.34,2026-09-12T19:18:32.784129+00:00,,"The largest shape (option 1) is a clear salient focal point for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,8,1,PLAY,1,1,713,149,0.008035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.75,2026-09-12T19:18:32.888150+00:00,,"Option 4 is uniquely visually distinctive, giving a reliable focal point for matching.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,0,10,PLAY,1,1,713,183,0.009055,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.15,2026-09-12T19:18:33.984376+00:00,,"Option 4 is uniquely salient because all four bars are equal, giving a clear focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,16,1,PASS,1,1,713,340,0.013765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.14,2026-09-12T19:18:34.301867+00:00,,"Several options are similarly salient, so I do not have a reliable unique basis for matching.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,1,1,PASS,1,1,713,198,0.009505,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.61,2026-09-12T19:18:34.662516+00:00,,"The four options are essentially symmetric rotations with no clearly unique focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,5,7,PLAY,1,1,713,122,0.007225,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.18,2026-09-12T19:18:34.823837+00:00,,"Option 3 is the uniquely simple solid circle, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,4,11,PLAY,1,1,713,421,0.016195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.35,2026-09-12T19:18:35.428901+00:00,,"Option 2 is a clear visual outlier due to its many sharp spikes, giving a stable focal basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,19,12,PASS,1,1,713,480,0.017965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.67,2026-09-12T19:18:35.491604+00:00,,"Multiple options are salient in different ways (e.g., smoothest vs. spikiest), so I lack a uniquely reliable coordination rule.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,16,21,PLAY,1,1,713,174,0.008785,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.62,2026-09-12T19:18:36.378602+00:00,,"Option 1 is a clear focal choice because it is both first and visually simplest.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,19,10,PLAY,1,1,713,263,0.011455,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.32,2026-09-12T19:18:36.772502+00:00,,"The darkest circle is a clear visual focal point, giving a reliable coordination cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,16,13,PLAY,1,1,713,185,0.009115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.02,2026-09-12T19:18:36.806916+00:00,,"The triangle is uniquely and simply salient among the shapes, giving a clear shared basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,2,22,PLAY,1,1,713,391,0.015295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.73,2026-09-12T19:18:37.508404+00:00,,"The triangle labeled 3 is a strong shared focal cue among the options.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,2,10,PASS,1,1,713,361,0.014395,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.83,2026-09-12T19:18:37.930872+00:00,,"The options lack a uniquely salient choice, so matching would depend on arbitrary conventions.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,5,20,PLAY,1,1,713,167,0.008575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.28,2026-09-12T19:18:38.939576+00:00,,"The unique, simple, highly symmetric diamond provides a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,9,22,PLAY,1,1,713,302,0.012625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.33,2026-09-12T19:18:39.219553+00:00,,"The spiky first shape is a clear focal outlier likely to attract the same choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,15,0,PLAY,1,1,713,141,0.007795,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.48,2026-09-12T19:18:40.249463+00:00,,"The increasing sizes make the largest circle a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,0,16,PASS,1,1,713,321,0.013195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.70,2026-09-12T19:18:40.683408+00:00,,"Several options have plausible salience (first, most bars, fewest bars), so matching is not reliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,18,6,PASS,1,1,713,244,0.010885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.15,2026-09-12T19:18:40.978446+00:00,,"Several options have competing salient features (simplest, most complex, most symmetric), so matching is not reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,10,16,PLAY,1,1,713,125,0.007315,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.71,2026-09-12T19:18:41.222809+00:00,,"Option 3 is uniquely smooth and least jagged, giving a clear shared focal feature.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,3,10,PLAY,1,1,713,247,0.010975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.68,2026-09-12T19:18:42.064392+00:00,,"The triangle is uniquely simple and salient, so it provides a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,15,9,PLAY,1,1,713,240,0.010765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.44,2026-09-12T19:18:42.245735+00:00,,"Option 3 is a salient focal choice because it has the most concentric circles, making coordination likely.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,5,2,PASS,1,1,713,419,0.016135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.03,2026-09-12T19:18:43.525645+00:00,,"Several options are similarly salient, especially the symmetric square and diamond patterns, so I lack a reliable unique focal choice.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,0,22,PASS,1,1,713,352,0.014125,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.10,2026-09-12T19:18:43.532841+00:00,,"Several options have plausible salience, so my selection rule would be ambiguous.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,3,22,PLAY,1,1,713,164,0.008485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.67,2026-09-12T19:18:43.613016+00:00,,"Option 4 is uniquely simple and salient, giving a reliable focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,1,5,PLAY,1,1,713,156,0.008245,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.80,2026-09-12T19:18:44.487346+00:00,,"Option 2 is uniquely spiky and visually salient, giving a strong shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,7,23,PLAY,1,1,713,456,0.017245,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.88,2026-09-12T19:18:45.181630+00:00,,"The labels provide a clear shared tie-breaker (lowest number) despite the visual symmetry.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,13,22,PLAY,1,1,713,178,0.008905,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.58,2026-09-12T19:18:45.560456+00:00,,"The plain solid circle is the simplest and most focal option, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,16,17,PLAY,1,1,713,211,0.009895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.58,2026-09-12T19:18:45.800168+00:00,,"Option 4 is a clear focal outlier because it is the smoothest and least jagged shape.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,15,15,PLAY,1,1,713,416,0.016045,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.88,2026-09-12T19:18:45.810019+00:00,,"The simplest, least subdivided rectangle is a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,18,3,PLAY,1,1,713,105,0.006715,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,2.85,2026-09-12T19:18:46.375199+00:00,,"The largest circle is a clear salient focal point likely to guide both instances the same way.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,5,19,PLAY,1,1,713,201,0.009595,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.88,2026-09-12T19:18:47.499047+00:00,,"Option 2 is the clearest symmetric focal choice, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,15,0,PLAY,1,1,713,389,0.015235,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.53,2026-09-12T19:18:47.776955+00:00,,"Option 1 is a strong focal choice because it is first and follows the natural left-to-right lightening direction.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,4,21,PLAY,1,1,713,270,0.011665,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.04,2026-09-12T19:18:48.104684+00:00,,"The triangle is uniquely simple and salient, giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,17,22,PLAY,1,1,713,293,0.012355,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.43,2026-09-12T19:18:48.677264+00:00,,"The bottom arc is uniquely salient as a “smile,” giving a stable focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,5,3,PLAY,1,1,713,148,0.008005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.68,2026-09-12T19:18:49.164874+00:00,,"Option 2 is uniquely uniform and most salient, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,1,17,PLAY,1,1,713,277,0.011875,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.91,2026-09-12T19:18:50.445872+00:00,,"The numbered options make 1 a simple shared focal default despite the visual symmetry.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,0,13,PLAY,1,1,713,306,0.012745,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.14,2026-09-12T19:18:50.941020+00:00,,"Option 3 is the clearest focal odd-one-out because it is much spikier than the others.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,3,23,PLAY,1,1,713,199,0.009535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.67,2026-09-12T19:18:51.045361+00:00,,"Option 4 is a fairly salient choice as the most balanced, regular-looking polygon, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,9,14,PLAY,1,1,713,426,0.016345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.89,2026-09-12T19:18:51.112359+00:00,,"The downward teardrop/map-pin shape is a clear focal cue likely to be chosen consistently.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,3,12,PLAY,1,1,713,223,0.010255,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.32,2026-09-12T19:18:51.128194+00:00,,"Option 2 is the clearly simplest and most focal shape, giving a reliable coordination cue.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,8,21,PLAY,1,1,713,119,0.007135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,2.85,2026-09-12T19:18:51.524671+00:00,,"Option 3 is the uniquely simple and symmetric all-equal chart, making coordination reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,1,21,PASS,1,1,713,380,0.014965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.68,2026-09-12T19:18:52.237560+00:00,,"There are at least two similarly salient label-to-divider matches, so coordination is not reliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,18,22,PASS,1,1,713,443,0.016855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.47,2026-09-12T19:18:52.650484+00:00,,"Several plausible focal rules conflict (simplest, first, label, or number of divisions), so matching is not reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,1,9,PLAY,1,1,713,144,0.007885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.50,2026-09-12T19:18:52.669559+00:00,,"Option 1 is uniquely balanced and visually focal, giving a reliable shared basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,13,18,PLAY,1,1,713,315,0.013015,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.23,2026-09-12T19:18:53.726052+00:00,,"The leftmost option labeled 1 is a simple shared focal default, giving a reliable basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,1,6,PLAY,1,1,713,308,0.012805,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.49,2026-09-12T19:18:54.267342+00:00,,"A shared deterministic tie-breaker like choosing the lowest-numbered option gives a reliable basis for matching.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,18,16,PLAY,1,1,713,164,0.008485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.49,2026-09-12T19:18:54.435385+00:00,,"Option 1 is uniquely simple and symmetric, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,14,16,PLAY,1,1,713,132,0.007525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.01,2026-09-12T19:18:54.461228+00:00,,"Option 3 is the uniquely symmetric, centered diamond, giving a clear focal basis for coordination.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,4,19,PLAY,1,1,713,161,0.008395,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.42,2026-09-12T19:18:55.528628+00:00,,"Option 2 is the simplest and most salient focal choice, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,6,15,PLAY,1,1,713,111,0.006895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.34,2026-09-12T19:18:55.992108+00:00,,"Option 1 is uniquely symmetric and salient, giving a reliable focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,4,0,PLAY,1,1,713,180,0.008965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.02,2026-09-12T19:18:56.146878+00:00,,"Option 4 is the most visually distinctive shape, giving a clear focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,6,7,PLAY,1,1,713,147,0.007975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.34,2026-09-12T19:18:56.577075+00:00,,"Option 3 is uniquely and clearly the largest, giving a strong focal basis for coordination.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,5,16,PLAY,1,1,713,428,0.016405,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.53,2026-09-12T19:18:56.631087+00:00,,"The numeric labels provide a simple shared focal rule, such as choosing the first option, so matching should be reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,18,14,PLAY,1,1,713,236,0.010645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.91,2026-09-12T19:18:58.434454+00:00,,"The solid circle is the most visually simple and distinctive focal option, so matching is likely reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,16,2,PASS,1,1,713,193,0.009355,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.07,2026-09-12T19:18:58.507285+00:00,,"The shapes lack a clear unique focal feature, so any choice would feel arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,6,14,PLAY,1,1,713,180,0.008965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.94,2026-09-12T19:18:59.212363+00:00,,"Option 3 is a uniquely salient match because it is the triangle and has three sides.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,10,6,PLAY,1,1,713,372,0.014725,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.24,2026-09-12T19:18:59.288791+00:00,,"The simplest and most visually salient option is likely focal for both instances.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,17,18,PASS,1,1,713,276,0.011845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.08,2026-09-12T19:18:59.753038+00:00,,"Several options are comparably salient, so I lack a unique focal rule for matching reliably.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,9,2,PASS,1,1,713,374,0.014785,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.78,2026-09-12T19:19:01.244254+00:00,,"The options lack a uniquely focal feature, so matching would be uncertain.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,11,2,PASS,1,1,713,258,0.011305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.24,2026-09-12T19:19:01.392814+00:00,,"Multiple options have plausible salience, so I lack a unique reliable coordination rule here.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,15,0,PLAY,1,1,713,167,0.008575,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.53,2026-09-12T19:19:01.969730+00:00,,"Option 3 is uniquely salient because all four bars are equal, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,13,15,PLAY,1,1,713,236,0.010645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.00,2026-09-12T19:19:01.999642+00:00,,"Option 4 is uniquely salient because it has the strongest size contrast, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,4,13,PLAY,1,1,713,303,0.012655,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.71,2026-09-12T19:19:02.441311+00:00,,"Option 1 is a uniquely salient upright/symmetric-looking shape, so the matching rule feels reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,18,0,PLAY,1,1,713,316,0.013045,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.63,2026-09-12T19:19:03.205187+00:00,,"The diamond is the most uniquely simple and salient focal option, making coordination likely.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,15,0,PASS,1,1,713,197,0.009475,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.35,2026-09-12T19:19:03.635603+00:00,,"Several options are similarly simple and salient, so I cannot rely on a unique shared focal choice.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,18,20,PASS,1,1,713,373,0.014755,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.41,2026-09-12T19:19:03.943086+00:00,,"There are multiple plausible focal features (smoothest vs. spikiest), so matching is not reliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,7,21,PLAY,1,1,713,396,0.015445,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.63,2026-09-12T19:19:04.264294+00:00,,"The labeled order gives a simple shared focal default despite the shapes being similar.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,0,17,PLAY,1,1,713,279,0.011935,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.49,2026-09-12T19:19:04.707910+00:00,,"Top-left/first position is a natural shared focal rule for identical instances here.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,12,15,PLAY,1,1,713,155,0.008215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.40,2026-09-12T19:19:04.824869+00:00,,"Option 3 is a clear salient choice because it has the most concentric circles.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,1,7,PASS,1,1,713,203,0.009655,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.60,2026-09-12T19:19:05.844781+00:00,,"No option has a clearly dominant or uniquely focal feature, so matching would be guesswork.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,1,6,PLAY,1,1,713,128,0.007405,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.24,2026-09-12T19:19:06.442621+00:00,,"Option 3 is uniquely salient due to its large endpoint circles, giving a reliable focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,11,6,PLAY,1,1,713,189,0.009235,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.73,2026-09-12T19:19:06.699644+00:00,,"The simple symmetric diamond in option 1 is a strong focal point compared with the others.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,10,8,PASS,1,1,713,248,0.011005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.92,2026-09-12T19:19:06.918146+00:00,,"Several options have plausible focal features, so my selection rule would not be reliably shared.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,6,19,PLAY,1,1,713,470,0.017665,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.17,2026-09-12T19:19:07.921264+00:00,,"Option 2 is uniquely focal because its number label matches its two concentric circles.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,9,15,PASS,1,1,713,406,0.015745,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.47,2026-09-12T19:19:07.975874+00:00,,"The four blobs lack a clear unique focal feature, so my selection rule would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,11,5,PLAY,1,1,713,184,0.009085,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.09,2026-09-12T19:19:09.031357+00:00,,"Option 4 is uniquely salient because its label matches its number of sides.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,18,7,PLAY,1,1,713,151,0.008095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.53,2026-09-12T19:19:10.451790+00:00,,"Option 2 is a clear focal choice because it most resembles a standard “C,” so matching is reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,12,9,PASS,1,1,713,283,0.012055,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.22,2026-09-12T19:19:10.481364+00:00,,"No single option is uniquely focal, so matching would depend on arbitrary tie-breaking.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,18,7,PLAY,1,1,713,279,0.011935,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.15,2026-09-12T19:19:10.974869+00:00,,"Option 3 is a clear focal choice because it uniquely has the largest overall pair and the right circle is not smaller.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,3,20,PLAY,1,1,713,366,0.014545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.54,2026-09-12T19:19:11.180135+00:00,,"The horizontal row in option 3 is a uniquely simple focal pattern, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,3,5,PASS,1,1,713,278,0.011905,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.03,2026-09-12T19:19:11.743763+00:00,,"The four grids look like arbitrary noise with no clearly dominant focal option.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,5,21,PLAY,1,1,713,169,0.008635,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.84,2026-09-12T19:19:11.816271+00:00,,"The darkest circle (option 4) is a clear focal choice, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,9,1,PLAY,1,1,713,280,0.011965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.42,2026-09-12T19:19:12.116878+00:00,,"Option 1 is the most salient due to reading order and a canonical horizontal ellipse.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,0,17,PLAY,1,1,713,243,0.010855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.08,2026-09-12T19:19:12.999336+00:00,,"Option 4 is uniquely simple and visually distinctive, making it a strong focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,1,7,PLAY,1,1,713,546,0.019945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.95,2026-09-12T19:19:13.388440+00:00,,"The numbered left-to-right order gives a simple shared focal tie-breaker despite the blobs being ambiguous.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,10,20,PLAY,1,1,713,426,0.016345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.01,2026-09-12T19:19:13.859559+00:00,,"The upward-pointing shape is a clear focal choice that another identical instance is likely to select too.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,11,0,PASS,1,1,713,344,0.013885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.54,2026-09-12T19:19:13.979878+00:00,,"There are multiple plausible focal choices (horizontal or vertical), so matching is not reliably grounded.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,2,0,PLAY,1,1,713,143,0.007855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.37,2026-09-12T19:19:15.188040+00:00,,"Option 3 is uniquely distinctive, giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,7,3,PLAY,1,1,713,198,0.009505,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.76,2026-09-12T19:19:15.731639+00:00,,"The upward smile shape in option 1 is the most salient focal choice, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,16,9,PASS,1,1,713,339,0.013735,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.48,2026-09-12T19:19:16.510814+00:00,,"The blobs have no single unambiguous focal option, with plausible pulls toward different choices.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,14,13,PLAY,1,1,713,400,0.015565,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.41,2026-09-12T19:19:17.889284+00:00,,"Option 3 is the most visually distinctive because it has the most points, giving a clear shared focal cue.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,5,21,PASS,1,1,713,324,0.013285,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.84,2026-09-12T19:19:18.023627+00:00,,"Several options have competing salient features, so I don’t have a reliably unique focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,3,16,PASS,1,1,713,166,0.008545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.28,2026-09-12T19:19:18.141428+00:00,,"The shapes lack a clear unique focal option, so matching would be unreliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,13,6,PLAY,1,1,713,343,0.013855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.08,2026-09-12T19:19:18.528558+00:00,,"Option 3 is a clear focal choice because it appears most upright and vertically symmetric.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,17,12,PLAY,1,1,713,188,0.009205,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.02,2026-09-12T19:19:18.999421+00:00,,"The triangle is uniquely the simplest and most salient shape, giving a clear shared basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,13,3,PLAY,1,1,713,145,0.007915,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.32,2026-09-12T19:19:19.513485+00:00,,"The diamond is the clearest focal option due to its simple symmetry and distinctiveness.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,19,14,PASS,1,1,713,160,0.008365,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.41,2026-09-12T19:19:20.926246+00:00,,"Multiple plausible focal choices exist (simplest, most complex, or first), so matching is not reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,16,20,PLAY,1,1,713,320,0.013165,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.31,2026-09-12T19:19:21.308630+00:00,,"The upward “smile” arc is a salient focal choice among the four.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,15,22,PLAY,1,1,713,147,0.007975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.17,2026-09-12T19:19:21.316949+00:00,,"Option 2 is uniquely salient because it has circles at both ends, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,18,6,PASS,1,1,713,547,0.019975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.95,2026-09-12T19:19:21.692785+00:00,,"The blobs have no uniquely salient feature, so any shared choice would rely on an arbitrary tie-breaker.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,12,11,PLAY,1,1,713,98,0.006505,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.68,2026-09-12T19:19:22.204928+00:00,,"Option 4 is the uniquely darkest and most salient choice, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,11,1,PASS,1,1,713,517,0.019075,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.55,2026-09-12T19:19:22.664691+00:00,,"There are competing salient extremes (smallest hole vs. largest hole), so I lack a reliable shared basis.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,14,11,PLAY,1,1,713,497,0.018475,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.74,2026-09-12T19:19:23.132190+00:00,,"The upright vertical ellipse is a clear focal choice among the orientations.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,0,23,PLAY,1,1,713,305,0.012715,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.38,2026-09-12T19:19:24.400357+00:00,,"Option 3 is uniquely focal because its label matches the number of sections.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,8,15,PASS,1,1,713,411,0.015895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.72,2026-09-12T19:19:24.457903+00:00,,"The four shapes lack a uniquely salient focal option, so matching would be guesswork.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,6,14,PASS,1,1,713,318,0.013105,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.74,2026-09-12T19:19:24.629000+00:00,,"The four noisy grids lack a clear shared focal feature, so matching another instance would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,10,6,PASS,1,1,713,305,0.012715,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.12,2026-09-12T19:19:25.119998+00:00,,"Several plausible focal rules could select different rings, so matching is not reliable here.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,16,2,PASS,1,1,713,205,0.009715,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.29,2026-09-12T19:19:25.212363+00:00,,"The four options are symmetric with no uniquely salient choice, so my selection would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,13,18,PLAY,1,1,713,148,0.008005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.61,2026-09-12T19:19:26.747276+00:00,,"Option 2 is the most visually salient as the darkest circle, giving a clear shared focal point.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,11,19,PASS,1,1,713,361,0.014395,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.40,2026-09-12T19:19:26.909360+00:00,,"The shapes do not offer a uniquely salient focal option, so matching would be uncertain.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,19,2,PLAY,1,1,713,204,0.009685,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.31,2026-09-12T19:19:27.007377+00:00,,"Option 3 is the most distinctive and focal simple shape, giving a reliable coordination basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,13,6,PASS,1,1,713,137,0.007675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.95,2026-09-12T19:19:27.157456+00:00,,"The four patterns have no clear distinguishing focal feature, so my choice would be arbitrary and unreliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,18,22,PASS,1,1,713,115,0.007015,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.15,2026-09-12T19:19:27.551427+00:00,,"The four patterns appear essentially arbitrary, with no clear shared focal cue.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,19,1,PLAY,1,1,713,414,0.015985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.36,2026-09-12T19:19:27.669303+00:00,,"The numbered order gives a simple shared focal rule: choose the first option.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,12,12,PLAY,1,1,713,102,0.006625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.69,2026-09-12T19:19:28.150881+00:00,,"Option 2 is uniquely symmetric and salient, giving a reliable shared choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,3,17,PASS,1,1,713,393,0.015355,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.98,2026-09-12T19:19:29.299593+00:00,,"The shapes offer no uniquely dominant focal option, so my matching basis would be too ambiguous.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,7,22,PASS,1,1,713,229,0.010435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.72,2026-09-12T19:19:29.837247+00:00,,"The options lack a uniquely salient focal choice, especially with similar variants present.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,2,3,PLAY,1,1,713,336,0.013645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.34,2026-09-12T19:19:30.009572+00:00,,"Option 1 is a strong focal point because it is both leftmost and the darkest circle.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,11,19,PLAY,1,1,713,135,0.007615,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.99,2026-09-12T19:19:30.740440+00:00,,"Option 3 is the uniquely salient figure, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,1,19,PLAY,1,1,713,319,0.013135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.61,2026-09-12T19:19:31.244818+00:00,,"The diamond is the most simple, symmetric, and uniquely focal option, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,1,17,PLAY,1,1,713,163,0.008455,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.64,2026-09-12T19:19:31.310601+00:00,,"Option 2 is a clear focal choice because it has the most dots.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,15,22,PLAY,1,1,713,362,0.014425,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.14,2026-09-12T19:19:32.353744+00:00,,"Option 3 is a clear focal point because its dot count matches its label.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,11,20,PLAY,1,1,713,212,0.009925,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.47,2026-09-12T19:19:32.474170+00:00,,"The largest circle (option 1) is a clear focal feature, giving a reliable shared basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,14,17,PLAY,1,1,713,202,0.009625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.38,2026-09-12T19:19:32.530351+00:00,,"Option 1 is uniquely simple and symmetric, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,15,13,PLAY,1,1,713,184,0.009085,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.12,2026-09-12T19:19:33.425134+00:00,,"Option 3 is uniquely salient because it is the only pair where the right circle is larger than the left, giving a reliable coordination cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,11,22,PASS,1,1,713,348,0.014005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.93,2026-09-12T19:19:33.842755+00:00,,"The options are largely symmetric, with only weak arbitrary ordering cues, so I lack a reliably focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,17,14,PLAY,1,1,713,151,0.008095,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.15,2026-09-12T19:19:33.987840+00:00,,"Option 3 is the uniquely symmetric diamond, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,3,19,PLAY,1,1,713,246,0.010945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.44,2026-09-12T19:19:33.993461+00:00,,"Option 3 stands out as the most upright and symmetric, giving a clear shared focal cue.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,4,9,PLAY,1,1,713,221,0.010195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.08,2026-09-12T19:19:35.329965+00:00,,"The largest circle (option 3) is a clear focal point likely to guide both instances the same way.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,7,10,PASS,1,1,713,170,0.008665,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.51,2026-09-12T19:19:35.825041+00:00,,"The four noisy grids lack a clear, shared focal feature, so my selection would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,19,3,PASS,1,1,713,273,0.011755,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.90,2026-09-12T19:19:35.906878+00:00,,"The four grids look similarly arbitrary, with no clear focal option to anchor coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,19,5,PASS,1,1,713,502,0.018625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.63,2026-09-12T19:19:36.793106+00:00,,"The four abstract shapes offer no clearly dominant focal option, so my selection would be too arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,8,18,PLAY,1,1,713,198,0.009505,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.13,2026-09-12T19:19:38.122739+00:00,,"The diamond is a uniquely simple and symmetric focal option, giving a reliable shared basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,12,14,PASS,1,1,713,311,0.012895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.71,2026-09-12T19:19:38.241352+00:00,,"The four shapes have no uniquely dominant focal feature, so matching would be uncertain.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,10,8,PASS,1,1,713,250,0.011065,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.74,2026-09-12T19:19:38.586099+00:00,,"The four choices are symmetric variants with no uniquely salient focal option, so my selection rule would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,7,16,PLAY,1,1,713,291,0.012295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.25,2026-09-12T19:19:38.606764+00:00,,"Option 4 is the most visually regular and balanced, making it a plausible shared focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,6,18,PASS,1,1,713,278,0.011905,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.31,2026-09-12T19:19:38.739012+00:00,,"There is no uniquely salient option among the four rings, so matching seems unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,15,8,PASS,1,1,713,383,0.015055,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.04,2026-09-12T19:19:38.781023+00:00,,"The options are symmetric variants with no uniquely salient focal choice, so matching would rely on arbitrary tie-breaking.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,2,15,PLAY,1,1,713,134,0.007585,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.54,2026-09-12T19:19:39.364319+00:00,,"The largest circle (option 3) is a clear salient focal point likely to guide both instances the same way.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,13,8,PLAY,1,1,713,135,0.007615,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.75,2026-09-12T19:19:40.549214+00:00,,"The largest circle is a clear focal feature both instances would likely use.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,2,23,PLAY,1,1,713,358,0.014305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.17,2026-09-12T19:19:40.648704+00:00,,"With no strong visual standout, the shared lowest-number/default tie-breaker is a reliable focal rule.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,18,0,PASS,1,1,713,297,0.012475,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.84,2026-09-12T19:19:40.829076+00:00,,"The four options are highly symmetric, and no single choice is uniquely focal enough to rely on matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,8,22,PASS,1,1,713,243,0.010855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.20,2026-09-12T19:19:41.108601+00:00,,"Multiple plausible focal choices exist (e.g., darkest, lightest, most balanced), so matching is not reliably grounded.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,10,4,PLAY,1,1,713,338,0.013705,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.38,2026-09-12T19:19:41.709940+00:00,,"The leftmost horizontal ellipse is a strong shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,9,23,PLAY,1,1,713,147,0.007975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.64,2026-09-12T19:19:42.244802+00:00,,"The uniquely simple, symmetric diamond provides a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,8,16,PLAY,1,1,713,160,0.008365,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.27,2026-09-12T19:19:42.512295+00:00,,"Option 3 is uniquely simple and salient, giving a reliable focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,11,1,PASS,1,1,713,153,0.008155,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.82,2026-09-12T19:19:42.559201+00:00,,"The four grids look arbitrary with no clear shared focal feature to anchor coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,3,19,PLAY,1,1,713,200,0.009565,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.62,2026-09-12T19:19:42.746917+00:00,,"Option 2 is uniquely focal because its label matches its number of lines.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,14,16,PLAY,1,1,713,254,0.011185,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.03,2026-09-12T19:19:44.620043+00:00,,"The darkest circle (option 3) is a clear visual focal point, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,9,2,PASS,1,1,713,293,0.012355,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.02,2026-09-12T19:19:45.389583+00:00,,"No single option is clearly focal enough to ensure matching.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,19,22,PLAY,1,1,713,244,0.010885,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.60,2026-09-12T19:19:45.431927+00:00,,"Option 3 is the canonical upright C-shape, giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,6,9,PASS,1,1,713,240,0.010765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.06,2026-09-12T19:19:45.714325+00:00,,"The four shapes lack a clearly unique focal feature, so my choice would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,9,13,PASS,1,1,713,181,0.008995,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.01,2026-09-12T19:19:46.257964+00:00,,"The four blobs lack a clear, unique focal feature to anchor matching reliably.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,7,19,PLAY,1,1,713,178,0.008905,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.05,2026-09-12T19:19:46.610010+00:00,,"Option 3 is uniquely salient because all bars are equal, so matching is reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,12,10,PASS,1,1,713,466,0.017545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.88,2026-09-12T19:19:47.662319+00:00,,"The options have several plausible focal criteria, so matching is not reliably grounded here.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,16,21,PLAY,1,1,713,337,0.013675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.48,2026-09-12T19:19:48.028049+00:00,,"The vertical ellipse is a clear focal choice among the orientations, so my selection method should match the other instance.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,10,18,PLAY,1,1,713,160,0.008365,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.63,2026-09-12T19:19:48.255284+00:00,,"The plain filled circle is the most salient and simplest focal choice, giving a reliable basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,11,23,PLAY,1,1,713,284,0.012085,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.86,2026-09-12T19:19:48.611588+00:00,,"The triangle is uniquely simple and salient, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,19,21,PASS,1,1,713,409,0.015835,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.55,2026-09-12T19:19:48.662629+00:00,,"Several plausible visual rules point to different options, so I lack a clear focal basis for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,1,18,PASS,1,1,713,330,0.013465,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.31,2026-09-12T19:19:49.019887+00:00,,"The patterns look like arbitrary noise with no clearly dominant focal option.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,11,23,PLAY,1,1,713,131,0.007495,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.33,2026-09-12T19:19:49.585861+00:00,,"Option 2 is uniquely salient because all four bars are equal, giving a clear coordination focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,5,0,PASS,1,1,713,388,0.015205,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.48,2026-09-12T19:19:49.994000+00:00,,"Several plausible focal choices exist (first, simplest, most sides), so matching is not reliably grounded.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,18,11,PLAY,1,1,713,247,0.010975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.89,2026-09-12T19:19:51.506269+00:00,,"Option 1 is both first and the most naturally upright shape, giving a clear shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,14,5,PLAY,1,1,713,176,0.008845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.96,2026-09-12T19:19:51.623075+00:00,,"The diamond is the most salient and uniquely simple option, giving a reliable coordination basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,14,21,PASS,1,1,713,239,0.010735,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.95,2026-09-12T19:19:51.667237+00:00,,"The shapes are too similar and lack a clear focal option for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,6,6,PLAY,1,1,713,227,0.010375,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.24,2026-09-12T19:19:52.271367+00:00,,"Option 2 is uniquely salient because its label matches the number of lines, giving a clear coordination rule.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,5,13,PASS,1,1,713,124,0.007285,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.59,2026-09-12T19:19:52.606688+00:00,,"The four patterns look essentially arbitrary, with no clear shared focal feature to anchor coordination.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,17,2,PLAY,1,1,713,188,0.009205,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.05,2026-09-12T19:19:52.713085+00:00,,"The solid unpatterned circle is a clear focal choice, so matching seems reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,8,12,PASS,1,1,713,359,0.014335,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.46,2026-09-12T19:19:52.852672+00:00,,"The four shapes are too similar and lack a clear shared focal option.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,0,14,PASS,1,1,713,271,0.011695,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.85,2026-09-12T19:19:54.458521+00:00,,"The shapes are too similar and lack a clear focal feature for reliable coordination.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,0,9,PASS,1,1,713,354,0.014185,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.49,2026-09-12T19:19:54.748749+00:00,,"Several plausible focal choices exist (triangle, hexagon, leftmost, most regular), so my selection rule would not be reliably shared.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,7,20,PASS,1,1,713,146,0.007945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.54,2026-09-12T19:19:55.044389+00:00,,"Multiple options have plausible salient features, so I lack a reliable focal rule for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,19,2,PLAY,1,1,713,543,0.019855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.48,2026-09-12T19:19:55.915557+00:00,,"The upward-pointing shape is the clearest conventional focal choice among the symmetric alternatives.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,3,22,PLAY,1,1,713,172,0.008725,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.22,2026-09-12T19:19:56.497611+00:00,,"Option 1 is uniquely the largest and most salient, giving a clear shared focal point.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,3,19,PLAY,1,1,713,319,0.013135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.21,2026-09-12T19:19:56.794950+00:00,,"A shared top-left/reading-order salience rule gives a plausible reliable focal choice here.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,19,6,PASS,1,1,713,290,0.012265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.34,2026-09-12T19:19:57.963917+00:00,,"The four shapes lack a uniquely salient focal option, so matching would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,9,3,PLAY,1,1,713,419,0.016135,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.11,2026-09-12T19:19:58.103436+00:00,,"Option 1 is a clear focal choice because it is the simplest and most distinctive shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,1,14,PLAY,1,1,713,304,0.012685,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.05,2026-09-12T19:19:58.658655+00:00,,"The numbered list gives a simple shared focal rule: choose the first option.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,7,15,PLAY,1,1,713,196,0.009445,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.45,2026-09-12T19:19:58.909132+00:00,,"Option 4 is a clear standout as the smoothest and least jagged shape, giving a natural shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,19,4,PLAY,1,1,713,348,0.014005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.75,2026-09-12T19:19:59.414918+00:00,,"Panel 2 is uniquely salient because it has far more dots than the others, giving a clear shared basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,1,18,PASS,1,1,713,295,0.012415,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.70,2026-09-12T19:19:59.415635+00:00,,"The options are too visually similar with no uniquely salient focal choice.  
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,16,7,PASS,1,1,713,298,0.012505,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.69,2026-09-12T19:19:59.541964+00:00,,"No single option is clearly focal among the similar irregular shapes.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,0,18,PLAY,1,1,713,179,0.008935,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.43,2026-09-12T19:20:00.228020+00:00,,"Option 2 is the uniquely symmetric diamond and a clear focal point for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,13,15,PASS,1,1,713,255,0.011215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.44,2026-09-12T19:20:01.360542+00:00,,"The options have no single unambiguous focal choice, with multiple plausible extremes competing.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F26_bumploc_m1,LOW,0.4973,F26_bumploc,17,7,PLAY,1,1,713,273,0.011755,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.79,2026-09-12T19:20:01.831499+00:00,,"The upright pear-like shape in option 1 is the most natural focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,5,22,PLAY,1,1,713,410,0.015865,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.70,2026-09-12T19:20:02.449482+00:00,,"The tiny-holed ring in option 3 is a salient focal choice, giving a reliable coordination basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,4,20,PLAY,1,1,713,91,0.006295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.10,2026-09-12T19:20:02.513635+00:00,,"Option 3 is the most visually regular and salient focal choice, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,11,6,PASS,1,1,713,290,0.012265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.74,2026-09-12T19:20:03.840304+00:00,,"Multiple plausible focal rules (largest contrast, most balanced, or right-larger) make matching unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,4,12,PASS,1,1,713,411,0.015895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.71,2026-09-12T19:20:04.210009+00:00,,"Several options are similarly salient (line, square, diamond), so there is no reliable unique focal point.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,15,17,PLAY,1,1,713,226,0.010345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.12,2026-09-12T19:20:04.543543+00:00,,"The triangle is uniquely simple and salient, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,13,4,PASS,1,1,713,302,0.012625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.96,2026-09-12T19:20:04.623962+00:00,,"Several simple patterns are similarly salient, so I lack a reliable focal choice.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,8,10,PLAY,1,1,713,168,0.008605,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.94,2026-09-12T19:20:05.300291+00:00,,"Option 3 is the clearest focal choice because it is the smoothest and most distinct from the others.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,6,7,PLAY,1,1,713,237,0.010675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.81,2026-09-12T19:20:05.357111+00:00,,"Option 1 is a clear focal point as the simplest and most regular shape.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,15,23,PASS,1,1,713,383,0.015055,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.40,2026-09-12T19:20:05.362176+00:00,,"The options have no single dominant focal choice, with vertical and horizontal both plausible conventions.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,16,4,PLAY,1,1,713,209,0.009835,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.70,2026-09-12T19:20:06.531743+00:00,,"The diamond is uniquely simple and salient, giving a clear focal basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,6,1,PASS,1,1,713,280,0.011965,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.40,2026-09-12T19:20:06.629363+00:00,,"The images offer competing focal cues, so I lack a reliable basis for predicting the same choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,8,13,PASS,1,1,713,409,0.015835,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.76,2026-09-12T19:20:07.671497+00:00,,"There are competing focal features (smallest vs largest hole), so I lack a uniquely reliable matching rule.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,12,17,PLAY,1,1,713,141,0.007795,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.32,2026-09-12T19:20:07.949947+00:00,,"Option 3 is the uniquely regular 2×2 square, giving a clear focal basis for matching.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,1,2,PASS,1,1,713,291,0.012295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.68,2026-09-12T19:20:08.191810+00:00,,"Multiple plausible focal features (simplest vs most complex) make matching uncertain.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,9,18,PLAY,1,1,713,236,0.010645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.78,2026-09-12T19:20:08.619886+00:00,,"The all-equal chart is a uniquely simple and salient focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,9,12,PLAY,1,1,713,361,0.014395,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.43,2026-09-12T19:20:08.878930+00:00,,"The darkest circle is a clear focal feature likely to guide both instances similarly.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,9,3,PLAY,1,1,713,205,0.009715,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.40,2026-09-12T19:20:09.753769+00:00,,"Option 1 is a clear focal choice because it is the most symmetric, upright diamond among the four.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,4,20,PLAY,1,1,713,195,0.009415,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.72,2026-09-12T19:20:10.023165+00:00,,"Option 4 is the uniquely focal choice because its label matches the number of lines.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,13,6,PASS,1,1,713,294,0.012385,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.24,2026-09-12T19:20:10.606552+00:00,,"The images lack a clear shared focal rule, so my selection would be too arbitrary to trust.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,16,21,PLAY,1,1,713,248,0.011005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.20,2026-09-12T19:20:10.745464+00:00,,"Option 4 is the most salient because it resembles a standard letter “C,” giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,9,1,PLAY,1,1,713,92,0.006325,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.24,2026-09-12T19:20:11.857772+00:00,,"The largest circle is a clear focal feature likely to make option 3 the shared choice.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,14,2,PLAY,1,1,713,268,0.011605,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.66,2026-09-12T19:20:12.188415+00:00,,"Option 4 is the most visually distinctive focal choice, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,10,12,PLAY,1,1,713,189,0.009235,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.87,2026-09-12T19:20:12.544372+00:00,,"Option 1 is the uniquely salient choice, giving a strong shared focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,1,7,PLAY,1,1,713,230,0.010465,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.19,2026-09-12T19:20:13.145855+00:00,,"Option 4 is a uniquely salient, near-symmetric blob, giving a clear coordination focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,6,19,PASS,1,1,713,143,0.007855,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.86,2026-09-12T19:20:13.614159+00:00,,"The four blobs are too similar and lack a clear focal choice for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,15,18,PASS,1,1,713,332,0.013525,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.05,2026-09-12T19:20:13.675747+00:00,,"Several plausible salience rules (largest fill, closest to half, ordered progression) point to different options.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,17,7,PASS,1,1,713,540,0.019765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.59,2026-09-12T19:20:13.806128+00:00,,"There are multiple plausible focal choices (notably 2 and 4), so my selection rule would be too arbitrary to reliably match.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,19,4,PLAY,1,1,713,118,0.007105,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.21,2026-09-12T19:20:13.955163+00:00,,"The largest circle is a clear focal choice both instances would likely identify.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,17,22,PASS,1,1,713,321,0.013195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.47,2026-09-12T19:20:15.351121+00:00,,"There are multiple plausible focal choices (upright, horizontal, or diagonal), so I lack a reliable matching basis.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,5,3,PLAY,1,1,713,410,0.015865,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.43,2026-09-12T19:20:15.622303+00:00,,"Option 4 is a clear focal odd-one-out, since the others have even numbers of panels in an increasing pattern.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,14,21,PLAY,1,1,713,140,0.007765,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.04,2026-09-12T19:20:16.586419+00:00,,"Option 3 is uniquely salient due to the endpoint circles, giving a clear focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,8,12,PASS,1,1,713,272,0.011725,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.64,2026-09-12T19:20:17.497937+00:00,,"The four gradients are largely symmetric with no uniquely salient focal option, so matching would be uncertain.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,17,5,PASS,1,1,713,226,0.010345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.02,2026-09-12T19:20:18.163934+00:00,,"No option is uniquely salient enough to make matching reliably predictable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,14,5,PASS,1,1,713,211,0.009895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.35,2026-09-12T19:20:18.310362+00:00,,"Multiple options have plausible salience (triangle, diamond, or many-sided polygon), so I lack a reliable matching basis.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,11,16,PLAY,1,1,713,396,0.015445,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.26,2026-09-12T19:20:18.871929+00:00,,"Option 1 is the clearest focal choice due to being first and most upright/symmetric.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,18,9,PLAY,1,1,713,315,0.013015,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.91,2026-09-12T19:20:19.099820+00:00,,"Option 3 is the most visually salient by having the densest/most dots, giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,10,5,PLAY,1,1,713,289,0.012235,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.90,2026-09-12T19:20:19.575130+00:00,,"The smile-like first option is a clear focal point I expect the other instance to identify similarly.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,18,7,PLAY,1,1,713,292,0.012325,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.25,2026-09-12T19:20:19.866424+00:00,,"Option 1 is a clear focal point because it appears most evenly balanced and is also first.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,16,8,PLAY,1,1,713,394,0.015385,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.33,2026-09-12T19:20:22.132542+00:00,,"The uniquely darkest circle is a clear focal feature likely to guide both instances similarly.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,6,18,PASS,1,1,713,346,0.013945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.75,2026-09-12T19:20:22.375622+00:00,,"Several plausible focal choices compete (fewest dots vs. most dots), so I lack a reliable matching basis.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,12,7,PASS,1,1,713,321,0.013195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.28,2026-09-12T19:20:22.865797+00:00,,"The options are largely symmetric, with no uniquely salient focal choice beyond arbitrary ordering.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,2,8,PLAY,1,1,713,233,0.010555,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.55,2026-09-12T19:20:23.710614+00:00,,"Option 2 is the clearest focal choice because it appears most upright and symmetric.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,17,0,PASS,1,1,713,317,0.013075,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,13.95,2026-09-12T19:20:23.976586+00:00,,"Several options are salient in different ways, so I lack a reliable focal rule for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,12,10,PLAY,1,1,713,413,0.015955,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.68,2026-09-12T19:20:24.033694+00:00,,"Option 3 is the uniquely canonical “C”-shaped ring, giving a clear focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,12,20,PASS,1,1,713,290,0.012265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.62,2026-09-12T19:20:24.117946+00:00,,"The options lack a uniquely salient focal choice, so my matching basis would be unreliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,1,15,PLAY,1,1,713,189,0.009235,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.41,2026-09-12T19:20:24.273429+00:00,,"The triangle is a clear focal choice as the simplest and most distinctive shape, so matching is likely.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,11,4,PLAY,1,1,713,225,0.010315,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.24,2026-09-12T19:20:24.821174+00:00,,"Option 1 is the clear focal point because it looks like the standard upright letter “C.”  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,7,17,PLAY,1,1,713,372,0.014725,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.73,2026-09-12T19:20:26.045255+00:00,,"Option 1 is the most natural focal choice because it appears closest to a balanced split.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,16,18,PLAY,1,1,713,164,0.008485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.39,2026-09-12T19:20:26.519792+00:00,,"Option 4 is uniquely distinctive, giving a clear focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F25_nested_m1,LOW,0.5035,F25_nested,7,14,PLAY,1,1,713,366,0.014545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.97,2026-09-12T19:20:26.846123+00:00,,"Option 3 is a clear focal choice as the simplest pattern with the fewest concentric circles.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,11,11,PLAY,1,1,713,166,0.008545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.40,2026-09-12T19:20:27.517643+00:00,,"The solid unpatterned circle is a clear focal option likely to be chosen consistently.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,5,5,PASS,1,1,713,421,0.016195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.53,2026-09-12T19:20:27.631858+00:00,,"The four spatial choices are symmetric aside from arbitrary labels, so I lack a robust focal rule.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,9,15,PLAY,1,1,713,269,0.011635,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.22,2026-09-12T19:20:28.085168+00:00,,"The uniquely largest number of lines makes option 3 a clear focal choice for matching.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F10_curvature_m3,HIGH,0.9583,F10_curvature,12,9,PASS,1,1,713,228,0.010405,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.50,2026-09-12T19:20:28.531229+00:00,,"The options have competing salient features (e.g., smoothest versus spikiest), so my selection rule would not be reliably shared.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,0,4,PLAY,1,1,713,249,0.011035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.17,2026-09-12T19:20:28.548111+00:00,,"Option 2 is the clear focal choice because it has the largest filled portion.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,11,23,PLAY,1,1,713,276,0.011845,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.79,2026-09-12T19:20:30.063811+00:00,,"The darkest circle (4) is a clear shared focal point, so matching should be reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,19,16,PASS,1,1,713,214,0.009985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.40,2026-09-12T19:20:30.916255+00:00,,"Options 3 and 4 appear essentially indistinguishable, so I lack a reliable unique coordination cue.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,3,3,PASS,1,1,713,356,0.014245,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.95,2026-09-12T19:20:30.923195+00:00,,"The options do not provide a uniquely salient choice, especially with near-duplicate patterns.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,19,0,PLAY,1,1,713,183,0.009055,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.70,2026-09-12T19:20:31.337917+00:00,,"Option 3 is the clearest focal choice because it appears most upright and symmetric.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,15,11,PASS,1,1,713,214,0.009985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.34,2026-09-12T19:20:32.187487+00:00,,"The four noisy patterns lack a clear shared focal feature that would make matching reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,8,14,PLAY,1,1,713,191,0.009295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.02,2026-09-12T19:20:32.555043+00:00,,"Option 3 is the most salient because it resembles a standard letter “C,” giving a shared focal cue.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F14_bars_m3,HIGH,1.0,F14_bars,13,4,PLAY,1,1,713,114,0.006985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.42,2026-09-12T19:20:32.940209+00:00,,"Option 4 is a uniquely salient symmetric pattern, giving a clear focal basis for coordination.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,0,11,PLAY,1,1,713,546,0.019945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.99,2026-09-12T19:20:33.697001+00:00,,"Option 3 seems like the clearest focal choice due to its symmetry and centered upright shape.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F34_jitter_m1,LOW,0.3644,F34_jitter,0,15,PLAY,1,1,713,391,0.015295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.04,2026-09-12T19:20:34.084245+00:00,,"Option 4 is the most regular and balanced, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,8,22,PLAY,1,1,713,249,0.011035,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.61,2026-09-12T19:20:34.163509+00:00,,"Option 2 is the most upright and symmetric, giving a clear shared focal cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,10,8,PLAY,1,1,713,321,0.013195,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.13,2026-09-12T19:20:34.216528+00:00,,"The strongest shared cue is the uniquely largest size contrast, making the choice basis fairly focal.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,19,7,PLAY,1,1,713,155,0.008215,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.70,2026-09-12T19:20:34.762387+00:00,,"Option 2 is the clearest focal choice because it is the most symmetric and centered diamond.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F36_split_m1,LOW,0.3466,F36_split,10,5,PLAY,1,1,713,517,0.019075,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,10.43,2026-09-12T19:20:35.254651+00:00,,"Option 2 is the clear focal choice because it has the most filled bar.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,14,3,PLAY,1,1,713,166,0.008545,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.40,2026-09-12T19:20:35.740854+00:00,,"Option 2 appears the most upright and symmetric, giving a clear focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,13,9,PASS,1,1,713,208,0.009805,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.16,2026-09-12T19:20:36.081898+00:00,,"The four shapes are too similar and lack a clear shared focal cue for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F06_density_m3,LOW,0.5115,F06_density,0,1,PLAY,1,1,713,185,0.009115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.42,2026-09-12T19:20:36.610482+00:00,,"Option 3 is a clear focal choice because it has the most dots, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,12,1,PASS,1,1,713,150,0.008065,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.41,2026-09-12T19:20:37.571376+00:00,,"The four shapes are too similar and lack a clear shared focal option.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,6,8,PLAY,1,1,713,235,0.010615,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.41,2026-09-12T19:20:38.109666+00:00,,"The numbered ordering gives a simple shared focal rule: choose the lowest-labeled option.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,5,20,PASS,1,1,713,323,0.013255,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.16,2026-09-12T19:20:38.720654+00:00,,"Multiple options have plausible focal features, so I don't have a reliably unique basis for matching.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,15,8,PASS,1,1,713,190,0.009265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.06,2026-09-12T19:20:38.818540+00:00,,"The four shapes are too similar and lack a clear focal feature for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,19,7,PLAY,1,1,713,426,0.016345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.26,2026-09-12T19:20:39.182796+00:00,,"The 2x2 square in option 1 is the most simple and focal, giving a reliable shared basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,16,17,PLAY,1,1,713,308,0.012805,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.51,2026-09-12T19:20:39.723847+00:00,,"Option 1 is a natural focal point because it is first and matches the common left-to-right light-to-dark progression.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,17,4,PLAY,1,1,713,311,0.012895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.87,2026-09-12T19:20:39.806073+00:00,,"Option 1 is a natural focal point because it is first and has the conventional left-to-right lightening gradient.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,4,22,PASS,1,1,713,347,0.013975,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.94,2026-09-12T19:20:40.026437+00:00,,"No option has a uniquely salient feature that would make matching reliably predictable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,9,18,PLAY,1,1,713,162,0.008425,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.51,2026-09-12T19:20:40.589903+00:00,,"The triangle is uniquely the simplest and most salient option, giving a reliable shared basis.  
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,3,15,PLAY,1,1,713,129,0.007435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.65,2026-09-12T19:20:41.226117+00:00,,"Option 4 is uniquely symmetric and salient, giving a clear focal point for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,2,8,PASS,1,1,713,329,0.013435,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.09,2026-09-12T19:20:41.831878+00:00,,"The options lack a uniquely compelling focal choice, so matching would be uncertain.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,5,15,PASS,1,1,713,285,0.012115,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.63,2026-09-12T19:20:41.881795+00:00,,"Multiple plausible focal features (symmetry, orientation, shape resemblance) make matching unreliable here.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F23_ellipseang_m1,LOW,0.5461,F23_ellipseang,8,13,PLAY,1,1,713,237,0.010675,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.52,2026-09-12T19:20:42.127211+00:00,,"The first upright ellipse is a natural focal choice, giving a reliable basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F29_arcdir_m1,HIGH,1.0,F29_arcdir,11,10,PLAY,1,1,713,199,0.009535,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.20,2026-09-12T19:20:42.921727+00:00,,"Option 3 is the salient positive “smile,” giving a clear shared focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,7,11,PLAY,1,1,713,136,0.007645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.17,2026-09-12T19:20:42.980446+00:00,,"The largest circle is a clear shared focal feature, making coordination reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F19_fill_m1,HIGH,1.0,F19_fill,15,5,PLAY,1,1,713,203,0.009655,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.73,2026-09-12T19:20:43.548163+00:00,,"The solid unpatterned circle is a uniquely simple focal choice, so matching seems reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,11,10,PASS,1,1,713,290,0.012265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.89,2026-09-12T19:20:44.001931+00:00,,"There are several plausible but competing focal rules here, so matching is not reliably grounded.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F17_gapclock_m1,HIGH,1.0,F17_gapclock,0,0,PLAY,1,1,713,160,0.008365,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.86,2026-09-12T19:20:44.455392+00:00,,"Option 1 is the most salient because it looks like a standard letter “C,” giving a clear shared basis.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F07_contrast_m3,HIGH,1.0,F07_contrast,8,14,PASS,1,1,713,265,0.011515,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.23,2026-09-12T19:20:44.954080+00:00,,"Multiple plausible focal choices (darkest, lightest, or first) make coordination unreliable here.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F02_size_m3,HIGH,0.9583,F02_size,10,5,PLAY,1,1,713,82,0.006025,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,2.57,2026-09-12T19:20:46.120074+00:00,,"The largest circle is the clearest salient focal point, so matching should be reliable.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,7,21,PASS,1,1,713,346,0.013945,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.96,2026-09-12T19:20:46.143220+00:00,,"The four blobs lack a clear shared focal feature, so matching would depend on arbitrary tie-breaking.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,8,16,PLAY,1,1,713,157,0.008275,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.53,2026-09-12T19:20:46.509681+00:00,,"The triangle is uniquely simple and salient among the four shapes, giving a reliable coordination cue.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,14,12,PASS,1,1,713,230,0.010465,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.93,2026-09-12T19:20:46.810828+00:00,,"The four blobs are too similar and lack a clear shared focal option for reliable coordination.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,17,18,PLAY,1,1,713,217,0.010075,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.00,2026-09-12T19:20:47.123720+00:00,,"Option 4 is the most symmetric and visually salient, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,18,22,PASS,1,1,713,358,0.014305,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.18,2026-09-12T19:20:47.205504+00:00,,"Several plausible focal choices exist (leftmost, most lines, fewest lines), so matching is not reliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F11_noise_m3,LOW,0.4105,F11_noise,9,21,PASS,1,1,713,135,0.007615,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.13,2026-09-12T19:20:47.586200+00:00,,"The four random-looking grids lack a clear shared focal feature, so matching would be unreliable.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F27_linecount_m1,LOW,0.3564,F27_linecount,5,13,PLAY,1,1,713,236,0.010645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.14,2026-09-12T19:20:48.062340+00:00,,"The unique option whose label matches its number of lines is a strong shared cue.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,7,20,PASS,1,1,713,364,0.014485,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.30,2026-09-12T19:20:48.530065+00:00,,"Several options have plausible focal features, so my selection rule would be ambiguous.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F41_contain_m1,HIGH,1.0,F41_contain,4,4,PASS,1,1,713,314,0.012985,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.09,2026-09-12T19:20:48.925539+00:00,,"The four options are largely symmetric with no uniquely focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F09_convexity_m3,HIGH,0.9583,F09_convexity,0,1,PLAY,1,1,713,152,0.008125,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.01,2026-09-12T19:20:49.972306+00:00,,"Option 2 is the most distinctive and nameable focal choice, so matching should be reliable.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F32_tilt_m1,HIGH,1.0,F32_tilt,10,21,PLAY,1,1,713,111,0.006895,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.25,2026-09-12T19:20:50.455336+00:00,,"Option 4 is uniquely symmetric and salient, giving a reliable focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,14,23,PASS,1,1,713,290,0.012265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.60,2026-09-12T19:20:50.600127+00:00,,"Several options are salient in different ways, so there is no clearly dominant focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,4,23,PLAY,1,1,713,124,0.007285,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.29,2026-09-12T19:20:50.872268+00:00,,"Option 2 is uniquely distinctive, giving a clear focal basis for coordination.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F30_pairratio_m1,LOW,0.4956,F30_pairratio,14,0,PLAY,1,1,713,209,0.009835,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.02,2026-09-12T19:20:51.160574+00:00,,"Option 3 is a clear focal point because the two circles are closest in size.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,11,14,PLAY,1,1,713,265,0.011515,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.80,2026-09-12T19:20:51.314812+00:00,,"The two-panel rectangle is the simplest and most salient focal choice.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,3,13,PLAY,1,1,713,302,0.012625,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.81,2026-09-12T19:20:51.934084+00:00,,"Option 1 is uniquely distinctive, giving a clear focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F37_mirroraxis_m1,LOW,0.5035,F37_mirroraxis,12,2,PLAY,1,1,713,148,0.008005,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.73,2026-09-12T19:20:52.261692+00:00,,"Option 2 is the most upright and symmetric, giving a clear shared focal basis.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F04_complexity_m3,HIGH,1.0,F04_complexity,4,9,PASS,1,1,713,271,0.011695,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.07,2026-09-12T19:20:52.885894+00:00,,"Several options are salient in different ways, so there is no clear shared basis for reliable matching.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F12_mirror_m3,LOW,0.2988,F12_mirror,18,11,PASS,1,1,713,131,0.007495,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.20,2026-09-12T19:20:53.122987+00:00,,"The four shapes are too similar and lack a clear focal option.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F22_star_m1,HIGH,0.9583,F22_star,10,18,PLAY,1,1,713,226,0.010345,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.37,2026-09-12T19:20:54.342520+00:00,,"Option 2 is uniquely simple and visually distinct, giving a strong focal basis for matching.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,10,11,PLAY,1,1,713,290,0.012265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.37,2026-09-12T19:20:54.437496+00:00,,"The labels and reading order provide a clear shared focal point despite the visual symmetry.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F38_endcap_m1,HIGH,1.0,F38_endcap,12,5,PLAY,1,1,713,136,0.007645,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.37,2026-09-12T19:20:54.529239+00:00,,"Option 3 is uniquely distinctive due to the circular endpoints, giving a clear focal point.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F05_orient_m3,LOW,0.3431,F05_orient,0,14,PASS,1,1,713,191,0.009295,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,4.71,2026-09-12T19:20:55.309251+00:00,,"The blobs have no clear uniquely salient focal option, so matching would be arbitrary.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,2,13,PLAY,1,1,713,487,0.018175,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,8.40,2026-09-12T19:20:55.524284+00:00,,"Option 2 is uniquely focal because its label matches the number of vertical sections shown.
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F03_symmetry_m3,HIGH,1.0,F03_symmetry,19,18,PLAY,1,1,713,184,0.009085,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,3.94,2026-09-12T19:20:55.874121+00:00,,"The triangle is the most salient and uniquely simple option, giving a reliable focal point.
+
+DECISION: PLAY",
+PP-FULL-20260912_191607,full,F28_dotarrange_m1,LOW,0.4894,F28_dotarrange,9,19,PASS,1,1,713,256,0.011245,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,5.67,2026-09-12T19:20:56.122559+00:00,,"Several options are similarly symmetric or simple, so there is no uniquely reliable focal choice.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F33_hole_m1,LOW,0.5035,F33_hole,1,11,PASS,1,1,713,369,0.014635,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,7.03,2026-09-12T19:20:58.347619+00:00,,"Several options are plausible focal points depending on whether one emphasizes the largest or smallest hole, so coordination is not reliable.
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F24_subdiv_m1,HIGH,1.0,F24_subdiv,4,11,PASS,1,1,713,290,0.012265,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,6.46,2026-09-12T19:20:58.720985+00:00,,"The options are too similar and lack a clear shared focal point beyond arbitrary heuristics.
+
+DECISION: PASS",
+PP-FULL-20260912_191607,full,F35_gradang_m1,LOW,0.3076,F35_gradang,18,10,PASS,1,1,713,482,0.018025,cbc2592c,8ee3a56e,gpt-5.5-2026-04-23,9.26,2026-09-12T19:21:00.129499+00:00,,"The four gradients are too symmetric with several plausible focal conventions, so matching is not reliable.
+
+DECISION: PASS",

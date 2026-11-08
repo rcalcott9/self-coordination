@@ -1,0 +1,280 @@
+{
+ "cells": {
+  "GPT-5.5|same_model": {
+   "model": "GPT-5.5",
+   "condition": "same_model",
+   "records": 64,
+   "n_valid": 64,
+   "nC": 1,
+   "nD": 63,
+   "invalid": 0,
+   "coop": 0.015625,
+   "wilson_lo": 0.0027635418927853816,
+   "wilson_hi": 0.08334101684786545,
+   "C_when_A_is_C": "1/32",
+   "C_when_B_is_C": "0/32"
+  },
+  "GPT-5.5|different_model": {
+   "model": "GPT-5.5",
+   "condition": "different_model",
+   "records": 64,
+   "n_valid": 64,
+   "nC": 0,
+   "nD": 64,
+   "invalid": 0,
+   "coop": 0.0,
+   "wilson_lo": 0.0,
+   "wilson_hi": 0.05662406063551054,
+   "C_when_A_is_C": "0/32",
+   "C_when_B_is_C": "0/32"
+  },
+  "GPT-5.5|fixed_response": {
+   "model": "GPT-5.5",
+   "condition": "fixed_response",
+   "records": 64,
+   "n_valid": 64,
+   "nC": 6,
+   "nD": 58,
+   "invalid": 0,
+   "coop": 0.09375,
+   "wilson_lo": 0.04367825232989313,
+   "wilson_hi": 0.18982879693645915,
+   "C_when_A_is_C": "6/32",
+   "C_when_B_is_C": "0/32"
+  },
+  "Claude Opus 5|same_model": {
+   "model": "Claude Opus 5",
+   "condition": "same_model",
+   "records": 64,
+   "n_valid": 64,
+   "nC": 64,
+   "nD": 0,
+   "invalid": 0,
+   "coop": 1.0,
+   "wilson_lo": 0.9433759393644894,
+   "wilson_hi": 1.0,
+   "C_when_A_is_C": "32/32",
+   "C_when_B_is_C": "32/32"
+  },
+  "Claude Opus 5|different_model": {
+   "model": "Claude Opus 5",
+   "condition": "different_model",
+   "records": 64,
+   "n_valid": 64,
+   "nC": 64,
+   "nD": 0,
+   "invalid": 0,
+   "coop": 1.0,
+   "wilson_lo": 0.9433759393644894,
+   "wilson_hi": 1.0,
+   "C_when_A_is_C": "32/32",
+   "C_when_B_is_C": "32/32"
+  },
+  "Claude Opus 5|fixed_response": {
+   "model": "Claude Opus 5",
+   "condition": "fixed_response",
+   "records": 64,
+   "n_valid": 64,
+   "nC": 64,
+   "nD": 0,
+   "invalid": 0,
+   "coop": 1.0,
+   "wilson_lo": 0.9433759393644894,
+   "wilson_hi": 1.0,
+   "C_when_A_is_C": "32/32",
+   "C_when_B_is_C": "32/32"
+  }
+ },
+ "paired_payoffs": {
+  "GPT-5.5|same_model": {
+   "n_pairs": 64,
+   "mean_focal": 3.0625,
+   "mean_joint": 6.125,
+   "outcomes": {
+    "CC": 0,
+    "CD": 1,
+    "DC": 1,
+    "DD": 62
+   },
+   "dominance_gain": 0.046875
+  },
+  "GPT-5.5|different_model": {
+   "n_pairs": 64,
+   "mean_focal": 10.0,
+   "mean_joint": 10.0,
+   "outcomes": {
+    "CC": 0,
+    "CD": 0,
+    "DC": 64,
+    "DD": 0
+   },
+   "dominance_gain": 0.0
+  },
+  "GPT-5.5|fixed_response": {
+   "n_pairs": 64,
+   "mean_focal": 2.828125,
+   "mean_joint": 6.4375,
+   "outcomes": {
+    "CC": 0,
+    "CD": 6,
+    "DC": 1,
+    "DD": 57
+   },
+   "dominance_gain": 0.28125
+  },
+  "Claude Opus 5|same_model": {
+   "n_pairs": 64,
+   "mean_focal": 8.0,
+   "mean_joint": 16.0,
+   "outcomes": {
+    "CC": 64,
+    "CD": 0,
+    "DC": 0,
+    "DD": 0
+   },
+   "dominance_gain": 2.0
+  },
+  "Claude Opus 5|different_model": {
+   "n_pairs": 64,
+   "mean_focal": 0.0,
+   "mean_joint": 10.0,
+   "outcomes": {
+    "CC": 0,
+    "CD": 64,
+    "DC": 0,
+    "DD": 0
+   },
+   "dominance_gain": 3.0
+  },
+  "Claude Opus 5|fixed_response": {
+   "n_pairs": 64,
+   "mean_focal": 8.0,
+   "mean_joint": 16.0,
+   "outcomes": {
+    "CC": 64,
+    "CD": 0,
+    "DC": 0,
+    "DD": 0
+   },
+   "dominance_gain": 2.0
+  }
+ },
+ "contrasts": [
+  {
+   "model": "GPT-5.5",
+   "contrast": "Same model - Fixed response",
+   "diff": -0.078125,
+   "fisher_p": 0.11466871519108893
+  },
+  {
+   "model": "GPT-5.5",
+   "contrast": "Same model - Different model",
+   "diff": 0.015625,
+   "fisher_p": 1.0
+  },
+  {
+   "model": "GPT-5.5",
+   "contrast": "Different model - Fixed response",
+   "diff": -0.09375,
+   "fisher_p": 0.02764739773381986
+  },
+  {
+   "model": "Claude Opus 5",
+   "contrast": "Same model - Fixed response",
+   "diff": 0.0,
+   "fisher_p": 1.0
+  },
+  {
+   "model": "Claude Opus 5",
+   "contrast": "Same model - Different model",
+   "diff": 0.0,
+   "fisher_p": 1.0
+  },
+  {
+   "model": "Claude Opus 5",
+   "contrast": "Different model - Fixed response",
+   "diff": 0.0,
+   "fisher_p": 1.0
+  }
+ ],
+ "explanation_codes": {
+  "GPT-5.5|same_model": {
+   "shared_procedure|C": "1/1",
+   "shared_procedure|D": "0/63",
+   "fixed_action_dominance|C": "0/1",
+   "fixed_action_dominance|D": "62/63",
+   "social_or_joint|C": "0/1",
+   "social_or_joint|D": "0/63",
+   "prerecorded_or_causal|C": "0/1",
+   "prerecorded_or_causal|D": "0/63",
+   "misreads_game|C": "0/1",
+   "misreads_game|D": "0/63"
+  },
+  "GPT-5.5|different_model": {
+   "shared_procedure|C": "0/0",
+   "shared_procedure|D": "0/64",
+   "fixed_action_dominance|C": "0/0",
+   "fixed_action_dominance|D": "64/64",
+   "social_or_joint|C": "0/0",
+   "social_or_joint|D": "0/64",
+   "prerecorded_or_causal|C": "0/0",
+   "prerecorded_or_causal|D": "0/64",
+   "misreads_game|C": "0/0",
+   "misreads_game|D": "0/64"
+  },
+  "GPT-5.5|fixed_response": {
+   "shared_procedure|C": "6/6",
+   "shared_procedure|D": "0/58",
+   "fixed_action_dominance|C": "0/6",
+   "fixed_action_dominance|D": "49/58",
+   "social_or_joint|C": "1/6",
+   "social_or_joint|D": "0/58",
+   "prerecorded_or_causal|C": "1/6",
+   "prerecorded_or_causal|D": "20/58",
+   "misreads_game|C": "0/6",
+   "misreads_game|D": "0/58"
+  },
+  "Claude Opus 5|same_model": {
+   "shared_procedure|C": "64/64",
+   "shared_procedure|D": "0/0",
+   "fixed_action_dominance|C": "2/64",
+   "fixed_action_dominance|D": "0/0",
+   "social_or_joint|C": "19/64",
+   "social_or_joint|D": "0/0",
+   "prerecorded_or_causal|C": "0/64",
+   "prerecorded_or_causal|D": "0/0",
+   "misreads_game|C": "0/64",
+   "misreads_game|D": "0/0"
+  },
+  "Claude Opus 5|different_model": {
+   "shared_procedure|C": "57/64",
+   "shared_procedure|D": "0/0",
+   "fixed_action_dominance|C": "7/64",
+   "fixed_action_dominance|D": "0/0",
+   "social_or_joint|C": "58/64",
+   "social_or_joint|D": "0/0",
+   "prerecorded_or_causal|C": "1/64",
+   "prerecorded_or_causal|D": "0/0",
+   "misreads_game|C": "24/64",
+   "misreads_game|D": "0/0"
+  },
+  "Claude Opus 5|fixed_response": {
+   "shared_procedure|C": "64/64",
+   "shared_procedure|D": "0/0",
+   "fixed_action_dominance|C": "3/64",
+   "fixed_action_dominance|D": "0/0",
+   "social_or_joint|C": "27/64",
+   "social_or_joint|D": "0/0",
+   "prerecorded_or_causal|C": "3/64",
+   "prerecorded_or_causal|D": "0/0",
+   "misreads_game|C": "0/64",
+   "misreads_game|D": "0/0"
+  }
+ },
+ "spend": {
+  "run_usd": 1.99287
+ },
+ "status_counts": {
+  "ok": 384
+ }
+}

@@ -1,0 +1,2 @@
+{"ts": "2026-10-17T20:25:28+00:00", "argv": ["code/run.py", "--mock", "--concurrency", "12"], "mode": "mock", "pending": 384, "prior": 51.31618500000011, "run_spent_prior": 0.0, "frozen_sha256": "86eaeb529ca44a6b3d592f33eff65b531f53b8db181d103aaff389055b7b33e8"}
+{"ts": "2026-10-17T20:25:29+00:00", "records": 384, "by_status": {"ok": 375, "invalid_response": 9, "refusal": 0, "api_failure": 0}, "run_spent": 2.7456, "cumulative": 54.06179, "refusals": 0, "bank_sealed": ["Claude Opus 5", "GPT-5.5"], "stop_reason": null}

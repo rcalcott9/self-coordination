@@ -1,0 +1,11 @@
+expansion battery: 30 stimuli
+
+=== GPT-5 - expansion ===
+    Stage A (30 new x n=60)        rc=0    1086s
+    Stage B (30 new)               rc=0    1163s
+
+=== Claude Opus 4.5 - expansion ===
+    Stage A (30 new x n=60)        rc=0     554s
+    Stage B (30 new)               rc=0    4410s
+
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/analysis/expansion_run.json

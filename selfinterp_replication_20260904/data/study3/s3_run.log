@@ -1,0 +1,27 @@
+[pre] deployments: 0
+  deployed s3-ft sku=GlobalStandard rpm=48.0 at 2026-09-05T20:41:12.460680+00:00
+  ft-S 400/1480 life=9m
+  ft-S 800/1480 life=19m
+  ft-S 1200/1480 life=29m
+  ft-S: served OK, unusable=0/1480
+
+[S-split] divergent candidates=35  agreement=58
+[S-split] selected 35 divergent, 25 agreement
+  ft-C 400/720 life=46m
+  ft-C: served OK, unusable=1/720
+
+[C-split CONFIRMED] divergent=33  agreement=24  (gate needs >= 15 divergent)
+
+*** GATE PASSED -- proceeding to focal evaluation ***
+
+focal calls: 2291
+  focal 400/2291 life=66m
+  focal 800/2291 life=79m
+  focal 1200/2291 life=92m
+  focal 1600/2291 life=104m
+  focal 2000/2291 life=117m
+  focal: served OK, unusable=0/2291
+[delete] HTTP 202 at 2026-09-05T22:47:14.310944+00:00
+[cleanup] deployments remaining: 0 (verified)
+
+lifetime 2.11h  hosting $3.59

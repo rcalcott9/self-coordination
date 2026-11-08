@@ -1,0 +1,9 @@
+  deployed gate2a-probe-dev: gpt-4.1-mini-2025-04-14.ft-c531948cc65b41ef80c9e2c753f18555-gate1 sku=DeveloperTier
+finish_reason: {'stop': 60}
+completion_tokens: min=2 max=49 mean=9.7
+replies with JSON: 12/60
+   '{"caffeine_content": 0, "leaf_size": 0, "oxidation_level": 0, "steeping_time": 0, "resteep_potential": 0' | finish: stop
+   '{"board_thickness": 50, "surface_area": 50, "knife_mark_resistance": 50, "grip_stability": 50, "ease_of_cleaning": 50' | finish: stop
+bare A/B: 45/60
+[delete] gate2a-probe-dev: HTTP 202
+[cleanup] remaining: 1

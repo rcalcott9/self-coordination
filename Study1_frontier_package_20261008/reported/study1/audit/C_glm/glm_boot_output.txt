@@ -1,0 +1,16 @@
+== gpt: n per array {12}; arrays at 0/12: 1, at 12/12: 8
+  unadj: point 5.098 (results.json 5.098) | model SE 0.531 -> Wald [4.06,6.14] | Pearson dispersion 3.03 -> quasi-SE 0.924 [3.29,6.91]
+     hierarchical boot: median 5.02, mean 5.11, SD 1.13, CI [3.03, 7.6], max |slope| 10.0, n>|20| 0, nan 0
+     array-only boot:   median 5.16, mean 5.21, SD 1.05, CI [3.28, 7.37], max |slope| 10.0, n>|20| 0
+  adj: point 3.349 (results.json 3.348) | model SE 0.573 -> Wald [2.23,4.47] | Pearson dispersion 1.70 -> quasi-SE 0.748 [1.88,4.81]
+     hierarchical boot: median 3.36, mean 3.43, SD 1.04, CI [1.61, 5.68], max |slope| 8.6, n>|20| 0, nan 0
+     array-only boot:   median 3.42, mean 3.49, SD 0.86, CI [2.03, 5.32], max |slope| 8.3, n>|20| 0
+  r(y,A) = 0.54
+== claude: n per array {12}; arrays at 0/12: 3, at 12/12: 23
+  unadj: point 5.391 (results.json 5.391) | model SE 0.607 -> Wald [4.20,6.58] | Pearson dispersion 5.04 -> quasi-SE 1.362 [2.72,8.06]
+     hierarchical boot: median 5.39, mean 5.52, SD 1.70, CI [2.64, 8.98], max |slope| 18.9, n>|20| 0, nan 0
+     array-only boot:   median 5.47, mean 5.62, SD 1.59, CI [2.84, 8.97], max |slope| 13.8, n>|20| 0
+  adj: point 2.814 (results.json 2.814) | model SE 0.727 -> Wald [1.39,4.24] | Pearson dispersion 5.34 -> quasi-SE 1.681 [-0.48,6.11]
+     hierarchical boot: median 2.70, mean 2.79, SD 2.06, CI [-0.89, 7.08], max |slope| 20.4, n>|20| 1, nan 0
+     array-only boot:   median 2.72, mean 2.84, SD 2.17, CI [-0.6, 6.81], max |slope| 52.7, n>|20| 1
+  r(y,A) = 0.59

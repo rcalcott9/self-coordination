@@ -1,0 +1,7 @@
+stimulus,type,framing,p_choose_A_gpt,p_choose_A_claude,n_gpt,n_claude,match_gpt_gpt,match_claude_claude,match_gpt_claude,gpt_self_advantage,gpt_self_advantage__lo,gpt_self_advantage__hi,claude_self_advantage,claude_self_advantage__lo,claude_self_advantage__hi,classification
+proto,focal,generic_self_instance,1,1,60,60,1,1,1,0,0,0,0,0,0,shared_focal
+nd2,focal,generic_self_instance,0.0167,0,60,60,0.9672,1,0.9833,-0.0161,-0.045,0,0.0167,0,0.05,shared_focal
+inkblot,matched,generic_self_instance,0.9833,0.5,60,60,0.9672,0.5,0.5,0.4672,0.405,0.5,0,0,0,GPT_specific
+rot,matched,generic_self_instance,0.3,0.1333,60,60,0.58,0.7689,0.6467,-0.0667,-0.0933,-0.0106,0.1222,0.0117,0.2533,Claude_specific
+mirror,matched,generic_self_instance,0.45,0.5,60,60,0.505,0.5,0.5,0.005,-0.0033,0.0622,0,-0.0078,0.0333,universally_flat
+noise,matched,generic_self_instance,0.4833,0.5,60,60,0.5006,0.5,0.5,6e-4,0,0.045,0,0,0,universally_flat

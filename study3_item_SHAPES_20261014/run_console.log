@@ -1,0 +1,21 @@
+[format_check 1] gpt-5.5|fc_action|0 stop=completed out=279 ok=True $0.0093 spent=$0.0093 
+[format_check 2] claude-opus-5|fc_action|0 stop=end_turn out=194 ok=True $0.0062 spent=$0.0155 
+[format_check 3] gpt-5.5|fc_action|1 stop=completed out=504 ok=True $0.0161 spent=$0.0316 
+[format_check 4] claude-opus-5|fc_action|1 stop=end_turn out=169 ok=True $0.0056 spent=$0.0372 
+[format_check 5] gpt-5.5|fc_prediction|0 stop=completed out=551 ok=True $0.0183 spent=$0.0556 
+[format_check 6] claude-opus-5|fc_prediction|0 stop=end_turn out=184 ok=True $0.0071 spent=$0.0627 
+[format_check 7] gpt-5.5|fc_prediction|1 stop=completed out=559 ok=False $0.0186 spent=$0.0813 
+{
+ "cap": 2.0,
+ "prior_spend": 0.04687,
+ "max_output_tokens": 4000,
+ "format_check": {
+  "stop": "format failure on gpt-5.5|fc_prediction|1: 'KEEP: 92%\\nCIRCLE (label): 4%\\nTRIANGLE (label): 1%\\nSTAR (label): 2%\\nSQUARE (label): 1%'",
+  "spent": 0.08126499999999999
+ },
+ "stop": "format failure on gpt-5.5|fc_prediction|1: 'KEEP: 92%\\nCIRCLE (label): 4%\\nTRIANGLE (label): 1%\\nSTAR (label): 2%\\nSQUARE (label): 1%'",
+ "run_spend": 0.08126499999999999,
+ "cumulative": 0.128135,
+ "n_calls": 7
+}
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study3_item_SHAPES_20261014/results/run_20261014_002715

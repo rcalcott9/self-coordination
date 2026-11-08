@@ -1,0 +1,13 @@
+model,config,contrast,estimate,ci_lo,ci_hi,ci_method,source_key,source,planning_status
+GPT-5.5,effort low,"partner (COPY - DIFFERENT), all items",0.14,0.093,0.188,"item-paired bootstrap, 20,000; Wilcoxon p",G1,"study_playpass_gpt/results/{RESULT.md, partner_x_effort_REPORT.txt}",not planned in advance
+GPT-5.5,effort low,"policy (HIGH - LOW), COPY",0.38,0.22,0.543,item bootstrap,G1,"study_playpass_gpt/results/{RESULT.md, partner_x_effort_REPORT.txt}",not planned in advance
+GPT-5.5,effort low,"policy (HIGH - LOW), DIFFERENT",0.453,0.29,0.613,item bootstrap,G1,"study_playpass_gpt/results/{RESULT.md, partner_x_effort_REPORT.txt}",not planned in advance
+GPT-5.5,effort low,interaction (LOW shift - HIGH shift),0.0733,-0.02,0.167,item drops resampled within class; Mann-Whitney p .157,G1,"study_playpass_gpt/results/{RESULT.md, partner_x_effort_REPORT.txt}",not planned in advance
+Claude Opus 5,"adaptive, effort low","partner (COPY - DIFFERENT), all items",0.155,0.025,0.292,"unpaired item bootstrap (separate item draw per partner), 20,000",O1,Stag/opus_playpass/results/REPORT_2x2.txt,not planned in advance
+Claude Opus 5,"adaptive, effort low","policy (HIGH - LOW), COPY",0.19,0.08,0.31,"item bootstrap; point frozen (O1), CI from S","O1, S",Stag/opus_playpass/results/REPORT_2x2.txt; paper_assembly_20261010/tables/study2_sensitivity.json,not planned in advance
+Claude Opus 5,"adaptive, effort low","policy (HIGH - LOW), DIFFERENT",0.453,0.283,0.62,"item bootstrap; point frozen (O1), CI from S","O1, S",Stag/opus_playpass/results/REPORT_2x2.txt; paper_assembly_20261010/tables/study2_sensitivity.json,not planned in advance
+Claude Opus 5,"adaptive, effort low",interaction (LOW shift - HIGH shift),0.263,0.057,0.463,"unpaired item bootstrap, 20,000",O1,Stag/opus_playpass/results/REPORT_2x2.txt,not planned in advance
+Qwen step-316,thinking off,"partner (COPY - DIFFERENT), all items",0.155,0.103,0.206,scenario-cluster bootstrap; scenario sign-flip p,Q1,Stag/plunkett_qwen/QWEN_STUDY2_RESULT.md,planned: PI instruction
+Qwen step-316,thinking off,"policy (CLEAR - WEAK), COPY",0.133,0.029,0.247,scenario-cluster bootstrap,Q1,Stag/plunkett_qwen/QWEN_STUDY2_RESULT.md,planned: PI instruction
+Qwen step-316,thinking off,"policy (CLEAR - WEAK), DIFFERENT",0.193,0.075,0.309,scenario-cluster bootstrap,Q1,Stag/plunkett_qwen/QWEN_STUDY2_RESULT.md,planned: PI instruction
+Qwen step-316,thinking off,"interaction (LOW shift - HIGH shift), sign converted from frozen -.059",0.059,-0.044,0.157,scenario-cluster bootstrap; class-label permutation p .26,Q1,Stag/plunkett_qwen/QWEN_STUDY2_RESULT.md,planned: PI instruction

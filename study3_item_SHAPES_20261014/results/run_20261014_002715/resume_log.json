@@ -1,0 +1,19 @@
+{
+ "cap": 2.0,
+ "prior_spend": 0.04687,
+ "max_output_tokens": 4000,
+ "resumed_from_spend": 0.08126499999999999,
+ "parser": "selfplay.py with 2026-10-14 (label) amendment",
+ "format_check_resume": {
+  "stop": null,
+  "spent": 0.008180000000000007
+ },
+ "pilot": {
+  "stop": null,
+  "spent": 1.1936750000000005
+ },
+ "stop": null,
+ "run_spend": 1.2831200000000005,
+ "cumulative": 1.3299900000000004,
+ "n_calls": 128
+}

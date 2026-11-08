@@ -1,0 +1,63 @@
+=== Opus 4.8 robustness: select NEW pairs from the 45-stimulus universe ===
+    merged stageA           1+1 files ->  2700 rows, 45 stimuli
+    analyze A+B                          rc=0       5s
+    frozen selector (6 used stimuli excluded) rc=0       0s
+
+  7 NEW pairs selected
+     x6_oi_a          > x2_lg_ct          holdout +0.480  sal +0.026  aud -0.037
+     x6_oi_b          > x10_cen_b         holdout +0.517  sal -0.036  aud -0.004
+     x5_cs_sub        > x5_cs_b           holdout +0.239  sal +0.029  aud +0.024
+     proto            > x8_contr_a        holdout +0.508  sal +0.086  aud -0.012
+     b_spiral_cw      > x1_sym_hi         holdout +0.441  sal +0.043  aud -0.047
+     s_contrast       > c_contr_subtle    holdout +0.451  sal +0.075  aud -0.011
+     x9_dir_b         > b_tee_ell         holdout +0.405  sal -0.022  aud +0.041
+  independence check: no stimulus shared with the original 3-pair set  OK
+    payoff screen (n=10, safe [3, 9])  rc=0     133s
+
+  payoff screen: ATTEMPT at SAFE=9 = 0.4642857142857143  (limit 0.95)
+    Stage C (new pairs only)             rc=0     311s
+
+  NEW prospective sample (PRIMARY): 7 pairs, 538 trials
+     x6_oi_a          > x2_lg_ct         gap +0.007
+     x6_oi_b          > x10_cen_b        gap -0.032
+     x5_cs_sub        > x5_cs_b          gap +0.120
+     proto            > x8_contr_a       gap +0.083
+     b_spiral_cw      > x1_sym_hi        gap -0.130
+     s_contrast       > c_contr_subtle   gap -0.031
+     x9_dir_b         > b_tee_ell        gap +0.127
+     mean gap +0.0207   positive 4/7   permutation p = 0.12319
+     payoff gaps {3: 0.0, 5: 0.0, 7: 0.058, 9: 0.0951}
+
+  ORIGINAL 3-pair sample: 2 pairs, 480 trials
+     s_density        > d_dens_extreme   gap -0.017
+     c_open_cplx      > d_texture        gap +0.083
+     mean gap +0.0333   positive 1/2   permutation p = 0.10519
+     payoff gaps {3: 0.0, 5: 0.0, 7: 0.15, 9: -0.0167}
+
+  COMBINED (descriptive): 9 pairs, 1018 trials
+     s_density        > d_dens_extreme   gap -0.017
+     c_open_cplx      > d_texture        gap +0.083
+     x6_oi_a          > x2_lg_ct         gap +0.007
+     x6_oi_b          > x10_cen_b        gap -0.032
+     x5_cs_sub        > x5_cs_b          gap +0.120
+     proto            > x8_contr_a       gap +0.083
+     b_spiral_cw      > x1_sym_hi        gap -0.130
+     s_contrast       > c_contr_subtle   gap -0.031
+     x9_dir_b         > b_tee_ell        gap +0.127
+     mean gap +0.0235   positive 5/9   permutation p = 0.06350
+     payoff gaps {3: 0.0, 5: 0.0, 7: 0.1009, 9: 0.0419}
+
+  COMBINED excluding rot>b_spiral_cw (SENSITIVITY, not a justification): 9 pairs, 1018 trials
+     s_density        > d_dens_extreme   gap -0.017
+     c_open_cplx      > d_texture        gap +0.083
+     x6_oi_a          > x2_lg_ct         gap +0.007
+     x6_oi_b          > x10_cen_b        gap -0.032
+     x5_cs_sub        > x5_cs_b          gap +0.120
+     proto            > x8_contr_a       gap +0.083
+     b_spiral_cw      > x1_sym_hi        gap -0.130
+     s_contrast       > c_contr_subtle   gap -0.031
+     x9_dir_b         > b_tee_ell        gap +0.127
+     mean gap +0.0235   positive 5/9   permutation p = 0.06350
+     payoff gaps {3: 0.0, 5: 0.0, 7: 0.1009, 9: 0.0419}
+
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/analysis/opus48_robustness.json

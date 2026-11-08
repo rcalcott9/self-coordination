@@ -1,0 +1,94 @@
+{
+ "trial_loo": {
+  "rank": {
+   "M3 public+policy-specific": 0,
+   "M1 public-only": 1,
+   "M2 true-self-reliability": 2,
+   "M0 payoff-only": 3
+  },
+  "elpd_diff": {
+   "M3 public+policy-specific": 0.0,
+   "M1 public-only": -30.0,
+   "M2 true-self-reliability": -90.0,
+   "M0 payoff-only": -130.0
+  },
+  "dse": {
+   "M3 public+policy-specific": 0.0,
+   "M1 public-only": 7.7,
+   "M2 true-self-reliability": 11.0,
+   "M0 payoff-only": 12.0
+  },
+  "p_worse": {
+   "M3 public+policy-specific": NaN,
+   "M1 public-only": 1.0,
+   "M2 true-self-reliability": 1.0,
+   "M0 payoff-only": 1.0
+  },
+  "diag_diff": {
+   "M3 public+policy-specific": "",
+   "M1 public-only": "",
+   "M2 true-self-reliability": "",
+   "M0 payoff-only": ""
+  },
+  "diag_elpd": {
+   "M3 public+policy-specific": "",
+   "M1 public-only": "",
+   "M2 true-self-reliability": "",
+   "M0 payoff-only": ""
+  },
+  "p": {
+   "M3 public+policy-specific": 8.7,
+   "M1 public-only": 7.0,
+   "M2 true-self-reliability": 5.9,
+   "M0 payoff-only": 2.6
+  },
+  "elpd": {
+   "M3 public+policy-specific": -220.0,
+   "M1 public-only": -250.0,
+   "M2 true-self-reliability": -310.0,
+   "M0 payoff-only": -350.0
+  },
+  "se": {
+   "M3 public+policy-specific": 15.0,
+   "M1 public-only": 16.0,
+   "M2 true-self-reliability": 17.0,
+   "M0 payoff-only": 15.0
+  },
+  "weight": {
+   "M3 public+policy-specific": 0.92,
+   "M1 public-only": 0.08,
+   "M2 true-self-reliability": 0.0,
+   "M0 payoff-only": 0.0
+  }
+ },
+ "grouped": {
+  "M0 payoff-only": [
+   -166.19572036550716,
+   -116.5430279666638,
+   -61.220797033391726,
+   -76.02173730327137,
+   -105.6063311161478
+  ],
+  "M1 public-only": [
+   -140.54943786463633,
+   -575.7218096996509,
+   -66.88612293768969,
+   -62.04981289020628,
+   -670.3961366595984
+  ],
+  "M2 true-self-reliability": [
+   -164.9872260581776,
+   -161.7325861424905,
+   -63.98901245855188,
+   -93.31819402692543,
+   -136.28203719547318
+  ],
+  "M3 public+policy-specific": [
+   -98.48774490417702,
+   -202.75046303723911,
+   -77.50192461945893,
+   -51.94264394712121,
+   -726.1756573836232
+  ]
+ }
+}

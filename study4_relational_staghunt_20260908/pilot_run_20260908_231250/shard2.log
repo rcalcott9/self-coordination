@@ -1,0 +1,17 @@
+=== STAGE 2: CLAUDE-FOCAL RELATIONAL PILOT ===
+arrays 14  jobs 2688  this shard 576  (3/4)
+gpt gpt-5.5   claude claude-opus-5
+stimuli /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/stimuli_pilot  (green)
+locked  a1c9c4eb01e6118c
+run dir /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/pilot_run_20260908_231250
+
+    100/576
+    200/576
+    300/576
+    400/576
+    500/576
+
+rows 576  transport_fail 29
+tokens in 595,544  out 75,928
+projected combined spend $41.07 (basis $0.0153/call)
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/pilot_run_20260908_231250/data/pilot_s2of4.jsonl

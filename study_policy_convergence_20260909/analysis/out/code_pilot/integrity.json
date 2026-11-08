@@ -1,0 +1,150 @@
+{
+ "gates": [
+  {
+   "gate": "single_prompt_generation",
+   "pass_": true,
+   "value": [
+    "0339bee6"
+   ],
+   "note": "MASTER_DESIGN threat 6: never combine incompatible prompt generations."
+  },
+  {
+   "gate": "expected_prompt_hash",
+   "pass_": true,
+   "value": [
+    "0339bee6"
+   ],
+   "expected": "0339bee6"
+  },
+  {
+   "gate": "checkpoint_requested_eq_returned",
+   "pass_": true,
+   "value": []
+  }
+ ],
+ "excluded_cells": [
+  {
+   "model": "gpt-4-turbo-2024-04-09",
+   "item": "code_error_001",
+   "reason": "n=47 < floor 48",
+   "action": "RETAINED and flagged; a real Stage 1 cell would be recollected"
+  }
+ ],
+ "per_model": {
+  "claude-opus-4-5-20251101": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "claude-opus-4-6": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "claude-opus-4-7": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "claude-opus-4-8": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "claude-opus-5": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "gpt-4-turbo-2024-04-09": {
+   "raw_rows": 576,
+   "usable": 575
+  },
+  "gpt-4.1-2025-04-14": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "gpt-5-2025-08-07": {
+   "raw_rows": 576,
+   "usable": 576
+  },
+  "gpt-5.5-2026-04-23": {
+   "raw_rows": 576,
+   "usable": 576
+  }
+ },
+ "prompt_hashes": {
+  "claude-opus-4-5-20251101": {
+   "0339bee6": 576
+  },
+  "claude-opus-4-6": {
+   "0339bee6": 576
+  },
+  "claude-opus-4-7": {
+   "0339bee6": 576
+  },
+  "claude-opus-4-8": {
+   "0339bee6": 576
+  },
+  "claude-opus-5": {
+   "0339bee6": 576
+  },
+  "gpt-4-turbo-2024-04-09": {
+   "0339bee6": 576
+  },
+  "gpt-4.1-2025-04-14": {
+   "0339bee6": 576
+  },
+  "gpt-5-2025-08-07": {
+   "0339bee6": 576
+  },
+  "gpt-5.5-2026-04-23": {
+   "0339bee6": 576
+  }
+ },
+ "checkpoint_mismatches": [],
+ "duplicates": [
+  {
+   "model": "claude-opus-4-5-20251101",
+   "n": 0
+  },
+  {
+   "model": "claude-opus-4-6",
+   "n": 0
+  },
+  {
+   "model": "claude-opus-4-7",
+   "n": 0
+  },
+  {
+   "model": "claude-opus-4-8",
+   "n": 0
+  },
+  {
+   "model": "claude-opus-5",
+   "n": 0
+  },
+  {
+   "model": "gpt-4-turbo-2024-04-09",
+   "n": 0
+  },
+  {
+   "model": "gpt-4.1-2025-04-14",
+   "n": 0
+  },
+  {
+   "model": "gpt-5-2025-08-07",
+   "n": 0
+  },
+  {
+   "model": "gpt-5.5-2026-04-23",
+   "n": 0
+  }
+ ],
+ "parse_failures": {
+  "claude-opus-4-5-20251101": 0,
+  "claude-opus-4-6": 0,
+  "claude-opus-4-7": 0,
+  "claude-opus-4-8": 0,
+  "claude-opus-5": 0,
+  "gpt-4-turbo-2024-04-09": 1,
+  "gpt-4.1-2025-04-14": 0,
+  "gpt-5-2025-08-07": 0,
+  "gpt-5.5-2026-04-23": 0
+ }
+}

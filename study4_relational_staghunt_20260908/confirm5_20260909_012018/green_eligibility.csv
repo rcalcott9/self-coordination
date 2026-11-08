@@ -1,0 +1,9 @@
+array_id,focal_models,excluded,green_eligible,n_eligible
+m1_nesting_v2,claude,n3_lw12_even_r92,n2_lw3_geom_r92|n4_lw4_even_r92|n7_lw2_even_r92,3
+m2_texture_v2,claude,n90_r46_lattice,n90_r46_random_nb|n200_r30_random|n45_r62_clustered,3
+m3_mirror_v0,claude,sym1,sym2|twinTrue|twinFalse,3
+m3_mirror_v2,claude,sym3,twinFalse|sym1|twinTrue,3
+m3_mirror_v4,claude,sym1,twinTrue|twinFalse|sym2,3
+m4_contour_v4,claude+gpt,closed1_lw6|crossing2_lw7,segments6_lw3|continuous1_lw9,2
+m5_numerosity_v2,claude,n7_row,n4_ring|n4_scatter|n10_block,3
+m5_numerosity_v4,claude,n9_ring,n4_row|n6_scatter|n3_block,3

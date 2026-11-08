@@ -1,0 +1,123 @@
+=== analysis inputs ===
+  Stage A   stageA_20260814_215755.csv
+  auditor   stageB_auditor_20260814_220806.csv
+  salience  stageB_salience_20260814_221100.csv
+
+=== outputs ===
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/data/fresh_self_match.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/data/auditor_predictions.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/data/salience_ratings.csv
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/matched_pairs.csv
+
+=== fresh self-match vs the confirmed (old-model) battery ===
+stimulus        model       new    old   delta    FC  flag
+a_chev_ud       gpt       0.519  0.548  -0.029  0.23  FALLBACK
+b_spiral_cw     gpt       0.519  0.790  -0.271  0.43  FALLBACK
+b_tee_ell       gpt       1.000  1.000  +0.000  1.00  
+c_contr_subtle  gpt       1.000  0.903  +0.097  1.00  
+c_open_cplx     gpt       1.000  0.537  +0.463  1.00  
+d_dens_extreme  gpt       1.000  0.934  +0.066  1.00  
+d_texture       gpt       0.528  0.903  -0.376  0.27  FALLBACK
+mirror          gpt       0.537  0.560  -0.023  0.30  FALLBACK
+noise           gpt       0.519  0.619  -0.099  0.30  FALLBACK
+proto           gpt       1.000  1.000  +0.000  1.00  
+rot             gpt       0.602  0.655  -0.052  0.53  FALLBACK
+s_arrow         gpt       0.817  0.602  +0.215  0.87  
+s_contrast      gpt       1.000  1.000  +0.000  1.00  
+s_convexity     gpt       1.000  0.741  +0.259  1.00  
+s_density       gpt       1.000  0.903  +0.097  1.00  
+
+==============================================================================
+CANDIDATE PAIRS - ranked for review. NOTHING IS SELECTED; approved=False on all.
+==============================================================================
+
+  DESCRIPTIVE HEURISTICS IN FORCE (not inferential criteria, no test is run):
+    LARGE_TRUE_Z   = 0.75   |z_true| at or above this = large true gap
+    SMALL_PUBLIC_Z = 0.35   |z_public| at or below this = small public gap
+    AUD_TOL        = 0.10   raw-scale advisory flag on |d_auditor|
+    TRUE_MIN       = 0.20   raw-scale advisory flag on  d_true
+
+  SCALES:
+    z_* = difference / battery SD    PRIMARY comparison scale
+    t_* = difference / SE            reliability diagnostic ONLY - the SEs are
+          recovered approximately from bootstrap intervals, so no |t| cutoff
+          (1.96 or otherwise) is used anywhere to decide whether a pair matches
+
+  THE TWO PUBLIC CONTROLS ARE DIFFERENT THINGS:
+    generic_salience    how focal the stimulus looks from public structure alone
+    auditor_prediction  an external MODEL's prediction of the focal model's
+                        self-coordination reliability - NOT a pure public
+                        baseline, since the auditor may hold model-specific
+                        knowledge about GPT or Claude
+    The strongest pair differs substantially in true self-match while differing
+    little in BOTH public measures.
+
+  score  = z_true - |z_salience|                 ranking aid only
+  score+ = z_true - |z_salience| - |z_auditor|   stricter ranking aid only
+
+  --------------------------------------------------------------------------
+  GPT-5 - 105 candidate pairs (21 meet both raw advisory flags)
+  all candidates by diagnostic: auditor_informed=4  ideal=2  non_diagnostic=51  salience_mismatch=48
+  top 8 by matching_score:
+     # high stimulus  low stimulus    d_tru d_sal d_aud  z_tru z_sal z_aud  t_tru t_sal t_aud   score score+ ||  HOd_tru HOd_sal HOd_aud  shrink   keep  diagnostic        kind                fb  appr
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     1 proto          a_chev_ud       +0.51 +0.03 +0.05  +2.31 +0.13 +0.70 +18.32 +0.28 +8.14   +2.18  +1.48 ||    +0.43   +0.06   +0.04   +0.08   +84%  auditor_informed  fallback_disparity   Y False
+     2 s_contrast     a_chev_ud       +0.51 +0.06 +0.03  +2.31 +0.25 +0.40 +18.32 +0.60 +3.84   +2.06  +1.65 ||    +0.43   -0.04   +0.03   +0.08   +84%  auditor_informed  fallback_disparity   Y False
+     3 c_contr_subtle a_chev_ud       +0.51 -0.09 +0.03  +2.31 -0.36 +0.41 +18.32 -1.34 +3.07   +1.94  +1.53 ||    +0.43   -0.16   +0.01   +0.08   +84%  salience_mismatch fallback_disparity   Y False
+     4 c_contr_subtle b_spiral_cw     +0.48 +0.08 +0.12  +2.15 +0.30 +1.58 +17.09 +1.66+12.48   +1.86  +0.28 ||    +0.50   +0.06   +0.08   -0.02  +103%  auditor_informed  fallback_disparity   Y False
+     5 b_tee_ell      a_chev_ud       +0.51 +0.12 +0.00  +2.31 +0.45 +0.02 +18.32 +0.84 +0.21   +1.85  +1.83 ||    +0.43   +0.12   +0.01   +0.08   +84%  salience_mismatch fallback_disparity   Y False
+     6 b_tee_ell      d_texture       +0.46 -0.07 -0.01  +2.06 -0.29 -0.10 +14.25 -0.53 -1.28   +1.77  +1.67 ||    +0.50   -0.06   -0.02   -0.04  +108%  ideal             fallback_disparity   Y False
+     7 c_contr_subtle rot             +0.43 +0.08 +0.11  +1.95 +0.30 +1.52  +7.69 +1.82+13.46   +1.65  +0.13 ||    +0.37   +0.03   +0.09   +0.06   +85%  auditor_informed  fallback_disparity   Y False
+     8 s_contrast     d_texture       +0.46 -0.13 +0.02  +2.06 -0.49 +0.28 +14.25 -1.18 +3.06   +1.57  +1.28 ||    +0.50   -0.22   +0.00   -0.04  +108%  salience_mismatch fallback_disparity   Y False
+
+    HELD-OUT SURVIVAL (top 8): 8/8 keep the sign of d_true; median retained +85% of the select-half gap
+
+    !! REPEATED-STIMULUS WARNING - in the top 8:
+       'a_chev_ud' appears in 4 of the top 8 pairs
+       'c_contr_subtle' appears in 3 of the top 8 pairs
+       The ranking is being dominated by this stimulus. Pairs are NOT
+       de-duplicated automatically - decide pair independence yourself.
+
+  DIAGNOSTIC LEGEND
+    ideal              large true self-coordination difference with little
+                       difference in either public measure.
+    auditor_informed   generic visual salience is matched, but an external model
+                       can partly anticipate the focal model's reliability
+                       difference.
+    salience_mismatch  the stimuli themselves differ visibly in apparent
+                       coordinability, so the pair does not cleanly isolate
+                       policy-specific knowledge.
+    non_diagnostic     true and public differences move together too strongly to
+                       separate self-policy knowledge from generic coordination
+                       difficulty - here, the true gap is below LARGE_TRUE_Z, so
+                       there is too little self-coordination difference to test.
+    incomplete         a measure was missing for one of the two stimuli.
+
+  What the ranking CANNOT see:
+   - it is blind to pair_kind; the clean vs fallback distinction must not be
+     collapsed, so check the kind and fb columns before accepting a pair;
+   - it does not de-duplicate: one stimulus can dominate the top of the list;
+   - a high score with a small |t_true| is a large gap that is not yet reliable.
+
+  SAMPLE SPLITTING: every score, rank, z and diagnostic above is computed on
+  the SELECT half only (AB/BA-balanced, deterministic). The HO* columns are the
+  same gaps re-estimated on the untouched HELD-OUT half; 'shrink' is select minus
+  holdout and 'keep' is the fraction of the select gap that survived. d_true >= 0
+  holds by construction on the select half ONLY - a negative HOd_tru means the
+  ordering itself was noise. Judge pairs on the held-out columns, not the score.
+
+  (payoff guidance below is based on top-ranked CANDIDATES - indicative only; re-run after approval)
+
+=== payoff grid ===
+  selected stimuli span true self-match 0.519-1.0
+  EV-neutral safe payoffs for that span: 5.19-10.0 points
+  default grid [3, 5, 7, 9]: 2 of 4 values fall inside the span [7, 9]
+  -> default grid brackets this range POORLY. Proposed alternative: [5.7, 7.0, 8.2, 9.5]
+     Rationale: safe payoffs are informative where they straddle the
+     EV-neutral point 10*p for the stimuli actually being bet on; a grid
+     entirely above or below that span yields near-0 or near-1 attempt
+     rates everywhere and cannot discriminate between the paired stimuli.
+     This change requires approval before Stage C (spec §7).
+
+STOP. Stage C must not run until the matched-pair table is reviewed and
+rows are marked approved=True in /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/matched_pairs.csv.

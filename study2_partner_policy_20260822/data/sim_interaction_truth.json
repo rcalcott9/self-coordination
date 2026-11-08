@@ -1,0 +1,38 @@
+{
+  "truth": "interaction",
+  "logit": {
+    "delta": 0.3,
+    "gamma": 0.25,
+    "theta": 1.4,
+    "alpha_shift": 0.0
+  },
+  "risk_difference": {
+    "gpt": {
+      "cells": {
+        "high|same": 0.8731,
+        "high|different": 0.6436,
+        "low|same": 0.635,
+        "low|different": 0.5908
+      },
+      "gap_same": 0.2381,
+      "gap_diff": 0.0528,
+      "interaction_rd": 0.1853,
+      "partner_main_rd": 0.1368
+    },
+    "claude": {
+      "cells": {
+        "high|same": 0.8888,
+        "high|different": 0.6731,
+        "low|same": 0.6647,
+        "low|different": 0.6217
+      },
+      "gap_same": 0.2241,
+      "gap_diff": 0.0515,
+      "interaction_rd": 0.1726,
+      "partner_main_rd": 0.1294
+    }
+  },
+  "n_per_cell": 30,
+  "seed": 20260822,
+  "sha8_of_csv": "279083de"
+}

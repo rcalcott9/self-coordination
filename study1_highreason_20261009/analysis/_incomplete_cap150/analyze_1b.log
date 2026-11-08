@@ -1,0 +1,84 @@
+{
+ "primary": {
+  "pooled": {
+   "n": 10,
+   "mean": 0.23500979166666663,
+   "ci95": [
+    0.12676666666666667,
+    0.3578512786458332
+   ],
+   "signflip_p": 0.0023997600239976003,
+   "exact_p": 0.001953125,
+   "k_exceed": 23,
+   "n_pos": 10,
+   "n_neg": 0
+  },
+  "target_gpt": {
+   "n": 10,
+   "mean": 0.18005187500000003,
+   "ci95": [
+    0.06204327604166669,
+    0.3188367760416665
+   ],
+   "signflip_p": 0.015998400159984,
+   "exact_p": 0.015625,
+   "k_exceed": 159,
+   "n_pos": 9,
+   "n_neg": 1,
+   "holm_p": 0.015998400159984
+  },
+  "target_opus": {
+   "n": 10,
+   "mean": 0.2899677083333333,
+   "ci95": [
+    0.1315724895833333,
+    0.45767506249999995
+   ],
+   "signflip_p": 0.006999300069993001,
+   "exact_p": 0.0078125,
+   "k_exceed": 69,
+   "n_pos": 8,
+   "n_neg": 2,
+   "holm_p": 0.013998600139986002
+  },
+  "predictor_effect": {
+   "n": 10,
+   "mean": 0.05495791666666665,
+   "ci95": [
+    -0.040493890625,
+    0.14685293229166663
+   ],
+   "signflip_p": 0.30626937306269375,
+   "exact_p": 0.302734375,
+   "k_exceed": 3062,
+   "n_pos": 6,
+   "n_neg": 4
+  },
+  "target_effect": {
+   "n": 10,
+   "mean": 0.0031391666666666595,
+   "ci95": [
+    -0.09012808854166666,
+    0.1062307369791666
+   ],
+   "signflip_p": 0.95000499950005,
+   "exact_p": 0.951171875,
+   "k_exceed": 9500,
+   "n_pos": 4,
+   "n_neg": 6
+  }
+ },
+ "cell_mean_brier_primary": {
+  "gpt->gpt": 0.547495625,
+  "gpt->claude": 0.7793662499999999,
+  "claude->gpt": 0.7275475,
+  "claude->claude": 0.48939854166666663
+ },
+ "current_divergence_summary": {
+  "primary_mean_tvd": 0.55,
+  "s3_mean_tvd": null,
+  "primary_still_meeting_original_stratum": 3,
+  "primary_same_modal": 3
+ }
+}
+excluded: ['F01_oddone_m2', 'F04_complexity_m5', 'F07_contrast_m0', 'F14_bars_m0', 'F19_fill_m2', 'F21_notch_m2', 'F29_arcdir_m1', 'F32_tilt_m1', 'F38_endcap_m0', 'F41_contain_m0'] | out: /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_highreason_20261009/analysis/out_1b

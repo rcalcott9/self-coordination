@@ -1,0 +1,22 @@
+[
+  {
+    "model": "gpt5",
+    "display": "GPT-5",
+    "n_pairs": 5,
+    "pairs": [
+      "x2_lg_sq > x10_cen_b",
+      "s_convexity > x5_cs_sub",
+      "x8_contr_b > a_chev_ud",
+      "x3_tex_sd > x10_cen_a",
+      "x6_oi_c > x3_tex_dp"
+    ],
+    "stage_c_rc": 1,
+    "primary_rc": 1
+  },
+  {
+    "model": "opus45",
+    "display": "Claude Opus 4.5",
+    "salience_rc": 0,
+    "stopped_at": "analyze_ab"
+  }
+]

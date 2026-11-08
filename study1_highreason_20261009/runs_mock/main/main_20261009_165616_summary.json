@@ -1,0 +1,12 @@
+{
+ "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_highreason_20261009/runs_mock/main/main_20261009_165616.csv",
+ "n": 2910,
+ "transport_ok": 2910,
+ "parsed": 2851,
+ "mismatch": 0,
+ "cost_this_run": 144.045,
+ "spent_total": 149.391,
+ "budget_stopped": true,
+ "pending_left": 5306,
+ "frozen_sha8": "933aa87d"
+}

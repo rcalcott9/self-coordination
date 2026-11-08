@@ -1,0 +1,11 @@
+# T3 rubric freeze — written blind, before any item was seen
+frozen_at_utc: 2026-09-09T16:28:20Z
+auditor: T3 (code-redteam)
+rubric_version: 1.0
+
+230ca3d836768206dc82d12de10e068ad58f5ab0a9775f9da6fabeb20010c67d  rejection_rubric.md
+4c16fe4577d07c9523767edeaffb150c614faef327f5da9b4cfc49708099f1c5  audit_procedure.md
+
+# audit outputs (written after items were released)
+11086f9b1c889ce4dbfea950e51b920f2a818c5a8f01c46ee17cff58262050fd  item_audit.md
+be1972aadf594d5e18be1442ff988a5c9ec55244fb469f963c3799e0d9865e2e  item_decisions.csv

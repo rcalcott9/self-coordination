@@ -1,0 +1,2215 @@
+{
+ "phase": "select",
+ "config": {
+  "conc_min_modal_share": 0.75,
+  "diffuse_max_modal_share": 0.5,
+  "s1_fallback_min_modal_share": 0.7,
+  "s1_min_eligible": 4,
+  "min_draws": 24,
+  "quota": {
+   "S1": 8,
+   "S2_G": 6,
+   "S2_O": 8,
+   "S3": 10
+  },
+  "max_per_family": {
+   "S1": 2,
+   "S2_G": 2,
+   "S2_O": 2,
+   "S3": 1
+  },
+  "order_seed": "S1B-SELECT-20261007",
+  "placeholder": false
+ },
+ "screen_frozen_sha8": "4c411796",
+ "used_existing_frame": false,
+ "s1_fallback_used": true,
+ "self_test": false,
+ "n_eligible": {
+  "S1": 5,
+  "S2_G": 3,
+  "S2_O": 2,
+  "S3": 22
+ },
+ "selected": {
+  "S1": [
+   "F10_curvature_m3",
+   "F20_corner_m0",
+   "F05_orient_m7",
+   "F30_pairratio_m2",
+   "F10_curvature_m2"
+  ],
+  "S2_G": [
+   "F12_mirror_m0",
+   "F12_mirror_m6",
+   "F31_overlap_m1"
+  ],
+  "S2_O": [
+   "F27_linecount_m1",
+   "F12_mirror_m3"
+  ],
+  "S3": [
+   "F14_bars_m0",
+   "F04_complexity_m5",
+   "F19_fill_m2",
+   "F01_oddone_m2",
+   "F21_notch_m2",
+   "F07_contrast_m0",
+   "F32_tilt_m1",
+   "F41_contain_m0",
+   "F38_endcap_m0",
+   "F29_arcdir_m1"
+  ]
+ },
+ "selected_flat": [
+  "F01_oddone_m2",
+  "F04_complexity_m5",
+  "F05_orient_m7",
+  "F07_contrast_m0",
+  "F10_curvature_m2",
+  "F10_curvature_m3",
+  "F12_mirror_m0",
+  "F12_mirror_m3",
+  "F12_mirror_m6",
+  "F14_bars_m0",
+  "F19_fill_m2",
+  "F20_corner_m0",
+  "F21_notch_m2",
+  "F27_linecount_m1",
+  "F29_arcdir_m1",
+  "F30_pairratio_m2",
+  "F31_overlap_m1",
+  "F32_tilt_m1",
+  "F38_endcap_m0",
+  "F41_contain_m0"
+ ],
+ "shortfall": {
+  "S1": 3,
+  "S2_G": 3,
+  "S2_O": 6
+ },
+ "per_array": {
+  "F01_oddone_m2": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F02_size_m2": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     1,
+     0,
+     0,
+     23
+    ],
+    "modal": 3,
+    "modal_share": 0.9583333333333334,
+    "loose": true,
+    "wmm": 0.9166666666666666,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F03_symmetry_m5": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F04_complexity_m5": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F05_orient_m4": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     6,
+     2,
+     16
+    ],
+    "modal": 3,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.4927536231884058,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     1,
+     13,
+     0,
+     10
+    ],
+    "modal": 1,
+    "modal_share": 0.5416666666666666,
+    "loose": false,
+    "wmm": 0.44565217391304346,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F05_orient_m6": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     16,
+     5,
+     0,
+     3
+    ],
+    "modal": 0,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.48188405797101447,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     8,
+     1,
+     15,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 0.625,
+    "loose": false,
+    "wmm": 0.48188405797101447,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F05_orient_m7": {
+   "stratum": "S1",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     19,
+     1,
+     0,
+     4
+    ],
+    "modal": 0,
+    "modal_share": 0.7916666666666666,
+    "loose": true,
+    "wmm": 0.6413043478260869,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     6,
+     0,
+     17,
+     1
+    ],
+    "modal": 2,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5471014492753623,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   },
+   "s1_fallback": true
+  },
+  "F06_density_m0": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     6,
+     0,
+     0,
+     18
+    ],
+    "modal": 3,
+    "modal_share": 0.75,
+    "loose": true,
+    "wmm": 0.6086956521739131,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     16,
+     0,
+     0,
+     8
+    ],
+    "modal": 0,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.5362318840579711,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F06_density_m4": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     3,
+     0,
+     8,
+     13
+    ],
+    "modal": 3,
+    "modal_share": 0.5416666666666666,
+    "loose": false,
+    "wmm": 0.39492753623188404,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     16,
+     8
+    ],
+    "modal": 2,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.5362318840579711,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F07_contrast_m0": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F08_closure_m1": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     23,
+     0,
+     1,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 0.9583333333333334,
+    "loose": true,
+    "wmm": 0.9166666666666666,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F09_convexity_m1": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     24,
+     0,
+     0
+    ],
+    "modal": 1,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     2,
+     22,
+     0,
+     0
+    ],
+    "modal": 1,
+    "modal_share": 0.9166666666666666,
+    "loose": true,
+    "wmm": 0.8405797101449275,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F10_curvature_m2": {
+   "stratum": "S1",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     6,
+     0,
+     0,
+     18
+    ],
+    "modal": 3,
+    "modal_share": 0.75,
+    "loose": true,
+    "wmm": 0.6086956521739131,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F10_curvature_m3": {
+   "stratum": "S1",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     2,
+     0,
+     0,
+     22
+    ],
+    "modal": 3,
+    "modal_share": 0.9166666666666666,
+    "loose": true,
+    "wmm": 0.8405797101449275,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     18,
+     0,
+     0,
+     6
+    ],
+    "modal": 0,
+    "modal_share": 0.75,
+    "loose": true,
+    "wmm": 0.6086956521739131,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F10_curvature_m4": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     5,
+     0,
+     0,
+     19
+    ],
+    "modal": 3,
+    "modal_share": 0.7916666666666666,
+    "loose": true,
+    "wmm": 0.6557971014492754,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     10,
+     0,
+     0,
+     14
+    ],
+    "modal": 3,
+    "modal_share": 0.5833333333333334,
+    "loose": false,
+    "wmm": 0.4927536231884058,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F10_curvature_m5": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     1,
+     0,
+     0,
+     23
+    ],
+    "modal": 3,
+    "modal_share": 0.9583333333333334,
+    "loose": true,
+    "wmm": 0.9166666666666666,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     16,
+     0,
+     0,
+     8
+    ],
+    "modal": 0,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.5362318840579711,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F10_curvature_m6": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     9,
+     0,
+     0,
+     15
+    ],
+    "modal": 3,
+    "modal_share": 0.625,
+    "loose": false,
+    "wmm": 0.5108695652173914,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     15,
+     0,
+     0,
+     9
+    ],
+    "modal": 0,
+    "modal_share": 0.625,
+    "loose": false,
+    "wmm": 0.5108695652173914,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F10_curvature_m7": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     2,
+     0,
+     0,
+     22
+    ],
+    "modal": 3,
+    "modal_share": 0.9166666666666666,
+    "loose": true,
+    "wmm": 0.8405797101449275,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F11_noise_m0": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     7,
+     13,
+     4
+    ],
+    "modal": 2,
+    "modal_share": 0.5416666666666666,
+    "loose": false,
+    "wmm": 0.3804347826086957,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     24,
+     0,
+     0
+    ],
+    "modal": 1,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F11_noise_m3": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     9,
+     0,
+     14,
+     1
+    ],
+    "modal": 2,
+    "modal_share": 0.5833333333333334,
+    "loose": false,
+    "wmm": 0.4601449275362319,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     17,
+     1,
+     1,
+     5
+    ],
+    "modal": 0,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5289855072463768,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F11_noise_m6": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     3,
+     1,
+     14,
+     6
+    ],
+    "modal": 2,
+    "modal_share": 0.5833333333333334,
+    "loose": false,
+    "wmm": 0.39492753623188404,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     1,
+     5,
+     13,
+     5
+    ],
+    "modal": 2,
+    "modal_share": 0.5416666666666666,
+    "loose": false,
+    "wmm": 0.35507246376811596,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F11_noise_m7": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     15,
+     7,
+     0,
+     2
+    ],
+    "modal": 0,
+    "modal_share": 0.625,
+    "loose": false,
+    "wmm": 0.4601449275362319,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F12_mirror_m0": {
+   "stratum": "S2_G",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     1,
+     20,
+     2,
+     1
+    ],
+    "modal": 1,
+    "modal_share": 0.8333333333333334,
+    "loose": true,
+    "wmm": 0.6920289855072463,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     5,
+     7,
+     4,
+     8
+    ],
+    "modal": 3,
+    "modal_share": 0.3333333333333333,
+    "loose": false,
+    "wmm": 0.23550724637681159,
+    "concentrated": false,
+    "diffuse": true
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F12_mirror_m3": {
+   "stratum": "S2_O",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     9,
+     6,
+     3,
+     6
+    ],
+    "modal": 0,
+    "modal_share": 0.375,
+    "loose": false,
+    "wmm": 0.25,
+    "concentrated": false,
+    "diffuse": true
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     1,
+     19,
+     1,
+     3
+    ],
+    "modal": 1,
+    "modal_share": 0.7916666666666666,
+    "loose": true,
+    "wmm": 0.6304347826086957,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F12_mirror_m5": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     1,
+     1,
+     5,
+     17
+    ],
+    "modal": 3,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5289855072463768,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     2,
+     15,
+     7
+    ],
+    "modal": 2,
+    "modal_share": 0.625,
+    "loose": false,
+    "wmm": 0.4601449275362319,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F12_mirror_m6": {
+   "stratum": "S2_G",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     24,
+     0,
+     0
+    ],
+    "modal": 1,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     6,
+     8,
+     6,
+     4
+    ],
+    "modal": 1,
+    "modal_share": 0.3333333333333333,
+    "loose": false,
+    "wmm": 0.2318840579710145,
+    "concentrated": false,
+    "diffuse": true
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F12_mirror_m7": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     6,
+     14,
+     4
+    ],
+    "modal": 2,
+    "modal_share": 0.5833333333333334,
+    "loose": false,
+    "wmm": 0.4057971014492754,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F13_count_m2": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F14_bars_m0": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     24,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     2,
+     0,
+     22,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 0.9166666666666666,
+    "loose": true,
+    "wmm": 0.8405797101449275,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F15_ring_m4": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     17,
+     2,
+     0,
+     5
+    ],
+    "modal": 0,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.532608695652174,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     16,
+     0,
+     0,
+     8
+    ],
+    "modal": 0,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.5362318840579711,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F16_aspect_m1": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F16_aspect_m4": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     16,
+     4,
+     0,
+     4
+    ],
+    "modal": 0,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.4782608695652174,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F16_aspect_m5": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     15,
+     2,
+     0,
+     7
+    ],
+    "modal": 0,
+    "modal_share": 0.625,
+    "loose": false,
+    "wmm": 0.4601449275362319,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     21,
+     0,
+     0,
+     3
+    ],
+    "modal": 0,
+    "modal_share": 0.875,
+    "loose": true,
+    "wmm": 0.7717391304347826,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F17_gapclock_m1": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F18_stroke_m2": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     7,
+     0,
+     0,
+     17
+    ],
+    "modal": 3,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5688405797101449,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     1,
+     0,
+     0,
+     23
+    ],
+    "modal": 3,
+    "modal_share": 0.9583333333333334,
+    "loose": true,
+    "wmm": 0.9166666666666666,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F19_fill_m2": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F20_corner_m0": {
+   "stratum": "S1",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     7,
+     0,
+     0,
+     17
+    ],
+    "modal": 3,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5688405797101449,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   },
+   "s1_fallback": true
+  },
+  "F21_notch_m2": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     2,
+     0,
+     0,
+     22
+    ],
+    "modal": 3,
+    "modal_share": 0.9166666666666666,
+    "loose": true,
+    "wmm": 0.8405797101449275,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F22_star_m0": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     5,
+     19,
+     0,
+     0
+    ],
+    "modal": 1,
+    "modal_share": 0.7916666666666666,
+    "loose": true,
+    "wmm": 0.6557971014492754,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     1,
+     23,
+     0,
+     0
+    ],
+    "modal": 1,
+    "modal_share": 0.9583333333333334,
+    "loose": true,
+    "wmm": 0.9166666666666666,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F24_subdiv_m1": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     17,
+     0,
+     0,
+     7
+    ],
+    "modal": 0,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5688405797101449,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F27_linecount_m0": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F27_linecount_m1": {
+   "stratum": "S2_O",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     10,
+     6,
+     0,
+     8
+    ],
+    "modal": 0,
+    "modal_share": 0.4166666666666667,
+    "loose": false,
+    "wmm": 0.3188405797101449,
+    "concentrated": false,
+    "diffuse": true
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F29_arcdir_m1": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F30_pairratio_m0": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     13,
+     11
+    ],
+    "modal": 2,
+    "modal_share": 0.5416666666666666,
+    "loose": false,
+    "wmm": 0.48188405797101447,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     1,
+     23
+    ],
+    "modal": 3,
+    "modal_share": 0.9583333333333334,
+    "loose": true,
+    "wmm": 0.9166666666666666,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F30_pairratio_m2": {
+   "stratum": "S1",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     18,
+     0,
+     0,
+     6
+    ],
+    "modal": 0,
+    "modal_share": 0.75,
+    "loose": true,
+    "wmm": 0.6086956521739131,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     7,
+     0,
+     0,
+     17
+    ],
+    "modal": 3,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5688405797101449,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   },
+   "s1_fallback": true
+  },
+  "F31_overlap_m0": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     10,
+     1,
+     13,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 0.5416666666666666,
+    "loose": false,
+    "wmm": 0.44565217391304346,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     20,
+     0,
+     3,
+     1
+    ],
+    "modal": 0,
+    "modal_share": 0.8333333333333334,
+    "loose": true,
+    "wmm": 0.6992753623188406,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F31_overlap_m1": {
+   "stratum": "S2_G",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     1,
+     0,
+     21,
+     2
+    ],
+    "modal": 2,
+    "modal_share": 0.875,
+    "loose": true,
+    "wmm": 0.7644927536231884,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     12,
+     0,
+     11,
+     1
+    ],
+    "modal": 0,
+    "modal_share": 0.5,
+    "loose": false,
+    "wmm": 0.4384057971014493,
+    "concentrated": false,
+    "diffuse": true
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F32_tilt_m1": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F33_hole_m0": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     13,
+     0,
+     0,
+     11
+    ],
+    "modal": 0,
+    "modal_share": 0.5416666666666666,
+    "loose": false,
+    "wmm": 0.48188405797101447,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F33_hole_m2": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     8,
+     0,
+     0,
+     16
+    ],
+    "modal": 3,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.5362318840579711,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     22,
+     0,
+     0,
+     2
+    ],
+    "modal": 0,
+    "modal_share": 0.9166666666666666,
+    "loose": true,
+    "wmm": 0.8405797101449275,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F34_jitter_m2": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     2,
+     4,
+     1,
+     17
+    ],
+    "modal": 3,
+    "modal_share": 0.7083333333333334,
+    "loose": true,
+    "wmm": 0.5181159420289855,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F36_split_m2": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     16,
+     1,
+     7
+    ],
+    "modal": 1,
+    "modal_share": 0.6666666666666666,
+    "loose": false,
+    "wmm": 0.5108695652173914,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     2,
+     4,
+     6,
+     12
+    ],
+    "modal": 3,
+    "modal_share": 0.5,
+    "loose": false,
+    "wmm": 0.3188405797101449,
+    "concentrated": false,
+    "diffuse": true
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F37_mirroraxis_m2": {
+   "stratum": null,
+   "gpt": {
+    "n": 24,
+    "counts": [
+     6,
+     0,
+     18,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 0.75,
+    "loose": true,
+    "wmm": 0.6086956521739131,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     4,
+     6,
+     14,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 0.5833333333333334,
+    "loose": false,
+    "wmm": 0.4057971014492754,
+    "concentrated": false,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F38_endcap_m0": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F39_spacing_m1": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     18,
+     0,
+     0,
+     6
+    ],
+    "modal": 0,
+    "modal_share": 0.75,
+    "loose": true,
+    "wmm": 0.6086956521739131,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     24,
+     0,
+     0,
+     0
+    ],
+    "modal": 0,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F40_crossang_m0": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     0,
+     24
+    ],
+    "modal": 3,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  },
+  "F41_contain_m0": {
+   "stratum": "S3",
+   "gpt": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     24,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "claude": {
+    "n": 24,
+    "counts": [
+     0,
+     0,
+     24,
+     0
+    ],
+    "modal": 2,
+    "modal_share": 1.0,
+    "loose": true,
+    "wmm": 1.0,
+    "concentrated": true,
+    "diffuse": false
+   },
+   "source": {
+    "gpt": "screen",
+    "claude": "screen"
+   }
+  }
+ },
+ "code_sha8": {
+  "common.py": "e9e7470d",
+  "prompts.py": "82974a96",
+  "freeze_screen.py": "6a41b672",
+  "select_arrays.py": "9979779d",
+  "freeze_main.py": "174d78a3",
+  "run.py": "8ead0489",
+  "pc_common.py": "1638824b"
+ },
+ "rule": "selection uses only reference-choice counts; ordering by seeded hash of array id"
+}

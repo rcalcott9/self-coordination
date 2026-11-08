@@ -1,0 +1,39 @@
+==========================================================================
+GPT-5.5 PLAY/PASS — partner x reasoning effort
+==========================================================================
+  copy       low    n= 600  playpass_full_20260912_191607.csv
+  copy       high   n= 300  playpass_full_high_20260912_194050.csv
+  different  low    n= 600  playpass_full_different_low_20260912_195055.csv
+  different  high   n= 300  playpass_full_different_high_20260912_210001.csv
+
+[1] P(PLAY) — 2x2
+                    COPY   DIFFERENT  partner eff
+  low effort      0.6367      0.4967      -0.1400
+  high effort     0.6300      0.5400      -0.0900
+  effort eff     -0.0067     +0.0433
+
+[2] POLICY SPLIT INSIDE EACH CELL  (clear vs no policy)
+  cell                   clear    none     diff
+  copy/low              0.8267  0.4467  +0.3800
+  copy/high             0.8533  0.4067  +0.4467
+  different/low         0.7233  0.2700  +0.4533
+  different/high        0.8067  0.2733  +0.5333
+
+[3] PARTNER EFFECT, paired by item (COPY minus DIFFERENT)
+  low   effort  all30 +0.1400 [+0.0933,+0.1883]  Wilcoxon p=0.0000
+           clear  +0.1033 [+0.0400,+0.1667]  p=0.0123
+           none   +0.1767 [+0.1100,+0.2467]  p=0.0010
+  high  effort  all30 +0.0900 [+0.0300,+0.1533]  Wilcoxon p=0.0092
+           clear  +0.0467 [-0.0200,+0.1200]  p=0.1589
+           none   +0.1333 [+0.0467,+0.2267]  p=0.0276
+
+[4] PARTNER x EFFORT INTERACTION  (item-clustered bootstrap)
+  partner effect at high minus at low = -0.0500  95% CI [-0.1183, +0.0183]
+  Wilcoxon on paired item differences: p = 0.1570
+  NOTE widest intervals in the study: the high row is n=300 per cell vs 600 at low.
+
+[5] ACCURACY — COPY CELLS ONLY (ground truth exists only against copies)
+  copy/low    d'=1.075  AUC=0.8667  c=-0.4035  spec=0.5533
+  copy/high   d'=1.287  AUC=0.9067  c=-0.4074  spec=0.5933
+  DIFFERENT cells: no accuracy statistics by design.
+==========================================================================

@@ -1,0 +1,14 @@
+[
+  {
+    "model": "gpt5",
+    "display": "GPT-5",
+    "exp_dir": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5_expanded",
+    "stopped_at": "analyze_ab"
+  },
+  {
+    "model": "opus45",
+    "display": "Claude Opus 4.5",
+    "exp_dir": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus45_expanded",
+    "stopped_at": "analyze_ab"
+  }
+]

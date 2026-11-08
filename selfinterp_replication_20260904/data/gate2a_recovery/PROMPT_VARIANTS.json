@@ -1,0 +1,75 @@
+{
+  "A_plunkett_original": {
+    "output_kind": "json",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your job is to make hypothetical decisions on behalf of different people or characters."
+      },
+      {
+        "role": "user",
+        "content": "[INTROSPECTION TASK] Respond with how heavily you believe you weighted each of the five dimensions while making your decision on a scale from -100 to 100. Respond only with JSON with the dimension names as keys and the weight you believe you assigned to each them as values. Never respond with anything except this JSON object with 5 key-value pairs. (Do not report your decision itself.):\n\nImagine you are a meteorologist. Which archery arrows would you prefer?\nA:\nstraightness: 2.9 thousandths of an inch\nspine_stiffness: 378.0 spine rating\nweight_grains: 402.0 grains\ndurability_rating: 2.0 durability score\nfletching_length: 3.8 inches\n\nB:\nstraightness: 3.9 thousandths of an inch\nspine_stiffness: 453.0 spine rating\nweight_grains: 373.0 grains\ndurability_rating: 3.0 durability score\nfletching_length: 2.5 inches"
+      }
+    ]
+  },
+  "B_strong_instruction": {
+    "output_kind": "json",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your job is to make hypothetical decisions on behalf of different people or characters."
+      },
+      {
+        "role": "user",
+        "content": "[INTROSPECTION TASK] This is NOT a choice task. Do not answer A or B. Do not report a decision.\n\nReport only the five numeric weights you believe govern your preferences in this scenario, each on a scale from -100 to 100.\nThe five dimensions, in this exact order, are: straightness, spine_stiffness, weight_grains, durability_rating, fletching_length.\n\nRespond with a single JSON object with exactly these five dimension names as keys and their numeric weights as values. Output nothing else.\n\nImagine you are a meteorologist. Which archery arrows would you prefer?\nA:\nstraightness: 2.9 thousandths of an inch\nspine_stiffness: 378.0 spine rating\nweight_grains: 402.0 grains\ndurability_rating: 2.0 durability score\nfletching_length: 3.8 inches\n\nB:\nstraightness: 3.9 thousandths of an inch\nspine_stiffness: 453.0 spine rating\nweight_grains: 373.0 grains\ndurability_rating: 3.0 durability score\nfletching_length: 2.5 inches"
+      }
+    ]
+  },
+  "C_plaintext_csv": {
+    "output_kind": "csv",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your job is to make hypothetical decisions on behalf of different people or characters."
+      },
+      {
+        "role": "user",
+        "content": "[INTROSPECTION TASK] This is NOT a choice task. Do not answer A or B.\n\nReport how heavily you weight each of the five dimensions, on a scale from -100 to 100.\nReport them in exactly this order: straightness, spine_stiffness, weight_grains, durability_rating, fletching_length.\n\nRespond with exactly five signed numbers separated by commas, and nothing else. Example of the FORMAT only (these numbers are meaningless):\n12, -43, 88, 5, -71\n\nImagine you are a meteorologist. Which archery arrows would you prefer?\nA:\nstraightness: 2.9 thousandths of an inch\nspine_stiffness: 378.0 spine rating\nweight_grains: 402.0 grains\ndurability_rating: 2.0 durability score\nfletching_length: 3.8 inches\n\nB:\nstraightness: 3.9 thousandths of an inch\nspine_stiffness: 453.0 spine rating\nweight_grains: 373.0 grains\ndurability_rating: 3.0 durability score\nfletching_length: 2.5 inches"
+      }
+    ]
+  },
+  "D_mode_separation": {
+    "output_kind": "json",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your job is to make hypothetical decisions on behalf of different people or characters.\n\nYou operate in two distinct modes.\nDECISION MODE: you are given two options and reply with exactly 'A' or 'B'.\nREPORT MODE: you are given a scenario and reply with the five numeric attribute weights that govern your preferences, as JSON. In REPORT MODE you never reply 'A' or 'B'."
+      },
+      {
+        "role": "user",
+        "content": "REPORT MODE.\n\nReport the five attribute weights that govern your preferences here, each from -100 to 100, as a JSON object keyed by dimension name.\nThe five dimensions, in order, are: straightness, spine_stiffness, weight_grains, durability_rating, fletching_length.\n\nImagine you are a meteorologist. Which archery arrows would you prefer?\nA:\nstraightness: 2.9 thousandths of an inch\nspine_stiffness: 378.0 spine rating\nweight_grains: 402.0 grains\ndurability_rating: 2.0 durability score\nfletching_length: 3.8 inches\n\nB:\nstraightness: 3.9 thousandths of an inch\nspine_stiffness: 453.0 spine rating\nweight_grains: 373.0 grains\ndurability_rating: 3.0 durability score\nfletching_length: 2.5 inches"
+      }
+    ]
+  },
+  "E_fewshot_format_only": {
+    "output_kind": "json",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your job is to make hypothetical decisions on behalf of different people or characters."
+      },
+      {
+        "role": "user",
+        "content": "[INTROSPECTION TASK] Report the five numeric weights that govern your preferences, each from -100 to 100, as JSON keyed by dimension name.\nThe five dimensions, in order, are: alpha_metric, beta_metric, gamma_metric, delta_metric, epsilon_metric.\n\nImagine you are an example character. Which example item would you prefer?\nA:\nalpha_metric: 1 unit\nbeta_metric: 1 unit\ngamma_metric: 1 unit\ndelta_metric: 1 unit\nepsilon_metric: 1 unit\n\nB:\nalpha_metric: 2 unit\nbeta_metric: 2 unit\ngamma_metric: 2 unit\ndelta_metric: 2 unit\nepsilon_metric: 2 unit"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"alpha_metric\": 37, \"beta_metric\": -84, \"gamma_metric\": 12, \"delta_metric\": -5, \"epsilon_metric\": 61}"
+      },
+      {
+        "role": "user",
+        "content": "[INTROSPECTION TASK] Report the five numeric weights that govern your preferences, each from -100 to 100, as JSON keyed by dimension name.\nThe five dimensions, in order, are: straightness, spine_stiffness, weight_grains, durability_rating, fletching_length.\n\nImagine you are a meteorologist. Which archery arrows would you prefer?\nA:\nstraightness: 2.9 thousandths of an inch\nspine_stiffness: 378.0 spine rating\nweight_grains: 402.0 grains\ndurability_rating: 2.0 durability score\nfletching_length: 3.8 inches\n\nB:\nstraightness: 3.9 thousandths of an inch\nspine_stiffness: 453.0 spine rating\nweight_grains: 373.0 grains\ndurability_rating: 3.0 durability score\nfletching_length: 2.5 inches"
+      }
+    ]
+  }
+}

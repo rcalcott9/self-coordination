@@ -1,0 +1,941 @@
+{
+ "pilot": "claude_focal_relational_pilot",
+ "built_utc": "2026-09-09T01:43:50.704995+00:00",
+ "checkpoints": {
+  "claude": "claude-opus-5",
+  "gpt": "gpt-5.5-2026-04-23"
+ },
+ "green_seed": 20260908,
+ "green_excl_share": 0.35,
+ "asymmetric": [
+  {
+   "array_id": "m1_nesting_v2",
+   "item_type": "asymmetric",
+   "family": "M1_nesting",
+   "mechanism": "nesting",
+   "objects": [
+    "n2_lw3_geom_r92",
+    "n4_lw4_even_r92",
+    "n3_lw12_even_r92",
+    "n7_lw2_even_r92"
+   ],
+   "claude_modal_index": 2,
+   "claude_modal_object": "n3_lw12_even_r92",
+   "claude_modal_share": 0.9861,
+   "claude_form_consistency": 0.9444,
+   "claude_pos_modal_share": 0.2639,
+   "claude_eff_identity_support": 0.9722,
+   "gpt_modal_index": 2,
+   "gpt_modal_object": "n3_lw12_even_r92",
+   "gpt_modal_share": 0.7083,
+   "gpt_pos_modal_share": 0.4444,
+   "gpt_policy_subtype": "weak_competing_identity",
+   "cross_model_identity_match": 0.7016,
+   "claude_shares": {
+    "n2_lw3_geom_r92": 0.0139,
+    "n4_lw4_even_r92": 0.0,
+    "n3_lw12_even_r92": 0.9861,
+    "n7_lw2_even_r92": 0.0
+   },
+   "gpt_shares": {
+    "n2_lw3_geom_r92": 0.2222,
+    "n4_lw4_even_r92": 0.0,
+    "n3_lw12_even_r92": 0.7083,
+    "n7_lw2_even_r92": 0.0694
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 0,
+   "green_object": "n2_lw3_geom_r92",
+   "green_eligible_indices": [
+    0,
+    1,
+    3
+   ],
+   "green_eligible_objects": [
+    "n2_lw3_geom_r92",
+    "n4_lw4_even_r92",
+    "n7_lw2_even_r92"
+   ],
+   "green_excluded": {
+    "n3_lw12_even_r92": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  },
+  {
+   "array_id": "m2_texture_v2",
+   "item_type": "asymmetric",
+   "family": "M2_texture",
+   "mechanism": "noise_texture",
+   "objects": [
+    "n90_r46_random_nb",
+    "n90_r46_lattice",
+    "n200_r30_random",
+    "n45_r62_clustered"
+   ],
+   "claude_modal_index": 1,
+   "claude_modal_object": "n90_r46_lattice",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 1,
+   "gpt_modal_object": "n90_r46_lattice",
+   "gpt_modal_share": 0.5556,
+   "gpt_pos_modal_share": 0.3889,
+   "gpt_policy_subtype": "weak_competing_identity",
+   "cross_model_identity_match": 0.5556,
+   "claude_shares": {
+    "n90_r46_random_nb": 0.0,
+    "n90_r46_lattice": 1.0,
+    "n200_r30_random": 0.0,
+    "n45_r62_clustered": 0.0
+   },
+   "gpt_shares": {
+    "n90_r46_random_nb": 0.4306,
+    "n90_r46_lattice": 0.5556,
+    "n200_r30_random": 0.0,
+    "n45_r62_clustered": 0.0139
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 2,
+   "green_object": "n200_r30_random",
+   "green_eligible_indices": [
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "n200_r30_random",
+    "n45_r62_clustered"
+   ],
+   "green_excluded": {
+    "n90_r46_random_nb": "gpt_share_0.431_ge_0.35",
+    "n90_r46_lattice": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  },
+  {
+   "array_id": "m3_mirror_v0",
+   "item_type": "asymmetric",
+   "family": "M3_mirror",
+   "mechanism": "mirror",
+   "objects": [
+    "sym1",
+    "sym2",
+    "twinTrue",
+    "twinFalse"
+   ],
+   "claude_modal_index": 0,
+   "claude_modal_object": "sym1",
+   "claude_modal_share": 0.875,
+   "claude_form_consistency": 0.8889,
+   "claude_pos_modal_share": 0.3056,
+   "claude_eff_identity_support": 0.7782,
+   "gpt_modal_index": 1,
+   "gpt_modal_object": "sym2",
+   "gpt_modal_share": 0.6944,
+   "gpt_pos_modal_share": 0.3333,
+   "gpt_policy_subtype": "weak_competing_identity",
+   "cross_model_identity_match": 0.3056,
+   "claude_shares": {
+    "sym1": 0.875,
+    "sym2": 0.125,
+    "twinTrue": 0.0,
+    "twinFalse": 0.0
+   },
+   "gpt_shares": {
+    "sym1": 0.25,
+    "sym2": 0.6944,
+    "twinTrue": 0.0139,
+    "twinFalse": 0.0417
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 3,
+   "green_object": "twinFalse",
+   "green_eligible_indices": [
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "twinTrue",
+    "twinFalse"
+   ],
+   "green_excluded": {
+    "sym1": "claude_locked_modal",
+    "sym2": "gpt_share_0.694_ge_0.35"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  },
+  {
+   "array_id": "m3_mirror_v2",
+   "item_type": "asymmetric",
+   "family": "M3_mirror",
+   "mechanism": "mirror",
+   "objects": [
+    "twinFalse",
+    "sym3",
+    "sym1",
+    "twinTrue"
+   ],
+   "claude_modal_index": 1,
+   "claude_modal_object": "sym3",
+   "claude_modal_share": 0.9583,
+   "claude_form_consistency": 0.8333,
+   "claude_pos_modal_share": 0.2917,
+   "claude_eff_identity_support": 0.919,
+   "gpt_modal_index": 1,
+   "gpt_modal_object": "sym3",
+   "gpt_modal_share": 0.5278,
+   "gpt_pos_modal_share": 0.4167,
+   "gpt_policy_subtype": "diffuse_identity",
+   "cross_model_identity_match": 0.5179,
+   "claude_shares": {
+    "twinFalse": 0.0,
+    "sym3": 0.9583,
+    "sym1": 0.0417,
+    "twinTrue": 0.0
+   },
+   "gpt_shares": {
+    "twinFalse": 0.1806,
+    "sym3": 0.5278,
+    "sym1": 0.2917,
+    "twinTrue": 0.0
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 0,
+   "green_object": "twinFalse",
+   "green_eligible_indices": [
+    0,
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "twinFalse",
+    "sym1",
+    "twinTrue"
+   ],
+   "green_excluded": {
+    "sym3": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  },
+  {
+   "array_id": "m3_mirror_v4",
+   "item_type": "asymmetric",
+   "family": "M3_mirror",
+   "mechanism": "mirror",
+   "objects": [
+    "twinTrue",
+    "twinFalse",
+    "sym2",
+    "sym1"
+   ],
+   "claude_modal_index": 3,
+   "claude_modal_object": "sym1",
+   "claude_modal_share": 0.9306,
+   "claude_form_consistency": 0.8333,
+   "claude_pos_modal_share": 0.2778,
+   "claude_eff_identity_support": 0.8689,
+   "gpt_modal_index": 3,
+   "gpt_modal_object": "sym1",
+   "gpt_modal_share": 0.4861,
+   "gpt_pos_modal_share": 0.3472,
+   "gpt_policy_subtype": "diffuse_identity",
+   "cross_model_identity_match": 0.4851,
+   "claude_shares": {
+    "twinTrue": 0.0,
+    "twinFalse": 0.0,
+    "sym2": 0.0694,
+    "sym1": 0.9306
+   },
+   "gpt_shares": {
+    "twinTrue": 0.0278,
+    "twinFalse": 0.0139,
+    "sym2": 0.4722,
+    "sym1": 0.4861
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 0,
+   "green_object": "twinTrue",
+   "green_eligible_indices": [
+    0,
+    1
+   ],
+   "green_eligible_objects": [
+    "twinTrue",
+    "twinFalse"
+   ],
+   "green_excluded": {
+    "sym2": "gpt_share_0.472_ge_0.35",
+    "sym1": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  },
+  {
+   "array_id": "m4_contour_v4",
+   "item_type": "asymmetric",
+   "family": "M4_contour",
+   "mechanism": "line_contour",
+   "objects": [
+    "segments6_lw3",
+    "continuous1_lw9",
+    "crossing2_lw7",
+    "closed1_lw6"
+   ],
+   "claude_modal_index": 2,
+   "claude_modal_object": "crossing2_lw7",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 3,
+   "gpt_modal_object": "closed1_lw6",
+   "gpt_modal_share": 0.9583,
+   "gpt_pos_modal_share": 0.2778,
+   "gpt_policy_subtype": "strong_competing_identity",
+   "cross_model_identity_match": 0.0417,
+   "claude_shares": {
+    "segments6_lw3": 0.0,
+    "continuous1_lw9": 0.0,
+    "crossing2_lw7": 1.0,
+    "closed1_lw6": 0.0
+   },
+   "gpt_shares": {
+    "segments6_lw3": 0.0,
+    "continuous1_lw9": 0.0,
+    "crossing2_lw7": 0.0417,
+    "closed1_lw6": 0.9583
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 1,
+   "green_object": "continuous1_lw9",
+   "green_eligible_indices": [
+    0,
+    1
+   ],
+   "green_eligible_objects": [
+    "segments6_lw3",
+    "continuous1_lw9"
+   ],
+   "green_excluded": {
+    "crossing2_lw7": "claude_locked_modal",
+    "closed1_lw6": "gpt_share_0.958_ge_0.35"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  },
+  {
+   "array_id": "m5_numerosity_v2",
+   "item_type": "asymmetric",
+   "family": "M5_numerosity",
+   "mechanism": "numerosity",
+   "objects": [
+    "n4_ring",
+    "n7_row",
+    "n4_scatter",
+    "n10_block"
+   ],
+   "claude_modal_index": 1,
+   "claude_modal_object": "n7_row",
+   "claude_modal_share": 0.9444,
+   "claude_form_consistency": 0.8333,
+   "claude_pos_modal_share": 0.2778,
+   "claude_eff_identity_support": 0.8936,
+   "gpt_modal_index": 0,
+   "gpt_modal_object": "n4_ring",
+   "gpt_modal_share": 0.5139,
+   "gpt_pos_modal_share": 0.4167,
+   "gpt_policy_subtype": "weak_competing_identity",
+   "cross_model_identity_match": 0.4745,
+   "claude_shares": {
+    "n4_ring": 0.0556,
+    "n7_row": 0.9444,
+    "n4_scatter": 0.0,
+    "n10_block": 0.0
+   },
+   "gpt_shares": {
+    "n4_ring": 0.5139,
+    "n7_row": 0.4722,
+    "n4_scatter": 0.0,
+    "n10_block": 0.0139
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 3,
+   "green_object": "n10_block",
+   "green_eligible_indices": [
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "n4_scatter",
+    "n10_block"
+   ],
+   "green_excluded": {
+    "n4_ring": "gpt_share_0.514_ge_0.35",
+    "n7_row": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  },
+  {
+   "array_id": "m5_numerosity_v4",
+   "item_type": "asymmetric",
+   "family": "M5_numerosity",
+   "mechanism": "numerosity",
+   "objects": [
+    "n9_ring",
+    "n4_row",
+    "n6_scatter",
+    "n3_block"
+   ],
+   "claude_modal_index": 0,
+   "claude_modal_object": "n9_ring",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 0,
+   "gpt_modal_object": "n9_ring",
+   "gpt_modal_share": 0.3889,
+   "gpt_pos_modal_share": 0.4028,
+   "gpt_policy_subtype": "weak_competing_identity",
+   "cross_model_identity_match": 0.3889,
+   "claude_shares": {
+    "n9_ring": 1.0,
+    "n4_row": 0.0,
+    "n6_scatter": 0.0,
+    "n3_block": 0.0
+   },
+   "gpt_shares": {
+    "n9_ring": 0.3889,
+    "n4_row": 0.3611,
+    "n6_scatter": 0.0,
+    "n3_block": 0.25
+   },
+   "evidence": "confirm5_20260909_012018 n=72 per model (independent of discovery5)",
+   "n_claude": 72,
+   "n_gpt": 72,
+   "green_index": 3,
+   "green_object": "n3_block",
+   "green_eligible_indices": [
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "n6_scatter",
+    "n3_block"
+   ],
+   "green_excluded": {
+    "n9_ring": "claude_locked_modal",
+    "n4_row": "gpt_share_0.361_ge_0.35"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model"
+  }
+ ],
+ "controls": [
+  {
+   "array_id": "m1_nesting_v4",
+   "item_type": "control",
+   "role": "locked_control",
+   "family": "M1_nesting",
+   "mechanism": "nesting",
+   "objects": [
+    "n4_lw3_even_r92",
+    "n2_lw3_even_r92",
+    "n4_lw8_geom_r92",
+    "n3_lw3_even_r55"
+   ],
+   "claude_modal_index": 2,
+   "claude_modal_object": "n4_lw8_geom_r92",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 2,
+   "gpt_modal_object": "n4_lw8_geom_r92",
+   "gpt_modal_share": 1.0,
+   "gpt_form_consistency": 1.0,
+   "gpt_pos_modal_share": 0.25,
+   "gpt_policy_subtype": "shared_convention",
+   "cross_model_identity_match": 1.0,
+   "claude_shares": {
+    "n4_lw3_even_r92": 0.0,
+    "n2_lw3_even_r92": 0.0,
+    "n4_lw8_geom_r92": 1.0,
+    "n3_lw3_even_r55": 0.0
+   },
+   "gpt_shares": {
+    "n4_lw3_even_r92": 0.0,
+    "n2_lw3_even_r92": 0.0,
+    "n4_lw8_geom_r92": 1.0,
+    "n3_lw3_even_r55": 0.0
+   },
+   "evidence": "discovery5_20260909_011211 n=24 per model - DISCOVERY ONLY, requires the pilot's own independent validation run before locking",
+   "validated": true,
+   "n_claude": 24,
+   "n_gpt": 24,
+   "green_index": 0,
+   "green_object": "n4_lw3_even_r92",
+   "green_eligible_indices": [
+    0,
+    1,
+    3
+   ],
+   "green_eligible_objects": [
+    "n4_lw3_even_r92",
+    "n2_lw3_even_r92",
+    "n3_lw3_even_r55"
+   ],
+   "green_excluded": {
+    "n4_lw8_geom_r92": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model",
+   "validation_run": "ctrlval_20260908_215424",
+   "val_claude_share": 1.0,
+   "val_gpt_share": 1.0,
+   "val_claude_fc": 1.0,
+   "val_gpt_fc": 1.0,
+   "val_claude_pos_share": 0.25,
+   "val_gpt_pos_share": 0.25,
+   "val_claude_eff_identity_support": 1.0,
+   "val_n_per_model": 24
+  },
+  {
+   "array_id": "m2_texture_v0",
+   "item_type": "control",
+   "role": "locked_control",
+   "family": "M2_texture",
+   "mechanism": "noise_texture",
+   "objects": [
+    "n60_r55_random",
+    "n240_r28_random",
+    "n150_r36_lattice",
+    "n150_r36_clustered"
+   ],
+   "claude_modal_index": 2,
+   "claude_modal_object": "n150_r36_lattice",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 2,
+   "gpt_modal_object": "n150_r36_lattice",
+   "gpt_modal_share": 1.0,
+   "gpt_form_consistency": 1.0,
+   "gpt_pos_modal_share": 0.25,
+   "gpt_policy_subtype": "shared_convention",
+   "cross_model_identity_match": 1.0,
+   "claude_shares": {
+    "n60_r55_random": 0.0,
+    "n240_r28_random": 0.0,
+    "n150_r36_lattice": 1.0,
+    "n150_r36_clustered": 0.0
+   },
+   "gpt_shares": {
+    "n60_r55_random": 0.0,
+    "n240_r28_random": 0.0,
+    "n150_r36_lattice": 1.0,
+    "n150_r36_clustered": 0.0
+   },
+   "evidence": "discovery5_20260909_011211 n=24 per model - DISCOVERY ONLY, requires the pilot's own independent validation run before locking",
+   "validated": true,
+   "n_claude": 24,
+   "n_gpt": 24,
+   "green_index": 0,
+   "green_object": "n60_r55_random",
+   "green_eligible_indices": [
+    0,
+    1,
+    3
+   ],
+   "green_eligible_objects": [
+    "n60_r55_random",
+    "n240_r28_random",
+    "n150_r36_clustered"
+   ],
+   "green_excluded": {
+    "n150_r36_lattice": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model",
+   "validation_run": "ctrlval_20260908_215424",
+   "val_claude_share": 1.0,
+   "val_gpt_share": 1.0,
+   "val_claude_fc": 1.0,
+   "val_gpt_fc": 1.0,
+   "val_claude_pos_share": 0.25,
+   "val_gpt_pos_share": 0.25,
+   "val_claude_eff_identity_support": 1.0,
+   "val_n_per_model": 24
+  },
+  {
+   "array_id": "m2_texture_v1",
+   "item_type": "control",
+   "role": "locked_control",
+   "family": "M2_texture",
+   "mechanism": "noise_texture",
+   "objects": [
+    "n110_r42_lattice",
+    "n110_r42_random",
+    "n40_r70_random",
+    "n300_r24_clustered"
+   ],
+   "claude_modal_index": 0,
+   "claude_modal_object": "n110_r42_lattice",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 0,
+   "gpt_modal_object": "n110_r42_lattice",
+   "gpt_modal_share": 1.0,
+   "gpt_form_consistency": 1.0,
+   "gpt_pos_modal_share": 0.25,
+   "gpt_policy_subtype": "shared_convention",
+   "cross_model_identity_match": 1.0,
+   "claude_shares": {
+    "n110_r42_lattice": 1.0,
+    "n110_r42_random": 0.0,
+    "n40_r70_random": 0.0,
+    "n300_r24_clustered": 0.0
+   },
+   "gpt_shares": {
+    "n110_r42_lattice": 1.0,
+    "n110_r42_random": 0.0,
+    "n40_r70_random": 0.0,
+    "n300_r24_clustered": 0.0
+   },
+   "evidence": "discovery5_20260909_011211 n=24 per model - DISCOVERY ONLY, requires the pilot's own independent validation run before locking",
+   "validated": true,
+   "n_claude": 24,
+   "n_gpt": 24,
+   "green_index": 2,
+   "green_object": "n40_r70_random",
+   "green_eligible_indices": [
+    1,
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "n110_r42_random",
+    "n40_r70_random",
+    "n300_r24_clustered"
+   ],
+   "green_excluded": {
+    "n110_r42_lattice": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model",
+   "validation_run": "ctrlval_20260908_215424",
+   "val_claude_share": 1.0,
+   "val_gpt_share": 1.0,
+   "val_claude_fc": 1.0,
+   "val_gpt_fc": 1.0,
+   "val_claude_pos_share": 0.25,
+   "val_gpt_pos_share": 0.25,
+   "val_claude_eff_identity_support": 1.0,
+   "val_n_per_model": 24
+  },
+  {
+   "array_id": "m3_mirror_v3",
+   "item_type": "control",
+   "role": "locked_control",
+   "family": "M3_mirror",
+   "mechanism": "mirror",
+   "objects": [
+    "sym1",
+    "sym6",
+    "twinTrue",
+    "sym2"
+   ],
+   "claude_modal_index": 1,
+   "claude_modal_object": "sym6",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 1,
+   "gpt_modal_object": "sym6",
+   "gpt_modal_share": 0.9583,
+   "gpt_form_consistency": 0.8333,
+   "gpt_pos_modal_share": 0.2917,
+   "gpt_policy_subtype": "shared_convention",
+   "cross_model_identity_match": 0.9583,
+   "claude_shares": {
+    "sym1": 0.0,
+    "sym6": 1.0,
+    "twinTrue": 0.0,
+    "sym2": 0.0
+   },
+   "gpt_shares": {
+    "sym1": 0.0,
+    "sym6": 0.9583,
+    "twinTrue": 0.0417,
+    "sym2": 0.0
+   },
+   "evidence": "discovery5_20260909_011211 n=24 per model - DISCOVERY ONLY, requires the pilot's own independent validation run before locking",
+   "validated": true,
+   "n_claude": 24,
+   "n_gpt": 24,
+   "green_index": 0,
+   "green_object": "sym1",
+   "green_eligible_indices": [
+    0,
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "sym1",
+    "twinTrue",
+    "sym2"
+   ],
+   "green_excluded": {
+    "sym6": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model",
+   "validation_run": "ctrlval_20260908_215424",
+   "val_claude_share": 1.0,
+   "val_gpt_share": 0.9583333333333334,
+   "val_claude_fc": 1.0,
+   "val_gpt_fc": 0.8333333333333334,
+   "val_claude_pos_share": 0.25,
+   "val_gpt_pos_share": 0.2916666666666667,
+   "val_claude_eff_identity_support": 1.0,
+   "val_n_per_model": 24
+  },
+  {
+   "array_id": "m3_mirror_v6",
+   "item_type": "control",
+   "role": "locked_control",
+   "family": "M3_mirror",
+   "mechanism": "mirror",
+   "objects": [
+    "sym3",
+    "twinTrue",
+    "sym1",
+    "sym2"
+   ],
+   "claude_modal_index": 1,
+   "claude_modal_object": "twinTrue",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 1,
+   "gpt_modal_object": "twinTrue",
+   "gpt_modal_share": 1.0,
+   "gpt_form_consistency": 1.0,
+   "gpt_pos_modal_share": 0.25,
+   "gpt_policy_subtype": "shared_convention",
+   "cross_model_identity_match": 1.0,
+   "claude_shares": {
+    "sym3": 0.0,
+    "twinTrue": 1.0,
+    "sym1": 0.0,
+    "sym2": 0.0
+   },
+   "gpt_shares": {
+    "sym3": 0.0,
+    "twinTrue": 1.0,
+    "sym1": 0.0,
+    "sym2": 0.0
+   },
+   "evidence": "discovery5_20260909_011211 n=24 per model - DISCOVERY ONLY, requires the pilot's own independent validation run before locking",
+   "validated": true,
+   "n_claude": 24,
+   "n_gpt": 24,
+   "green_index": 3,
+   "green_object": "sym2",
+   "green_eligible_indices": [
+    0,
+    2,
+    3
+   ],
+   "green_eligible_objects": [
+    "sym3",
+    "sym1",
+    "sym2"
+   ],
+   "green_excluded": {
+    "twinTrue": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model",
+   "validation_run": "ctrlval_20260908_215424",
+   "val_claude_share": 1.0,
+   "val_gpt_share": 1.0,
+   "val_claude_fc": 1.0,
+   "val_gpt_fc": 1.0,
+   "val_claude_pos_share": 0.25,
+   "val_gpt_pos_share": 0.25,
+   "val_claude_eff_identity_support": 1.0,
+   "val_n_per_model": 24
+  },
+  {
+   "array_id": "m4_contour_v0",
+   "item_type": "control",
+   "role": "locked_control",
+   "family": "M4_contour",
+   "mechanism": "line_contour",
+   "objects": [
+    "segments2_lw7",
+    "segments5_lw4",
+    "closed1_lw7",
+    "crossing3_lw6"
+   ],
+   "claude_modal_index": 2,
+   "claude_modal_object": "closed1_lw7",
+   "claude_modal_share": 1.0,
+   "claude_form_consistency": 1.0,
+   "claude_pos_modal_share": 0.25,
+   "claude_eff_identity_support": 1.0,
+   "gpt_modal_index": 2,
+   "gpt_modal_object": "closed1_lw7",
+   "gpt_modal_share": 1.0,
+   "gpt_form_consistency": 1.0,
+   "gpt_pos_modal_share": 0.25,
+   "gpt_policy_subtype": "shared_convention",
+   "cross_model_identity_match": 1.0,
+   "claude_shares": {
+    "segments2_lw7": 0.0,
+    "segments5_lw4": 0.0,
+    "closed1_lw7": 1.0,
+    "crossing3_lw6": 0.0
+   },
+   "gpt_shares": {
+    "segments2_lw7": 0.0,
+    "segments5_lw4": 0.0,
+    "closed1_lw7": 1.0,
+    "crossing3_lw6": 0.0
+   },
+   "evidence": "discovery5_20260909_011211 n=24 per model - DISCOVERY ONLY, requires the pilot's own independent validation run before locking",
+   "validated": true,
+   "n_claude": 24,
+   "n_gpt": 24,
+   "green_index": 0,
+   "green_object": "segments2_lw7",
+   "green_eligible_indices": [
+    0,
+    1,
+    3
+   ],
+   "green_eligible_objects": [
+    "segments2_lw7",
+    "segments5_lw4",
+    "crossing3_lw6"
+   ],
+   "green_excluded": {
+    "closed1_lw7": "claude_locked_modal"
+   },
+   "green_seed": 20260908,
+   "green_rule": "exclude claude locked modal + any object >= 0.35 of either model",
+   "validation_run": "ctrlval_20260908_215424",
+   "val_claude_share": 1.0,
+   "val_gpt_share": 1.0,
+   "val_claude_fc": 1.0,
+   "val_gpt_fc": 1.0,
+   "val_claude_pos_share": 0.25,
+   "val_gpt_pos_share": 0.25,
+   "val_claude_eff_identity_support": 1.0,
+   "val_n_per_model": 24
+  }
+ ],
+ "control_lock": [
+  "m4_contour_v0",
+  "m3_mirror_v3",
+  "m3_mirror_v6",
+  "m1_nesting_v4",
+  "m2_texture_v0",
+  "m2_texture_v1"
+ ],
+ "control_spare": [],
+ "provenance": {
+  "confirmation": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/confirm5_20260909_012018/confirmation5_results.csv",
+  "discovery": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/discovery5_inventory.csv",
+  "battery": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/stimuli5/battery5_manifest.csv"
+ },
+ "control_failed": [
+  "m5_numerosity_v6"
+ ],
+ "control_validation": {
+  "run": "ctrlval_20260908_215424",
+  "locked_sha": "e5378ac89a64c7d1ddf308685ffd4d877b1732c0bd0a3814b75166eb9ab50d29",
+  "n_pass": 6,
+  "n_fail": 1
+ },
+ "balance": {
+  "n_asymmetric": 8,
+  "n_control": 6,
+  "claude_modal_share": {
+   "asymmetric": 0.9618,
+   "control_validation": 1.0,
+   "note": "asymmetric from confirmation n=72; control from validation n=24"
+  },
+  "claude_form_consistency": {
+   "asymmetric": 0.9166,
+   "control_validation": 1.0
+  },
+  "claude_eff_identity_support": {
+   "asymmetric": 0.929,
+   "control_validation": 1.0
+  },
+  "mechanism": {
+   "asymmetric": {
+    "nesting": 1,
+    "noise_texture": 1,
+    "mirror": 3,
+    "line_contour": 1,
+    "numerosity": 2
+   },
+   "control": {
+    "nesting": 1,
+    "noise_texture": 2,
+    "mirror": 2,
+    "line_contour": 1
+   }
+  },
+  "family": {
+   "asymmetric": {
+    "M1_nesting": 1,
+    "M2_texture": 1,
+    "M3_mirror": 3,
+    "M4_contour": 1,
+    "M5_numerosity": 2
+   },
+   "control": {
+    "M1_nesting": 1,
+    "M2_texture": 2,
+    "M3_mirror": 2,
+    "M4_contour": 1
+   }
+  },
+  "shortfalls": [
+   "numerosity: 0 passing, wanted 1",
+   "slot filled off-mechanism by m2_texture_v1 (noise_texture)",
+   "NO numerosity control: m5_numerosity_v6 was the only shared-policy candidate in that mechanism and it FAILED validation on form consistency for both models (Claude .667, GPT .500). The asymmetric set contains 2 numerosity arrays (m5_numerosity_v2, m5_numerosity_v4) with no mechanism-matched control. Any asymmetric-vs-control interaction must be re-checked with numerosity arrays dropped.",
+   "Control policy strength is measured at n=24 against the asymmetric set's n=72, so control shares are less precisely estimated and sit at a ceiling (5 of 6 at 1.000) slightly above the asymmetric mean (.962)."
+  ]
+ },
+ "stage1_complete": true
+}

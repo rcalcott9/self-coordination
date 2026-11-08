@@ -1,0 +1,780 @@
+{
+ "GPT-5.5": {
+  "sealed_at": "2026-10-17T20:25:29+00:00",
+  "responses": {
+   "GPT-5.5|same_model|00": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|02": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|27": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|09": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|42": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|19": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|55": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|20": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|16": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|57": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|47": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|33": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|43": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|05": {
+    "status": "invalid_response",
+    "action_label": null,
+    "action_canonical": null,
+    "text_sha256": "48dfb140143f8d61a979dca67654d46b7d01bf8283fb1d61a3556a30a1c110b3"
+   },
+   "GPT-5.5|same_model|08": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|59": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|22": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|26": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|32": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|53": {
+    "status": "invalid_response",
+    "action_label": null,
+    "action_canonical": null,
+    "text_sha256": "48dfb140143f8d61a979dca67654d46b7d01bf8283fb1d61a3556a30a1c110b3"
+   },
+   "GPT-5.5|same_model|44": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|13": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|24": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|25": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|21": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|03": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|45": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|62": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|39": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|01": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|54": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|51": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|10": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|06": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|50": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|31": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|38": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|30": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|48": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|07": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|14": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|17": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|36": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|41": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|37": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|18": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|56": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|49": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|35": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|58": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|61": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|60": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|52": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|04": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|46": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|28": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|23": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|29": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|15": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|12": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|11": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|34": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "GPT-5.5|same_model|40": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "GPT-5.5|same_model|63": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   }
+  }
+ },
+ "Claude Opus 5": {
+  "sealed_at": "2026-10-17T20:25:29+00:00",
+  "responses": {
+   "Claude Opus 5|same_model|00": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|01": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|63": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|51": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|10": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|17": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|52": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|61": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|05": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|60": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|62": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|56": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|18": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|49": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|59": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|16": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|54": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|24": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|47": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|04": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|19": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|03": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|36": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|48": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|53": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|09": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|45": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|13": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|58": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|11": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|37": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|50": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|32": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|07": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|38": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|31": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|28": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|30": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|55": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|40": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|35": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|42": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|15": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|21": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|20": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|06": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|34": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|43": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|25": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|33": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "C",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|27": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|57": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|22": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|39": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|08": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|02": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|41": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|29": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|12": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "C",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|23": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|14": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|26": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   },
+   "Claude Opus 5|same_model|46": {
+    "status": "ok",
+    "action_label": "A",
+    "action_canonical": "D",
+    "text_sha256": "e8bf76c933f9c7faaa6dfe37cae26eca663fb5dd3c2eec4b0d35389c3b6ce85a"
+   },
+   "Claude Opus 5|same_model|44": {
+    "status": "ok",
+    "action_label": "B",
+    "action_canonical": "D",
+    "text_sha256": "8325b5eed606e1e20ea3903c166f91541a04d863ca83e904d3d8b52eceb07751"
+   }
+  }
+ }
+}

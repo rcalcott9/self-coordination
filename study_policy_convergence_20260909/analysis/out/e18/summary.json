@@ -1,0 +1,437 @@
+{
+ "A_original_12": {
+  "dataset": "A_original_12",
+  "n_items": 12,
+  "n_models": 9,
+  "n_cells": 108,
+  "n_pairs": 432,
+  "log_cross_match": {
+   "mean": -0.28089902720599264,
+   "slope": 0.12139679879288773,
+   "lo": -0.057681535234331026,
+   "hi": 0.3191766561982668
+  },
+  "determinism_channel": {
+   "mean": -0.1816833661728276,
+   "slope": 0.07580188987892966,
+   "lo": 0.016270381975441145,
+   "hi": 0.12669405305265266
+  },
+  "alignment_channel": {
+   "mean": -0.09921566103316508,
+   "slope": 0.04559490891395808,
+   "lo": -0.0921673999151398,
+   "hi": 0.2220606718780194
+  },
+  "cross_model_match": {
+   "mean": 0.8105743651360433,
+   "slope": 0.06781949511161219,
+   "lo": -0.020489394053385495,
+   "hi": 0.1461870220329413
+  },
+  "das": {
+   "mean": 0.9502772341703524,
+   "slope": 0.03364134039431722,
+   "lo": -0.0269715088633838,
+   "hi": 0.1139541877797297
+  },
+  "cos_raw": {
+   "mean": 0.9333631953866167,
+   "slope": 0.028959611323801225,
+   "lo": -0.05368921912690838,
+   "hi": 0.12996377344564755
+  },
+  "modal_agreement": {
+   "mean": 0.8842592592592593,
+   "slope": 0.01225730859118475,
+   "lo": -0.12840129334397288,
+   "hi": 0.17803498326448103
+  },
+  "decomposition": {
+   "total": 0.12139679879288773,
+   "determinism": 0.07580188987892966,
+   "alignment": 0.04559490891395808,
+   "residual": -1.8580138271882665e-18,
+   "share_determinism": 0.6244142401831659
+  },
+  "das_by_pair_type": {
+   "within_family": {
+    "n": 192,
+    "slope": 0.022209768338372883,
+    "lo": -0.03974518035103656,
+    "hi": 0.10274341021106599
+   },
+   "cross_family": {
+    "n": 240,
+    "slope": 0.039046266774231085,
+    "lo": -0.02581936311995015,
+    "hi": 0.13322094406966462
+   }
+  },
+  "by_checkpoint": {
+   "gpt-4-turbo-2024-04-09": {
+    "vintage": -0.75,
+    "family": "gpt",
+    "n_cells": 12,
+    "median_support": 1.2412411677355135,
+    "frac_deterministic": 0.16666666666666666,
+    "median_modal_share": 0.8949468085106382
+   },
+   "gpt-4.1-2025-04-14": {
+    "vintage": 0.25,
+    "family": "gpt",
+    "n_cells": 12,
+    "median_support": 1.087638649741721,
+    "frac_deterministic": 0.3333333333333333,
+    "median_modal_share": 0.9583333333333333
+   },
+   "gpt-5-2025-08-07": {
+    "vintage": 0.5833333333333334,
+    "family": "gpt",
+    "n_cells": 12,
+    "median_support": 1.0,
+    "frac_deterministic": 0.6666666666666666,
+    "median_modal_share": 1.0
+   },
+   "gpt-5.5-2026-04-23": {
+    "vintage": 1.25,
+    "family": "gpt",
+    "n_cells": 12,
+    "median_support": 1.0,
+    "frac_deterministic": 0.75,
+    "median_modal_share": 1.0
+   },
+   "claude-opus-4-5-20251101": {
+    "vintage": 0.8333333333333334,
+    "family": "claude",
+    "n_cells": 12,
+    "median_support": 1.0,
+    "frac_deterministic": 0.6666666666666666,
+    "median_modal_share": 1.0
+   },
+   "claude-opus-4-6": {
+    "vintage": 1.0833333333333333,
+    "family": "claude",
+    "n_cells": 12,
+    "median_support": 1.0,
+    "frac_deterministic": 0.5833333333333334,
+    "median_modal_share": 1.0
+   },
+   "claude-opus-4-7": {
+    "vintage": 1.25,
+    "family": "claude",
+    "n_cells": 12,
+    "median_support": 1.0,
+    "frac_deterministic": 0.6666666666666666,
+    "median_modal_share": 1.0
+   },
+   "claude-opus-4-8": {
+    "vintage": 1.3333333333333333,
+    "family": "claude",
+    "n_cells": 12,
+    "median_support": 1.0433962264150942,
+    "frac_deterministic": 0.5,
+    "median_modal_share": 0.9791666666666667
+   },
+   "claude-opus-5": {
+    "vintage": 1.5,
+    "family": "claude",
+    "n_cells": 12,
+    "median_support": 1.0,
+    "frac_deterministic": 0.5833333333333334,
+    "median_modal_share": 1.0
+   }
+  },
+  "frac_deterministic_overall": 0.5462962962962963
+ },
+ "B_expansion_5": {
+  "dataset": "B_expansion_5",
+  "n_items": 5,
+  "n_models": 9,
+  "n_cells": 45,
+  "n_pairs": 180,
+  "log_cross_match": {
+   "mean": -0.7775584627163739,
+   "slope": 0.36404422209538934,
+   "lo": 0.09050393004866716,
+   "hi": 0.8570915336535786
+  },
+  "determinism_channel": {
+   "mean": -0.3970861103693516,
+   "slope": 0.1590792725864589,
+   "lo": 0.06622401820140272,
+   "hi": 0.25193452697151486
+  },
+  "alignment_channel": {
+   "mean": -0.38047235234702204,
+   "slope": 0.20496494950893016,
+   "lo": -0.13600295344504282,
+   "hi": 0.7966570017979008
+  },
+  "cross_model_match": {
+   "mean": 0.5356770833333333,
+   "slope": 0.15395901149450703,
+   "lo": 0.08192113830743639,
+   "hi": 0.28081063649706767
+  },
+  "das": {
+   "mean": 0.8344062398104465,
+   "slope": 0.10470303017968198,
+   "lo": -0.0017278294422307936,
+   "hi": 0.28743822972435185
+  },
+  "cos_raw": {
+   "mean": 0.7773540616620407,
+   "slope": 0.10079873374610579,
+   "lo": -0.03266308801608285,
+   "hi": 0.3427770196855862
+  },
+  "modal_agreement": {
+   "mean": 0.65,
+   "slope": 0.18402830125394443,
+   "lo": -0.05091547341289308,
+   "hi": 0.5717341682066083
+  },
+  "decomposition": {
+   "total": 0.36404422209538934,
+   "determinism": 0.1590792725864589,
+   "alignment": 0.20496494950893016,
+   "residual": -9.875274787722136e-18,
+   "share_determinism": 0.4369778805190757
+  },
+  "das_by_pair_type": {
+   "within_family": {
+    "n": 80,
+    "slope": 0.06846471985086203,
+    "lo": -0.04522373926015284,
+    "hi": 0.252991772410572
+   },
+   "cross_family": {
+    "n": 100,
+    "slope": 0.10604393459966945,
+    "lo": -0.00627002162323912,
+    "hi": 0.29638863643143204
+   }
+  },
+  "by_checkpoint": {
+   "gpt-4-turbo-2024-04-09": {
+    "vintage": -0.75,
+    "family": "gpt",
+    "n_cells": 5,
+    "median_support": 1.996533795493934,
+    "frac_deterministic": 0.0,
+    "median_modal_share": 0.5833333333333334
+   },
+   "gpt-4.1-2025-04-14": {
+    "vintage": 0.25,
+    "family": "gpt",
+    "n_cells": 5,
+    "median_support": 2.1215469613259668,
+    "frac_deterministic": 0.0,
+    "median_modal_share": 0.6458333333333334
+   },
+   "gpt-5-2025-08-07": {
+    "vintage": 0.5833333333333334,
+    "family": "gpt",
+    "n_cells": 5,
+    "median_support": 1.4382022471910112,
+    "frac_deterministic": 0.0,
+    "median_modal_share": 0.8125
+   },
+   "gpt-5.5-2026-04-23": {
+    "vintage": 1.25,
+    "family": "gpt",
+    "n_cells": 5,
+    "median_support": 1.652797704447633,
+    "frac_deterministic": 0.2,
+    "median_modal_share": 0.7291666666666666
+   },
+   "claude-opus-4-5-20251101": {
+    "vintage": 0.8333333333333334,
+    "family": "claude",
+    "n_cells": 5,
+    "median_support": 1.28,
+    "frac_deterministic": 0.2,
+    "median_modal_share": 0.875
+   },
+   "claude-opus-4-6": {
+    "vintage": 1.0833333333333333,
+    "family": "claude",
+    "n_cells": 5,
+    "median_support": 1.546308724832215,
+    "frac_deterministic": 0.2,
+    "median_modal_share": 0.7708333333333334
+   },
+   "claude-opus-4-7": {
+    "vintage": 1.25,
+    "family": "claude",
+    "n_cells": 5,
+    "median_support": 1.28,
+    "frac_deterministic": 0.2,
+    "median_modal_share": 0.875
+   },
+   "claude-opus-4-8": {
+    "vintage": 1.3333333333333333,
+    "family": "claude",
+    "n_cells": 5,
+    "median_support": 1.3317919075144509,
+    "frac_deterministic": 0.0,
+    "median_modal_share": 0.8541666666666666
+   },
+   "claude-opus-5": {
+    "vintage": 1.5,
+    "family": "claude",
+    "n_cells": 5,
+    "median_support": 1.1803278688524592,
+    "frac_deterministic": 0.0,
+    "median_modal_share": 0.9166666666666666
+   }
+  },
+  "frac_deterministic_overall": 0.08888888888888889
+ },
+ "C_combined_17": {
+  "dataset": "C_combined_17",
+  "n_items": 17,
+  "n_models": 9,
+  "n_cells": 153,
+  "n_pairs": 612,
+  "log_cross_match": {
+   "mean": -0.42697533176786945,
+   "slope": 0.192763687999505,
+   "lo": 0.012220242684126525,
+   "hi": 0.3962750148798698
+  },
+  "determinism_channel": {
+   "mean": -0.2450371144659229,
+   "slope": 0.10029523773408498,
+   "lo": 0.049154822444751334,
+   "hi": 0.1501289159053788
+  },
+  "alignment_channel": {
+   "mean": -0.18193821730194654,
+   "slope": 0.09246845026542,
+   "lo": -0.06425520352848173,
+   "hi": 0.31343313854062976
+  },
+  "cross_model_match": {
+   "mean": 0.7297222234293638,
+   "slope": 0.09315464698893434,
+   "lo": 0.018355779491573167,
+   "hi": 0.16352187860814973
+  },
+  "das": {
+   "mean": 0.9161975299468504,
+   "slope": 0.054541837390013455,
+   "lo": -0.006604602225108062,
+   "hi": 0.13413190971905717
+  },
+  "cos_raw": {
+   "mean": 0.887478156055859,
+   "slope": 0.05008876497742068,
+   "lo": -0.029394549813963996,
+   "hi": 0.1539005975810496
+  },
+  "modal_agreement": {
+   "mean": 0.815359477124183,
+   "slope": 0.06277818878611455,
+   "lo": -0.0710581698875263,
+   "hi": 0.22325902968284572
+  },
+  "decomposition": {
+   "total": 0.192763687999505,
+   "determinism": 0.10029523773408498,
+   "alignment": 0.09246845026542,
+   "residual": -4.216031756757051e-18,
+   "share_determinism": 0.5203015089353474
+  },
+  "das_by_pair_type": {
+   "within_family": {
+    "n": 272,
+    "slope": 0.03581416584204562,
+    "lo": -0.02670657529043983,
+    "hi": 0.10993424021653207
+   },
+   "cross_family": {
+    "n": 340,
+    "slope": 0.05875146319347612,
+    "lo": -0.009453358330650382,
+    "hi": 0.1454531564182023
+   }
+  },
+  "by_checkpoint": {
+   "gpt-4-turbo-2024-04-09": {
+    "vintage": -0.75,
+    "family": "gpt",
+    "n_cells": 17,
+    "median_support": 1.3505275498241502,
+    "frac_deterministic": 0.11764705882352941,
+    "median_modal_share": 0.8541666666666666
+   },
+   "gpt-4.1-2025-04-14": {
+    "vintage": 0.25,
+    "family": "gpt",
+    "n_cells": 17,
+    "median_support": 1.1327433628318584,
+    "frac_deterministic": 0.23529411764705882,
+    "median_modal_share": 0.9375
+   },
+   "gpt-5-2025-08-07": {
+    "vintage": 0.5833333333333334,
+    "family": "gpt",
+    "n_cells": 17,
+    "median_support": 1.0425339366515838,
+    "frac_deterministic": 0.47058823529411764,
+    "median_modal_share": 0.9791666666666666
+   },
+   "gpt-5.5-2026-04-23": {
+    "vintage": 1.25,
+    "family": "gpt",
+    "n_cells": 17,
+    "median_support": 1.0,
+    "frac_deterministic": 0.5882352941176471,
+    "median_modal_share": 1.0
+   },
+   "claude-opus-4-5-20251101": {
+    "vintage": 0.8333333333333334,
+    "family": "claude",
+    "n_cells": 17,
+    "median_support": 1.0,
+    "frac_deterministic": 0.5294117647058824,
+    "median_modal_share": 1.0
+   },
+   "claude-opus-4-6": {
+    "vintage": 1.0833333333333333,
+    "family": "claude",
+    "n_cells": 17,
+    "median_support": 1.28,
+    "frac_deterministic": 0.47058823529411764,
+    "median_modal_share": 0.875
+   },
+   "claude-opus-4-7": {
+    "vintage": 1.25,
+    "family": "claude",
+    "n_cells": 17,
+    "median_support": 1.0,
+    "frac_deterministic": 0.5294117647058824,
+    "median_modal_share": 1.0
+   },
+   "claude-opus-4-8": {
+    "vintage": 1.3333333333333333,
+    "family": "claude",
+    "n_cells": 17,
+    "median_support": 1.1803278688524592,
+    "frac_deterministic": 0.35294117647058826,
+    "median_modal_share": 0.9166666666666666
+   },
+   "claude-opus-5": {
+    "vintage": 1.5,
+    "family": "claude",
+    "n_cells": 17,
+    "median_support": 1.0867924528301884,
+    "frac_deterministic": 0.4117647058823529,
+    "median_modal_share": 0.9583333333333334
+   }
+  },
+  "frac_deterministic_overall": 0.4117647058823529
+ }
+}

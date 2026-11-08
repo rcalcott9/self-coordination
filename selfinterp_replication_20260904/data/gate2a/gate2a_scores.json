@@ -1,0 +1,34 @@
+{
+  "ft_report_vs_learned": null,
+  "ft_report_vs_true": null,
+  "base_report_vs_true": {
+    "r": 0.04307767912263813,
+    "ci95": [
+      -0.037721565417725346,
+      0.1279631727456751
+    ],
+    "n_contexts": 99,
+    "within_context_mean": 0.033277324432917074,
+    "within_context_negative": 45,
+    "standardised_slope": 0.04307767912263811
+  },
+  "base_report_vs_ft_learned": {
+    "r": 0.09076663834367324,
+    "ci95": [
+      0.002525879752182579,
+      0.18644924468087595
+    ],
+    "n_contexts": 99,
+    "within_context_mean": 0.0913725570958608,
+    "within_context_negative": 39,
+    "standardised_slope": 0.09076663834367313
+  },
+  "parse": {
+    "ft_strict_ok": 0,
+    "ft_total": 1000,
+    "ft_contexts": 0,
+    "base_strict_ok": 956,
+    "base_total": 1000,
+    "base_contexts": 99
+  }
+}

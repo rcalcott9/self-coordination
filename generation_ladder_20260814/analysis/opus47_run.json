@@ -1,0 +1,42 @@
+{
+  "model": "opus47",
+  "gate": {
+    "valid_rate": 1.0,
+    "controls": {
+      "proto": {
+        "n": 24,
+        "self_match": 1.0,
+        "p_left": 0.5,
+        "modal": "circle",
+        "form_consistency": 1.0
+      },
+      "s_contrast": {
+        "n": 24,
+        "self_match": 1.0,
+        "p_left": 0.5,
+        "modal": "dark",
+        "form_consistency": 1.0
+      }
+    },
+    "best_control_match": 1.0,
+    "position_fallback_controls": [],
+    "attempt_by_safe": {
+      "3": 1.0,
+      "9": 0.292
+    },
+    "payoff_drop": 0.708,
+    "failures": [],
+    "passes_all": true
+  },
+  "n_selected_15-stimulus": 3,
+  "universe": "15-stimulus",
+  "pairs": [
+    "proto > a_chev_ud",
+    "rot > b_spiral_cw",
+    "d_dens_extreme > s_density"
+  ],
+  "screen_attempt_rate_at_safe9": 0.6166666666666667,
+  "payoff_saturated": false,
+  "stage_c_rc": 0,
+  "primary_rc": 0
+}

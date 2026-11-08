@@ -1,0 +1,32 @@
+=== STAGE A - fresh self-play ground truth ===
+models   : GPT-5 (gpt-5-2025-08-07), Claude Opus 5 (claude-opus-5)
+stimuli  : 30  (x1_sym_hi, x1_sym_mid, x1_sym_lo, x2_lg_ct, x2_lg_sq, x2_lg_dense, x3_tex_sd, x3_tex_sp, x3_tex_dp, x4_db_a, x4_db_b, x4_db_sub, x5_cs_a, x5_cs_b, x5_cs_sub, x6_oi_a, x6_oi_b, x6_oi_c, x7_close_wide, x7_close_mid, x7_close_fine, x8_contr_a, x8_contr_b, x8_contr_c, x9_dir_a, x9_dir_b, x9_dir_c, x10_cen_a, x10_cen_b, x10_cen_c)
+prompt   : sha8=3003ae1b  (step1 canonical = 3003ae1b)
+seed     : 20260812   AB/BA exactly 30/30 per cell
+trials   : 1800
+
+  100/1800 trials
+  200/1800 trials
+  300/1800 trials
+  400/1800 trials
+  500/1800 trials
+  600/1800 trials
+  700/1800 trials
+  800/1800 trials
+  900/1800 trials
+  1000/1800 trials
+  1100/1800 trials
+  1200/1800 trials
+  1300/1800 trials
+  1400/1800 trials
+  1500/1800 trials
+  1600/1800 trials
+  1700/1800 trials
+  1800/1800 trials
+
+=== stage A done: 1800 trials in 1085s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5_expanded/data/stageA_20260814_230345.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5_expanded/data/stageA_20260814_230345.jsonl

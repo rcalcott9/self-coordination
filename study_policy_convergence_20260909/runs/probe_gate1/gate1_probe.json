@@ -1,0 +1,323 @@
+{
+  "probe": "gate1_availability_and_thinking_surface",
+  "started_utc": "2026-09-09T16:49:26.979065+00:00",
+  "finished_utc": "2026-09-09T16:50:20.596782+00:00",
+  "stimulus": "study2_4opt_20260830/stimuli/F01_oddone_m0/perm00.png",
+  "prompt_sha8": "d40ea45d",
+  "results": [
+    {
+      "provider": "openai",
+      "family": "gpt-4-0613",
+      "model_id": "gpt-4-0613",
+      "released": "2023-06",
+      "ok": false,
+      "error": "BadRequestError: Error code: 400 - {'error': {'message': \"Model 'gpt-4-0613' does not support image inputs. Try again with a vision model. To find out which models are vision-enabled, visit our our models documentation: https://platform.openai.com/docs/models\", 'type",
+      "vision": false,
+      "control_surface": null
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-4-turbo",
+      "model_id": "gpt-4-turbo-2024-04-09",
+      "released": "2024-04",
+      "ok": true,
+      "vision": true,
+      "control_surface": "temperature=1.0 (no reasoning param)",
+      "model_returned": "gpt-4-turbo-2024-04-09",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 733,
+        "out": 32
+      },
+      "reply_chars": 163
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-4o",
+      "model_id": "gpt-4o-2024-05-13",
+      "released": "2024-05",
+      "ok": true,
+      "vision": true,
+      "control_surface": "temperature=1.0 (no reasoning param)",
+      "model_returned": "gpt-4o-2024-05-13",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 733,
+        "out": 21
+      },
+      "reply_chars": 77
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-4o",
+      "model_id": "gpt-4o-2024-11-20",
+      "released": "2024-11",
+      "ok": true,
+      "vision": true,
+      "control_surface": "temperature=1.0 (no reasoning param)",
+      "model_returned": "gpt-4o-2024-11-20",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 733,
+        "out": 27
+      },
+      "reply_chars": 99
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-4.1",
+      "model_id": "gpt-4.1-2025-04-14",
+      "released": "2025-04",
+      "ok": true,
+      "vision": true,
+      "control_surface": "temperature=1.0 (no reasoning param)",
+      "model_returned": "gpt-4.1-2025-04-14",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 733,
+        "out": 35
+      },
+      "reply_chars": 149
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-5",
+      "model_id": "gpt-5-2025-08-07",
+      "released": "2025-08",
+      "ok": true,
+      "vision": true,
+      "control_surface": "reasoning.effort=low",
+      "model_returned": "gpt-5-2025-08-07",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 627,
+        "out": 107
+      },
+      "reply_chars": 69
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-5.1",
+      "model_id": "gpt-5.1-2025-11-13",
+      "released": "2025-11",
+      "ok": true,
+      "vision": true,
+      "control_surface": "reasoning.effort=low",
+      "model_returned": "gpt-5.1-2025-11-13",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 627,
+        "out": 61
+      },
+      "reply_chars": 130
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-5.2",
+      "model_id": "gpt-5.2-2025-12-11",
+      "released": "2025-12",
+      "ok": true,
+      "vision": true,
+      "control_surface": "reasoning.effort=low",
+      "model_returned": "gpt-5.2-2025-12-11",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 652,
+        "out": 84
+      },
+      "reply_chars": 108
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-5.4",
+      "model_id": "gpt-5.4-2026-03-05",
+      "released": "2026-03",
+      "ok": true,
+      "vision": true,
+      "control_surface": "reasoning.effort=low",
+      "model_returned": "gpt-5.4-2026-03-05",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 652,
+        "out": 133
+      },
+      "reply_chars": 81
+    },
+    {
+      "provider": "openai",
+      "family": "gpt-5.5",
+      "model_id": "gpt-5.5-2026-04-23",
+      "released": "2026-04",
+      "ok": true,
+      "vision": true,
+      "control_surface": "reasoning.effort=low",
+      "model_returned": "gpt-5.5-2026-04-23",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": null,
+      "usage": {
+        "in": 652,
+        "out": 116
+      },
+      "reply_chars": 73
+    },
+    {
+      "provider": "anthropic",
+      "family": "claude-sonnet-4-5",
+      "model_id": "claude-sonnet-4-5-20250929",
+      "released": "2025-09",
+      "ok": true,
+      "vision": true,
+      "control_surface": "thinking={'type':'disabled'} (explicit off)",
+      "model_returned": "claude-sonnet-4-5-20250929",
+      "alias_match": true,
+      "parsed": 0,
+      "parses": true,
+      "thinking_blocks_returned": false,
+      "usage": {
+        "in": 737,
+        "out": 43
+      },
+      "reply_chars": 182
+    },
+    {
+      "provider": "anthropic",
+      "family": "claude-haiku-4-5",
+      "model_id": "claude-haiku-4-5-20251001",
+      "released": "2025-10",
+      "ok": true,
+      "vision": true,
+      "control_surface": "thinking={'type':'disabled'} (explicit off)",
+      "model_returned": "claude-haiku-4-5-20251001",
+      "alias_match": true,
+      "parsed": 1,
+      "parses": true,
+      "thinking_blocks_returned": false,
+      "usage": {
+        "in": 737,
+        "out": 205
+      },
+      "reply_chars": 829
+    },
+    {
+      "provider": "anthropic",
+      "family": "claude-opus-4-5",
+      "model_id": "claude-opus-4-5-20251101",
+      "released": "2025-11",
+      "ok": true,
+      "vision": true,
+      "control_surface": "thinking={'type':'disabled'} (explicit off)",
+      "model_returned": "claude-opus-4-5-20251101",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": false,
+      "usage": {
+        "in": 737,
+        "out": 46
+      },
+      "reply_chars": 201
+    },
+    {
+      "provider": "anthropic",
+      "family": "claude-opus-4-6",
+      "model_id": "claude-opus-4-6",
+      "released": "2026-02",
+      "ok": true,
+      "vision": true,
+      "control_surface": "thinking={'type':'disabled'} (explicit off)",
+      "model_returned": "claude-opus-4-6",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": false,
+      "usage": {
+        "in": 737,
+        "out": 65
+      },
+      "reply_chars": 245
+    },
+    {
+      "provider": "anthropic",
+      "family": "claude-opus-4-7",
+      "model_id": "claude-opus-4-7",
+      "released": "2026-04",
+      "ok": true,
+      "vision": true,
+      "control_surface": "thinking={'type':'disabled'} (explicit off)",
+      "model_returned": "claude-opus-4-7",
+      "alias_match": true,
+      "parsed": 2,
+      "parses": true,
+      "thinking_blocks_returned": false,
+      "usage": {
+        "in": 794,
+        "out": 54
+      },
+      "reply_chars": 133
+    },
+    {
+      "provider": "anthropic",
+      "family": "claude-opus-4-8",
+      "model_id": "claude-opus-4-8",
+      "released": "2026-05",
+      "ok": true,
+      "vision": true,
+      "control_surface": "thinking={'type':'disabled'} (explicit off)",
+      "model_returned": "claude-opus-4-8",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": false,
+      "usage": {
+        "in": 788,
+        "out": 42
+      },
+      "reply_chars": 119
+    },
+    {
+      "provider": "anthropic",
+      "family": "claude-opus-5",
+      "model_id": "claude-opus-5",
+      "released": "2026-07",
+      "ok": true,
+      "vision": true,
+      "control_surface": "thinking={'type':'disabled'} (explicit off)",
+      "model_returned": "claude-opus-5",
+      "alias_match": true,
+      "parsed": 3,
+      "parses": true,
+      "thinking_blocks_returned": false,
+      "usage": {
+        "in": 788,
+        "out": 45
+      },
+      "reply_chars": 123
+    }
+  ]
+}

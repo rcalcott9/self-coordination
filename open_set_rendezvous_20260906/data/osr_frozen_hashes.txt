@@ -1,0 +1,25 @@
+OPEN-SET ONLINE RENDEZVOUS — FROZEN ARTIFACTS
+frozen_utc 2026-09-06T17:38:29Z
+model gpt-5.5 pinned gpt-5.5-2026-04-23 (agent A, agent B, monitor — one checkpoint)
+
+  OPEN_SET_ONLINE_RENDEZVOUS_PILOT.md            676f5272f6e335cc123bff73
+  osr_contexts.py                                aa2a71202a786e1b827819d5
+  osr_prompts.py                                 6115bed2ba3104f460b95b25
+  osr_canon.py                                   6e13847579e4cf9dbaa495d8
+  osr_sample.py                                  d1128c0f6f98e54d757986f6
+  osr_analyze.py                                 2f768de7178fda7b1726fba9
+  osr_contexts.json                              894927d24d2df30f52db9614
+
+  prompt hashes (context C04, all four roles):
+    baseline agent     2d1825e099efc840
+    baseline monitor   3540314b7df10faf
+    monitored agent    31ee6703c33cc106
+    monitored monitor  a83eb36fa7cf9514
+
+POST-PILOT ARTIFACTS — hashed 2026-09-06T22:57:19.004785+00:00
+  osr_strategic.py  frozen BEFORE any monitored-agent response was read
+  (the monitored sampling stage was still running at time of hashing)
+
+  AMENDMENT_01_criterion_d.md                    e9801506960b4b01bc0cd15e
+  osr_analyze_amended.py                         4f1be2dd9d5f602f8a30d524
+  osr_strategic.py                               672431d8766102cd95c3bb39

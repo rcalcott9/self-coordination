@@ -1,0 +1,362 @@
+[
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "{\"caffeine_content\": 0, \"leaf_size\": 0, \"oxidation_level\": 0, \"steeping_time\": 0, \"resteep_potential\": 0",
+  "completion_tokens": 40
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "loose_leaf_tea",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "{\"board_thickness\": 50, \"surface_area\": 50, \"knife_mark_resistance\": 50, \"grip_stability\": 50, \"ease_of_cleaning\": 50",
+  "completion_tokens": 42
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "{\"board_thickness\": 100, \"surface_area\": 100, \"knife_mark_resistance\": 100, \"grip_stability\": 100, \"ease_of_cleaning\": 100",
+  "completion_tokens": 42
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "A: {\"Openness\": 20, \"Conscientiousness\": 40, \"Extraversion\": 10, \"Agreeableness\": 30, \"Neuroticism\": 0",
+  "completion_tokens": 43
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "{\"board_thickness\": 50, \"surface_area\": 50, \"knife_mark_resistance\": 50, \"grip_stability\": 50",
+  "completion_tokens": 33
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "{\"board_thickness\": 50, \"surface_area\": 50, \"knife_mark_resistance\": 50, \"grip_stability\": 50, \"ease_of_cleaning\": 50",
+  "completion_tokens": 42
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "{\"board_thickness\": 0, \"surface_area\": 0, \"knife_mark_resistance\": 0, \"grip_stability\": 0, \"ease_of_cleaning\": 0",
+  "completion_tokens": 42
+ },
+ {
+  "scenario": "cutting_board",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "{\"padding_thickness\":-50,\"strap_width\":-20,\"ventilation_holes\":-30,\"impact_rating\":-40,\"coverage_area\":-40",
+  "completion_tokens": 34
+ },
+ {
+  "scenario": "knee_pads",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "{\"creaminess\": 50, \"mix_in_density\": 50, \"serving_size\": 50, \"flavor_intensity\": 100, \"smoothness\": 100",
+  "completion_tokens": 39
+ },
+ {
+  "scenario": "ice_cream",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "A: {\"clean_removal_time\": 20, \"uv_resistance\": 10, \"width\": 50",
+  "completion_tokens": 25
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "A: 100",
+  "completion_tokens": 5
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "A: 50",
+  "completion_tokens": 5
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "A: {\n  \"clean_removal_time\": 50,\n  \"uv_resistance\": 50,\n  \"width\": 50,\n  \"paint_bleed_resistance\": 50,\n  \"roll_length\": 50\n",
+  "completion_tokens": 49
+ },
+ {
+  "scenario": "painters_tape",
+  "finish_reason": "stop",
+  "reply": "A: 100",
+  "completion_tokens": 5
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "A: {\n  \"pitting_speed\": 50,\n  \"splash_containment\": 50,\n  \"pit_accuracy\": 50,\n  \"olive_damage\": 50,\n  \"handle_comfort\": 50",
+  "completion_tokens": 47
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "A",
+  "completion_tokens": 2
+ },
+ {
+  "scenario": "olive_pitter",
+  "finish_reason": "stop",
+  "reply": "B",
+  "completion_tokens": 2
+ }
+]

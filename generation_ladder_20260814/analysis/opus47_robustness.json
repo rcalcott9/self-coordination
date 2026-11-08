@@ -1,0 +1,140 @@
+{
+  "n_new_pairs": 8,
+  "screen_attempt_at_safe9": 0.53125,
+  "new_sample": {
+    "label": "NEW prospective sample (PRIMARY)",
+    "n_pairs": 8,
+    "n_trials": 1920,
+    "mean_gap": 0.0625,
+    "n_positive": 5,
+    "perm_p": 5e-05,
+    "payoff_gaps": {
+      "3": 0.0083,
+      "5": 0.025,
+      "7": 0.1333,
+      "9": 0.0833
+    },
+    "gaps": [
+      0.25,
+      0.475,
+      0.0417,
+      0.0167,
+      0.0083,
+      -0.125,
+      0.0,
+      -0.1667
+    ],
+    "pairs": [
+      "x6_oi_b > x4_db_sub",
+      "s_contrast > x8_contr_c",
+      "x4_db_b > x5_cs_a",
+      "x3_tex_sd > x10_cen_b",
+      "d_texture > x2_lg_ct",
+      "x5_cs_sub > c_open_cplx",
+      "x10_cen_a > b_tee_ell",
+      "x8_contr_a > c_contr_subtle"
+    ]
+  },
+  "original_sample": {
+    "label": "ORIGINAL 3-pair sample",
+    "n_pairs": 3,
+    "n_trials": 720,
+    "mean_gap": -0.1028,
+    "n_positive": 1,
+    "perm_p": 1.0,
+    "payoff_gaps": {
+      "3": -0.0222,
+      "5": -0.1667,
+      "7": -0.0889,
+      "9": -0.1333
+    },
+    "gaps": [
+      -0.0417,
+      -0.275,
+      0.0083
+    ],
+    "pairs": [
+      "proto > a_chev_ud",
+      "rot > b_spiral_cw",
+      "d_dens_extreme > s_density"
+    ]
+  },
+  "combined": {
+    "label": "COMBINED (descriptive)",
+    "n_pairs": 11,
+    "n_trials": 2640,
+    "mean_gap": 0.0174,
+    "n_positive": 6,
+    "perm_p": 0.04615,
+    "payoff_gaps": {
+      "3": 0.0,
+      "5": -0.0273,
+      "7": 0.0727,
+      "9": 0.0242
+    },
+    "gaps": [
+      -0.0417,
+      -0.275,
+      0.0083,
+      0.25,
+      0.475,
+      0.0417,
+      0.0167,
+      0.0083,
+      -0.125,
+      0.0,
+      -0.1667
+    ],
+    "pairs": [
+      "proto > a_chev_ud",
+      "rot > b_spiral_cw",
+      "d_dens_extreme > s_density",
+      "x6_oi_b > x4_db_sub",
+      "s_contrast > x8_contr_c",
+      "x4_db_b > x5_cs_a",
+      "x3_tex_sd > x10_cen_b",
+      "d_texture > x2_lg_ct",
+      "x5_cs_sub > c_open_cplx",
+      "x10_cen_a > b_tee_ell",
+      "x8_contr_a > c_contr_subtle"
+    ]
+  },
+  "combined_excluding_rot": {
+    "label": "COMBINED excluding rot>b_spiral_cw (SENSITIVITY)",
+    "n_pairs": 10,
+    "n_trials": 2400,
+    "mean_gap": 0.0467,
+    "n_positive": 6,
+    "perm_p": 5e-05,
+    "payoff_gaps": {
+      "3": 0.0067,
+      "5": 0.02,
+      "7": 0.11,
+      "9": 0.05
+    },
+    "gaps": [
+      -0.0417,
+      0.0083,
+      0.25,
+      0.475,
+      0.0417,
+      0.0167,
+      0.0083,
+      -0.125,
+      0.0,
+      -0.1667
+    ],
+    "pairs": [
+      "proto > a_chev_ud",
+      "d_dens_extreme > s_density",
+      "x6_oi_b > x4_db_sub",
+      "s_contrast > x8_contr_c",
+      "x4_db_b > x5_cs_a",
+      "x3_tex_sd > x10_cen_b",
+      "d_texture > x2_lg_ct",
+      "x5_cs_sub > c_open_cplx",
+      "x10_cen_a > b_tee_ell",
+      "x8_contr_a > c_contr_subtle"
+    ]
+  }
+}

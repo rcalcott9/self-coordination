@@ -1,0 +1,40 @@
+=== STAGE C — ELICITATION ARM (separate from the frozen run) ===
+focal      : Claude Opus 5 (claude-opus-5)
+pairs      : 27 (frozen, sha256 486454fee0f1b383...)
+stimuli    : 54   payoff grid: [3, 5, 7, 9]   n/cell: 12
+prompt sha8: S3=e741c705, S5=77031ce1, S7=9bc85b82, S9=9e624b6f
+caching    : True   workers: 20
+trials     : 2592
+
+  100/2592 trials
+  200/2592 trials
+  300/2592 trials
+  400/2592 trials
+  500/2592 trials
+  600/2592 trials
+  700/2592 trials
+  800/2592 trials
+  900/2592 trials
+  1000/2592 trials
+  1100/2592 trials
+  1200/2592 trials
+  1300/2592 trials
+  1400/2592 trials
+  1500/2592 trials
+  1600/2592 trials
+  1700/2592 trials
+  1800/2592 trials
+  1900/2592 trials
+  2000/2592 trials
+  2100/2592 trials
+  2200/2592 trials
+  2300/2592 trials
+  2400/2592 trials
+  2500/2592 trials
+
+=== stage C/ELICIT done: 2592 trials in 505s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageC_ELICIT_20260910_181417.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study1_hp_replication_20260905/data/stageC_ELICIT_20260910_181417.jsonl

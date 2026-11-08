@@ -1,0 +1,18 @@
+
+  candidates 990   eligible 52   failed gates 938
+
+  SELECTED 8 pairs (frozen rule, no manual input):
+
+    pair_id                                         sel     ho    sal    aud  score  diag
+    claude__x8_contr_a__vs__x8_contr_b            0.517  0.517  0.029  0.016  2.058  ideal
+    claude__x9_dir_c__vs__s_contrast              0.517  0.517 -0.064  0.009  2.034  ideal
+    claude__x3_tex_sd__vs__x2_lg_sq               0.517  0.331  0.040 -0.006  1.946  ideal
+    claude__x3_tex_sp__vs__d_dens_extreme         0.517  0.517 -0.058  0.033  1.908  ideal
+    claude__x3_tex_dp__vs__s_density              0.517  0.517  0.070  0.048  1.832  ideal
+    claude__x6_oi_b__vs__x2_lg_ct                 0.517  0.517  0.029 -0.011  1.736  ideal
+    claude__rot__vs__x1_sym_mid                   0.515  0.480 -0.054  0.021  1.725  ideal
+    claude__x9_dir_b__vs__d_texture               0.517  0.517 -0.046  0.044  1.416  auditor_informed
+    note: gpt: no both-form-rule contrast available among eligible pairs
+    note: claude: no both-form-rule contrast available among eligible pairs
+
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus46_expanded/pairs/approved_pairs.csv

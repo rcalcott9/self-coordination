@@ -1,0 +1,175 @@
+run_id,domain,collection_set,array_id,family,mechanism,on_stratum,checkpoint_requested,checkpoint_returned,checkpoint_match,model_family,vintage,stratum,control_surface,thinking_blocks_returned,trial,presentation_id,slot_returned,display_position,canonical_index,parse_ok,transport_ok,attempts,in_tokens,out_tokens,cost_usd,prompt_hash,stimulus_sha8,secs,ts_utc,error,raw
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,5,21,3,4,0,1,1,1,788,53,0.005530,d40ea45d,5b7cdbc1,2.55,2026-09-09T20:24:45.040265+00:00,,"The smoothest, most distinctive blob (the one with no spikes at all) is the easiest to identify by form regardless of ordering.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,10,17,3,4,0,1,1,1,788,46,0.005320,d40ea45d,04bd6b3d,2.53,2026-09-09T20:24:45.052353+00:00,,"The smoothest, most distinctive blob stands out unambiguously by form regardless of order, so I pick it.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,11,8,2,3,0,1,1,1,788,48,0.005380,d40ea45d,8f878eee,2.82,2026-09-09T20:24:45.332767+00:00,,"The smoothest, most distinctive blob (no spikes at all) is the easiest to name and agree on uniquely.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,15,15,3,4,0,1,1,1,788,50,0.005440,d40ea45d,8f993d2e,2.87,2026-09-09T20:24:45.412562+00:00,,"The smooth, blob-like shape is the most distinctive one — the others are all spiky — so it's the obvious focal point.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,14,23,3,4,0,1,1,1,788,53,0.005530,d40ea45d,edde827a,2.90,2026-09-09T20:24:45.443217+00:00,,"The smoothest, most distinctive blob (least spiky) is the unique standout that both of us can identify by form regardless of ordering.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,9,7,1,2,0,1,1,1,788,59,0.005710,d40ea45d,80c6b617,2.93,2026-09-09T20:24:45.443877+00:00,,"Shape 2 is the most distinctive — the only smooth, blob-like form without spiky protrusions — so it's the easiest to name and agree on.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,13,3,2,3,3,1,1,1,788,51,0.005470,d40ea45d,cc00061a,2.92,2026-09-09T20:24:45.456401+00:00,,"Shape 3 is the most distinctive — the spikiest, star-like blob — making it the easiest to single out by form alone.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,7,19,1,2,0,1,1,1,788,59,0.005710,d40ea45d,2b5e48a5,3.13,2026-09-09T20:24:45.640138+00:00,,"The smoothest, most distinctive blob (the one with no spikes at all) is the easiest to name and agree on, and that's shape 2 in my image.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,12,13,1,2,0,1,1,1,788,54,0.005560,d40ea45d,021f70f6,3.38,2026-09-09T20:24:45.894036+00:00,,"The smooth, blob-like shape is the most distinctive one among three spiky/bumpy shapes, making it the obvious focal point.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,1,20,2,3,0,1,1,1,788,50,0.005440,d40ea45d,778f91e7,3.44,2026-09-09T20:24:45.932572+00:00,,"The smooth, blob-like shape is the only one without spiky protrusions, making it the most uniquely identifiable by form.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,2,5,0,1,0,1,1,1,788,62,0.005800,d40ea45d,2e9c15a0,3.61,2026-09-09T20:24:46.100008+00:00,,"Shape 1 is the uniquely smooth, blob-like one while the others are all spiky/bumpy, making it the most distinctive form to coordinate on.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,3,4,0,1,0,1,1,1,788,57,0.005650,d40ea45d,802c862b,3.72,2026-09-09T20:24:46.205218+00:00,,"Shape 1 is the only smooth, blob-like form — the others are all spiky/bumpy — so it's the most distinctive choice by form.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,4,14,2,3,0,1,1,1,788,54,0.005560,d40ea45d,dccd391e,3.79,2026-09-09T20:24:46.288474+00:00,,"The smooth, blob-like shape is the only one without spiky protrusions, making it the most distinctive and easiest to agree on by form.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,8,16,2,3,0,1,1,1,788,59,0.005710,d40ea45d,d597bed6,3.99,2026-09-09T20:24:46.490769+00:00,,"Shape 3 is the only smooth, blob-like form while the others are all spiky, making it the uniquely identifiable choice regardless of ordering.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,6,0,0,1,0,1,1,1,788,56,0.005620,d40ea45d,87cdfdd7,4.04,2026-09-09T20:24:46.545695+00:00,,"The most distinctive shape by form is the smoothest, roundest blob (no spikes), which is easiest to describe uniquely and agree on.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,0,2,0,1,0,1,1,1,788,56,0.005620,d40ea45d,dcbf5581,4.66,2026-09-09T20:24:47.150505+00:00,,"The smoothest, most distinctive blob (no spikes at all) is the clearest focal point since the other three are all spiky to varying degrees.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,20,21,3,4,0,1,1,1,652,132,0.007220,d40ea45d,5b7cdbc1,4.78,2026-09-09T20:24:47.270921+00:00,,"The smooth, rounded blob is the most distinctive and easiest to identify. CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,18,22,2,3,0,1,1,1,788,51,0.005470,d40ea45d,2ae1f23a,2.37,2026-09-09T20:24:47.702271+00:00,,"The smooth, blob-like shape is the unique standout among three spiky/bumpy ones, so it's the natural focal point.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,21,1,2,3,3,1,1,1,652,181,0.008690,d40ea45d,a988a52e,5.59,2026-09-09T20:24:48.077676+00:00,,"The most distinctive and nameable form is the sharp starburst shape.  
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,21,9,3,4,0,1,1,1,788,53,0.005530,d40ea45d,46391591,2.84,2026-09-09T20:24:48.287270+00:00,,"Shape 4 is the only smooth, blob-like form while the others are all spiky, so it's the uniquely identifiable choice.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,16,11,1,2,3,1,1,1,788,55,0.005590,d40ea45d,42ba762c,3.44,2026-09-09T20:24:48.481374+00:00,,"The most distinctive, easily-named form is the spiky star-like blob, and shape 2 is the clearest, most symmetric star among them.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,19,1,0,1,0,1,1,1,788,48,0.005380,d40ea45d,a988a52e,3.58,2026-09-09T20:24:48.988284+00:00,,"The smoothest, roundest blob is the most distinctive and easiest to name uniquely, so I'll pick it.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,17,12,1,2,0,1,1,1,788,54,0.005560,d40ea45d,161e0aa4,4.08,2026-09-09T20:24:49.137006+00:00,,"Shape 2 is the unique smooth, blob-like one while the others are all spiky, making it the obvious standout to coordinate on.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,23,13,2,3,3,1,1,1,652,210,0.009560,d40ea45d,021f70f6,6.66,2026-09-09T20:24:49.141592+00:00,,"The most distinctive focal form is the sharp, many-pointed starburst. CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,20,18,1,2,0,1,1,1,788,60,0.005740,d40ea45d,115b9e1d,3.97,2026-09-09T20:24:49.412953+00:00,,"Shape 2 is the only smooth, blob-like form while the other three are all spiky, making it the uniquely identifiable choice regardless of ordering.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,23,10,2,3,0,1,1,1,788,53,0.005530,d40ea45d,a99ffe1f,3.80,2026-09-09T20:24:49.439545+00:00,,"Shape 3 is the only smooth, blob-like form with no spikes, making it uniquely identifiable regardless of ordering.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,22,4,1,2,3,1,1,1,652,264,0.011180,d40ea45d,802c862b,7.18,2026-09-09T20:24:49.670571+00:00,,"The most distinctive focal form is the sharp, many-pointed starburst shape. CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F10_curvature_m1,F10_curvature,curvature,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,22,6,1,2,0,1,1,1,788,49,0.005410,d40ea45d,31ec0a39,4.65,2026-09-09T20:24:50.105402+00:00,,"The most distinctive, unmistakably describable shape is the smooth blob with no spikes, so I'll pick that one.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,1,16,3,4,1,1,1,1,652,204,0.009380,d40ea45d,24fb7c62,5.25,2026-09-09T20:24:51.184821+00:00,,"The most distinctive form is the horizontally stretched, fish-like blob. CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,8,20,2,3,0,1,1,1,652,198,0.009200,d40ea45d,16d6f48e,5.56,2026-09-09T20:24:52.836890+00:00,,The most distinctive form is the blob with a pointed rightward protrusion and irregular diamond-like outline. CHOICE: 3
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,5,5,1,2,3,1,1,1,652,207,0.009470,d40ea45d,2c1dc25f,6.63,2026-09-09T20:24:53.118635+00:00,,The most distinctive focal form is the tall upright bean-like blob. CHOICE: 2
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,10,10,2,3,0,1,1,1,652,243,0.010550,d40ea45d,c50aa950,5.27,2026-09-09T20:24:53.345198+00:00,,The most distinctive form is the right-pointing fish-like blob. CHOICE: 3
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,3,15,3,4,0,1,1,1,652,282,0.011720,d40ea45d,fcc156a0,7.42,2026-09-09T20:24:53.629241+00:00,,The most distinctive form is the right-pointing fish-like blob. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,9,0,2,3,2,1,1,1,652,236,0.010340,d40ea45d,85521ada,6.01,2026-09-09T20:24:53.718953+00:00,,"The tallest, most upright blob seems the most distinctive. CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,12,22,3,4,1,1,1,1,652,226,0.010040,d40ea45d,2e6e446a,5.46,2026-09-09T20:24:53.942913+00:00,,"I’ll pick the most horizontally stretched, wing-like blob as the most distinctive form. CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,7,14,3,4,3,1,1,1,652,220,0.009860,d40ea45d,a09f7665,6.88,2026-09-09T20:24:54.035583+00:00,,"The most distinctive form is the tall, peanut-like blob with a right-side waist. CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,0,11,3,4,0,1,1,1,652,329,0.013130,d40ea45d,3452ab58,8.49,2026-09-09T20:24:54.389304+00:00,,The most distinctive form is the right-pointing blob with a protruding nose. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,18,17,3,4,0,1,1,1,652,183,0.008750,d40ea45d,4a343da1,5.51,2026-09-09T20:24:55.186304+00:00,,The most horizontally stretched blob seems the most salient. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,17,12,3,4,3,1,1,1,652,213,0.009650,d40ea45d,076bd295,6.20,2026-09-09T20:24:55.637632+00:00,,The vertically elongated peanut-like shape seems the most distinctive by form. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,6,2,3,4,3,1,1,1,652,267,0.011270,d40ea45d,05120cd7,9.23,2026-09-09T20:24:55.775949+00:00,,"The most distinctive form is the tall peanut-like blob with a clear inward pinch on the right side.  
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,2,3,1,2,2,1,1,1,652,346,0.013640,d40ea45d,41a674a7,9.87,2026-09-09T20:24:55.972430+00:00,,"The tallest, most vertically elongated blob feels like the clearest focal form. CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,14,23,3,4,0,1,1,1,652,253,0.010850,d40ea45d,29290111,6.89,2026-09-09T20:24:56.032422+00:00,,"The most distinctive form is the right-pointing, fish-like blob. CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,11,9,3,4,0,1,1,1,652,269,0.011330,d40ea45d,a6713a02,7.84,2026-09-09T20:24:56.133772+00:00,,The most distinctive is the right-pointing blob with a clear protruding nose. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,15,19,1,2,0,1,1,1,652,267,0.011270,d40ea45d,763436bc,7.18,2026-09-09T20:24:56.321661+00:00,,The most distinctive form is the right-pointing blob with a small top bump. CHOICE: 2
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,20,1,2,3,3,1,1,1,652,222,0.009920,d40ea45d,3c15918d,5.41,2026-09-09T20:24:56.594506+00:00,,I’ll pick the most vertically elongated blob as the clearest form-based focal point. CHOICE: 3
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,16,18,3,4,2,1,1,1,652,275,0.011510,d40ea45d,b8a41286,7.66,2026-09-09T20:24:57.074018+00:00,,The most distinctive focal form is the tall upright blob with a wavy right edge. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,13,4,1,2,3,1,1,1,652,279,0.011630,d40ea45d,26369a24,8.10,2026-09-09T20:24:57.085779+00:00,,"The most distinctive form is the tall, upright bean-like blob with a pinched right side. CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,3,1,2,3,3,1,1,1,788,86,0.006520,d40ea45d,3c15918d,3.28,2026-09-09T20:24:57.311846+00:00,,"Shapes 3 and 4 look similar (tall vertical blobs), and 1 and 2 are wide blobs, but shape 3 stands out as the tallest, most upright and smoothest — a distinctive, easily-named form.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,0,5,3,4,1,1,1,1,788,58,0.005680,d40ea45d,2c1dc25f,3.76,2026-09-09T20:24:57.393859+00:00,,"Shape 4 stands out as the only one with a distinct heart-like double-lobed top, making it the most describable and identifiable form regardless of order.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,4,13,3,4,1,1,1,1,652,525,0.019010,d40ea45d,ff7f5205,11.39,2026-09-09T20:24:57.676994+00:00,,The blob with the clearest top indentation seems most distinctive. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,4,14,1,2,1,1,1,1,788,68,0.005980,d40ea45d,a09f7665,3.32,2026-09-09T20:24:57.707973+00:00,,"Shape 2 stands out as the most distinctive — it's the widest, most horizontally-oriented blob with a clear notch on top, unlike the three tall/rounded ones.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,2,4,2,3,1,1,1,1,788,54,0.005560,d40ea45d,26369a24,3.84,2026-09-09T20:24:57.781510+00:00,,"Shape 3 is the most distinctive — it has a clear heart-like notch at the top, making it the easiest form to name and agree on.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,5,15,1,2,1,1,1,1,788,65,0.005890,d40ea45d,fcc156a0,3.15,2026-09-09T20:24:58.338921+00:00,,"Shape 2 is the most distinctive — it's the one clearly oriented horizontally with a notch on top, unlike the tall/round others, so I'll pick that form.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,22,21,3,4,0,1,1,1,652,190,0.008960,d40ea45d,c6e05c61,5.52,2026-09-09T20:24:58.642865+00:00,,The most distinctive form is the horizontally stretched blob with a right-pointing protrusion. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,6,16,3,4,1,1,1,1,788,86,0.006520,d40ea45d,24fb7c62,3.17,2026-09-09T20:24:58.806206+00:00,,"Shapes 1 and 2 look like near-duplicates (tall vertical blobs), so the distinctive choice is the wide, tilted shape — and among those, shape 4's broad two-lobed heart-like form is most memorable.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,23,7,2,3,3,1,1,1,652,202,0.009320,d40ea45d,02050e5e,5.50,2026-09-09T20:24:58.847872+00:00,,"The tall, vertically elongated blob seems the most distinctive focal shape. CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,19,6,3,4,3,1,1,1,652,323,0.012950,d40ea45d,394bdaa6,9.02,2026-09-09T20:24:59.125497+00:00,,The most distinctive form is the vertical peanut-like blob with a pinched waist. CHOICE: 4
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,12,9,0,1,1,1,1,1,788,63,0.005830,d40ea45d,a6713a02,2.56,2026-09-09T20:24:59.157452+00:00,,"Shape 1 is the most distinctive — a wide, heart-like blob with a clear notch at the top, unlike the other three which are all tall vertical ovals.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,1,19,3,4,1,1,1,1,788,65,0.005890,d40ea45d,763436bc,5.84,2026-09-09T20:24:59.556746+00:00,,"Shape 4 is the most distinctive by form — it's the only one with a clear heart-like double-lobed top notch, so it's the easiest to name and agree on independently.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,8,11,0,1,1,1,1,1,788,59,0.005710,d40ea45d,3452ab58,3.77,2026-09-09T20:24:59.738400+00:00,,"Shape 1 is the most distinctive — a wide, heart-like blob with a clear notch at the top, unlike the three taller rounded blobs.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,9,8,0,1,1,1,1,1,788,57,0.005650,d40ea45d,f29a508d,3.85,2026-09-09T20:24:59.880765+00:00,,"Shape 1 is the most distinctive — it has a clear heart-like double-lobed top, making it the easiest form to name and agree on independently.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,13,7,2,3,3,1,1,1,788,63,0.005830,d40ea45d,02050e5e,3.02,2026-09-09T20:25:00.094956+00:00,,"Shape 3 is the most distinctive by form — a tall, upright oval-ish blob unlike the wide/lumpy others — so it's the natural focal point.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,10,13,3,4,1,1,1,1,788,63,0.005830,d40ea45d,ff7f5205,3.98,2026-09-09T20:25:00.118437+00:00,,"Shape 4 is the most distinctive by form — it's the widest, most horizontally stretched blob with a notched top, unlike the three taller/rounder ones.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,11,23,2,3,1,1,1,1,788,58,0.005680,d40ea45d,29290111,3.91,2026-09-09T20:25:00.228577+00:00,,"Shape 3 is the most distinctive — it's the only one with a clear heart-like double bump on top, making it the easiest form to name and agree on.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,7,0,2,3,2,1,1,1,788,51,0.005470,d40ea45d,85521ada,4.50,2026-09-09T20:25:00.276462+00:00,,"Shape 3 stands out as the tall, upright vertically-elongated blob, a description we'd both identify regardless of position.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,gpt-5.5-2026-04-23,gpt-5.5-2026-04-23,1,gpt,2026-04,G-REASON,reasoning.effort=low,0,21,8,2,3,0,1,1,1,652,256,0.010940,d40ea45d,f29a508d,7.44,2026-09-09T20:25:00.278973+00:00,,"The most distinctive form is the right-pointing, fish-like blob. CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,15,10,0,1,1,1,1,1,788,62,0.005800,d40ea45d,c50aa950,3.14,2026-09-09T20:25:00.456632+00:00,,"Shape 1 is the most distinctive — a clear wide heart/bilobed blob with a notch at the top — so it's the easiest form to name and agree on.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,16,17,2,3,1,1,1,1,788,88,0.006580,d40ea45d,4a343da1,3.07,2026-09-09T20:25:00.468291+00:00,,"Shapes 1 and 2 look nearly identical (tall blobs), and 4 is a wide tilted blob, but 3 stands out with its distinctive heart-like notch at the top, making it the most recognizable form to coordinate on.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,14,18,2,3,1,1,1,1,788,58,0.005680,d40ea45d,b8a41286,4.07,2026-09-09T20:25:01.160860+00:00,,"Shape 3 is the most distinctive — a wide, heart-like blob with a clear notch at the top, easy to identify regardless of ordering.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,18,6,2,3,2,1,1,1,788,85,0.006490,d40ea45d,394bdaa6,3.67,2026-09-09T20:25:01.382916+00:00,,"Shapes 3 and 4 are tall/upright while 1 and 2 are wider blobs; among these, shape 3 stands out as the most distinctly tall with a pointed top-left peak, making it the most identifiable by form.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,17,2,2,3,1,1,1,1,788,57,0.005650,d40ea45d,05120cd7,3.92,2026-09-09T20:25:01.594599+00:00,,"Shape 3 is the most distinctive — it has a clear heart-like notch at the top, making it the easiest form for both of us to identify independently.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,23,3,0,1,0,1,1,1,788,66,0.005920,d40ea45d,41a674a7,3.15,2026-09-09T20:25:02.002319+00:00,,"Shape 1 is the only one clearly oriented horizontally-wide with a distinct notch at the bottom, making it the most visually distinctive blob to name and agree on.
+
+CHOICE: 1"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,21,21,1,2,1,1,1,1,788,77,0.006250,d40ea45d,c6e05c61,3.53,2026-09-09T20:25:02.172562+00:00,,"Shapes 1, 3, and 4 look like rotations of the same tall blob, but shape 2 is the distinctly wide, heart-like/bilobed form — the most uniquely identifiable by form.
+
+CHOICE: 2"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,22,22,3,4,1,1,1,1,788,66,0.005920,d40ea45d,2e6e446a,3.46,2026-09-09T20:25:02.269518+00:00,,"Shape 4 is the most distinctive — it's the widest, most horizontally-oriented blob with a clear notch on top, so it's the easiest form to name and agree on.
+
+CHOICE: 4"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,19,12,2,3,1,1,1,1,788,58,0.005680,d40ea45d,076bd295,4.59,2026-09-09T20:25:02.368678+00:00,,"Shape 3 is the most distinctive — it has a clear heart-like notch at the top, making it the easiest form to identify regardless of ordering.
+
+CHOICE: 3"
+VIS-PREFLIGHT-20260909_202441,visual,preflight,F12_mirror_m3,F12_mirror,mirror,low,claude-opus-5,claude-opus-5,1,claude,2026-07,C-OFF,thinking=disabled,0,20,20,1,2,1,1,1,1,788,77,0.006250,d40ea45d,16d6f48e,4.08,2026-09-09T20:25:02.423950+00:00,,"Shape 2 is the most distinctive — a wide, tilted blob with a clear notch/dip on its top edge making it look like a two-lobed heart shape, which is the easiest form to name and agree on.
+
+CHOICE: 2"

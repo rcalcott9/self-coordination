@@ -1,0 +1,27 @@
+
+=== GPT-4o (gpt-4o-2024-05-13) surface=temperature ===
+    Stage A (n=60 x 15)        rc=0     176s  -> gpt4o_stageA.log
+    Stage B (auditor+salience) rc=0     687s  -> gpt4o_stageB.log
+    analyze A+B                rc=0       2s  -> gpt4o_analyze_ab.log
+    frozen pair selection      rc=2       0s  -> gpt4o_select.log
+    !! pair selection did not yield a usable set - see log; skipping Stage C
+
+=== GPT-5 (gpt-5-2025-08-07) surface=reasoning ===
+    Stage A (n=60 x 15)        rc=0     611s  -> gpt5_stageA.log
+    Stage B (auditor+salience) rc=0     626s  -> gpt5_stageB.log
+    analyze A+B                rc=0       2s  -> gpt5_analyze_ab.log
+    frozen pair selection      rc=0       0s  -> gpt5_select.log
+    approved 2 pairs
+    Stage C (n=30 x pairs x 4) rc=0     459s  -> gpt5_stageC.log
+    primary analysis           rc=0       7s  -> gpt5_primary.log
+
+=== Claude Opus 4.5 (claude-opus-4-5-20251101) surface=temperature ===
+    Stage A (n=60 x 15)        rc=0     319s  -> opus45_stageA.log
+    Stage B (auditor+salience) rc=0     762s  -> opus45_stageB.log
+    analyze A+B                rc=0       2s  -> opus45_analyze_ab.log
+    frozen pair selection      rc=0       0s  -> opus45_select.log
+    approved 1 pairs
+    Stage C (n=30 x pairs x 4) rc=0      76s  -> opus45_stageC.log
+    primary analysis           rc=1       2s  -> opus45_primary.log
+
+-> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/analysis/run_summary.json

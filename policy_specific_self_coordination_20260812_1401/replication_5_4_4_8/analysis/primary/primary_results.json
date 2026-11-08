@@ -1,0 +1,184 @@
+{
+  "primary": {
+    "label": "ALL 5 pairs (PRIMARY)",
+    "delta": 0.7318836783896476,
+    "or_": 2.078993075930662,
+    "ci_lo": -0.18185223596077518,
+    "ci_hi": 2.115996381142052,
+    "n_trials": 1200,
+    "n_stimuli": 9,
+    "n_pairs": 5,
+    "ci_excludes_zero": false
+  },
+  "permutation": {
+    "observed": 0.06166666666666672,
+    "p_one_sided": 0.00014999250037498125,
+    "n_perm": 20000,
+    "at_floor": false
+  },
+  "per_pair": [
+    {
+      "pair": 1,
+      "pair_id": "gpt__proto__vs__s_arrow",
+      "model": "GPT-5.4",
+      "high": "proto",
+      "low": "s_arrow",
+      "p_high": 0.925,
+      "p_low": 0.8583333333333333,
+      "gap": 0.06666666666666676,
+      "n": 240
+    },
+    {
+      "pair": 2,
+      "pair_id": "gpt__b_tee_ell__vs__c_open_cplx",
+      "model": "GPT-5.4",
+      "high": "b_tee_ell",
+      "low": "c_open_cplx",
+      "p_high": 0.8833333333333333,
+      "p_low": 0.8416666666666667,
+      "gap": 0.04166666666666663,
+      "n": 240
+    },
+    {
+      "pair": 3,
+      "pair_id": "claude__s_density__vs__d_dens_extreme",
+      "model": "Claude Opus 4.8",
+      "high": "s_density",
+      "low": "d_dens_extreme",
+      "p_high": 0.8666666666666667,
+      "p_low": 0.8833333333333333,
+      "gap": -0.016666666666666607,
+      "n": 240
+    },
+    {
+      "pair": 4,
+      "pair_id": "gpt__s_contrast__vs__b_spiral_cw",
+      "model": "GPT-5.4",
+      "high": "s_contrast",
+      "low": "b_spiral_cw",
+      "p_high": 0.8333333333333334,
+      "p_low": 0.7,
+      "gap": 0.13333333333333341,
+      "n": 240
+    },
+    {
+      "pair": 5,
+      "pair_id": "claude__c_open_cplx__vs__d_texture",
+      "model": "Claude Opus 4.8",
+      "high": "c_open_cplx",
+      "low": "d_texture",
+      "p_high": 0.8083333333333333,
+      "p_low": 0.725,
+      "gap": 0.08333333333333337,
+      "n": 240
+    }
+  ],
+  "n_positive": 4,
+  "monotonicity": [
+    {
+      "safe": 3.0,
+      "p_high": 0.9933333333333333,
+      "p_low": 1.0,
+      "gap": -0.00666666666666671
+    },
+    {
+      "safe": 5.0,
+      "p_high": 0.9866666666666667,
+      "p_low": 0.9933333333333333,
+      "gap": -0.006666666666666599
+    },
+    {
+      "safe": 7.0,
+      "p_high": 0.9466666666666667,
+      "p_low": 0.86,
+      "gap": 0.08666666666666667
+    },
+    {
+      "safe": 9.0,
+      "p_high": 0.5266666666666666,
+      "p_low": 0.35333333333333333,
+      "gap": 0.17333333333333328
+    }
+  ],
+  "leave_one_out": [
+    {
+      "label": "omit pair 1 (proto>s_arrow)",
+      "delta": 0.6948218628636883,
+      "or_": 2.003352170734543,
+      "ci_lo": -0.37901783038973014,
+      "ci_hi": 2.56942470429011,
+      "n_trials": 960,
+      "n_stimuli": 7,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 2 (b_tee_ell>c_open_cplx)",
+      "delta": 0.7643070869102143,
+      "or_": 2.1475058241007856,
+      "ci_lo": -0.5517215149845116,
+      "ci_hi": 2.5692916162783077,
+      "n_trials": 960,
+      "n_stimuli": 8,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 3 (s_density>d_dens_extreme)",
+      "delta": 0.9799350529233333,
+      "or_": 2.6642831989049776,
+      "ci_lo": 0.05667057981013544,
+      "ci_hi": 2.876441903442808,
+      "n_trials": 960,
+      "n_stimuli": 7,
+      "n_pairs": 4,
+      "ci_excludes_zero": true
+    },
+    {
+      "label": "omit pair 4 (s_contrast>b_spiral_cw)",
+      "delta": 0.6225866425635851,
+      "or_": 1.8637426483906994,
+      "ci_lo": -0.254884295295872,
+      "ci_hi": 27.599900782500303,
+      "n_trials": 960,
+      "n_stimuli": 7,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    },
+    {
+      "label": "omit pair 5 (c_open_cplx>d_texture)",
+      "delta": 0.6500122546013228,
+      "or_": 1.9155643033469072,
+      "ci_lo": -0.23609827018595334,
+      "ci_hi": 2.1147033341574204,
+      "n_trials": 960,
+      "n_stimuli": 8,
+      "n_pairs": 4,
+      "ci_excludes_zero": false
+    }
+  ],
+  "proto_excluded": {
+    "label": "excluding proto pair",
+    "delta": 0.6948218628636883,
+    "or_": 2.003352170734543,
+    "ci_lo": -0.37901783038973014,
+    "ci_hi": 2.56942470429011,
+    "n_trials": 960,
+    "n_stimuli": 7,
+    "n_pairs": 4,
+    "ci_excludes_zero": false
+  },
+  "replication_declared": false,
+  "source": "stageC_20260814_204219.csv",
+  "criterion_diagnostic": {
+    "note": "The pre-specified primary criterion (95% cluster-bootstrap CI excludes 0) does NOT discriminate here: applied to the ORIGINAL 5.5/Opus-5 Stage C data with the identical estimator it also fails, by 2.54% of draws <= 0 against a 2.5% threshold. No degenerate/failed bootstrap fits in either run (0 of 5000). The limitation is cluster count: only 9-10 stimuli serve as bootstrap clusters.",
+    "replication_share_draws_le_zero": 0.0656,
+    "original_share_draws_le_zero": 0.0254,
+    "original_delta": 1.7826,
+    "original_ci": [
+      0.0,
+      5.451895
+    ],
+    "failed_fits_either_run": 0
+  }
+}

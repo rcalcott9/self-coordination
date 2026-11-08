@@ -1,0 +1,77 @@
+{
+  "stats": {
+    "A_plunkett_original": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 0.55,
+      "mean_completion_tokens": 18.15,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 80
+      }
+    },
+    "B_strong_instruction": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 0.425,
+      "mean_completion_tokens": 23.4125,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 80
+      }
+    },
+    "C_plaintext_csv": {
+      "n": 80,
+      "strict_ok": 1,
+      "strict_rate": 0.0125,
+      "contexts_usable": 1,
+      "bare_AB_rate": 0.3375,
+      "mean_completion_tokens": 7.3375,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "not_five_numbers": 79
+      }
+    },
+    "D_mode_separation": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 1.0,
+      "mean_completion_tokens": 2.0,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 80
+      }
+    },
+    "E_fewshot_format_only": {
+      "n": 80,
+      "strict_ok": 0,
+      "strict_rate": 0.0,
+      "contexts_usable": 0,
+      "bare_AB_rate": 0.35,
+      "mean_completion_tokens": 26.675,
+      "finish_reason": {
+        "stop": 80
+      },
+      "failure_categories": {
+        "json_decode_error": 79,
+        "wrong_key_count:2": 1
+      }
+    }
+  },
+  "eligible": [],
+  "winner": null
+}

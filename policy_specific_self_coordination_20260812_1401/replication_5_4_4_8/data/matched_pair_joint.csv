@@ -1,0 +1,6 @@
+pair_id,focal_model,stimulus_high,stimulus_low,pair_kind,delta_true_select,delta_true_holdout,beta_is_high,perm_p_one_sided,n_trials,note
+claude__s_density__vs__d_dens_extreme,claude,s_density,d_dens_extreme,clean_disparity,0.4598,0.4299,-0.23836,0.77411,240,
+claude__c_open_cplx__vs__d_texture,claude,c_open_cplx,d_texture,fallback_disparity,0.3793,0.3218,1.48764,0.01099,240,
+gpt__proto__vs__s_arrow,gpt,proto,s_arrow,fallback_disparity,0.5149,0.4805,1.01235,0.03498,240,
+gpt__b_tee_ell__vs__c_open_cplx,gpt,b_tee_ell,c_open_cplx,fallback_disparity,0.4046,0.4046,0.63505,0.15242,240,
+gpt__s_contrast__vs__b_spiral_cw,gpt,s_contrast,b_spiral_cw,clean_disparity,0.2874,0.2874,1.09542,0.0025,240,

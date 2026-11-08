@@ -1,0 +1,33 @@
+{
+ "frozen": "2026-09-05",
+ "n_pairs": 24,
+ "n_independent_available": 30,
+ "rule": "top 24 of the independent set by matching_score_public, descending",
+ "pairs_sha256": "22418f33c25887a749b1270ed8a682f3175bc24aaac622b9efc9eb1c6191be7d",
+ "pair_ids": [
+  "gpt__y23_weight_hi__vs__x4_db_a",
+  "gpt__y25_aspect_vertex_mid__vs__x5_cs_b",
+  "gpt__y20_convex_lo__vs__s_density",
+  "gpt__y25_aspect_vertex_lo__vs__x5_cs_sub",
+  "gpt__y21_localglob_mid__vs__y6_stroke_mid",
+  "gpt__x2_lg_sq__vs__y24_points_hi",
+  "gpt__y4_orient_mid__vs__y3_star_mid",
+  "gpt__x8_contr_c__vs__x1_sym_mid",
+  "gpt__y2_vcount_lo__vs__y25_aspect_vertex_hi",
+  "gpt__y11_polarity_mid__vs__a_chev_ud",
+  "gpt__y5_aspect_lo__vs__y13_texori_mid",
+  "gpt__y10_occl_hi__vs__d_dens_extreme",
+  "gpt__s_contrast__vs__y13_texori_lo",
+  "gpt__proto__vs__y7_nested_lo",
+  "gpt__y17_sizerank_hi__vs__rot",
+  "gpt__y11_polarity_lo__vs__x5_cs_a",
+  "gpt__x3_tex_sd__vs__y16_spokes_mid",
+  "gpt__y17_sizerank_lo__vs__mirror",
+  "gpt__x4_db_sub__vs__y13_texori_hi",
+  "gpt__y24_points_lo__vs__y16_spokes_hi",
+  "gpt__x2_lg_dense__vs__y10_occl_lo",
+  "gpt__y19_dens_mid__vs__y12_hetero_lo",
+  "gpt__y17_sizerank_mid__vs__x1_sym_lo",
+  "gpt__y20_convex_hi__vs__x10_cen_a"
+ ]
+}

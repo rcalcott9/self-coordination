@@ -1,0 +1,15 @@
+{
+  "ok": 17652,
+  "parse_fail": 1,
+  "transport_fail": 59,
+  "mismatch": 0,
+  "cost": 114.98780499999665,
+  "path": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/runs/visual_frame/visual_frame_20260909_204609.csv",
+  "stamp": "20260909_204609",
+  "set": "frame",
+  "n": 48,
+  "n_arrays": 41,
+  "n_checkpoints": 9,
+  "prompt_hash": "d40ea45d",
+  "seconds": 12809.175483226776
+}

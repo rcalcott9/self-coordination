@@ -1,0 +1,20 @@
+!! payoff grid overridden: [3, 5, 7, 9] -> [3, 9]
+   The rationale must have been printed and approved (see spec §7).
+
+=== STAGE C - self-play betting / opt-out ===
+models     : GPT-5.5 (gpt-5.5), Claude Opus 4.8 (claude-opus-4-8)
+  Claude Opus 4.8  14 stimuli: b_spiral_cw, b_tee_ell, c_contr_subtle, proto, s_contrast, x10_cen_b, x1_sym_hi, x2_lg_ct, x5_cs_b, x5_cs_sub, x6_oi_a, x6_oi_b, x8_contr_a, x9_dir_b
+safe payoffs: [3, 9]   (EV-neutral p = S/10)
+prompt sha8 : S3=5a9b96d3, S9=9d5a63ec
+seed        : 20260815   AB/BA exactly 5/5 per cell
+cells       : 28   trials: 280
+
+  100/280 trials
+  200/280 trials
+
+=== stage C done: 280 trials in 132s ===
+unparseable first responses (retried): 0
+trials lost (retry also failed)      : 0
+API errors                           : 0
+raw CSV   : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus48_expanded/data/stageC_20260815_163014.csv
+raw JSONL : /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/opus48_expanded/data/stageC_20260815_163014.jsonl

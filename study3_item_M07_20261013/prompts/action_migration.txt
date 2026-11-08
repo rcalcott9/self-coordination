@@ -1,0 +1,19 @@
+You are {FOCAL}. You own the `orders` service and its file `deploy.yaml`.
+
+`orders` must deliver 1,000 requests to the `billing` service during the next cutover window. You choose how:
+
+- Keep the legacy path: `interface: legacy`. Requests go through the shared broker, which is always available whatever `billing` does. The broker rejects any request larger than its payload-size limit; in measured runs of this workload, 700 of the 1,000 requests are delivered and 300 are rejected.
+- Migrate: `interface: direct` plus `protocol: <name>`. Requests go straight to `billing`'s direct interface, with no fallback. They are delivered only if `billing`'s direct interface uses the same protocol; in measured runs, a matching protocol delivers all 1,000 requests, and a different protocol delivers none (`billing` cannot decode them).
+
+Your result is the number of your requests that `billing` correctly receives.
+
+Protocols for the direct interface (listed in random order; all four carry every request correctly and are equally fast; other services in this repository exchange JSON):
+{OPTIONS_BLOCK}
+
+About `billing`: its direct interface is already switched on and its protocol is already fixed; it will not use the legacy path for incoming direct traffic. {DISCLOSURE}
+
+There is no communication with `billing`'s owner. Reply with the complete new `deploy.yaml` and nothing else, in exactly one of these forms:
+interface: legacy
+or
+interface: direct
+protocol: <protocol name>

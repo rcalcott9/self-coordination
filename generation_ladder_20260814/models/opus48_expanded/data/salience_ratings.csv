@@ -1,0 +1,136 @@
+rater_model,rater_model_name,stimulus,n,salience,ci_lo,ci_hi,between_rater_abs_diff,n_raters,salience_select,n_select,salience_holdout,n_holdout
+claude,Claude Opus 4.8,a_chev_ud,30,0.5767,0.5683,0.585,,,,,,
+claude,Claude Opus 4.8,b_spiral_cw,30,0.6087,0.6007,0.6167,,,,,,
+claude,Claude Opus 4.8,b_tee_ell,30,0.594,0.574,0.613,,,,,,
+claude,Claude Opus 4.8,c_contr_subtle,30,0.3473,0.2883,0.412,,,,,,
+claude,Claude Opus 4.8,c_open_cplx,30,0.7133,0.6987,0.7277,,,,,,
+claude,Claude Opus 4.8,d_dens_extreme,30,0.8467,0.8417,0.85,,,,,,
+claude,Claude Opus 4.8,d_texture,30,0.6373,0.6297,0.6463,,,,,,
+claude,Claude Opus 4.8,mirror,30,0.1407,0.133,0.1473,,,,,,
+claude,Claude Opus 4.8,noise,30,0.0377,0.03,0.045,,,,,,
+claude,Claude Opus 4.8,proto,30,0.673,0.662,0.6843,,,,,,
+claude,Claude Opus 4.8,rot,30,0.27,0.26,0.28,,,,,,
+claude,Claude Opus 4.8,s_arrow,30,0.6707,0.6617,0.68,,,,,,
+claude,Claude Opus 4.8,s_contrast,30,0.2733,0.235,0.32,,,,,,
+claude,Claude Opus 4.8,s_convexity,30,0.7203,0.7117,0.7287,,,,,,
+claude,Claude Opus 4.8,s_density,30,0.8083,0.7867,0.83,,,,,,
+claude,Claude Opus 4.8,x10_cen_a,30,0.7063,0.694,0.7167,,,,,,
+claude,Claude Opus 4.8,x10_cen_b,30,0.72,0.72,0.72,,,,,,
+claude,Claude Opus 4.8,x10_cen_c,30,0.7767,0.7683,0.785,,,,,,
+claude,Claude Opus 4.8,x1_sym_hi,30,0.43,0.4067,0.4567,,,,,,
+claude,Claude Opus 4.8,x1_sym_lo,30,0.2833,0.2583,0.3067,,,,,,
+claude,Claude Opus 4.8,x1_sym_mid,30,0.2967,0.275,0.3183,,,,,,
+claude,Claude Opus 4.8,x2_lg_ct,30,0.6373,0.6283,0.6443,,,,,,
+claude,Claude Opus 4.8,x2_lg_dense,30,0.76,0.7467,0.7733,,,,,,
+claude,Claude Opus 4.8,x2_lg_sq,30,0.695,0.6843,0.7057,,,,,,
+claude,Claude Opus 4.8,x3_tex_dp,30,0.8967,0.8917,0.9,,,,,,
+claude,Claude Opus 4.8,x3_tex_sd,30,0.683,0.6677,0.6983,,,,,,
+claude,Claude Opus 4.8,x3_tex_sp,30,0.8,0.8,0.8,,,,,,
+claude,Claude Opus 4.8,x4_db_a,30,0.7033,0.6907,0.715,,,,,,
+claude,Claude Opus 4.8,x4_db_b,30,0.7277,0.7223,0.7333,,,,,,
+claude,Claude Opus 4.8,x4_db_sub,30,0.4967,0.4017,0.5933,,,,,,
+claude,Claude Opus 4.8,x5_cs_a,30,0.7963,0.7723,0.8207,,,,,,
+claude,Claude Opus 4.8,x5_cs_b,30,0.6973,0.6837,0.7113,,,,,,
+claude,Claude Opus 4.8,x5_cs_sub,30,0.7257,0.721,0.732,,,,,,
+claude,Claude Opus 4.8,x6_oi_a,30,0.6557,0.65,0.6627,,,,,,
+claude,Claude Opus 4.8,x6_oi_b,30,0.6347,0.6253,0.6443,,,,,,
+claude,Claude Opus 4.8,x6_oi_c,30,0.8583,0.845,0.8717,,,,,,
+claude,Claude Opus 4.8,x7_close_fine,30,0.895,0.89,0.9,,,,,,
+claude,Claude Opus 4.8,x7_close_mid,30,0.8683,0.855,0.88,,,,,,
+claude,Claude Opus 4.8,x7_close_wide,30,0.8633,0.8533,0.8733,,,,,,
+claude,Claude Opus 4.8,x8_contr_a,30,0.3983,0.3167,0.48,,,,,,
+claude,Claude Opus 4.8,x8_contr_b,30,0.2733,0.24,0.315,,,,,,
+claude,Claude Opus 4.8,x8_contr_c,30,0.25,0.24,0.2583,,,,,,
+claude,Claude Opus 4.8,x9_dir_a,30,0.645,0.6117,0.6783,,,,,,
+claude,Claude Opus 4.8,x9_dir_b,30,0.5617,0.5533,0.57,,,,,,
+claude,Claude Opus 4.8,x9_dir_c,30,0.6577,0.628,0.6883,,,,,,
+gpt,GPT-5.5,a_chev_ud,30,0.465,0.394,0.5313,,,,,,
+gpt,GPT-5.5,b_spiral_cw,30,0.1257,0.109,0.143,,,,,,
+gpt,GPT-5.5,b_tee_ell,30,0.62,0.601,0.637,,,,,,
+gpt,GPT-5.5,c_contr_subtle,30,0.3857,0.325,0.4453,,,,,,
+gpt,GPT-5.5,c_open_cplx,30,0.5627,0.5147,0.6077,,,,,,
+gpt,GPT-5.5,d_dens_extreme,30,0.688,0.647,0.7243,,,,,,
+gpt,GPT-5.5,d_texture,30,0.413,0.356,0.4713,,,,,,
+gpt,GPT-5.5,mirror,30,0.0543,0.042,0.0673,,,,,,
+gpt,GPT-5.5,noise,30,0.0457,0.0363,0.058,,,,,,
+gpt,GPT-5.5,proto,30,0.3783,0.3173,0.44,,,,,,
+gpt,GPT-5.5,rot,30,0.19,0.176,0.205,,,,,,
+gpt,GPT-5.5,s_arrow,30,0.3517,0.2963,0.4083,,,,,,
+gpt,GPT-5.5,s_contrast,30,0.5223,0.4523,0.579,,,,,,
+gpt,GPT-5.5,s_convexity,30,0.8057,0.7827,0.827,,,,,,
+gpt,GPT-5.5,s_density,30,0.608,0.562,0.6507,,,,,,
+gpt,GPT-5.5,x10_cen_a,30,0.7273,0.7,0.755,,,,,,
+gpt,GPT-5.5,x10_cen_b,30,0.492,0.4463,0.5407,,,,,,
+gpt,GPT-5.5,x10_cen_c,30,0.8117,0.8013,0.8217,,,,,,
+gpt,GPT-5.5,x1_sym_hi,30,0.1943,0.1677,0.2297,,,,,,
+gpt,GPT-5.5,x1_sym_lo,30,0.15,0.1307,0.1697,,,,,,
+gpt,GPT-5.5,x1_sym_mid,30,0.1403,0.126,0.1543,,,,,,
+gpt,GPT-5.5,x2_lg_ct,30,0.43,0.375,0.4837,,,,,,
+gpt,GPT-5.5,x2_lg_dense,30,0.9133,0.8997,0.922,,,,,,
+gpt,GPT-5.5,x2_lg_sq,30,0.4227,0.358,0.4897,,,,,,
+gpt,GPT-5.5,x3_tex_dp,29,0.7514,0.7248,0.7772,,,,,,
+gpt,GPT-5.5,x3_tex_sd,30,0.492,0.4397,0.5427,,,,,,
+gpt,GPT-5.5,x3_tex_sp,30,0.761,0.744,0.7753,,,,,,
+gpt,GPT-5.5,x4_db_a,29,0.5176,0.4641,0.5734,,,,,,
+gpt,GPT-5.5,x4_db_b,30,0.8067,0.7843,0.8267,,,,,,
+gpt,GPT-5.5,x4_db_sub,30,0.5767,0.5333,0.6167,,,,,,
+gpt,GPT-5.5,x5_cs_a,30,0.7683,0.7467,0.788,,,,,,
+gpt,GPT-5.5,x5_cs_b,30,0.7163,0.691,0.7413,,,,,,
+gpt,GPT-5.5,x5_cs_sub,30,0.7367,0.7117,0.7593,,,,,,
+gpt,GPT-5.5,x6_oi_a,30,0.44,0.393,0.4897,,,,,,
+gpt,GPT-5.5,x6_oi_b,30,0.496,0.442,0.5453,,,,,,
+gpt,GPT-5.5,x6_oi_c,30,0.801,0.7793,0.8167,,,,,,
+gpt,GPT-5.5,x7_close_fine,30,0.7697,0.7467,0.791,,,,,,
+gpt,GPT-5.5,x7_close_mid,30,0.7877,0.766,0.8063,,,,,,
+gpt,GPT-5.5,x7_close_wide,30,0.7877,0.775,0.7997,,,,,,
+gpt,GPT-5.5,x8_contr_a,30,0.4463,0.3713,0.5133,,,,,,
+gpt,GPT-5.5,x8_contr_b,30,0.3037,0.2257,0.381,,,,,,
+gpt,GPT-5.5,x8_contr_c,30,0.4803,0.4097,0.547,,,,,,
+gpt,GPT-5.5,x9_dir_a,30,0.5867,0.5217,0.6383,,,,,,
+gpt,GPT-5.5,x9_dir_b,28,0.625,0.5846,0.6575,,,,,,
+gpt,GPT-5.5,x9_dir_c,30,0.6153,0.5847,0.6393,,,,,,
+pooled,pooled (over raters),a_chev_ud,60,0.5208,0.4333,0.5808,0.1117,2,0.5443,28,0.5003,32
+pooled,pooled (over raters),b_spiral_cw,60,0.3672,0.1183,0.6123,0.483,2,0.3686,28,0.3659,32
+pooled,pooled (over raters),b_tee_ell,60,0.607,0.5848,0.6283,0.026,2,0.6054,28,0.6084,32
+pooled,pooled (over raters),c_contr_subtle,60,0.3665,0.316,0.4175,0.0383,2,0.38,28,0.3547,32
+pooled,pooled (over raters),c_open_cplx,60,0.638,0.5418,0.7198,0.1507,2,0.6432,28,0.6334,32
+pooled,pooled (over raters),d_dens_extreme,60,0.7673,0.6707,0.8483,0.1587,2,0.7618,28,0.7722,32
+pooled,pooled (over raters),d_texture,60,0.5252,0.3868,0.6417,0.2243,2,0.5314,28,0.5197,32
+pooled,pooled (over raters),mirror,60,0.0975,0.048,0.1438,0.0863,2,0.0954,28,0.0994,32
+pooled,pooled (over raters),noise,60,0.0417,0.0342,0.0513,0.008,2,0.0457,28,0.0381,32
+pooled,pooled (over raters),proto,60,0.5257,0.3508,0.6783,0.2947,2,0.5271,28,0.5244,32
+pooled,pooled (over raters),rot,60,0.23,0.1835,0.2742,0.08,2,0.2404,28,0.2209,32
+pooled,pooled (over raters),s_arrow,60,0.5112,0.3248,0.675,0.319,2,0.5164,28,0.5066,32
+pooled,pooled (over raters),s_contrast,60,0.3978,0.255,0.5507,0.249,2,0.3614,28,0.4297,32
+pooled,pooled (over raters),s_convexity,60,0.763,0.7165,0.8157,0.0853,2,0.75,28,0.7744,32
+pooled,pooled (over raters),s_density,60,0.7082,0.5892,0.8183,0.2003,2,0.6932,28,0.7212,32
+pooled,pooled (over raters),x10_cen_a,60,0.7168,0.7002,0.7402,0.021,2,0.7157,28,0.7178,32
+pooled,pooled (over raters),x10_cen_b,60,0.606,0.4673,0.72,0.228,2,0.595,28,0.6156,32
+pooled,pooled (over raters),x10_cen_c,60,0.7942,0.7725,0.8162,0.035,2,0.795,28,0.7934,32
+pooled,pooled (over raters),x1_sym_hi,60,0.3122,0.181,0.4417,0.2357,2,0.3,28,0.3228,32
+pooled,pooled (over raters),x1_sym_lo,60,0.2167,0.1408,0.295,0.1333,2,0.2018,28,0.2297,32
+pooled,pooled (over raters),x1_sym_mid,60,0.2185,0.1338,0.3058,0.1563,2,0.2236,28,0.2141,32
+pooled,pooled (over raters),x2_lg_ct,60,0.5337,0.4045,0.6408,0.2073,2,0.5346,28,0.5328,32
+pooled,pooled (over raters),x2_lg_dense,60,0.8367,0.7533,0.9187,0.1533,2,0.8386,28,0.835,32
+pooled,pooled (over raters),x2_lg_sq,60,0.5588,0.3925,0.6998,0.2723,2,0.5771,28,0.5428,32
+pooled,pooled (over raters),x3_tex_dp,59,0.824,0.7397,0.8983,0.1453,2,0.8289,28,0.8194,31
+pooled,pooled (over raters),x3_tex_sd,60,0.5875,0.4682,0.6903,0.191,2,0.5446,28,0.625,32
+pooled,pooled (over raters),x3_tex_sp,60,0.7805,0.7538,0.8,0.039,2,0.7821,28,0.7791,32
+pooled,pooled (over raters),x4_db_a,59,0.6105,0.4909,0.7092,0.1857,2,0.5946,28,0.625,31
+pooled,pooled (over raters),x4_db_b,60,0.7672,0.7253,0.8153,0.079,2,0.7657,28,0.7684,32
+pooled,pooled (over raters),x4_db_sub,60,0.5367,0.4525,0.5982,0.08,2,0.5421,28,0.5319,32
+pooled,pooled (over raters),x5_cs_a,60,0.7823,0.7587,0.8075,0.028,2,0.7825,28,0.7822,32
+pooled,pooled (over raters),x5_cs_b,60,0.7068,0.6902,0.728,0.019,2,0.7111,28,0.7031,32
+pooled,pooled (over raters),x5_cs_sub,60,0.7312,0.7195,0.7477,0.011,2,0.7304,28,0.7319,32
+pooled,pooled (over raters),x6_oi_a,60,0.5478,0.4165,0.6588,0.2157,2,0.5357,28,0.5584,32
+pooled,pooled (over raters),x6_oi_b,60,0.5653,0.473,0.639,0.1387,2,0.5489,28,0.5797,32
+pooled,pooled (over raters),x6_oi_c,60,0.8297,0.7923,0.865,0.0573,2,0.8311,28,0.8284,32
+pooled,pooled (over raters),x7_close_fine,60,0.8323,0.7597,0.8975,0.1253,2,0.8343,28,0.8306,32
+pooled,pooled (over raters),x7_close_mid,60,0.828,0.7782,0.8742,0.0807,2,0.8386,28,0.8187,32
+pooled,pooled (over raters),x7_close_wide,60,0.8255,0.7817,0.8683,0.0757,2,0.8318,28,0.82,32
+pooled,pooled (over raters),x8_contr_a,60,0.4223,0.3588,0.4828,0.048,2,0.4036,28,0.4387,32
+pooled,pooled (over raters),x8_contr_b,60,0.2885,0.2468,0.3403,0.0303,2,0.2843,28,0.2922,32
+pooled,pooled (over raters),x8_contr_c,60,0.3652,0.2458,0.5112,0.2303,2,0.3643,28,0.3659,32
+pooled,pooled (over raters),x9_dir_a,60,0.6158,0.5597,0.6592,0.0583,2,0.6168,28,0.615,32
+pooled,pooled (over raters),x9_dir_b,58,0.5933,0.5575,0.6414,0.0633,2,0.6007,28,0.5861,30
+pooled,pooled (over raters),x9_dir_c,60,0.6365,0.602,0.6725,0.0423,2,0.6254,28,0.6462,32

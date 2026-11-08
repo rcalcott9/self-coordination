@@ -1,0 +1,57 @@
+[
+ {
+  "array_id": "q_closure_cplx",
+  "discovery": {
+   "claude": {
+    "fc": 1.0,
+    "identity_match": 1.0,
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed_simple",
+    "policy": "form",
+    "pos_modal": 2,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "claude_copy_minus_other": 0.0,
+   "cross_model_identity_match": 1.0,
+   "gpt": {
+    "fc": 1.0,
+    "identity_match": 1.0,
+    "live": 1,
+    "margin": 1.0,
+    "modal": "closed_simple",
+    "policy": "form",
+    "pos_modal": 2,
+    "pos_share": 0.25,
+    "share": 1.0
+   },
+   "gpt_copy_minus_other": 0.0,
+   "n_per_cell": 24,
+   "prompt_sha8": "d40ea45d"
+  },
+  "discovery_integrity_clean": true,
+  "family": "Q1_closure_complexity",
+  "focal_model": "both",
+  "intended_confirmation": {
+   "n_per_model_per_array": 60,
+   "permutations": "24, balanced (60 = 2 full cycles + 12 -> use n=48 or 72 for exact balance)",
+   "prompt": "unchanged, sha8 d40ea45d",
+   "tests": [
+    "focal modal object reproduces at share >= .75",
+    "focal form consistency >= .80",
+    "OTHER modal object reproduces",
+    "COPY-minus-OTHER identity advantage >= .20",
+    "no parse failures, exact checkpoint on every row"
+   ]
+  },
+  "locked_utc": "2026-09-09T00:45:08.786392+00:00",
+  "mechanism": "closure x complexity",
+  "predicted_focal_modal_object": "closed_simple",
+  "predicted_other_modal_object": null,
+  "predicted_other_modal_position": null,
+  "proposed_track": "shared_control",
+  "source_binary": "c_open_cplx (compete)",
+  "stable_at_090": true
+ }
+]

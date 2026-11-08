@@ -1,0 +1,9 @@
+model,safe_payoff,predictor,slope,pearson_r,ci_lo,ci_hi,n_stimuli,n_pairs
+GPT-5.5,3,holdout_self_match,0.0,nan,0.0,0.0,48,24
+GPT-5.5,5,holdout_self_match,0.05726,0.1805,-0.0075,0.17023,48,24
+GPT-5.5,7,holdout_self_match,0.41997,0.4475,0.19285,0.66847,48,24
+GPT-5.5,9,holdout_self_match,0.61493,0.5787,0.34873,0.87736,48,24
+Claude Opus 5,3,holdout_self_match,0.0,nan,0.0,0.0,54,27
+Claude Opus 5,5,holdout_self_match,-0.00761,-0.058,-0.04891,0.023,54,27
+Claude Opus 5,7,holdout_self_match,0.04459,0.0642,-0.16445,0.24076,54,27
+Claude Opus 5,9,holdout_self_match,0.30113,0.1953,-0.02384,0.59728,54,27

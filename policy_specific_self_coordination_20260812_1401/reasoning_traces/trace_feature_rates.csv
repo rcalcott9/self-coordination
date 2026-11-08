@@ -1,0 +1,7 @@
+feature,rate_attempt,rate_safe,diff,ci_lo,ci_hi,n_attempt,n_safe
+hedge_no_rule,0.0011,0.515,-0.5139,-0.5783,-0.4485,927,233
+asserts_salient,0.9148,0.3305,0.5843,0.521,0.6487,927,233
+partner_self_ref,0.1974,0.0086,0.1888,0.1598,0.2179,927,233
+payoff_reasoning,0.0496,0.9185,-0.8688,-0.9053,-0.8302,927,233
+explicit_chance,0.0011,0.2747,-0.2736,-0.3305,-0.2189,927,233
+position_word,0.1036,0.0,0.1036,0.0841,0.1241,927,233

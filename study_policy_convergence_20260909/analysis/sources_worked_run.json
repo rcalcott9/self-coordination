@@ -1,0 +1,66 @@
+{
+ "_note": "WORKED RUN ONLY. Reads existing frozen data from study4_relational_staghunt_20260908, strictly read-only. This is NOT the Stage 1 model panel: T4 owns the panel and MASTER_DESIGN S4 marks it TBD. `vintage_rank` here is ANALYST-SUPPLIED release order for the purpose of exercising the pipeline, and n differs across checkpoints (24 vs 48) because these are pre-existing runs, not new Stage 1 cells at the n=48 floor. `vintage_date` and `stratum` are taken from T4's audits/models/checkpoint_panel_verified.csv; `vintage_rank` is retained only as a fallback. Vintage is measured in YEARS since 2025-01, so every slope reads 'per year'.",
+ "domain": "visual",
+ "k_options": 4,
+ "battery_manifest": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/stimuli5/battery5_manifest.csv",
+ "stimuli_root": "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/stimuli5",
+ "expect_prompt_sha8": "d40ea45d",
+ "models": [
+  {
+   "model_id": "claude-opus-4-6",
+   "family": "claude",
+   "vintage_rank": 1,
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/opus46_discovery_20260909_145344/data/opus46_discovery.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "claude-opus-4-6",
+   "vintage_date": "2026-02",
+   "stratum": "C-ADAPTIVE"
+  },
+  {
+   "model_id": "claude-opus-4-7",
+   "family": "claude",
+   "vintage_rank": 2,
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/opus47_discovery_20260909_032813/data/opus47_discovery.csv"
+   ],
+   "schema": "aid_perm",
+   "api_model_contains": "claude-opus-4-7",
+   "vintage_date": "2026-04",
+   "stratum": "C-ADAPTIVE"
+  },
+  {
+   "model_id": "claude-opus-5",
+   "family": "claude",
+   "vintage_rank": 3,
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s0of4.csv",
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s1of4.csv",
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s2of4.csv",
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s3of4.csv"
+   ],
+   "schema": "stagea",
+   "model_col_value": "claude",
+   "api_model_contains": "claude-opus-5",
+   "vintage_date": "2026-07",
+   "stratum": "C-ADAPTIVE"
+  },
+  {
+   "model_id": "gpt-5.5-2026-04-23",
+   "family": "gpt",
+   "vintage_rank": 3,
+   "files": [
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s0of4.csv",
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s1of4.csv",
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s2of4.csv",
+    "/Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study4_relational_staghunt_20260908/discovery5_20260909_011211/data/stageA_discovery5_s3of4.csv"
+   ],
+   "schema": "stagea",
+   "model_col_value": "gpt",
+   "api_model_contains": "gpt-5.5",
+   "vintage_date": "2026-04",
+   "stratum": "G-REASON"
+  }
+ ]
+}

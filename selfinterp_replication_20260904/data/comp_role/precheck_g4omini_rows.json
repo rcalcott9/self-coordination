@@ -1,0 +1,362 @@
+[
+ {
+  "item": "soccer_ball|3|4",
+  "pred": 0.625,
+  "flip": 0.5,
+  "plain_self_disagree": 0.375
+ },
+ {
+  "item": "ecg_monitor|1|4",
+  "pred": 1.0,
+  "flip": 0.16666666666666666,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "stapler|0|4",
+  "pred": 1.0,
+  "flip": 0.8333333333333334,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "popcorn|1|2",
+  "pred": 0.75,
+  "flip": 0.0,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "sippy_cup|1|4",
+  "pred": 0.875,
+  "flip": 0.5833333333333334,
+  "plain_self_disagree": 0.375
+ },
+ {
+  "item": "milk_storage_bags|2|4",
+  "pred": 0.875,
+  "flip": 0.25,
+  "plain_self_disagree": 0.375
+ },
+ {
+  "item": "mold_test|3|4",
+  "pred": 0.75,
+  "flip": 0.5,
+  "plain_self_disagree": 0.25
+ },
+ {
+  "item": "tea|2|4",
+  "pred": 0.75,
+  "flip": 0.8333333333333334,
+  "plain_self_disagree": 0.25
+ },
+ {
+  "item": "security_camera|1|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "shower_curtain|0|3",
+  "pred": 0.75,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "house|0|1",
+  "pred": 1.0,
+  "flip": 0.3333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "paper_towel|0|1",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "pattern_weights|2|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "porch_swing|0|3",
+  "pred": 0.875,
+  "flip": 0.9166666666666666,
+  "plain_self_disagree": 0.375
+ },
+ {
+  "item": "magnetic_calendar|1|4",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "luggage_tag|0|2",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "sawhorse|2|4",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "washing_machine|0|1",
+  "pred": 0.5,
+  "flip": 0.9166666666666666,
+  "plain_self_disagree": 0.5
+ },
+ {
+  "item": "easel|1|3",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "fins|2|4",
+  "pred": 0.5,
+  "flip": 0.16666666666666666,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "lip_scrub|0|2",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "dominoes|1|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "shower_curtain|0|2",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "easel|0|4",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "dslr_camera|2|3",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "alcohol_markers|0|1",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "nail_file|2|4",
+  "pred": 0.625,
+  "flip": 0.25,
+  "plain_self_disagree": 0.5
+ },
+ {
+  "item": "paper_towel|0|3",
+  "pred": 0.625,
+  "flip": 0.8333333333333334,
+  "plain_self_disagree": 0.375
+ },
+ {
+  "item": "snow_brush|1|2",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "hair_dryer|0|4",
+  "pred": 0.75,
+  "flip": 0.8333333333333334,
+  "plain_self_disagree": 0.375
+ },
+ {
+  "item": "golf_cart|0|3",
+  "pred": 0.75,
+  "flip": 0.4166666666666667,
+  "plain_self_disagree": 0.25
+ },
+ {
+  "item": "microwave_cover|1|2",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "console|1|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "blush|0|2",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "salmon|0|1",
+  "pred": 0.875,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "travel_wallet|0|1",
+  "pred": 1.0,
+  "flip": 0.16666666666666666,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "sleeping_bag|0|1",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "ice_cream|1|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "loose_leaf_tea|0|3",
+  "pred": 0.875,
+  "flip": 0.8333333333333334,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "painters_tape|1|4",
+  "pred": 0.625,
+  "flip": 0.4166666666666667,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "wheelbarrow|0|1",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "bracelet|1|2",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "pressure_cooker|1|2",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "dslr_camera|2|4",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "porch_swing|3|4",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "sippy_cup|2|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "jewelry_kit|0|1",
+  "pred": 0.875,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "boxing_gloves|2|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "wood_glue|0|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "adapter|0|3",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "hotel|0|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "amusement_park|2|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "cutting_board|1|3",
+  "pred": 1.0,
+  "flip": 0.16666666666666666,
+  "plain_self_disagree": 0.125
+ },
+ {
+  "item": "popcorn|0|3",
+  "pred": 1.0,
+  "flip": 0.08333333333333333,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "soil|2|4",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "sparkling_water|3|4",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "washi_tape|3|4",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "loose_leaf_tea|2|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "microwave_cover|3|4",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ },
+ {
+  "item": "lint_roller|0|3",
+  "pred": 1.0,
+  "flip": 0.0,
+  "plain_self_disagree": 0.0
+ }
+]

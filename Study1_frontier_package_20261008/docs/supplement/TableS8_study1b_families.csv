@@ -1,0 +1,8 @@
+family,arrays,strata,D_pooled,D_gpt,D_opus,LOFO_pooled_family_mean
+F05_orient,F05_orient_m7,S1,0.0931,0.0494,0.1367,0.2721
+F10_curvature,F10_curvature_m2;F10_curvature_m3,S1;S1,0.5808,0.5815,0.5801,0.1908
+F12_mirror,F12_mirror_m0;F12_mirror_m3;F12_mirror_m6,S2_G;S2_O;S2_G,0.1355,0.1472,0.1238,0.265
+F20_corner,F20_corner_m0,S1,0.5417,0.3549,0.7285,0.1973
+F27_linecount,F27_linecount_m1,S2_O,0.2328,-0.0243,0.4898,0.2488
+F30_pairratio,F30_pairratio_m2,S1,0.1607,0.1791,0.1423,0.2608
+F31_overlap,F31_overlap_m1,S2_G,-0.0192,0.0007,-0.0391,0.2908

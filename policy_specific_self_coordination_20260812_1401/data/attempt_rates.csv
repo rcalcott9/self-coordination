@@ -1,0 +1,41 @@
+model,model_name,stimulus,safe_payoff,n,n_attempt,attempt_rate,ci_lo,ci_hi,ev_neutral_p,true_self_match,auditor_predicted,salience,policy_specific,category,form_consistency,n_attempt_with_choice,conditional_match_given_attempt,ev_correct_entry
+claude,Claude Opus 5,b_spiral_cw,3,30,30,1.0,1.0,1.0,0.3,1.0,0.66,0.1853,0.34,clean_disparity,1.0,30,1.0,True
+claude,Claude Opus 5,b_spiral_cw,5,30,30,1.0,1.0,1.0,0.5,1.0,0.66,0.1853,0.34,clean_disparity,1.0,30,1.0,True
+claude,Claude Opus 5,b_spiral_cw,7,30,28,0.9333,0.8333,1.0,0.7,1.0,0.66,0.1853,0.34,clean_disparity,1.0,28,1.0,True
+claude,Claude Opus 5,b_spiral_cw,9,30,3,0.1,0.0,0.2,0.9,1.0,0.66,0.1853,0.34,clean_disparity,1.0,3,1.0,False
+claude,Claude Opus 5,d_dens_extreme,3,30,30,1.0,1.0,1.0,0.3,0.5373,0.78,0.6935,-0.2427,clean_disparity,0.3,30,0.4851,True
+claude,Claude Opus 5,d_dens_extreme,5,30,30,1.0,1.0,1.0,0.5,0.5373,0.78,0.6935,-0.2427,clean_disparity,0.3,30,0.4851,True
+claude,Claude Opus 5,d_dens_extreme,7,30,30,1.0,1.0,1.0,0.7,0.5373,0.78,0.6935,-0.2427,clean_disparity,0.3,30,0.4828,False
+claude,Claude Opus 5,d_dens_extreme,9,30,19,0.6333,0.4667,0.8,0.9,0.5373,0.78,0.6935,-0.2427,clean_disparity,0.3,19,0.6491,False
+claude,Claude Opus 5,rot,3,30,30,1.0,1.0,1.0,0.3,0.4915,0.6803,0.1738,-0.1888,shared_control,0.2,30,0.492,True
+claude,Claude Opus 5,rot,5,30,30,1.0,1.0,1.0,0.5,0.4915,0.6803,0.1738,-0.1888,shared_control,0.2,30,0.4851,False
+claude,Claude Opus 5,rot,7,30,17,0.5667,0.4,0.7333,0.7,0.4915,0.6803,0.1738,-0.1888,shared_control,0.2,17,0.4853,False
+claude,Claude Opus 5,rot,9,30,0,0.0,0.0,0.0,0.9,0.4915,0.6803,0.1738,-0.1888,shared_control,0.2,0,,True
+claude,Claude Opus 5,s_convexity,3,30,30,1.0,1.0,1.0,0.3,1.0,0.8127,0.7603,0.1873,fallback_disparity,1.0,30,1.0,True
+claude,Claude Opus 5,s_convexity,5,30,30,1.0,1.0,1.0,0.5,1.0,0.8127,0.7603,0.1873,fallback_disparity,1.0,30,1.0,True
+claude,Claude Opus 5,s_convexity,7,30,30,1.0,1.0,1.0,0.7,1.0,0.8127,0.7603,0.1873,fallback_disparity,1.0,30,1.0,True
+claude,Claude Opus 5,s_convexity,9,30,29,0.9667,0.9,1.0,0.9,1.0,0.8127,0.7603,0.1873,fallback_disparity,1.0,29,1.0,True
+gpt,GPT-5.5,b_spiral_cw,3,30,30,1.0,1.0,1.0,0.3,0.6548,0.6573,0.1853,-0.0025,clean_disparity,0.9,30,0.4851,True
+gpt,GPT-5.5,b_spiral_cw,5,30,26,0.8667,0.7333,0.9667,0.5,0.6548,0.6573,0.1853,-0.0025,clean_disparity,0.9,26,0.48,True
+gpt,GPT-5.5,b_spiral_cw,7,30,9,0.3,0.1333,0.4667,0.7,0.6548,0.6573,0.1853,-0.0025,clean_disparity,0.9,9,0.5,True
+gpt,GPT-5.5,b_spiral_cw,9,30,0,0.0,0.0,0.0,0.9,0.6548,0.6573,0.1853,-0.0025,clean_disparity,0.9,0,,True
+gpt,GPT-5.5,c_contr_subtle,3,30,30,1.0,1.0,1.0,0.3,1.0,0.716,0.249,0.284,fallback_disparity,1.0,30,1.0,True
+gpt,GPT-5.5,c_contr_subtle,5,30,30,1.0,1.0,1.0,0.5,1.0,0.716,0.249,0.284,fallback_disparity,1.0,30,1.0,True
+gpt,GPT-5.5,c_contr_subtle,7,30,29,0.9667,0.9,1.0,0.7,1.0,0.716,0.249,0.284,fallback_disparity,1.0,29,1.0,True
+gpt,GPT-5.5,c_contr_subtle,9,30,12,0.4,0.2333,0.5667,0.9,1.0,0.716,0.249,0.284,fallback_disparity,1.0,12,1.0,False
+gpt,GPT-5.5,c_open_cplx,3,30,30,1.0,1.0,1.0,0.3,1.0,0.7623,0.6508,0.2377,fallback_disparity,1.0,30,1.0,True
+gpt,GPT-5.5,c_open_cplx,5,30,30,1.0,1.0,1.0,0.5,1.0,0.7623,0.6508,0.2377,fallback_disparity,1.0,30,1.0,True
+gpt,GPT-5.5,c_open_cplx,7,30,30,1.0,1.0,1.0,0.7,1.0,0.7623,0.6508,0.2377,fallback_disparity,1.0,30,1.0,True
+gpt,GPT-5.5,c_open_cplx,9,30,7,0.2333,0.1,0.4,0.9,1.0,0.7623,0.6508,0.2377,fallback_disparity,1.0,7,1.0,False
+gpt,GPT-5.5,d_dens_extreme,3,30,30,1.0,1.0,1.0,0.3,0.4921,0.7803,0.6935,-0.2882,clean_disparity,0.1,30,0.4851,True
+gpt,GPT-5.5,d_dens_extreme,5,30,30,1.0,1.0,1.0,0.5,0.4921,0.7803,0.6935,-0.2882,clean_disparity,0.1,30,0.492,False
+gpt,GPT-5.5,d_dens_extreme,7,30,29,0.9667,0.9,1.0,0.7,0.4921,0.7803,0.6935,-0.2882,clean_disparity,0.1,29,0.5123,False
+gpt,GPT-5.5,d_dens_extreme,9,30,6,0.2,0.0667,0.3667,0.9,0.4921,0.7803,0.6935,-0.2882,clean_disparity,0.1,6,1.0,True
+gpt,GPT-5.5,s_convexity,3,30,30,1.0,1.0,1.0,0.3,0.9667,0.7687,0.7603,0.198,fallback_disparity,0.9667,30,1.0,True
+gpt,GPT-5.5,s_convexity,5,30,30,1.0,1.0,1.0,0.5,0.9667,0.7687,0.7603,0.198,fallback_disparity,0.9667,30,1.0,True
+gpt,GPT-5.5,s_convexity,7,30,30,1.0,1.0,1.0,0.7,0.9667,0.7687,0.7603,0.198,fallback_disparity,0.9667,30,1.0,True
+gpt,GPT-5.5,s_convexity,9,30,27,0.9,0.7667,1.0,0.9,0.9667,0.7687,0.7603,0.198,fallback_disparity,0.9667,27,1.0,True
+gpt,GPT-5.5,s_density,3,30,30,1.0,1.0,1.0,0.3,0.4938,0.7597,0.649,-0.2659,clean_disparity,0.0667,30,0.4828,True
+gpt,GPT-5.5,s_density,5,30,30,1.0,1.0,1.0,0.5,0.4938,0.7597,0.649,-0.2659,clean_disparity,0.0667,30,0.4828,False
+gpt,GPT-5.5,s_density,7,30,26,0.8667,0.7333,0.9667,0.7,0.4938,0.7597,0.649,-0.2659,clean_disparity,0.0667,26,0.4923,False
+gpt,GPT-5.5,s_density,9,30,6,0.2,0.0667,0.3667,0.9,0.4938,0.7597,0.649,-0.2659,clean_disparity,0.0667,6,0.4667,True

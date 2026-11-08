@@ -1,0 +1,1638 @@
+{
+  "threshold": 0.7,
+  "arms": {
+    "finetuned": {
+      "r_learned_vs_true": 0.8531059479102717,
+      "r_ci95": [
+        0.8327437027026414,
+        0.8728341394004242
+      ],
+      "heldout_choice_accuracy": 0.8342,
+      "n_contexts_total": 100,
+      "n_contexts_usable": 100,
+      "n_contexts_failed": 0,
+      "failures": [],
+      "n_invalid_responses": 0,
+      "per_context": [
+        {
+          "scenario": "adapter",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8094279215674897
+        },
+        {
+          "scenario": "alcohol_markers",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7523415743266002
+        },
+        {
+          "scenario": "amusement_park",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9811770490907777
+        },
+        {
+          "scenario": "antenna",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9241534876856623
+        },
+        {
+          "scenario": "arrows",
+          "n": 50,
+          "accuracy": 0.72,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.758845629701613
+        },
+        {
+          "scenario": "balance_board",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8931944133036025
+        },
+        {
+          "scenario": "blush",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8892219637850575
+        },
+        {
+          "scenario": "boxing_gloves",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8669238165958024
+        },
+        {
+          "scenario": "bracelet",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9520759653332106
+        },
+        {
+          "scenario": "central_vacuum",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9520992253425864
+        },
+        {
+          "scenario": "cherry_pitter",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.5560163276467349
+        },
+        {
+          "scenario": "citrus_juicer",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8585689689592767
+        },
+        {
+          "scenario": "cocktail_kit",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9778624928152408
+        },
+        {
+          "scenario": "console",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9200789836537807
+        },
+        {
+          "scenario": "convertible",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8537677222255938
+        },
+        {
+          "scenario": "crochet_hook",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9722499579490808
+        },
+        {
+          "scenario": "cutting_board",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9322331525387562
+        },
+        {
+          "scenario": "diaper_bag",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8157527814674705
+        },
+        {
+          "scenario": "dominoes",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9553148139422507
+        },
+        {
+          "scenario": "dry_bag",
+          "n": 50,
+          "accuracy": 0.68,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.6780875937522715
+        },
+        {
+          "scenario": "dslr_camera",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.954767479157558
+        },
+        {
+          "scenario": "easel",
+          "n": 50,
+          "accuracy": 0.7,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.5747069058792338
+        },
+        {
+          "scenario": "ecg_monitor",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9616649088791465
+        },
+        {
+          "scenario": "electric_grill",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8659227816633257
+        },
+        {
+          "scenario": "fabric_markers",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7794214417340937
+        },
+        {
+          "scenario": "fins",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.959808457391667
+        },
+        {
+          "scenario": "garment_steamer",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8424978074394278
+        },
+        {
+          "scenario": "gas_can",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8550700507802973
+        },
+        {
+          "scenario": "golf_cart",
+          "n": 50,
+          "accuracy": 0.62,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.1325084257480673
+        },
+        {
+          "scenario": "hair_dryer",
+          "n": 50,
+          "accuracy": 0.76,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.6007954201213842
+        },
+        {
+          "scenario": "ham",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7047749426487213
+        },
+        {
+          "scenario": "hoe",
+          "n": 50,
+          "accuracy": 0.96,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9539708619762398
+        },
+        {
+          "scenario": "hoodie",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8346572089437384
+        },
+        {
+          "scenario": "hot_glue_sticks",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9078380006528405
+        },
+        {
+          "scenario": "hotel",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8646392270756585
+        },
+        {
+          "scenario": "house",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8700044373491957
+        },
+        {
+          "scenario": "ice_cream",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.831191602270586
+        },
+        {
+          "scenario": "ink_cartridge",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.4452600721620621
+        },
+        {
+          "scenario": "inversion_table",
+          "n": 50,
+          "accuracy": 0.96,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9860577761533531
+        },
+        {
+          "scenario": "jewelry_kit",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8799105416339685
+        },
+        {
+          "scenario": "knee_pads",
+          "n": 50,
+          "accuracy": 0.96,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9925117104041005
+        },
+        {
+          "scenario": "lint_roller",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9919236063452219
+        },
+        {
+          "scenario": "lip_scrub",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8086171687483842
+        },
+        {
+          "scenario": "loan",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9415641181731507
+        },
+        {
+          "scenario": "loose_leaf_tea",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.942363556201254
+        },
+        {
+          "scenario": "luggage_tag",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9238073174456765
+        },
+        {
+          "scenario": "magnetic_calendar",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9427258413864965
+        },
+        {
+          "scenario": "microwave_cover",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9831463729128357
+        },
+        {
+          "scenario": "milk_storage_bags",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9595912427949451
+        },
+        {
+          "scenario": "mixer",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.919114993716361
+        },
+        {
+          "scenario": "mold_test",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9169720759671361
+        },
+        {
+          "scenario": "nail_file",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9681073013873364
+        },
+        {
+          "scenario": "necklace_stand",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9225991197450073
+        },
+        {
+          "scenario": "night_light",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8551280157815044
+        },
+        {
+          "scenario": "olive_pitter",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.6761819413938024
+        },
+        {
+          "scenario": "outdoor_tv_cover",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8939729243141409
+        },
+        {
+          "scenario": "oven",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9467966267672735
+        },
+        {
+          "scenario": "painters_tape",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9420715429157837
+        },
+        {
+          "scenario": "paper_towel",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8566643920129058
+        },
+        {
+          "scenario": "pasta_maker",
+          "n": 50,
+          "accuracy": 0.74,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7989662827834029
+        },
+        {
+          "scenario": "pattern_weights",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9401113784263001
+        },
+        {
+          "scenario": "pilates_ring",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8347364088198475
+        },
+        {
+          "scenario": "popcorn",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9656432328013453
+        },
+        {
+          "scenario": "porch_swing",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7322482870711199
+        },
+        {
+          "scenario": "pressure_cooker",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8255257159215376
+        },
+        {
+          "scenario": "rabbit",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8531537266614317
+        },
+        {
+          "scenario": "recliner",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8760149292034088
+        },
+        {
+          "scenario": "reusable_bag",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9604260312542816
+        },
+        {
+          "scenario": "rfid_wallet",
+          "n": 50,
+          "accuracy": 0.94,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9570092841703888
+        },
+        {
+          "scenario": "safety_pins",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8114133752899206
+        },
+        {
+          "scenario": "salmon",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7070377573962493
+        },
+        {
+          "scenario": "sawhorse",
+          "n": 50,
+          "accuracy": 0.94,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9401697494826268
+        },
+        {
+          "scenario": "scrunchie",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8440669906972751
+        },
+        {
+          "scenario": "security_camera",
+          "n": 50,
+          "accuracy": 0.92,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9255386258026286
+        },
+        {
+          "scenario": "sewing_machine",
+          "n": 50,
+          "accuracy": 0.66,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8295323665250324
+        },
+        {
+          "scenario": "shower_curtain",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8223625939267373
+        },
+        {
+          "scenario": "shuffleboard_table",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8385717570976521
+        },
+        {
+          "scenario": "sippy_cup",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9658804134208808
+        },
+        {
+          "scenario": "sleep_sack",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9572429157905785
+        },
+        {
+          "scenario": "sleeping_bag",
+          "n": 50,
+          "accuracy": 0.74,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8962015439664309
+        },
+        {
+          "scenario": "snow_blower",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8130632296495929
+        },
+        {
+          "scenario": "snow_brush",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8545086532520714
+        },
+        {
+          "scenario": "soccer_ball",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8585935828287011
+        },
+        {
+          "scenario": "soil",
+          "n": 50,
+          "accuracy": 0.76,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7440575081333433
+        },
+        {
+          "scenario": "sparkling_water",
+          "n": 50,
+          "accuracy": 0.74,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9651112271071706
+        },
+        {
+          "scenario": "sponges",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9757087570474651
+        },
+        {
+          "scenario": "stability_ball",
+          "n": 50,
+          "accuracy": 0.94,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8804683233584772
+        },
+        {
+          "scenario": "stapler",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7333311500095421
+        },
+        {
+          "scenario": "stockings",
+          "n": 50,
+          "accuracy": 0.86,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8732840962270122
+        },
+        {
+          "scenario": "stopwatch",
+          "n": 50,
+          "accuracy": 0.66,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.5561476958010565
+        },
+        {
+          "scenario": "tamper",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9926736969549528
+        },
+        {
+          "scenario": "tea",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7689060851766288
+        },
+        {
+          "scenario": "tongs",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8848887332507426
+        },
+        {
+          "scenario": "travel_wallet",
+          "n": 50,
+          "accuracy": 0.9,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9956043940386787
+        },
+        {
+          "scenario": "washi_tape",
+          "n": 50,
+          "accuracy": 0.72,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8255243663234388
+        },
+        {
+          "scenario": "washing_machine",
+          "n": 50,
+          "accuracy": 0.76,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8569104806177568
+        },
+        {
+          "scenario": "wheelbarrow",
+          "n": 50,
+          "accuracy": 0.72,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9207911904371346
+        },
+        {
+          "scenario": "windshield_cover",
+          "n": 50,
+          "accuracy": 0.76,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7728357840198019
+        },
+        {
+          "scenario": "wood_burner",
+          "n": 50,
+          "accuracy": 0.88,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.6303620408882676
+        },
+        {
+          "scenario": "wood_glue",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8622024764099246
+        }
+      ]
+    },
+    "base": {
+      "r_learned_vs_true": 0.07678629900617738,
+      "r_ci95": [
+        -0.00978802286152858,
+        0.16334532039692923
+      ],
+      "heldout_choice_accuracy": 0.5246,
+      "n_contexts_total": 100,
+      "n_contexts_usable": 100,
+      "n_contexts_failed": 0,
+      "failures": [],
+      "n_invalid_responses": 0,
+      "per_context": [
+        {
+          "scenario": "adapter",
+          "n": 50,
+          "accuracy": 0.56,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.005680527955341315
+        },
+        {
+          "scenario": "alcohol_markers",
+          "n": 50,
+          "accuracy": 0.7,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.10764776768137974
+        },
+        {
+          "scenario": "amusement_park",
+          "n": 50,
+          "accuracy": 0.62,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7185560000070791
+        },
+        {
+          "scenario": "antenna",
+          "n": 50,
+          "accuracy": 0.24,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.7303506872972735
+        },
+        {
+          "scenario": "arrows",
+          "n": 50,
+          "accuracy": 0.44,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.41864233258044276
+        },
+        {
+          "scenario": "balance_board",
+          "n": 50,
+          "accuracy": 0.64,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.078686239739121
+        },
+        {
+          "scenario": "blush",
+          "n": 50,
+          "accuracy": 0.4,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.028861709247178735
+        },
+        {
+          "scenario": "boxing_gloves",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.34841778269081225
+        },
+        {
+          "scenario": "bracelet",
+          "n": 50,
+          "accuracy": 0.2,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.8483533765386443
+        },
+        {
+          "scenario": "central_vacuum",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.15011660187681705
+        },
+        {
+          "scenario": "cherry_pitter",
+          "n": 50,
+          "accuracy": 0.5,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.6187572632725309
+        },
+        {
+          "scenario": "citrus_juicer",
+          "n": 50,
+          "accuracy": 0.34,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.0768415251702015
+        },
+        {
+          "scenario": "cocktail_kit",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.2785532465247641
+        },
+        {
+          "scenario": "console",
+          "n": 50,
+          "accuracy": 0.64,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.6387941631639528
+        },
+        {
+          "scenario": "convertible",
+          "n": 50,
+          "accuracy": 0.38,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.22083670034915437
+        },
+        {
+          "scenario": "crochet_hook",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.3460751054384559
+        },
+        {
+          "scenario": "cutting_board",
+          "n": 50,
+          "accuracy": 0.44,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.30017023188919106
+        },
+        {
+          "scenario": "diaper_bag",
+          "n": 50,
+          "accuracy": 0.48,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.18743017163706024
+        },
+        {
+          "scenario": "dominoes",
+          "n": 50,
+          "accuracy": 0.62,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.5794408821939097
+        },
+        {
+          "scenario": "dry_bag",
+          "n": 50,
+          "accuracy": 0.58,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.5608523488613298
+        },
+        {
+          "scenario": "dslr_camera",
+          "n": 50,
+          "accuracy": 0.42,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.5985412586036003
+        },
+        {
+          "scenario": "easel",
+          "n": 50,
+          "accuracy": 0.8,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.18294304089954735
+        },
+        {
+          "scenario": "ecg_monitor",
+          "n": 50,
+          "accuracy": 0.2,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.22885703482294117
+        },
+        {
+          "scenario": "electric_grill",
+          "n": 50,
+          "accuracy": 0.68,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.425014684178343
+        },
+        {
+          "scenario": "fabric_markers",
+          "n": 50,
+          "accuracy": 0.4,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.5040842685967171
+        },
+        {
+          "scenario": "fins",
+          "n": 50,
+          "accuracy": 0.5,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.1739052180677309
+        },
+        {
+          "scenario": "garment_steamer",
+          "n": 50,
+          "accuracy": 0.4,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.3586103188493483
+        },
+        {
+          "scenario": "gas_can",
+          "n": 50,
+          "accuracy": 0.26,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.6747021152294993
+        },
+        {
+          "scenario": "golf_cart",
+          "n": 50,
+          "accuracy": 0.5,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.7411373147836976
+        },
+        {
+          "scenario": "hair_dryer",
+          "n": 50,
+          "accuracy": 0.58,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.2568282935332374
+        },
+        {
+          "scenario": "ham",
+          "n": 50,
+          "accuracy": 0.52,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.3082261522159731
+        },
+        {
+          "scenario": "hoe",
+          "n": 50,
+          "accuracy": 0.84,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9066540861385005
+        },
+        {
+          "scenario": "hoodie",
+          "n": 50,
+          "accuracy": 0.62,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.4757451335275746
+        },
+        {
+          "scenario": "hot_glue_sticks",
+          "n": 50,
+          "accuracy": 0.66,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.586982839272826
+        },
+        {
+          "scenario": "hotel",
+          "n": 50,
+          "accuracy": 0.64,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.4790847286910909
+        },
+        {
+          "scenario": "house",
+          "n": 50,
+          "accuracy": 0.44,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.0663436005705068
+        },
+        {
+          "scenario": "ice_cream",
+          "n": 50,
+          "accuracy": 0.76,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.8637805887633518
+        },
+        {
+          "scenario": "ink_cartridge",
+          "n": 50,
+          "accuracy": 0.7,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.469909477740366
+        },
+        {
+          "scenario": "inversion_table",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9726492796095736
+        },
+        {
+          "scenario": "jewelry_kit",
+          "n": 50,
+          "accuracy": 0.64,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.14558347196298613
+        },
+        {
+          "scenario": "knee_pads",
+          "n": 50,
+          "accuracy": 0.24,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.7367043579196858
+        },
+        {
+          "scenario": "lint_roller",
+          "n": 50,
+          "accuracy": 0.64,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.16766098417877856
+        },
+        {
+          "scenario": "lip_scrub",
+          "n": 50,
+          "accuracy": 0.56,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.10599895701257228
+        },
+        {
+          "scenario": "loan",
+          "n": 50,
+          "accuracy": 0.4,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.04696751284429736
+        },
+        {
+          "scenario": "loose_leaf_tea",
+          "n": 50,
+          "accuracy": 0.52,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.1726115581550329
+        },
+        {
+          "scenario": "luggage_tag",
+          "n": 50,
+          "accuracy": 0.7,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.38703774296060134
+        },
+        {
+          "scenario": "magnetic_calendar",
+          "n": 50,
+          "accuracy": 0.32,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.28784783884886167
+        },
+        {
+          "scenario": "microwave_cover",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.021106173883635424
+        },
+        {
+          "scenario": "milk_storage_bags",
+          "n": 50,
+          "accuracy": 0.82,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7704105602444077
+        },
+        {
+          "scenario": "mixer",
+          "n": 50,
+          "accuracy": 0.66,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.6051791631718765
+        },
+        {
+          "scenario": "mold_test",
+          "n": 50,
+          "accuracy": 0.5,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.5382845636533791
+        },
+        {
+          "scenario": "nail_file",
+          "n": 50,
+          "accuracy": 0.3,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.44504691599127927
+        },
+        {
+          "scenario": "necklace_stand",
+          "n": 50,
+          "accuracy": 0.66,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.21318518215215476
+        },
+        {
+          "scenario": "night_light",
+          "n": 50,
+          "accuracy": 0.34,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.569548594108409
+        },
+        {
+          "scenario": "olive_pitter",
+          "n": 50,
+          "accuracy": 0.32,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.24243110142128912
+        },
+        {
+          "scenario": "outdoor_tv_cover",
+          "n": 50,
+          "accuracy": 0.74,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.7678004235069593
+        },
+        {
+          "scenario": "oven",
+          "n": 50,
+          "accuracy": 0.74,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.5205998270495747
+        },
+        {
+          "scenario": "painters_tape",
+          "n": 50,
+          "accuracy": 0.52,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.22659684879181816
+        },
+        {
+          "scenario": "paper_towel",
+          "n": 50,
+          "accuracy": 0.3,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.5535016503400134
+        },
+        {
+          "scenario": "pasta_maker",
+          "n": 50,
+          "accuracy": 0.36,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.4245130674861516
+        },
+        {
+          "scenario": "pattern_weights",
+          "n": 50,
+          "accuracy": 0.34,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.26135362092926484
+        },
+        {
+          "scenario": "pilates_ring",
+          "n": 50,
+          "accuracy": 0.38,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.08784717218729055
+        },
+        {
+          "scenario": "popcorn",
+          "n": 50,
+          "accuracy": 0.3,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.4245202766207201
+        },
+        {
+          "scenario": "porch_swing",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.735683204805056
+        },
+        {
+          "scenario": "pressure_cooker",
+          "n": 50,
+          "accuracy": 0.48,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.06920253812233232
+        },
+        {
+          "scenario": "rabbit",
+          "n": 50,
+          "accuracy": 0.56,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.44268719641142157
+        },
+        {
+          "scenario": "recliner",
+          "n": 50,
+          "accuracy": 0.3,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.5403464005701132
+        },
+        {
+          "scenario": "reusable_bag",
+          "n": 50,
+          "accuracy": 0.6,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.38515847599569175
+        },
+        {
+          "scenario": "rfid_wallet",
+          "n": 50,
+          "accuracy": 0.5,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.3355723136867243
+        },
+        {
+          "scenario": "safety_pins",
+          "n": 50,
+          "accuracy": 0.68,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.7936823750640231
+        },
+        {
+          "scenario": "salmon",
+          "n": 50,
+          "accuracy": 0.58,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.3935594372720549
+        },
+        {
+          "scenario": "sawhorse",
+          "n": 50,
+          "accuracy": 0.62,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.08494266494233214
+        },
+        {
+          "scenario": "scrunchie",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.2539470945556702
+        },
+        {
+          "scenario": "security_camera",
+          "n": 50,
+          "accuracy": 0.52,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.4953458348181132
+        },
+        {
+          "scenario": "sewing_machine",
+          "n": 50,
+          "accuracy": 0.56,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.7126822621216554
+        },
+        {
+          "scenario": "shower_curtain",
+          "n": 50,
+          "accuracy": 0.62,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.2022230043208085
+        },
+        {
+          "scenario": "shuffleboard_table",
+          "n": 50,
+          "accuracy": 0.6,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.5583051712330168
+        },
+        {
+          "scenario": "sippy_cup",
+          "n": 50,
+          "accuracy": 0.56,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.4654690722861507
+        },
+        {
+          "scenario": "sleep_sack",
+          "n": 50,
+          "accuracy": 0.72,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.54517327564671
+        },
+        {
+          "scenario": "sleeping_bag",
+          "n": 50,
+          "accuracy": 0.48,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.13531111054337072
+        },
+        {
+          "scenario": "snow_blower",
+          "n": 50,
+          "accuracy": 0.3,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.47469120771504086
+        },
+        {
+          "scenario": "snow_brush",
+          "n": 50,
+          "accuracy": 0.5,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.00720766706605031
+        },
+        {
+          "scenario": "soccer_ball",
+          "n": 50,
+          "accuracy": 0.48,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.2628048932992182
+        },
+        {
+          "scenario": "soil",
+          "n": 50,
+          "accuracy": 0.5,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.4501409180874355
+        },
+        {
+          "scenario": "sparkling_water",
+          "n": 50,
+          "accuracy": 0.72,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.552170116955743
+        },
+        {
+          "scenario": "sponges",
+          "n": 50,
+          "accuracy": 0.68,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.46998897853802757
+        },
+        {
+          "scenario": "stability_ball",
+          "n": 50,
+          "accuracy": 0.64,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.46857284981905384
+        },
+        {
+          "scenario": "stapler",
+          "n": 50,
+          "accuracy": 0.22,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.49165514434131824
+        },
+        {
+          "scenario": "stockings",
+          "n": 50,
+          "accuracy": 0.36,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.39989177628777933
+        },
+        {
+          "scenario": "stopwatch",
+          "n": 50,
+          "accuracy": 0.44,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.22785304356957173
+        },
+        {
+          "scenario": "tamper",
+          "n": 50,
+          "accuracy": 0.36,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.25932117910596975
+        },
+        {
+          "scenario": "tea",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.15289683070171492
+        },
+        {
+          "scenario": "tongs",
+          "n": 50,
+          "accuracy": 0.38,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.32032431325276706
+        },
+        {
+          "scenario": "travel_wallet",
+          "n": 50,
+          "accuracy": 0.74,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.872997926232235
+        },
+        {
+          "scenario": "washi_tape",
+          "n": 50,
+          "accuracy": 0.78,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.6388742847677806
+        },
+        {
+          "scenario": "washing_machine",
+          "n": 50,
+          "accuracy": 0.72,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.9076968307456716
+        },
+        {
+          "scenario": "wheelbarrow",
+          "n": 50,
+          "accuracy": 0.54,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.31906722206129207
+        },
+        {
+          "scenario": "windshield_cover",
+          "n": 50,
+          "accuracy": 0.42,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.35863932809054355
+        },
+        {
+          "scenario": "wood_burner",
+          "n": 50,
+          "accuracy": 0.62,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": 0.06516208891847514
+        },
+        {
+          "scenario": "wood_glue",
+          "n": 50,
+          "accuracy": 0.34,
+          "fit": "ok",
+          "usable": true,
+          "r_within_context": -0.5764771760939383
+        }
+      ]
+    }
+  },
+  "ft_minus_base_r": 0.7763196489040943,
+  "ft_minus_base_accuracy": 0.3096000000000001,
+  "gate1_pass": true
+}

@@ -1,0 +1,522 @@
+[
+ {
+  "stimulus_id": "F10_curvature_m5",
+  "family": "F10_curvature",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "p_claude": [
+   0.83,
+   0.0,
+   0.0,
+   0.17
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 0,
+  "stability_gpt": 1.0,
+  "stability_claude": 0.83,
+  "min_stability": 0.83,
+  "tvd": 0.83,
+  "score": 0.6889,
+  "old_stab_gpt": 1.0,
+  "old_stab_claude": 0.875,
+  "old_tvd": 0.875,
+  "old_p_gpt": [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "old_p_claude": [
+   0.875,
+   0.0,
+   0.0,
+   0.125
+  ]
+ },
+ {
+  "stimulus_id": "F10_curvature_m3",
+  "family": "F10_curvature",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.03,
+   0.0,
+   0.0,
+   0.97
+  ],
+  "p_claude": [
+   0.83,
+   0.0,
+   0.0,
+   0.17
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 0,
+  "stability_gpt": 0.97,
+  "stability_claude": 0.83,
+  "min_stability": 0.83,
+  "tvd": 0.8,
+  "score": 0.664,
+  "old_stab_gpt": 0.9583,
+  "old_stab_claude": 0.875,
+  "old_tvd": 0.8333,
+  "old_p_gpt": [
+   0.0417,
+   0.0,
+   0.0,
+   0.9583
+  ],
+  "old_p_claude": [
+   0.875,
+   0.0,
+   0.0,
+   0.125
+  ]
+ },
+ {
+  "stimulus_id": "F20_corner_m0",
+  "family": "F20_corner",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.25,
+   0.0,
+   0.0,
+   0.75
+  ],
+  "p_claude": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 0,
+  "stability_gpt": 0.75,
+  "stability_claude": 1.0,
+  "min_stability": 0.75,
+  "tvd": 0.75,
+  "score": 0.5625,
+  "old_stab_gpt": 0.75,
+  "old_stab_claude": 1.0,
+  "old_tvd": 0.75,
+  "old_p_gpt": [
+   0.25,
+   0.0,
+   0.0,
+   0.75
+  ],
+  "old_p_claude": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "stimulus_id": "F05_orient_m6",
+  "family": "F05_orient",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.69,
+   0.18,
+   0.02,
+   0.11
+  ],
+  "p_claude": [
+   0.11,
+   0.04,
+   0.76,
+   0.09
+  ],
+  "modal_gpt": 0,
+  "modal_claude": 2,
+  "stability_gpt": 0.69,
+  "stability_claude": 0.76,
+  "min_stability": 0.69,
+  "tvd": 0.74,
+  "score": 0.5106,
+  "old_stab_gpt": 0.6667,
+  "old_stab_claude": 0.75,
+  "old_tvd": 0.7083,
+  "old_p_gpt": [
+   0.6667,
+   0.125,
+   0.0417,
+   0.1667
+  ],
+  "old_p_claude": [
+   0.125,
+   0.0417,
+   0.75,
+   0.0833
+  ]
+ },
+ {
+  "stimulus_id": "F12_mirror_m5",
+  "family": "F12_mirror",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.04,
+   0.09,
+   0.15,
+   0.72
+  ],
+  "p_claude": [
+   0.0,
+   0.08,
+   0.82,
+   0.1
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 2,
+  "stability_gpt": 0.72,
+  "stability_claude": 0.82,
+  "min_stability": 0.72,
+  "tvd": 0.67,
+  "score": 0.4824,
+  "old_stab_gpt": 0.75,
+  "old_stab_claude": 0.7083,
+  "old_tvd": 0.625,
+  "old_p_gpt": [
+   0.0417,
+   0.0417,
+   0.1667,
+   0.75
+  ],
+  "old_p_claude": [
+   0.0,
+   0.125,
+   0.7083,
+   0.1667
+  ]
+ },
+ {
+  "stimulus_id": "F05_orient_m7",
+  "family": "F05_orient",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.73,
+   0.06,
+   0.09,
+   0.12
+  ],
+  "p_claude": [
+   0.16,
+   0.05,
+   0.73,
+   0.06
+  ],
+  "modal_gpt": 0,
+  "modal_claude": 2,
+  "stability_gpt": 0.73,
+  "stability_claude": 0.73,
+  "min_stability": 0.73,
+  "tvd": 0.64,
+  "score": 0.4672,
+  "old_stab_gpt": 0.75,
+  "old_stab_claude": 0.625,
+  "old_tvd": 0.6667,
+  "old_p_gpt": [
+   0.75,
+   0.0417,
+   0.0833,
+   0.125
+  ],
+  "old_p_claude": [
+   0.1667,
+   0.1667,
+   0.625,
+   0.0417
+  ]
+ },
+ {
+  "stimulus_id": "F10_curvature_m6",
+  "family": "F10_curvature",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.28,
+   0.0,
+   0.0,
+   0.72
+  ],
+  "p_claude": [
+   0.87,
+   0.0,
+   0.0,
+   0.13
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 0,
+  "stability_gpt": 0.72,
+  "stability_claude": 0.87,
+  "min_stability": 0.72,
+  "tvd": 0.59,
+  "score": 0.4248,
+  "old_stab_gpt": 0.75,
+  "old_stab_claude": 0.875,
+  "old_tvd": 0.625,
+  "old_p_gpt": [
+   0.25,
+   0.0,
+   0.0,
+   0.75
+  ],
+  "old_p_claude": [
+   0.875,
+   0.0,
+   0.0,
+   0.125
+  ]
+ },
+ {
+  "stimulus_id": "F10_curvature_m2",
+  "family": "F10_curvature",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.37,
+   0.0,
+   0.0,
+   0.63
+  ],
+  "p_claude": [
+   0.99,
+   0.0,
+   0.0,
+   0.01
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 0,
+  "stability_gpt": 0.63,
+  "stability_claude": 0.99,
+  "min_stability": 0.63,
+  "tvd": 0.62,
+  "score": 0.3906,
+  "old_stab_gpt": 0.75,
+  "old_stab_claude": 1.0,
+  "old_tvd": 0.75,
+  "old_p_gpt": [
+   0.25,
+   0.0,
+   0.0,
+   0.75
+  ],
+  "old_p_claude": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "stimulus_id": "F06_density_m4",
+  "family": "F06_density",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.2,
+   0.0,
+   0.19,
+   0.61
+  ],
+  "p_claude": [
+   0.08,
+   0.0,
+   0.79,
+   0.13
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 2,
+  "stability_gpt": 0.61,
+  "stability_claude": 0.79,
+  "min_stability": 0.61,
+  "tvd": 0.6,
+  "score": 0.366,
+  "old_stab_gpt": 0.6667,
+  "old_stab_claude": 0.8333,
+  "old_tvd": 0.625,
+  "old_p_gpt": [
+   0.125,
+   0.0,
+   0.2083,
+   0.6667
+  ],
+  "old_p_claude": [
+   0.0833,
+   0.0,
+   0.8333,
+   0.0833
+  ]
+ },
+ {
+  "stimulus_id": "F36_split_m2",
+  "family": "F36_split",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.11,
+   0.63,
+   0.03,
+   0.23
+  ],
+  "p_claude": [
+   0.09,
+   0.13,
+   0.02,
+   0.76
+  ],
+  "modal_gpt": 1,
+  "modal_claude": 3,
+  "stability_gpt": 0.63,
+  "stability_claude": 0.76,
+  "min_stability": 0.63,
+  "tvd": 0.53,
+  "score": 0.3339,
+  "old_stab_gpt": 0.6667,
+  "old_stab_claude": 0.7083,
+  "old_tvd": 0.5,
+  "old_p_gpt": [
+   0.0833,
+   0.6667,
+   0.0417,
+   0.2083
+  ],
+  "old_p_claude": [
+   0.0833,
+   0.2083,
+   0.0,
+   0.7083
+  ]
+ },
+ {
+  "stimulus_id": "F26_bumploc_m0",
+  "family": "F26_bumploc",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.02,
+   0.42,
+   0.0,
+   0.56
+  ],
+  "p_claude": [
+   0.0,
+   0.96,
+   0.0,
+   0.04
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 1,
+  "stability_gpt": 0.56,
+  "stability_claude": 0.96,
+  "min_stability": 0.56,
+  "tvd": 0.54,
+  "score": 0.3024,
+  "old_stab_gpt": 0.6667,
+  "old_stab_claude": 0.9583,
+  "old_tvd": 0.6667,
+  "old_p_gpt": [
+   0.0417,
+   0.2917,
+   0.0,
+   0.6667
+  ],
+  "old_p_claude": [
+   0.0,
+   0.9583,
+   0.0,
+   0.0417
+  ]
+ },
+ {
+  "stimulus_id": "F06_density_m0",
+  "family": "F06_density",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.35,
+   0.0,
+   0.0,
+   0.65
+  ],
+  "p_claude": [
+   0.77,
+   0.0,
+   0.0,
+   0.23
+  ],
+  "modal_gpt": 3,
+  "modal_claude": 0,
+  "stability_gpt": 0.65,
+  "stability_claude": 0.77,
+  "min_stability": 0.65,
+  "tvd": 0.42,
+  "score": 0.273,
+  "old_stab_gpt": 0.875,
+  "old_stab_claude": 0.8333,
+  "old_tvd": 0.7083,
+  "old_p_gpt": [
+   0.125,
+   0.0,
+   0.0,
+   0.875
+  ],
+  "old_p_claude": [
+   0.8333,
+   0.0,
+   0.0,
+   0.1667
+  ]
+ },
+ {
+  "stimulus_id": "F40_crossang_m2",
+  "family": "F40_crossang",
+  "n_gpt": 100,
+  "n_claude": 100,
+  "p_gpt": [
+   0.54,
+   0.02,
+   0.01,
+   0.43
+  ],
+  "p_claude": [
+   0.23,
+   0.0,
+   0.0,
+   0.77
+  ],
+  "modal_gpt": 0,
+  "modal_claude": 3,
+  "stability_gpt": 0.54,
+  "stability_claude": 0.77,
+  "min_stability": 0.54,
+  "tvd": 0.34,
+  "score": 0.1836,
+  "old_stab_gpt": 0.625,
+  "old_stab_claude": 0.8333,
+  "old_tvd": 0.5,
+  "old_p_gpt": [
+   0.625,
+   0.0,
+   0.0417,
+   0.3333
+  ],
+  "old_p_claude": [
+   0.1667,
+   0.0,
+   0.0,
+   0.8333
+  ]
+ }
+]

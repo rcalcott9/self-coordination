@@ -1,0 +1,14 @@
+
+  candidates 105   eligible 3   failed gates 102
+
+  SELECTED 2 pairs (frozen rule, no manual input):
+
+    pair_id                                         sel     ho    sal    aud  score  diag
+    gpt__b_tee_ell__vs__d_texture                 0.460  0.497 -0.061 -0.016  1.672  ideal
+    gpt__s_contrast__vs__a_chev_ud                0.515  0.434 -0.042  0.027  1.655  auditor_informed
+    note: gpt: no both-form-rule contrast available among eligible pairs
+    note: claude: no both-form-rule contrast available among eligible pairs
+
+  NOTE: only 2 pairs qualified (< 5). Proceeding per §5.6 with reduced power.
+
+  -> /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/generation_ladder_20260814/models/gpt5/pairs/approved_pairs.csv

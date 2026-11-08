@@ -1,0 +1,374 @@
+{
+  "code_argorder_003": {
+    "K_group": 3,
+    "med_modal_raw": 1.0,
+    "med_modal_grp": 1.0,
+    "med_supp_raw": 1.0,
+    "med_supp_grp": 1.0,
+    "n_det_raw": 6,
+    "n_det_grp": 7,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "origin_extent",
+      "origin_extent",
+      "origin_extent",
+      "origin_extent",
+      "origin_extent",
+      "origin_extent",
+      "origin_extent",
+      "origin_extent",
+      "origin_extent"
+    ]
+  },
+  "code_error_001": {
+    "K_group": 3,
+    "med_modal_raw": 0.9583333333333334,
+    "med_modal_grp": 0.9583333333333334,
+    "med_supp_raw": 1.0867924528301884,
+    "med_supp_grp": 1.0867924528301884,
+    "n_det_raw": 4,
+    "n_det_grp": 4,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "raise",
+      "raise",
+      "raise",
+      "raise",
+      "raise",
+      "raise",
+      "raise",
+      "raise",
+      "raise"
+    ]
+  },
+  "code_fileorg_001": {
+    "K_group": 4,
+    "med_modal_raw": 1.0,
+    "med_modal_grp": 1.0,
+    "med_supp_raw": 1.0,
+    "med_supp_grp": 1.0,
+    "n_det_raw": 5,
+    "n_det_grp": 5,
+    "modal_raw": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "modal_grp": [
+      "src_layout",
+      "src_layout",
+      "src_layout",
+      "src_layout",
+      "src_layout",
+      "src_layout",
+      "src_layout",
+      "src_layout",
+      "src_layout"
+    ]
+  },
+  "code_fnname_001": {
+    "K_group": 4,
+    "med_modal_raw": 0.7291666666666666,
+    "med_modal_grp": 0.7291666666666666,
+    "med_supp_raw": 1.753424657534247,
+    "med_supp_grp": 1.753424657534247,
+    "n_det_raw": 1,
+    "n_det_grp": 1,
+    "modal_raw": [
+      "3",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "modal_grp": [
+      "remove_duplicates",
+      "unique",
+      "unique",
+      "unique",
+      "unique",
+      "unique",
+      "unique",
+      "unique",
+      "unique"
+    ]
+  },
+  "code_iface_003": {
+    "K_group": 3,
+    "med_modal_raw": 0.6875,
+    "med_modal_grp": 0.6875,
+    "med_supp_raw": 1.7534246575342465,
+    "med_supp_grp": 1.7534246575342465,
+    "n_det_raw": 1,
+    "n_det_grp": 1,
+    "modal_raw": [
+      "2",
+      "2",
+      "2",
+      "2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "repeatable_count",
+      "repeatable_count",
+      "repeatable_count",
+      "repeatable_count",
+      "boolean_verbose",
+      "boolean_verbose",
+      "boolean_verbose",
+      "boolean_verbose",
+      "boolean_verbose"
+    ]
+  },
+  "code_jsonname_001": {
+    "K_group": 2,
+    "med_modal_raw": 0.6041666666666666,
+    "med_modal_grp": 0.6041666666666666,
+    "med_supp_raw": 1.9168053244592347,
+    "med_supp_grp": 1.9168053244592347,
+    "n_det_raw": 0,
+    "n_det_grp": 0,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "1"
+    ],
+    "modal_grp": [
+      "snake_case",
+      "snake_case",
+      "snake_case",
+      "snake_case",
+      "snake_case",
+      "snake_case",
+      "camel_case",
+      "snake_case",
+      "camel_case"
+    ]
+  },
+  "code_outorder_003": {
+    "K_group": 4,
+    "med_modal_raw": 1.0,
+    "med_modal_grp": 1.0,
+    "med_supp_raw": 1.0,
+    "med_supp_grp": 1.0,
+    "n_det_raw": 8,
+    "n_det_grp": 8,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "lexicographic",
+      "lexicographic",
+      "lexicographic",
+      "lexicographic",
+      "lexicographic",
+      "lexicographic",
+      "lexicographic",
+      "lexicographic",
+      "lexicographic"
+    ]
+  },
+  "code_return_001": {
+    "K_group": 3,
+    "med_modal_raw": 1.0,
+    "med_modal_grp": 1.0,
+    "med_supp_raw": 1.0,
+    "med_supp_grp": 1.0,
+    "n_det_raw": 6,
+    "n_det_grp": 6,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "positional_tuple",
+      "positional_tuple",
+      "positional_tuple",
+      "positional_tuple",
+      "positional_tuple",
+      "positional_tuple",
+      "positional_tuple",
+      "positional_tuple",
+      "positional_tuple"
+    ]
+  },
+  "code_sentinel_001": {
+    "K_group": 2,
+    "med_modal_raw": 1.0,
+    "med_modal_grp": 1.0,
+    "med_supp_raw": 1.0,
+    "med_supp_grp": 1.0,
+    "n_det_raw": 7,
+    "n_det_grp": 9,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "own_sentinel",
+      "own_sentinel",
+      "own_sentinel",
+      "own_sentinel",
+      "own_sentinel",
+      "own_sentinel",
+      "own_sentinel",
+      "own_sentinel",
+      "own_sentinel"
+    ]
+  },
+  "code_serial_001": {
+    "K_group": 2,
+    "med_modal_raw": 1.0,
+    "med_modal_grp": 1.0,
+    "med_supp_raw": 1.0,
+    "med_supp_grp": 1.0,
+    "n_det_raw": 8,
+    "n_det_grp": 9,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "iso_8601",
+      "iso_8601",
+      "iso_8601",
+      "iso_8601",
+      "iso_8601",
+      "iso_8601",
+      "iso_8601",
+      "iso_8601",
+      "iso_8601"
+    ]
+  },
+  "code_tie_001": {
+    "K_group": 3,
+    "med_modal_raw": 0.9583333333333334,
+    "med_modal_grp": 0.9583333333333334,
+    "med_supp_raw": 1.0867924528301884,
+    "med_supp_grp": 1.0867924528301884,
+    "n_det_raw": 4,
+    "n_det_grp": 4,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "2",
+      "2"
+    ],
+    "modal_grp": [
+      "half_even",
+      "half_even",
+      "half_even",
+      "half_even",
+      "half_even",
+      "half_even",
+      "half_even",
+      "half_up_or_away",
+      "half_up_or_away"
+    ]
+  },
+  "code_varname_002": {
+    "K_group": 4,
+    "med_modal_raw": 1.0,
+    "med_modal_grp": 1.0,
+    "med_supp_raw": 1.0,
+    "med_supp_grp": 1.0,
+    "n_det_raw": 9,
+    "n_det_grp": 9,
+    "modal_raw": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "modal_grp": [
+      "data",
+      "data",
+      "data",
+      "data",
+      "data",
+      "data",
+      "data",
+      "data",
+      "data"
+    ]
+  }
+}

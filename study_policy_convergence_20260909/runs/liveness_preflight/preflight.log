@@ -1,0 +1,21 @@
+[preflight] set=preflight  24 arrays x 2 checkpoints x n=24 = 1152 calls
+[preflight] prompt d40ea45d; slot balance verified 6x per cell
+[plan] 1152 calls, estimated $6.53, cap $8.00, 20 workers
+  200/1152  ok=200 parse_fail=0 tx_fail=0 mismatch=0 $1.83 3.1/s
+  400/1152  ok=400 parse_fail=0 tx_fail=0 mismatch=0 $3.52 3.4/s
+  600/1152  ok=600 parse_fail=0 tx_fail=0 mismatch=0 $4.95 3.7/s
+  800/1152  ok=800 parse_fail=0 tx_fail=0 mismatch=0 $6.37 3.9/s
+  1000/1152  ok=1000 parse_fail=0 tx_fail=0 mismatch=0 $7.64 4.1/s
+  1152/1152  ok=1076 parse_fail=0 tx_fail=0 mismatch=0 $8.15 4.4/s
+
+[done] /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/runs/liveness_preflight/visual_preflight_20260909_202010.csv
+  ok 1076  parse_fail 0  tx_fail 0  mismatch 0  $8.1516 in 260s
+  *** BUDGET CAP REACHED - INCOMPLETE ***
+[preflight] set=preflight  24 arrays x 2 checkpoints x n=24 = 1152 calls
+[preflight] prompt d40ea45d; slot balance verified 6x per cell
+[resume] skipping 1076 trials already collected
+[plan] 76 calls, estimated $0.43, cap $3.00, 20 workers
+  76/76  ok=76 parse_fail=0 tx_fail=0 mismatch=0 $0.58 3.8/s
+
+[done] /Users/calypsocalcott/Desktop/Coordination/Self_Coordination/study_policy_convergence_20260909/runs/liveness_preflight/visual_preflight_20260909_202441.csv
+  ok 76  parse_fail 0  tx_fail 0  mismatch 0  $0.5769 in 20s
