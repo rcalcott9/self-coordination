@@ -13,3 +13,7 @@ venv/
 /policy_specific_self_coordination_20260812_1401/bayesian_pair_model/ppc_b2.npy
 /policy_specific_self_coordination_20260812_1401/bayesian_policy_self_knowledge/ppc_m3.npy
 /selfinterp_replication_20260904/reference_plunkett
+# Superseded drafts and never-run proposals kept local only
+/COMPLETION_LEDGER_20261009_v1_SUPERSEDED.md
+/COMPLETION_LEDGER_20261009_v2_SUPERSEDED.md
+/study3a_policy_knowledge_PROPOSED_20261016/
